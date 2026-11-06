@@ -1,0 +1,1505 @@
+[
+  {
+    "module_id": "f05afc93-fcdb-4797-b1ed-218dc87fab24",
+    "source_unit_id": "699e1633-e99c-42fb-b5fd-d3b4bbf6661b",
+    "source": "dba",
+    "subject": "social_studies",
+    "grade_range": "1",
+    "difficulty": 1,
+    "title": "¿Cómo analizar una situación social?",
+    "learning_objective": "Se ubica en el espacio que habita teniendo como referencia su propio cuerpo y los puntos cardinales.",
+    "context": "niña ubicándose gracias a los puntos cardinales.",
+    "core_concept": "sociedad",
+    "concepts": [
+      "sociedad",
+      "territorio"
+    ],
+    "cognitive_type": "representational_thinking",
+    "skills": [
+      "comprender",
+      "comprender",
+      "comprender",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué sabes sobre sociedad?",
+      "expected_signals": [
+        "sociedad",
+        "territorio"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "344f13dd-4d3a-42cf-99a7-cbffbda1d354",
+        "evidence_source": "Relaciona su izquierda-derecha, adelante-atrás con los puntos cardinales, al ubicar, en representaciones gráficas de la escuela, aquellos lugares como rectoría, cafetería, patio de recreo, coordinación y sala de profesores, entre otros.",
+        "type": "matching",
+        "prompt": "Trabajemos esta evidencia: Relaciona su izquierda-derecha, adelante-atrás con los puntos cardinales, al ubicar, en representaciones gráficas de la escuela, aquellos lugares como rectoría, cafetería, patio de recreo, coordinación y sala de profesores, entre otros.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "representacion"
+        ],
+        "difficulty": 1,
+        "order": 1
+      },
+      {
+        "id": "28953267-6858-43a2-aa47-6764660f50bc",
+        "evidence_source": "Dibuja las instituciones sociales de carácter deportivo, educativo, religioso y político, existentes en su barrio, vereda o lugar donde vive.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Dibuja las instituciones sociales de carácter deportivo, educativo, religioso y político, existentes en su barrio, vereda o lugar donde vive.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 2
+      },
+      {
+        "id": "0a92be95-bb28-49f0-bd6c-9ed57c2b210d",
+        "evidence_source": "Localiza en representaciones gráficas o dibujos de su barrio, vereda o lugar donde vive, algunos referentes (tienda, iglesia, parque, escuela) teniendo en cuenta los puntos cardinales y conoce los acontecimientos que se dan en estos lugares.",
+        "type": "representation",
+        "prompt": "Representa la idea de sociedad usando un esquema, tabla o dibujo mental.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "representacion"
+        ],
+        "difficulty": 1,
+        "order": 3
+      },
+      {
+        "id": "bb8ae80a-3e38-4fd8-9a5c-185a4808fa90",
+        "evidence_source": "Describe verbalmente el recorrido que realiza entre su casa y la institución educativa donde estudia, señalando aquellos lugares que considera representativos o muy conocidos en su comunidad y el porqué de su importancia.",
+        "type": "representation",
+        "prompt": "Representa la idea de sociedad usando un esquema, tabla o dibujo mental.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "representacion"
+        ],
+        "difficulty": 1,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre sociedad?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender sociedad?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 1
+      }
+    }
+  },
+  {
+    "module_id": "4cb7af4e-d5b7-4150-8e71-a7829535ed89",
+    "source_unit_id": "2e959ebc-0e9f-47e8-b598-676606cb25dd",
+    "source": "dba",
+    "subject": "social_studies",
+    "grade_range": "1",
+    "difficulty": 1,
+    "title": "¿Cómo analizar una situación social?",
+    "learning_objective": "Describe las características del paisaje geográfico del barrio, vereda o lugar donde vive, sus componentes y formas.",
+    "context": "paisaje con distintas formas de relieve como montañas, lagos y llanuras.",
+    "core_concept": "historia",
+    "concepts": [
+      "historia",
+      "potenciacion",
+      "lectura_inferencial",
+      "reading",
+      "sociedad",
+      "estadistica"
+    ],
+    "cognitive_type": "representational_thinking",
+    "skills": [
+      "comprender",
+      "comprender",
+      "identificar",
+      "representar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué sabes sobre historia?",
+      "expected_signals": [
+        "historia",
+        "potenciacion",
+        "lectura_inferencial",
+        "reading",
+        "sociedad",
+        "estadistica"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "fd3f2560-fd4f-42f7-a499-378546549128",
+        "evidence_source": "Reconoce las diferentes formas de relieve en su entorno geográfico o lugar donde vive, por ejemplo: costas, islas, montañas, valles, llanuras y/o mesetas.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Reconoce las diferentes formas de relieve en su entorno geográfico o lugar donde vive, por ejemplo: costas, islas, montañas, valles, llanuras y/o mesetas.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de historia.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 1
+      },
+      {
+        "id": "be48509f-fb26-4b7b-b998-8c0fb14b11bc",
+        "evidence_source": "Diferencia los estados del tiempo atmosférico de acuerdo con las sensaciones de calor y frío manifiestas en su cuerpo y con base en los momentos de lluvia y sequía que se dan en el lugar donde vive.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Diferencia los estados del tiempo atmosférico de acuerdo con las sensaciones de calor y frío manifiestas en su cuerpo y con base en los momentos de lluvia y sequía que se dan en el lugar donde vive.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de historia.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 2
+      },
+      {
+        "id": "b4eef6a0-ac2b-476c-bcf1-a269e52de81b",
+        "evidence_source": "Identifica aquellas obras de infraestructura que se han realizado en su comunidad y expresa las ventajas que estas traen.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con historia y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de historia.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 3
+      },
+      {
+        "id": "020dd3fa-11cd-4807-853f-9b9154383453",
+        "evidence_source": "Representa de diferentes maneras, aquellos problemas ambientales que afectan el entorno de la comunidad en el contexto del barrio, vereda o lugar donde vive.",
+        "type": "representation",
+        "prompt": "Representa la idea de historia usando un esquema, tabla o dibujo mental.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de historia.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "representacion"
+        ],
+        "difficulty": 1,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "creer que la interpretación de un texto es única",
+        "pattern": "creer que la interpretación de un texto es única",
+        "feedback": "Revisemos esta idea: creer que la interpretación de un texto es única",
+        "visual": "idea_evidence_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre historia?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender historia?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "idea_evidence_map",
+        "trigger": "creer que la interpretación de un texto es única",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 2
+      }
+    }
+  },
+  {
+    "module_id": "3eb49e73-2a56-4efd-a064-e2fc13d8432b",
+    "source_unit_id": "28fd02b9-5319-4dff-baad-244306ab32e2",
+    "source": "dba",
+    "subject": "social_studies",
+    "grade_range": "1",
+    "difficulty": 1,
+    "title": "¿Cómo analizar una situación social?",
+    "learning_objective": "Describe el tiempo personal y se sitúa en secuencias de eventos propios y sociales.",
+    "context": "aprendizaje los meses del año y la hora.",
+    "core_concept": "historia",
+    "concepts": [
+      "estadistica",
+      "lectura_inferencial",
+      "historia",
+      "probabilidad"
+    ],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [
+      "comprender",
+      "comprender",
+      "identificar",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué sabes sobre historia?",
+      "expected_signals": [
+        "estadistica",
+        "lectura_inferencial",
+        "historia",
+        "probabilidad"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "6a1b04df-4e5a-4eef-a1b2-0b7fb7bbd7a5",
+        "evidence_source": "Nombra ordenadamente los días de la semana y los meses del año.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Nombra ordenadamente los días de la semana y los meses del año.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de historia.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 1
+      },
+      {
+        "id": "10a02670-bd1a-4357-834e-f63699cecc04",
+        "evidence_source": "Diferencia el ayer, el hoy y el mañana desde las actividades cotidianas que realiza y la duración de estas en horas y minutos mediante la lectura del reloj.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Diferencia el ayer, el hoy y el mañana desde las actividades cotidianas que realiza y la duración de estas en horas y minutos mediante la lectura del reloj.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de historia.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 2
+      },
+      {
+        "id": "afe9ccb9-1a23-4a5a-a8f9-ad1ff67bf806",
+        "evidence_source": "Identifica los miembros de su familia y verbaliza quiénes nacieron antes o después de él.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con historia y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de historia.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 3
+      },
+      {
+        "id": "7cb57118-46f5-4485-8d60-0d64f447d9b2",
+        "evidence_source": "Recuerda las fechas de los cumpleaños de sus padres, hermanos, amigos y compañeros de clase más cercanos, diferenciando las edades entre ellos.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Recuerda las fechas de los cumpleaños de sus padres, hermanos, amigos y compañeros de clase más cercanos, diferenciando las edades entre ellos.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de historia.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "confundir promedio con valor representativo en todos los casos",
+        "pattern": "confundir promedio con valor representativo en todos los casos",
+        "feedback": "Revisemos esta idea: confundir promedio con valor representativo en todos los casos",
+        "visual": "concept_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre historia?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender historia?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "concept_map",
+        "trigger": "confundir promedio con valor representativo en todos los casos",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 3
+      }
+    }
+  },
+  {
+    "module_id": "f92bc380-d712-4e02-998f-e1ec6794fd87",
+    "source_unit_id": "3a3a41d8-3ead-4fb8-8c7b-3b488904a561",
+    "source": "dba",
+    "subject": "social_studies",
+    "grade_range": "1",
+    "difficulty": 1,
+    "title": "¿Cómo analizar una situación social?",
+    "learning_objective": "Reconoce la noción de cambio a partir de las transformaciones que ha vivido en los últimos años a nivel personal, de su familia y del entorno barrial, veredal o del lugar donde vive.",
+    "context": "desarrollo de una persona al trascurrir los años.",
+    "core_concept": "sociedad",
+    "concepts": [
+      "sociedad"
+    ],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [
+      "comprender",
+      "comprender",
+      "comprender",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué sabes sobre sociedad?",
+      "expected_signals": [
+        "sociedad"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "6aa424ee-bf72-43e4-b175-a56b5f7e6684",
+        "evidence_source": "Relata los principales acontecimientos sociales ocurridos en el aula de clase, por ejemplo, el inicio de la vida escolar, la celebración del día de los niños, las izadas de bandera o la celebración de cumpleaños, entre otros, diferenciando el antes y el ahora.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Relata los principales acontecimientos sociales ocurridos en el aula de clase, por ejemplo, el inicio de la vida escolar, la celebración del día de los niños, las izadas de bandera o la celebración de cumpleaños, entre otros, diferenciando el antes y el ahora.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 1
+      },
+      {
+        "id": "52838cfc-8236-48c3-a384-b91a9be96d43",
+        "evidence_source": "Señala las transformaciones recientes observadas en el entorno físico de su comunidad y el para qué se realizaron.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Señala las transformaciones recientes observadas en el entorno físico de su comunidad y el para qué se realizaron.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 2
+      },
+      {
+        "id": "018b7fa2-9f47-4c82-9bd2-05f0835daa6b",
+        "evidence_source": "Describe aquellas organizaciones sociales a las que pertenece en su comunidad: familia, colegio y vecindario.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Describe aquellas organizaciones sociales a las que pertenece en su comunidad: familia, colegio y vecindario.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 3
+      },
+      {
+        "id": "4523cce9-36b8-428c-889e-8aa7c30442fb",
+        "evidence_source": "Plantea preguntas acerca de sucesos destacados que han tenido lugar en su comunidad.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Plantea preguntas acerca de sucesos destacados que han tenido lugar en su comunidad.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre sociedad?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender sociedad?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 4
+      }
+    }
+  },
+  {
+    "module_id": "3ae094f1-9d91-4f69-92c6-e6087d5ae0ee",
+    "source_unit_id": "e4112b5a-dcca-4f81-aceb-b669a50f0aa1",
+    "source": "dba",
+    "subject": "social_studies",
+    "grade_range": "1",
+    "difficulty": 1,
+    "title": "¿Cómo analizar una situación social?",
+    "learning_objective": "Reconoce su individualidad y su pertenencia a los diferentes grupos sociales.",
+    "context": "['A partir de la conversación con adultos mayores o líderes de la comunidad, reconocidos gracias a sus conocimientos, habilidades o sabiduría ancestral (ya sea en el campo de la música, las artes, las letras, la gastronomía, el deporte...), diferencia las costumbres y traduciones del ayer y del hoy.']",
+    "core_concept": "sociedad",
+    "concepts": [
+      "sociedad",
+      "estadistica"
+    ],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [
+      "comprender",
+      "comparar",
+      "comprender",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué sabes sobre sociedad?",
+      "expected_signals": [
+        "sociedad",
+        "estadistica"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "47242bb8-8c3f-4a52-ba2f-844ee889c7f4",
+        "evidence_source": "Expresa algunas características físicas y emocionales que lo hacen un ser único.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Expresa algunas características físicas y emocionales que lo hacen un ser único.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 1
+      },
+      {
+        "id": "99ef201a-c5af-42a5-a75a-7bea52603570",
+        "evidence_source": "Compara similitudes y diferencias entre sus gustos, costumbres y formas de comunicarse, con los demás integrantes del salón de clase.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Compara similitudes y diferencias entre sus gustos, costumbres y formas de comunicarse, con los demás integrantes del salón de clase.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 2
+      },
+      {
+        "id": "ede9771a-c0d1-4632-8f22-7afff9aad104",
+        "evidence_source": "Reconoce de sí mismo, de sus compañeros y de sus familiares aquellas cualidades que le ayudan a estar mejor entre los demás.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Reconoce de sí mismo, de sus compañeros y de sus familiares aquellas cualidades que le ayudan a estar mejor entre los demás.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 3
+      },
+      {
+        "id": "d6266456-587d-456e-8b83-d56b2edc9e37",
+        "evidence_source": "Reconoce las costumbres y tradiciones culturales de su comunidad mediante los relatos de los abuelos y personas mayores del barrio, veredao lugar donde vive.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Reconoce las costumbres y tradiciones culturales de su comunidad mediante los relatos de los abuelos y personas mayores del barrio, veredao lugar donde vive.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "confundir promedio con valor representativo en todos los casos",
+        "pattern": "confundir promedio con valor representativo en todos los casos",
+        "feedback": "Revisemos esta idea: confundir promedio con valor representativo en todos los casos",
+        "visual": "concept_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre sociedad?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender sociedad?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "concept_map",
+        "trigger": "confundir promedio con valor representativo en todos los casos",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 5
+      }
+    }
+  },
+  {
+    "module_id": "808bd33f-4a99-4691-a9bc-bb401e1f37d3",
+    "source_unit_id": "8d5b23c9-869e-4988-b175-d3f2462d7085",
+    "source": "dba",
+    "subject": "social_studies",
+    "grade_range": "1",
+    "difficulty": 1,
+    "title": "¿Cómo analizar una situación social?",
+    "learning_objective": "Comprende cambios en las formas de habitar de los grupos humanos, desde el reconocimiento de los tipos de vivienda que se encuentran en el contexto de su barrio, vereda o lugar donde vive.",
+    "context": "diferenciación entre la forma de habitar entre diversas culturas.",
+    "core_concept": "sociedad",
+    "concepts": [
+      "reading",
+      "sociedad",
+      "lectura_inferencial",
+      "territorio"
+    ],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [
+      "comprender",
+      "comprender",
+      "identificar",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué sabes sobre sociedad?",
+      "expected_signals": [
+        "reading",
+        "sociedad",
+        "lectura_inferencial",
+        "territorio"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "8cfd546b-535d-4b5d-9c50-0175573e7153",
+        "evidence_source": "Señala los lugares de procedencia de su familia y comprende cómo llegaron a su vivienda actual.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Señala los lugares de procedencia de su familia y comprende cómo llegaron a su vivienda actual.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 1
+      },
+      {
+        "id": "8a5185e8-8eca-443a-b5ce-1a80c8e6e387",
+        "evidence_source": "Nombra los materiales utilizados en la construcción de la casa donde vive y la distribución de las habitaciones que hay en ella.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Nombra los materiales utilizados en la construcción de la casa donde vive y la distribución de las habitaciones que hay en ella.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 2
+      },
+      {
+        "id": "342dc860-99e7-4dad-84b7-2202a93cefab",
+        "evidence_source": "Identifica las viviendas que se destacan en su comunidad, que son patrimonio hoy y que deben conservarse.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con sociedad y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 3
+      },
+      {
+        "id": "43c888e9-9f79-4df9-91ae-4e4ad56308b4",
+        "evidence_source": "Reconoce el valor de la vivienda como el espacio donde tiene lugar su hogar y donde recibe seguridad y cuidado de su familia.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Reconoce el valor de la vivienda como el espacio donde tiene lugar su hogar y donde recibe seguridad y cuidado de su familia.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "creer que la interpretación de un texto es única",
+        "pattern": "creer que la interpretación de un texto es única",
+        "feedback": "Revisemos esta idea: creer que la interpretación de un texto es única",
+        "visual": "idea_evidence_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre sociedad?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender sociedad?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "idea_evidence_map",
+        "trigger": "creer que la interpretación de un texto es única",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 6
+      }
+    }
+  },
+  {
+    "module_id": "64e79bdf-6755-4d8d-bf16-a5acc1baf284",
+    "source_unit_id": "54f638fe-e01c-46b7-b29e-c8e32c84063c",
+    "source": "dba",
+    "subject": "social_studies",
+    "grade_range": "1",
+    "difficulty": 1,
+    "title": "¿Cómo analizar una situación social?",
+    "learning_objective": "Participa en la construcción de acuerdos básicos sobre normas para el logro de metas comunes en su contexto cercano (compañeros y familia) y se compromete con su cumplimiento.",
+    "context": "Define y entiende en equipo las reglas de un juego.",
+    "core_concept": "territorio",
+    "concepts": [
+      "reading",
+      "lectura_inferencial",
+      "territorio"
+    ],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [
+      "comprender",
+      "comprender",
+      "comprender",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué sabes sobre territorio?",
+      "expected_signals": [
+        "reading",
+        "lectura_inferencial",
+        "territorio"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "8c56543a-b722-49fb-80e5-a450f2f53efc",
+        "evidence_source": "Presenta sus ideas, intereses y sentimientos frente a las normas establecidas en la familia, en el salón de clase y otros espacios.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Presenta sus ideas, intereses y sentimientos frente a las normas establecidas en la familia, en el salón de clase y otros espacios.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de territorio.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 1
+      },
+      {
+        "id": "c8c7a539-c6ff-41fb-8ab3-52f4bd0415f4",
+        "evidence_source": "Expresa sus opiniones y colabora activamente en la construcción de los acuerdos grupales para la convivencia.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Expresa sus opiniones y colabora activamente en la construcción de los acuerdos grupales para la convivencia.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de territorio.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 2
+      },
+      {
+        "id": "f7dc09f5-6dff-4bfc-92e6-dc1407ac351e",
+        "evidence_source": "Plantea alternativas de solución frente a situaciones conflictivas en su familia y salón de clase.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Plantea alternativas de solución frente a situaciones conflictivas en su familia y salón de clase.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de territorio.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 3
+      },
+      {
+        "id": "f8c51396-dcbe-4469-837a-0818363ca1e9",
+        "evidence_source": "Reconoce la importancia del trabajo en equipo para el logro de las metas comunes.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Reconoce la importancia del trabajo en equipo para el logro de las metas comunes.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de territorio.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "creer que la interpretación de un texto es única",
+        "pattern": "creer que la interpretación de un texto es única",
+        "feedback": "Revisemos esta idea: creer que la interpretación de un texto es única",
+        "visual": "idea_evidence_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre territorio?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender territorio?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "idea_evidence_map",
+        "trigger": "creer que la interpretación de un texto es única",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 7
+      }
+    }
+  },
+  {
+    "module_id": "a73fbed7-c94f-4aef-a1fd-82c772ffa1c3",
+    "source_unit_id": "2ee563bc-d2a8-4cb4-a74b-5913cdff767f",
+    "source": "dba",
+    "subject": "social_studies",
+    "grade_range": "1",
+    "difficulty": 1,
+    "title": "¿Cómo analizar una situación social?",
+    "learning_objective": "Establece relaciones de convivencia desde el reconocimiento y el respeto de sí mismo y de los demás.",
+    "context": "Grupo de niños jugando en un parque como forma de convivencia común e individual.",
+    "core_concept": "estudios_sociales",
+    "concepts": [],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "comprender",
+      "comprender",
+      "identificar",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué sabes sobre estudios_sociales?",
+      "expected_signals": [],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "df6e77c1-197f-4994-8eb4-c2b20e928d2c",
+        "evidence_source": "Expresa el valor de sí mismo y de cada uno de los integrantes de la clase, explicando aquello que los diferencia y los identifica: el género, la procedencia, la edad, las ideas y creencias, entre otras.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con estudios_sociales y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de estudios_sociales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 1,
+        "order": 1
+      },
+      {
+        "id": "7ebf3490-dbc1-4aff-af0c-85b9a4a742c8",
+        "evidence_source": "Expresa aquello que lo hace igual a los demás en la institución, desde el conocimiento y el respeto a los deberes y derechos establecidos en el Manual de Convivencia.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Expresa aquello que lo hace igual a los demás en la institución, desde el conocimiento y el respeto a los deberes y derechos establecidos en el Manual de Convivencia.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de estudios_sociales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 2
+      },
+      {
+        "id": "99018d99-c01d-4f5d-9fd4-3cf25dd47e08",
+        "evidence_source": "Identifica situaciones de maltrato que se dan en su entorno consigo mismo y/o con otras personas y sabe a quiénes acudir para pedir ayuda y protección.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con estudios_sociales y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de estudios_sociales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 3
+      },
+      {
+        "id": "ef2e9b4e-a263-4795-9a6b-4d526009e35f",
+        "evidence_source": "Participa de acciones que fomentan la sana convivencia en el entorno familiar y escolar.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Participa de acciones que fomentan la sana convivencia en el entorno familiar y escolar.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de estudios_sociales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre estudios_sociales?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender estudios_sociales?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 8
+      }
+    }
+  }
+]

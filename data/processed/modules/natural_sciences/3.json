@@ -1,0 +1,1057 @@
+[
+  {
+    "module_id": "af75e8b2-2783-454d-8a9e-a69b5aa8d1a8",
+    "source_unit_id": "c4a9492e-aaac-4a36-8693-0aa3cb1f37f9",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "3",
+    "difficulty": 1,
+    "title": "¿Cómo funciona materia?",
+    "learning_objective": "Comprende la forma en que se propaga la luz a través de diferentes materiales (opacos, transparentes como el aire, translúcidos como el papel y reflectivos como el espejo).",
+    "context": "niño experimentando con distintos materiales para entender la propagación de la luz a través de los mismos.",
+    "core_concept": "materia",
+    "concepts": [
+      "area_perimetro",
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [
+      "comparar",
+      "comprender",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con materia?",
+      "expected_signals": [
+        "area_perimetro",
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "ee2597e2-ffad-4a63-acd1-9d0d2ff723d0",
+        "evidence_source": "Compara, en un experimento, distintos materiales de acuerdo con la cantidad de luz que dejan pasar (opacos, transparentes, translúcidos y reflectivos) y selecciona el tipo de material que elegiría para un cierto fin (por ejemplo, un frasco que no permita ver su contenido).",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Compara, en un experimento, distintos materiales de acuerdo con la cantidad de luz que dejan pasar (opacos, transparentes, translúcidos y reflectivos) y selecciona el tipo de material que elegiría para un cierto fin (por ejemplo, un frasco que no permita ver su contenido).",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de materia.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 1
+      },
+      {
+        "id": "a0728b02-1474-4b49-a557-2c97e80e59be",
+        "evidence_source": "Selecciona la fuente apropiada para iluminar completamente una determinada superficie teniendo en cuenta que la luz se propaga en todas las direcciones y viaja en línea recta.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Selecciona la fuente apropiada para iluminar completamente una determinada superficie teniendo en cuenta que la luz se propaga en todas las direcciones y viaja en línea recta.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de materia.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 2
+      },
+      {
+        "id": "c66f81f0-2f6e-4a21-83d8-a00c7b91b268",
+        "evidence_source": "Describe las precauciones que debe tener presentes frente a la exposición de los ojos a rayos de luz directa (rayos láser, luz del sol) que pueden causarle daño.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Describe las precauciones que debe tener presentes frente a la exposición de los ojos a rayos de luz directa (rayos láser, luz del sol) que pueden causarle daño.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de materia.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 3
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre materia?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender materia?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 1
+      }
+    }
+  },
+  {
+    "module_id": "85ad55d7-db7f-46f5-8581-e6bac9d6dafb",
+    "source_unit_id": "60ab22fa-2663-444d-ad27-50104c2cd43e",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "3",
+    "difficulty": 1,
+    "title": "¿Cómo funciona ciencias_naturales?",
+    "learning_objective": "Comprende la forma en que se produce la sombra y la relación de su tamaño con las distancias entre la fuente de luz, el objeto interpuesto y el lugar donde se produce la sombra.",
+    "context": "niños observando el comportamiento de la sombra de algunos objetos ante presencia de una fuente de luz.",
+    "core_concept": "ciencias_naturales",
+    "concepts": [
+      "estadistica",
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "comprender",
+      "comprender",
+      "explicar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con ciencias_naturales?",
+      "expected_signals": [
+        "estadistica",
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "912f1455-d557-4da0-a65f-811707f879fc",
+        "evidence_source": "Predice dónde se producirá la sombra de acuerdo con la posición de la fuente de luz y del objeto.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Predice dónde se producirá la sombra de acuerdo con la posición de la fuente de luz y del objeto.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 1
+      },
+      {
+        "id": "ba0c3cbf-2687-4c30-bbf0-9f92220f4af1",
+        "evidence_source": "Desplaza la fuente de luz y el objeto para aumentar o reducir el tamaño de la sombra que se produce según las necesidades.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Desplaza la fuente de luz y el objeto para aumentar o reducir el tamaño de la sombra que se produce según las necesidades.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 2
+      },
+      {
+        "id": "ec38339d-c6fb-46a0-b72e-e683f9bc1afb",
+        "evidence_source": "Explica los datos obtenidos mediante observaciones y mediciones, que registra en tablas y otros formatos, de lo que sucede con el tamaño de la sombra de un objeto variando la distancia a la fuente de luz.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica los datos obtenidos mediante observaciones y mediciones, que registra en tablas y otros formatos, de lo que sucede con el tamaño de la sombra de un objeto variando la distancia a la fuente de luz.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 1,
+        "order": 3
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "confundir promedio con valor representativo en todos los casos",
+        "pattern": "confundir promedio con valor representativo en todos los casos",
+        "feedback": "Revisemos esta idea: confundir promedio con valor representativo en todos los casos",
+        "visual": "concept_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre ciencias_naturales?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender ciencias_naturales?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "concept_map",
+        "trigger": "confundir promedio con valor representativo en todos los casos",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 2
+      }
+    }
+  },
+  {
+    "module_id": "b5f91b75-9579-4c5b-b2dc-620abdaab480",
+    "source_unit_id": "632d7dc7-c948-43bb-bd03-bdb1037e166b",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "3",
+    "difficulty": 1,
+    "title": "¿Cómo funciona ciencias_naturales?",
+    "learning_objective": "Comprende la naturaleza (fenómeno de la vibración) y las características del sonido (altura, timbre, intensidad) y que este se propaga en distintos medios (sólidos, líquidos, gaseosos).",
+    "context": "estudiantes en un teatro tocando algunos instrumentos musicales.",
+    "core_concept": "ciencias_naturales",
+    "concepts": [
+      "lectura_inferencial",
+      "estadistica",
+      "volumen"
+    ],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [
+      "comprender",
+      "comprender",
+      "comparar",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con ciencias_naturales?",
+      "expected_signals": [
+        "lectura_inferencial",
+        "estadistica",
+        "volumen"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "ad7e9078-e704-4f88-a15e-6ecf969245e9",
+        "evidence_source": "Demuestra que el sonido es una vibración mediante el uso de fuentes para producirlo: cuerdas (guitarra), parches (tambor) y tubos de aire (flauta), identificando en cada una el elemento que vibra.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con ciencias_naturales y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 1
+      },
+      {
+        "id": "d22378b1-9a77-4959-9a2a-2ee603b01890",
+        "evidence_source": "Describe y compara sonidos según su altura (grave o agudo) y su intensidad (fuerte o débil).",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Describe y compara sonidos según su altura (grave o agudo) y su intensidad (fuerte o débil).",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 2
+      },
+      {
+        "id": "02a94c73-4f8a-480c-8fbc-a65fbe14b0e8",
+        "evidence_source": "Compara y describe cómo se atenúa (reduce su intensidad) el sonido al pasar por diferentes medios (agua, aire, sólidos) y cómo influye la distancia en este proceso.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Compara y describe cómo se atenúa (reduce su intensidad) el sonido al pasar por diferentes medios (agua, aire, sólidos) y cómo influye la distancia en este proceso.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 3
+      },
+      {
+        "id": "3f556d96-0015-467d-85c3-9274d96909bb",
+        "evidence_source": "Clasifica materiales de acuerdo con la manera como atenúan un sonido.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Clasifica materiales de acuerdo con la manera como atenúan un sonido.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "confundir promedio con valor representativo en todos los casos",
+        "pattern": "confundir promedio con valor representativo en todos los casos",
+        "feedback": "Revisemos esta idea: confundir promedio con valor representativo en todos los casos",
+        "visual": "concept_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre ciencias_naturales?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender ciencias_naturales?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "concept_map",
+        "trigger": "confundir promedio con valor representativo en todos los casos",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 3
+      }
+    }
+  },
+  {
+    "module_id": "29d0784b-ad64-460a-9e91-e5247114d9f3",
+    "source_unit_id": "3027e7bf-f89c-4716-8660-7641752dfb7a",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "3",
+    "difficulty": 1,
+    "title": "¿Cómo funciona materia?",
+    "learning_objective": "Comprende la influencia de la variación de la temperatura en los cambios de estado de la materia, considerando como ejemplo el caso del agua.",
+    "context": "alumno experimentando con agua acerca de los diferentes estados de la materia.",
+    "core_concept": "materia",
+    "concepts": [
+      "proporcionalidad",
+      "lectura_inferencial",
+      "volumen"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "interpretar",
+      "explicar",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con materia?",
+      "expected_signals": [
+        "proporcionalidad",
+        "lectura_inferencial",
+        "volumen"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "5357c1f6-aff6-4c19-bc54-026faea1eb61",
+        "evidence_source": "Interpreta los resultados de experimentos en los que se analizan los cambios de estado del agua al predecir lo qué ocurrirá con el estado de una sustancia dada una variación de la temperatura.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Interpreta los resultados de experimentos en los que se analizan los cambios de estado del agua al predecir lo qué ocurrirá con el estado de una sustancia dada una variación de la temperatura.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de materia.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 1
+      },
+      {
+        "id": "74ad2652-410e-40a7-b1d1-afc349816b2d",
+        "evidence_source": "Explica fenómenos cotidianos en los que se pone de manifiesto el cambio de estado del agua a partir de las variaciones de temperatura (la evaporación del agua en el paso de líquido a gas y los vidrios empañados en el paso de gas a líquido, entre otros).",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica fenómenos cotidianos en los que se pone de manifiesto el cambio de estado del agua a partir de las variaciones de temperatura (la evaporación del agua en el paso de líquido a gas y los vidrios empañados en el paso de gas a líquido, entre otros).",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de materia.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 1,
+        "order": 2
+      },
+      {
+        "id": "833c758d-feae-487d-bb46-809ef1d168cd",
+        "evidence_source": "Utiliza instrumentos convencionales (balanza, probeta, termómetro) para hacer mediciones de masa, volumen y temperatura del agua que le permitan diseñar e interpretar experiencias sobre los cambios de estado del agua en función de las variaciones de temperatura.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Utiliza instrumentos convencionales (balanza, probeta, termómetro) para hacer mediciones de masa, volumen y temperatura del agua que le permitan diseñar e interpretar experiencias sobre los cambios de estado del agua en función de las variaciones de temperatura.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de materia.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 3
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre materia?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender materia?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 4
+      }
+    }
+  },
+  {
+    "module_id": "e7dc59b7-aa98-4245-af7d-974706c98d84",
+    "source_unit_id": "3f362fa1-30b8-4653-8f69-9ca0da80df8d",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "3",
+    "difficulty": 1,
+    "title": "¿Cómo funciona ecosistema?",
+    "learning_objective": "Explica la influencia de los factores abióticos (luz, temperatura, suelo y aire) en el desarrollo de los factores bióticos (fauna y flora) de un ecosistema.",
+    "context": "['Reconoce y establece las relaciones correspondientes entre los factores bióticos y abióticos como en la imagen o en el entorno cercano y predice qué puede ocurrir si se altera alguno de ellos.'] entorno rural con un lago, vegetación y algunos animales bovinos.",
+    "core_concept": "ecosistema",
+    "concepts": [
+      "ecosistema",
+      "lectura_inferencial",
+      "territorio"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "comprender",
+      "interpretar",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con ecosistema?",
+      "expected_signals": [
+        "ecosistema",
+        "lectura_inferencial",
+        "territorio"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "8651152b-de4f-4d5c-8b76-f081ebafe1f3",
+        "evidence_source": "Diferencia los factores bióticos (plantas y animales) de los abióticos (luz, agua, temperatura, suelo y aire) de un ecosistema propio de su región.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Diferencia los factores bióticos (plantas y animales) de los abióticos (luz, agua, temperatura, suelo y aire) de un ecosistema propio de su región.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ecosistema.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 1
+      },
+      {
+        "id": "3b75b6d8-ba9c-4208-868d-b4bc905d5c9e",
+        "evidence_source": "Interpreta el ecosistema de su región describiendo relaciones entre factores bióticos (plantas y animales) y abióticos (luz, agua, temperatura, suelo y aire).",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Interpreta el ecosistema de su región describiendo relaciones entre factores bióticos (plantas y animales) y abióticos (luz, agua, temperatura, suelo y aire).",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ecosistema.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 2
+      },
+      {
+        "id": "13c11448-ede5-4324-acc8-6c1c2e583f2e",
+        "evidence_source": "Predice los efectos que ocurren en los organismos al alterarse un factor abiótico en un ecosistema",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Predice los efectos que ocurren en los organismos al alterarse un factor abiótico en un ecosistema",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ecosistema.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 3
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "pensar que los ecosistemas son estáticos",
+        "pattern": "pensar que los ecosistemas son estáticos",
+        "feedback": "Revisemos esta idea: pensar que los ecosistemas son estáticos",
+        "visual": "concept_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre ecosistema?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender ecosistema?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "concept_map",
+        "trigger": "pensar que los ecosistemas son estáticos",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 5
+      }
+    }
+  },
+  {
+    "module_id": "ccce6985-401f-4a9e-8724-4122ca6e200f",
+    "source_unit_id": "5d3d65ca-a4ca-4d55-9ed9-22b5bcca8e4e",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "3",
+    "difficulty": 1,
+    "title": "¿Cómo funciona ecosistema?",
+    "learning_objective": "Comprende las relaciones de los seres vivos con otros organismos de su entorno (intra e interespecíficas) y las explica como esenciales para su supervivencia en un ambiente determinado.",
+    "context": "['Describe el tipo de relación que se presenta entre los organismos en cada una de las siguientes imágenes e identifica la importancia de estas relaciones para su supervivencia.'] tres especies de animales: peces, mosquito y perros.",
+    "core_concept": "ecosistema",
+    "concepts": [
+      "ecosistema",
+      "proporcionalidad",
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "interpretar",
+      "comprender",
+      "comprender",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con ecosistema?",
+      "expected_signals": [
+        "ecosistema",
+        "proporcionalidad",
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "31315090-3f19-42c7-9fa8-d703e45acd02",
+        "evidence_source": "Interpreta las relaciones de competencia, territorialidad, gregarismo, depredación, parasitismo, comensalismo, amensalismo y mutualismo, como esenciales para la supervivencia de los organismos en un ecosistema, dando ejemplos.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Interpreta las relaciones de competencia, territorialidad, gregarismo, depredación, parasitismo, comensalismo, amensalismo y mutualismo, como esenciales para la supervivencia de los organismos en un ecosistema, dando ejemplos.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ecosistema.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 1
+      },
+      {
+        "id": "052a175d-e541-4983-9d75-153b4cd04fd9",
+        "evidence_source": "Observa y describe características que le permiten a algunos organismos camuflarse con el entorno, para explicar cómo mejoran su posibilidad de supervivencia.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Observa y describe características que le permiten a algunos organismos camuflarse con el entorno, para explicar cómo mejoran su posibilidad de supervivencia.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ecosistema.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 1,
+        "order": 2
+      },
+      {
+        "id": "23dd74c2-e082-4af6-acc5-6993261a0889",
+        "evidence_source": "Predice qué ocurrirá con otros organismos del mismo ecosistema, dada una variación en sus condiciones ambientales o en una población de organismos.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Predice qué ocurrirá con otros organismos del mismo ecosistema, dada una variación en sus condiciones ambientales o en una población de organismos.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ecosistema.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 3
+      },
+      {
+        "id": "276ecf2f-f6ce-4705-85d1-c100f08fe400",
+        "evidence_source": "Describe y registra las relaciones intra e interespecíficas que le permiten sobrevivir como ser humano en un ecosistema.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Describe y registra las relaciones intra e interespecíficas que le permiten sobrevivir como ser humano en un ecosistema.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ecosistema.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "pensar que los ecosistemas son estáticos",
+        "pattern": "pensar que los ecosistemas son estáticos",
+        "feedback": "Revisemos esta idea: pensar que los ecosistemas son estáticos",
+        "visual": "concept_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre ecosistema?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender ecosistema?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "concept_map",
+        "trigger": "pensar que los ecosistemas son estáticos",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 6
+      }
+    }
+  }
+]

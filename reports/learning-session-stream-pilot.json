@@ -1,0 +1,736 @@
+{
+  "date": "2026-11-04T15:11:08.666Z",
+  "scope": "Synthetic generation/support only; no users or Supabase writes. Public drafts excluded from correctness claims until final validation.",
+  "activities": [
+    {
+      "subject": "mathematics",
+      "grade": 2,
+      "requested": "option",
+      "actual": "option",
+      "activity": {
+        "id": "63c4abcf-a6aa-462c-a804-9365200bba1c",
+        "step_id": "objective-mathematics",
+        "question": "En un parque, Ana vio 4 pájaros en un árbol y 3 pájaros en otro árbol. ¿Cuántos pájaros vio Ana en total?",
+        "type": "option",
+        "options": [
+          "6 pájaros",
+          "7 pájaros",
+          "8 pájaros",
+          "5 pájaros"
+        ],
+        "cognitive_dimension": "comprension",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "first_text_ms": 1071,
+      "total_ms": 8377,
+      "preview_events": 36
+    },
+    {
+      "subject": "language",
+      "grade": 3,
+      "requested": "option",
+      "actual": "option",
+      "activity": {
+        "id": "a95b4f72-4291-49c7-8dab-834f8edd267b",
+        "step_id": "objective-language",
+        "question": "Lee atentamente el siguiente cuento corto:\n\n\"Ana quería regalarle a su mamá una flor que creciera cerca de su casa. Pero cuando fue a recoger una, se dio cuenta de que todas las flores estaban muy marchitas por la sequía. Entonces decidió plantar una semilla para que creciera una flor bonita para su mamá.\"\n\n¿Por qué Ana decidió plantar una semilla?",
+        "type": "option",
+        "options": [
+          "Porque no encontró flores bonitas para regalar.",
+          "Porque le gustaba sembrar plantas.",
+          "Porque su mamá le pidió que lo hiciera.",
+          "Porque encontró flores frescas cerca de su casa."
+        ],
+        "cognitive_dimension": "comprension",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "first_text_ms": 1021,
+      "total_ms": 9644,
+      "preview_events": 81
+    },
+    {
+      "subject": "mathematics",
+      "grade": 2,
+      "requested": "text",
+      "actual": "text",
+      "activity": {
+        "id": "c8f99d63-4eef-4cd2-8f91-966682266e83",
+        "step_id": "objective-mathematics",
+        "question": "Ana tiene 5 manzanas y Juan tiene 3 manzanas más que Ana. ¿Cuántas manzanas tiene Juan? Explica cómo lo sabes.",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "razonamiento",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "first_text_ms": 804,
+      "total_ms": 6403,
+      "preview_events": 35
+    },
+    {
+      "subject": "language",
+      "grade": 3,
+      "requested": "text",
+      "actual": "text",
+      "activity": {
+        "id": "f5649e0c-f78c-449d-8d27-07b735cd83cf",
+        "step_id": "objective-language",
+        "question": "Lee el siguiente cuento corto: \"Mateo tenía mucha hambre, y al ver una cesta llena de manzanas frescas, decidió tomar una para calmar su hambre.\" ¿Por qué Mateo decidió tomar una manzana de la cesta? Explica la causa o motivo de su acción con tus propias palabras.",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "razonamiento",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "first_text_ms": 986,
+      "total_ms": 6571,
+      "preview_events": 62
+    },
+    {
+      "subject": "mathematics",
+      "grade": 2,
+      "requested": "multiple_select",
+      "actual": "multiple_select",
+      "activity": {
+        "id": "173820f1-ba8a-4753-bd15-0cc0b8e922f7",
+        "step_id": "objective-mathematics",
+        "question": "En una caja hay algunas manzanas y en otra caja algunas naranjas. Si en la caja de manzanas hay 4 manzanas y en la caja de naranjas hay 3 naranjas, ¿cuáles de estas afirmaciones son CORRECTAS? Selecciona todas las correctas.",
+        "type": "multiple_select",
+        "options": [
+          "Hay más manzanas que naranjas.",
+          "La cantidad total de frutas es 7.",
+          "Hay menos naranjas que manzanas.",
+          "Hay 8 frutas en total."
+        ],
+        "cognitive_dimension": "representacion",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "first_text_ms": 661,
+      "total_ms": 7365,
+      "preview_events": 66
+    },
+    {
+      "subject": "language",
+      "grade": 3,
+      "requested": "multiple_select",
+      "actual": "multiple_select",
+      "activity": {
+        "id": "df95ff60-7bfa-44cd-bcb7-cbd48581ec6b",
+        "step_id": "objective-language",
+        "question": "Lee el siguiente texto y selecciona las causas o motivos que explican las acciones de Sofía en la historia:\n\nSofía encontró un perrito perdido en la calle. Quiso ayudarlo porque parecía tener hambre y frío, entonces le dio comida y lo llevó a su casa para cuidarlo.",
+        "type": "multiple_select",
+        "options": [
+          "Sofía tenía mucha comida en su casa.",
+          "El perrito parecía tener hambre y frío.",
+          "Sofía quería ayudar al perrito porque estaba perdido.",
+          "Sofía no salió de su casa ese día."
+        ],
+        "cognitive_dimension": "representacion",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "first_text_ms": 536,
+      "total_ms": 6832,
+      "preview_events": 62
+    },
+    {
+      "subject": "language",
+      "grade": 3,
+      "requested": "matching",
+      "actual": "matching",
+      "activity": {
+        "id": "510b1345-2e8b-47fd-b00c-d97059a30838",
+        "step_id": "objective-language",
+        "question": "Lee este pequeño cuento y luego relaciona cada causa con su efecto en la historia: \"Marta tenía mucha hambre, por eso fue a la cocina. En la cocina había leche, pero estaba fría, entonces decidió calentarla en el microondas. Al calentarla, la leche comenzó a hacer burbujas y se derramó un poco, porque la puso mucho tiempo.\"",
+        "type": "matching",
+        "options": [],
+        "cognitive_dimension": "transferencia",
+        "source": "generated",
+        "notice": null,
+        "left_items": [
+          "Marta tenía hambre",
+          "La leche estaba fría",
+          "Calentó la leche en el microondas mucho tiempo"
+        ],
+        "right_items": [
+          "Fue a la cocina",
+          "Decidió calentarla",
+          "La leche se derramó un poco"
+        ],
+        "visual_template_key": null
+      },
+      "first_text_ms": 633,
+      "total_ms": 6378,
+      "preview_events": 79
+    },
+    {
+      "subject": "mathematics",
+      "requested": "matching",
+      "error": "No hay una actividad de reserva evaluable y la generación no está disponible. Intenta más tarde."
+    },
+    {
+      "subject": "natural_sciences",
+      "grade": 4,
+      "requested": "option",
+      "actual": "option",
+      "activity": {
+        "id": "c1b69854-8f40-4e8e-851e-fcb61a741a41",
+        "step_id": "objective-natural_sciences",
+        "question": "Cuando calientas una olla con agua en la estufa, el agua comienza a burbujear y luego se convierte en vapor. ¿Cuál cambio de estado está ocurriendo en el agua?",
+        "type": "option",
+        "options": [
+          "El agua se está congelando, pasando de líquida a sólida.",
+          "El agua se está evaporando, pasando de líquida a gas.",
+          "El agua se está condensando, pasando de gas a líquida.",
+          "El agua se está sublimando, pasando de sólido a gas."
+        ],
+        "cognitive_dimension": "comprension",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "first_text_ms": 691,
+      "total_ms": 6685,
+      "preview_events": 40
+    },
+    {
+      "subject": "social_studies",
+      "grade": 7,
+      "requested": "option",
+      "actual": "option",
+      "activity": {
+        "id": "824b01e8-e298-4fb0-8286-8004784b0c61",
+        "step_id": "objective-social_studies",
+        "question": "La comunidad de Villa Verde debe decidir si construir un parque o una biblioteca en un terreno vacío. Algunos vecinos dicen que construir un parque es mejor porque puede ser usado por niños, personas mayores y para actividades deportivas. Otros dicen que una biblioteca es mejor porque promueve la lectura y el aprendizaje. ¿Cuál de estas afirmaciones muestra un argumento que considera distintas perspectivas y usa evidencia para apoyar la decisión comunitaria?",
+        "type": "option",
+        "options": [
+          "Construir el parque es mejor porque todos necesitan un espacio para el deporte y la recreación, y además el parque puede ser disfrutado por personas de todas las edades.",
+          "La biblioteca es mejor porque solo los estudiantes necesitan un lugar para estudiar y leer, mientras que el parque es solo para jóvenes.",
+          "El parque y la biblioteca tienen beneficios, pero si elegimos construir un parque, beneficiamos a más personas y fomentamos la salud y el bienestar, mientras que si es una biblioteca promovemos la educación y el conocimiento para quienes quieran usarla."
+        ],
+        "cognitive_dimension": "comprension",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "first_text_ms": 520,
+      "total_ms": 6798,
+      "preview_events": 81
+    },
+    {
+      "subject": "natural_sciences",
+      "grade": 4,
+      "requested": "text",
+      "actual": "text",
+      "activity": {
+        "id": "0239aab7-d885-4a34-b151-fe5638c139ab",
+        "step_id": "objective-natural_sciences",
+        "question": "Imagina que tienes un vaso con agua muy fría en la mesa y un cubo de hielo dentro del vaso. Después de un rato, notaste que el hielo se está derritiendo y el agua está un poco más fría. Explica qué sucede con el hielo y el agua en términos de cambios de estado y transferencia de calor.",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "razonamiento",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "first_text_ms": 594,
+      "total_ms": 7041,
+      "preview_events": 68
+    },
+    {
+      "subject": "social_studies",
+      "grade": 7,
+      "requested": "text",
+      "actual": "text",
+      "activity": {
+        "id": "96514336-61ba-46ad-9757-ca5bf3a4aae2",
+        "step_id": "objective-social_studies",
+        "question": "Imagina que en una comunidad hay diferentes opiniones sobre construir un parque en el barrio. Algunas personas quieren el parque porque creen que mejorará la salud y la convivencia, pero otras están preocupadas porque piensan que puede aumentar la inseguridad y el ruido. Describe cómo podrías argumentar a favor o en contra de construir el parque, usando evidencia y considerando las distintas perspectivas. Explica tu razonamiento y cómo tomarías una decisión justa para la comunidad.",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "razonamiento",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "first_text_ms": 508,
+      "total_ms": 8357,
+      "preview_events": 91
+    },
+    {
+      "subject": "social_studies",
+      "grade": 7,
+      "requested": "multiple_select",
+      "actual": "multiple_select",
+      "activity": {
+        "id": "910e30d9-294e-4eeb-8fdb-51d53c4fb37a",
+        "step_id": "objective-social_studies",
+        "question": "En una comunidad, hay una propuesta para construir un parque en un terreno baldío. Lee estas perspectivas y elige las que pueden servir como evidencia para argumentar a favor del proyecto.",
+        "type": "multiple_select",
+        "options": [
+          "El parque ayudará a que los niños tengan un lugar seguro para jugar.",
+          "Algunos vecinos prefieren un centro comercial en lugar del parque.",
+          "El terreno está cerca de una escuela, lo que facilitará el acceso de los estudiantes.",
+          "El parque podría aumentar el valor de las casas cercanas.",
+          "El terreno baldío no afecta la circulación de autos en la zona."
+        ],
+        "cognitive_dimension": "representacion",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "first_text_ms": 537,
+      "total_ms": 5879,
+      "preview_events": 37
+    },
+    {
+      "subject": "social_studies",
+      "grade": 7,
+      "requested": "matching",
+      "actual": "matching",
+      "activity": {
+        "id": "d2fe7b9b-e0a1-4a3e-b4bd-4b11b7b4c8a2",
+        "step_id": "objective-social_studies",
+        "question": "Relaciona cada situación comunitaria con la forma correcta de argumentar una decisión usando evidencia y diversas perspectivas:",
+        "type": "matching",
+        "options": [],
+        "cognitive_dimension": "transferencia",
+        "source": "generated",
+        "notice": null,
+        "left_items": [
+          "Construir un parque en un barrio con muchas familias.",
+          "Decidir si permitir o no una fábrica cerca de una escuela.",
+          "Organizar una campaña para mejorar el reciclaje en la ciudad."
+        ],
+        "right_items": [
+          "Considerar opiniones de vecinos, expertos en salud y datos sobre contaminación.",
+          "Escuchar a padres, niños y revisar estadísticas sobre actividad física en niños.",
+          "Consultar con líderes sociales, recopilar información sobre manejo de residuos y hábitos ciudadanos."
+        ],
+        "visual_template_key": null
+      },
+      "first_text_ms": 608,
+      "total_ms": 4899,
+      "preview_events": 21
+    },
+    {
+      "subject": "natural_sciences",
+      "grade": 4,
+      "requested": "multiple_select",
+      "actual": "multiple_select",
+      "activity": {
+        "id": "b92d0e63-4cf9-4af0-a252-c8bbd167427d",
+        "step_id": "objective-natural_sciences",
+        "question": "Lee las siguientes afirmaciones sobre cambios de estado y transferencia de calor. ¿Cuáles son correctas?",
+        "type": "multiple_select",
+        "options": [
+          "El hielo se derrite porque recibe calor del ambiente y pasa de sólido a líquido.",
+          "El vapor de agua que sale de una olla hirviendo es gas formado cuando el agua líquida cambia a vapor por el calor.",
+          "Una persona se calienta al acercarse a una fogata porque recibe energía en forma de radiación infrarroja.",
+          "El agua se congela porque pierde calor y cambia de líquido a gas."
+        ],
+        "cognitive_dimension": "representacion",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "first_text_ms": 585,
+      "total_ms": 17049,
+      "preview_events": 66
+    },
+    {
+      "subject": "natural_sciences",
+      "grade": 4,
+      "requested": "matching",
+      "actual": "matching",
+      "activity": {
+        "id": "cab47973-4e9e-4bdc-b881-36cfa12720f3",
+        "step_id": "objective-natural_sciences",
+        "question": "Relaciona cada cambio de estado con la forma en que el calor se transfiere para que ocurra ese cambio. Usa los datos cotidianos que conoces para entender mejor cada proceso.",
+        "type": "matching",
+        "options": [],
+        "cognitive_dimension": "transferencia",
+        "source": "generated",
+        "notice": null,
+        "left_items": [
+          "El hielo derritiéndose",
+          "Agua hirviendo que se convierte en vapor",
+          "Vapor de agua que se convierte en gotas de lluvia",
+          "Agua helada que se calienta en un vaso"
+        ],
+        "right_items": [
+          "Calor entra por contacto directo para fundir el sólido",
+          "Calor hace que las partículas se separen y formen gas",
+          "Calor se pierde y partículas se juntan para formar líquido",
+          "Calor se transfiere para aumentar la temperatura del líquido"
+        ],
+        "visual_template_key": null
+      },
+      "first_text_ms": 593,
+      "total_ms": 6740,
+      "preview_events": 38
+    },
+    {
+      "subject": "english",
+      "grade": 5,
+      "requested": "option",
+      "actual": "option",
+      "activity": {
+        "id": "2ed9f2ed-29cf-4955-aec8-5ddf1b487fa4",
+        "step_id": "objective-english",
+        "question": "Read the sentence: \"Tom likes to play soccer on weekends.\" What does Tom like to do?",
+        "type": "option",
+        "options": [
+          "Play tennis on weekdays.",
+          "Play soccer on weekends.",
+          "Eat soccer on weekends.",
+          "Play basketball on weekends."
+        ],
+        "cognitive_dimension": "comprension",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "first_text_ms": 594,
+      "total_ms": 4327,
+      "preview_events": 20
+    },
+    {
+      "subject": "english",
+      "grade": 5,
+      "requested": "text",
+      "actual": "text",
+      "activity": {
+        "id": "56db3882-fcb1-4f11-baa5-84454c9f8239",
+        "step_id": "objective-english",
+        "question": "Lee el siguiente texto en inglés y responde la pregunta usando tus propias palabras:\n\n\"Anna has a small dog named Max. Max loves to play with a red ball in the garden. Every morning, Anna and Max go outside to play before school. Max is very happy when he sees the ball.\"\n\n¿Por qué crees que Max está muy feliz cuando ve la pelota roja? Explica con tus propias palabras.",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "razonamiento",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "first_text_ms": 667,
+      "total_ms": 5914,
+      "preview_events": 86
+    },
+    {
+      "subject": "english",
+      "grade": 5,
+      "requested": "multiple_select",
+      "actual": "multiple_select",
+      "activity": {
+        "id": "bbbebbf6-afb6-4643-b099-e1293eb6e89e",
+        "step_id": "objective-english",
+        "question": "Read the short conversation and select all words that describe how the girl feels.\n\nTom: How are you today?\nSara: I'm scared because it's dark outside, but I'm also excited for the party later!",
+        "type": "multiple_select",
+        "options": [
+          "scared",
+          "happy",
+          "excited",
+          "angry"
+        ],
+        "cognitive_dimension": "representacion",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "first_text_ms": 677,
+      "total_ms": 3879,
+      "preview_events": 43
+    },
+    {
+      "subject": "english",
+      "grade": 5,
+      "requested": "matching",
+      "actual": "matching",
+      "activity": {
+        "id": "45063d63-2c87-40e2-a8f2-ed20fe8b6cc1",
+        "step_id": "objective-english",
+        "question": "Relaciona cada palabra en inglés con su significado correcto en español, usando el contexto de la frase dado para elegir la opción adecuada.",
+        "type": "matching",
+        "options": [],
+        "cognitive_dimension": "transferencia",
+        "source": "generated",
+        "notice": null,
+        "left_items": [
+          "apple",
+          "happy",
+          "run",
+          "cold",
+          "book"
+        ],
+        "right_items": [
+          "feliz",
+          "libro",
+          "manzana",
+          "correr",
+          "frío"
+        ],
+        "visual_template_key": null
+      },
+      "first_text_ms": 592,
+      "total_ms": 5767,
+      "preview_events": 26
+    }
+  ],
+  "supports": [
+    {
+      "subject": "language",
+      "card": {
+        "title": "Entender por qué un personaje actúa de cierta manera en un cuento",
+        "body": "Cuando leemos un cuento, a veces un personaje hace algo porque tiene una razón o motivo. Para comprender bien la historia, es útil preguntarse: ¿por qué este personaje hizo eso? Una estrategia es buscar pistas en el texto que expliquen sus sentimientos o sus necesidades. Esto ayuda a entender mejor la historia y lo que sienten los personajes.",
+        "insight": "Identificar pistas en el texto ayuda a descubrir la causa o el motivo de las acciones en una narración.",
+        "example_problem": "En un cuento, Ana tenía mucha sed porque jugó bajo el sol durante la tarde. Cuando llegó a su casa, bebió un vaso de agua y luego fue a descansar a la sombra. ¿Por qué Ana decidió beber agua y descansar después de jugar?",
+        "example_steps": [
+          "Primero, reconocemos lo que hizo Ana: bebió agua y descansó.",
+          "Luego, buscamos pistas en la historia: Ana jugó bajo el sol y tenía sed, lo que indica que se cansó y necesitaba calmar su sed.",
+          "Finalmente, concluimos que Ana bebió agua y descansó porque estaba cansada y tenía sed después de jugar mucho tiempo al sol."
+        ],
+        "example_result": "Ana decidió beber agua y descansar porque su cuerpo le indicaba que necesitaba reponerse tras jugar mucho tiempo bajo el sol con calor y sed. Esto muestra que sus acciones tienen el motivo de cuidar su salud y sentirse mejor.",
+        "visual": {
+          "kind": "table",
+          "caption": "Pasos para entender el motivo de Ana",
+          "headers": [
+            "Paso",
+            "Descripción"
+          ],
+          "rows": [
+            [
+              "Paso 1",
+              "Distinguir las acciones de Ana: beber agua y descansar"
+            ],
+            [
+              "Paso 2",
+              "Observar las pistas: jugó bajo el sol y tenía sed"
+            ],
+            [
+              "Paso 3",
+              "Relacionar las acciones con las causas: cansancio y sed"
+            ]
+          ]
+        }
+      },
+      "first_intro_ms": 835,
+      "total_ms": 5440
+    },
+    {
+      "subject": "mathematics",
+      "card": {
+        "title": "Sumar y comparar objetos para saber cuál grupo es mayor",
+        "body": "Cuando juntamos dos grupos de cosas, podemos contar cuántas hay en total para saber la cantidad combinada. Luego, podemos comparar esta cantidad con otra para ver cuál es mayor. Para sumar, contamos todos los objetos uno a uno. Para comparar, vemos cuál número es más grande o si son iguales.",
+        "insight": "Sumar objetos ayuda a comparar y decidir cuál grupo tiene más.",
+        "example_problem": "María tiene 3 globos y Lucas tiene 4 globos. Ellos juntan todos sus globos en una caja. Luego, Ana tiene 6 globos en su propia caja. ¿Quién tiene más globos? ¿La caja de María y Lucas juntos o la caja de Ana?",
+        "example_steps": [
+          "- Primero, contamos cuántos globos hay en total en la caja de María y Lucas: sumamos 3 + 4.",
+          "- Después, comparamos ese total con la cantidad de globos que tiene Ana, que es 6.",
+          "- Finalmente, vemos cuál número es mayor para saber quién tiene más globos."
+        ],
+        "example_result": "La caja de María y Lucas tiene 3 + 4 = 7 globos. Ana tiene 6 globos. Como 7 es mayor que 6, María y Lucas juntos tienen más globos que Ana.",
+        "visual": {
+          "kind": "table",
+          "caption": "Conteo y comparación de globos",
+          "headers": [
+            "Persona",
+            "Cantidad de globos"
+          ],
+          "rows": [
+            [
+              "María",
+              "3"
+            ],
+            [
+              "Lucas",
+              "4"
+            ],
+            [
+              "Total María y Lucas",
+              "7"
+            ],
+            [
+              "Ana",
+              "6"
+            ]
+          ]
+        }
+      },
+      "first_intro_ms": 725,
+      "total_ms": 5096
+    },
+    {
+      "subject": "social_studies",
+      "card": {
+        "title": "Cómo defender una propuesta comunitaria con datos y opiniones diferentes",
+        "body": "Cuando hay que apoyar una decisión en la comunidad, es útil juntar información de diferentes fuentes y ver el problema desde varios puntos de vista. Primero, se debe recopilar datos claros, como resultados de encuestas o estudios, sobre el tema. Luego, hay que analizar qué opinan las personas involucradas, aunque tengan ideas diversas. Finalmente, se resume todo para explicar por qué se toma esa decisión, mostrando respeto y atención a las distintas voces.",
+        "insight": "Considerar múltiples perspectivas y apoyar la decisión con hechos claros fortalece el argumento y fomenta la convivencia.",
+        "example_problem": "En una comunidad, los líderes quieren proponer un evento cultural que incluya música y comidas típicas de la región. Algunos miembros creen que debería ser solo música, otros prefieren solo comida, y algunos quieren ambas opciones. Para tomar una buena decisión, obtienen datos de una pequeña encuesta y opiniones de tres grupos diferentes.",
+        "example_steps": [
+          "• Analizar los resultados de la encuesta, donde el 50% prefieren ambas opciones, 30% solo música y 20% solo comida.",
+          "• Escuchar a cada grupo: el primero valora la tradición musical, el segundo prefiere compartir sabores tradicionales, y el tercero desea una variedad que incluya música y comida para un evento más completo.",
+          "• Combinar la información para preparar un argumento que explique por qué la opción de incluir música y comida puede beneficiar a todas las personas y respetar las diferentes preferencias."
+        ],
+        "example_result": "La mejor propuesta es hacer un evento con música y comida porque la encuesta muestra que la mayoría favorece ambas actividades, y las opiniones expresan el valor cultural y social de esa combinación. Así se incluye a más personas y se fortalece la unidad comunitaria.",
+        "visual": {
+          "kind": "table",
+          "caption": "Encuesta sobre preferencias para el evento cultural",
+          "headers": [
+            "Preferencia",
+            "Porcentaje (%)",
+            "Razón principal"
+          ],
+          "rows": [
+            [
+              "Sólo música",
+              "30",
+              "Tradición musical"
+            ],
+            [
+              "Sólo comida",
+              "20",
+              "Compartir sabores"
+            ],
+            [
+              "Música y comida",
+              "50",
+              "Variedad y más participación"
+            ]
+          ]
+        }
+      },
+      "first_intro_ms": 727,
+      "total_ms": 6368
+    },
+    {
+      "subject": "natural_sciences",
+      "card": {
+        "title": "Cómo entender cambios de estado y transferencia de calor con ejemplos de cocina",
+        "body": "Cuando un pedazo de mantequilla se encuentra encima de una rebanada de pan y la ponemos en una sartén a temperatura media, la mantequilla cambia de estado sólido a líquido. Esto sucede porque la sartén transfiere calor a la mantequilla. En esta situación, observamos la transferencia de calor (de la sartén al pan y mantequilla) y el cambio de estado (sólido a líquido de la mantequilla). Comprender esta relación nos ayuda a entender por qué algunos alimentos cambian su forma o textura al calentarlos.",
+        "insight": "La transferencia de calor hace que las sustancias cambien de estado; por ejemplo, el calor puede fundir sólidos al convertirlos en líquidos.",
+        "example_problem": "En la casa, Laura coloca un cubo de chocolate sobre una mesa a temperatura ambiente. Después, mueve el cubo a un plato dentro del microondas y lo calienta por un minuto. Describe qué cambios de estado ocurren en el chocolate y cómo se transfiere el calor en cada lugar.",
+        "example_steps": [
+          "Primero, en la mesa a temperatura ambiente, el chocolate está frío y sólido porque no recibe calor significativo del ambiente.",
+          "Luego, cuando el chocolate está en el microondas, este aparato emite ondas que hacen que las moléculas del chocolate se muevan más rápido, aumentando su temperatura.",
+          "El aumento del movimiento molecular provoca que el chocolate se derrita, cambiando de estado sólido a líquido.",
+          "El calor se transfiere dentro del microondas directamente al chocolate mediante las ondas que se absorben en el material, calentándolo de dentro hacia afuera."
+        ],
+        "example_result": "Al estar en la mesa a temperatura ambiente, el chocolate permanece sólido porque no recibe suficiente calor. Al calentarlo un minuto en el microondas, absorbe energía que hace que las moléculas se muevan más rápido, provocando que el chocolate cambie de sólido a líquido. Por lo tanto, el cambio de estado ocurrió gracias a que el calor se transfirió desde el microondas hacia el chocolate.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Pasos del cambio de estado y transferencia de calor en el chocolate",
+          "steps": [
+            "Chocolate frío sólido en la mesa sin cambio de estado.",
+            "Microondas calienta el chocolate aumentando su energía molecular.",
+            "Chocolate empieza a cambiar de sólido a líquido por el calor absorbedido.",
+            "Chocolate líquido en el plato tras calentarse."
+          ]
+        }
+      },
+      "first_intro_ms": 708,
+      "total_ms": 5839
+    },
+    {
+      "subject": "english",
+      "card": {
+        "title": "Cómo usar el contexto para entender palabras en inglés",
+        "body": "Cuando leas oraciones en inglés, útil es buscar pistas en las palabras cerca para comprender palabras nuevas. Esto se llama usar el contexto. Por ejemplo, si ves la palabra \"gloomy\" en una frase con palabras como \"dark\" y \"rainy\", puedes pensar que \"gloomy\" significa triste o oscuro. Así, aunque no conozcas la palabra, puedes adivinar su significado sin traducir.",
+        "insight": "El contexto alrededor de una palabra nueva ayuda a deducir su significado en inglés, facilitando la comprensión de textos cortos.",
+        "example_problem": "Sarah sat by the window. It was a gloomy day. The sky was dark, and rain fell all afternoon. She felt quiet and thoughtful as she watched the drops slide down the glass.",
+        "example_steps": [
+          "Look for clues near the word 'gloomy'. The sentence says 'The sky was dark, and rain fell all afternoon'.",
+          "Think about what kind of day has a dark sky and rain. Usually, this means the day is sad or dull.",
+          "From these clues, understand that 'gloomy' means something like 'sad' or 'dark'. It describes the mood or the weather."
+        ],
+        "example_result": "La palabra 'gloomy' significa un día triste o oscuro. Usamos las palabras cercanas 'dark' y 'rain' para entender su significado. Así, aunque no conozcamos 'gloomy', el contexto nos ayuda a deducir que describe un día con poca luz y algo triste.",
+        "visual": {
+          "kind": "table",
+          "caption": "Palabras clave para deducir el significado de 'gloomy'",
+          "headers": [
+            "Palabra",
+            "Pista sobre el significado"
+          ],
+          "rows": [
+            [
+              "gloomy",
+              "Describe el día"
+            ],
+            [
+              "dark",
+              "Indica poca luz"
+            ],
+            [
+              "rain",
+              "Clima lluvioso"
+            ],
+            [
+              "quiet and thoughtful",
+              "Estado de ánimo reflexivo"
+            ]
+          ]
+        }
+      },
+      "first_intro_ms": 685,
+      "total_ms": 12691
+    }
+  ],
+  "summary": {
+    "activities_ready": 19,
+    "activities_total": 20,
+    "format_matches": 19,
+    "supports_ready": 5,
+    "supports_total": 5,
+    "first_text": {
+      "samples": 19,
+      "p50_ms": 608,
+      "p95_ms": 1071,
+      "min_ms": 508,
+      "max_ms": 1071
+    },
+    "complete_activity": {
+      "samples": 19,
+      "p50_ms": 6685,
+      "p95_ms": 17049,
+      "min_ms": 3879,
+      "max_ms": 17049
+    }
+  }
+}

@@ -1,0 +1,928 @@
+{
+  "created_at": "2026-11-04T15:03:47.070Z",
+  "kind": "synthetic_read_only_baseline",
+  "writes_to_supabase": false,
+  "limitations": [
+    "Small pilot sample; p95 is descriptive, not a production SLO.",
+    "No real student answers are sent to OpenAI.",
+    "Persistence and browser/network latency are not exercised by this synthetic baseline.",
+    "Generated activities require pedagogical review; passing schema validation is not a teaching-quality certification."
+  ],
+  "generation": [],
+  "evaluation": [
+    {
+      "case_id": "math-2",
+      "expected": "correct",
+      "observed": "correct",
+      "passed": true,
+      "feedback": "Has respondido correctamente que Ana tiene cinco lápices, sumando los que tenía y los que recibió. Buen trabajo.",
+      "metrics": {
+        "timestamp": "2026-11-04T15:03:51.980Z",
+        "request_id": "f7434597-2738-4e90-9dd7-72da465f4622",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 2000,
+        "stages": {
+          "openai_evaluation": 1999
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 562,
+            "output_tokens": 55,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "math-9",
+      "expected": "correct",
+      "observed": "correct",
+      "passed": true,
+      "feedback": "Has identificado correctamente la regla que relaciona x e y y la has aplicado bien para x=4. Buen trabajo expresando la regla y calculando el valor correspondiente.",
+      "metrics": {
+        "timestamp": "2026-11-04T15:03:51.990Z",
+        "request_id": "9ad92404-a2e9-47be-91ed-d49219c5267b",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 2007,
+        "stages": {
+          "openai_evaluation": 2007
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 611,
+            "output_tokens": 66,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "math-2",
+      "expected": "partial",
+      "observed": "partial",
+      "passed": true,
+      "feedback": "Reconoces correctamente que hay que sumar los lápices que tenía y los que recibe, lo cual muestra comprensión del problema. Sin embargo, falta que realices el cálculo para obtener cuántos lápices tiene ahora. Intenta sumar 3 y 2 para encontrar la respuesta completa.",
+      "metrics": {
+        "timestamp": "2026-11-04T15:03:53.640Z",
+        "request_id": "8b16b81a-dc35-4659-9cee-6916888b0934",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1660,
+        "stages": {
+          "openai_evaluation": 1659
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 574,
+            "output_tokens": 95,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "math-9",
+      "expected": "partial",
+      "observed": "partial",
+      "passed": true,
+      "feedback": "Has identificado correctamente que y aumenta de dos en dos, lo cual es un buen inicio para encontrar la regla. Sin embargo, falta que escribas la regla matemática que relaciona x con y y que uses esa regla para calcular y cuando x=4.",
+      "metrics": {
+        "timestamp": "2026-11-04T15:03:54.278Z",
+        "request_id": "97b91da5-8f27-4271-b435-9acb42345f79",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 2288,
+        "stages": {
+          "openai_evaluation": 2288
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 607,
+            "output_tokens": 101,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "math-2",
+      "expected": "incorrect",
+      "observed": "incorrect",
+      "passed": true,
+      "feedback": "Has realizado una resta en lugar de una suma, por eso obtuviste 1 lápiz. Recuerda que Ana tiene 3 lápices y recibe 2 más, por lo que debes sumar para saber cuántos tiene ahora.",
+      "metrics": {
+        "timestamp": "2026-11-04T15:03:55.707Z",
+        "request_id": "0d908709-a04c-45ea-b9a2-f80ab9122c98",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 2067,
+        "stages": {
+          "openai_evaluation": 2066
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 571,
+            "output_tokens": 95,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "math-9",
+      "expected": "incorrect",
+      "observed": "incorrect",
+      "passed": true,
+      "feedback": "La regla propuesta 'y=x' no representa correctamente la relación dada en la tabla, ya que los valores de y no coinciden con x. Además, el valor calculado para x=4 debería seguir la regla correcta que se ajusta a la tabla, como 'y=2x+1', que daría y=9. Intenta encontrar la relación correcta entre x e y observando cómo cambia y cuando x aumenta.",
+      "metrics": {
+        "timestamp": "2026-11-04T15:03:56.357Z",
+        "request_id": "be90c1e2-3aca-405a-a4db-181057d62fe6",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 2079,
+        "stages": {
+          "openai_evaluation": 2079
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 607,
+            "output_tokens": 146,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "language-3",
+      "expected": "correct",
+      "observed": "correct",
+      "passed": true,
+      "feedback": "Muy bien, explicaste claramente que tomó el paraguas porque pensaba que iba a llover, lo cual está relacionado con las nubes oscuras mencionadas en el texto.",
+      "metrics": {
+        "timestamp": "2026-11-04T15:03:57.002Z",
+        "request_id": "f4dd7769-56f7-4df5-985d-03098afcd273",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1294,
+        "stages": {
+          "openai_evaluation": 1294
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 577,
+            "output_tokens": 66,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "language-8",
+      "expected": "correct",
+      "observed": "correct",
+      "passed": true,
+      "feedback": "Has identificado claramente la propuesta de ampliar el horario y la razón que la apoya, expresándolas con tus propias palabras. Buen trabajo reconociendo ambas partes del aviso.",
+      "metrics": {
+        "timestamp": "2026-11-04T15:03:57.993Z",
+        "request_id": "d2bf312f-e7a6-4274-a71d-dee0d3b07fb4",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1636,
+        "stages": {
+          "openai_evaluation": 1636
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 604,
+            "output_tokens": 78,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "language-3",
+      "expected": "partial",
+      "observed": "partial",
+      "passed": true,
+      "feedback": "Has identificado que Lina vio nubes oscuras, lo cual es correcto. Sin embargo, falta explicar que tomó el paraguas porque pensó que podía llover debido a esas nubes. Intenta relacionar las nubes con la anticipación de lluvia para completar la respuesta.",
+      "metrics": {
+        "timestamp": "2026-11-04T15:03:59.105Z",
+        "request_id": "b38ab499-6a40-4bff-a026-64098b9d7c21",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 2104,
+        "stages": {
+          "openai_evaluation": 2103
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 573,
+            "output_tokens": 101,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "language-8",
+      "expected": "partial",
+      "observed": "partial",
+      "passed": true,
+      "feedback": "Has identificado correctamente la propuesta de ampliar el horario de la biblioteca. Sin embargo, falta mencionar la razón que la apoya, que es que muchos estudiantes no pueden visitarla antes de las 4 p. m. Incluye esa parte para completar la respuesta.",
+      "metrics": {
+        "timestamp": "2026-11-04T15:03:59.616Z",
+        "request_id": "d5971bf2-01af-412d-ac9e-0ea68ae41d9a",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1623,
+        "stages": {
+          "openai_evaluation": 1622
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 596,
+            "output_tokens": 87,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "language-3",
+      "expected": "incorrect",
+      "observed": "incorrect",
+      "passed": true,
+      "feedback": "Tu respuesta no coincide con el texto, que menciona nubes oscuras, no sol. Intenta relacionar las nubes oscuras con la posibilidad de lluvia para explicar por qué Lina tomó el paraguas.",
+      "metrics": {
+        "timestamp": "2026-11-04T15:04:01.736Z",
+        "request_id": "5a83ce80-22e2-4e3e-8545-e2858f51e167",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 2631,
+        "stages": {
+          "openai_evaluation": 2630
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 579,
+            "output_tokens": 91,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "language-8",
+      "expected": "incorrect",
+      "observed": "incorrect",
+      "passed": true,
+      "feedback": "La respuesta no identifica correctamente la propuesta ni la razón del aviso. El aviso propone ampliar el horario, no cerrar la biblioteca, y la razón es que muchos estudiantes no pueden visitarla antes de las 4 p. m. Intenta leer con atención para distinguir la propuesta y la razón que la apoyan.",
+      "metrics": {
+        "timestamp": "2026-11-04T15:04:02.035Z",
+        "request_id": "514daa80-db9b-4418-ae9d-8ab56ed464bb",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 2419,
+        "stages": {
+          "openai_evaluation": 2419
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 596,
+            "output_tokens": 123,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "science-4",
+      "expected": "correct",
+      "observed": "correct",
+      "passed": true,
+      "feedback": "Has explicado claramente que la energía de las pilas se transforma en luz, que es justo lo que se pedía. Buen trabajo relacionando la fuente de energía con la luz que vemos.",
+      "metrics": {
+        "timestamp": "2026-11-04T15:04:03.243Z",
+        "request_id": "0f4e6e19-c9c3-46b5-b0e3-028e4a171216",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1507,
+        "stages": {
+          "openai_evaluation": 1506
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 601,
+            "output_tokens": 70,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "science-7",
+      "expected": "correct",
+      "observed": "correct",
+      "passed": true,
+      "feedback": "Muy bien, explicaste claramente cómo la disminución de la hierba afecta primero a los conejos y luego a los zorros, relacionando correctamente la disponibilidad de alimento y presas.",
+      "metrics": {
+        "timestamp": "2026-11-04T15:04:03.739Z",
+        "request_id": "c3339e4b-d7e4-47ae-b60e-36b7986779ed",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1703,
+        "stages": {
+          "openai_evaluation": 1703
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 615,
+            "output_tokens": 84,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "science-4",
+      "expected": "partial",
+      "observed": "partial",
+      "passed": true,
+      "feedback": "Has identificado correctamente que la linterna usa pilas, lo cual es un buen comienzo. Sin embargo, falta explicar que la energía proviene de las pilas y que esta energía se transforma en luz para que podamos ver. Intenta incluir estas ideas para completar la explicación.",
+      "metrics": {
+        "timestamp": "2026-11-04T15:04:05.234Z",
+        "request_id": "fb9fb802-f4e3-43cc-a4be-6e5f3ab63284",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1991,
+        "stages": {
+          "openai_evaluation": 1990
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 593,
+            "output_tokens": 106,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "science-7",
+      "expected": "partial",
+      "observed": "partial",
+      "passed": true,
+      "feedback": "Has explicado correctamente que los conejos tendrán menos alimento si disminuye la hierba. Sin embargo, falta mencionar el posible efecto en los zorros, que también se verían afectados por la disminución de conejos como su alimento. Intenta incluir ambos efectos para completar la respuesta.",
+      "metrics": {
+        "timestamp": "2026-11-04T15:04:05.431Z",
+        "request_id": "e56c422a-c2c3-47f8-95fd-3b00eae5ce48",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1692,
+        "stages": {
+          "openai_evaluation": 1692
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 599,
+            "output_tokens": 94,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "science-4",
+      "expected": "incorrect",
+      "observed": "incorrect",
+      "passed": true,
+      "feedback": "La respuesta indica que la luz aparece sin energía, lo cual es incorrecto. Recuerda que la linterna obtiene energía de las pilas y esta energía se transforma en luz para que podamos ver.",
+      "metrics": {
+        "timestamp": "2026-11-04T15:04:06.894Z",
+        "request_id": "8cd558c6-f8fa-4135-a2de-03eb1e2f5446",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1660,
+        "stages": {
+          "openai_evaluation": 1660
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 598,
+            "output_tokens": 80,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "science-7",
+      "expected": "incorrect",
+      "observed": "incorrect",
+      "passed": true,
+      "feedback": "La respuesta contradice el flujo de alimento dado en la cadena alimentaria, ya que indica que los zorros comen hierba y los conejos comen zorros, lo cual no es correcto. Debes explicar cómo la disminución de la hierba afecta primero a los conejos y luego a los zorros, siguiendo la cadena alimentaria proporcionada.",
+      "metrics": {
+        "timestamp": "2026-11-04T15:04:07.670Z",
+        "request_id": "9a3ca25b-8e88-4e2b-9130-4be664903aa9",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 2239,
+        "stages": {
+          "openai_evaluation": 2239
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 612,
+            "output_tokens": 139,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "social-2",
+      "expected": "correct",
+      "observed": "correct",
+      "passed": true,
+      "feedback": "Muy bien, propones un recordatorio claro y una forma concreta de verificar si funcionó. Sigue así para mejorar tus hábitos.",
+      "metrics": {
+        "timestamp": "2026-11-04T15:04:08.395Z",
+        "request_id": "17a8a618-a453-45d1-8189-f3dddba1fea4",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1501,
+        "stages": {
+          "openai_evaluation": 1501
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 607,
+            "output_tokens": 67,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "social-10",
+      "expected": "correct",
+      "observed": "correct",
+      "passed": true,
+      "feedback": "Has propuesto priorizar el transporte basándote en la cantidad de vecinos que lo necesitan y además planteas una forma de escuchar al grupo que no es priorizado, lo cual cumple con lo solicitado. Buen trabajo al justificar tu decisión y considerar la participación de todos.",
+      "metrics": {
+        "timestamp": "2026-11-04T15:04:09.515Z",
+        "request_id": "a4a0561b-888a-4d09-844c-92e69dd3ee72",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1845,
+        "stages": {
+          "openai_evaluation": 1845
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 656,
+            "output_tokens": 104,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "social-2",
+      "expected": "partial",
+      "observed": "partial",
+      "passed": true,
+      "feedback": "Has propuesto un recordatorio válido al poner un dibujo cerca de la llave, lo cual es una buena estrategia. Sin embargo, falta que expliques cómo revisarías si esta forma de recordarlo te funcionó. Intenta añadir una manera de comprobar si realmente recuerdas cerrar la llave después de lavarte las manos.",
+      "metrics": {
+        "timestamp": "2026-11-04T15:04:10.308Z",
+        "request_id": "526473b3-5f5b-4349-8c44-e4eb6863018f",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1913,
+        "stages": {
+          "openai_evaluation": 1913
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 598,
+            "output_tokens": 103,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "social-10",
+      "expected": "partial",
+      "observed": "partial",
+      "passed": true,
+      "feedback": "Has tomado una decisión razonada basándote en los datos, lo cual es correcto. Sin embargo, falta proponer una forma de escuchar al grupo que no sea priorizado (los que necesitan el parque). Intenta incluir una estrategia para recoger sus opiniones o preocupaciones.",
+      "metrics": {
+        "timestamp": "2026-11-04T15:04:11.242Z",
+        "request_id": "089455da-f6f4-4451-a9a3-e66c1510a5a2",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1727,
+        "stages": {
+          "openai_evaluation": 1726
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 641,
+            "output_tokens": 101,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "social-2",
+      "expected": "incorrect",
+      "observed": "incorrect",
+      "passed": true,
+      "feedback": "No has propuesto una forma para recordar cerrar la llave ni explicado cómo revisar si funcionó. Intenta pensar en una señal o acción que te ayude a recordar y cómo podrías verificar que realmente cerraste la llave.",
+      "metrics": {
+        "timestamp": "2026-11-04T15:04:12.290Z",
+        "request_id": "b4276801-102a-4b38-ac4e-2984f6d1aaf1",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1982,
+        "stages": {
+          "openai_evaluation": 1981
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 604,
+            "output_tokens": 99,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "social-10",
+      "expected": "incorrect",
+      "observed": "incorrect",
+      "passed": true,
+      "feedback": "La respuesta no utiliza los datos de la encuesta para fundamentar una decisión y además propone prohibir la opinión de los vecinos, lo cual contradice la solicitud de escuchar al grupo no priorizado. Intenta basar tu propuesta en los datos y considera una forma de incluir a todos los vecinos en la decisión.",
+      "metrics": {
+        "timestamp": "2026-11-04T15:04:13.546Z",
+        "request_id": "1200e1ce-95c9-4dcf-a26e-46123643d866",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 2304,
+        "stages": {
+          "openai_evaluation": 2304
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 645,
+            "output_tokens": 136,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "english-2",
+      "expected": "correct",
+      "observed": "correct",
+      "passed": true,
+      "feedback": "Has escrito correctamente las dos parejas que relacionan cada palabra en inglés con el animal en español. Buen trabajo al expresar ambas correspondencias claramente.",
+      "metrics": {
+        "timestamp": "2026-11-04T15:04:13.707Z",
+        "request_id": "ed2fc2eb-644e-4dd6-bb76-ae8cc0b73f01",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1417,
+        "stages": {
+          "openai_evaluation": 1416
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 563,
+            "output_tokens": 53,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "english-11",
+      "expected": "correct",
+      "observed": "correct",
+      "passed": true,
+      "feedback": "Has propuesto una estrategia clara para inferir el significado de 'slippery' usando el contexto de la lluvia y el suelo, y también mencionas cómo comprobar la inferencia con ejemplos o un diccionario. Muy bien hecho.",
+      "metrics": {
+        "timestamp": "2026-11-04T15:04:15.244Z",
+        "request_id": "25e6b2bf-224a-42b4-9087-f83629fde720",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1698,
+        "stages": {
+          "openai_evaluation": 1698
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 636,
+            "output_tokens": 94,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "english-2",
+      "expected": "partial",
+      "observed": "partial",
+      "passed": true,
+      "feedback": "Has identificado correctamente que 'cat' significa 'gato', lo cual es una pareja correcta. Sin embargo, falta la segunda pareja que una 'dog' con 'perro'. Intenta escribir ambas parejas para completar la respuesta.",
+      "metrics": {
+        "timestamp": "2026-11-04T15:04:15.552Z",
+        "request_id": "e87a5721-00dc-4d5c-a359-f612fa557dea",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1845,
+        "stages": {
+          "openai_evaluation": 1845
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 559,
+            "output_tokens": 84,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "english-11",
+      "expected": "partial",
+      "observed": "partial",
+      "passed": true,
+      "feedback": "Has propuesto una estrategia para inferir el significado de 'slippery' usando el contexto de la lluvia y el suelo, lo cual es adecuado. Sin embargo, falta explicar cómo comprobarías esa inferencia para completar la respuesta.",
+      "metrics": {
+        "timestamp": "2026-11-04T15:04:16.949Z",
+        "request_id": "93aeb0ed-2a0b-4ee9-8ba3-cdda80231760",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1705,
+        "stages": {
+          "openai_evaluation": 1705
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 618,
+            "output_tokens": 86,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "english-2",
+      "expected": "incorrect",
+      "observed": "incorrect",
+      "passed": true,
+      "feedback": "Has invertido las parejas: 'cat' no es 'perro' y 'dog' no es 'gato'. Intenta unir cada palabra inglesa con el animal correcto en español.",
+      "metrics": {
+        "timestamp": "2026-11-04T15:04:17.637Z",
+        "request_id": "5e877020-f1cc-4c31-8361-6eeb0c86f5f2",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 2084,
+        "stages": {
+          "openai_evaluation": 2084
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 563,
+            "output_tokens": 98,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "english-11",
+      "expected": "incorrect",
+      "observed": "incorrect",
+      "passed": true,
+      "feedback": "La respuesta no utiliza el contexto para inferir el significado, ni propone una forma de comprobar la inferencia. Es importante aprovechar las pistas del texto y verificar la suposición para entender mejor.",
+      "metrics": {
+        "timestamp": "2026-11-04T15:04:18.798Z",
+        "request_id": "787b115a-65db-4078-a59c-7b8f4f0d311b",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1849,
+        "stages": {
+          "openai_evaluation": 1848
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 623,
+            "output_tokens": 96,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "science-heat-regression",
+      "expected": "correct",
+      "observed": "correct",
+      "passed": true,
+      "feedback": "Muy bien, explicaste claramente que el plato transfiere calor al hielo, lo que hace que alcance su punto de fusión y se derrita. Has comprendido correctamente el fenómeno.",
+      "metrics": {
+        "timestamp": "2026-11-04T15:04:19.596Z",
+        "request_id": "ac32b958-6954-4db4-bcd9-bf7551f7c8ac",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1959,
+        "stages": {
+          "openai_evaluation": 1959
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 678,
+            "output_tokens": 88,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "science-heat-regression",
+      "expected": "partial",
+      "observed": "partial",
+      "passed": true,
+      "feedback": "Reconozco que mencionas que el plato está caliente y que el hielo cambia, lo cual es un buen inicio. Sin embargo, falta explicar cómo el calor del plato causa que el hielo se derrita, es decir, la relación causal entre la transferencia de calor y el cambio de estado. Intenta expresar que el calor del plato se transfiere al hielo y provoca que se derrita.",
+      "metrics": {
+        "timestamp": "2026-11-04T15:04:21.963Z",
+        "request_id": "fed570c6-e060-4615-90b1-134bbe26ccf1",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 2366,
+        "stages": {
+          "openai_evaluation": 2366
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 651,
+            "output_tokens": 130,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "science-heat-regression",
+      "expected": "incorrect",
+      "observed": "incorrect",
+      "passed": true,
+      "feedback": "Has intentado explicar el derretimiento del hielo, pero mencionas que el hielo envía calor al plato, lo cual es incorrecto. Recuerda que el calor siempre fluye del objeto más caliente al más frío, por eso el plato caliente transfiere calor al hielo y lo hace derretir.",
+      "metrics": {
+        "timestamp": "2026-11-04T15:04:23.865Z",
+        "request_id": "59dc4fc8-8b9d-4c51-b19d-ac740d13e3ca",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1902,
+        "stages": {
+          "openai_evaluation": 1902
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 660,
+            "output_tokens": 118,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    }
+  ],
+  "database": [
+    {
+      "operation": "sample_steps_read",
+      "elapsed_ms": 1340,
+      "rows": 30
+    },
+    {
+      "operation": "sample_steps_read",
+      "elapsed_ms": 526,
+      "rows": 30
+    },
+    {
+      "operation": "sample_steps_read",
+      "elapsed_ms": 289,
+      "rows": 30
+    },
+    {
+      "operation": "sample_steps_read",
+      "elapsed_ms": 484,
+      "rows": 30
+    },
+    {
+      "operation": "sample_steps_read",
+      "elapsed_ms": 269,
+      "rows": 30
+    }
+  ],
+  "summary": {
+    "generation": {
+      "samples": 0,
+      "p50_ms": null,
+      "p95_ms": null,
+      "min_ms": null,
+      "max_ms": null
+    },
+    "evaluation": {
+      "samples": 33,
+      "p50_ms": 1902,
+      "p95_ms": 2419,
+      "min_ms": 1294,
+      "max_ms": 2631
+    },
+    "database": {
+      "samples": 5,
+      "p50_ms": 484,
+      "p95_ms": 1340,
+      "min_ms": 269,
+      "max_ms": 1340
+    },
+    "reference_passed": 33,
+    "reference_total": 33,
+    "tokens": {
+      "input": 19977,
+      "output": 3134
+    }
+  }
+}

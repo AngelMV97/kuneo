@@ -1,0 +1,503 @@
+{
+  "model": "gpt-4.1-mini",
+  "limit": 20,
+  "calls": 12,
+  "inputTokens": 28779,
+  "outputTokens": 4640,
+  "results": [
+    {
+      "subject": "mathematics",
+      "grade": 5,
+      "module": {
+        "id": "ordering-mathematics",
+        "subject": "mathematics",
+        "title": "Ordenar porciones de la misma unidad representadas con fracciones de igual denominador.",
+        "learning_objective": "Ordenar porciones de la misma unidad representadas con fracciones de igual denominador.",
+        "core_concept": "Ordenar porciones de la misma unidad representadas con fracciones de igual denominador.",
+        "grade_range": "5"
+      },
+      "activity": {
+        "id": "225c8183-4b37-47a9-a318-b7181fcdd129",
+        "step_id": "step-mathematics",
+        "question": "Juan tiene tres tiras de papel, cada una dividida en 8 partes iguales. Estas tiras representan porciones de la misma longitud total. Las porciones que tiene son:\n\n- 3/8\n- 6/8\n- 5/8\n\nOrdena estas porciones de menor a mayor tamaño.",
+        "type": "ordering",
+        "options": [],
+        "cognitive_dimension": "comprension",
+        "source": "generated",
+        "notice": null,
+        "items": [
+          "5/8",
+          "6/8",
+          "3/8"
+        ],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "225c8183-4b37-47a9-a318-b7181fcdd129",
+        "user_id": "synthetic",
+        "module_id": "ordering-mathematics",
+        "step_id": "step-mathematics",
+        "question": "Juan tiene tres tiras de papel, cada una dividida en 8 partes iguales. Estas tiras representan porciones de la misma longitud total. Las porciones que tiene son:\n\n- 3/8\n- 6/8\n- 5/8\n\nOrdena estas porciones de menor a mayor tamaño.",
+        "type": "ordering",
+        "options": [],
+        "expected": {
+          "type": "ordering",
+          "correct_order": [
+            2,
+            0,
+            1
+          ]
+        },
+        "learning_focus": "Ordenar porciones de la misma unidad representadas con fracciones de igual denominador.",
+        "option_explanations": [],
+        "pair_explanations": [],
+        "order_explanations": [
+          "3/8 es menor que 5/8 y 6/8 porque 3 es el menor numerador",
+          "5/8 está en medio porque 5 está entre 3 y 6",
+          "6/8 es la mayor porque 6 es el mayor numerador"
+        ],
+        "rubric": "Se evalúa que la secuencia ordene correctamente las fracciones con el mismo denominador de menor a mayor, es decir, según el valor del numerador en orden ascendente. Se acepta cualquier explicación que relacione el número de partes o numeradores con el tamaño de la porción.",
+        "hint": "Recuerda que al tener todas las fracciones el mismo denominador, la comparación depende de los numeradores. ¿Cuál es el número más pequeño y cuál el más grande?",
+        "explanation": "Para ordenar fracciones con igual denominador, solo se debe comparar el numerador. El menor numerador indica la fracción más pequeña. Así, 3/8 < 5/8 < 6/8.",
+        "dimension": "comprension",
+        "items": [
+          "5/8",
+          "6/8",
+          "3/8"
+        ],
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "mathematics",
+        "support_context": {
+          "topic": "Ordenar porciones de la misma unidad representadas con fracciones de igual denominador.",
+          "concept": "Ordenar porciones de la misma unidad representadas con fracciones de igual denominador.",
+          "learning_goal": "Ordenar porciones de la misma unidad representadas con fracciones de igual denominador."
+        },
+        "grade_group": "4-5",
+        "expires_at": 1794006424105
+      },
+      "evaluation": {
+        "result": "correct",
+        "feedback": "Para ordenar fracciones con igual denominador, solo se debe comparar el numerador. El menor numerador indica la fracción más pequeña. Así, 3/8 < 5/8 < 6/8.",
+        "feedbackDetails": [
+          {
+            "label": "Posición 1",
+            "selected": "3/8",
+            "expected": "3/8",
+            "correct": true,
+            "explanation": "3/8 es menor que 5/8 y 6/8 porque 3 es el menor numerador"
+          },
+          {
+            "label": "Posición 2",
+            "selected": "5/8",
+            "expected": "5/8",
+            "correct": true,
+            "explanation": "5/8 está en medio porque 5 está entre 3 y 6"
+          },
+          {
+            "label": "Posición 3",
+            "selected": "6/8",
+            "expected": "6/8",
+            "correct": true,
+            "explanation": "6/8 es la mayor porque 6 es el mayor numerador"
+          }
+        ]
+      },
+      "seconds": 6.309,
+      "pass": true
+    },
+    {
+      "subject": "language",
+      "grade": 7,
+      "module": {
+        "id": "ordering-language",
+        "subject": "language",
+        "title": "Reconstruir la secuencia de acciones de un relato breve en español incluido completo.",
+        "learning_objective": "Reconstruir la secuencia de acciones de un relato breve en español incluido completo.",
+        "core_concept": "Reconstruir la secuencia de acciones de un relato breve en español incluido completo.",
+        "grade_range": "7"
+      },
+      "activity": {
+        "id": "480152d7-2900-40ab-a6a6-337d32f30496",
+        "step_id": "step-language",
+        "question": "Lee el siguiente relato breve y luego ordena las acciones en la secuencia correcta:\n\nEl fin de semana pasado, Ana decidió preparar una sorpresa para su mamá. Primero, fue al mercado para comprar flores frescas. Luego, salió a la plaza para elegir una tarjeta bonita. Después, decoró la casa con las flores y la tarjeta. Finalmente, cuando su mamá llegó, Ana le mostró la sorpresa que había preparado.\n\nOpciones:\n- Ana fue al mercado para comprar flores frescas.\n- Ana decoró la casa con las flores y la tarjeta.\n- Ana salió a la plaza para elegir una tarjeta bonita.\n- Ana mostró la sorpresa a su mamá cuando llegó.\n\n",
+        "type": "ordering",
+        "options": [],
+        "cognitive_dimension": "comprension",
+        "source": "generated",
+        "notice": null,
+        "items": [
+          "Ana salió a la plaza para elegir una tarjeta bonita.",
+          "Ana fue al mercado para comprar flores frescas.",
+          "Ana decoró la casa con las flores y la tarjeta.",
+          "Ana mostró la sorpresa a su mamá cuando llegó."
+        ],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "480152d7-2900-40ab-a6a6-337d32f30496",
+        "user_id": "synthetic",
+        "module_id": "ordering-language",
+        "step_id": "step-language",
+        "question": "Lee el siguiente relato breve y luego ordena las acciones en la secuencia correcta:\n\nEl fin de semana pasado, Ana decidió preparar una sorpresa para su mamá. Primero, fue al mercado para comprar flores frescas. Luego, salió a la plaza para elegir una tarjeta bonita. Después, decoró la casa con las flores y la tarjeta. Finalmente, cuando su mamá llegó, Ana le mostró la sorpresa que había preparado.\n\nOpciones:\n- Ana fue al mercado para comprar flores frescas.\n- Ana decoró la casa con las flores y la tarjeta.\n- Ana salió a la plaza para elegir una tarjeta bonita.\n- Ana mostró la sorpresa a su mamá cuando llegó.\n\n",
+        "type": "ordering",
+        "options": [],
+        "expected": {
+          "type": "ordering",
+          "correct_order": [
+            1,
+            0,
+            2,
+            3
+          ]
+        },
+        "learning_focus": "Reconstruir la secuencia de acciones de un relato breve en español incluido completo.",
+        "option_explanations": [],
+        "pair_explanations": [],
+        "order_explanations": [
+          "Ana fue al mercado para comprar flores frescas porque es la primera acción que Ana hace para preparar la sorpresa.",
+          "Ana salió a la plaza para elegir una tarjeta bonita porque lo hizo después de comprar las flores.",
+          "Ana decoró la casa con las flores y la tarjeta porque esto ocurre tras conseguir los materiales (flores y tarjeta).",
+          "Ana mostró la sorpresa a su mamá cuando llegó porque es la acción final descrita en el relato."
+        ],
+        "rubric": "Evalúa si el estudiante coloca las acciones en el orden temporal correcto según la secuencia del relato: (Ana fue al mercado), luego (Ana salió a la plaza), después (Ana decoró la casa), finalmente (Ana mostró la sorpresa). Se aceptan expresiones equivalentes que respeten esta sucesión temporal.",
+        "hint": "¿Qué hizo Ana primero y qué acción ocurrió justo después? Piensa en qué necesita antes de decorar la casa y qué significa la palabra 'finalmente' en el texto.",
+        "explanation": "El relato presenta claramente la secuencia de acciones: Ana primero compra flores, luego elige la tarjeta, después decora la casa, y finalmente muestra la sorpresa a su mamá. Ordenar siguiendo estas pistas asegura la comprensión correcta del texto.",
+        "dimension": "comprension",
+        "items": [
+          "Ana salió a la plaza para elegir una tarjeta bonita.",
+          "Ana fue al mercado para comprar flores frescas.",
+          "Ana decoró la casa con las flores y la tarjeta.",
+          "Ana mostró la sorpresa a su mamá cuando llegó."
+        ],
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "language",
+        "support_context": {
+          "topic": "Reconstruir la secuencia de acciones de un relato breve en español incluido completo.",
+          "concept": "Reconstruir la secuencia de acciones de un relato breve en español incluido completo.",
+          "learning_goal": "Reconstruir la secuencia de acciones de un relato breve en español incluido completo."
+        },
+        "grade_group": "6-7",
+        "expires_at": 1794006439570
+      },
+      "evaluation": {
+        "result": "correct",
+        "feedback": "El relato presenta claramente la secuencia de acciones: Ana primero compra flores, luego elige la tarjeta, después decora la casa, y finalmente muestra la sorpresa a su mamá. Ordenar siguiendo estas pistas asegura la comprensión correcta del texto.",
+        "feedbackDetails": [
+          {
+            "label": "Posición 1",
+            "selected": "Ana fue al mercado para comprar flores frescas.",
+            "expected": "Ana fue al mercado para comprar flores frescas.",
+            "correct": true,
+            "explanation": "Ana fue al mercado para comprar flores frescas porque es la primera acción que Ana hace para preparar la sorpresa."
+          },
+          {
+            "label": "Posición 2",
+            "selected": "Ana salió a la plaza para elegir una tarjeta bonita.",
+            "expected": "Ana salió a la plaza para elegir una tarjeta bonita.",
+            "correct": true,
+            "explanation": "Ana salió a la plaza para elegir una tarjeta bonita porque lo hizo después de comprar las flores."
+          },
+          {
+            "label": "Posición 3",
+            "selected": "Ana decoró la casa con las flores y la tarjeta.",
+            "expected": "Ana decoró la casa con las flores y la tarjeta.",
+            "correct": true,
+            "explanation": "Ana decoró la casa con las flores y la tarjeta porque esto ocurre tras conseguir los materiales (flores y tarjeta)."
+          },
+          {
+            "label": "Posición 4",
+            "selected": "Ana mostró la sorpresa a su mamá cuando llegó.",
+            "expected": "Ana mostró la sorpresa a su mamá cuando llegó.",
+            "correct": true,
+            "explanation": "Ana mostró la sorpresa a su mamá cuando llegó porque es la acción final descrita en el relato."
+          }
+        ]
+      },
+      "seconds": 15.461,
+      "pass": true
+    },
+    {
+      "subject": "natural_sciences",
+      "grade": 3,
+      "module": {
+        "id": "ordering-natural_sciences",
+        "subject": "natural_sciences",
+        "title": "Ordenar tres acciones de una observación imaginada con dependencias explícitas, sin resultados inventados.",
+        "learning_objective": "Ordenar tres acciones de una observación imaginada con dependencias explícitas, sin resultados inventados.",
+        "core_concept": "Ordenar tres acciones de una observación imaginada con dependencias explícitas, sin resultados inventados.",
+        "grade_range": "3"
+      },
+      "activity": {
+        "id": "5b95749e-0797-45df-98b9-c7ebc7f56b3d",
+        "step_id": "step-natural_sciences",
+        "question": "Mateo va a observar el crecimiento de una planta en su casa. Para hacer su observación, considera estas tres acciones:\n\n- Anotar la altura de la planta cada semana.\n- Regar la planta todos los días.\n- Mirar y describir cómo están las hojas de la planta.\n\n¿Qué orden debe seguir Mateo para hacer una buena observación de la planta?",
+        "type": "ordering",
+        "options": [],
+        "cognitive_dimension": "comprension",
+        "source": "generated",
+        "notice": null,
+        "items": [
+          "Regar la planta todos los días.",
+          "Mirar y describir cómo están las hojas de la planta.",
+          "Anotar la altura de la planta cada semana."
+        ],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "5b95749e-0797-45df-98b9-c7ebc7f56b3d",
+        "user_id": "synthetic",
+        "module_id": "ordering-natural_sciences",
+        "step_id": "step-natural_sciences",
+        "question": "Mateo va a observar el crecimiento de una planta en su casa. Para hacer su observación, considera estas tres acciones:\n\n- Anotar la altura de la planta cada semana.\n- Regar la planta todos los días.\n- Mirar y describir cómo están las hojas de la planta.\n\n¿Qué orden debe seguir Mateo para hacer una buena observación de la planta?",
+        "type": "ordering",
+        "options": [],
+        "expected": {
+          "type": "ordering",
+          "correct_order": [
+            1,
+            0,
+            2
+          ]
+        },
+        "learning_focus": "Ordenar tres acciones de una observación imaginada con dependencias explícitas, sin resultados inventados.",
+        "option_explanations": [],
+        "pair_explanations": [],
+        "order_explanations": [
+          "Es necesario describir la planta primero para saber cómo está antes de cualquier acción.",
+          "Después de conocer la planta, se cuida para que crezca con el riego diario.",
+          "Finalmente, se anotan los cambios en altura que se producen gracias al cuidado y tiempo que pasa."
+        ],
+        "rubric": "Evalúa si el estudiante ordena correctamente las acciones respetando que primero debe observar y describir (tener información inicial), luego cuidar la planta para que crezca y finalmente registrar los cambios anotando la altura semanalmente. Acepta explicaciones que indiquen comprensión de la dependencia entre observar, cuidar y anotar los cambios.",
+        "hint": "Piensa qué debes hacer primero para saber cómo está la planta antes de cuidarla y medir su crecimiento. Luego, para poder anotar cambios, la planta debe estar cuidada.",
+        "explanation": "La estrategia para ordenar es identificar que primero se debe mirar y describir la planta para conocer su estado inicial. Luego, se debe regar para que la planta crezca y cambie. Finalmente, se anotan los cambios observados en la altura semana a semana, es decir, después de haber realizado cuidados y observaciones previas.",
+        "dimension": "comprension",
+        "items": [
+          "Regar la planta todos los días.",
+          "Mirar y describir cómo están las hojas de la planta.",
+          "Anotar la altura de la planta cada semana."
+        ],
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "Ordenar tres acciones de una observación imaginada con dependencias explícitas, sin resultados inventados.",
+          "concept": "Ordenar tres acciones de una observación imaginada con dependencias explícitas, sin resultados inventados.",
+          "learning_goal": "Ordenar tres acciones de una observación imaginada con dependencias explícitas, sin resultados inventados."
+        },
+        "grade_group": "1-3",
+        "expires_at": 1794006447103
+      },
+      "evaluation": {
+        "result": "correct",
+        "feedback": "La estrategia para ordenar es identificar que primero se debe mirar y describir la planta para conocer su estado inicial. Luego, se debe regar para que la planta crezca y cambie. Finalmente, se anotan los cambios observados en la altura semana a semana, es decir, después de haber realizado cuidados y observaciones previas.",
+        "feedbackDetails": [
+          {
+            "label": "Posición 1",
+            "selected": "Mirar y describir cómo están las hojas de la planta.",
+            "expected": "Mirar y describir cómo están las hojas de la planta.",
+            "correct": true,
+            "explanation": "Es necesario describir la planta primero para saber cómo está antes de cualquier acción."
+          },
+          {
+            "label": "Posición 2",
+            "selected": "Regar la planta todos los días.",
+            "expected": "Regar la planta todos los días.",
+            "correct": true,
+            "explanation": "Después de conocer la planta, se cuida para que crezca con el riego diario."
+          },
+          {
+            "label": "Posición 3",
+            "selected": "Anotar la altura de la planta cada semana.",
+            "expected": "Anotar la altura de la planta cada semana.",
+            "correct": true,
+            "explanation": "Finalmente, se anotan los cambios en altura que se producen gracias al cuidado y tiempo que pasa."
+          }
+        ]
+      },
+      "seconds": 7.531,
+      "pass": true
+    },
+    {
+      "subject": "social_studies",
+      "grade": 9,
+      "seconds": 12.331,
+      "error": 503,
+      "reason": "Invalid ordering constraints",
+      "pass": false
+    },
+    {
+      "subject": "english",
+      "grade": 11,
+      "module": {
+        "id": "ordering-english",
+        "subject": "english",
+        "title": "Ordenar cuatro acciones de instrucciones escritas EN INGLÉS con before/after y dependencias explícitas.",
+        "learning_objective": "Ordenar cuatro acciones de instrucciones escritas EN INGLÉS con before/after y dependencias explícitas.",
+        "core_concept": "Ordenar cuatro acciones de instrucciones escritas EN INGLÉS con before/after y dependencias explícitas.",
+        "grade_range": "11"
+      },
+      "activity": {
+        "id": "ce98eef7-fa16-4835-9835-c0c9cfb2e096",
+        "step_id": "step-english",
+        "question": "You have a recipe for making a simple smoothie. Order the steps according to the instructions provided:\n\n- First, gather the ingredients: 1 banana, 1 cup of milk, and 1 tablespoon of honey.\n- Then, peel the banana and cut it into slices.\n- After that, put all the ingredients into a blender.\n- Finally, blend the ingredients until smooth and pour into a glass.",
+        "type": "ordering",
+        "options": [],
+        "cognitive_dimension": "comprension",
+        "source": "generated",
+        "notice": null,
+        "items": [
+          "Put all the ingredients into a blender.",
+          "Blend the ingredients until smooth and pour into a glass.",
+          "Gather the ingredients: 1 banana, 1 cup of milk, and 1 tablespoon of honey.",
+          "Peel the banana and cut it into slices."
+        ],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "ce98eef7-fa16-4835-9835-c0c9cfb2e096",
+        "user_id": "synthetic",
+        "module_id": "ordering-english",
+        "step_id": "step-english",
+        "question": "You have a recipe for making a simple smoothie. Order the steps according to the instructions provided:\n\n- First, gather the ingredients: 1 banana, 1 cup of milk, and 1 tablespoon of honey.\n- Then, peel the banana and cut it into slices.\n- After that, put all the ingredients into a blender.\n- Finally, blend the ingredients until smooth and pour into a glass.",
+        "type": "ordering",
+        "options": [],
+        "expected": {
+          "type": "ordering",
+          "correct_order": [
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        "learning_focus": "Ordenar cuatro acciones de instrucciones escritas EN INGLÉS con before/after y dependencias explícitas.",
+        "option_explanations": [],
+        "pair_explanations": [],
+        "order_explanations": [
+          "Primero se reúnen los ingredientes para tener todo lo necesario.",
+          "Luego se prepara el plátano pelándolo y cortándolo.",
+          "Después se ponen todos los ingredientes en la licuadora, ya preparados.",
+          "Finalmente se mezcla todo y se sirve, el paso final después de tener los ingredientes listos en la licuadora."
+        ],
+        "rubric": "Se evalúa que el estudiante ordene correctamente las acciones según la secuencia lógica y las dependencias explícitas indicadas en el texto. Se acepta cualquier explicación que identifique que primero se reúnen los ingredientes, luego se preparan, después se colocan en la licuadora y finalmente se mezclan.",
+        "hint": "Piensa qué no puede hacerse antes de tener los ingredientes y por qué no puedes licuar antes de cortar el plátano.",
+        "explanation": "Para hacer un smoothie, primero hay que reunir los ingredientes. Luego, se prepara el plátano pelándolo y cortándolo. Después, todos los ingredientes se colocan en la licuadora. Finalmente, se mezcla todo y se sirve. Cada paso depende del anterior para que la siguiente acción sea posible.",
+        "dimension": "comprension",
+        "items": [
+          "Put all the ingredients into a blender.",
+          "Blend the ingredients until smooth and pour into a glass.",
+          "Gather the ingredients: 1 banana, 1 cup of milk, and 1 tablespoon of honey.",
+          "Peel the banana and cut it into slices."
+        ],
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "english",
+        "support_context": {
+          "topic": "Ordenar cuatro acciones de instrucciones escritas EN INGLÉS con before/after y dependencias explícitas.",
+          "concept": "Ordenar cuatro acciones de instrucciones escritas EN INGLÉS con before/after y dependencias explícitas.",
+          "learning_goal": "Ordenar cuatro acciones de instrucciones escritas EN INGLÉS con before/after y dependencias explícitas."
+        },
+        "grade_group": "10-11",
+        "expires_at": 1794006471320
+      },
+      "evaluation": {
+        "result": "correct",
+        "feedback": "Para hacer un smoothie, primero hay que reunir los ingredientes. Luego, se prepara el plátano pelándolo y cortándolo. Después, todos los ingredientes se colocan en la licuadora. Finalmente, se mezcla todo y se sirve. Cada paso depende del anterior para que la siguiente acción sea posible.",
+        "feedbackDetails": [
+          {
+            "label": "Posición 1",
+            "selected": "Gather the ingredients: 1 banana, 1 cup of milk, and 1 tablespoon of honey.",
+            "expected": "Gather the ingredients: 1 banana, 1 cup of milk, and 1 tablespoon of honey.",
+            "correct": true,
+            "explanation": "Primero se reúnen los ingredientes para tener todo lo necesario."
+          },
+          {
+            "label": "Posición 2",
+            "selected": "Peel the banana and cut it into slices.",
+            "expected": "Peel the banana and cut it into slices.",
+            "correct": true,
+            "explanation": "Luego se prepara el plátano pelándolo y cortándolo."
+          },
+          {
+            "label": "Posición 3",
+            "selected": "Put all the ingredients into a blender.",
+            "expected": "Put all the ingredients into a blender.",
+            "correct": true,
+            "explanation": "Después se ponen todos los ingredientes en la licuadora, ya preparados."
+          },
+          {
+            "label": "Posición 4",
+            "selected": "Blend the ingredients until smooth and pour into a glass.",
+            "expected": "Blend the ingredients until smooth and pour into a glass.",
+            "correct": true,
+            "explanation": "Finalmente se mezcla todo y se sirve, el paso final después de tener los ingredientes listos en la licuadora."
+          }
+        ]
+      },
+      "seconds": 11.884,
+      "pass": true
+    }
+  ],
+  "traces": [
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"Juan tiene tres tiras de papel, cada una dividida en 8 partes iguales. Estas tiras representan porciones de la misma longitud total. Las porciones que tiene son:\\n\\n- 3/8\\n- 6/8\\n- 5/8\\n\\nOrdena estas porciones de menor a mayor tamaño.\",\"type\":\"ordering\",\"rubric\":\"Se evalúa que la secuencia ordene correctamente las fracciones con el mismo denominador de menor a mayor, es decir, según el valor del numerador en orden ascendente. Se acepta cualquier explicación que relacione el número de partes o numeradores con el tamaño de la porción.\",\"hint\":\"Recuerda que al tener todas las fracciones el mismo denominador, la comparación depende de los numeradores. ¿Cuál es el número más pequeño y cuál el más grande?\",\"explanation\":\"Para ordenar fracciones con igual denominador, solo se debe comparar el numerador. El menor numerador indica la fracción más pequeña. Así, 3/8 < 5/8 < 6/8.\",\"learning_focus\":\"Ordenar porciones de la misma unidad representadas con fracciones de igual denominador.\",\"items\":[\"3/8\",\"6/8\",\"5/8\"],\"correct_order\":[0,2,1],\"order_explanations\":[\"3/8 es menor que 5/8 y 6/8 porque 3 es el menor numerador\",\"5/8 está en medio porque 5 está entre 3 y 6\",\"6/8 es la mayor porque 6 es el mayor numerador\"],\"order_constraints\":[{\"before\":0,\"after\":2,\"evidence\":\"Ordena estas porciones de menor a mayor tamaño.\"},{\"before\":2,\"after\":1,\"evidence\":\"Ordena estas porciones de menor a mayor tamaño.\"}]}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"Las fracciones dadas son 3/8, 6/8 y 5/8. Todas tienen el mismo denominador, por lo que se comparan los numeradores: 3, 6 y 5. Ordenando de menor a mayor numerador: 3 < 5 < 6. Por tanto, el orden correcto es 3/8, 5/8, 6/8. La clave correcta es [0, 2, 1], que corresponde a esta secuencia. Las explicaciones justifican correctamente el orden basado en los numeradores. Las restricciones de orden también son coherentes con la consigna de ordenar de menor a mayor. La actividad es autocontenida y clara, con datos suficientes para resolverla sin ambigüedades.\",\"approved\":true,\"issue\":\"\"}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"María y sus amigos decidieron participar en un proyecto para embellecer el parque de su barrio. Las acciones que realizaron fueron las siguientes:\\n\\n- Prepararon macetas con tierra y semillas de flores.\\n- Pintaron las bancas del parque para que se vieran más alegres.\\n- Reunieron a todos los vecinos para explicarles el proyecto y pedir ayuda.\\n- Plantaron las flores en distintos lugares del parque para darle color.\\n\\nOrdena estas acciones según ocurrieron en el proyecto para embellecer el parque de María y sus amigos.\",\"type\":\"ordering\",\"rubric\":\"Evalúa si el estudiante ordena correctamente las acciones según la secuencia lógica y temporal del relato, reconociendo la preparación previa, la comunicación con los vecinos, y luego el trabajo práctico de embellecer el parque. Se acepta cualquier explicación que describa esta lógica y justifique el orden con evidencia del texto.\",\"hint\":\"Piensa en qué actividades deben hacerse primero antes de poder realizar las siguientes. ¿Pueden plantar flores sin tener las macetas preparadas primero? ¿Por qué es importante hablar con los vecinos?\",\"explanation\":\"Para embellecer el parque, primero se preparan las macetas con tierra y semillas, luego se reúnen a los vecinos para explicar el proyecto y pedir ayuda, después pintan las bancas del parque y finalmente plantan las flores para darle color. La secuencia entrega un orden lógico y gradual de las actividades del proyecto.\",\"learning_focus\":\"Reconstruir la secuencia de acciones de un relato breve en español incluido completo.\",\"items\":[\"Prepararon macetas con tierra y semillas de flores.\",\"Pintaron las bancas del parque para que se vieran más alegres.\",\"Reunieron a todos los vecinos para explicarles el proyecto y pedir ayuda.\",\"Plantaron las flores en distintos lugares del parque para darle color.\"],\"correct_order\":[0,2,1,3],\"order_explanations\":[\"La preparación de macetas con tierra y semillas debe ser la acción inicial para poder plantar después.\",\"Es necesario explicar el proyecto a los vecinos y pedir ayuda antes de continuar con el trabajo en el parque.\",\"Pintar las bancas es una acción de embellecimiento que se realiza antes de plantar las flores, pero después de organizarse con los vecinos.\",\"Finalmente, plantaron las flores para completar el proyecto y darle color al parque.\"],\"order_constraints\":[{\"before\":0,\"after\":3,\"evidence\":\"Prepararon macetas con tierra y semillas de flores.\"},{\"before\":2,\"after\":1,\"evidence\":\"Reunieron a todos los vecinos para explicarles el proyecto y pedir ayuda.\"},{\"before\":1,\"after\":3,\"evidence\":\"Pintaron las bancas del parque para que se vieran más alegres.\"}]}}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"Lee el siguiente relato breve y luego ordena las acciones en la secuencia correcta:\\n\\nEl fin de semana pasado, Ana decidió preparar una sorpresa para su mamá. Primero, fue al mercado para comprar flores frescas. Luego, salió a la plaza para elegir una tarjeta bonita. Después, decoró la casa con las flores y la tarjeta. Finalmente, cuando su mamá llegó, Ana le mostró la sorpresa que había preparado.\\n\\nOpciones:\\n- Ana fue al mercado para comprar flores frescas.\\n- Ana decoró la casa con las flores y la tarjeta.\\n- Ana salió a la plaza para elegir una tarjeta bonita.\\n- Ana mostró la sorpresa a su mamá cuando llegó.\\n\\n\",\"type\":\"ordering\",\"rubric\":\"Evalúa si el estudiante coloca las acciones en el orden temporal correcto según la secuencia del relato: (Ana fue al mercado), luego (Ana salió a la plaza), después (Ana decoró la casa), finalmente (Ana mostró la sorpresa). Se aceptan expresiones equivalentes que respeten esta sucesión temporal.\",\"hint\":\"¿Qué hizo Ana primero y qué acción ocurrió justo después? Piensa en qué necesita antes de decorar la casa y qué significa la palabra 'finalmente' en el texto.\",\"explanation\":\"El relato presenta claramente la secuencia de acciones: Ana primero compra flores, luego elige la tarjeta, después decora la casa, y finalmente muestra la sorpresa a su mamá. Ordenar siguiendo estas pistas asegura la comprensión correcta del texto.\",\"learning_focus\":\"Reconstruir la secuencia de acciones de un relato breve en español incluido completo.\",\"items\":[\"Ana fue al mercado para comprar flores frescas.\",\"Ana decoró la casa con las flores y la tarjeta.\",\"Ana salió a la plaza para elegir una tarjeta bonita.\",\"Ana mostró la sorpresa a su mamá cuando llegó.\"],\"correct_order\":[0,2,1,3],\"order_explanations\":[\"Ana fue al mercado para comprar flores frescas porque es la primera acción que Ana hace para preparar la sorpresa.\",\"Ana salió a la plaza para elegir una tarjeta bonita porque lo hizo después de comprar las flores.\",\"Ana decoró la casa con las flores y la tarjeta porque esto ocurre tras conseguir los materiales (flores y tarjeta).\",\"Ana mostró la sorpresa a su mamá cuando llegó porque es la acción final descrita en el relato.\"],\"order_constraints\":[{\"before\":0,\"after\":2,\"evidence\":\"Primero, fue al mercado para comprar flores frescas. Luego, salió a la plaza para elegir una tarjeta bonita.\"},{\"before\":2,\"after\":1,\"evidence\":\"Luego, salió a la plaza para elegir una tarjeta bonita. Después, decoró la casa con las flores y la tarjeta.\"},{\"before\":1,\"after\":3,\"evidence\":\"Después, decoró la casa con las flores y la tarjeta. Finalmente, cuando su mamá llegó, Ana le mostró la sorpresa que había preparado.\"}]}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"El relato indica claramente la secuencia: primero Ana fue al mercado para comprar flores, luego salió a la plaza para elegir una tarjeta, después decoró la casa con las flores y la tarjeta, y finalmente mostró la sorpresa a su mamá. Las opciones corresponden a estas acciones y el orden correcto es [0, 2, 1, 3]. Las restricciones de orden están justificadas con citas textuales del relato. La rúbrica y las explicaciones de orden coinciden con esta secuencia. No hay ambigüedad ni falta de datos.\",\"approved\":true,\"issue\":\"\"}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"Mateo va a observar el crecimiento de una planta en su casa. Para hacer su observación, considera estas tres acciones:\\n\\n- Anotar la altura de la planta cada semana.\\n- Regar la planta todos los días.\\n- Mirar y describir cómo están las hojas de la planta.\\n\\n¿Qué orden debe seguir Mateo para hacer una buena observación de la planta?\",\"type\":\"ordering\",\"rubric\":\"Evalúa si el estudiante ordena correctamente las acciones respetando que primero debe observar y describir (tener información inicial), luego cuidar la planta para que crezca y finalmente registrar los cambios anotando la altura semanalmente. Acepta explicaciones que indiquen comprensión de la dependencia entre observar, cuidar y anotar los cambios.\",\"hint\":\"Piensa qué debes hacer primero para saber cómo está la planta antes de cuidarla y medir su crecimiento. Luego, para poder anotar cambios, la planta debe estar cuidada.\",\"explanation\":\"La estrategia para ordenar es identificar que primero se debe mirar y describir la planta para conocer su estado inicial. Luego, se debe regar para que la planta crezca y cambie. Finalmente, se anotan los cambios observados en la altura semana a semana, es decir, después de haber realizado cuidados y observaciones previas.\",\"learning_focus\":\"Ordenar tres acciones de una observación imaginada con dependencias explícitas, sin resultados inventados.\",\"items\":[\"Mirar y describir cómo están las hojas de la planta.\",\"Regar la planta todos los días.\",\"Anotar la altura de la planta cada semana.\"],\"correct_order\":[0,1,2],\"order_explanations\":[\"Es necesario describir la planta primero para saber cómo está antes de cualquier acción.\",\"Después de conocer la planta, se cuida para que crezca con el riego diario.\",\"Finalmente, se anotan los cambios en altura que se producen gracias al cuidado y tiempo que pasa.\"],\"order_constraints\":[{\"before\":0,\"after\":1,\"evidence\":\"Regar la planta todos los días.\"},{\"before\":1,\"after\":2,\"evidence\":\"Anotar la altura de la planta cada semana.\"}]}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"La actividad presenta tres acciones: observar y describir las hojas, regar la planta diariamente y anotar la altura semanalmente. El orden lógico es primero observar y describir para conocer el estado inicial de la planta (ítem 0), luego regar para favorecer el crecimiento (ítem 1), y finalmente anotar la altura para registrar los cambios (ítem 2). Esto respeta la dependencia temporal y lógica entre las acciones. La clave correcta es [0,1,2], que coincide con el orden propuesto. Las explicaciones justifican adecuadamente cada paso y las restricciones de orden son coherentes con el enunciado. No hay ambigüedades ni datos faltantes.\",\"approved\":true,\"issue\":\"\"}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"La clase de sociales tiene un proyecto escolar sobre la historia de Colombia. La profesora dio fechas concretas para cada parte del trabajo. Ordena los siguientes hitos del proyecto según las fechas dadas:  \\n\\n| Hito                             | Fecha       |\\n|---------------------------------|-------------|\\n| Entregar el borrador del informe | 10 de abril |\\n| Realizar la presentación oral    | 25 de abril |\\n| Investigar en la biblioteca      | 22 de marzo |\\n| Corregir el informe final        | 15 de abril |\\n\\n¿En qué orden deben realizarse los hitos?\",\"type\":\"ordering\",\"rubric\":\"Evalúa si el estudiante ordena correctamente los hitos respetando las fechas dadas. Serán correctas las respuestas que sigan el orden cronológico explicado. Cada posición debe justificarse con la fecha asignada al hito en el enunciado.\",\"hint\":\"Considera cuál es la fecha más temprana para saber dónde empieza el orden y sigue con las fechas posteriores para continuar la secuencia.\",\"explanation\":\"Para ordenar correctamente, primero ubicamos el evento con la fecha más cercana al presente (22 de marzo), luego el siguiente (10 de abril), después el siguiente (15 de abril), y finalmente el último evento con la fecha más lejana (25 de abril). Así respetamos el orden cronológico proporcionado.\",\"learning_focus\":\"Ordenar tareas según fechas explícitas en un proyecto para comprender cronologías en Ciencias Sociales.\",\"items\":[\"Investigar en la biblioteca\",\"Entregar el borrador del informe\",\"Corregir el informe final\",\"Realizar la presentación oral\"],\"correct_order\":[2,0,3,1],\"order_explanations\":[\"22 de marzo es la primera fecha: Investigar en la biblioteca debe ser primero.\",\"10 de abril es posterior al 22 de marzo: Entregar el borrador del informe es segundo.\",\"15 de abril sigue al 10 de abril: Corregir el informe final es tercero.\",\"25 de abril es la última fecha: Realizar la presentación oral es cuarto.\"],\"order_constraints\":[{\"before\":2,\"after\":0,\"evidence\":\"Estudiantes deben investigar antes para poder entregar un borrador.\"},{\"before\":0,\"after\":3,\"evidence\":\"Se debe entregar un borrador antes de hacer la corrección final.\"},{\"before\":3,\"after\":1,\"evidence\":\"La corrección final se hace antes de la presentación oral.\"}]}}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"Un grupo de estudiantes realiza un proyecto sobre la flora local. Debe ordenar estas cuatro actividades según la fecha en que se hicieron:\\n\\n| Actividad                 | Fecha         |\\n|---------------------------|---------------|\\n| Buscar información en libros y revistas | 12 de marzo   |\\n| Salir al campo para recolectar muestras | 5 de abril    |\\n| Preparar el informe final  | 20 de abril   |\\n| Revisar y corregir el borrador | 15 de abril   |\",\"type\":\"ordering\",\"rubric\":\"Se evalúa que el estudiante ordene correctamente las actividades según las fechas dadas, de la más antigua a la más reciente. Se acepta cualquier formato ordenado que siga el orden cronológico estricto: 12 de marzo, 5 de abril, 15 de abril, 20 de abril.\",\"hint\":\"Observa bien las fechas y ordénalas de la que tiene el mes y día más antiguo a la más reciente.\",\"explanation\":\"Para ordenar las actividades te fijas en la columna de fechas: primero la del 12 de marzo, luego la del 5 de abril, después la del 15 de abril y finalmente la del 20 de abril. Así obtienes la secuencia cronológica correcta para el proyecto.\",\"learning_focus\":\"Ordenar cuatro hitos de un proyecto escolar ficticio con fechas explícitas, sin cronologías universales.\",\"items\":[\"Buscar información en libros y revistas\",\"Salir al campo para recolectar muestras\",\"Revisar y corregir el borrador\",\"Preparar el informe final\"],\"correct_order\":[0,1,2,3],\"order_explanations\":[\"Buscar información en libros y revistas fue el 12 de marzo, la fecha más antigua.\",\"Salir al campo para recolectar muestras fue el 5 de abril, después de la búsqueda, pero antes del borrador.\",\"Revisar y corregir el borrador fue el 15 de abril, después de salir al campo.\",\"Preparar el informe final fue el 20 de abril, la última actividad que se realizó.\"],\"order_constraints\":[{\"before\":0,\"after\":1,\"evidence\":\"Buscar información en libros y revistas | 12 de marzo   \\nSalir al campo para recolectar muestras | 5 de abril    \"},{\"before\":1,\"after\":2,\"evidence\":\"Salir al campo para recolectar muestras | 5 de abril    \\nRevisar y corregir el borrador | 15 de abril   \"},{\"before\":2,\"after\":3,\"evidence\":\"Revisar y corregir el borrador | 15 de abril   \\nPreparar el informe final  | 20 de abril   \"}]}}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"Four steps are given to prepare a simple English presentation. Read all carefully and then put them in the correct order.\\n\\nA clear sequence is important to finish on time and be ready.\\n\\nSteps:\\n\\n- Write the main ideas you want to explain clearly.\\n- Practice speaking the presentation several times.\\n- Make note cards with keywords to help during the speech.\\n- Organize your notes into an outline to follow while speaking.\",\"type\":\"ordering\",\"rubric\":\"El estudiante debe ordenar correctamente las cuatro acciones según las dependencias lógicas indicadas en el texto en inglés, identificando claramente qué paso debe ocurrir antes y cuál después, especialmente entre organizar notas y preparar las tarjetas, y el momento adecuado para practicar.\",\"hint\":\"¿Qué paso necesitas tener listo antes de hacer tarjetas de ayuda? ¿Puedes practicar antes de tener organizadas tus ideas?\",\"explanation\":\"La organización de notas es necesaria antes de hacer las tarjetas, y ambas deben estar listas para practicar. Primero escribes las ideas (base), luego organizas las notas, preparas las tarjetas y finalmente practicas para presentar bien.\",\"learning_focus\":\"Ordenar cuatro acciones escritas en inglés con dependencias explícitas antes/después\",\"items\":[\"Write the main ideas you want to explain clearly.\",\"Organize your notes into an outline to follow while speaking.\",\"Make note cards with keywords to help during the speech.\",\"Practice speaking the presentation several times.\"],\"correct_order\":[0,1,2,3],\"order_explanations\":[\"Primero se deben escribir las ideas principales para tener el contenido base.\",\"Luego organizar las ideas en un esquema para estructurar la presentación.\",\"Después hacer las tarjetas con palabras clave para apoyar durante el habla.\",\"Finalmente practicar varias veces para mejorar la fluidez y seguridad.\"],\"order_constraints\":[{\"before\":1,\"after\":0,\"evidence\":\"Write the main ideas you want to explain clearly.\\nOrganize your notes into an outline to follow while speaking.\"},{\"before\":2,\"after\":1,\"evidence\":\"Organize your notes into an outline to follow while speaking.\\nMake note cards with keywords to help during the speech.\"},{\"before\":3,\"after\":2,\"evidence\":\"Make note cards with keywords to help during the speech.\\nPractice speaking the presentation several times.\"}]}}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"You have a recipe for making a simple smoothie. Order the steps according to the instructions provided:\\n\\n- First, gather the ingredients: 1 banana, 1 cup of milk, and 1 tablespoon of honey.\\n- Then, peel the banana and cut it into slices.\\n- After that, put all the ingredients into a blender.\\n- Finally, blend the ingredients until smooth and pour into a glass.\",\"type\":\"ordering\",\"rubric\":\"Se evalúa que el estudiante ordene correctamente las acciones según la secuencia lógica y las dependencias explícitas indicadas en el texto. Se acepta cualquier explicación que identifique que primero se reúnen los ingredientes, luego se preparan, después se colocan en la licuadora y finalmente se mezclan.\",\"hint\":\"Piensa qué no puede hacerse antes de tener los ingredientes y por qué no puedes licuar antes de cortar el plátano.\",\"explanation\":\"Para hacer un smoothie, primero hay que reunir los ingredientes. Luego, se prepara el plátano pelándolo y cortándolo. Después, todos los ingredientes se colocan en la licuadora. Finalmente, se mezcla todo y se sirve. Cada paso depende del anterior para que la siguiente acción sea posible.\",\"learning_focus\":\"Ordenar cuatro acciones de instrucciones escritas EN INGLÉS con before/after y dependencias explícitas.\",\"items\":[\"Gather the ingredients: 1 banana, 1 cup of milk, and 1 tablespoon of honey.\",\"Peel the banana and cut it into slices.\",\"Put all the ingredients into a blender.\",\"Blend the ingredients until smooth and pour into a glass.\"],\"correct_order\":[0,1,2,3],\"order_explanations\":[\"Primero se reúnen los ingredientes para tener todo lo necesario.\",\"Luego se prepara el plátano pelándolo y cortándolo.\",\"Después se ponen todos los ingredientes en la licuadora, ya preparados.\",\"Finalmente se mezcla todo y se sirve, el paso final después de tener los ingredientes listos en la licuadora.\"],\"order_constraints\":[{\"before\":0,\"after\":1,\"evidence\":\"Then, peel the banana and cut it into slices.\"},{\"before\":1,\"after\":2,\"evidence\":\"After that, put all the ingredients into a blender.\"},{\"before\":2,\"after\":3,\"evidence\":\"Finally, blend the ingredients until smooth and pour into a glass.\"}]}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"La secuencia lógica para hacer un smoothie es: primero reunir los ingredientes (banana, leche, miel), luego pelar y cortar la banana, después poner todos los ingredientes en la licuadora y finalmente licuar y servir. Las instrucciones usan conectores temporales claros: \\\"First\\\", \\\"Then\\\", \\\"After that\\\", \\\"Finally\\\" que indican el orden. La clave [0,1,2,3] corresponde a: Gather ingredients, Peel and cut banana, Put in blender, Blend and pour. Las restricciones before/after coinciden con esta secuencia y las explicaciones justifican cada paso. No hay ambigüedad ni pasos intercambiables. La actividad es autocontenida y la solución corresponde exactamente a lo pedido.\",\"approved\":true,\"issue\":\"\"}"
+    }
+  ],
+  "databaseCalls": 0,
+  "passed": false
+}

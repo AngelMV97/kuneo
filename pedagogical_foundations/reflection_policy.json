@@ -1,0 +1,224 @@
+{
+  "version": "0.1",
+  "description": "Define cómo generar preguntas metacognitivas que hagan visible el pensamiento del estudiante",
+  
+  "reflection_goal": "Hacer visible el pensamiento del estudiante para que tome conciencia de su propio proceso cognitivo.",
+  
+  "when_to_reflect": [
+    {
+      "moment": "after_success_in_transfer",
+      "reason": "Student successfully applied concept in new context",
+      "question_type": "how_did_you_know"
+    },
+    {
+      "moment": "after_overcoming_difficulty",
+      "reason": "Student struggled but eventually succeeded",
+      "question_type": "what_changed_in_your_thinking"
+    },
+    {
+      "moment": "end_of_module",
+      "reason": "Step 8 (metacognicion) always prompts reflection",
+      "question_type": "synthesis_and_application"
+    },
+    {
+      "moment": "after_error_analysis",
+      "reason": "Student identified a misconception",
+      "question_type": "what_error_would_you_avoid"
+    }
+  ],
+  
+  "question_types": [
+    {
+      "type": "how_did_you_know",
+      "purpose": "Explicitar la estrategia o razonamiento usado",
+      "examples": [
+        "¿Cómo supiste que esa era la respuesta correcta?",
+        "¿Qué te ayudó a decidir entre las opciones?",
+        "¿En qué te fijaste para resolver esto?"
+      ],
+      "grade_adaptation": {
+        "4-5": "¿En qué te fijaste?",
+        "6-7": "¿Qué te ayudó a decidir?",
+        "8-9": "¿Qué estrategia usaste?",
+        "10-11": "¿Qué razonamiento te llevó a esa conclusión?"
+      }
+    },
+    {
+      "type": "what_changed_in_your_thinking",
+      "purpose": "Identificar el momento de insight o cambio conceptual",
+      "examples": [
+        "¿Qué cambió en tu forma de pensar sobre esto?",
+        "¿Qué entiendes ahora que no entendías antes?",
+        "¿Cuándo te diste cuenta de qué hacer?"
+      ],
+      "grade_adaptation": {
+        "4-5": "¿Qué entiendes ahora?",
+        "6-7": "¿Qué cambió en tu idea?",
+        "8-9": "¿Cuándo te diste cuenta de la solución?",
+        "10-11": "¿Qué insight cambió tu comprensión?"
+      }
+    },
+    {
+      "type": "where_else_would_this_apply",
+      "purpose": "Promover transferencia y conexión con otros contextos",
+      "examples": [
+        "¿Dónde más podrías usar esta idea?",
+        "¿En qué otra situación de tu vida esto sería útil?",
+        "¿Qué otros problemas podrías resolver con esto?"
+      ],
+      "grade_adaptation": {
+        "4-5": "¿Dónde más usarías esto?",
+        "6-7": "¿En qué otra situación esto te serviría?",
+        "8-9": "¿Qué otros problemas podrías resolver así?",
+        "10-11": "¿Cómo generalizarías este concepto a otros contextos?"
+      }
+    },
+    {
+      "type": "what_error_would_you_avoid",
+      "purpose": "Consolidar aprendizaje desde errores",
+      "examples": [
+        "¿Qué error tratarías de evitar la próxima vez?",
+        "¿Qué confusión quedó clara ahora?",
+        "¿Qué harías distinto si ves un problema parecido?"
+      ],
+      "grade_adaptation": {
+        "4-5": "¿Qué harías distinto?",
+        "6-7": "¿Qué error ya no cometerías?",
+        "8-9": "¿Qué confusión quedó resuelta?",
+        "10-11": "¿Qué misconception identificaste y cómo la superaste?"
+      }
+    },
+    {
+      "type": "synthesis_and_application",
+      "purpose": "Sintetizar aprendizaje del módulo completo",
+      "examples": [
+        "¿Qué aprendiste sobre [concepto]?",
+        "¿Cómo describirías [concepto] a un compañero?",
+        "¿Para qué te sirve entender [concepto]?"
+      ],
+      "grade_adaptation": {
+        "4-5": "¿Qué aprendiste?",
+        "6-7": "¿Cómo explicarías esto a alguien más?",
+        "8-9": "¿Para qué te sirve esto?",
+        "10-11": "¿Cómo integrarías este concepto con lo que ya sabías?"
+      }
+    },
+    {
+      "type": "self_assessment",
+      "purpose": "Evaluar confianza y nivel de dominio autopercibido",
+      "examples": [
+        "¿Qué tan seguro te sientes con esto ahora?",
+        "¿Qué parte te queda más clara y cuál necesita más práctica?",
+        "¿Podrías enseñarle esto a alguien más?"
+      ],
+      "grade_adaptation": {
+        "4-5": "¿Te sientes seguro con esto?",
+        "6-7": "¿Qué parte entiendes mejor?",
+        "8-9": "¿Qué tan confiado estás con este tema?",
+        "10-11": "¿Qué aspectos dominas y cuáles requieren más profundización?"
+      }
+    }
+  ],
+  
+  "avoid": [
+    {
+      "antipattern": "preguntas_muy_abstractas_en_primaria",
+      "example": "❌ ¿Cómo epistemológicamente has construido este conocimiento? (grado 4)",
+      "reason": "Lenguaje inaccesible para edad"
+    },
+    {
+      "antipattern": "reflexiones_largas",
+      "example": "❌ Escribe 3 párrafos sobre tu experiencia de aprendizaje",
+      "reason": "Demasiado demandante, rompe el flujo"
+    },
+    {
+      "antipattern": "culpabilizar_el_error",
+      "example": "❌ ¿Por qué fallaste tantas veces?",
+      "reason": "Genera vergüenza, no reflexión"
+    },
+    {
+      "antipattern": "preguntas_cerradas",
+      "example": "❌ ¿Aprendiste algo? (sí/no)",
+      "reason": "No promueve pensamiento visible"
+    },
+    {
+      "antipattern": "reflexion_obligatoria_sin_contexto",
+      "example": "❌ Reflexiona sobre tu aprendizaje (sin especificar qué)",
+      "reason": "Demasiado vago, estudiante no sabe qué responder"
+    }
+  ],
+  
+  "reflection_format": {
+    "short_reflection": {
+      "format": "1-2 sentences written response",
+      "when": "After transfer or error analysis step",
+      "example": "¿Qué estrategia te ayudó más?"
+    },
+    "guided_reflection": {
+      "format": "Multiple choice + optional elaboration",
+      "when": "Younger grades (4-5) or when student struggling",
+      "example": {
+        "question": "¿Qué te ayudó a resolver esto?",
+        "options": [
+          "Ver el dibujo",
+          "Pensar en un ejemplo",
+          "Recordar la regla",
+          "Probar varias veces"
+        ],
+        "elaboration": "¿Quieres agregar algo más?"
+      }
+    },
+    "open_reflection": {
+      "format": "Open-ended text response",
+      "when": "Older grades (8-11) or end of module",
+      "example": "Describe cómo cambió tu comprensión de fracciones durante este módulo."
+    },
+    "confidence_scale": {
+      "format": "Visual scale + optional explanation",
+      "when": "Self-assessment moments",
+      "example": {
+        "question": "¿Qué tan seguro te sientes con fracciones equivalentes?",
+        "scale": ["Necesito más ayuda", "Entiendo lo básico", "Me siento seguro", "Podría explicarlo a alguien"]
+      }
+    }
+  },
+  
+  "timing": {
+    "max_reflections_per_module": 3,
+    "mandatory_reflection_step": 8,
+    "optional_reflection_moments": [
+      "after step 6 (transfer) if success",
+      "after step 7 (error_analysis) if misconception resolved"
+    ],
+    "min_time_between_reflections_seconds": 120
+  },
+  
+  "response_handling": {
+    "student_skips_reflection": {
+      "action": "allow_skip",
+      "reason": "Reflection is formative, not mandatory for progression"
+    },
+    "student_gives_minimal_response": {
+      "action": "accept_and_maybe_prompt_gently",
+      "example": "Si estudiante responde 'No sé' → 'Está bien. ¿Hubo algún momento donde sentiste que entendiste mejor?'"
+    },
+    "student_gives_rich_reflection": {
+      "action": "acknowledge_briefly",
+      "example": "Esa es una observación valiosa sobre tu proceso."
+    }
+  },
+  
+  "integration_with_adaptive_engine": {
+    "use_reflection_responses_to": [
+      "Detect confidence level",
+      "Identify which strategies work for this student",
+      "Personalize future hints based on stated preferences",
+      "Flag if student repeatedly says 'I don't understand' → trigger remedial path"
+    ],
+    "do_not_use_reflection_to": [
+      "Grade or score the student",
+      "Require 'correct' reflections",
+      "Penalize minimal responses"
+    ]
+  }
+}

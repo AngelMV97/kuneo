@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-04T15:24:47.516Z",
+  "scope": "Synthetic generation/support only; no users or Supabase writes. Public drafts excluded from correctness claims until final validation.",
+  "activities": [
+    {
+      "subject": "mathematics",
+      "grade": 2,
+      "requested": "matching",
+      "actual": "matching",
+      "activity": {
+        "id": "ddcc9d4a-bfd8-4e34-8e0a-252520faa114",
+        "step_id": "objective-mathematics",
+        "question": "Para organizar varios grupos de objetos, necesitas encontrar sus cantidades totales. Relaciona cada suma (7 + 7; 8 + 4; 1 + 3) con su resultado en la columna derecha.",
+        "type": "matching",
+        "options": [],
+        "cognitive_dimension": "transferencia",
+        "source": "computed",
+        "notice": null,
+        "left_items": [
+          "7 + 7",
+          "8 + 4",
+          "1 + 3"
+        ],
+        "right_items": [
+          "4",
+          "12",
+          "14"
+        ],
+        "visual_template_key": null
+      },
+      "first_text_ms": 2,
+      "total_ms": 3,
+      "preview_events": 1
+    }
+  ],
+  "supports": [],
+  "summary": {
+    "activities_ready": 1,
+    "activities_total": 1,
+    "format_matches": 1,
+    "supports_ready": 0,
+    "supports_total": 0,
+    "first_text": {
+      "samples": 1,
+      "p50_ms": 2,
+      "p95_ms": 2,
+      "min_ms": 2,
+      "max_ms": 2
+    },
+    "complete_activity": {
+      "samples": 1,
+      "p50_ms": 3,
+      "p95_ms": 3,
+      "min_ms": 3,
+      "max_ms": 3
+    }
+  }
+}

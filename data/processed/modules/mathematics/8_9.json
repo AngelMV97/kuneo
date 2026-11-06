@@ -1,0 +1,3221 @@
+[
+  {
+    "module_id": "fd012ccd-ece9-494a-a93c-41e6ccd88d25",
+    "source_unit_id": "4232a509-68be-4406-bf92-0e07acf365ff",
+    "source": "standard",
+    "subject": "mathematics",
+    "grade_range": "8-9",
+    "difficulty": 4,
+    "title": "¿Cómo entender numeros_y_operaciones?",
+    "learning_objective": "Utilizo números reales en sus diferentes representaciones y en diversos contextos.",
+    "context": "Vamos a explorar numeros_y_operaciones a partir de una situación sencilla y cercana.",
+    "core_concept": "numeros_y_operaciones",
+    "concepts": [
+      "reading",
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "representational_thinking",
+    "skills": [],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por numeros_y_operaciones? Explícalo con tus palabras.",
+      "expected_signals": [
+        "reading",
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [],
+    "error_map": {
+      "misconception_1": {
+        "description": "creer que la interpretación de un texto es única",
+        "pattern": "creer que la interpretación de un texto es única",
+        "feedback": "Revisemos esta idea: creer que la interpretación de un texto es única",
+        "visual": "idea_evidence_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre numeros_y_operaciones?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender numeros_y_operaciones?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "idea_evidence_map",
+        "trigger": "creer que la interpretación de un texto es única",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "structure_mode": "math",
+        "axis": "numerico_sistemas_numericos",
+        "axis_name": "numerico_sistemas_numericos"
+      }
+    }
+  },
+  {
+    "module_id": "e0789166-f447-4112-a684-7b2c28c989bf",
+    "source_unit_id": "a71e823d-a9df-417f-ac32-e0a3ef6f1fb4",
+    "source": "standard",
+    "subject": "mathematics",
+    "grade_range": "8-9",
+    "difficulty": 4,
+    "title": "¿Cómo entender numeros_y_operaciones?",
+    "learning_objective": "Resuelvo problemas y simplifico cálculos usando propiedades y relaciones de los números reales y de las relaciones y operaciones entre ellos.",
+    "context": "Vamos a explorar numeros_y_operaciones a partir de una situación sencilla y cercana.",
+    "core_concept": "numeros_y_operaciones",
+    "concepts": [],
+    "cognitive_type": "problem_solving",
+    "skills": [],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por numeros_y_operaciones? Explícalo con tus palabras.",
+      "expected_signals": [],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre numeros_y_operaciones?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender numeros_y_operaciones?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "structure_mode": "math",
+        "axis": "numerico_sistemas_numericos",
+        "axis_name": "numerico_sistemas_numericos"
+      }
+    }
+  },
+  {
+    "module_id": "38ca5316-3ef1-42a0-b17f-a341cc34a2ed",
+    "source_unit_id": "05ab1086-ce98-4fef-8935-91d92dc8a0ed",
+    "source": "standard",
+    "subject": "mathematics",
+    "grade_range": "8-9",
+    "difficulty": 4,
+    "title": "¿Cómo entender sistema_metrico?",
+    "learning_objective": "Utilizo la notación científica para representar medidas de cantidades de diferentes magnitudes.",
+    "context": "Vamos a explorar sistema_metrico a partir de una situación sencilla y cercana.",
+    "core_concept": "sistema_metrico",
+    "concepts": [],
+    "cognitive_type": "representational_thinking",
+    "skills": [],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por sistema_metrico? Explícalo con tus palabras.",
+      "expected_signals": [],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre sistema_metrico?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender sistema_metrico?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "structure_mode": "math",
+        "axis": "numerico_sistemas_numericos",
+        "axis_name": "numerico_sistemas_numericos"
+      }
+    }
+  },
+  {
+    "module_id": "dd760c04-e55f-4888-8b82-d8796b40c5d7",
+    "source_unit_id": "fc98fd4b-cb7d-4cc5-b028-ed4e0f7bcd90",
+    "source": "standard",
+    "subject": "mathematics",
+    "grade_range": "8-9",
+    "difficulty": 4,
+    "title": "¿Cómo entender potenciacion?",
+    "learning_objective": "Identifico y utilizo la potenciación, la radicación y la logaritmación para representar situaciones matemáticas y no matemáticas y para resolver problemas.",
+    "context": "Vamos a explorar potenciacion a partir de una situación sencilla y cercana.",
+    "core_concept": "potenciacion",
+    "concepts": [
+      "potenciacion"
+    ],
+    "cognitive_type": "representational_thinking",
+    "skills": [],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por potenciacion? Explícalo con tus palabras.",
+      "expected_signals": [
+        "potenciacion"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre potenciacion?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender potenciacion?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "structure_mode": "math",
+        "axis": "numerico_sistemas_numericos",
+        "axis_name": "numerico_sistemas_numericos"
+      }
+    }
+  },
+  {
+    "module_id": "2f6628b2-bdb8-4f53-aa10-5fcd04daa56c",
+    "source_unit_id": "8db79f6c-a38a-4082-8cba-0db567af3373",
+    "source": "standard",
+    "subject": "mathematics",
+    "grade_range": "8-9",
+    "difficulty": 4,
+    "title": "¿Cómo entender numeros_y_operaciones?",
+    "learning_objective": "Conjeturo y verifico propiedades de congruencias y semejanzas entre fi guras bidimensionales y entre objetos tridimensionales en la solución de problemas.",
+    "context": "Vamos a explorar numeros_y_operaciones a partir de una situación sencilla y cercana.",
+    "core_concept": "numeros_y_operaciones",
+    "concepts": [],
+    "cognitive_type": "problem_solving",
+    "skills": [],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por numeros_y_operaciones? Explícalo con tus palabras.",
+      "expected_signals": [],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre numeros_y_operaciones?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender numeros_y_operaciones?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "structure_mode": "math",
+        "axis": "espacial_sistemas_geometricos",
+        "axis_name": "espacial_sistemas_geometricos"
+      }
+    }
+  },
+  {
+    "module_id": "6910be7a-f9bd-47d8-9c0b-78ebe0ea78a7",
+    "source_unit_id": "080f1af2-cdd2-4044-81dd-25a2b4e3e771",
+    "source": "standard",
+    "subject": "mathematics",
+    "grade_range": "8-9",
+    "difficulty": 4,
+    "title": "¿Cómo entender numeros_y_operaciones?",
+    "learning_objective": "Reconozco y contrasto propiedades y relaciones geométricas utilizadas en demostración de teoremas básicos (Pitágoras y Tales).",
+    "context": "Vamos a explorar numeros_y_operaciones a partir de una situación sencilla y cercana.",
+    "core_concept": "numeros_y_operaciones",
+    "concepts": [],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por numeros_y_operaciones? Explícalo con tus palabras.",
+      "expected_signals": [],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre numeros_y_operaciones?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender numeros_y_operaciones?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "structure_mode": "math",
+        "axis": "espacial_sistemas_geometricos",
+        "axis_name": "espacial_sistemas_geometricos"
+      }
+    }
+  },
+  {
+    "module_id": "a2e56442-fec6-434e-9ba6-4a6cca2874be",
+    "source_unit_id": "38e3cc67-e8e3-4755-bad1-78ecd2013caf",
+    "source": "standard",
+    "subject": "mathematics",
+    "grade_range": "8-9",
+    "difficulty": 4,
+    "title": "¿Cómo entender geometria?",
+    "learning_objective": "Aplico y justifico criterios de congruencias y semejanza entre triángulos en la resolución y formulación de problemas.",
+    "context": "Vamos a explorar geometria a partir de una situación sencilla y cercana.",
+    "core_concept": "geometria",
+    "concepts": [],
+    "cognitive_type": "problem_solving",
+    "skills": [],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por geometria? Explícalo con tus palabras.",
+      "expected_signals": [],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre geometria?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender geometria?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "structure_mode": "math",
+        "axis": "espacial_sistemas_geometricos",
+        "axis_name": "espacial_sistemas_geometricos"
+      }
+    }
+  },
+  {
+    "module_id": "1901fb28-77df-4d1f-a955-893c2d009951",
+    "source_unit_id": "a785f845-7bcd-4d02-bb2d-382783ddc778",
+    "source": "standard",
+    "subject": "mathematics",
+    "grade_range": "8-9",
+    "difficulty": 4,
+    "title": "¿Cómo entender numeros_y_operaciones?",
+    "learning_objective": "Uso representaciones geométricas para resolver y formular problemas en las matemáticas y en otras disciplinas.",
+    "context": "Vamos a explorar numeros_y_operaciones a partir de una situación sencilla y cercana.",
+    "core_concept": "numeros_y_operaciones",
+    "concepts": [],
+    "cognitive_type": "representational_thinking",
+    "skills": [],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por numeros_y_operaciones? Explícalo con tus palabras.",
+      "expected_signals": [],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre numeros_y_operaciones?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender numeros_y_operaciones?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "structure_mode": "math",
+        "axis": "espacial_sistemas_geometricos",
+        "axis_name": "espacial_sistemas_geometricos"
+      }
+    }
+  },
+  {
+    "module_id": "e8b4ac5c-e2da-4605-bc87-d813623798f8",
+    "source_unit_id": "61c628c8-9034-4618-8d8c-01e28720d9be",
+    "source": "standard",
+    "subject": "mathematics",
+    "grade_range": "8-9",
+    "difficulty": 4,
+    "title": "¿Cómo entender area_perimetro?",
+    "learning_objective": "Generalizo procedimientos de cálculo válidos para encontrar el área de regiones planas y el volumen de sólidos.",
+    "context": "Vamos a explorar area_perimetro a partir de una situación sencilla y cercana.",
+    "core_concept": "area_perimetro",
+    "concepts": [
+      "area_perimetro",
+      "volumen"
+    ],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por area_perimetro? Explícalo con tus palabras.",
+      "expected_signals": [
+        "area_perimetro",
+        "volumen"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [],
+    "error_map": {
+      "misconception_1": {
+        "description": "creer que figuras con igual área siempre tienen igual perímetro",
+        "pattern": "creer que figuras con igual área siempre tienen igual perímetro",
+        "feedback": "Revisemos esta idea: creer que figuras con igual área siempre tienen igual perímetro",
+        "visual": "area_perimeter_comparison",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre area_perimetro?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender area_perimetro?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "area_perimeter_comparison",
+        "trigger": "creer que figuras con igual área siempre tienen igual perímetro",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "structure_mode": "math",
+        "axis": "metrico_sistemas_medidas",
+        "axis_name": "metrico_sistemas_medidas"
+      }
+    }
+  },
+  {
+    "module_id": "63bf9e7f-172c-477d-8868-70e4dc1af2a5",
+    "source_unit_id": "b5d3befe-7a00-4197-8f5d-fec04896a38d",
+    "source": "standard",
+    "subject": "mathematics",
+    "grade_range": "8-9",
+    "difficulty": 4,
+    "title": "¿Cómo entender area_perimetro?",
+    "learning_objective": "Selecciono y uso técnicas e instrumentos para medir longitudes, áreas de superfi cies, volúmenes y ángulos con niveles de precisión apropiados.",
+    "context": "Vamos a explorar area_perimetro a partir de una situación sencilla y cercana.",
+    "core_concept": "area_perimetro",
+    "concepts": [
+      "area_perimetro"
+    ],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por area_perimetro? Explícalo con tus palabras.",
+      "expected_signals": [
+        "area_perimetro"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [],
+    "error_map": {
+      "misconception_1": {
+        "description": "creer que figuras con igual área siempre tienen igual perímetro",
+        "pattern": "creer que figuras con igual área siempre tienen igual perímetro",
+        "feedback": "Revisemos esta idea: creer que figuras con igual área siempre tienen igual perímetro",
+        "visual": "area_perimeter_comparison",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre area_perimetro?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender area_perimetro?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "area_perimeter_comparison",
+        "trigger": "creer que figuras con igual área siempre tienen igual perímetro",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "structure_mode": "math",
+        "axis": "metrico_sistemas_medidas",
+        "axis_name": "metrico_sistemas_medidas"
+      }
+    }
+  },
+  {
+    "module_id": "49a9a927-c544-4980-b133-38c4193044c1",
+    "source_unit_id": "30da1ff2-e608-4899-a608-3e24e062ad2d",
+    "source": "standard",
+    "subject": "mathematics",
+    "grade_range": "8-9",
+    "difficulty": 4,
+    "title": "¿Cómo entender sistema_metrico?",
+    "learning_objective": "Justifico la pertinencia de utilizar unidades de medida estandarizadas en situaciones tomadas de distintas ciencias.",
+    "context": "Vamos a explorar sistema_metrico a partir de una situación sencilla y cercana.",
+    "core_concept": "sistema_metrico",
+    "concepts": [],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por sistema_metrico? Explícalo con tus palabras.",
+      "expected_signals": [],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre sistema_metrico?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender sistema_metrico?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "structure_mode": "math",
+        "axis": "metrico_sistemas_medidas",
+        "axis_name": "metrico_sistemas_medidas"
+      }
+    }
+  },
+  {
+    "module_id": "c8df5199-6b8b-46e5-8156-1f1945e6d100",
+    "source_unit_id": "89b5f9ed-1176-4dc0-bcf8-7fa2deafb72e",
+    "source": "standard",
+    "subject": "mathematics",
+    "grade_range": "8-9",
+    "difficulty": 4,
+    "title": "¿Cómo entender numeros_y_operaciones?",
+    "learning_objective": "Reconozco cómo diferentes maneras de presentación de información pueden originar distintas interpretaciones.",
+    "context": "Vamos a explorar numeros_y_operaciones a partir de una situación sencilla y cercana.",
+    "core_concept": "numeros_y_operaciones",
+    "concepts": [
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "interpretation",
+    "skills": [],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por numeros_y_operaciones? Explícalo con tus palabras.",
+      "expected_signals": [
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre numeros_y_operaciones?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender numeros_y_operaciones?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "structure_mode": "math",
+        "axis": "aleatorio_sistemas_datos",
+        "axis_name": "aleatorio_sistemas_datos"
+      }
+    }
+  },
+  {
+    "module_id": "cc380980-8828-47ee-8cb5-ee4169ea301b",
+    "source_unit_id": "1ea9d1a9-e3a9-49ff-ae9e-21730cada5d7",
+    "source": "standard",
+    "subject": "mathematics",
+    "grade_range": "8-9",
+    "difficulty": 4,
+    "title": "¿Cómo entender estadistica?",
+    "learning_objective": "Interpreto analítica y críticamente información estadística proveniente de diversas fuentes (prensa, revistas, televisión, experimentos, consultas, entrevistas.",
+    "context": "Vamos a explorar estadistica a partir de una situación sencilla y cercana.",
+    "core_concept": "estadistica",
+    "concepts": [],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por estadistica? Explícalo con tus palabras.",
+      "expected_signals": [],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre estadistica?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender estadistica?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "structure_mode": "math",
+        "axis": "aleatorio_sistemas_datos",
+        "axis_name": "aleatorio_sistemas_datos"
+      }
+    }
+  },
+  {
+    "module_id": "3c16ee49-927e-48ee-96be-c26ae2f39809",
+    "source_unit_id": "e1c44b17-3333-4984-bdb8-d9fee8a73e7f",
+    "source": "standard",
+    "subject": "mathematics",
+    "grade_range": "8-9",
+    "difficulty": 4,
+    "title": "¿Cómo entender estadistica?",
+    "learning_objective": "Interpreto y utilizo conceptos de media, mediana y moda y explicito sus diferencias en distribuciones de distinta dispersión y asimetría.",
+    "context": "Vamos a explorar estadistica a partir de una situación sencilla y cercana.",
+    "core_concept": "estadistica",
+    "concepts": [
+      "estadistica"
+    ],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por estadistica? Explícalo con tus palabras.",
+      "expected_signals": [
+        "estadistica"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [],
+    "error_map": {
+      "misconception_1": {
+        "description": "confundir promedio con valor representativo en todos los casos",
+        "pattern": "confundir promedio con valor representativo en todos los casos",
+        "feedback": "Revisemos esta idea: confundir promedio con valor representativo en todos los casos",
+        "visual": "concept_map",
+        "intervention_level": 2
+      },
+      "misconception_2": {
+        "description": "pensar que la mediana siempre es igual al promedio",
+        "pattern": "pensar que la mediana siempre es igual al promedio",
+        "feedback": "Revisemos esta idea: pensar que la mediana siempre es igual al promedio",
+        "visual": "concept_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre estadistica?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender estadistica?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "concept_map",
+        "trigger": "confundir promedio con valor representativo en todos los casos",
+        "intervention_level": 2
+      },
+      {
+        "error_key": "misconception_2",
+        "visual_template": "concept_map",
+        "trigger": "pensar que la mediana siempre es igual al promedio",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "structure_mode": "math",
+        "axis": "aleatorio_sistemas_datos",
+        "axis_name": "aleatorio_sistemas_datos"
+      }
+    }
+  },
+  {
+    "module_id": "86bbd877-569c-481e-81d7-d482c4abc51b",
+    "source_unit_id": "62f3551b-fe26-4a2a-95c6-255cc12ac9eb",
+    "source": "standard",
+    "subject": "mathematics",
+    "grade_range": "8-9",
+    "difficulty": 4,
+    "title": "¿Cómo entender proporcionalidad?",
+    "learning_objective": "Selecciono y uso algunos métodos estadísticos adecuados al tipo de problema, de información y al nivel de la escala en la que esta se representa (nominal, ordinal, de intervalo o de razón).",
+    "context": "Vamos a explorar proporcionalidad a partir de una situación sencilla y cercana.",
+    "core_concept": "proporcionalidad",
+    "concepts": [
+      "proporcionalidad",
+      "fracciones"
+    ],
+    "cognitive_type": "representational_thinking",
+    "skills": [],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por proporcionalidad? Explícalo con tus palabras.",
+      "expected_signals": [
+        "proporcionalidad",
+        "fracciones"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "proportion_table_graph",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre proporcionalidad?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender proporcionalidad?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "proportion_table_graph",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "structure_mode": "math",
+        "axis": "aleatorio_sistemas_datos",
+        "axis_name": "aleatorio_sistemas_datos"
+      }
+    }
+  },
+  {
+    "module_id": "65135d28-a0d0-48d2-8f3e-c4e77197cc7b",
+    "source_unit_id": "bad9c9bf-3318-4d9a-a459-276f59631695",
+    "source": "standard",
+    "subject": "mathematics",
+    "grade_range": "8-9",
+    "difficulty": 4,
+    "title": "¿Cómo entender probabilidad?",
+    "learning_objective": "Comparo resultados de experimentos aleatorios con los resultados previstos por un modelo matemático probabilístico.",
+    "context": "Vamos a explorar probabilidad a partir de una situación sencilla y cercana.",
+    "core_concept": "probabilidad",
+    "concepts": [
+      "probabilidad"
+    ],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por probabilidad? Explícalo con tus palabras.",
+      "expected_signals": [
+        "probabilidad"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "sample_space_diagram",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre probabilidad?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender probabilidad?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "sample_space_diagram",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "structure_mode": "math",
+        "axis": "aleatorio_sistemas_datos",
+        "axis_name": "aleatorio_sistemas_datos"
+      }
+    }
+  },
+  {
+    "module_id": "b274b57f-07b2-463f-a0b1-10ce003d60b9",
+    "source_unit_id": "ff892dd1-abb6-4b85-b217-fbbf2a372272",
+    "source": "standard",
+    "subject": "mathematics",
+    "grade_range": "8-9",
+    "difficulty": 4,
+    "title": "¿Cómo entender estadistica?",
+    "learning_objective": "Resuelvo y formulo problemas seleccionando información relevante en conjuntos de datos provenientes de fuentes diversas (prensa, revistas, televisión, experimentos, consultas, entrevistas).",
+    "context": "Vamos a explorar estadistica a partir de una situación sencilla y cercana.",
+    "core_concept": "estadistica",
+    "concepts": [
+      "estadistica"
+    ],
+    "cognitive_type": "problem_solving",
+    "skills": [],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por estadistica? Explícalo con tus palabras.",
+      "expected_signals": [
+        "estadistica"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre estadistica?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender estadistica?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "structure_mode": "math",
+        "axis": "aleatorio_sistemas_datos",
+        "axis_name": "aleatorio_sistemas_datos"
+      }
+    }
+  },
+  {
+    "module_id": "8dcdf005-1e5b-416f-8a43-e921dddfd5ad",
+    "source_unit_id": "9f00ac51-0460-4b2d-9fb5-d7e765bfd2c4",
+    "source": "standard",
+    "subject": "mathematics",
+    "grade_range": "8-9",
+    "difficulty": 4,
+    "title": "¿Cómo entender numeros_y_operaciones?",
+    "learning_objective": "Reconozco tendencias que se presentan en conjuntos de variables relacionadas.",
+    "context": "Vamos a explorar numeros_y_operaciones a partir de una situación sencilla y cercana.",
+    "core_concept": "numeros_y_operaciones",
+    "concepts": [],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por numeros_y_operaciones? Explícalo con tus palabras.",
+      "expected_signals": [],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre numeros_y_operaciones?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender numeros_y_operaciones?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "structure_mode": "math",
+        "axis": "aleatorio_sistemas_datos",
+        "axis_name": "aleatorio_sistemas_datos"
+      }
+    }
+  },
+  {
+    "module_id": "abe14a5b-6133-4556-9bad-6c5f8c23d4b5",
+    "source_unit_id": "7ee34011-1b4a-42da-8955-74c0d3576b29",
+    "source": "standard",
+    "subject": "mathematics",
+    "grade_range": "8-9",
+    "difficulty": 4,
+    "title": "¿Cómo entender fracciones?",
+    "learning_objective": "Calculo probabilidad de eventos simples usando métodos diversos (listados, diagramas de árbol, técnicas de conteo).",
+    "context": "Vamos a explorar fracciones a partir de una situación sencilla y cercana.",
+    "core_concept": "fracciones",
+    "concepts": [
+      "fracciones",
+      "probabilidad"
+    ],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por fracciones? Explícalo con tus palabras.",
+      "expected_signals": [
+        "fracciones",
+        "probabilidad"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [],
+    "error_map": {
+      "misconception_1": {
+        "description": "creer que un evento probable siempre ocurrirá",
+        "pattern": "creer que un evento probable siempre ocurrirá",
+        "feedback": "Revisemos esta idea: creer que un evento probable siempre ocurrirá",
+        "visual": "fraction_part_whole",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre fracciones?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender fracciones?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "fraction_part_whole",
+        "trigger": "creer que un evento probable siempre ocurrirá",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "structure_mode": "math",
+        "axis": "aleatorio_sistemas_datos",
+        "axis_name": "aleatorio_sistemas_datos"
+      }
+    }
+  },
+  {
+    "module_id": "38d00d3b-8b69-4bcd-a955-8dda4345d4e7",
+    "source_unit_id": "b38fc2f3-56c2-4120-bc0b-dd5a9ac96cdd",
+    "source": "standard",
+    "subject": "mathematics",
+    "grade_range": "8-9",
+    "difficulty": 4,
+    "title": "¿Cómo entender proporcionalidad?",
+    "learning_objective": "Uso conceptos básicos de probabilidad (espacio muestral, evento, independencia, etc.).",
+    "context": "Vamos a explorar proporcionalidad a partir de una situación sencilla y cercana.",
+    "core_concept": "proporcionalidad",
+    "concepts": [
+      "proporcionalidad",
+      "territorio",
+      "probabilidad"
+    ],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por proporcionalidad? Explícalo con tus palabras.",
+      "expected_signals": [
+        "proporcionalidad",
+        "territorio",
+        "probabilidad"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [],
+    "error_map": {
+      "misconception_1": {
+        "description": "creer que un evento probable siempre ocurrirá",
+        "pattern": "creer que un evento probable siempre ocurrirá",
+        "feedback": "Revisemos esta idea: creer que un evento probable siempre ocurrirá",
+        "visual": "proportion_table_graph",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre proporcionalidad?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender proporcionalidad?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "proportion_table_graph",
+        "trigger": "creer que un evento probable siempre ocurrirá",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "structure_mode": "math",
+        "axis": "aleatorio_sistemas_datos",
+        "axis_name": "aleatorio_sistemas_datos"
+      }
+    }
+  },
+  {
+    "module_id": "5ffaf6f2-3ec1-4c93-a197-03ff368c6cbe",
+    "source_unit_id": "f772027a-e9c9-4bf7-ba84-312726a73336",
+    "source": "standard",
+    "subject": "mathematics",
+    "grade_range": "8-9",
+    "difficulty": 4,
+    "title": "¿Cómo entender ecuaciones?",
+    "learning_objective": "Identifico relaciones entre propiedades de las gráfi cas y propiedades de las ecuaciones algebraicas.",
+    "context": "Vamos a explorar ecuaciones a partir de una situación sencilla y cercana.",
+    "core_concept": "ecuaciones",
+    "concepts": [],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por ecuaciones? Explícalo con tus palabras.",
+      "expected_signals": [],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre ecuaciones?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender ecuaciones?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "structure_mode": "math",
+        "axis": "variacional_sistemas_algebraicos_analiticos",
+        "axis_name": "variacional_sistemas_algebraicos_analiticos"
+      }
+    }
+  },
+  {
+    "module_id": "e0105004-954a-465c-8c74-2e20cfca2fcf",
+    "source_unit_id": "4e0b0661-6e19-4a55-8af6-06d42bda5e8c",
+    "source": "standard",
+    "subject": "mathematics",
+    "grade_range": "8-9",
+    "difficulty": 4,
+    "title": "¿Cómo entender numeros_y_operaciones?",
+    "learning_objective": "Construyo expresiones algebraicas equivalentes a una expresión algebraica dada.",
+    "context": "Vamos a explorar numeros_y_operaciones a partir de una situación sencilla y cercana.",
+    "core_concept": "numeros_y_operaciones",
+    "concepts": [],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por numeros_y_operaciones? Explícalo con tus palabras.",
+      "expected_signals": [],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre numeros_y_operaciones?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender numeros_y_operaciones?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "structure_mode": "math",
+        "axis": "variacional_sistemas_algebraicos_analiticos",
+        "axis_name": "variacional_sistemas_algebraicos_analiticos"
+      }
+    }
+  },
+  {
+    "module_id": "c34cbb82-da9e-4f2c-bb3b-55b186ac6944",
+    "source_unit_id": "36b31d61-2061-4568-97fb-ea65f54f4972",
+    "source": "standard",
+    "subject": "mathematics",
+    "grade_range": "8-9",
+    "difficulty": 4,
+    "title": "¿Cómo entender numeros_y_operaciones?",
+    "learning_objective": "Uso procesos inductivos y lenguaje algebraico para formular y poner a prueba conjeturas.",
+    "context": "Vamos a explorar numeros_y_operaciones a partir de una situación sencilla y cercana.",
+    "core_concept": "numeros_y_operaciones",
+    "concepts": [],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por numeros_y_operaciones? Explícalo con tus palabras.",
+      "expected_signals": [],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre numeros_y_operaciones?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender numeros_y_operaciones?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "structure_mode": "math",
+        "axis": "variacional_sistemas_algebraicos_analiticos",
+        "axis_name": "variacional_sistemas_algebraicos_analiticos"
+      }
+    }
+  },
+  {
+    "module_id": "c9ddfffe-7eb8-4598-adf1-30094db7d8e9",
+    "source_unit_id": "dee7ba96-a36d-4dd1-ac73-725ae45b8952",
+    "source": "standard",
+    "subject": "mathematics",
+    "grade_range": "8-9",
+    "difficulty": 4,
+    "title": "¿Cómo entender proporcionalidad?",
+    "learning_objective": "Modelo situaciones de variación con funciones polinómicas.",
+    "context": "Vamos a explorar proporcionalidad a partir de una situación sencilla y cercana.",
+    "core_concept": "proporcionalidad",
+    "concepts": [
+      "proporcionalidad"
+    ],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por proporcionalidad? Explícalo con tus palabras.",
+      "expected_signals": [
+        "proporcionalidad"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "proportion_table_graph",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre proporcionalidad?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender proporcionalidad?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "proportion_table_graph",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "structure_mode": "math",
+        "axis": "variacional_sistemas_algebraicos_analiticos",
+        "axis_name": "variacional_sistemas_algebraicos_analiticos"
+      }
+    }
+  },
+  {
+    "module_id": "9c79709a-6424-493b-a13e-cb124bbb79d4",
+    "source_unit_id": "ad58b4f7-3a29-464c-ba04-4a6007e5b46b",
+    "source": "standard",
+    "subject": "mathematics",
+    "grade_range": "8-9",
+    "difficulty": 4,
+    "title": "¿Cómo entender fracciones?",
+    "learning_objective": "Identifico diferentes métodos para solucionar sistemas de ecuaciones lineales.",
+    "context": "Vamos a explorar fracciones a partir de una situación sencilla y cercana.",
+    "core_concept": "fracciones",
+    "concepts": [
+      "fracciones"
+    ],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por fracciones? Explícalo con tus palabras.",
+      "expected_signals": [
+        "fracciones"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "fraction_part_whole",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre fracciones?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender fracciones?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "fraction_part_whole",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "structure_mode": "math",
+        "axis": "variacional_sistemas_algebraicos_analiticos",
+        "axis_name": "variacional_sistemas_algebraicos_analiticos"
+      }
+    }
+  },
+  {
+    "module_id": "86ab7cd7-61ac-46e8-96fe-6e2855e49af7",
+    "source_unit_id": "0777a3c7-dc3a-4873-abec-59579900fd96",
+    "source": "standard",
+    "subject": "mathematics",
+    "grade_range": "8-9",
+    "difficulty": 4,
+    "title": "¿Cómo entender numeros_y_operaciones?",
+    "learning_objective": "Analizo los procesos infinitos que subyacen en las notaciones decimales.",
+    "context": "Vamos a explorar numeros_y_operaciones a partir de una situación sencilla y cercana.",
+    "core_concept": "numeros_y_operaciones",
+    "concepts": [],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por numeros_y_operaciones? Explícalo con tus palabras.",
+      "expected_signals": [],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre numeros_y_operaciones?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender numeros_y_operaciones?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "structure_mode": "math",
+        "axis": "variacional_sistemas_algebraicos_analiticos",
+        "axis_name": "variacional_sistemas_algebraicos_analiticos"
+      }
+    }
+  },
+  {
+    "module_id": "db567637-1ff5-4aa5-842e-5ed3f267b2c3",
+    "source_unit_id": "fa6f41d7-a3d0-4662-8ec2-ce96ef2cdee6",
+    "source": "standard",
+    "subject": "mathematics",
+    "grade_range": "8-9",
+    "difficulty": 4,
+    "title": "¿Cómo entender proporcionalidad?",
+    "learning_objective": "Identifico y utilizo diferentes maneras de defi nir y medir la pendiente de una curva que representa en el plano cartesiano situaciones de variación.",
+    "context": "Vamos a explorar proporcionalidad a partir de una situación sencilla y cercana.",
+    "core_concept": "proporcionalidad",
+    "concepts": [
+      "proporcionalidad",
+      "plano_cartesiano"
+    ],
+    "cognitive_type": "representational_thinking",
+    "skills": [],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por proporcionalidad? Explícalo con tus palabras.",
+      "expected_signals": [
+        "proporcionalidad",
+        "plano_cartesiano"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "proportion_table_graph",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre proporcionalidad?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender proporcionalidad?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "proportion_table_graph",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "structure_mode": "math",
+        "axis": "variacional_sistemas_algebraicos_analiticos",
+        "axis_name": "variacional_sistemas_algebraicos_analiticos"
+      }
+    }
+  },
+  {
+    "module_id": "d3b2fc0d-169e-4a7f-b57d-d2dce11de3c4",
+    "source_unit_id": "37bc015e-ec9e-4292-864d-e3ac620cdf39",
+    "source": "standard",
+    "subject": "mathematics",
+    "grade_range": "8-9",
+    "difficulty": 4,
+    "title": "¿Cómo entender estadistica?",
+    "learning_objective": "Identifico la relación entre los cambios en los parámetros de la representación algebraica de una familia de funciones y los cambios en las gráficas que las representan.",
+    "context": "Vamos a explorar estadistica a partir de una situación sencilla y cercana.",
+    "core_concept": "estadistica",
+    "concepts": [],
+    "cognitive_type": "representational_thinking",
+    "skills": [],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por estadistica? Explícalo con tus palabras.",
+      "expected_signals": [],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre estadistica?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender estadistica?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "structure_mode": "math",
+        "axis": "variacional_sistemas_algebraicos_analiticos",
+        "axis_name": "variacional_sistemas_algebraicos_analiticos"
+      }
+    }
+  },
+  {
+    "module_id": "0b0f4668-d41e-42b7-a51c-97c5842566b0",
+    "source_unit_id": "1148f298-64c4-46f7-9e2f-243616fe7c3f",
+    "source": "standard",
+    "subject": "mathematics",
+    "grade_range": "8-9",
+    "difficulty": 4,
+    "title": "¿Cómo entender fracciones?",
+    "learning_objective": "Analizo en representaciones gráficas cartesianas los comportamientos de cambio de funciones específicas pertenecientes a familias de funciones polinómicas, racionales, exponenciales y logarítmicas.",
+    "context": "Vamos a explorar fracciones a partir de una situación sencilla y cercana.",
+    "core_concept": "fracciones",
+    "concepts": [
+      "fracciones"
+    ],
+    "cognitive_type": "representational_thinking",
+    "skills": [],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por fracciones? Explícalo con tus palabras.",
+      "expected_signals": [
+        "fracciones"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "fraction_part_whole",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre fracciones?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender fracciones?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "fraction_part_whole",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "structure_mode": "math",
+        "axis": "variacional_sistemas_algebraicos_analiticos",
+        "axis_name": "variacional_sistemas_algebraicos_analiticos"
+      }
+    }
+  }
+]

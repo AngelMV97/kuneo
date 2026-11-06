@@ -1,0 +1,1508 @@
+[
+  {
+    "module_id": "2b994047-7c43-4543-a037-e892a9b7135b",
+    "source_unit_id": "bc3c1eda-2f81-402f-ae75-ac990344b022",
+    "source": "dba",
+    "subject": "social_studies",
+    "grade_range": "4",
+    "difficulty": 2,
+    "title": "¿Cómo analizar una situación social?",
+    "learning_objective": "Comprende la importancia de los límites geográficos y el establecimiento de las fronteras en la organización de los territorios.",
+    "context": "transeúntes y vehículos atravesando una zona fronteriza.",
+    "core_concept": "territorio",
+    "concepts": [
+      "fracciones",
+      "territorio",
+      "potenciacion",
+      "lectura_inferencial",
+      "sociedad",
+      "estadistica"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "comprender",
+      "comprender",
+      "explicar",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué sabes sobre territorio?",
+      "expected_signals": [
+        "fracciones",
+        "territorio",
+        "potenciacion",
+        "lectura_inferencial",
+        "sociedad",
+        "estadistica"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "5cc891c4-2075-4e59-95fc-27ba00893cbf",
+        "evidence_source": "Reconoce los límites geográficos de Colombia a partir de la lectura de un mapa político.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Reconoce los límites geográficos de Colombia a partir de la lectura de un mapa político.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de territorio.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 1
+      },
+      {
+        "id": "021b856f-f389-4b51-aa45-2886ea6fb122",
+        "evidence_source": "Describe actividades económicas y culturales que se dan entre los países que comparten fronteras con Colombia.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Describe actividades económicas y culturales que se dan entre los países que comparten fronteras con Colombia.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de territorio.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 2
+      },
+      {
+        "id": "125b46ad-ca38-4eb5-97df-932f053b1257",
+        "evidence_source": "Explica la importancia de las fronteras colombianas como un punto de encuentro con los pueblos vecinos y documenta situaciones vividas recientemente con los países limítrofes.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica la importancia de las fronteras colombianas como un punto de encuentro con los pueblos vecinos y documenta situaciones vividas recientemente con los países limítrofes.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de territorio.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 2,
+        "order": 3
+      },
+      {
+        "id": "5b8d8ed3-ae80-4a63-a61a-d750e3aad2d9",
+        "evidence_source": "Contrasta los límites de los departamentos en que se divide el territorio colombiano con base en su ubicación geográfica y su extensión.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Contrasta los límites de los departamentos en que se divide el territorio colombiano con base en su ubicación geográfica y su extensión.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de territorio.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "representacion"
+        ],
+        "difficulty": 2,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre territorio?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender territorio?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 1
+      }
+    }
+  },
+  {
+    "module_id": "40eae726-bb3a-4abb-b98d-3a1816b5091e",
+    "source_unit_id": "afb41439-9994-4026-9201-b983eb959691",
+    "source": "dba",
+    "subject": "social_studies",
+    "grade_range": "4",
+    "difficulty": 2,
+    "title": "¿Cómo analizar una situación social?",
+    "learning_objective": "Diferencia las características geográficas del medio urbano y el medio rural, mediante el reconocimiento de la concentración de la población y el uso del suelo, que se da en ellos.",
+    "context": "ilustración de una zona urbana e ilustración de una zona rural.",
+    "core_concept": "territorio",
+    "concepts": [
+      "estadistica",
+      "lectura_inferencial",
+      "territorio"
+    ],
+    "cognitive_type": "representational_thinking",
+    "skills": [
+      "comprender",
+      "identificar",
+      "comparar",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué sabes sobre territorio?",
+      "expected_signals": [
+        "estadistica",
+        "lectura_inferencial",
+        "territorio"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "29d924c1-5c28-4d87-92e1-3bc08da8b655",
+        "evidence_source": "Reconoce los usos del suelo propios de las ciudades (comercial, industrial, habitacional, deportivo y educativo, entre otros) y los del campo (agrícola, ganadero, minero, forestal y turístico, entre otros) a partir de la lectura de mapas temáticos.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Reconoce los usos del suelo propios de las ciudades (comercial, industrial, habitacional, deportivo y educativo, entre otros) y los del campo (agrícola, ganadero, minero, forestal y turístico, entre otros) a partir de la lectura de mapas temáticos.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de territorio.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 1
+      },
+      {
+        "id": "6095dd8e-51db-4b5c-95c2-fd31c0ba2ca1",
+        "evidence_source": "Identifica cambios generados en el uso del suelo tanto de las ciudades colombianas como de los espacios rurales en la última década.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con territorio y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de territorio.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 2
+      },
+      {
+        "id": "458df5aa-238b-4fb7-920e-61920506b4c4",
+        "evidence_source": "Compara la cantidad de habitantes que viven en las ciudades colombianas con la población ubicada en los sectores rurales (a partir de la información del último censo de población realizado en el país o de otra fuente).",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Compara la cantidad de habitantes que viven en las ciudades colombianas con la población ubicada en los sectores rurales (a partir de la información del último censo de población realizado en el país o de otra fuente).",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de territorio.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 3
+      },
+      {
+        "id": "1c5fdcb6-db08-4421-bc00-3b8b02023c83",
+        "evidence_source": "Expresa razones por las cuales actualmente la población se concentra más en las ciudades que en el campo.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Expresa razones por las cuales actualmente la población se concentra más en las ciudades que en el campo.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de territorio.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "confundir promedio con valor representativo en todos los casos",
+        "pattern": "confundir promedio con valor representativo en todos los casos",
+        "feedback": "Revisemos esta idea: confundir promedio con valor representativo en todos los casos",
+        "visual": "concept_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre territorio?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender territorio?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "concept_map",
+        "trigger": "confundir promedio con valor representativo en todos los casos",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 2
+      }
+    }
+  },
+  {
+    "module_id": "566476b5-f33a-4139-97b7-8059180f9dd2",
+    "source_unit_id": "92d3a5a7-0ba8-4ae7-9beb-73f86efb6afb",
+    "source": "dba",
+    "subject": "social_studies",
+    "grade_range": "4",
+    "difficulty": 2,
+    "title": "¿Cómo analizar una situación social?",
+    "learning_objective": "Comprende las razones de algunos cambios socioculturales en Colombia, motivados en los últimos años por el uso de la tecnología.",
+    "context": "evolución de las formas de comunicación internacionales (carta, telegrama e internet).",
+    "core_concept": "sociedad",
+    "concepts": [
+      "sociedad",
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "explicar",
+      "comprender",
+      "comprender",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué sabes sobre sociedad?",
+      "expected_signals": [
+        "sociedad",
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "a1ddd942-b190-48aa-b777-90893242efc0",
+        "evidence_source": "Explica cómo era la vida de los pueblos cuando no existía la energía eléctrica, el acueducto, el alcantarillado y el servicio de teléfono, entre otros.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica cómo era la vida de los pueblos cuando no existía la energía eléctrica, el acueducto, el alcantarillado y el servicio de teléfono, entre otros.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 2,
+        "order": 1
+      },
+      {
+        "id": "a952fdee-6d1c-4a20-914f-b33354ef8d73",
+        "evidence_source": "Relaciona el acceso a las tecnologías de la salud como los hospitales, las vacunas, y los medicamentos, con el bienestar de las familias.",
+        "type": "matching",
+        "prompt": "Trabajemos esta evidencia: Relaciona el acceso a las tecnologías de la salud como los hospitales, las vacunas, y los medicamentos, con el bienestar de las familias.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 2
+      },
+      {
+        "id": "379a1541-d23c-4642-9dbe-3871af268988",
+        "evidence_source": "Describe la importancia de los medios de comunicación en el desarrollo de la política y la cultura ciudadana del país.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Describe la importancia de los medios de comunicación en el desarrollo de la política y la cultura ciudadana del país.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 3
+      },
+      {
+        "id": "438929bd-c6ea-4854-92e9-b973bddf8c5a",
+        "evidence_source": "Expresa sus opiniones sobre los cambios generados en las relaciones con su familia, desde el uso del teléfono, la TV y el Internet entre otras tecnologías y, deduce los efectos que han tenido en la vida de las personas.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Expresa sus opiniones sobre los cambios generados en las relaciones con su familia, desde el uso del teléfono, la TV y el Internet entre otras tecnologías y, deduce los efectos que han tenido en la vida de las personas.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre sociedad?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender sociedad?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 3
+      }
+    }
+  },
+  {
+    "module_id": "83ee6b61-e90d-4289-b146-8d55f53957ce",
+    "source_unit_id": "01d58ade-579d-46e0-916a-a695c3c5027e",
+    "source": "dba",
+    "subject": "social_studies",
+    "grade_range": "4",
+    "difficulty": 2,
+    "title": "¿Cómo analizar una situación social?",
+    "learning_objective": "Analiza las características de las culturas ancestrales que a la llegada de los españoles, habitaban el territorio nacional.",
+    "context": "grupo indígena ancestral y elementos ancestrales.",
+    "core_concept": "sociedad",
+    "concepts": [
+      "sociedad",
+      "territorio"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "comprender",
+      "comparar",
+      "comprender",
+      "explicar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué sabes sobre sociedad?",
+      "expected_signals": [
+        "sociedad",
+        "territorio"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "23c0d53d-e878-400b-8d42-8a3ea0944d81",
+        "evidence_source": "Reconoce los diferentes pueblos indígenas pertenecientes a las familias lingüísticas que habitaban el territorio colombiano (Chibcha, Caribe y Arawak) y los ubica espacialmente.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Reconoce los diferentes pueblos indígenas pertenecientes a las familias lingüísticas que habitaban el territorio colombiano (Chibcha, Caribe y Arawak) y los ubica espacialmente.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 1
+      },
+      {
+        "id": "d17d2304-d64c-4b64-a2ce-3df522260e40",
+        "evidence_source": "Compara las organizaciones sociales, económicas y religiosas de los pueblos ancestrales que habitaron el territorio colombiano (muiscas, taironas, calimas y zenúes, entre otros).",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Compara las organizaciones sociales, económicas y religiosas de los pueblos ancestrales que habitaron el territorio colombiano (muiscas, taironas, calimas y zenúes, entre otros).",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 2
+      },
+      {
+        "id": "e2f56ffe-851d-4214-b637-c7fe8223fb04",
+        "evidence_source": "Busca información en diferentes fuentes sobre los legados culturales de las comunidades indígenas y describe su situación actual.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Busca información en diferentes fuentes sobre los legados culturales de las comunidades indígenas y describe su situación actual.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 3
+      },
+      {
+        "id": "1bdcd7c3-92fd-4bcd-b7af-ddb51b63355e",
+        "evidence_source": "Explica las razones por las cuales la población indígena se vio reducida con la llegada de los europeos.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica las razones por las cuales la población indígena se vio reducida con la llegada de los europeos.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 2,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre sociedad?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender sociedad?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 4
+      }
+    }
+  },
+  {
+    "module_id": "5f2d0636-d293-454d-805a-c82a21dde1d7",
+    "source_unit_id": "4547a20a-1fd1-447f-a0fb-e688e06ec281",
+    "source": "dba",
+    "subject": "social_studies",
+    "grade_range": "4",
+    "difficulty": 2,
+    "title": "¿Cómo analizar una situación social?",
+    "learning_objective": "Evalúa la diversidad étnica y cultural del pueblo colombiano desde el reconocimiento de los grupos humanos existentes en el país: afrodescendientes, raizales, mestizos, indígenas y blancos.",
+    "context": "diversidad en la cultura étnica y de identidad presente en la población colombiana.",
+    "core_concept": "sociedad",
+    "concepts": [
+      "sociedad",
+      "territorio"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "identificar",
+      "explicar",
+      "comprender",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué sabes sobre sociedad?",
+      "expected_signals": [
+        "sociedad",
+        "territorio"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "cf610336-e639-4d7c-aa9f-f73ef596dec5",
+        "evidence_source": "Identifica las características de los diferentes grupos humanos presentes en el territorio nacional.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con sociedad y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 1
+      },
+      {
+        "id": "71800ffc-adf7-4708-b3f4-0dc913703c59",
+        "evidence_source": "Explica tradiciones y costumbres propias de los diversos grupos humanos del país respecto de la alimentación, la vivienda y su cosmovisión.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica tradiciones y costumbres propias de los diversos grupos humanos del país respecto de la alimentación, la vivienda y su cosmovisión.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 2,
+        "order": 2
+      },
+      {
+        "id": "870f4229-7137-49ee-8c40-5d76ad522307",
+        "evidence_source": "Describe el intercambio de saberes que históricamente se ha dado entre las diversas culturas existentes en Colombia y sus aportes a la construcción de la idiosincrasia colombiana.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Describe el intercambio de saberes que históricamente se ha dado entre las diversas culturas existentes en Colombia y sus aportes a la construcción de la idiosincrasia colombiana.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 3
+      },
+      {
+        "id": "2fecd65f-8319-4918-8525-9fb3eaca9b9c",
+        "evidence_source": "Reconoce la importancia de preservar y fomentar las manifestaciones culturales de los diferentes grupos humanos presentes en el territorio nacional y que contribuyen a construir una sociedad más justa.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Reconoce la importancia de preservar y fomentar las manifestaciones culturales de los diferentes grupos humanos presentes en el territorio nacional y que contribuyen a construir una sociedad más justa.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre sociedad?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender sociedad?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 5
+      }
+    }
+  },
+  {
+    "module_id": "7ede755f-773e-41c6-9179-6d2c64a3cc94",
+    "source_unit_id": "10654176-e9cc-49f7-ba31-d4a1b42795c4",
+    "source": "dba",
+    "subject": "social_studies",
+    "grade_range": "4",
+    "difficulty": 2,
+    "title": "¿Cómo analizar una situación social?",
+    "learning_objective": "Comprende la importancia de la división de poderes en una democracia y la forma como funciona en Colombia.",
+    "context": "persona ejerciendo su derecho al voto.",
+    "core_concept": "democracia",
+    "concepts": [
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "comprender",
+      "comprender",
+      "explicar",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué sabes sobre democracia?",
+      "expected_signals": [
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "4a03c94e-5c2f-42ba-a04c-6c96132fb0b6",
+        "evidence_source": "Diferencia las ramas del poder público (Legislativa, Ejecutiva y Judicial), sus funciones e importancia en el equilibrio de poderes.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Diferencia las ramas del poder público (Legislativa, Ejecutiva y Judicial), sus funciones e importancia en el equilibrio de poderes.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de democracia.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 1
+      },
+      {
+        "id": "b98f52a8-f045-4979-8a7d-5ca5fbd853b2",
+        "evidence_source": "Reconoce la importancia del voto popular como mecanismo de participación para ejercer la democracia en Colombia a partir del análisis de casos.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Reconoce la importancia del voto popular como mecanismo de participación para ejercer la democracia en Colombia a partir del análisis de casos.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de democracia.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 2
+      },
+      {
+        "id": "5379cfda-f0f0-4b91-9ce3-36e3db899d0f",
+        "evidence_source": "Explica las responsabilidades de los cargos de elección popular (personeros estudiantiles, alcaldes, concejales, gobernadores, diputados, congresistas, presidente de la república).",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica las responsabilidades de los cargos de elección popular (personeros estudiantiles, alcaldes, concejales, gobernadores, diputados, congresistas, presidente de la república).",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de democracia.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 2,
+        "order": 3
+      },
+      {
+        "id": "3339070b-4323-4b96-8e4c-75c07e6cd261",
+        "evidence_source": "Describe el papel de los órganos de control procuraduría, contraloría y la defensoría del",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Describe el papel de los órganos de control procuraduría, contraloría y la defensoría del",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de democracia.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre democracia?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender democracia?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 6
+      }
+    }
+  },
+  {
+    "module_id": "de04967d-8f94-4007-b675-503a15a291bb",
+    "source_unit_id": "dfa577c6-ebde-4226-ac91-d9636f81ddc6",
+    "source": "dba",
+    "subject": "social_studies",
+    "grade_range": "4",
+    "difficulty": 2,
+    "title": "¿Cómo analizar una situación social?",
+    "learning_objective": "Analiza los derechos que protegen la niñez y los deberes que deben cumplirse en una sociedad democrática para el desarrollo de una sana convivencia.",
+    "context": "representación ilustrativa de los derechos de la infancia.",
+    "core_concept": "sociedad",
+    "concepts": [
+      "sociedad",
+      "probabilidad"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "comprender",
+      "comprender",
+      "comprender",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué sabes sobre sociedad?",
+      "expected_signals": [
+        "sociedad",
+        "probabilidad"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "5556f388-fc19-4c13-9baa-301578098aa3",
+        "evidence_source": "Describe los derechos de la niñez y asume una posición crítica frente a situaciones de discriminación y abuso por irrespeto a rasgos individuales de las personas.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Describe los derechos de la niñez y asume una posición crítica frente a situaciones de discriminación y abuso por irrespeto a rasgos individuales de las personas.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 1
+      },
+      {
+        "id": "841d4fe3-b255-4457-b711-6f9185003abf",
+        "evidence_source": "Se identifica como un sujeto de derechos con unos deberes para con la comunidad educativa desde su participación en diferentes eventos escolares.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con sociedad y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 2
+      },
+      {
+        "id": "9c0164d0-f3e5-4e21-8542-98143661ff8e",
+        "evidence_source": "Reconoce las personas, instituciones y autoridades a las que puede acudir para la protección y defensa de los derechos de la niñez y explica cómo buscar apoyo de ser necesario, en la personería estudiantil, el comité de convivencia escolar, la comisaría de familia, el Instituto Colombiano de Bienestar Familiar (ICBF) y/o la Policía Nacional.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Reconoce las personas, instituciones y autoridades a las que puede acudir para la protección y defensa de los derechos de la niñez y explica cómo buscar apoyo de ser necesario, en la personería estudiantil, el comité de convivencia escolar, la comisaría de familia, el Instituto Colombiano de Bienestar Familiar (ICBF) y/o la Policía Nacional.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 2,
+        "order": 3
+      },
+      {
+        "id": "01939ebf-12a4-4321-b184-aa023bf201a0",
+        "evidence_source": "Describe situaciones en las que se ven vulnerados los derechos de la niñez y propone posibles soluciones para resolverlas.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Describe situaciones en las que se ven vulnerados los derechos de la niñez y propone posibles soluciones para resolverlas.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre sociedad?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender sociedad?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 7
+      }
+    }
+  },
+  {
+    "module_id": "3e2e1618-8403-441d-ace0-26f86dc49f8e",
+    "source_unit_id": "18cf8726-5582-4549-8ca7-b7143574fc64",
+    "source": "dba",
+    "subject": "social_studies",
+    "grade_range": "4",
+    "difficulty": 2,
+    "title": "¿Cómo analizar una situación social?",
+    "learning_objective": "Evalúa la importancia de satisfacer las necesidades básicas para el bienestar individual, familiar y colectivo.",
+    "context": "['A partir del diálogo con sus padres, realiza un listado de las necesidades básicas de la familia, las jerarquiza, diferencia los costos de los servicios básicos que requieren y elabora conclusiones de lo estudiado.']",
+    "core_concept": "sociedad",
+    "concepts": [
+      "sociedad",
+      "fracciones",
+      "territorio"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "identificar",
+      "comprender",
+      "comprender",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué sabes sobre sociedad?",
+      "expected_signals": [
+        "sociedad",
+        "fracciones",
+        "territorio"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "cc99fad0-ddd4-4848-91b3-a666d3c5e377",
+        "evidence_source": "Identifica las necesidades básicas de todo ser humano (vivienda, alimentación, salud, educación y empleo) y explica si se satisfacen en su comunidad.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con sociedad y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 2,
+        "order": 1
+      },
+      {
+        "id": "c6f31f7b-508c-423f-9cec-6dcc825c6e0f",
+        "evidence_source": "Clasifica en orden de importancia las necesidades básicas que presentan los habitantes del territorio colombiano en la actualidad.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Clasifica en orden de importancia las necesidades básicas que presentan los habitantes del territorio colombiano en la actualidad.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 2
+      },
+      {
+        "id": "4f96231a-7b22-4a1e-b28a-fb872e7bb458",
+        "evidence_source": "Reconoce los factores económicos, sociales y políticos que influyen en la satisfacción de las necesidades básicas de las personas en la sociedad colombiana.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Reconoce los factores económicos, sociales y políticos que influyen en la satisfacción de las necesidades básicas de las personas en la sociedad colombiana.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 3
+      },
+      {
+        "id": "845250e1-182a-4bb5-a00a-707be4a6c4e3",
+        "evidence_source": "Expresa la responsabilidad que conlleva ser parte de una comunidad y sugiere posibles actuaciones en la búsqueda de la satisfacción de las necesidades básicas.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Expresa la responsabilidad que conlleva ser parte de una comunidad y sugiere posibles actuaciones en la búsqueda de la satisfacción de las necesidades básicas.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre sociedad?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender sociedad?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 8
+      }
+    }
+  }
+]

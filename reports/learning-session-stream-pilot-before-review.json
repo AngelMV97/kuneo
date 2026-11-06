@@ -1,0 +1,696 @@
+{
+  "date": "2026-11-04T15:04:50.997Z",
+  "scope": "Synthetic generation/support only; no users or Supabase writes. Public drafts excluded from correctness claims until final validation.",
+  "activities": [
+    {
+      "subject": "mathematics",
+      "grade": 2,
+      "requested": "option",
+      "actual": "option",
+      "activity": {
+        "id": "46f7f904-bc3c-4e7a-a5f6-27a266b6f7fc",
+        "step_id": "objective-mathematics",
+        "question": "En una caja hay 4 manzanas y 3 peras. Si alguien añade 2 manzanas más, ¿cuántas frutas hay en total en la caja ahora?",
+        "type": "option",
+        "options": [
+          "8 frutas",
+          "7 frutas",
+          "6 frutas"
+        ],
+        "cognitive_dimension": "comprension",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "first_text_ms": 778,
+      "total_ms": 3584,
+      "preview_events": 38
+    },
+    {
+      "subject": "language",
+      "grade": 3,
+      "requested": "option",
+      "actual": "option",
+      "activity": {
+        "id": "fb47dc82-a856-44b5-8198-d72ce8218a8c",
+        "step_id": "objective-language",
+        "question": "Lee la siguiente narración y responde: 'María tenía un perrito que siempre quería jugar. Un día, el perrito se escapó y fue al parque. María se preocupó mucho y salió a buscarlo. Cuando lo encontró, se dio cuenta de que el perrito solo quería conocer nuevos amigos.' ¿Cuál es la causa principal por la que María se preocupó?",
+        "type": "option",
+        "options": [
+          "Porque el perrito quería jugar",
+          "Porque el perrito se escapó",
+          "Porque el perrito hizo nuevos amigos"
+        ],
+        "cognitive_dimension": "comprension",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "first_text_ms": 1185,
+      "total_ms": 4802,
+      "preview_events": 77
+    },
+    {
+      "subject": "mathematics",
+      "grade": 2,
+      "requested": "text",
+      "actual": "text",
+      "activity": {
+        "id": "8cfaf11a-d629-42dc-8906-7deaba6be913",
+        "step_id": "objective-mathematics",
+        "question": "En una granja hay 4 patos y 3 gallinas. Si el granjero lleva a 2 patos al mercado, ¿cuántos patos quedan en la granja?",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "razonamiento",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "first_text_ms": 813,
+      "total_ms": 3512,
+      "preview_events": 40
+    },
+    {
+      "subject": "language",
+      "grade": 3,
+      "requested": "text",
+      "actual": "text",
+      "activity": {
+        "id": "e1672fc6-9d00-4d23-bd4d-d55442b0fd94",
+        "step_id": "objective-language",
+        "question": "Lee la siguiente narración y explica cuál es la causa y cuál es el motivo de lo que ocurre en la historia.  \n\nEran las 3 de la tarde y el sol brillaba intensamente en el cielo. Lucas decidió salir a jugar a la plaza con sus amigos. Sin embargo, su mamá le había dicho que debía terminar su tarea antes de salir. Como no hizo caso, su mamá lo llamó y le pidió que volviera a casa. Lucas se sintió triste porque quería jugar, pero sabía que debía escuchar a su mamá.",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "razonamiento",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "first_text_ms": 834,
+      "total_ms": 5883,
+      "preview_events": 112
+    },
+    {
+      "subject": "mathematics",
+      "grade": 2,
+      "requested": "multiple_select",
+      "actual": "multiple_select",
+      "activity": {
+        "id": "81d3e85a-159b-44a6-8369-0d688a87ed5a",
+        "step_id": "objective-mathematics",
+        "question": "En una caja hay 5 manzanas y 3 peras. ¿Cuántas frutas hay en total? También hay 2 plátanos. Elige las afirmaciones correctas sobre las frutas en la caja.",
+        "type": "multiple_select",
+        "options": [
+          "Hay un total de 8 frutas en la caja.",
+          "Hay más manzanas que peras en la caja.",
+          "Hay un total de 9 frutas en la caja.",
+          "Hay más peras que plátanos en la caja."
+        ],
+        "cognitive_dimension": "representacion",
+        "source": "generated",
+        "notice": null,
+        "left_items": [
+          "Hay un total de 8 frutas en la caja.",
+          "Hay más manzanas que peras en la caja.",
+          "Hay un total de 9 frutas en la caja.",
+          "Hay más peras que plátanos en la caja."
+        ],
+        "right_items": [
+          "Correcta",
+          "Incorrecta",
+          "Incorrecta",
+          "Correcta"
+        ],
+        "visual_template_key": null
+      },
+      "first_text_ms": 1206,
+      "total_ms": 6262,
+      "preview_events": 46
+    },
+    {
+      "subject": "mathematics",
+      "grade": 2,
+      "requested": "matching",
+      "actual": "matching",
+      "activity": {
+        "id": "335ae030-8f3a-4292-9491-58d3163bb983",
+        "step_id": "objective-mathematics",
+        "question": "Asocia las cantidades de objetos con la suma total correspondiente.",
+        "type": "matching",
+        "options": [],
+        "cognitive_dimension": "transferencia",
+        "source": "generated",
+        "notice": null,
+        "left_items": [
+          "3 manzanas",
+          "2 naranjas",
+          "1 pera",
+          "4 plátanos"
+        ],
+        "right_items": [
+          "5 frutas",
+          "6 frutas",
+          "3 frutas",
+          "4 frutas"
+        ],
+        "visual_template_key": null
+      },
+      "first_text_ms": 992,
+      "total_ms": 3633,
+      "preview_events": 12
+    },
+    {
+      "subject": "language",
+      "grade": 3,
+      "requested": "multiple_select",
+      "actual": "multiple_select",
+      "activity": {
+        "id": "c986a422-1c07-4ba2-b533-5f4f7c4c770a",
+        "step_id": "objective-language",
+        "question": "En el siguiente texto, ¿cuáles son las causas y motivos de las acciones de los personajes? Selecciona todas las opciones correctas: \n\n\"Juan siempre juega solo porque no tiene con quién compartir sus juguetes. Un día, su abuela le regaló un perro. Desde entonces, Juan se siente más feliz porque el perro es su mejor amigo y siempre le acompaña a jugar. Ahora, Juan invita a sus amigos a jugar, y todos se divierten juntos.\"\n\n",
+        "type": "multiple_select",
+        "options": [
+          "Juan juega solo porque no tiene amigos.",
+          "La abuela le regaló un perro y eso lo hace feliz.",
+          "El perro lo acompaña a jugar y ahora tiene amigos.",
+          "Juan no quiere jugar con otros."
+        ],
+        "cognitive_dimension": "representacion",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "first_text_ms": 1126,
+      "total_ms": 11492,
+      "preview_events": 101
+    },
+    {
+      "subject": "natural_sciences",
+      "grade": 4,
+      "requested": "option",
+      "actual": "option",
+      "activity": {
+        "id": "507b0ad6-b59e-48af-8db5-88ec75a31ae5",
+        "step_id": "objective-natural_sciences",
+        "question": "Cuando el agua se calienta en una olla, ¿qué cambio de estado ocurre al convertirse en vapor?",
+        "type": "option",
+        "options": [
+          "Solidificación",
+          "Evaporación",
+          "Condensación",
+          "Fusión"
+        ],
+        "cognitive_dimension": "comprension",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "first_text_ms": 740,
+      "total_ms": 3614,
+      "preview_events": 21
+    },
+    {
+      "subject": "language",
+      "grade": 3,
+      "requested": "matching",
+      "actual": "matching",
+      "activity": {
+        "id": "1d0eb5dc-601f-491a-8185-4200faa85b03",
+        "step_id": "objective-language",
+        "question": "Lee la siguiente narración corta y luego asocia las causas y motivos que se mencionan en la historia con sus respectivos efectos.",
+        "type": "matching",
+        "options": [],
+        "cognitive_dimension": "transferencia",
+        "source": "generated",
+        "notice": null,
+        "left_items": [
+          "El perro rompió la correa.",
+          "El niño estaba distraído jugando.",
+          "La lluvia empezó a caer fuerte."
+        ],
+        "right_items": [
+          "El perro salió corriendo detrás de una paloma.",
+          "El niño no escuchó a su madre llamarlo.",
+          "La calle se llenó de charcos."
+        ],
+        "visual_template_key": null
+      },
+      "first_text_ms": 1262,
+      "total_ms": 4950,
+      "preview_events": 26
+    },
+    {
+      "subject": "natural_sciences",
+      "grade": 4,
+      "requested": "text",
+      "actual": "text",
+      "activity": {
+        "id": "6d9eaa06-8911-46c9-a827-636319f31dd1",
+        "step_id": "objective-natural_sciences",
+        "question": "Describe qué sucede cuando calientas hielo en una olla. ¿Qué cambios de estado ocurren y cómo se transfiere el calor?",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "razonamiento",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "first_text_ms": 1010,
+      "total_ms": 5403,
+      "preview_events": 28
+    },
+    {
+      "subject": "natural_sciences",
+      "grade": 4,
+      "requested": "multiple_select",
+      "actual": "multiple_select",
+      "activity": {
+        "id": "11922e8a-61d7-4fc7-80a2-f82956773bdf",
+        "step_id": "objective-natural_sciences",
+        "question": "¿Cuáles de las siguientes afirmaciones describen cambios de estado de la materia y son ejemplos de transferencia de calor? Selecciona todas las que apliquen.",
+        "type": "multiple_select",
+        "options": [
+          "Cuando el agua se evapora y se convierte en vapor al calentarse.",
+          "Cuando el hielo se derrite y se convierte en agua al recibir calor.",
+          "Cuando el agua se congela y se transforma en hielo al perder calor.",
+          "Cuando el vapor de agua se convierte en agua al perder calor.  "
+        ],
+        "cognitive_dimension": "representacion",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "first_text_ms": 904,
+      "total_ms": 4948,
+      "preview_events": 34
+    },
+    {
+      "subject": "social_studies",
+      "grade": 7,
+      "requested": "option",
+      "actual": "option",
+      "activity": {
+        "id": "542208b8-c7ef-4928-8ebf-335c976e2c18",
+        "step_id": "objective-social_studies",
+        "question": "En una comunidad se está considerando implementar un nuevo parque. Analiza las siguientes perspectivas para tomar una decisión: 1) Los jóvenes dicen que es importante para su bienestar. 2) Algunos adultos opinan que el mantenimiento costará mucho. 3) Los niños creen que es un lugar seguro para jugar. Según estas perspectivas, ¿cuál consideras que es la más fuerte para argumentar a favor de construir el parque?",
+        "type": "option",
+        "options": [
+          "La opinión de los jóvenes sobre su bienestar.",
+          "Las preocupaciones de adultos sobre el costo de mantenimiento.",
+          "La visión de los niños sobre el espacio seguro.",
+          "Ninguna opinión es válida para considerar."
+        ],
+        "cognitive_dimension": "comprension",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "first_text_ms": 764,
+      "total_ms": 4473,
+      "preview_events": 86
+    },
+    {
+      "subject": "natural_sciences",
+      "grade": 4,
+      "requested": "matching",
+      "actual": "matching",
+      "activity": {
+        "id": "8519190f-0ea9-4cae-b330-9b0c1bad0a71",
+        "step_id": "objective-natural_sciences",
+        "question": "Relaciona cada cambio de estado con su descripción correspondiente:",
+        "type": "matching",
+        "options": [],
+        "cognitive_dimension": "transferencia",
+        "source": "generated",
+        "notice": null,
+        "left_items": [
+          "Evaporación",
+          "Condensación",
+          "Fusión",
+          "Solidificación"
+        ],
+        "right_items": [
+          "El agua se convierte en vapor.",
+          "El vapor se convierte en agua.",
+          "El hielo se convierte en agua.",
+          "El agua se convierte en hielo."
+        ],
+        "visual_template_key": null
+      },
+      "first_text_ms": 812,
+      "total_ms": 4063,
+      "preview_events": 11
+    },
+    {
+      "subject": "social_studies",
+      "grade": 7,
+      "requested": "text",
+      "actual": "text",
+      "activity": {
+        "id": "e55d8f14-d51f-4a09-ada5-02f70b20a6c5",
+        "step_id": "objective-social_studies",
+        "question": "Imagina que vives en un barrio donde hay problemas con la recolección de basura. Diferentes grupos de la comunidad tienen opiniones sobre la mejor solución. Algunos piensan que la solución es contratar una nueva empresa de recolección, mientras que otros creen que deberíamos organizar jornadas de recogida comunitaria. Escribe un párrafo donde argumentes cuál opción crees que es mejor y por qué, incluyendo al menos dos razones diferentes y considerando las perspectivas de los grupos.",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "razonamiento",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "first_text_ms": 795,
+      "total_ms": 5085,
+      "preview_events": 96
+    },
+    {
+      "subject": "social_studies",
+      "grade": 7,
+      "requested": "multiple_select",
+      "actual": "multiple_select",
+      "activity": {
+        "id": "5cb90483-12d6-4a40-9a4f-e61da2538205",
+        "step_id": "objective-social_studies",
+        "question": "En un barrio, hay una propuesta para construir un parque comunitario. Se presentan tres puntos de vista de diferentes miembros de la comunidad. Analiza cada perspectiva y selecciona las que consideres válidas para argumentar la decisión de construir el parque.",
+        "type": "multiple_select",
+        "options": [
+          "La mayoría de los vecinos apoya la construcción del parque por los beneficios recreativos que ofrecería a los niños.",
+          "El parque podría atraer delincuencia, así que algunos vecinos están en contra de su construcción.",
+          "Tener un parque podría aumentar el valor de las casas cercanas, beneficiando a los dueños.",
+          "La construcción del parque requeriría que la comunidad pague más impuestos, lo que algunos moradores desearían evitar."
+        ],
+        "cognitive_dimension": "representacion",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "first_text_ms": 780,
+      "total_ms": 5281,
+      "preview_events": 50
+    },
+    {
+      "subject": "social_studies",
+      "grade": 7,
+      "requested": "matching",
+      "actual": "matching",
+      "activity": {
+        "id": "506fb9d2-9102-406c-ac1a-f54157bcbd1a",
+        "step_id": "objective-social_studies",
+        "question": "Relaciona cada decisión comunitaria con la evidencia o perspectiva correspondiente que apoye su implementación.",
+        "type": "matching",
+        "options": [],
+        "cognitive_dimension": "transferencia",
+        "source": "generated",
+        "notice": null,
+        "left_items": [
+          "Implementar un programa de reciclaje en la comunidad",
+          "Construir un parque público",
+          "Crear un sistema de transporte público eficiente",
+          "Ofrecer talleres de educación financiera"
+        ],
+        "right_items": [
+          "Aumento de la concienciación ambiental entre los habitantes",
+          "Mejor uso del espacio público y fomento de la convivencia",
+          "Disminución de la contaminación y el tráfico",
+          "Empoderamiento económico de los ciudadanos"
+        ],
+        "visual_template_key": null
+      },
+      "first_text_ms": 684,
+      "total_ms": 4706,
+      "preview_events": 18
+    },
+    {
+      "subject": "english",
+      "grade": 5,
+      "requested": "option",
+      "actual": "option",
+      "activity": {
+        "id": "6b0bc94e-cf32-4ab3-9b5d-a61e2c7bc261",
+        "step_id": "objective-english",
+        "question": "What does the word \"gather\" mean in the sentence: \"We will gather fruits in the park\"?",
+        "type": "option",
+        "options": [
+          "To collect",
+          "To throw",
+          "To eat"
+        ],
+        "cognitive_dimension": "comprension",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "first_text_ms": 960,
+      "total_ms": 2762,
+      "preview_events": 23
+    },
+    {
+      "subject": "english",
+      "grade": 5,
+      "requested": "text",
+      "actual": "text",
+      "activity": {
+        "id": "e64b7a89-49c3-4e9b-97f1-350528a7bd5c",
+        "step_id": "objective-english",
+        "question": "Read the sentences below and then answer the question. 1. Lucy loves to play soccer. 2. She plays on weekends with her friends. 3. Soccer is her favorite sport. What does Lucy do on weekends?",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "razonamiento",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "first_text_ms": 833,
+      "total_ms": 3237,
+      "preview_events": 46
+    },
+    {
+      "subject": "english",
+      "requested": "multiple_select",
+      "error": "No hay una actividad de reserva evaluable y la generación no está disponible. Intenta más tarde."
+    },
+    {
+      "subject": "english",
+      "grade": 5,
+      "requested": "matching",
+      "actual": "matching",
+      "activity": {
+        "id": "bf43cf0f-a073-4658-ba52-dcaed18a0ada",
+        "step_id": "objective-english",
+        "question": "Empareja las palabras en inglés con sus significados en español. Las palabras están en contexto usando oraciones cortas.",
+        "type": "matching",
+        "options": [],
+        "cognitive_dimension": "transferencia",
+        "source": "generated",
+        "notice": null,
+        "left_items": [
+          "happy",
+          "house",
+          "eat",
+          "teacher"
+        ],
+        "right_items": [
+          "comer",
+          "casa",
+          "feliz",
+          "maestro"
+        ],
+        "visual_template_key": null
+      },
+      "first_text_ms": 731,
+      "total_ms": 3850,
+      "preview_events": 25
+    }
+  ],
+  "supports": [
+    {
+      "subject": "mathematics",
+      "card": {
+        "title": "Sumar y comparar cantidades usando objetos cotidianos",
+        "body": "Cuando sumamos cantidades pequeñas de objetos, podemos contar primero cada grupo por separado y luego juntarlos para obtener el total. Después, para comparar, observamos cuál grupo tiene más o menos objetos. Esto ayuda a entender la suma y la comparación de manera clara y visual.",
+        "insight": "Sumar pequeñas cantidades es juntar grupos y contar todos los objetos juntos; comparar es decidir cuál grupo tiene más o menos objetos después de contar.",
+        "example_problem": "María tiene 4 canicas azules y 3 canicas verdes. Pedro tiene 5 canicas rojas. ¿Quién tiene más canicas en total? ¿Cuántas canicas tiene cada uno?",
+        "example_steps": [
+          "Contar la cantidad de canicas que tiene María sumando las canicas azules y verdes: 4 + 3.",
+          "Contar la cantidad de canicas que tiene Pedro, que son 5.",
+          "Comparar las cantidades totales de María y Pedro para saber quién tiene más canicas."
+        ],
+        "example_result": "María tiene un total de 7 canicas porque 4 azules más 3 verdes son 7. Pedro tiene 5 canicas. Como 7 es mayor que 5, María tiene más canicas que Pedro.",
+        "visual": {
+          "kind": "table",
+          "caption": "Conteo y comparación de canicas de María y Pedro",
+          "headers": [
+            "Persona",
+            "Cantidad de Canicas"
+          ],
+          "rows": [
+            [
+              "María (azules + verdes)",
+              "4 + 3 = 7"
+            ],
+            [
+              "Pedro (rojas)",
+              "5"
+            ]
+          ]
+        }
+      },
+      "first_intro_ms": 677,
+      "total_ms": 6192
+    },
+    {
+      "subject": "language",
+      "card": {
+        "title": "Identificar por qué un personaje actúa de cierta manera en una historia corta",
+        "body": "Para comprender por qué un personaje hace algo en una narración, primero lee con atención qué pasó antes y qué siente el personaje. Busca palabras o frases que expliquen sus ideas o emociones. Por ejemplo, si alguien guarda una carta sin abrir, piensa en qué pudo sentir al recibirla: ¿miedo, sorpresa, tristeza? Esto ayuda a entender la causa o motivo detrás de la acción. Saber esto mejora la comprensión del texto y la relación con los personajes.",
+        "insight": "Las acciones de los personajes en una historia suelen deberse a sus emociones o situaciones previas, y leer con atención los detalles ayuda a comprender sus motivos.",
+        "example_problem": "En un cuento, Ana encontró un gato abandonado en la calle y decidió llevarlo a casa. Sin embargo, Ana primero miró que nadie lo estuviera buscando y luego se lavó las manos antes de tocarlo. ¿Por qué crees que Ana hizo esas dos cosas antes de cuidar al gato?",
+        "example_steps": [
+          "Leer la parte donde Ana ve al gato y sus acciones.",
+          "Pensar en razones para mirar si alguien buscaba al gato: quizás Ana quería estar segura de que no pertenecía a nadie.",
+          "Pensar en por qué Ana se lavó las manos antes de tocarlo: posiblemente por higiene o para no enfermarse ni contagiarse.",
+          "Relacionar esas explicaciones con sentimientos o precauciones que Ana pudo tener antes de cuidar al gato."
+        ],
+        "example_result": "Ana miró si alguien buscaba al gato para asegurarse de que no estuviera perdido y no quitarle a su dueño su mascota. Además, se lavó las manos para mantenerse limpia y evitar contagiarse alguna enfermedad antes de tocar al animal. Estas acciones muestran que Ana actuó con cuidado y responsabilidad, motivada por el deseo de ayudar pero respetando al gato y a las personas.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Pasos para entender motivos en una narración",
+          "steps": [
+            "Leer con atención el texto para identificar las acciones del personaje.",
+            "Analizar las situaciones previas o sentimientos que se mencionan.",
+            "Buscar pistas en palabras que indiquen emociones o razones.",
+            "Relacionar las acciones con esos motivos para comprender por qué el personaje actúa así."
+          ]
+        }
+      },
+      "first_intro_ms": 771,
+      "total_ms": 5689
+    },
+    {
+      "subject": "social_studies",
+      "card": {
+        "title": "Cómo usar evidencia y diferentes puntos de vista para elegir entre opciones",
+        "body": "Cuando tomamos decisiones importantes para una comunidad pequeña, es fundamental considerar la información disponible y los distintos puntos de vista de las personas involucradas. Primero, recopilamos datos que nos informen sobre las opciones posibles y cómo afectan a las personas. Luego, escuchamos las opiniones de quienes serán impactados para entender diferentes enfoques y preocupaciones. Finalmente, juntamos toda esa información y comparamos las ventajas y desventajas antes de tomar una decisión que beneficie al conjunto. Así, nuestra elección será justa y sustentada en hechos y perspectivas variadas.",
+        "insight": "La combinación de datos y opiniones diferentes ayuda a elegir mejor para toda la comunidad.",
+        "example_problem": "En una comunidad de 30 familias, se está pensando en crear un espacio para actividades al aire libre. Hay dos opciones: construir un área con juegos infantiles o crear un pequeño huerto comunitario. El área de juegos ofrecería divertidas actividades para los niños y un lugar para que las familias se reúnan. El huerto permitiría cultivar verduras para todos y enseñar sobre el cuidado de plantas. Varias familias expresaron que el área de juegos fomentaría la unión y el disfrute, mientras otras destacaron los beneficios de aprender a cultivar y comer sano. Con estos datos y opiniones, ¿cuál opción podría seleccionarse para beneficiar mejor a la comunidad?",
+        "example_steps": [
+          "Leer los datos sobre cada opción: área de juegos tiene beneficios recreativos y para convivir, el huerto promueve alimentación saludable y educación.",
+          "Anotar las opiniones expresadas: algunas familias prefieren juegos para que sus hijos jueguen, otras valoran el huerto para aprender y compartir alimentos.",
+          "Comparar ventajas de ambas opciones sin descartar puntos de vista: juegos aportan diversión, huerto aporta aprendizaje y salud.",
+          "Decidir cuál opción reúne mejores beneficios para la mayoría y atiende diferentes necesidades con la información y opiniones recopiladas."
+        ],
+        "example_result": "Dado que ambas opciones tienen beneficios claros y opiniones distintas, la mejor decisión será aquella que tome en cuenta tanto el disfrute como la educación y salud. Por ejemplo, si el espacio y recursos lo permiten, se puede priorizar el área de juegos para crear un lugar común que une a la comunidad mientras se planifica un huerto pequeño que se integre después. Así, se combina la diversión con el aprendizaje y el cuidado del ambiente, apoyando a la mayoría con evidencias y diferentes perspectivas.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Pasos para analizar opciones usando datos y opiniones",
+          "steps": [
+            "Revisar datos y beneficios de cada opción.",
+            "Anotar opiniones y razones de las personas.",
+            "Comparar ventajas y entender las prioridades.",
+            "Elegir la opción que combina beneficios y toma en cuenta opiniones."
+          ]
+        }
+      },
+      "first_intro_ms": 997,
+      "total_ms": 7778
+    },
+    {
+      "subject": "english",
+      "card": {
+        "title": "Cómo descubrir el significado de palabras en inglés usando pistas del texto",
+        "body": "Cuando lees oraciones en inglés y encuentras una palabra desconocida, puedes buscar en las demás palabras y en la situación para imaginar qué significa. Esto se llama usar el contexto. Se presta especial atención a palabras que están cerca o explicaciones en la oración o en la oración siguiente. También ayuda pensar en qué objeto o acción tiene sentido para la historia o situación.",
+        "insight": "Las pistas a veces son adjetivos, descripciones o lo que hacen las personas en el texto; hay que buscar relaciones en la frase para entender vocabulario nuevo.",
+        "example_problem": "Read the short paragraph:\n\"Anna felt very ___. She went to the kitchen and drank a glass of water. Then she smiled happily.\"\nWhat do you think the missing word means? Why?\n\nUse the other words and the situation to find the meaning of the blank.",
+        "example_steps": [
+          "Look at the other words in the sentence. Anna felt very ___. After that, she went to the kitchen and drank a glass of water.",
+          "Drinking water usually happens when someone wants to stop feeling a certain way. Then she smiled happily, so the word probably means something not good, something she wants to change.",
+          "Think about what feeling would make someone go to drink water and feel happy after drinking it."
+        ],
+        "example_result": "The missing word likely means \"thirsty,\" which is when you want to drink water. This is because Anna's action to go drink water fits with that feeling. When she drinks, she feels better and smiles, showing she is no longer thirsty.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Steps to understand the missing word using context",
+          "steps": [
+            "Look at the other parts of the sentence and what Anna does next.",
+            "Think about why someone would drink water.",
+            "Match the feeling with the action and the emotion afterward."
+          ]
+        }
+      },
+      "first_intro_ms": 692,
+      "total_ms": 5993
+    },
+    {
+      "subject": "natural_sciences",
+      "card": {
+        "title": "Cómo interpretar cambios de estado y transferencia de calor con un ejemplo sencillo",
+        "body": "Cuando un objeto cambia de estado, como pasar de sólido a líquido o de líquido a gas, suele implicar un intercambio de calor. El calor puede entrar al objeto o salir de él, y esto se refleja en su temperatura. Entender cómo y cuándo ocurre este cambio ayuda a explicar fenómenos diarios, como la evaporación del agua o la congelación de un jugo. Para resolver problemas sobre esto, es útil identificar primero qué cambio de estado ocurre y luego pensar en la dirección del calor (si entra o sale). Así podemos explicar si la temperatura sube, baja o se mantiene igual durante el proceso.",
+        "insight": "El cambio de estado ocurre a temperatura constante, por lo que durante ese cambio, el calor se usa para transformar el material, no para subir o bajar la temperatura.",
+        "example_problem": "Laura tiene una taza con jugo frío que pone cerca de una ventana donde entra el sol. Después de un rato, el jugo cambia de un estado a otro y su temperatura varía. ¿Qué cambio de estado puede estar ocurriendo y cómo afecta esto a la temperatura del jugo mientras se transforma?",
+        "example_steps": [
+          "Laura observa que el jugo estaba inicialmente frío y luego comienza a cambiar, lo que sugiere que está absorbiendo calor del sol.",
+          "Cuando el jugo pasa de frío a más cálido, puede empezar a evaporarse, lo que significa que cambia de líquido a gas.",
+          "Durante esta evaporación, el jugo absorbe calor pero la temperatura permanece igual hasta acabar este proceso.",
+          "Luego, cuando ya no hay más evaporación, el jugo puede seguir subiendo de temperatura si sigue recibiendo calor."
+        ],
+        "example_result": "El jugo absorbe calor del sol y cambia de líquido a gas mediante la evaporación. Aunque recibe calor, la temperatura se mantiene constante durante este cambio de estado porque la energía se usa para transformar el jugo, no para subir la temperatura. Después de evaporarse, si sigue calentándose, la temperatura del jugo sí aumentará.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Pasos para entender el cambio de estado y transferencia de calor en el jugo.",
+          "steps": [
+            "El jugo absorbe calor del sol y comienza a calentarse.",
+            "Al evaporarse, el jugo cambia de líquido a gas, manteniendo la temperatura constante.",
+            "Concluida la evaporación, si sigue recibiendo calor, su temperatura sube."
+          ]
+        }
+      },
+      "first_intro_ms": 748,
+      "total_ms": 39542
+    }
+  ],
+  "summary": {
+    "activities_ready": 19,
+    "activities_total": 20,
+    "format_matches": 19,
+    "supports_ready": 5,
+    "supports_total": 5,
+    "first_text": {
+      "samples": 19,
+      "p50_ms": 833,
+      "p95_ms": 1262,
+      "min_ms": 684,
+      "max_ms": 1262
+    },
+    "complete_activity": {
+      "samples": 19,
+      "p50_ms": 4706,
+      "p95_ms": 11492,
+      "min_ms": 2762,
+      "max_ms": 11492
+    }
+  }
+}

@@ -1,0 +1,414 @@
+{
+  "date": "2026-11-04T01:10:05.557Z",
+  "scope": "Synthetic support pilot, no student data or Supabase writes; requires pedagogical and browser review.",
+  "results": [
+    {
+      "case_id": "math-2",
+      "subject": "mathematics",
+      "grade": 2,
+      "question": "Ana tiene 3 lápices y recibe 2 más. ¿Cuántos lápices tiene ahora?",
+      "level": 2,
+      "card": {
+        "title": "Suma de Cantidades",
+        "body": "La suma es una operación matemática que se utiliza para combinar dos o más cantidades. Comprender cómo usar la suma es fundamental en matemáticas. Reconocer cuándo sumar implica identificar situaciones donde necesitas juntar o agregar elementos. Por ejemplo, si tienes 3 manzanas y te dan 2 más, debes sumar ambas cantidades para saber cuántas tienes en total. \n\nPasos para identificar situaciones de suma:\n1. **Identificar las cantidades**: Busca los números o elementos que necesitas agregar.\n2. **Reconocer la acción**: Observa si hay palabras clave como 'más', 'total', 'juntar', que indican que es necesario sumar.\n3. **Formular la operación**: Escribe la suma con los números que has identificado.\n4. **Calcular el total**: Realiza la operación para encontrar la respuesta final.",
+        "insight": "La suma se utiliza en situaciones diarias como contar dinero, juntar objetos y realizar tareas relacionadas con la comparación de cantidades. Esto mejora la comprensión matemática y el aprendizaje práctico de los estudiantes.",
+        "visual": {
+          "kind": "none"
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:10:09.765Z",
+        "request_id": "6e201c3e-2c50-4d35-8327-b8df301c0305",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 4205,
+        "stages": {
+          "openai_support": 4202
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 429,
+            "output_tokens": 245,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "math-2",
+      "subject": "mathematics",
+      "grade": 2,
+      "question": "Ana tiene 3 lápices y recibe 2 más. ¿Cuántos lápices tiene ahora?",
+      "level": 3,
+      "card": {
+        "title": "Ejemplo de suma con objetos",
+        "body": "Imagina que tienes un grupo de manzanas y un grupo de bananas. En el primer grupo hay 4 manzanas y en el segundo hay 5 bananas. Vamos a sumar la cantidad total de frutas que tienes. La estrategia que usaremos es contar primero la cantidad de manzanas y luego la de bananas y sumarlas.",
+        "insight": "Esta actividad muestra cómo podemos combinar diferentes cantidades para encontrar el total, una habilidad importante en matemáticas. Al agrupar y contar, podemos solucionar problemas de suma de manera más efectiva.",
+        "visual": {
+          "kind": "table",
+          "caption": "Tabla de cantidades de frutas",
+          "headers": [
+            "Tipo de fruta",
+            "Cantidad"
+          ],
+          "rows": [
+            [
+              "Manzanas",
+              "4"
+            ],
+            [
+              "Bananas",
+              "5"
+            ],
+            [
+              "Total",
+              "9"
+            ]
+          ]
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:10:13.022Z",
+        "request_id": "b9831cd8-2d38-453e-87d4-0a6589db2058",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 3256,
+        "stages": {
+          "openai_support": 3255
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 496,
+            "output_tokens": 205,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "language-3",
+      "subject": "language",
+      "grade": 3,
+      "question": "Lee: «Lina tomó su paraguas porque vio nubes oscuras». ¿Por qué tomó el paraguas?",
+      "level": 2,
+      "card": {
+        "title": "Cómo Reconocer Causas en una Narración",
+        "body": "Para identificar las causas de las acciones en una narración, es importante entender la relación entre los personajes y sus decisiones. Las causas suelen responder a preguntas como: ¿Por qué el personaje hizo eso? ¿Qué motivó su acción? Al reconocer las causas, se puede comprender mejor la historia y las emociones de los personajes.",
+        "insight": "Las causas son fundamentales porque dan sentido a las acciones de los personajes. Al preguntarte por qué ocurre algo, ayudas a desentrañar el significado más profundo de la narración.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Pasos para identificar causas en una narración",
+          "steps": [
+            "Lee atentamente la narración y observa las acciones de los personajes.",
+            "Haz preguntas sobre las motivaciones: ¿Por qué hicieron eso?",
+            "Busca respuestas en el texto que expliquen las razones de sus acciones.",
+            "Reflexiona sobre cómo esas causas afectan el desarrollo de la historia."
+          ]
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:10:15.679Z",
+        "request_id": "5ab0d69b-9373-4fd1-913d-2603558a8e8e",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 2657,
+        "stages": {
+          "openai_support": 2657
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 431,
+            "output_tokens": 204,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "language-3",
+      "subject": "language",
+      "grade": 3,
+      "question": "Lee: «Lina tomó su paraguas porque vio nubes oscuras». ¿Por qué tomó el paraguas?",
+      "level": 3,
+      "card": {
+        "title": "Causas de las Acciones en una Narración",
+        "body": "En una narración, entender las causas de las acciones ayuda a comprender mejor la historia. Cada personaje tiene razones para actuar de cierta manera, y estas razones son las causas que influyen en sus decisiones.",
+        "insight": "Identificar la causa puede llevarte a entender mejor el comportamiento de los personajes y el desarrollo de la trama. Pregúntate siempre por qué un personaje hace lo que hace y qué lo impulsa a actuar.",
+        "visual": {
+          "kind": "table",
+          "caption": "Ejemplo de Causas y Acciones en una Narración",
+          "headers": [
+            "Personaje",
+            "Acción",
+            "Causa"
+          ],
+          "rows": [
+            [
+              "María",
+              "Corre hacia el parque",
+              "Quiere jugar con sus amigos"
+            ],
+            [
+              "Juan",
+              "Escribe una carta",
+              "Desea invitar a su amiga a su cumpleaños"
+            ],
+            [
+              "Sara",
+              "Ayuda a su hermano",
+              "Él se siente triste y necesita apoyo"
+            ]
+          ]
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:10:19.054Z",
+        "request_id": "7dd72262-8205-41ae-bc4d-58475a786582",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 3375,
+        "stages": {
+          "openai_support": 3373
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 499,
+            "output_tokens": 259,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "science-4",
+      "subject": "natural_sciences",
+      "grade": 4,
+      "question": "Una linterna funciona con pilas. Explica de dónde obtiene la energía y en qué se transforma para que podamos ver.",
+      "level": 2,
+      "card": {
+        "title": "Transformaciones de energía",
+        "body": "La energía puede transformarse de una forma a otra en los objetos cotidianos. Esta transformación se puede observar en diferentes contextos, como en el uso de electrodomésticos, vehículos o alimentos. Una idea clave es identificar el tipo de energía presente y cómo se convierte en otra forma. \n\nPara reconocer y analizar estas transformaciones de energía, primero es importante observar el objeto y el proceso en el que está involucrado. La estrategia que se puede seguir incluye los siguientes pasos:",
+        "insight": "Identificar tipos de energía y sus transformaciones nos ayuda a entender cómo funciona el mundo que nos rodea.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Pasos para identificar transformaciones de energía",
+          "steps": [
+            "1. Identificar el objeto o sistema en estudio.",
+            "2. Determinar la forma de energía inicial (por ejemplo, energía eléctrica, energía química, etc.).",
+            "3. Observar qué acción o proceso ocurre (por ejemplo, moviendo un motor, calentando algo, etc.).",
+            "4. Identificar la forma de energía final después de la transformación (por ejemplo, energía mecánica, energía térmica, etc.)."
+          ]
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:10:22.026Z",
+        "request_id": "97164378-22fa-4474-b991-1ca31377419d",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 2971,
+        "stages": {
+          "openai_support": 2971
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 433,
+            "output_tokens": 245,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "science-4",
+      "subject": "natural_sciences",
+      "grade": 4,
+      "question": "Una linterna funciona con pilas. Explica de dónde obtiene la energía y en qué se transforma para que podamos ver.",
+      "level": 3,
+      "card": {
+        "title": "Transformaciones de Energía con una Bicicleta",
+        "body": "Cuando montamos en bicicleta, observamos transformaciones de energía que nos ayudan a avanzar. La energía que usamos proviene de nuestros músculos, y se transforma en movimiento. Vamos a ver cómo sucede esto a través de un ejemplo.",
+        "insight": "Identificar cómo la energía se transforma en distintos contextos cotidianos es clave para comprender su aplicación en la vida diaria. Esto permite relacionar conceptos científicos con experiencias reales.",
+        "visual": {
+          "kind": "table",
+          "caption": "Transformaciones de Energía en una Bicicleta",
+          "headers": [
+            "Paso",
+            "Descripción"
+          ],
+          "rows": [
+            [
+              "1",
+              "Cuando comenzamos a pedalear, la energía química en nuestros músculos se convierte en energía cinética. Al usar fuerza, el ciclo se mueve hacia adelante."
+            ],
+            [
+              "2",
+              "Mientras pedaleamos, también se produce un cambio en la energía potencial cuando subimos una colina. Subir requiere más energía."
+            ],
+            [
+              "3",
+              "Al llegar a la cima, tenemos energía potencial almacenada, que se transformará nuevamente en energía cinética al descender."
+            ],
+            [
+              "4",
+              "Finalmente, cuando frenamos, la energía cinética se transforma en calor a través del sistema de frenos, deteniendo la bicicleta."
+            ]
+          ]
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:10:25.609Z",
+        "request_id": "1b5c776b-ff39-46d1-b1f6-e2d153e88719",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 3583,
+        "stages": {
+          "openai_support": 3582
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 505,
+            "output_tokens": 257,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "social-10",
+      "subject": "social_studies",
+      "grade": 10,
+      "question": "Un barrio dispone de dinero para una sola mejora. Una encuesta dice: 60 vecinos necesitan transporte y 40 necesitan un parque. Propón una decisión apoyada en esos datos y una forma de escuchar al grupo que no sea priorizado.",
+      "level": 2,
+      "card": {
+        "title": "Usar datos para argumentar decisiones y escuchar otras perspectivas",
+        "body": "Una idea clave en este tema es la importancia de utilizar datos relevantes para respaldar tus argumentos al tomar decisiones. Reconocer cuándo usar datos implica observar el contexto de la discusión y la necesidad de apoyar tus ideas con evidencia concreta. Aquí hay algunos pasos para ayudarte a identificar cuándo es importante usar datos:",
+        "insight": "El uso de datos es más efectivo cuando se combina con una escucha activa de otros puntos de vista, lo que permite una discusión más rica y fundamentada.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Pasos para usar datos en argumentos",
+          "steps": [
+            "Identifica el tema de discusión. ",
+            "Evalúa si las afirmaciones pueden beneficiarse de datos concretos. ",
+            "Busca datos que sean relevantes y confiables para tu argumento. ",
+            "Considera las perspectivas de los demás para enriquecer la discusión."
+          ]
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:10:28.170Z",
+        "request_id": "00e729bb-2a08-4059-bcb0-39732d7b30b0",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 2561,
+        "stages": {
+          "openai_support": 2561
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 434,
+            "output_tokens": 187,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "social-10",
+      "level": 3,
+      "error": "No se pudo preparar esta ayuda. Tu actividad sigue disponible; puedes reintentarlo."
+    },
+    {
+      "case_id": "english-11",
+      "subject": "english",
+      "grade": 11,
+      "question": "Lees «The ground was slippery after the rain» y no conoces slippery. Propón una estrategia para inferir su significado con el contexto y cómo comprobarías tu inferencia.",
+      "level": 2,
+      "card": {
+        "title": "Estrategia para Inferir Significado de Vocabulario Desconocido",
+        "body": "Para inferir el significado de vocabulario desconocido por contexto, sigue estos pasos: 1. Lee con atención el párrafo; busca palabras o frases alrededor de la palabra desconocida. 2. Identifica pistas contextuales como sinónimos, antónimos o ejemplos. 3. Formula una posible definición basándote en lo que has encontrado. 4. Verifica tu inferencia utilizando el texto, asegurándote de que tenga sentido dentro del contexto.",
+        "insight": "Usar el contexto es clave para entender palabras desconocidas, transformando la lectura en una herramienta de aprendizaje constante.",
+        "visual": {
+          "kind": "none"
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:10:34.216Z",
+        "request_id": "2712fc50-2f64-4ff4-96df-12f23dddafb2",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 2151,
+        "stages": {
+          "openai_support": 2150
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 439,
+            "output_tokens": 161,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "english-11",
+      "subject": "english",
+      "grade": 11,
+      "question": "Lees «The ground was slippery after the rain» y no conoces slippery. Propón una estrategia para inferir su significado con el contexto y cómo comprobarías tu inferencia.",
+      "level": 3,
+      "card": {
+        "title": "Inferir el significado de vocabulario desconocido",
+        "body": "A continuación se presenta un ejemplo sobre cómo inferir el significado de una palabra desconocida a partir del contexto de una oración. El objetivo es entender el uso del vocabulario en situaciones concretas y comprobar si la inferencia es correcta.",
+        "insight": "Entender el contexto es clave para inferir el significado de palabras desconocidas. Observar cómo se utilizan en una oración puede proporcionar pistas sobre su significado.",
+        "visual": {
+          "kind": "none"
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:10:40.254Z",
+        "request_id": "df982a95-41c0-4a59-af6e-fc3b7c52ab08",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 6038,
+        "stages": {
+          "openai_support": 6038
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 519,
+            "output_tokens": 259,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    }
+  ],
+  "summary": {
+    "passed_contract": 9,
+    "total": 10,
+    "latency": {
+      "samples": 9,
+      "p50_ms": 3256,
+      "p95_ms": 6038,
+      "min_ms": 2151,
+      "max_ms": 6038
+    }
+  }
+}

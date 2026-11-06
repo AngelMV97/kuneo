@@ -1,0 +1,678 @@
+{
+  "date": "2026-11-03T23:15:18.910Z",
+  "live_count": 1426,
+  "local_count": 1426,
+  "missing_embeddings": 0,
+  "local_only_ids": [],
+  "live_only_ids": [],
+  "groups": {
+    "natural_sciences/8-9/standard": 75,
+    "natural_sciences/10-11/standard": 78,
+    "english/8-9/standard": 47,
+    "social_studies/11/dba": 5,
+    "english/6-7/standard": 36,
+    "social_studies/9/dba": 8,
+    "mathematics/4-5/standard": 39,
+    "mathematics/1-3/standard": 39,
+    "natural_sciences/5/dba": 4,
+    "mathematics/6-7/standard": 38,
+    "social_studies/4/dba": 8,
+    "social_studies/10-11/standard": 59,
+    "english/10-11/standard": 44,
+    "social_studies/1-3/standard": 47,
+    "social_studies/8-9/standard": 50,
+    "english/10/dba": 7,
+    "mathematics/4/dba": 11,
+    "natural_sciences/7/dba": 4,
+    "natural_sciences/1-3/standard": 50,
+    "language/4/dba": 8,
+    "social_studies/4-5/standard": 42,
+    "mathematics/8-9/standard": 29,
+    "language/2/dba": 8,
+    "natural_sciences/6-7/standard": 78,
+    "english/4-5/standard": 48,
+    "mathematics/1/dba": 10,
+    "mathematics/2/dba": 11,
+    "english/4/dba": 4,
+    "mathematics/8/dba": 12,
+    "english/7/dba": 7,
+    "mathematics/9/dba": 11,
+    "mathematics/6/dba": 12,
+    "mathematics/7/dba": 9,
+    "natural_sciences/9/dba": 6,
+    "language/9/dba": 8,
+    "natural_sciences/4-5/standard": 60,
+    "social_studies/2/dba": 8,
+    "social_studies/5/dba": 8,
+    "social_studies/6-7/standard": 52,
+    "social_studies/8/dba": 8,
+    "language/6/dba": 8,
+    "social_studies/7/dba": 8,
+    "mathematics/10/dba": 10,
+    "language/10-11/standard": 6,
+    "english/9/dba": 8,
+    "social_studies/3/dba": 8,
+    "mathematics/10-11/standard": 27,
+    "social_studies/6/dba": 8,
+    "language/5/dba": 8,
+    "mathematics/3/dba": 11,
+    "english/11/dba": 8,
+    "language/8/dba": 8,
+    "language/11/dba": 8,
+    "english/1/dba": 5,
+    "natural_sciences/2/dba": 4,
+    "english/1-3/standard": 43,
+    "natural_sciences/1/dba": 4,
+    "natural_sciences/6/dba": 5,
+    "language/10/dba": 8,
+    "english/2/dba": 4,
+    "social_studies/1/dba": 8,
+    "english/6/dba": 8,
+    "language/4-5/standard": 7,
+    "natural_sciences/4/dba": 7,
+    "language/6-7/standard": 8,
+    "language/7/dba": 8,
+    "mathematics/5/dba": 12,
+    "natural_sciences/3/dba": 6,
+    "mathematics/11/dba": 10,
+    "natural_sciences/8/dba": 5,
+    "language/1-3/standard": 7,
+    "english/3/dba": 4,
+    "natural_sciences/11/dba": 5,
+    "english/8/dba": 8,
+    "natural_sciences/10/dba": 4,
+    "english/5/dba": 4,
+    "language/3/dba": 8,
+    "social_studies/10/dba": 5,
+    "language/8-9/standard": 7,
+    "language/1/dba": 8
+  },
+  "modules": {
+    "total": 1427,
+    "linked": 1426,
+    "orphan_links": 0
+  },
+  "embedding_model": "El cliente consulta text-embedding-3-small; el modelo de los vectores almacenados no está acreditado por este inventario.",
+  "queries": [
+    {
+      "query": "energía",
+      "total": 27,
+      "text_matches": 27,
+      "grade_ranges": [
+        "6-7",
+        "1-3",
+        "4-5",
+        "6",
+        "7",
+        "8-9",
+        "10-11",
+        "10",
+        "4",
+        "5",
+        "8"
+      ],
+      "semantic_available": true,
+      "first_results": [
+        {
+          "id": "a4f69197-03cd-45a3-bb01-95758b96967d",
+          "subject": "natural_sciences",
+          "grade_range": "6-7",
+          "competency": "Relaciono energía y movimiento.",
+          "retrieval": "hybrid"
+        },
+        {
+          "id": "84fea2f2-4b1f-45f7-9df4-70bb46b189d9",
+          "subject": "natural_sciences",
+          "grade_range": "1-3",
+          "competency": "Identifico situaciones en las que ocurre transferencia de energía térmica y realizo experiencias para verifi car el fenómeno.",
+          "retrieval": "text"
+        },
+        {
+          "id": "a0ca94d1-fb35-48fa-b1e1-65d47497caa3",
+          "subject": "natural_sciences",
+          "grade_range": "4-5",
+          "competency": "Explico la dinámica de un ecosistema, teniendo en cuenta las necesidades de energía y nutrientes de los seres vivos (cadena alimentaria).",
+          "retrieval": "text"
+        },
+        {
+          "id": "b92a553f-3539-4174-be3d-482b1ca85eaa",
+          "subject": "natural_sciences",
+          "grade_range": "4-5",
+          "competency": "Describo y verifico el efecto de la transferencia de energía térmica en los cambios de estado de algunas sustancias.",
+          "retrieval": "text"
+        },
+        {
+          "id": "c2274e67-566e-4f25-9c5e-792ca0dcd543",
+          "subject": "social_studies",
+          "grade_range": "4-5",
+          "competency": "Uso responsablemente los recursos (papel, agua, alimento, energía…).",
+          "retrieval": "text"
+        }
+      ]
+    },
+    {
+      "query": "energia",
+      "total": 27,
+      "text_matches": 27,
+      "grade_ranges": [
+        "6-7",
+        "1-3",
+        "4-5",
+        "6",
+        "7",
+        "8-9",
+        "10-11",
+        "10",
+        "4",
+        "5",
+        "8"
+      ],
+      "semantic_available": true,
+      "first_results": [
+        {
+          "id": "a4f69197-03cd-45a3-bb01-95758b96967d",
+          "subject": "natural_sciences",
+          "grade_range": "6-7",
+          "competency": "Relaciono energía y movimiento.",
+          "retrieval": "hybrid"
+        },
+        {
+          "id": "84fea2f2-4b1f-45f7-9df4-70bb46b189d9",
+          "subject": "natural_sciences",
+          "grade_range": "1-3",
+          "competency": "Identifico situaciones en las que ocurre transferencia de energía térmica y realizo experiencias para verifi car el fenómeno.",
+          "retrieval": "text"
+        },
+        {
+          "id": "a0ca94d1-fb35-48fa-b1e1-65d47497caa3",
+          "subject": "natural_sciences",
+          "grade_range": "4-5",
+          "competency": "Explico la dinámica de un ecosistema, teniendo en cuenta las necesidades de energía y nutrientes de los seres vivos (cadena alimentaria).",
+          "retrieval": "text"
+        },
+        {
+          "id": "b92a553f-3539-4174-be3d-482b1ca85eaa",
+          "subject": "natural_sciences",
+          "grade_range": "4-5",
+          "competency": "Describo y verifico el efecto de la transferencia de energía térmica en los cambios de estado de algunas sustancias.",
+          "retrieval": "text"
+        },
+        {
+          "id": "c2274e67-566e-4f25-9c5e-792ca0dcd543",
+          "subject": "social_studies",
+          "grade_range": "4-5",
+          "competency": "Uso responsablemente los recursos (papel, agua, alimento, energía…).",
+          "retrieval": "text"
+        }
+      ]
+    },
+    {
+      "query": "función",
+      "total": 69,
+      "text_matches": 69,
+      "grade_ranges": [
+        "1-3",
+        "2",
+        "3",
+        "4-5",
+        "4",
+        "5",
+        "6-7",
+        "6",
+        "8-9",
+        "8",
+        "10-11",
+        "10",
+        "11",
+        "1",
+        "7",
+        "9"
+      ],
+      "semantic_available": true,
+      "first_results": [
+        {
+          "id": "380088d5-b5fc-43aa-a3db-e8f8bfe25edb",
+          "subject": "natural_sciences",
+          "grade_range": "1-3",
+          "competency": "Cumplo mi función y respeto la de otras personas en el trabajo en grupo.",
+          "retrieval": "text"
+        },
+        {
+          "id": "61c12d83-4aeb-4cd0-8091-991c8366ae58",
+          "subject": "natural_sciences",
+          "grade_range": "1-3",
+          "competency": "Establezco relaciones entre las funciones de los cinco sentidos.",
+          "retrieval": "text"
+        },
+        {
+          "id": "99d7470b-5434-4cc1-b1da-dd71e17bf39a",
+          "subject": "social_studies",
+          "grade_range": "1-3",
+          "competency": "Identifico situaciones cotidianas que indican cumplimiento o incumplimiento en las funciones de algunas organizaciones sociales y políticas de mi entorno.",
+          "retrieval": "text"
+        },
+        {
+          "id": "ed98db4f-c294-4c53-b4c7-84a9375f6fe6",
+          "subject": "social_studies",
+          "grade_range": "1-3",
+          "competency": "Identifico y describo características y funciones básicas de organizaciones sociales y políticas de mi entorno (familia, colegio, barrio, vereda, corregimiento, resguardo, territorios afrocolombianos, municipio…).",
+          "retrieval": "text"
+        },
+        {
+          "id": "1494ad3c-7121-4196-9c37-92a17cab3259",
+          "subject": "language",
+          "grade_range": "2",
+          "competency": "Identifica la función que cumplen las señales y símbolos que aparecen en su entorno.",
+          "retrieval": "text"
+        }
+      ]
+    },
+    {
+      "query": "funcion",
+      "total": 69,
+      "text_matches": 69,
+      "grade_ranges": [
+        "1-3",
+        "2",
+        "3",
+        "4-5",
+        "4",
+        "5",
+        "6-7",
+        "6",
+        "8-9",
+        "8",
+        "10-11",
+        "10",
+        "11",
+        "1",
+        "7",
+        "9"
+      ],
+      "semantic_available": true,
+      "first_results": [
+        {
+          "id": "380088d5-b5fc-43aa-a3db-e8f8bfe25edb",
+          "subject": "natural_sciences",
+          "grade_range": "1-3",
+          "competency": "Cumplo mi función y respeto la de otras personas en el trabajo en grupo.",
+          "retrieval": "text"
+        },
+        {
+          "id": "61c12d83-4aeb-4cd0-8091-991c8366ae58",
+          "subject": "natural_sciences",
+          "grade_range": "1-3",
+          "competency": "Establezco relaciones entre las funciones de los cinco sentidos.",
+          "retrieval": "text"
+        },
+        {
+          "id": "99d7470b-5434-4cc1-b1da-dd71e17bf39a",
+          "subject": "social_studies",
+          "grade_range": "1-3",
+          "competency": "Identifico situaciones cotidianas que indican cumplimiento o incumplimiento en las funciones de algunas organizaciones sociales y políticas de mi entorno.",
+          "retrieval": "text"
+        },
+        {
+          "id": "ed98db4f-c294-4c53-b4c7-84a9375f6fe6",
+          "subject": "social_studies",
+          "grade_range": "1-3",
+          "competency": "Identifico y describo características y funciones básicas de organizaciones sociales y políticas de mi entorno (familia, colegio, barrio, vereda, corregimiento, resguardo, territorios afrocolombianos, municipio…).",
+          "retrieval": "text"
+        },
+        {
+          "id": "1494ad3c-7121-4196-9c37-92a17cab3259",
+          "subject": "language",
+          "grade_range": "2",
+          "competency": "Identifica la función que cumplen las señales y símbolos que aparecen en su entorno.",
+          "retrieval": "text"
+        }
+      ]
+    },
+    {
+      "query": "funciones",
+      "total": 69,
+      "text_matches": 69,
+      "grade_ranges": [
+        "1-3",
+        "2",
+        "3",
+        "4-5",
+        "4",
+        "5",
+        "6-7",
+        "6",
+        "8-9",
+        "8",
+        "10-11",
+        "10",
+        "11",
+        "1",
+        "7",
+        "9"
+      ],
+      "semantic_available": true,
+      "first_results": [
+        {
+          "id": "380088d5-b5fc-43aa-a3db-e8f8bfe25edb",
+          "subject": "natural_sciences",
+          "grade_range": "1-3",
+          "competency": "Cumplo mi función y respeto la de otras personas en el trabajo en grupo.",
+          "retrieval": "text"
+        },
+        {
+          "id": "61c12d83-4aeb-4cd0-8091-991c8366ae58",
+          "subject": "natural_sciences",
+          "grade_range": "1-3",
+          "competency": "Establezco relaciones entre las funciones de los cinco sentidos.",
+          "retrieval": "text"
+        },
+        {
+          "id": "99d7470b-5434-4cc1-b1da-dd71e17bf39a",
+          "subject": "social_studies",
+          "grade_range": "1-3",
+          "competency": "Identifico situaciones cotidianas que indican cumplimiento o incumplimiento en las funciones de algunas organizaciones sociales y políticas de mi entorno.",
+          "retrieval": "text"
+        },
+        {
+          "id": "ed98db4f-c294-4c53-b4c7-84a9375f6fe6",
+          "subject": "social_studies",
+          "grade_range": "1-3",
+          "competency": "Identifico y describo características y funciones básicas de organizaciones sociales y políticas de mi entorno (familia, colegio, barrio, vereda, corregimiento, resguardo, territorios afrocolombianos, municipio…).",
+          "retrieval": "text"
+        },
+        {
+          "id": "1494ad3c-7121-4196-9c37-92a17cab3259",
+          "subject": "language",
+          "grade_range": "2",
+          "competency": "Identifica la función que cumplen las señales y símbolos que aparecen en su entorno.",
+          "retrieval": "text"
+        }
+      ]
+    },
+    {
+      "query": "fracciones",
+      "total": 98,
+      "text_matches": 98,
+      "grade_ranges": [
+        "1-3",
+        "4-5",
+        "4",
+        "6",
+        "6-7",
+        "7",
+        "5",
+        "3",
+        "1",
+        "2",
+        "8",
+        "8-9",
+        "9",
+        "10",
+        "10-11",
+        "11"
+      ],
+      "semantic_available": true,
+      "first_results": [
+        {
+          "id": "b8bfe191-ab62-42da-9916-bf5c4ff862cb",
+          "subject": "mathematics",
+          "grade_range": "1-3",
+          "competency": "Describo situaciones de medición utilizando fracciones comunes.",
+          "retrieval": "hybrid"
+        },
+        {
+          "id": "75483678-8ffe-419c-922a-7f6781e3ecbc",
+          "subject": "mathematics",
+          "grade_range": "4-5",
+          "competency": "Interpreto las fracciones en diferentes contextos: situaciones de medición, relaciones parte-todo, cociente, razones y proporciones.",
+          "retrieval": "hybrid"
+        },
+        {
+          "id": "3de2cc79-c2a4-458b-9cf3-885afc9ddaff",
+          "subject": "mathematics",
+          "grade_range": "4-5",
+          "competency": "Utilizo la notación decimal para expresar fracciones en diferentes contextos y relaciono estas dos notaciones con la de los porcentajes.",
+          "retrieval": "hybrid"
+        },
+        {
+          "id": "107af7da-0d49-41d0-a669-62e7a1c03d5d",
+          "subject": "mathematics",
+          "grade_range": "4",
+          "competency": "Interpreta las fracciones como razón, relación parte todo, cociente y operador en diferentes contextos.",
+          "retrieval": "text"
+        },
+        {
+          "id": "49edfb5c-72f3-4d71-93fe-991035c11a69",
+          "subject": "mathematics",
+          "grade_range": "4",
+          "competency": "Describe y justifica diferentes estrategias para representar, operar y hacer estimaciones con números naturales y números racionales (fraccionarios)*, expresados como fracción o como decimal. *No se espera en este nivel escolar un estudio profundo de los números racionales como sistema numérico, sino una primera aproximación a las cantidade -generalmente llamada en los grados de primaria como fraccionarios- que expresan una razón entre otras dos cantidades, y cuyo resultado no siempre da un número exacto de unidades. Aunque estrictamente hablando los conceptos representados por estas expresiones no son coincidentes se acompañará la palabra “racionales” de la palabra “fraccionario” escrita entre paréntesis.",
+          "retrieval": "text"
+        }
+      ]
+    },
+    {
+      "query": "ecosistema",
+      "total": 26,
+      "text_matches": 26,
+      "grade_ranges": [
+        "10-11",
+        "4",
+        "8-9",
+        "4-5",
+        "6-7",
+        "3",
+        "7",
+        "6",
+        "9",
+        "10",
+        "11"
+      ],
+      "semantic_available": true,
+      "first_results": [
+        {
+          "id": "917f110f-37fd-4341-ae9d-8dcc183e4663",
+          "subject": "natural_sciences",
+          "grade_range": "10-11",
+          "competency": "Establezco relaciones entre individuo, población, comunidad y ecosistema.",
+          "retrieval": "hybrid"
+        },
+        {
+          "id": "929b345a-4a7f-468e-9952-53902c632c0b",
+          "subject": "natural_sciences",
+          "grade_range": "4",
+          "competency": "Comprende que existen distintos tipos de ecosistemas (terrestres y acuáticos) y que sus características físicas (temperatura, humedad, tipos de suelo, altitud) permiten que habiten en ellos diferentes seres vivos.",
+          "retrieval": "hybrid"
+        },
+        {
+          "id": "f25f52d7-f0b0-4290-9cbb-8fe1b8fd8798",
+          "subject": "social_studies",
+          "grade_range": "8-9",
+          "competency": "Describo las principales características físicas de los diversos ecosistemas.",
+          "retrieval": "hybrid"
+        },
+        {
+          "id": "a0ca94d1-fb35-48fa-b1e1-65d47497caa3",
+          "subject": "natural_sciences",
+          "grade_range": "4-5",
+          "competency": "Explico la dinámica de un ecosistema, teniendo en cuenta las necesidades de energía y nutrientes de los seres vivos (cadena alimentaria).",
+          "retrieval": "hybrid"
+        },
+        {
+          "id": "070d2eeb-9860-4bf8-ba4f-b17ac2d41333",
+          "subject": "natural_sciences",
+          "grade_range": "6-7",
+          "competency": "Caracterizo ecosistemas y analizo el equilibrio dinámico entre sus poblaciones.",
+          "retrieval": "hybrid"
+        }
+      ]
+    },
+    {
+      "query": "comprensión lectora",
+      "total": 41,
+      "text_matches": 17,
+      "grade_ranges": [
+        "10-11",
+        "11",
+        "1",
+        "10",
+        "4-5",
+        "5",
+        "6-7",
+        "3",
+        "1-3",
+        "7",
+        "6",
+        "8-9",
+        "9",
+        "2",
+        "4"
+      ],
+      "semantic_available": true,
+      "first_results": [
+        {
+          "id": "f3853380-ac52-4ee0-8ff4-b508d89b03e2",
+          "subject": "english",
+          "grade_range": "10-11",
+          "competency": "Utilizo variedad de estrategias de comprensión de lectura adecuadas al propósito y al tipo de texto.",
+          "retrieval": "hybrid"
+        },
+        {
+          "id": "f8dee2e9-807f-4aed-b613-c494ba621f1c",
+          "subject": "language",
+          "grade_range": "11",
+          "competency": "Determina los textos que desea leer y la manera en que abordará su comprensión, con base en sus experiencias de formación e inclinaciones literarias.",
+          "retrieval": "hybrid"
+        },
+        {
+          "id": "fcbd9783-dc3e-4bca-a23e-1326df13fb2f",
+          "subject": "language",
+          "grade_range": "1",
+          "competency": "Interpreta diversos textos a partir de la lectura de palabras sencillas y de las imágenes que contienen.",
+          "retrieval": "hybrid"
+        },
+        {
+          "id": "4b23a275-58a0-4635-b06f-3aa2a691e4f7",
+          "subject": "language",
+          "grade_range": "10",
+          "competency": "Comprende diversos tipos de texto, asumiendo una actitud crítica y argumentando sus puntos de vista frente a lo leído.",
+          "retrieval": "hybrid"
+        },
+        {
+          "id": "777cd68a-39cb-4fd7-b046-aec048eb1038",
+          "subject": "language",
+          "grade_range": "4-5",
+          "competency": "Comprendo diversos tipos de texto utilizando estrategias de búsqueda, organización y almacenamiento de la información.",
+          "retrieval": "hybrid"
+        }
+      ]
+    },
+    {
+      "query": "revolución",
+      "total": 10,
+      "text_matches": 10,
+      "grade_ranges": [
+        "8-9",
+        "10-11",
+        "5",
+        "6",
+        "8",
+        "11"
+      ],
+      "semantic_available": true,
+      "first_results": [
+        {
+          "id": "64756fe1-bb8b-4372-a704-f13fbf457a2f",
+          "subject": "social_studies",
+          "grade_range": "8-9",
+          "competency": "Explico la influencia de estas revoluciones en algunos procesos sociales, políticos y económicos posteriores en Colombia y América Latina.",
+          "retrieval": "text"
+        },
+        {
+          "id": "9d145fab-ffe3-49db-92fe-f0e2625abb7b",
+          "subject": "social_studies",
+          "grade_range": "8-9",
+          "competency": "Explico las principales características de algunas revoluciones de los siglos XVIII y XIX (Revolución Francesa, Revolución Industrial...).",
+          "retrieval": "text"
+        },
+        {
+          "id": "badf86c6-4223-41c0-bf2e-7809a82153ab",
+          "subject": "social_studies",
+          "grade_range": "8-9",
+          "competency": "Comparo algunos de los procesos políticos que tuvieron lugar en Colombia en los siglos XIX y XX (por ejemplo, radicalismo liberal y Revolución en Marcha; Regeneración y Frente Nacional; constituciones políticas de 1886 y 1991...).",
+          "retrieval": "text"
+        },
+        {
+          "id": "fb0995aa-eb05-4c90-9aa7-00402f5d6c5f",
+          "subject": "social_studies",
+          "grade_range": "8-9",
+          "competency": "Identifico y comparo algunos de los procesos políticos que tuvieron lugar en el mundo en el siglo XIX y primera mitad del siglo XX (procesos coloniales en África y Asia; Revolución Rusa y Revolución China; Primera y Segunda Guerra Mundial...).",
+          "retrieval": "text"
+        },
+        {
+          "id": "24ed15fb-d1b1-4464-911a-4922f68c5b18",
+          "subject": "social_studies",
+          "grade_range": "10-11",
+          "competency": "Comparo diferentes dictaduras y revoluciones en América Latina y su impacto en la construcción de la democracia.",
+          "retrieval": "text"
+        }
+      ]
+    },
+    {
+      "query": "present perfect",
+      "total": 27,
+      "text_matches": 27,
+      "grade_ranges": [
+        "1",
+        "7",
+        "8",
+        "8-9",
+        "10",
+        "3",
+        "4",
+        "5",
+        "6",
+        "9",
+        "10-11",
+        "11"
+      ],
+      "semantic_available": true,
+      "first_results": [
+        {
+          "id": "ba0673c8-7609-4c8a-ae6f-e3a945c72a57",
+          "subject": "language",
+          "grade_range": "1",
+          "competency": "Reconoce las temáticas presentes en los mensajes que escucha, a partir de la diferenciación de los sonidos que componen las palabras.",
+          "retrieval": "text"
+        },
+        {
+          "id": "68554111-0a8b-4481-a2b2-0dffe37de0a7",
+          "subject": "language",
+          "grade_range": "7",
+          "competency": "Establece conexiones entre los elementos presentes en la literatura y los hechos históricos, culturales y sociales en los que se han producido.",
+          "retrieval": "text"
+        },
+        {
+          "id": "27a4098a-d337-4c0c-b644-fe1eade65c5d",
+          "subject": "language",
+          "grade_range": "8",
+          "competency": "Caracteriza los discursos presentes en los medios de comunicación y otras fuentes de información, atendiendo al contenido, la intención comunicativa del autor y al contexto en que se producen.",
+          "retrieval": "text"
+        },
+        {
+          "id": "4f8b04ab-e7b2-491f-8a6e-3cdf97e630b8",
+          "subject": "english",
+          "grade_range": "8-9",
+          "competency": "Identifico elementos culturales presentes en textos sencillos.",
+          "retrieval": "text"
+        },
+        {
+          "id": "e4ebdf45-bdda-44a3-94e3-bd909915289b",
+          "subject": "social_studies",
+          "grade_range": "10",
+          "competency": "Analiza los conflictos bélicos presentes en las sociedades contemporáneas, sus causas y consecuencias así como su incidencia en la vida cotidiana de los pueblos.",
+          "retrieval": "text"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+[
+  {
+    "id": "13fee652-053a-4705-909b-b3a29eb6b9dd",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 1,
+    "subject": "mathematics",
+    "grade_range": "7",
+    "content": {
+      "competency": "Comprende y resuelve problemas, que involucran los números racionales con las operaciones (suma, resta, multiplicación, división, potenciación, radicación) en contextos escolares y extraescolares.",
+      "evidence": [
+        "Describe situaciones en las que los números enteros y racionales con sus operaciones están presentes.",
+        "Utiliza los signos “positivo” y “negativo” para describir cantidades relativas con números enteros y racionales.",
+        "Resuelve problemas en los que se involucran variaciones porcentuales."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "El salario mínimo en Colombia se incrementa anualmente bien sea por común acuerdo entre centrales obreras y el gobierno, o por decreto presidencial."
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Consulta los incrementos en los salarios mínimos en los últimos 10 años en Colombia."
+          ]
+        }
+      ],
+      "concepts": [
+        "operacion",
+        "suma",
+        "resta",
+        "potencia"
+      ],
+      "misconceptions": [
+        "Solo los libros contienen textos"
+      ]
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 2,
+      "evidence_count": 3
+    }
+  },
+  {
+    "id": "1642886b-7798-429e-a45f-3d5992f2bfce",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 2,
+    "subject": "mathematics",
+    "grade_range": "7",
+    "content": {
+      "competency": "Describe y utiliza diferentes algoritmos, convencionales y no convencionales, al realizar operaciones entre números racionales en sus diferentes representaciones (fracciones y decimales) y los emplea con sentido en la solución de problemas.",
+      "evidence": [
+        "Representa los números enteros y racionales en una recta numérica.",
+        "Estima el valor de una raíz cuadrada y de una potencia.",
+        "Construye representaciones geométricas y pictóricas para ilustrar relaciones entre cantidades.",
+        "Calcula e interpreta el máximo común divisor y el mínimo común múltiplo entre números enteros.",
+        "Describe procedimientos para calcular el resultado de una operación (suma, resta, multiplicación y división) entre números enteros y racionales."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "Calcula el área de un rectángulo que se construye en un software de geometría dinámica o en papel milimetrado. Los lados del rectángulo podrán variar en algún dominio específico, por ejemplo de 0 a 5, tomando todos los números en el intervalo hasta con un dígito decimal. A medida que cambian los lados, el software debe proporcionar el área del rectángulo conforme se muestra en la siguiente secuencia de imágenes."
+        },
+        {
+          "type": "imagen",
+          "content": {
+            "description": "rectángulo construido en un softwate, cuya área resultante cambia en relación al cambio de sus lados."
+          }
+        },
+        {
+          "type": "texto",
+          "content": "Las imágenes están construidas recreando una cuadrícula de papel milimetrado en la cual se resaltan las divisiones en unidades y en décimas. A partir de estos datos determina la relación entre el área de un cuadradito pequeño (de 0.1 de lado) y el área de un cuadrado unidad (de 1 de lado)."
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Representa los resultados como fracción y como decimal.",
+            "Escribe los valores de las áreas de estos rectángulos de dos formas, una tomando como unidad el área de un cuadrado cuyo lado mide 1 y la otra el área de un cuadrado cuyo lado mide 0,1. En la segunda escribe los valores usando fracciones y representaciones decimales.",
+            "En la primera forma escribe el valor en términos de la unidad de medida pequeña.",
+            "Compara los valores obtenidos por las dos formas y ofrece argumentos variados para justificar las equivalencias."
+          ]
+        }
+      ],
+      "concepts": [
+        "fraccion",
+        "decimal",
+        "operacion"
+      ],
+      "misconceptions": [
+        "Las fracciones solo representan partes de un círculo",
+        "Los decimales son números diferentes a las fracciones"
+      ]
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 4,
+      "evidence_count": 5
+    }
+  },
+  {
+    "id": "0523665c-45c1-4134-9a8d-9e139ed2f0d0",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 3,
+    "subject": "mathematics",
+    "grade_range": "7",
+    "content": {
+      "competency": "Utiliza diferentes relaciones, operaciones y representaciones en los números racionales para argumentar y solucionar problemas en los que aparecen cantidades desconocidas.",
+      "evidence": [
+        "Realiza operaciones para calcular el número decimal que representa una fracción y viceversa.",
+        "Usa las propiedades distributiva, asociativa, modulativa, del inverso y conmutativa de la suma y la multiplicación en los racionales para proponer diferentes caminos al realizar un cálculo.",
+        "Determina el valor desconocido de una cantidad a partir de las transformaciones de una expresión algebraica."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "Encuentra el valor numérico de una operación, por ejemplo: 0,457 + 2,56 - 3,4 por medio de una calculadora que tiene las teclas cinco (5) y punto decimal (.) averiadas."
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Describe al menos dos maneras de hacer la operación indicada y discute sobre la validez de los procedimientos."
+          ]
+        }
+      ],
+      "concepts": [
+        "operacion"
+      ],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 2,
+      "evidence_count": 3
+    }
+  },
+  {
+    "id": "87e6eaa5-62c7-4ec9-9d41-b395c3b2a22d",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 4,
+    "subject": "mathematics",
+    "grade_range": "7",
+    "content": {
+      "competency": "Utiliza escalas apropiadas para representar e interpretar planos, mapas y maquetas con diferentes unidades.",
+      "evidence": [
+        "Identifica los tipos de escalas y selecciona la adecuada para la elaboración de planos de acuerdo al formato o espacio disponible para dibujar.",
+        "Expresa la misma medida con diferentes unidades según el contexto.",
+        "Representa e interpreta situaciones de ampliación y reducción en contextos diversos."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "La Institución Rural “La Esperanza” tiene 11 aulas distribuidas en un terreno de 15,18 Dm^2 (decámetros cuadrados), el terreno tiene forma aproximadamente rectangular. La institución va a ser reconstruido debido a que se desea que además de las 11 aulas de 36 m^2 cada una, también se aproveche el terreno sin construir para que cuente con un restaurante de 72m^2, un salón de música de 45m^2, un salón de artes integradas de 48m^2, un auditorio de 2 Dm^2, una biblioteca de 42m^2, una cancha de 480 m^2, y que se conserven algunas zonas verdes. Los estudiantes tendrán que recibir sus clases por algún tiempo en la sede de acción comunal en diferentes horarios."
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Elabora un plano de la nueva institución a escala, en una hoja tamaño oficio, determina si 1:100 es una escala adecuada, en caso de que no lo sea, explica por qué y encuentra la escala adecuada."
+          ]
+        }
+      ],
+      "concepts": [],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 2,
+      "evidence_count": 3
+    }
+  },
+  {
+    "id": "05da371a-52bd-4964-ad2b-36427d12af6f",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 5,
+    "subject": "mathematics",
+    "grade_range": "7",
+    "content": {
+      "competency": "Observa objetos tridimensionales desde diferentes puntos de vista, los representa según su ubicación y los reconoce cuando se transforman mediante rotaciones, traslaciones y reflexiones.",
+      "evidence": [
+        "Establece relaciones entre la posición y las vistas de un objeto.",
+        "Reconoce e interpreta la representación de un objeto.",
+        "Representa objetos tridimensionales cuando se transforman."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "Un observador visualizó el envase que se muestra en la imagen desde diferentes puntos de vista: vista frontal, vista superior y vista inferior como lo muestra la figura. Según se observa cambian las configuraciones de la forma del objeto."
+        },
+        {
+          "type": "imagen",
+          "content": {
+            "description": "vista frontal, vista superior y vusta inferior de un envase."
+          }
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Describe cómo cambia la visualización del envase en cada una de las vistas."
+          ]
+        }
+      ],
+      "concepts": [],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 3,
+      "evidence_count": 3
+    }
+  },
+  {
+    "id": "2bb24962-1456-42e7-ace2-f2dcf4151383",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 6,
+    "subject": "mathematics",
+    "grade_range": "7",
+    "content": {
+      "competency": "Representa en el plano cartesiano la variación de magnitudes (áreas y perímetro) y con base en la variación explica el comportamiento de situaciones y fenómenos de la vida diaria.",
+      "evidence": [
+        "Interpreta las modificaciones entre el perímetro y el área con un factor de variación respectivo.",
+        "Establece diferencias entre los gráficos del perímetro y del área.",
+        "Coordina los cambios de la variación entre el perímetro y la longitud de los lados o el área de una figura.",
+        "Organiza la información (registros tabulares y gráficos) para comprender la relación entre el perímetro y el área."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "Manipula las longitudes de un par de lados paralelos de un rectángulo, con el uso de un software de geometría dinámica. Establece el factor de escala para relacionar las longitudes de los lados, los perímetros y las áreas de los dos rectángulos."
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Determina qué indica el registro gráfico en correspondencia con la longitud de los lados y con las áreas de los rectángulos."
+          ]
+        }
+      ],
+      "concepts": [],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 2,
+      "evidence_count": 4
+    }
+  },
+  {
+    "id": "f0149bc4-2131-41b2-af3e-aa171a8e20f7",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 7,
+    "subject": "mathematics",
+    "grade_range": "7",
+    "content": {
+      "competency": "Plantea y resuelve ecuaciones, las describe verbalmente y representa situaciones de variación de manera numérica, simbólica o gráfica.",
+      "evidence": [
+        "Plantea modelos algebraicos, gráficos o numéricos en los que identifica variables y rangos de variación de las variables.",
+        "Toma decisiones informadas en exploraciones numéricas, algebraicas o gráficas de los modelos matemáticos usados.",
+        "Utiliza métodos informales exploratorios para resolver ecuaciones."
+      ],
+      "examples": [
+        {
+          "type": "pregunta",
+          "content": [
+            "Con base en la información gráfica encuentra el peso de cada una de las gallinas (Los pesos están expresados en libras)."
+          ]
+        },
+        {
+          "type": "imagen",
+          "content": {
+            "description": "tres situaciones en las que tres gallinas se pesan en parejas y una en donde no se sabe el peso de todas las gallinas juntas."
+          }
+        }
+      ],
+      "concepts": [
+        "ecuacion"
+      ],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 2,
+      "evidence_count": 3
+    }
+  },
+  {
+    "id": "0e5ccbfd-ac08-47bf-b8e8-fd29ef41a70f",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 8,
+    "subject": "mathematics",
+    "grade_range": "7",
+    "content": {
+      "competency": "Plantea preguntas para realizar estudios estadísticos en los que representa información mediante histogramas, polígonos de frecuencia, gráficos de línea entre otros; identifica variaciones, relaciones o tendencias para dar respuesta a las preguntas planteadas.",
+      "evidence": [
+        "Plantea preguntas, diseña y realiza un plan para recolectar la información pertinente.",
+        "Construye tablas de frecuencia y gráficos (histogramas, polígonos de frecuencia, gráficos de línea, entre otros), para datos agrupados usando, calculadoras o software adecuado.",
+        "Encuentra e interpreta las medidas de tendencia central y el rango en datos agrupados, empleando herramientas tecnológicas cuando sea posible.",
+        "Analiza la información presentada identificando variaciones, relaciones o tendencias y elabora conclusiones que permiten responder la pregunta planteada."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "Un piscicultor tiene tres estanques en los que cultivan truchas, él quiere estimar el peso aproximado de las truchas en cada estanque para saber cómo va el crecimiento. Saca al azar de cada uno de los 3 estanques 50 truchas y las pesa. La información se presenta en las siguientes tablas:"
+        },
+        {
+          "type": "tabla",
+          "content": {
+            "description": "descripcion: registro del peso en gr y la frecuencia de truchas para tres estanques."
+          }
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Encuentra el peso aproximado de las truchas en cada estanque y compara el comportamiento para concluir sobre el estado de crecimiento de las truchas en cada estanque"
+          ]
+        }
+      ],
+      "concepts": [],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 3,
+      "evidence_count": 4
+    }
+  },
+  {
+    "id": "550469a7-6e1a-41fc-b72a-6a3087bd783a",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 9,
+    "subject": "mathematics",
+    "grade_range": "7",
+    "content": {
+      "competency": "Usa el principio multiplicativo en situaciones aleatorias sencillas y lo representa con tablas o diagramas de árbol. Asigna probabilidades a eventos compuestos y los interpreta a partir de propiedades básicas de la probabilidad.",
+      "evidence": [
+        "Elabora tablas o diagramas de árbol para representar las distintas maneras en que un experimento aleatorio puede suceder.",
+        "Usa el principio multiplicativo para calcular el número de resultados posibles.",
+        "Interpreta el número de resultados considerando que cuando se cambia de orden no se altera el resultado."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "En la cafetería del colegio se anuncia: “Aproveche, diferentes formas de seleccionar su almuerzo”. Ofrecen las siguientes opciones: Sopa o fruta. Pollo, carne o ensalada. Arroz, papa o plátano."
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Elabora un diagrama de árbol para representar las posibles elecciones de menú. Cuenta o multiplica para encontrar todas las posibles combinaciones disponibles y argumenta sobre la veracidad de la información del anuncio."
+          ]
+        }
+      ],
+      "concepts": [],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 2,
+      "evidence_count": 3
+    }
+  }
+]

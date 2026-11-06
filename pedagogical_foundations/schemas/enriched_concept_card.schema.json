@@ -1,0 +1,338 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://kuneo.ai/schemas/enriched_concept_card.schema.json",
+  "title": "Enriched Concept Card Schema",
+  "description": "Schema for validating enriched concept card content in Kuneo platform. This schema validates the enriched_content JSONB column, which contains refined content, variants, error patterns, and adaptive usage rules.",
+  "type": "object",
+  "required": ["version", "source", "refined", "variants", "error_patterns", "adaptive_usage", "metadata"],
+  "properties": {
+    "version": {
+      "type": "string",
+      "description": "Version of pedagogical foundations used",
+      "pattern": "^\\d+\\.\\d+$"
+    },
+    "source": {
+      "type": "string",
+      "description": "Source of enrichment",
+      "enum": ["openai_enrichment", "manual", "hybrid"]
+    },
+    "refined": {
+      "type": "object",
+      "description": "Refined base concept card content",
+      "required": ["concept_name", "one_line_definition", "core_insight", "student_friendly_explanation", "practical_example"],
+      "properties": {
+        "concept_name": {
+          "type": "string",
+          "description": "Refined concept name (age-appropriate)",
+          "minLength": 3,
+          "maxLength": 80
+        },
+        "one_line_definition": {
+          "type": "string",
+          "description": "One-line definition (brief, clear)",
+          "minLength": 10,
+          "maxLength": 200
+        },
+        "core_insight": {
+          "type": "string",
+          "description": "Core insight that unlocks understanding",
+          "minLength": 10,
+          "maxLength": 300
+        },
+        "student_friendly_explanation": {
+          "type": "string",
+          "description": "Student-friendly explanation (no jargon)",
+          "minLength": 20,
+          "maxLength": 500
+        },
+        "practical_example": {
+          "type": "string",
+          "description": "Practical example (contextualized)",
+          "minLength": 20,
+          "maxLength": 400
+        },
+        "common_misconception": {
+          "type": "string",
+          "description": "Most common misconception about this concept",
+          "maxLength": 300
+        },
+        "misconception_explanation": {
+          "type": "string",
+          "description": "Why students typically have this misconception",
+          "maxLength": 400
+        },
+        "hint_prompt": {
+          "type": "string",
+          "description": "Generic hint prompt (does not reveal answer)",
+          "maxLength": 300
+        },
+        "visual_caption": {
+          "type": "string",
+          "description": "Caption for visual template",
+          "maxLength": 150
+        }
+      }
+    },
+    "variants": {
+      "type": "object",
+      "description": "Card variants for different intervention scenarios",
+      "required": ["basic", "hint", "corrective", "reflective"],
+      "properties": {
+        "basic": {
+          "$ref": "#/definitions/card_variant",
+          "description": "Basic rescue card when student is stuck"
+        },
+        "hint": {
+          "$ref": "#/definitions/card_variant",
+          "description": "Hint card that guides without revealing answer"
+        },
+        "corrective": {
+          "$ref": "#/definitions/card_variant",
+          "description": "Corrective card for specific misconception"
+        },
+        "reflective": {
+          "$ref": "#/definitions/card_variant",
+          "description": "Reflective card after success to deepen thinking"
+        },
+        "deepening": {
+          "$ref": "#/definitions/card_variant",
+          "description": "Optional deepening card for extension"
+        }
+      }
+    },
+    "error_patterns": {
+      "type": "object",
+      "description": "Common error patterns and diagnostic clues",
+      "required": ["patterns"],
+      "properties": {
+        "patterns": {
+          "type": "array",
+          "description": "List of error patterns",
+          "minItems": 1,
+          "maxItems": 10,
+          "items": {
+            "$ref": "#/definitions/error_pattern"
+          }
+        }
+      }
+    },
+    "adaptive_usage": {
+      "type": "object",
+      "description": "Rules for when and how to show this card",
+      "required": ["show_when", "do_not_show_when", "recommended_cognitive_types"],
+      "properties": {
+        "show_when": {
+          "type": "array",
+          "description": "Conditions when card should be shown",
+          "items": {
+            "type": "string"
+          }
+        },
+        "do_not_show_when": {
+          "type": "array",
+          "description": "Conditions when card should NOT be shown",
+          "items": {
+            "type": "string"
+          }
+        },
+        "recommended_cognitive_types": {
+          "type": "array",
+          "description": "Cognitive types where this card is most useful",
+          "items": {
+            "type": "string"
+          }
+        },
+        "recommended_step_types": {
+          "type": "array",
+          "description": "Step types where this card is most useful",
+          "items": {
+            "type": "string"
+          }
+        },
+        "intervention_level": {
+          "type": "string",
+          "description": "Level of intervention",
+          "enum": ["minimal", "moderate", "intensive", "rescue"]
+        },
+        "cooldown_rules": {
+          "type": "object",
+          "description": "Rules to prevent showing same card too frequently",
+          "properties": {
+            "min_minutes_between_shows": {
+              "type": "number",
+              "description": "Minimum minutes before showing again",
+              "minimum": 0
+            },
+            "max_shows_per_session": {
+              "type": "integer",
+              "description": "Maximum times to show in one session",
+              "minimum": 1
+            }
+          }
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Enrichment metadata",
+      "required": ["model", "enriched_at"],
+      "properties": {
+        "model": {
+          "type": "string",
+          "description": "OpenAI model used for enrichment"
+        },
+        "enriched_at": {
+          "type": "string",
+          "description": "ISO 8601 timestamp",
+          "format": "date-time"
+        },
+        "enrichment_duration_seconds": {
+          "type": "number",
+          "description": "Time taken to enrich",
+          "minimum": 0
+        },
+        "total_tokens": {
+          "type": "integer",
+          "description": "Total tokens used",
+          "minimum": 0
+        }
+      }
+    }
+  },
+  "definitions": {
+    "card_variant": {
+      "type": "object",
+      "required": ["title", "body", "example", "tuko_line", "when_to_show"],
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Card title (brief)",
+          "minLength": 3,
+          "maxLength": 80
+        },
+        "body": {
+          "type": "string",
+          "description": "Card body content (brief, clear)",
+          "minLength": 10,
+          "maxLength": 500
+        },
+        "example": {
+          "type": "string",
+          "description": "Mini example (optional, contextual)",
+          "maxLength": 300
+        },
+        "tuko_line": {
+          "type": "string",
+          "description": "Tuko's intervention line (empathetic, brief)",
+          "minLength": 5,
+          "maxLength": 200
+        },
+        "when_to_show": {
+          "type": "array",
+          "description": "Specific conditions for this variant",
+          "items": {
+            "type": "string"
+          }
+        },
+        "visual_template_key": {
+          "type": "string",
+          "description": "Visual template to use for this variant"
+        },
+        "visual_overlay_suggestions": {
+          "type": "array",
+          "description": "Suggested visual overlays for this variant",
+          "items": {
+            "type": "string"
+          }
+        },
+        "hint_level": {
+          "type": "integer",
+          "description": "Hint level (1=subtle, 2=moderate, 3=explicit)",
+          "minimum": 1,
+          "maximum": 3
+        },
+        "does_not_reveal_answer": {
+          "type": "boolean",
+          "description": "Confirms hint does not give away the answer"
+        },
+        "misconception": {
+          "type": "string",
+          "description": "Specific misconception addressed (for corrective cards)",
+          "maxLength": 200
+        },
+        "correction": {
+          "type": "string",
+          "description": "How to correct the misconception (non-punitive)",
+          "maxLength": 400
+        },
+        "reflection_prompt": {
+          "type": "string",
+          "description": "Reflection question (for reflective cards)",
+          "maxLength": 250
+        },
+        "deepening_question": {
+          "type": "string",
+          "description": "Question to deepen thinking (for reflective cards)",
+          "maxLength": 250
+        },
+        "connection": {
+          "type": "string",
+          "description": "Connection to other concepts (for deepening cards)",
+          "maxLength": 300
+        },
+        "transfer_question": {
+          "type": "string",
+          "description": "Transfer question to new context (for deepening cards)",
+          "maxLength": 250
+        }
+      }
+    },
+    "error_pattern": {
+      "type": "object",
+      "required": ["misconception_key", "diagnostic_clue", "corrective_feedback"],
+      "properties": {
+        "misconception_key": {
+          "type": "string",
+          "description": "Unique key for this misconception",
+          "minLength": 3,
+          "maxLength": 80
+        },
+        "misconception_description": {
+          "type": "string",
+          "description": "Brief description of the misconception",
+          "minLength": 10,
+          "maxLength": 300
+        },
+        "likely_wrong_answers": {
+          "type": "array",
+          "description": "Typical wrong answers that indicate this misconception",
+          "items": {
+            "type": "string"
+          }
+        },
+        "diagnostic_clue": {
+          "type": "string",
+          "description": "How to detect this misconception",
+          "minLength": 10,
+          "maxLength": 300
+        },
+        "corrective_feedback": {
+          "type": "string",
+          "description": "Feedback to correct this misconception (non-punitive)",
+          "minLength": 10,
+          "maxLength": 400
+        },
+        "visual_overlay_key": {
+          "type": "string",
+          "description": "Visual overlay to highlight the error",
+          "maxLength": 80
+        },
+        "recommended_card_variant": {
+          "type": "string",
+          "description": "Which card variant to show for this error",
+          "enum": ["basic", "hint", "corrective", "reflective", "deepening"]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,689 @@
+[
+  {
+    "module_id": "4d4977f6-a9f0-45df-8607-5e96b98f8e9b",
+    "source_unit_id": "bbf81668-16c8-49ca-a563-3bf7beaff6af",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "10",
+    "difficulty": 1,
+    "title": "¿Cómo funciona movimiento?",
+    "learning_objective": "Comprende, que el reposo o el movimiento rectilíneo uniforme, se presentan cuando las fuerzas aplicadas sobre el sistema se anulan entre ellas, y que en presencia de fuerzas resultantes no nulas se producen cambios de velocidad.",
+    "context": "dos personas tirando de una cuerda en sentidos opuestos, como un sistema en equilibrio o reposo.",
+    "core_concept": "movimiento",
+    "concepts": [
+      "movimiento",
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [
+      "comprender",
+      "comprender",
+      "identificar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con movimiento?",
+      "expected_signals": [
+        "movimiento",
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "1fbc5c8e-b2e8-479d-b4bb-0afa79b81a08",
+        "evidence_source": "Predice el equilibrio (de reposo o movimiento uniforme en línea recta) de un cuerpo a partir del análisis de las fuerzas que actúan sobre él (primera ley de Newton).",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Predice el equilibrio (de reposo o movimiento uniforme en línea recta) de un cuerpo a partir del análisis de las fuerzas que actúan sobre él (primera ley de Newton).",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 1
+      },
+      {
+        "id": "3dfab4ac-7fbb-4cce-8ae7-ec60f1f05296",
+        "evidence_source": "Estima, a partir de las expresiones matemáticas, los cambios de velocidad (aceleración) que experimenta un cuerpo a partir de la relación entre fuerza y masa (segunda ley de Newton).",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Estima, a partir de las expresiones matemáticas, los cambios de velocidad (aceleración) que experimenta un cuerpo a partir de la relación entre fuerza y masa (segunda ley de Newton).",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 2
+      },
+      {
+        "id": "99f8218a-f40d-4bf7-8209-763f83be1503",
+        "evidence_source": "Identifica, en diferentes situaciones de interacción entre cuerpos (de forma directa y a distancia), la fuerza de acción y la de reacción e indica sus valores y direcciones (tercera ley de Newton).",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con movimiento y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 3
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre movimiento?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender movimiento?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 1
+      }
+    }
+  },
+  {
+    "module_id": "58e5907f-2d3f-4e82-a542-15b5f72da205",
+    "source_unit_id": "b586e393-cdd0-481e-ac2b-106472fe0095",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "10",
+    "difficulty": 1,
+    "title": "¿Cómo funciona movimiento?",
+    "learning_objective": "Comprende la conservación de la energía mecánica como un principio que permite cuantificar y explicar diferentes fenómenos mecánicos: choques entre cuerpos, movimiento pendular, caída libre, deformación de un sistema masa-resorte.",
+    "context": "movimiento de las bolas al chocar en un juego de billar.",
+    "core_concept": "movimiento",
+    "concepts": [
+      "movimiento",
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "comprender",
+      "identificar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con movimiento?",
+      "expected_signals": [
+        "movimiento",
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "6769d50e-d757-4976-9faa-f2eac501630b",
+        "evidence_source": "Predice cualitativa y cuantitativamente el movimiento de un cuerpo al hacer uso del principio de conservación de la energía mecánica en diferentes situaciones físicas.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Predice cualitativa y cuantitativamente el movimiento de un cuerpo al hacer uso del principio de conservación de la energía mecánica en diferentes situaciones físicas.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 1
+      },
+      {
+        "id": "d69450bd-407d-4b10-8e8a-b68f5634457c",
+        "evidence_source": "Identifica, en sistemas no conservativos (fricción, choques no elásticos, deformación, vibraciones) las transformaciones de energía que se producen en concordancia con la conservación de la energía.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con movimiento y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 2
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre movimiento?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender movimiento?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 2
+      }
+    }
+  },
+  {
+    "module_id": "e1d6fa21-d28b-417f-968c-6fdc713a8ae5",
+    "source_unit_id": "c57a6963-8746-4fee-83f8-b328843a947a",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "10",
+    "difficulty": 1,
+    "title": "¿Cómo funciona reacciones_quimicas?",
+    "learning_objective": "Comprende que los diferentes mecanismos de reacción química (oxido-reducción, descomposición, neutralización y precipitación) posibilitan la formación de compuestos inorgánicos.",
+    "context": "Realiza actividades experimentales para analizar los factores que influyen en la formación de compuestos inorgánicos. Durante el proceso utiliza cálculos para saber exactamente la cantidad de reactivo necesario para obtener una cantidad de producto o cuánto producto se obtiene de acuerdo a la cantidad de reactivo. ['Utiliza fórmulas y ecuaciones para representar las reacciones que elabora y clasíficalas según la función química.']",
+    "core_concept": "reacciones_quimicas",
+    "concepts": [
+      "escritura",
+      "lectura_inferencial",
+      "potenciacion"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "comprender",
+      "comprender",
+      "comprender",
+      "explicar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con reacciones_quimicas?",
+      "expected_signals": [
+        "escritura",
+        "lectura_inferencial",
+        "potenciacion"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "90ba3b4b-1bf9-4e34-a8a7-c3c407c8eccb",
+        "evidence_source": "Establece la relación entre la distribución de loselectrones en el átomo y el comportamiento químico de los elementos, explicando cómo esta distribución determina la formación de compuestos, dados en ejemplos de elementos de la Tabla Periódica.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Establece la relación entre la distribución de loselectrones en el átomo y el comportamiento químico de los elementos, explicando cómo esta distribución determina la formación de compuestos, dados en ejemplos de elementos de la Tabla Periódica.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de reacciones_quimicas.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 1,
+        "order": 1
+      },
+      {
+        "id": "4acb7f1d-ac09-4233-b361-250fab52ba03",
+        "evidence_source": "Balancea ecuaciones químicas dadas por el docente, teniendo en cuenta la ley de conservación de la masa y la conservación de la carga, al determinar cuantitativamente las relaciones molares entre reactivos y productos de una reacción (a partir de sus coeficientes).",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Balancea ecuaciones químicas dadas por el docente, teniendo en cuenta la ley de conservación de la masa y la conservación de la carga, al determinar cuantitativamente las relaciones molares entre reactivos y productos de una reacción (a partir de sus coeficientes).",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de reacciones_quimicas.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 2
+      },
+      {
+        "id": "1563aee7-3a57-4d61-a057-f277c8ea9018",
+        "evidence_source": "Utiliza formulas y ecuaciones químicas para representar las reacciones entre compuestos inorgánicos (óxidos, ácidos, hidróxidos, sales) y posteriormente nombrarlos con base en la nomenclatura propuesta por la Unión Internacional de Química Pura y Aplicada (IUPAC).",
+        "type": "representation",
+        "prompt": "Representa la idea de reacciones_quimicas usando un esquema, tabla o dibujo mental.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de reacciones_quimicas.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "representacion",
+          "transferencia"
+        ],
+        "difficulty": 1,
+        "order": 3
+      },
+      {
+        "id": "f08700a1-ed0d-4ae5-8185-d750d5e3850b",
+        "evidence_source": "Explica a partir de relaciones cuantitativas y reacciones químicas (oxido-reducción, descomposición, neutralización y precipitación) la formación de nuevos compuestos, dando ejemplos de cada tipo de reacción.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica a partir de relaciones cuantitativas y reacciones químicas (oxido-reducción, descomposición, neutralización y precipitación) la formación de nuevos compuestos, dando ejemplos de cada tipo de reacción.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de reacciones_quimicas.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 1,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre reacciones_quimicas?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender reacciones_quimicas?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 3
+      }
+    }
+  },
+  {
+    "module_id": "e0440ff6-f7bc-411d-a2f0-1a6ca34beeb1",
+    "source_unit_id": "4d460117-1de8-4f00-aefa-05f06400dace",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "10",
+    "difficulty": 1,
+    "title": "¿Cómo funciona ciencias_naturales?",
+    "learning_objective": "Comprende que la biotecnología conlleva el uso y manipulación de la información genética a través de distintas técnicas (fertilización asistida, clonación reproductiva y terapéutica, modificación genética, terapias génicas), y que tiene implicaciones sociales, bioéticas y ambientales.",
+    "context": "A partir del siguiente texto: Marcos (2011) critica la visión reduccionista que tuvo auge hacia el año 1972 y que se concreta en el Proyecto Genoma Humano. Al respecto reprocha la frase “Si todo está en los genes, entonces conozcamos exhaustivamente los nuestros y sabremos todo lo necesario para manejar la vida humana” y agrega: “comenzamos dando la bienvenida a métodos moleculares que produjeron importantes descubrimientos, pero acabamos aceptando que todo el ámbito de lo vivo se reduce, de hecho a moléculas” (p. 46). ['Explica de qué se trata el proyecto Genoma Humano y cuál ha sido su impacto para la investigación y práctica médica. Plantea preguntas que posibiliten indagar más acerca de las posturas sobre Genoma Humano, para responderlas hace una revisión bibliográfica, identifica argumentos y explicaciones, comparando los diversos puntos de vista y participa en un debate sobre manipulación genética, previo reporte del análisis de la información obtenida.']",
+    "core_concept": "ciencias_naturales",
+    "concepts": [
+      "fracciones",
+      "argumentacion",
+      "lectura_inferencial",
+      "reading",
+      "sociedad"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "comprender",
+      "explicar",
+      "argumentar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con ciencias_naturales?",
+      "expected_signals": [
+        "fracciones",
+        "argumentacion",
+        "lectura_inferencial",
+        "reading",
+        "sociedad"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "850917b6-2d02-4d94-b074-68db3fd21f45",
+        "evidence_source": "Describe distintas técnicas biotecnológicas (fertilización asistida, clonación reproductiva y terapéutica, modificación genética, terapias génicas), explicando cómo funcionan y qué características generan en los organismos desarrollados.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Describe distintas técnicas biotecnológicas (fertilización asistida, clonación reproductiva y terapéutica, modificación genética, terapias génicas), explicando cómo funcionan y qué características generan en los organismos desarrollados.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 1,
+        "order": 1
+      },
+      {
+        "id": "ca230345-e2f4-441e-85e6-9e73857151d2",
+        "evidence_source": "Explica los usos de la biotecnología y sus efectos en diferentes contextos (salud, agricultura, producción energética y ambiente).",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica los usos de la biotecnología y sus efectos en diferentes contextos (salud, agricultura, producción energética y ambiente).",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 1,
+        "order": 2
+      },
+      {
+        "id": "b6318581-55f0-4160-9723-8f79480ed9b4",
+        "evidence_source": "Argumenta, basado en evidencias, los impactos bioéticos, legales, sociales y ambientales generados por el uso de transgénicos, clonación y terapias génicas.",
+        "type": "argumentation",
+        "prompt": "Justifica tu respuesta usando evidencia o razones claras.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "argumentacion"
+        ],
+        "difficulty": 1,
+        "order": 3
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "creer que la interpretación de un texto es única",
+        "pattern": "creer que la interpretación de un texto es única",
+        "feedback": "Revisemos esta idea: creer que la interpretación de un texto es única",
+        "visual": "idea_evidence_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre ciencias_naturales?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender ciencias_naturales?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "idea_evidence_map",
+        "trigger": "creer que la interpretación de un texto es única",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 4
+      }
+    }
+  }
+]

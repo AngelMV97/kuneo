@@ -1,0 +1,305 @@
+{
+  "model": "gpt-4.1-mini",
+  "started": "2026-11-05T21:51:30.381Z",
+  "limit": {
+    "calls": 24,
+    "completionTokensPerCall": 700,
+    "totalTokens": 75000
+  },
+  "calls": 24,
+  "inputTokens": 20668,
+  "outputTokens": 2536,
+  "results": [
+    {
+      "candidateSha256": "05133c0b2340828a56772e35febbfaab6128ce2fc6b9800eee05d4c92ed08458",
+      "subject": "mathematics",
+      "round": 1,
+      "answer": "El cuatro cuenta todos los pedazos del mismo tamaño y el uno el que se llevó. Si fueran distintos, no serían cuartos iguales.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Has identificado correctamente que el cuatro representa el total de pedazos iguales y el uno la porción que Ana tomó. Además, explicaste bien por qué es importante que las porciones sean iguales para que sean cuartos. Buen trabajo expresando la idea con tus propias palabras."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "05133c0b2340828a56772e35febbfaab6128ce2fc6b9800eee05d4c92ed08458",
+      "subject": "mathematics",
+      "round": 1,
+      "answer": "Hay cuatro trozos iguales; Ana toma uno. Todos deben medir igual para que cada uno sea un cuarto.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Has identificado correctamente que el cuatro representa las cuatro porciones iguales y el uno la porción que Ana tomó. Además, explicaste bien por qué es importante que las porciones sean iguales para que cada una represente un cuarto. Buen trabajo explicando con tus propias palabras."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "05133c0b2340828a56772e35febbfaab6128ce2fc6b9800eee05d4c92ed08458",
+      "subject": "mathematics",
+      "round": 1,
+      "answer": "El uno es el pedazo tomado.",
+      "expected": "partial",
+      "actual": {
+        "result": "partial",
+        "feedback": "Has identificado correctamente que el uno representa la porción tomada, lo cual es un buen comienzo. Sin embargo, falta que menciones qué indica el cuatro y que expliques por qué es importante que las porciones sean iguales para que cada una represente un cuarto del total."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "05133c0b2340828a56772e35febbfaab6128ce2fc6b9800eee05d4c92ed08458",
+      "subject": "mathematics",
+      "round": 1,
+      "answer": "parte todo dividir porción",
+      "expected": "incorrect",
+      "actual": {
+        "result": "incorrect",
+        "feedback": "Mencionas palabras relacionadas con la división, pero no explicas qué representan el uno y el cuatro ni por qué es importante que las porciones sean iguales. Intenta expresar qué indica cada número y por qué las partes deben ser iguales para que cada una sea un cuarto."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "b339a282e52e7c96ab16fa927bcda94c0ca86ac24a98c80d5fd18c2013034c5b",
+      "subject": "language",
+      "round": 1,
+      "answer": "Se mojó con la lluvia: dijo qué aguacero. Releería esa frase para estar seguro.",
+      "expected": "correct",
+      "actual": {
+        "result": "partial",
+        "feedback": "Has entendido que Lina se mojó por la lluvia y mencionas la frase 'qué aguacero' para comprobarlo, lo cual es bueno. Sin embargo, sería mejor si también señalas explícitamente una pista del relato, como que volvió mojada o que salió sin sombrilla, para apoyar tu idea."
+      },
+      "pass": false
+    },
+    {
+      "candidateSha256": "b339a282e52e7c96ab16fa927bcda94c0ca86ac24a98c80d5fd18c2013034c5b",
+      "subject": "language",
+      "round": 1,
+      "answer": "Le cayó agua de lluvia; volvió mojada. Volvería a leer lo que dice del aguacero.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Has inferido correctamente que Lina se mojó por la lluvia, señalaste pistas claras del relato y propusiste releer una frase pertinente para comprobarlo. Muy bien hecho."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "b339a282e52e7c96ab16fa927bcda94c0ca86ac24a98c80d5fd18c2013034c5b",
+      "subject": "language",
+      "round": 1,
+      "answer": "Se mojó por la lluvia.",
+      "expected": "partial",
+      "actual": {
+        "result": "partial",
+        "feedback": "Has entendido que Lina se mojó por la lluvia, lo cual es correcto. Sin embargo, falta que menciones una pista del relato que te ayude a pensar eso y que digas qué frase volverías a leer para comprobar tu idea. Intenta incluir esas partes para completar la respuesta."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "b339a282e52e7c96ab16fa927bcda94c0ca86ac24a98c80d5fd18c2013034c5b",
+      "subject": "language",
+      "round": 1,
+      "answer": "lectura inferencial aplicar texto ejemplo",
+      "expected": "incorrect",
+      "actual": {
+        "result": "incorrect",
+        "feedback": "Tu respuesta no incluye una explicación sobre qué le pasó a Lina ni una pista del relato que te ayude a pensarlo. Tampoco mencionas qué frase volverías a leer para comprobar tu idea. Intenta expresar qué crees que ocurrió y qué parte del texto te hace pensar eso, además de qué frase revisarías para estar seguro."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "32dcbf67e6f5c44276b4545c3ac09329c494524aed72b61bfb48bbc9a807f195",
+      "subject": "social_studies",
+      "round": 1,
+      "answer": "La feria da dinero a familias pero el ruido afecta a quienes descansan. Acordaría horas sin amplificadores para permitir las ventas y cuidar el sueño de los vecinos.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Relacionaste claramente los ingresos y el descanso, y propusiste una medida viable explicando a quién beneficia. Buen trabajo integrando los aspectos del caso y justificando la solución."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "32dcbf67e6f5c44276b4545c3ac09329c494524aed72b61bfb48bbc9a807f195",
+      "subject": "social_studies",
+      "round": 1,
+      "answer": "La música permite expresarse y también puede molestar a otros. Pondría las presentaciones en una zona y horario acordados para que participen artistas y descansen vecinos.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Relacionaste bien la expresión cultural con el descanso y propusiste una medida clara que ayuda a artistas y vecinos. Buen trabajo explicando la relación y el beneficio para ambos grupos."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "32dcbf67e6f5c44276b4545c3ac09329c494524aed72b61bfb48bbc9a807f195",
+      "subject": "social_studies",
+      "round": 1,
+      "answer": "Las ventas dan ingresos, pero la música molesta al descanso.",
+      "expected": "partial",
+      "actual": {
+        "result": "partial",
+        "feedback": "Has identificado correctamente dos aspectos del caso: los ingresos y el descanso. Sin embargo, falta que propongas una medida concreta para resolver el conflicto y que expliques quiénes se beneficiarían con esa medida. Intenta incluir una propuesta clara y su impacto para completar la respuesta."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "32dcbf67e6f5c44276b4545c3ac09329c494524aed72b61bfb48bbc9a807f195",
+      "subject": "social_studies",
+      "round": 1,
+      "answer": "interacción relaciones economía cultura política",
+      "expected": "incorrect",
+      "actual": {
+        "result": "incorrect",
+        "feedback": "Tu respuesta menciona palabras relacionadas con el tema, pero no explicas cómo se relacionan dos aspectos del caso ni propones una medida concreta que ayude a alguien. Intenta conectar los ingresos, el descanso u otro aspecto y sugiere una solución clara, explicando quién se beneficiaría."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "05133c0b2340828a56772e35febbfaab6128ce2fc6b9800eee05d4c92ed08458",
+      "subject": "mathematics",
+      "round": 2,
+      "answer": "El cuatro cuenta todos los pedazos del mismo tamaño y el uno el que se llevó. Si fueran distintos, no serían cuartos iguales.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Muy bien, identificaste correctamente qué representan el uno y el cuatro, y explicaste por qué es importante que las porciones sean iguales para que sean cuartos."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "05133c0b2340828a56772e35febbfaab6128ce2fc6b9800eee05d4c92ed08458",
+      "subject": "mathematics",
+      "round": 2,
+      "answer": "Hay cuatro trozos iguales; Ana toma uno. Todos deben medir igual para que cada uno sea un cuarto.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Has identificado correctamente que el cuatro representa las cuatro porciones iguales y el uno la porción que Ana tomó. Además, explicaste bien por qué es importante que las porciones sean iguales para que cada una represente un cuarto. Buen trabajo explicando con tus propias palabras."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "05133c0b2340828a56772e35febbfaab6128ce2fc6b9800eee05d4c92ed08458",
+      "subject": "mathematics",
+      "round": 2,
+      "answer": "El uno es el pedazo tomado.",
+      "expected": "partial",
+      "actual": {
+        "result": "partial",
+        "feedback": "Has identificado correctamente que el uno representa la porción tomada por Ana, lo cual es un buen comienzo. Sin embargo, falta que menciones qué indica el cuatro y que expliques por qué es importante que las porciones sean iguales para que cada una represente un cuarto del total."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "05133c0b2340828a56772e35febbfaab6128ce2fc6b9800eee05d4c92ed08458",
+      "subject": "mathematics",
+      "round": 2,
+      "answer": "parte todo dividir porción",
+      "expected": "incorrect",
+      "actual": {
+        "result": "incorrect",
+        "feedback": "Mencionas palabras relacionadas con la división, pero no explicas qué representan el uno y el cuatro ni por qué es importante que las porciones sean iguales. Intenta expresar qué indica cada número y por qué las partes deben ser iguales para que cada una sea un cuarto."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "b339a282e52e7c96ab16fa927bcda94c0ca86ac24a98c80d5fd18c2013034c5b",
+      "subject": "language",
+      "round": 2,
+      "answer": "Se mojó con la lluvia: dijo qué aguacero. Releería esa frase para estar seguro.",
+      "expected": "correct",
+      "actual": {
+        "result": "partial",
+        "feedback": "Has entendido que Lina se mojó por la lluvia y mencionas la frase 'qué aguacero' para comprobarlo, lo cual es bueno. Sin embargo, sería mejor si también señalas explícitamente una pista del relato, como que volvió mojada o que salió sin sombrilla, para apoyar tu idea."
+      },
+      "pass": false
+    },
+    {
+      "candidateSha256": "b339a282e52e7c96ab16fa927bcda94c0ca86ac24a98c80d5fd18c2013034c5b",
+      "subject": "language",
+      "round": 2,
+      "answer": "Le cayó agua de lluvia; volvió mojada. Volvería a leer lo que dice del aguacero.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Has inferido correctamente que Lina se mojó por la lluvia, señalaste una pista clara y mencionaste qué frase releer para comprobarlo. Buen trabajo relacionando las ideas del relato."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "b339a282e52e7c96ab16fa927bcda94c0ca86ac24a98c80d5fd18c2013034c5b",
+      "subject": "language",
+      "round": 2,
+      "answer": "Se mojó por la lluvia.",
+      "expected": "partial",
+      "actual": {
+        "result": "partial",
+        "feedback": "Has entendido que Lina se mojó por la lluvia, lo cual es correcto. Sin embargo, falta que menciones alguna pista del relato que te ayude a pensar eso y que digas qué frase volverías a leer para comprobar tu idea. Intenta incluir esas partes para completar la respuesta."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "b339a282e52e7c96ab16fa927bcda94c0ca86ac24a98c80d5fd18c2013034c5b",
+      "subject": "language",
+      "round": 2,
+      "answer": "lectura inferencial aplicar texto ejemplo",
+      "expected": "incorrect",
+      "actual": {
+        "result": "incorrect",
+        "feedback": "Tu respuesta no indica qué crees que le pasó a Lina ni señala una parte del relato que te ayude a pensar eso. Tampoco propones una frase para releer y comprobar tu idea. Intenta expresar qué pasó con Lina basándote en el texto y menciona una frase que te ayude a confirmarlo."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "32dcbf67e6f5c44276b4545c3ac09329c494524aed72b61bfb48bbc9a807f195",
+      "subject": "social_studies",
+      "round": 2,
+      "answer": "La feria da dinero a familias pero el ruido afecta a quienes descansan. Acordaría horas sin amplificadores para permitir las ventas y cuidar el sueño de los vecinos.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Relacionaste claramente los ingresos y el descanso, y propusiste una medida viable explicando a quién beneficia. Buen trabajo integrando los aspectos del caso y la solución."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "32dcbf67e6f5c44276b4545c3ac09329c494524aed72b61bfb48bbc9a807f195",
+      "subject": "social_studies",
+      "round": 2,
+      "answer": "La música permite expresarse y también puede molestar a otros. Pondría las presentaciones en una zona y horario acordados para que participen artistas y descansen vecinos.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Relacionaste bien la expresión cultural con el descanso y propusiste una medida coherente que ayuda a artistas y vecinos. Buen trabajo explicando la relación y el beneficio."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "32dcbf67e6f5c44276b4545c3ac09329c494524aed72b61bfb48bbc9a807f195",
+      "subject": "social_studies",
+      "round": 2,
+      "answer": "Las ventas dan ingresos, pero la música molesta al descanso.",
+      "expected": "partial",
+      "actual": {
+        "result": "partial",
+        "feedback": "Has identificado correctamente dos aspectos del caso: los ingresos y el descanso. Sin embargo, falta que propongas una medida concreta para resolver el conflicto y que expliques quiénes se beneficiarían con esa medida. Intenta incluir una propuesta clara y su impacto para completar la respuesta."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "32dcbf67e6f5c44276b4545c3ac09329c494524aed72b61bfb48bbc9a807f195",
+      "subject": "social_studies",
+      "round": 2,
+      "answer": "interacción relaciones economía cultura política",
+      "expected": "incorrect",
+      "actual": {
+        "result": "incorrect",
+        "feedback": "Has listado palabras relacionadas con el tema, pero no explicas cómo se relacionan dos aspectos del caso ni propones una medida concreta que ayude a alguien. Intenta conectar los ingresos, el descanso u otro aspecto y sugiere una solución clara, explicando quién se beneficiaría."
+      },
+      "pass": true
+    }
+  ],
+  "databaseCalls": 0,
+  "finished": "2026-11-05T21:52:07.315Z",
+  "passed": false
+}

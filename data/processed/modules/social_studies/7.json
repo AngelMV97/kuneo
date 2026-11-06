@@ -1,0 +1,1573 @@
+[
+  {
+    "module_id": "f9e23073-1ae5-43d4-bb11-b8b6ac1e1d49",
+    "source_unit_id": "e7425e4a-8e2d-43da-a8bc-94acdd2f6574",
+    "source": "dba",
+    "subject": "social_studies",
+    "grade_range": "7",
+    "difficulty": 3,
+    "title": "¿Cómo analizar una situación social?",
+    "learning_objective": "Comprende que las representaciones del mundo han cambiado a partir de las visiones de quienes las elaboran y de los avances de la tecnología.",
+    "context": "['Mediante la lectura de planisferios de diferentes épocas, explicar las diversas visiones del mundo que los pueblos han construido con base en el desarrollo de acciones como los viajes de los exploradores, el uso de instrumentos como la brújula y, el desarrollo del telescopio y de las imágenes de satélite, entre otros.'] mapa de Eratóstenes de Cirene (240 a.C), Imagenes de Satélite (2014), mapa de Marco Polo (1275).",
+    "core_concept": "territorio",
+    "concepts": [
+      "argumentacion",
+      "territorio",
+      "potenciacion",
+      "historia",
+      "lectura_inferencial",
+      "sociedad",
+      "estadistica"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "explicar",
+      "comprender",
+      "comparar",
+      "argumentar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué sabes sobre territorio?",
+      "expected_signals": [
+        "argumentacion",
+        "territorio",
+        "potenciacion",
+        "historia",
+        "lectura_inferencial",
+        "sociedad",
+        "estadistica"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "9583f3af-ee08-446d-9424-aaaf26805247",
+        "evidence_source": "Explica la importancia de los viajes de los exploradores del medioevo en la expansión del conocimiento del mundo.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica la importancia de los viajes de los exploradores del medioevo en la expansión del conocimiento del mundo.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de territorio.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 3,
+        "order": 1
+      },
+      {
+        "id": "ca0d9490-add9-4ae8-abd7-b8023770df56",
+        "evidence_source": "Relaciona la concepción y representación del mundo que se tenía en la Edad Media influenciada por la Biblia con la cultura espacial europea y señala los cambios y las continuidades más relevantes.",
+        "type": "matching",
+        "prompt": "Trabajemos esta evidencia: Relaciona la concepción y representación del mundo que se tenía en la Edad Media influenciada por la Biblia con la cultura espacial europea y señala los cambios y las continuidades más relevantes.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de territorio.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "representacion"
+        ],
+        "difficulty": 3,
+        "order": 2
+      },
+      {
+        "id": "ab5fc6c1-3760-4388-8cca-b914d21835b0",
+        "evidence_source": "Compara las representaciones del mundo conocido en la Edad Media y el representado hoy desde los mapas e imágenes sateli tales y, describe el uso de la cartografía en la vida cotidiana de las personas.",
+        "type": "representation",
+        "prompt": "Representa la idea de territorio usando un esquema, tabla o dibujo mental.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de territorio.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "representacion"
+        ],
+        "difficulty": 3,
+        "order": 3
+      },
+      {
+        "id": "a90b3f49-c638-4f32-bbe4-73b3d5b656bd",
+        "evidence_source": "Argumenta que las representaciones del espacio son producto de las imágenes que se tienen del mundo y que se modifican con el tiempo (fotografías aéreas, imágenes de satélite).",
+        "type": "representation",
+        "prompt": "Representa la idea de territorio usando un esquema, tabla o dibujo mental.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de territorio.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "representacion",
+          "argumentacion"
+        ],
+        "difficulty": 3,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "confundir promedio con valor representativo en todos los casos",
+        "pattern": "confundir promedio con valor representativo en todos los casos",
+        "feedback": "Revisemos esta idea: confundir promedio con valor representativo en todos los casos",
+        "visual": "concept_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre territorio?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender territorio?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "concept_map",
+        "trigger": "confundir promedio con valor representativo en todos los casos",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 1
+      }
+    }
+  },
+  {
+    "module_id": "e85b00ef-ba30-4800-9c94-9c9c93b53043",
+    "source_unit_id": "0e8b28d1-148e-4a97-952f-5ecf18ac48f0",
+    "source": "dba",
+    "subject": "social_studies",
+    "grade_range": "7",
+    "difficulty": 3,
+    "title": "¿Cómo analizar una situación social?",
+    "learning_objective": "Interpreta las relaciones entre el crecimiento de la población, el desarrollo de los centros urbanos y las problemáticas sociales.",
+    "context": "descripcion: representación de efectos negativos en el ecosistema y el medio ambiente producto del desarrollo y el crecimiento poblacional.",
+    "core_concept": "territorio",
+    "concepts": [
+      "territorio",
+      "ecosistema",
+      "area_perimetro",
+      "lectura_inferencial",
+      "reading"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "comprender",
+      "comprender",
+      "comprender",
+      "comparar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué sabes sobre territorio?",
+      "expected_signals": [
+        "territorio",
+        "ecosistema",
+        "area_perimetro",
+        "lectura_inferencial",
+        "reading"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "7d53ff5c-d68e-4955-8f24-2496726a1f2d",
+        "evidence_source": "Reconoce y utiliza conceptos propios de la geografía urbana (desarrollo, crecimiento, conurbación, área metropolitana y planificación urbana) a partir de la observación directa de estos fenómenos en su contexto.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Reconoce y utiliza conceptos propios de la geografía urbana (desarrollo, crecimiento, conurbación, área metropolitana y planificación urbana) a partir de la observación directa de estos fenómenos en su contexto.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de territorio.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 1
+      },
+      {
+        "id": "483d135d-057c-4f80-834a-c92ac0b8917c",
+        "evidence_source": "Localiza en zonas de la ciudad o del municipio la concentración de fenómenos sociales como la pobreza, la violencia, los asentamientos informales y explica las posibles causas y consecuencias de estos.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Localiza en zonas de la ciudad o del municipio la concentración de fenómenos sociales como la pobreza, la violencia, los asentamientos informales y explica las posibles causas y consecuencias de estos.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de territorio.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 3,
+        "order": 2
+      },
+      {
+        "id": "217c4a92-170b-4970-8e5b-8ae3a25e3665",
+        "evidence_source": "Relaciona la industrialización y la migración del campo a la ciudad con los procesos de organización de las ciudades en Colombia en las últimas décadas.",
+        "type": "matching",
+        "prompt": "Trabajemos esta evidencia: Relaciona la industrialización y la migración del campo a la ciudad con los procesos de organización de las ciudades en Colombia en las últimas décadas.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de territorio.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 3
+      },
+      {
+        "id": "5a91c6c7-59b3-45b1-a59d-13aa7cc73ceb",
+        "evidence_source": "Compara las problemáticas urbanas más recurrentes de las ciudades actuales (contaminación, movilidad, sobrepoblación, falta de viviendas dignas, desempleo, inseguridad y migraciones internas) con algunas similares en otros períodos históricos.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Compara las problemáticas urbanas más recurrentes de las ciudades actuales (contaminación, movilidad, sobrepoblación, falta de viviendas dignas, desempleo, inseguridad y migraciones internas) con algunas similares en otros períodos históricos.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de territorio.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "pensar que los ecosistemas son estáticos",
+        "pattern": "pensar que los ecosistemas son estáticos",
+        "feedback": "Revisemos esta idea: pensar que los ecosistemas son estáticos",
+        "visual": "concept_map",
+        "intervention_level": 2
+      },
+      "misconception_2": {
+        "description": "creer que figuras con igual área siempre tienen igual perímetro",
+        "pattern": "creer que figuras con igual área siempre tienen igual perímetro",
+        "feedback": "Revisemos esta idea: creer que figuras con igual área siempre tienen igual perímetro",
+        "visual": "concept_map",
+        "intervention_level": 2
+      },
+      "misconception_3": {
+        "description": "creer que la interpretación de un texto es única",
+        "pattern": "creer que la interpretación de un texto es única",
+        "feedback": "Revisemos esta idea: creer que la interpretación de un texto es única",
+        "visual": "idea_evidence_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre territorio?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender territorio?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "concept_map",
+        "trigger": "pensar que los ecosistemas son estáticos",
+        "intervention_level": 2
+      },
+      {
+        "error_key": "misconception_2",
+        "visual_template": "concept_map",
+        "trigger": "creer que figuras con igual área siempre tienen igual perímetro",
+        "intervention_level": 2
+      },
+      {
+        "error_key": "misconception_3",
+        "visual_template": "idea_evidence_map",
+        "trigger": "creer que la interpretación de un texto es única",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 2
+      }
+    }
+  },
+  {
+    "module_id": "2f142d2d-f857-4a4f-9bda-7187bfa5c1ea",
+    "source_unit_id": "aaf39187-166d-4204-984c-49785dd28fc6",
+    "source": "dba",
+    "subject": "social_studies",
+    "grade_range": "7",
+    "difficulty": 3,
+    "title": "¿Cómo analizar una situación social?",
+    "learning_objective": "Analiza la influencia del imperio romano en la cultura de occidente y los aportes en diversos campos como la literatura, las leyes, la ingeniería y la vida cotidiana.",
+    "context": "['A partir de la lectura comprensiva de un mapa del imperio romano, localiza las áreas de influencia y los legados que dejaron en estos territorios.'] mapa del Imperio Romano en el 117 A.C.",
+    "core_concept": "territorio",
+    "concepts": [
+      "fracciones",
+      "argumentacion",
+      "territorio",
+      "area_perimetro",
+      "lectura_inferencial",
+      "sociedad"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "comprender",
+      "comprender",
+      "argumentar",
+      "explicar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué sabes sobre territorio?",
+      "expected_signals": [
+        "fracciones",
+        "argumentacion",
+        "territorio",
+        "area_perimetro",
+        "lectura_inferencial",
+        "sociedad"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "39c78568-1504-40e2-a6b6-988197cafe48",
+        "evidence_source": "Reconoce el imperio romano como un sistema político, militar y económico que ejerció control territorial sobre gran parte de Europa y que influyó en la cultura latinoamericana.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Reconoce el imperio romano como un sistema político, militar y económico que ejerció control territorial sobre gran parte de Europa y que influyó en la cultura latinoamericana.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de territorio.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 1
+      },
+      {
+        "id": "1353afd6-bde7-4005-83f6-d50fe1930317",
+        "evidence_source": "Describe el legado cultural del imperio romano en aspectos tales como el sistema político, el desarrollo de la infraestructura (vial, acueductos y puertos) y el comercio en diferentes lugares de Europa, norte de África y América Latina.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Describe el legado cultural del imperio romano en aspectos tales como el sistema político, el desarrollo de la infraestructura (vial, acueductos y puertos) y el comercio en diferentes lugares de Europa, norte de África y América Latina.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de territorio.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 2
+      },
+      {
+        "id": "692865a2-d613-4e63-8b01-cb7134f2fcba",
+        "evidence_source": "Argumenta las razones que llevaron a la crisis del imperio romano, para identificar los factores que pueden incidir en la decadencia de un Estado hoy en día.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con territorio y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de territorio.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "argumentacion"
+        ],
+        "difficulty": 3,
+        "order": 3
+      },
+      {
+        "id": "0bedfa5c-bae6-4a86-84ee-34f6ad945cad",
+        "evidence_source": "Explica algunas actividades de la vida contemporánea que se inventaron en la antigua Roma (práctica de juegos públicos, el matrimonio, los gimnasios, uso de baños públicos,.. ) y cómo estas se han transformado con el paso de los siglos.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica algunas actividades de la vida contemporánea que se inventaron en la antigua Roma (práctica de juegos públicos, el matrimonio, los gimnasios, uso de baños públicos,.. ) y cómo estas se han transformado con el paso de los siglos.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de territorio.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 3,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "creer que figuras con igual área siempre tienen igual perímetro",
+        "pattern": "creer que figuras con igual área siempre tienen igual perímetro",
+        "feedback": "Revisemos esta idea: creer que figuras con igual área siempre tienen igual perímetro",
+        "visual": "concept_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre territorio?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender territorio?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "concept_map",
+        "trigger": "creer que figuras con igual área siempre tienen igual perímetro",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 3
+      }
+    }
+  },
+  {
+    "module_id": "945c9014-2bd3-496b-a3b5-a47433919d4d",
+    "source_unit_id": "58777e7d-17cb-4883-ab5b-6504c7980e96",
+    "source": "dba",
+    "subject": "social_studies",
+    "grade_range": "7",
+    "difficulty": 3,
+    "title": "¿Cómo analizar una situación social?",
+    "learning_objective": "Analiza la Edad Media como un periodo histórico que dio origen a instituciones sociales, económicas y políticas en relación con el mismo período de las sociedades precolombinas.",
+    "context": "pintura de la Edad Media.",
+    "core_concept": "historia",
+    "concepts": [
+      "argumentacion",
+      "historia",
+      "probabilidad",
+      "sociedad",
+      "estadistica"
+    ],
+    "cognitive_type": "argumentative_reasoning",
+    "skills": [
+      "comprender",
+      "comprender",
+      "comparar",
+      "argumentar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué sabes sobre historia?",
+      "expected_signals": [
+        "argumentacion",
+        "historia",
+        "probabilidad",
+        "sociedad",
+        "estadistica"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "6134ecc4-53ed-45f0-b331-c1343640308c",
+        "evidence_source": "Describe los principales eventos que identificaron las sociedades europeas en la Edad Media (lucha entre imperios, modelo económico feudal, poder económico y político de la iglesia, desigualdad social).",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con historia y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de historia.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 1
+      },
+      {
+        "id": "11ab7121-d045-4cdf-ba27-eee4b27d32be",
+        "evidence_source": "Reconoce la organización social de las culturas precolombinas en los períodos clásico y posclásico y señala similitudes y diferencias con las sociedades medievales de Europa.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Reconoce la organización social de las culturas precolombinas en los períodos clásico y posclásico y señala similitudes y diferencias con las sociedades medievales de Europa.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de historia.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 2
+      },
+      {
+        "id": "41fec837-4e7c-4646-a74b-5baf96f2fb41",
+        "evidence_source": "Compara características sociales, culturales y económicas de ciudades del año 1000 en el mundo como: París (Europa), Teotihuacán y Tikal (Centroamérica), Damasco (Asia) y El Cairo (Africa).",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Compara características sociales, culturales y económicas de ciudades del año 1000 en el mundo como: París (Europa), Teotihuacán y Tikal (Centroamérica), Damasco (Asia) y El Cairo (Africa).",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de historia.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 3
+      },
+      {
+        "id": "a620dab8-c397-4d96-8fd0-a6b752dd681b",
+        "evidence_source": "Argumenta las continuidades del ordenamiento político y social instaurado durante la Edad Media y las discontinuidades en el desarrollo de las culturas precolombinas con la llegada de los europeos a América.",
+        "type": "argumentation",
+        "prompt": "Justifica tu respuesta usando evidencia o razones claras.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de historia.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "argumentacion"
+        ],
+        "difficulty": 3,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "confundir promedio con valor representativo en todos los casos",
+        "pattern": "confundir promedio con valor representativo en todos los casos",
+        "feedback": "Revisemos esta idea: confundir promedio con valor representativo en todos los casos",
+        "visual": "concept_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre historia?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender historia?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "concept_map",
+        "trigger": "confundir promedio con valor representativo en todos los casos",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 4
+      }
+    }
+  },
+  {
+    "module_id": "164b09cd-1259-495a-ad42-011ce677e121",
+    "source_unit_id": "9ea8027f-9dd6-4a01-b562-fea218bda2b6",
+    "source": "dba",
+    "subject": "social_studies",
+    "grade_range": "7",
+    "difficulty": 3,
+    "title": "¿Cómo analizar una situación social?",
+    "learning_objective": "Analiza el Renacimiento como una época que dio paso en Europa a una nueva configuración cultural en campos como las ciencias, la política, las artes y la literatura.",
+    "context": "fotografía de la pintura Monalisa.",
+    "core_concept": "sociedad",
+    "concepts": [
+      "reading",
+      "sociedad",
+      "lectura_inferencial",
+      "historia"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "comprender",
+      "interpretar",
+      "explicar",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué sabes sobre sociedad?",
+      "expected_signals": [
+        "reading",
+        "sociedad",
+        "lectura_inferencial",
+        "historia"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "9e568c02-700a-4d6a-93a4-f16214cf0801",
+        "evidence_source": "Describe algunos acontecimientos que dieron paso a la Modernidad e incidieron en un nuevo pensamiento político, social, económico e intelectual.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Describe algunos acontecimientos que dieron paso a la Modernidad e incidieron en un nuevo pensamiento político, social, económico e intelectual.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 1
+      },
+      {
+        "id": "bcd89ff4-1e99-4120-8220-88520006c457",
+        "evidence_source": "Interpreta mapas temáticos en los que reconoce ciudades estratégicas de Europa en el contexto del Renacimiento, por su importancia económica y cultural.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Interpreta mapas temáticos en los que reconoce ciudades estratégicas de Europa en el contexto del Renacimiento, por su importancia económica y cultural.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 2
+      },
+      {
+        "id": "a774590f-4bd3-48cf-b45f-dcb3a0ebb36e",
+        "evidence_source": "Explica las implicaciones políticas y económicas que tuvo la Reforma protestante para Europa y América.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica las implicaciones políticas y económicas que tuvo la Reforma protestante para Europa y América.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 3,
+        "order": 3
+      },
+      {
+        "id": "67f63d37-4c96-4ab9-87f5-b946b0193a8b",
+        "evidence_source": "Reconoce en las expresiones artísticas del Renacimiento (pintura, escultura y literatura) la vida cotidiana y la organización social de los pueblos.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Reconoce en las expresiones artísticas del Renacimiento (pintura, escultura y literatura) la vida cotidiana y la organización social de los pueblos.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "creer que la interpretación de un texto es única",
+        "pattern": "creer que la interpretación de un texto es única",
+        "feedback": "Revisemos esta idea: creer que la interpretación de un texto es única",
+        "visual": "idea_evidence_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre sociedad?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender sociedad?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "idea_evidence_map",
+        "trigger": "creer que la interpretación de un texto es única",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 5
+      }
+    }
+  },
+  {
+    "module_id": "24a86377-8d76-45a7-a472-2c1422ab6711",
+    "source_unit_id": "cf4cf815-2c62-4e24-9921-200fc4147eed",
+    "source": "dba",
+    "subject": "social_studies",
+    "grade_range": "7",
+    "difficulty": 3,
+    "title": "¿Cómo analizar una situación social?",
+    "learning_objective": "Evalúa las causas y consecuencias de los procesos de Conquista y colonización europea dados en en América.",
+    "context": "['A partir de la reconstrucción de un contexto histórico, como el de la llegada de los europeos a América, compara diferentes hechos de que se dieron durante este período y explica el rol que tuvieron los distintos actores.']",
+    "core_concept": "historia",
+    "concepts": [
+      "argumentacion",
+      "historia",
+      "lectura_inferencial",
+      "reading",
+      "sociedad"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "comprender",
+      "explicar",
+      "interpretar",
+      "argumentar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué sabes sobre historia?",
+      "expected_signals": [
+        "argumentacion",
+        "historia",
+        "lectura_inferencial",
+        "reading",
+        "sociedad"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "7af6c948-f999-4bb4-94be-9dc7f885992a",
+        "evidence_source": "Describe los procesos de Conquista y colonización en América, llevados a cabo por españoles, portugueses, ingleses, franceses y holandeses.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Describe los procesos de Conquista y colonización en América, llevados a cabo por españoles, portugueses, ingleses, franceses y holandeses.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de historia.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 1
+      },
+      {
+        "id": "a1836738-3b60-432a-ab20-94f5605f387d",
+        "evidence_source": "Explica los cambios y continuidades de las organizaciones sociales, políticas y económicas instauradas durante la época colonial en América.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica los cambios y continuidades de las organizaciones sociales, políticas y económicas instauradas durante la época colonial en América.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de historia.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 3,
+        "order": 2
+      },
+      {
+        "id": "6b6abf74-e0d9-4735-bfde-be323748dc6c",
+        "evidence_source": "Interpreta las consecuencias demográficas, políticas y culturales que tuvo para los pueblos ancestrales la llegada de los europeos al continente americano.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Interpreta las consecuencias demográficas, políticas y culturales que tuvo para los pueblos ancestrales la llegada de los europeos al continente americano.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de historia.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "representacion"
+        ],
+        "difficulty": 3,
+        "order": 3
+      },
+      {
+        "id": "cec7c3c1-3cf1-4b94-a76c-db96ad5bda88",
+        "evidence_source": "Argumenta la importancia de la diversidad étnica y cultural del país como elemento constitutivo de la identidad de América Latina.",
+        "type": "argumentation",
+        "prompt": "Justifica tu respuesta usando evidencia o razones claras.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de historia.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "argumentacion"
+        ],
+        "difficulty": 3,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "creer que la interpretación de un texto es única",
+        "pattern": "creer que la interpretación de un texto es única",
+        "feedback": "Revisemos esta idea: creer que la interpretación de un texto es única",
+        "visual": "idea_evidence_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre historia?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender historia?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "idea_evidence_map",
+        "trigger": "creer que la interpretación de un texto es única",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 6
+      }
+    }
+  },
+  {
+    "module_id": "2657df4d-0c9a-4c8b-82a7-e1fd1edbf8c1",
+    "source_unit_id": "beb1c0fb-9668-40de-bd38-a024c20f0c2d",
+    "source": "dba",
+    "subject": "social_studies",
+    "grade_range": "7",
+    "difficulty": 3,
+    "title": "¿Cómo analizar una situación social?",
+    "learning_objective": "Comprende la responsabilidad que tiene una sociedad democrática para evitar la violación de los derechos fundamentales de sus ciudadanos.",
+    "context": "diferentes situaciones que representan un acto de discriminación.",
+    "core_concept": "sociedad",
+    "concepts": [
+      "sociedad",
+      "lectura_inferencial",
+      "argumentacion"
+    ],
+    "cognitive_type": "representational_thinking",
+    "skills": [
+      "comparar",
+      "comprender",
+      "comprender",
+      "identificar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué sabes sobre sociedad?",
+      "expected_signals": [
+        "sociedad",
+        "lectura_inferencial",
+        "argumentacion"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "6eb14a1c-afa7-4f54-a7e0-e1deb0d0861b",
+        "evidence_source": "Compara la Declaración Universal de los Derechos Humanos con los derechos fundamentales enunciados en la Constitución.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Compara la Declaración Universal de los Derechos Humanos con los derechos fundamentales enunciados en la Constitución.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 1
+      },
+      {
+        "id": "d53e6f14-5462-4a4c-a649-b04657c82e7f",
+        "evidence_source": "Plantea soluciones alternativas a las problemáticas de discriminación que se evidencian en Colombia.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Plantea soluciones alternativas a las problemáticas de discriminación que se evidencian en Colombia.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 2
+      },
+      {
+        "id": "e8621ab2-6348-44b4-99d6-e4818e012689",
+        "evidence_source": "Expresa una posición argumentada, a partir del estudio de casos y la norma constitucional frente a hechos o situaciones en los que se vulneran los derechos fundamentales.",
+        "type": "argumentation",
+        "prompt": "Justifica tu respuesta usando evidencia o razones claras.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "argumentacion"
+        ],
+        "difficulty": 3,
+        "order": 3
+      },
+      {
+        "id": "51c9d065-6534-40b4-8d1a-1e1bef79d1d8",
+        "evidence_source": "Identifica en qué situaciones puede usar la tutela como mecanismo para la protección y defensa de los derechos.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con sociedad y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre sociedad?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender sociedad?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 7
+      }
+    }
+  },
+  {
+    "module_id": "c6f496b6-6c42-4960-b9c2-c3db02953eb0",
+    "source_unit_id": "c68097b9-6e07-46b5-80c5-febf60ff8c81",
+    "source": "dba",
+    "subject": "social_studies",
+    "grade_range": "7",
+    "difficulty": 3,
+    "title": "¿Cómo analizar una situación social?",
+    "learning_objective": "Aplica procesos y técnicas de mediación de conflictos en pro del establecimiento de una cultura de la paz.",
+    "context": "['A partir de la identificación de una situación de índole económica, ambiental o social de su comunidad, diseña una estrategia que permita generar escenarios de paz, que contenga: diagnóstico, identificación de causas, actores, plan de acción y evaluación.']",
+    "core_concept": "sociedad",
+    "concepts": [
+      "sociedad",
+      "estadistica"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "identificar",
+      "comprender",
+      "comparar",
+      "explicar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué sabes sobre sociedad?",
+      "expected_signals": [
+        "sociedad",
+        "estadistica"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "e5756502-a8e4-4c8c-932b-e7a0b6254470",
+        "evidence_source": "Identifica las consecuencias de los conflictos en la vida cotidiana de las personas y plantea acciones para resolverlos de manera negociada.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con sociedad y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 1
+      },
+      {
+        "id": "b108705f-0c4b-4cae-9118-5524f66987be",
+        "evidence_source": "Reconoce los distintos puntos de vista de personas o grupos en una situación de conflicto, para plantear posibles alternativas de solución.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Reconoce los distintos puntos de vista de personas o grupos en una situación de conflicto, para plantear posibles alternativas de solución.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 2
+      },
+      {
+        "id": "5643b22f-736a-4477-8cd1-80791151ac80",
+        "evidence_source": "Compara diferentes estrategias para la solución de conflictos, como la negociación, el arbitraje, la conciliación, la mediación escolar y el diálogo, para la construcción de escenarios de paz y el fortalecimiento de la dignidad de las personas.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Compara diferentes estrategias para la solución de conflictos, como la negociación, el arbitraje, la conciliación, la mediación escolar y el diálogo, para la construcción de escenarios de paz y el fortalecimiento de la dignidad de las personas.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 3
+      },
+      {
+        "id": "776b4a88-2423-483d-a375-666b96d0ba90",
+        "evidence_source": "Explica situaciones donde el conflicto se ha convertido en una oportunidad para aprender y fortalecer las relaciones interpersonales y sociales.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica situaciones donde el conflicto se ha convertido en una oportunidad para aprender y fortalecer las relaciones interpersonales y sociales.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 3,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "confundir promedio con valor representativo en todos los casos",
+        "pattern": "confundir promedio con valor representativo en todos los casos",
+        "feedback": "Revisemos esta idea: confundir promedio con valor representativo en todos los casos",
+        "visual": "concept_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre sociedad?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender sociedad?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "concept_map",
+        "trigger": "confundir promedio con valor representativo en todos los casos",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 8
+      }
+    }
+  }
+]

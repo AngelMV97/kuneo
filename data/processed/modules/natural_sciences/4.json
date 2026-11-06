@@ -1,0 +1,1245 @@
+[
+  {
+    "module_id": "299391e3-1516-4caa-97ef-5668d1972e42",
+    "source_unit_id": "298a5c01-57ad-4f12-b025-fc09703c6371",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "4",
+    "difficulty": 2,
+    "title": "¿Cómo funciona movimiento?",
+    "learning_objective": "Comprende que la magnitud y la dirección en que se aplica una fuerza puede producir cambios en la forma como se mueve un objeto (dirección y rapidez).",
+    "context": "personas moviendo una caja: una empuja y la otra hala.",
+    "core_concept": "movimiento",
+    "concepts": [
+      "movimiento",
+      "area_perimetro",
+      "lectura_inferencial",
+      "historia"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "comprender",
+      "comprender",
+      "comprender",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con movimiento?",
+      "expected_signals": [
+        "movimiento",
+        "area_perimetro",
+        "lectura_inferencial",
+        "historia"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "d3413a6e-199a-469a-b3e4-a8ebbed41400",
+        "evidence_source": "Describe las características de las fuerzas (magnitud y dirección) que se deben aplicar para producir un efecto dado (detener, acelerar, cambiar de dirección).",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Describe las características de las fuerzas (magnitud y dirección) que se deben aplicar para producir un efecto dado (detener, acelerar, cambiar de dirección).",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "transferencia"
+        ],
+        "difficulty": 2,
+        "order": 1
+      },
+      {
+        "id": "7226e4a5-f8cb-47bb-9c14-5e4369e4da0b",
+        "evidence_source": "Indica, a partir de pequeñas experiencias, cuando una fuerza aplicada sobre un cuerpo no produce cambios en su estado de reposo, de movimiento o en su dirección.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Indica, a partir de pequeñas experiencias, cuando una fuerza aplicada sobre un cuerpo no produce cambios en su estado de reposo, de movimiento o en su dirección.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "transferencia"
+        ],
+        "difficulty": 2,
+        "order": 2
+      },
+      {
+        "id": "783abcfe-5f34-41ca-a8b5-0dacae9e45bd",
+        "evidence_source": "Comunica resultados sobre los efectos de la fuerza de fricción en el movimiento de los objetos al comparar superficies con distintos niveles de rozamiento.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Comunica resultados sobre los efectos de la fuerza de fricción en el movimiento de los objetos al comparar superficies con distintos niveles de rozamiento.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 3
+      },
+      {
+        "id": "54e80137-e9d6-40b6-a5ab-879c707f95a4",
+        "evidence_source": "Predice y explica en una situación de objetos desplazándose por diferentes superficies (lisas, rugosas) en cuál de ellas el cuerpo puede mantenerse por más tiempo en movimiento.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Predice y explica en una situación de objetos desplazándose por diferentes superficies (lisas, rugosas) en cuál de ellas el cuerpo puede mantenerse por más tiempo en movimiento.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 2,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre movimiento?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender movimiento?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 1
+      }
+    }
+  },
+  {
+    "module_id": "fff950e8-d587-4a93-aa5b-7d6388477706",
+    "source_unit_id": "5cd14c51-9a69-4ca8-a873-9fe3331bc2b7",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "4",
+    "difficulty": 2,
+    "title": "¿Cómo funciona movimiento?",
+    "learning_objective": "Comprende los efectos y las ventajas de utilizar máquinas simples en diferentes tareas que requieren la aplicación de una fuerza.",
+    "context": "uso de distintas herramientas que afectan la fuerza aplicada (palanca, tijeras, pinzas).",
+    "core_concept": "movimiento",
+    "concepts": [
+      "movimiento",
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "comprender",
+      "comprender",
+      "identificar",
+      "identificar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con movimiento?",
+      "expected_signals": [
+        "movimiento",
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "79d5cdd6-9d18-4b21-9890-7e13d028b0f2",
+        "evidence_source": "Explora cómo los cambios en el tamaño de una palanca (longitud) o la posición del punto de apoyo afectan las fuerzas y los movimientos implicados.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Explora cómo los cambios en el tamaño de una palanca (longitud) o la posición del punto de apoyo afectan las fuerzas y los movimientos implicados.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 1
+      },
+      {
+        "id": "35c69d46-2927-4868-b724-7fbe8fba80e9",
+        "evidence_source": "Describe la función que cumplen fuerzas en una máquina simple para generar movimiento.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Describe la función que cumplen fuerzas en una máquina simple para generar movimiento.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 2
+      },
+      {
+        "id": "1e64a71a-8661-412b-baa6-cd06208d6940",
+        "evidence_source": "Identifica y observa máquinas simples en objetos cotidianos para explicar su utilidad (aplicar una fuerza pequeña para generar una fuerza grande, generar un pequeño movimiento para crear un gran movimiento).",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con movimiento y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento",
+          "transferencia"
+        ],
+        "difficulty": 2,
+        "order": 3
+      },
+      {
+        "id": "4a7cd500-98ce-4e2e-a9e2-b2da14006428",
+        "evidence_source": "Identifica y describe palancas presentes en su cuerpo, conformadas por sus sistemas óseo y muscular.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con movimiento y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre movimiento?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender movimiento?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 2
+      }
+    }
+  },
+  {
+    "module_id": "4b52cc30-b168-46bf-a3db-fbcf099c07d6",
+    "source_unit_id": "36197cf3-6948-422b-929a-e0ac1a165f20",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "4",
+    "difficulty": 2,
+    "title": "¿Cómo funciona movimiento?",
+    "learning_objective": "Comprende que el fenómeno del día y la noche se debe a que la Tierra rota sobre su eje y en consecuencia el sol sólo ilumina la mitad de su superficie.",
+    "context": "niño observando cómo una lámpara ilumina solo una parte de un globo terráqueo mientras lo gira sobre su propio eje.",
+    "core_concept": "movimiento",
+    "concepts": [
+      "movimiento",
+      "area_perimetro",
+      "fracciones",
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "comprender",
+      "explicar",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con movimiento?",
+      "expected_signals": [
+        "movimiento",
+        "area_perimetro",
+        "fracciones",
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "68c2f109-7fe1-4ef7-b14f-d8d9ad5fa68c",
+        "evidence_source": "Registra y realiza dibujos de las sombras que proyecta un objeto que recibe la luz del Sol en diferentes momentos del día, relacionándolas con el movimiento aparente del Sol en el cielo.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Registra y realiza dibujos de las sombras que proyecta un objeto que recibe la luz del Sol en diferentes momentos del día, relacionándolas con el movimiento aparente del Sol en el cielo.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 1
+      },
+      {
+        "id": "663a82dc-6cc8-4ba3-8d68-4bfd62fc9dee",
+        "evidence_source": "Explica cómo se producen el día y la noche por medio de una maqueta o modelo de la Tierra y del Sol.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica cómo se producen el día y la noche por medio de una maqueta o modelo de la Tierra y del Sol.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 2,
+        "order": 2
+      },
+      {
+        "id": "86dfd19c-04c7-4ef6-b73f-e6be5b5993b0",
+        "evidence_source": "Observa y registra algunos patrones de regularidad (ciclo del día y la noche), elabora tablas y comunica los resultados.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Observa y registra algunos patrones de regularidad (ciclo del día y la noche), elabora tablas y comunica los resultados.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 3
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre movimiento?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender movimiento?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 3
+      }
+    }
+  },
+  {
+    "module_id": "3e7778b3-e743-4f9b-a386-2f3d089ac54d",
+    "source_unit_id": "347a5984-c3ad-48d6-a31c-d3a9e0b6dd48",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "4",
+    "difficulty": 2,
+    "title": "¿Cómo funciona sistema_solar?",
+    "learning_objective": "Comprende que las fases de la Luna se deben a la posición relativa del Sol, la Luna y la Tierra a lo largo del mes.",
+    "context": "fases de la luna presentes en un calendario.",
+    "core_concept": "sistema_solar",
+    "concepts": [
+      "estadistica",
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "comprender",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con sistema_solar?",
+      "expected_signals": [
+        "estadistica",
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "279d77a3-45d1-4f2b-85ad-749dbba0f4c0",
+        "evidence_source": "Realiza observaciones de la forma de la Luna y las registra mediante dibujos, explicando cómo varían a lo largo del mes.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Realiza observaciones de la forma de la Luna y las registra mediante dibujos, explicando cómo varían a lo largo del mes.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sistema_solar.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 2,
+        "order": 1
+      },
+      {
+        "id": "b213ef5c-a575-4a58-9861-420029a9e108",
+        "evidence_source": "Predice cuál sería la fase de la Luna que un observador vería desde la Tierra, dada una cierta posición relativa entre la Tierra, el Sol y la Luna.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Predice cuál sería la fase de la Luna que un observador vería desde la Tierra, dada una cierta posición relativa entre la Tierra, el Sol y la Luna.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sistema_solar.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 2
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "confundir promedio con valor representativo en todos los casos",
+        "pattern": "confundir promedio con valor representativo en todos los casos",
+        "feedback": "Revisemos esta idea: confundir promedio con valor representativo en todos los casos",
+        "visual": "concept_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre sistema_solar?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender sistema_solar?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "concept_map",
+        "trigger": "confundir promedio con valor representativo en todos los casos",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 4
+      }
+    }
+  },
+  {
+    "module_id": "f3d4df74-4076-4f86-bcac-ba07ed08b2e7",
+    "source_unit_id": "8c081a47-4a33-4be1-bb7b-29663f9a1a58",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "4",
+    "difficulty": 2,
+    "title": "¿Cómo funciona materia?",
+    "learning_objective": "Comprende que existen distintos tipos de mezclas (homogéneas y heterogéneas) que de acuerdo con los materiales que las componen pueden separarse mediante diferentes técnicas (filtración, tamizado, decantación, evaporación).",
+    "context": "En una actividad experimental el niño puede identificar el tipo de mezcla que se formó para cada caso, y predecir qué pasa si mezcla todos los materiales. ['Mezcla: a. Agua - Sal b. Trozos de banano y manzana -Agua c. Agua – Azúcar - Café d. Agua - Arena'] ['Describe lo observado respecto a la apariencia y ubicación del material mezclado (arriba, abajo, en el medio) e indica el procedimiento que propone para separar los componentes de la mezcla agua –sal y Agua - Arena justificando su elección.']",
+    "core_concept": "materia",
+    "concepts": [
+      "estadistica",
+      "fracciones",
+      "lectura_inferencial",
+      "argumentacion"
+    ],
+    "cognitive_type": "argumentative_reasoning",
+    "skills": [
+      "comprender",
+      "comprender",
+      "comprender",
+      "comparar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con materia?",
+      "expected_signals": [
+        "estadistica",
+        "fracciones",
+        "lectura_inferencial",
+        "argumentacion"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "86a620d4-7493-4da7-a916-d657c088dc7c",
+        "evidence_source": "Clasifica como homogénea o heterogénea una mezcla dada, a partir del número de fases observadas.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Clasifica como homogénea o heterogénea una mezcla dada, a partir del número de fases observadas.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de materia.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 1
+      },
+      {
+        "id": "2f9586ff-3ff8-4b02-85f1-a47db957e80a",
+        "evidence_source": "Selecciona las técnicas para separar una mezcla dada, de acuerdo con las propiedades de sus componentes.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Selecciona las técnicas para separar una mezcla dada, de acuerdo con las propiedades de sus componentes.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de materia.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 2
+      },
+      {
+        "id": "5b5e59f4-cda6-45b6-be76-1df531b2cc82",
+        "evidence_source": "Predice el tipo de mezcla que se producirá a partir de la combinación de materiales, considerando ejemplos de materiales cotidianos en diferentes estados de agregación (agua-aceite, arenagravilla, agua-piedras).",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Predice el tipo de mezcla que se producirá a partir de la combinación de materiales, considerando ejemplos de materiales cotidianos en diferentes estados de agregación (agua-aceite, arenagravilla, agua-piedras).",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de materia.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 3
+      },
+      {
+        "id": "0e4dbd67-3efe-4245-bfa3-d6e1c16ee129",
+        "evidence_source": "Compara las ventajas y desventajas de distintas técnicas de separación (filtración, tamizado, decantación, evaporación) de mezclas homogéneas y heterogéneas, considerando ejemplos de mezclas concretas.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Compara las ventajas y desventajas de distintas técnicas de separación (filtración, tamizado, decantación, evaporación) de mezclas homogéneas y heterogéneas, considerando ejemplos de mezclas concretas.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de materia.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "confundir promedio con valor representativo en todos los casos",
+        "pattern": "confundir promedio con valor representativo en todos los casos",
+        "feedback": "Revisemos esta idea: confundir promedio con valor representativo en todos los casos",
+        "visual": "concept_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre materia?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender materia?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "concept_map",
+        "trigger": "confundir promedio con valor representativo en todos los casos",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 5
+      }
+    }
+  },
+  {
+    "module_id": "a0dc7aba-87f5-4a0b-88d1-003a6b20b57f",
+    "source_unit_id": "9ae27062-6cc6-47f3-a4dc-d595cc16847d",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "4",
+    "difficulty": 2,
+    "title": "¿Cómo funciona ecosistema?",
+    "learning_objective": "Comprende que los organismos cumplen distintas funciones en cada uno de los niveles tróficos y que las relaciones entre ellos pueden representarse en cadenas y redes alimenticias.",
+    "context": "ecosistema marino presente en Colombia y San Andrés.",
+    "core_concept": "ecosistema",
+    "concepts": [
+      "ecosistema",
+      "fracciones",
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "representational_thinking",
+    "skills": [
+      "identificar",
+      "comprender",
+      "representar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con ecosistema?",
+      "expected_signals": [
+        "ecosistema",
+        "fracciones",
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "bdbb670c-aa9d-47c8-ac2d-bc5569629cf8",
+        "evidence_source": "Identifica los niveles tróficos en cadenas y redes alimenticias y establece la función de cada uno en un ecosistema.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con ecosistema y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ecosistema.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 1
+      },
+      {
+        "id": "d1a8d25d-d053-4d9f-b873-291bba74816f",
+        "evidence_source": "Indica qué puede ocurrir con las distintas poblaciones que forman parte de una red alimenticia cuando se altera cualquiera de sus niveles.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Indica qué puede ocurrir con las distintas poblaciones que forman parte de una red alimenticia cuando se altera cualquiera de sus niveles.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ecosistema.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 2
+      },
+      {
+        "id": "097aa099-e51a-441a-8c5f-cb7a78e24854",
+        "evidence_source": "Representa cadenas, pirámides o redes tróficas para establecer relaciones entre los niveles tróficos.",
+        "type": "representation",
+        "prompt": "Representa la idea de ecosistema usando un esquema, tabla o dibujo mental.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ecosistema.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "representacion"
+        ],
+        "difficulty": 2,
+        "order": 3
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "pensar que los ecosistemas son estáticos",
+        "pattern": "pensar que los ecosistemas son estáticos",
+        "feedback": "Revisemos esta idea: pensar que los ecosistemas son estáticos",
+        "visual": "concept_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre ecosistema?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender ecosistema?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "concept_map",
+        "trigger": "pensar que los ecosistemas son estáticos",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 6
+      }
+    }
+  },
+  {
+    "module_id": "4b883fbc-06a9-433d-bb9d-1b5f16bfb0d1",
+    "source_unit_id": "929b345a-4a7f-468e-9952-53902c632c0b",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "4",
+    "difficulty": 2,
+    "title": "¿Cómo funciona ecosistema?",
+    "learning_objective": "Comprende que existen distintos tipos de ecosistemas (terrestres y acuáticos) y que sus características físicas (temperatura, humedad, tipos de suelo, altitud) permiten que habiten en ellos diferentes seres vivos.",
+    "context": "['Identifica entre varios organismos (pez, serpiente, escorpión, arbusto, vaca, perro), cuál o cuáles puede vivir en un ecosistema con las siguientes condiciones: temperaturas diarias con calentamiento del suelo durante el día y un fuerte enfriamiento durante la noche; poca humedad atmosférica, precipitaciones muy escasas e irregulares entre 750 y 150 mm anuales; un río que solo lleva agua después de las precipitaciones y el resto del tiempo sus cauces permanecen secos.']",
+    "core_concept": "ecosistema",
+    "concepts": [
+      "historia",
+      "territorio",
+      "potenciacion",
+      "ecosistema",
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "comprender",
+      "explicar",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con ecosistema?",
+      "expected_signals": [
+        "historia",
+        "territorio",
+        "potenciacion",
+        "ecosistema",
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "8725d952-2efa-47e5-9f50-a1636599bbee",
+        "evidence_source": "Diferencia tipos de ecosistemas (terrestres y acuáticos) correspondientes a distintas ubicaciones geográficas, para establecer sus principales características.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Diferencia tipos de ecosistemas (terrestres y acuáticos) correspondientes a distintas ubicaciones geográficas, para establecer sus principales características.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ecosistema.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "representacion"
+        ],
+        "difficulty": 2,
+        "order": 1
+      },
+      {
+        "id": "45f92c19-4b6b-41ba-9ef3-4487b339ef80",
+        "evidence_source": "Explica cómo repercuten las características físicas (temperatura, humedad, tipo de suelo, altitud) de ecosistemas (acuáticos y terrestres) en la supervivencia de los organismos que allí habitan.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica cómo repercuten las características físicas (temperatura, humedad, tipo de suelo, altitud) de ecosistemas (acuáticos y terrestres) en la supervivencia de los organismos que allí habitan.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ecosistema.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 2,
+        "order": 2
+      },
+      {
+        "id": "b54415da-3550-45ed-a819-28c09bbae52b",
+        "evidence_source": "Propone representaciones de los ecosistemas representativos de su región, resaltando sus particularidades (especies endémicas, potencialidades ecoturísticas, entre otros.) y plantea estrategias para su conservación.",
+        "type": "representation",
+        "prompt": "Representa la idea de ecosistema usando un esquema, tabla o dibujo mental.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ecosistema.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "representacion"
+        ],
+        "difficulty": 2,
+        "order": 3
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "pensar que los ecosistemas son estáticos",
+        "pattern": "pensar que los ecosistemas son estáticos",
+        "feedback": "Revisemos esta idea: pensar que los ecosistemas son estáticos",
+        "visual": "concept_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre ecosistema?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender ecosistema?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "concept_map",
+        "trigger": "pensar que los ecosistemas son estáticos",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 7
+      }
+    }
+  }
+]

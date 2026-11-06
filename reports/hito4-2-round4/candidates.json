@@ -1,0 +1,1004 @@
+[
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "066775e5-8e23-4af8-b3be-18c8da378df0:q:0",
+      "sha256": "5a776beff940dd9e1a4682575b69c0ed363400fb437b48e8cb30e0ddeb71311f"
+    },
+    "module": {
+      "id": "round4-module-1",
+      "title": "Leer la orientación de un croquis",
+      "subject": "social_studies",
+      "grade_range": "4-5",
+      "learning_objective": "Me ubico en el entorno físico utilizando referentes espaciales (izquierda, derecha, puntos cardinales).",
+      "is_active": false
+    },
+    "step": {
+      "id": "round4-repair-1",
+      "module_id": "round4-module-1",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "comprension",
+      "content": {
+        "prompt": "Croquis simulado de un colegio: el norte está hacia arriba y el este a la derecha. Cada casilla vecina representa una cuadra.\n\n| Oeste del croquis | Centro | Este del croquis |\n| --- | --- | --- |\n| Vacío | Biblioteca | Vacío |\n| Huerta | Escuela | Cancha |\n| Vacío | Parque | Vacío |\n\nSi partes de la escuela, ¿en qué dirección queda la biblioteca?",
+        "options": [
+          "Al sur.",
+          "Al norte.",
+          "Al oeste.",
+          "Al este."
+        ],
+        "left_items": [],
+        "right_items": []
+      },
+      "enriched_content": {
+        "type": "option",
+        "expected_answer": {
+          "type": "option",
+          "correct_options": [
+            1
+          ]
+        },
+        "cognitive_dimension": "comprension",
+        "explanation": "La biblioteca está en la casilla superior; el croquis indica que arriba es norte.",
+        "option_explanations": [
+          "Al sur de la escuela aparece el parque.",
+          "La biblioteca está en la casilla superior; el croquis indica que arriba es norte.",
+          "La huerta está al oeste de la escuela.",
+          "La cancha está al este de la escuela."
+        ],
+        "pair_explanations": [],
+        "learning_focus": "Leer una ubicación usando la orientación explícita de un croquis.",
+        "step_config": {
+          "hints": [
+            "Ubica primero la escuela y consulta la orientación indicada."
+          ],
+          "feedback": "La biblioteca está en la casilla superior; el croquis indica que arriba es norte."
+        }
+      }
+    },
+    "activity": {
+      "options": [
+        "Al sur.",
+        "Al norte.",
+        "Al oeste.",
+        "Al este."
+      ],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [],
+      "correct_pairs": [],
+      "correct_index": 1,
+      "expected_text": "",
+      "rubric": "Leer una ubicación usando la orientación explícita de un croquis.",
+      "option_explanations": [
+        "Al sur de la escuela aparece el parque.",
+        "La biblioteca está en la casilla superior; el croquis indica que arriba es norte.",
+        "La huerta está al oeste de la escuela.",
+        "La cancha está al este de la escuela."
+      ],
+      "pair_explanations": [],
+      "type": "option",
+      "question": "Croquis simulado de un colegio: el norte está hacia arriba y el este a la derecha. Cada casilla vecina representa una cuadra.\n\n| Oeste del croquis | Centro | Este del croquis |\n| --- | --- | --- |\n| Vacío | Biblioteca | Vacío |\n| Huerta | Escuela | Cancha |\n| Vacío | Parque | Vacío |\n\nSi partes de la escuela, ¿en qué dirección queda la biblioteca?",
+      "hint": "Ubica primero la escuela y consulta la orientación indicada.",
+      "learning_focus": "Leer una ubicación usando la orientación explícita de un croquis.",
+      "explanation": "La biblioteca está en la casilla superior; el croquis indica que arriba es norte.",
+      "dimension": "comprension"
+    },
+    "supports": [
+      {
+        "title": "Orientación de una representación",
+        "body": "Antes de ubicar un lugar, identifica cómo está orientado el croquis. Arriba no significa norte en todos los dibujos: aquí debe indicarse. Después elige el punto de partida.",
+        "insight": "La orientación del dibujo y el punto de partida importan.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Otro croquis",
+        "body": "Antes de ubicar un lugar, identifica cómo está orientado el croquis. Arriba no significa norte en todos los dibujos: aquí debe indicarse. Después elige el punto de partida.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Croquis ficticio: se indica norte hacia arriba. Un teatro está en la casilla inmediatamente debajo de una plaza. ¿En qué dirección queda el teatro desde la plaza?",
+        "example_steps": [
+          "Partimos de la plaza.",
+          "La casilla inferior corresponde al sur según la orientación indicada."
+        ],
+        "example_result": "El teatro está al sur de la plaza.",
+        "visual": {
+          "kind": "table",
+          "caption": "Orientación del otro caso",
+          "headers": [
+            "Posición desde la plaza",
+            "Lugar"
+          ],
+          "rows": [
+            [
+              "Casilla inferior",
+              "Teatro"
+            ]
+          ],
+          "steps": []
+        }
+      }
+    ],
+    "findings": [
+      "La pregunta de nomadismo no verifica el objetivo de referentes espaciales.",
+      "La definición y sus pistas presentan el desplazamiento constante y la búsqueda de alimentos como rasgos universales; el lote no certifica esa generalización. Se sustituye por una tarea espacial autocontenida."
+    ],
+    "sha256": "760ca65c88691307e2c48a90d7d031b1e99fe956dec6d03e73349a7617cf1993"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "47ac5367-dbc3-463e-aa28-22cd0e18a06b:q:0",
+      "sha256": "76642e1ded3ca2d534396e464213ba12ce952f8fa2780dac572de70a5b268ff6"
+    },
+    "module": {
+      "id": "round4-module-2",
+      "title": "Relacionar recorridos de un croquis",
+      "subject": "social_studies",
+      "grade_range": "4-5",
+      "learning_objective": "Me ubico en el entorno físico utilizando referentes espaciales (izquierda, derecha, puntos cardinales).",
+      "is_active": false
+    },
+    "step": {
+      "id": "round4-repair-2",
+      "module_id": "round4-module-2",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "representacion",
+      "content": {
+        "prompt": "Croquis ficticio: el norte está hacia arriba y el este hacia la derecha. Dos casillas vecinas están separadas por una cuadra.\n\n| Oeste | Centro | Este |\n| --- | --- | --- |\n| Vacío | Mercado | Vacío |\n| Vacío | Escuela | Parque |\n| Vacío | Puesto de lectura | Vacío |\n\nRelaciona cada recorrido desde la escuela con la dirección y distancia que muestra el croquis.",
+        "options": [],
+        "left_items": [
+          "Escuela → mercado.",
+          "Escuela → parque.",
+          "Escuela → puesto de lectura."
+        ],
+        "right_items": [
+          "Una cuadra al este.",
+          "Una cuadra al sur.",
+          "Una cuadra al norte."
+        ]
+      },
+      "enriched_content": {
+        "type": "matching",
+        "expected_answer": {
+          "type": "matching",
+          "correct_pairs": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        "cognitive_dimension": "representacion",
+        "explanation": "Relacionar posiciones de una representación con recorridos cardinales de una cuadra.",
+        "option_explanations": [],
+        "pair_explanations": [
+          "El mercado ocupa la casilla superior contigua a la escuela: norte.",
+          "El parque está en la casilla contigua de la derecha: este.",
+          "El puesto de lectura está en la casilla inferior contigua: sur."
+        ],
+        "learning_focus": "Relacionar posiciones de una representación con recorridos cardinales de una cuadra.",
+        "step_config": {
+          "hints": [
+            "Conserva la escuela como punto de partida en las tres relaciones."
+          ],
+          "feedback": "Relacionar posiciones de una representación con recorridos cardinales de una cuadra."
+        }
+      }
+    },
+    "activity": {
+      "options": [],
+      "left_items": [
+        "Escuela → mercado.",
+        "Escuela → parque.",
+        "Escuela → puesto de lectura."
+      ],
+      "right_items": [
+        "Una cuadra al este.",
+        "Una cuadra al sur.",
+        "Una cuadra al norte."
+      ],
+      "correct_indices": [],
+      "correct_pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "correct_index": -1,
+      "expected_text": "",
+      "rubric": "Relacionar posiciones de una representación con recorridos cardinales de una cuadra.",
+      "option_explanations": [],
+      "pair_explanations": [
+        "El mercado ocupa la casilla superior contigua a la escuela: norte.",
+        "El parque está en la casilla contigua de la derecha: este.",
+        "El puesto de lectura está en la casilla inferior contigua: sur."
+      ],
+      "type": "matching",
+      "question": "Croquis ficticio: el norte está hacia arriba y el este hacia la derecha. Dos casillas vecinas están separadas por una cuadra.\n\n| Oeste | Centro | Este |\n| --- | --- | --- |\n| Vacío | Mercado | Vacío |\n| Vacío | Escuela | Parque |\n| Vacío | Puesto de lectura | Vacío |\n\nRelaciona cada recorrido desde la escuela con la dirección y distancia que muestra el croquis.",
+      "hint": "Conserva la escuela como punto de partida en las tres relaciones.",
+      "learning_focus": "Relacionar posiciones de una representación con recorridos cardinales de una cuadra.",
+      "explanation": "Relacionar posiciones de una representación con recorridos cardinales de una cuadra.",
+      "dimension": "representacion"
+    },
+    "supports": [
+      {
+        "title": "De la posición al recorrido",
+        "body": "Un recorrido se describe desde un lugar de salida. Busca en qué casilla está el destino y usa la orientación y la distancia dadas. No dependas del orden de las opciones.",
+        "insight": "Una casilla indica posición; el recorrido depende de desde dónde sales.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Otro destino",
+        "body": "Un recorrido se describe desde un lugar de salida. Busca en qué casilla está el destino y usa la orientación y la distancia dadas. No dependas del orden de las opciones.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "En un croquis ficticio con norte arriba y este a la derecha, la panadería está en la casilla contigua a la izquierda de la plaza. ¿Cómo se llega desde la plaza?",
+        "example_steps": [
+          "Identificamos el punto de salida: plaza.",
+          "Izquierda corresponde al oeste según la orientación dada."
+        ],
+        "example_result": "Se avanza una cuadra al oeste.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Leer el recorrido",
+          "headers": [],
+          "rows": [],
+          "steps": [
+            "Salida: plaza.",
+            "Destino: casilla contigua a la izquierda.",
+            "Orientación indicada: oeste."
+          ]
+        }
+      }
+    ],
+    "findings": [
+      "Relacionar formas de vida históricas no evalúa el objetivo espacial del módulo.",
+      "Las categorías mezclan formas de residencia, actividades y un proceso histórico, con descripciones que pueden solaparse; una clave numérica no elimina esa ambigüedad."
+    ],
+    "sha256": "4795b4b7c692be15a0f5927275907917f25d8197b93a5eb63e58cf451800ea76"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "c879893e-6d52-4547-9d9a-56a40ce9f12a:q:0",
+      "sha256": "542882f61c220e24a29040b218864e835b7bdbcef7274da007b821c3828ffc3a"
+    },
+    "module": {
+      "id": "round4-module-3",
+      "title": "Comprobar la ida y el regreso",
+      "subject": "social_studies",
+      "grade_range": "4-5",
+      "learning_objective": "Me ubico en el entorno físico utilizando referentes espaciales (izquierda, derecha, puntos cardinales).",
+      "is_active": false
+    },
+    "step": {
+      "id": "round4-repair-3",
+      "module_id": "round4-module-3",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "transferencia",
+      "content": {
+        "prompt": "Recorrido simulado para visitar una huerta comunitaria: desde la escuela se caminan dos cuadras al norte y después tres al este. Las calles de ambos tramos son rectas y perpendiculares. Para regresar se recorren los mismos tramos en sentido contrario. ¿Qué dos afirmaciones corresponden al caso?",
+        "options": [
+          "La huerta queda dos cuadras al norte y tres al este de la escuela.",
+          "Para regresar se caminan tres cuadras al oeste y luego dos al sur.",
+          "Para regresar se caminan tres cuadras al este y luego dos al norte.",
+          "La huerta está al sur y al oeste de la escuela."
+        ],
+        "left_items": [],
+        "right_items": []
+      },
+      "enriched_content": {
+        "type": "multiple_select",
+        "expected_answer": {
+          "type": "multiple_select",
+          "correct_options": [
+            0,
+            1
+          ]
+        },
+        "cognitive_dimension": "transferencia",
+        "explanation": "Aplicar direcciones cardinales al recorrido de ida y al regreso por el mismo camino.",
+        "option_explanations": [
+          "Describe los dos desplazamientos de la ida desde la escuela.",
+          "Invierte primero el último tramo (este → oeste) y después el primero (norte → sur).",
+          "Continúa en las direcciones de ida en lugar de deshacer el recorrido.",
+          "Invierte la ubicación del destino respecto a la escuela."
+        ],
+        "pair_explanations": [],
+        "learning_focus": "Aplicar direcciones cardinales al recorrido de ida y al regreso por el mismo camino.",
+        "step_config": {
+          "hints": [
+            "Para volver por el mismo camino, comienza deshaciendo el último tramo."
+          ],
+          "feedback": "Aplicar direcciones cardinales al recorrido de ida y al regreso por el mismo camino."
+        }
+      }
+    },
+    "activity": {
+      "options": [
+        "La huerta queda dos cuadras al norte y tres al este de la escuela.",
+        "Para regresar se caminan tres cuadras al oeste y luego dos al sur.",
+        "Para regresar se caminan tres cuadras al este y luego dos al norte.",
+        "La huerta está al sur y al oeste de la escuela."
+      ],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [
+        0,
+        1
+      ],
+      "correct_pairs": [],
+      "correct_index": -1,
+      "expected_text": "",
+      "rubric": "Aplicar direcciones cardinales al recorrido de ida y al regreso por el mismo camino.",
+      "option_explanations": [
+        "Describe los dos desplazamientos de la ida desde la escuela.",
+        "Invierte primero el último tramo (este → oeste) y después el primero (norte → sur).",
+        "Continúa en las direcciones de ida en lugar de deshacer el recorrido.",
+        "Invierte la ubicación del destino respecto a la escuela."
+      ],
+      "pair_explanations": [],
+      "type": "multiple_select",
+      "question": "Recorrido simulado para visitar una huerta comunitaria: desde la escuela se caminan dos cuadras al norte y después tres al este. Las calles de ambos tramos son rectas y perpendiculares. Para regresar se recorren los mismos tramos en sentido contrario. ¿Qué dos afirmaciones corresponden al caso?",
+      "hint": "Para volver por el mismo camino, comienza deshaciendo el último tramo.",
+      "learning_focus": "Aplicar direcciones cardinales al recorrido de ida y al regreso por el mismo camino.",
+      "explanation": "Aplicar direcciones cardinales al recorrido de ida y al regreso por el mismo camino.",
+      "dimension": "transferencia"
+    },
+    "supports": [
+      {
+        "title": "Volver por el mismo camino",
+        "body": "Para regresar por una ruta, recorre sus tramos en orden inverso y en sentido contrario. Norte y sur son sentidos opuestos, igual que este y oeste.",
+        "insight": "Invertir la ruta exige cambiar tanto el orden como el sentido.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Una ruta diferente",
+        "body": "Para regresar por una ruta, recorre sus tramos en orden inverso y en sentido contrario. Norte y sur son sentidos opuestos, igual que este y oeste.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Caso ficticio: para ir a una casa se camina una cuadra al oeste y después dos al sur. ¿Cómo se regresa por el mismo camino?",
+        "example_steps": [
+          "Deshacemos primero las dos cuadras al sur: caminamos dos al norte.",
+          "Deshacemos después la cuadra al oeste: caminamos una al este."
+        ],
+        "example_result": "El regreso es dos cuadras al norte y una al este.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Regreso del otro caso",
+          "headers": [],
+          "rows": [],
+          "steps": [
+            "Dos cuadras al norte.",
+            "Una cuadra al este."
+          ]
+        }
+      }
+    ],
+    "findings": [
+      "Clasificar actividades atribuidas a grupos nómadas no evalúa orientación espacial.",
+      "La pista presupone que quienes se desplazan no producen alimentos y entrega la clave completa; no se necesita esa generalización para evaluar el objetivo del módulo."
+    ],
+    "sha256": "5012f89c388daff2da78f4eb47691719053e722a3e23a3be6c07369c940b98d4"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "6d43606d-e0a1-44ad-a5c3-855cf8501579:q:0",
+      "sha256": "686e34a1f04c0a5edef59c05ebd0b2233c411e4aeffad5314b61043d0c782bb6"
+    },
+    "module": {
+      "id": "round4-module-4",
+      "title": "Acciones que protegen derechos",
+      "subject": "social_studies",
+      "grade_range": "1-3",
+      "learning_objective": "Identifico y respeto mis derechos y los de otras personas, y entiendo que tengo responsabilidades en mi familia, escuela y comunidad.",
+      "is_active": false
+    },
+    "step": {
+      "id": "round4-repair-4",
+      "module_id": "round4-module-4",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "representacion",
+      "content": {
+        "prompt": "En este colegio imaginado se cuidan los materiales y se escucha con respeto. Los derechos de cada niño siguen siendo suyos aunque olvide una tarea. Relaciona cada acción con el derecho que protege de forma más directa.",
+        "options": [],
+        "left_items": [
+          "La profesora permite que una niña exprese su propuesta y la escucha.",
+          "El colegio organiza momentos para descansar y jugar.",
+          "El colegio acompaña a un niño para que siga aprendiendo, aunque olvidó una tarea."
+        ],
+        "right_items": [
+          "Derecho a la educación.",
+          "Derecho al descanso y al juego.",
+          "Derecho a expresar su opinión y ser escuchado."
+        ]
+      },
+      "enriched_content": {
+        "type": "matching",
+        "expected_answer": {
+          "type": "matching",
+          "correct_pairs": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        "cognitive_dimension": "representacion",
+        "explanation": "Reconocer acciones que protegen derechos y distinguirlas de condiciones para merecerlos.",
+        "option_explanations": [],
+        "pair_explanations": [
+          "Expresar una propuesta y ser escuchada se relaciona directamente con la participación y la opinión.",
+          "El tiempo para descansar y jugar protege esos derechos.",
+          "Seguir aprendiendo protege la educación; no es un premio por entregar una tarea."
+        ],
+        "learning_focus": "Reconocer acciones que protegen derechos y distinguirlas de condiciones para merecerlos.",
+        "step_config": {
+          "hints": [
+            "Busca qué se protege en cada acción, sin convertir los derechos en premios."
+          ],
+          "feedback": "Reconocer acciones que protegen derechos y distinguirlas de condiciones para merecerlos."
+        }
+      }
+    },
+    "activity": {
+      "options": [],
+      "left_items": [
+        "La profesora permite que una niña exprese su propuesta y la escucha.",
+        "El colegio organiza momentos para descansar y jugar.",
+        "El colegio acompaña a un niño para que siga aprendiendo, aunque olvidó una tarea."
+      ],
+      "right_items": [
+        "Derecho a la educación.",
+        "Derecho al descanso y al juego.",
+        "Derecho a expresar su opinión y ser escuchado."
+      ],
+      "correct_indices": [],
+      "correct_pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "correct_index": -1,
+      "expected_text": "",
+      "rubric": "Reconocer acciones que protegen derechos y distinguirlas de condiciones para merecerlos.",
+      "option_explanations": [],
+      "pair_explanations": [
+        "Expresar una propuesta y ser escuchada se relaciona directamente con la participación y la opinión.",
+        "El tiempo para descansar y jugar protege esos derechos.",
+        "Seguir aprendiendo protege la educación; no es un premio por entregar una tarea."
+      ],
+      "type": "matching",
+      "question": "En este colegio imaginado se cuidan los materiales y se escucha con respeto. Los derechos de cada niño siguen siendo suyos aunque olvide una tarea. Relaciona cada acción con el derecho que protege de forma más directa.",
+      "hint": "Busca qué se protege en cada acción, sin convertir los derechos en premios.",
+      "learning_focus": "Reconocer acciones que protegen derechos y distinguirlas de condiciones para merecerlos.",
+      "explanation": "Reconocer acciones que protegen derechos y distinguirlas de condiciones para merecerlos.",
+      "dimension": "representacion"
+    },
+    "supports": [
+      {
+        "title": "Derechos y acuerdos de convivencia",
+        "body": "Los niños tienen derechos. Cuidar materiales y escuchar a los demás ayuda a convivir, pero olvidar un acuerdo no elimina un derecho. Los adultos deben orientar y corregir respetuosamente.",
+        "insight": "Los derechos no son premios por cumplir tareas.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Escuchar una idea",
+        "body": "Los niños tienen derechos. Cuidar materiales y escuchar a los demás ayuda a convivir, pero olvidar un acuerdo no elimina un derecho. Los adultos deben orientar y corregir respetuosamente.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Caso imaginado: un niño olvidó recoger unos lápices, pero quiere dar su idea para una actividad. ¿Cómo atender ambas cosas?",
+        "example_steps": [
+          "Se le puede pedir que recoja los lápices y recordar el acuerdo de cuidado.",
+          "También se escucha su idea con respeto."
+        ],
+        "example_result": "Se puede recordar una responsabilidad sin quitarle la posibilidad de expresar su opinión.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Dos acciones compatibles",
+          "headers": [],
+          "rows": [],
+          "steps": [
+            "Recordar el cuidado de los materiales.",
+            "Escuchar la idea con respeto."
+          ]
+        }
+      }
+    ],
+    "findings": [
+      "No se afirma que las parejas originales sean todas falsas: relacionan responsabilidades posibles con derechos.",
+      "La consigna y ayudas no distinguen esos acuerdos de las obligaciones de los adultos ni aclaran que los derechos no se pierden por incumplir tareas. La tarjeta asociada trata líneas de tiempo, no derechos."
+    ],
+    "sha256": "447171118f720ff94793d6e86785e62c68366d186dfe124eddf4630117237918"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "36e47290-4027-4c73-aa80-8a249fbb5584:q:0",
+      "sha256": "2c9b76fd7362d26631263180920755c59231f54692bd3b2e61d770bcda5a78dc"
+    },
+    "module": {
+      "id": "round4-module-5",
+      "title": "Indicadores y alcance de una comparación",
+      "subject": "social_studies",
+      "grade_range": "10-11",
+      "learning_objective": "Utilizo herramientas de las diferentes disciplinas de las ciencias sociales para analizar la información.",
+      "is_active": false
+    },
+    "step": {
+      "id": "round4-repair-5",
+      "module_id": "round4-module-5",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "razonamiento",
+      "content": {
+        "prompt": "Datos ficticios de dos hogares, en miles de pesos mensuales del mismo poder adquisitivo. No describen a toda una población ni indican qué causó los cambios. Brecha absoluta: ingreso mayor menos ingreso menor. Razón: ingreso mayor dividido por ingreso menor.\n\n| Hogar | Año 1 | Año 2 |\n| --- | --- | --- |\n| A | 500 | 700 |\n| B | 1500 | 2100 |\n\n¿Qué análisis es compatible con los datos y con sus límites?",
+        "options": [
+          "La razón pasa de 3 a 4 y prueba que la globalización es la causa.",
+          "Como ambos ingresos suben, desaparece cualquier diferencia entre los hogares.",
+          "La brecha pasa de 1000 a 1400 y la razón sigue en 3; estos datos no identifican una causa.",
+          "Los dos indicadores muestran que ambos hogares reciben el mismo ingreso."
+        ],
+        "left_items": [],
+        "right_items": []
+      },
+      "enriched_content": {
+        "type": "option",
+        "expected_answer": {
+          "type": "option",
+          "correct_options": [
+            2
+          ]
+        },
+        "cognitive_dimension": "razonamiento",
+        "explanation": "1500−500=1000; 2100−700=1400; ambas divisiones dan 3. No se identifica una causa con esta tabla.",
+        "option_explanations": [
+          "1500/500=3 y 2100/700=3: la razón no pasa a 4; tampoco se aporta evidencia causal.",
+          "Los ingresos suben, pero siguen siendo diferentes y la brecha absoluta cambia.",
+          "1500−500=1000; 2100−700=1400; ambas divisiones dan 3. No se identifica una causa con esta tabla.",
+          "Los ingresos de B son tres veces los de A en ambos años."
+        ],
+        "pair_explanations": [],
+        "learning_focus": "Comparar indicadores absolutos y relativos sin convertir una descripción en una explicación causal.",
+        "step_config": {
+          "hints": [
+            "Calcula cada indicador por separado antes de interpretar una causa."
+          ],
+          "feedback": "1500−500=1000; 2100−700=1400; ambas divisiones dan 3. No se identifica una causa con esta tabla."
+        }
+      }
+    },
+    "activity": {
+      "options": [
+        "La razón pasa de 3 a 4 y prueba que la globalización es la causa.",
+        "Como ambos ingresos suben, desaparece cualquier diferencia entre los hogares.",
+        "La brecha pasa de 1000 a 1400 y la razón sigue en 3; estos datos no identifican una causa.",
+        "Los dos indicadores muestran que ambos hogares reciben el mismo ingreso."
+      ],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [],
+      "correct_pairs": [],
+      "correct_index": 2,
+      "expected_text": "",
+      "rubric": "Comparar indicadores absolutos y relativos sin convertir una descripción en una explicación causal.",
+      "option_explanations": [
+        "1500/500=3 y 2100/700=3: la razón no pasa a 4; tampoco se aporta evidencia causal.",
+        "Los ingresos suben, pero siguen siendo diferentes y la brecha absoluta cambia.",
+        "1500−500=1000; 2100−700=1400; ambas divisiones dan 3. No se identifica una causa con esta tabla.",
+        "Los ingresos de B son tres veces los de A en ambos años."
+      ],
+      "pair_explanations": [],
+      "type": "option",
+      "question": "Datos ficticios de dos hogares, en miles de pesos mensuales del mismo poder adquisitivo. No describen a toda una población ni indican qué causó los cambios. Brecha absoluta: ingreso mayor menos ingreso menor. Razón: ingreso mayor dividido por ingreso menor.\n\n| Hogar | Año 1 | Año 2 |\n| --- | --- | --- |\n| A | 500 | 700 |\n| B | 1500 | 2100 |\n\n¿Qué análisis es compatible con los datos y con sus límites?",
+      "hint": "Calcula cada indicador por separado antes de interpretar una causa.",
+      "learning_focus": "Comparar indicadores absolutos y relativos sin convertir una descripción en una explicación causal.",
+      "explanation": "1500−500=1000; 2100−700=1400; ambas divisiones dan 3. No se identifica una causa con esta tabla.",
+      "dimension": "razonamiento"
+    },
+    "supports": [
+      {
+        "title": "Un indicador no cuenta toda la historia",
+        "body": "Una diferencia absoluta y una relación proporcional pueden cambiar de maneras distintas. Define qué comparas, conserva unidades comparables y separa el resultado del cálculo de una explicación sobre sus causas.",
+        "insight": "Una tabla descriptiva no demuestra por sí sola por qué ocurrió un cambio.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Otra comparación",
+        "body": "Una diferencia absoluta y una relación proporcional pueden cambiar de maneras distintas. Define qué comparas, conserva unidades comparables y separa el resultado del cálculo de una explicación sobre sus causas.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Datos ficticios: dos hogares reciben 400 y 800 unidades en un periodo; luego 600 y 1200. ¿Qué ocurre con la brecha y la razón?",
+        "example_steps": [
+          "La brecha pasa de 800−400=400 a 1200−600=600.",
+          "La razón es 800/400=2 y luego 1200/600=2."
+        ],
+        "example_result": "La brecha absoluta aumenta, mientras la razón se mantiene en 2. Los datos no indican una causa.",
+        "visual": {
+          "kind": "table",
+          "caption": "Ingresos del otro caso",
+          "headers": [
+            "Hogar",
+            "Antes",
+            "Después"
+          ],
+          "rows": [
+            [
+              "C",
+              "400",
+              "600"
+            ],
+            [
+              "D",
+              "800",
+              "1200"
+            ]
+          ],
+          "steps": []
+        }
+      }
+    ],
+    "findings": [
+      "Se marca una explicación general de globalización y desigualdad como única respuesta correcta sin caso, periodo, indicador ni fuentes.",
+      "No se demuestra que la opción marcada sea falsa en todo contexto; el defecto es presentarla como conclusión universal y cerrada sin evidencia para contrastarla."
+    ],
+    "sha256": "3e77fd869a675d2bbd7c21f693547db7f70e49ce01f305e16d1a427c1b23e928"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "98eaf119-ae8c-41ec-90c2-185c16a03297:q:0",
+      "sha256": "f2def7baef0a700cf8b37c5c6a7a6bf425637a315b76275b79a2f9ef96a7b5a7"
+    },
+    "module": {
+      "id": "round4-module-6",
+      "title": "Leer una encuesta sin probar causalidad",
+      "subject": "social_studies",
+      "grade_range": "10-11",
+      "learning_objective": "Utilizo herramientas de las diferentes disciplinas de las ciencias sociales para analizar la información.",
+      "is_active": false
+    },
+    "step": {
+      "id": "round4-repair-6",
+      "module_id": "round4-module-6",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "razonamiento",
+      "content": {
+        "prompt": "Encuesta ficticia a 100 voluntarios de un curso ampliado. Declararon cuánto usan redes y si prefieren leer solo opiniones políticas parecidas a la propia. No hubo asignación al azar ni comparación antes/después.\n\n| Uso declarado | Voluntarios | Prefieren solo opiniones parecidas |\n| --- | --- | --- |\n| Alto | 80 | 48 |\n| Bajo | 20 | 4 |\n\nSelecciona las dos conclusiones que respetan el alcance de esta encuesta.",
+        "options": [
+          "Entre quienes declararon uso alto, 48 de 80 dijeron preferir solo opiniones parecidas.",
+          "La encuesta prueba que las redes causan esa preferencia en cualquier persona.",
+          "Conviene investigar diferencias previas y otros factores antes de atribuir una causa.",
+          "Los 100 voluntarios representan necesariamente a toda Colombia."
+        ],
+        "left_items": [],
+        "right_items": []
+      },
+      "enriched_content": {
+        "type": "multiple_select",
+        "expected_answer": {
+          "type": "multiple_select",
+          "correct_options": [
+            0,
+            2
+          ]
+        },
+        "cognitive_dimension": "razonamiento",
+        "explanation": "Analizar información de una encuesta y reconocer sus límites de causalidad y generalización.",
+        "option_explanations": [
+          "Es una descripción del grupo y del dato que aparecen en la encuesta.",
+          "Una asociación declarada sin asignación aleatoria ni otras comparaciones no basta para afirmar esa causa universal.",
+          "El diseño no separa el posible efecto del uso de las redes de otras diferencias.",
+          "El caso no aporta un muestreo que permita esa representación nacional."
+        ],
+        "pair_explanations": [],
+        "learning_focus": "Analizar información de una encuesta y reconocer sus límites de causalidad y generalización.",
+        "step_config": {
+          "hints": [
+            "Distingue una descripción de la muestra de una causa y de una generalización nacional."
+          ],
+          "feedback": "Analizar información de una encuesta y reconocer sus límites de causalidad y generalización."
+        }
+      }
+    },
+    "activity": {
+      "options": [
+        "Entre quienes declararon uso alto, 48 de 80 dijeron preferir solo opiniones parecidas.",
+        "La encuesta prueba que las redes causan esa preferencia en cualquier persona.",
+        "Conviene investigar diferencias previas y otros factores antes de atribuir una causa.",
+        "Los 100 voluntarios representan necesariamente a toda Colombia."
+      ],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [
+        0,
+        2
+      ],
+      "correct_pairs": [],
+      "correct_index": -1,
+      "expected_text": "",
+      "rubric": "Analizar información de una encuesta y reconocer sus límites de causalidad y generalización.",
+      "option_explanations": [
+        "Es una descripción del grupo y del dato que aparecen en la encuesta.",
+        "Una asociación declarada sin asignación aleatoria ni otras comparaciones no basta para afirmar esa causa universal.",
+        "El diseño no separa el posible efecto del uso de las redes de otras diferencias.",
+        "El caso no aporta un muestreo que permita esa representación nacional."
+      ],
+      "pair_explanations": [],
+      "type": "multiple_select",
+      "question": "Encuesta ficticia a 100 voluntarios de un curso ampliado. Declararon cuánto usan redes y si prefieren leer solo opiniones políticas parecidas a la propia. No hubo asignación al azar ni comparación antes/después.\n\n| Uso declarado | Voluntarios | Prefieren solo opiniones parecidas |\n| --- | --- | --- |\n| Alto | 80 | 48 |\n| Bajo | 20 | 4 |\n\nSelecciona las dos conclusiones que respetan el alcance de esta encuesta.",
+      "hint": "Distingue una descripción de la muestra de una causa y de una generalización nacional.",
+      "learning_focus": "Analizar información de una encuesta y reconocer sus límites de causalidad y generalización.",
+      "explanation": "Analizar información de una encuesta y reconocer sus límites de causalidad y generalización.",
+      "dimension": "razonamiento"
+    },
+    "supports": [
+      {
+        "title": "Muestra, asociación y explicación",
+        "body": "Una encuesta describe a quienes respondieron y lo que declararon. Dos características pueden aparecer juntas sin que una sea la causa de la otra. Para generalizar importa cómo se eligió la muestra.",
+        "insight": "No conviertas una asociación de una muestra en una ley sobre toda la población.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Una encuesta de biblioteca",
+        "body": "Una encuesta describe a quienes respondieron y lo que declararon. Dos características pueden aparecer juntas sin que una sea la causa de la otra. Para generalizar importa cómo se eligió la muestra.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Caso ficticio: 12 de 20 voluntarios que visitan una biblioteca dicen disfrutar la lectura; no se preguntó cómo se sentían antes. ¿Prueba que la visita causó ese gusto?",
+        "example_steps": [
+          "El dato describe a esos voluntarios.",
+          "También podrían visitar la biblioteca porque ya les gustaba leer; el caso no distingue las explicaciones."
+        ],
+        "example_result": "La encuesta no prueba por sí sola que visitar la biblioteca causó el gusto por leer.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Del dato a su límite",
+          "headers": [],
+          "rows": [],
+          "steps": [
+            "Quiénes respondieron: voluntarios.",
+            "Qué dijeron: disfrutan leer.",
+            "Qué falta: evidencia para distinguir las causas."
+          ]
+        }
+      }
+    ],
+    "findings": [
+      "Se atribuye a las redes un efecto único sobre polarización política sin delimitar plataforma, población, periodo ni evidencia.",
+      "Los distractores absolutos no justifican marcar una afirmación causal general como verdad universal; falta analizar fuentes o datos."
+    ],
+    "sha256": "58562352fc09d3733215c8b396a4006dfabf2f2aa12e1f4a5e03b8b7c69ef929"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "fe134a7d-6700-4003-ab0d-0b5b41f1775b:q:0",
+      "sha256": "4bb90454a09ccabc2cfb4bfd50de52c4d37136f94a156c62b2ce1553da9dc5f6"
+    },
+    "module": {
+      "id": "round4-module-7",
+      "title": "Contrastar indicadores y testimonios",
+      "subject": "social_studies",
+      "grade_range": "10-11",
+      "learning_objective": "Utilizo herramientas de las diferentes disciplinas de las ciencias sociales para analizar la información.",
+      "is_active": false
+    },
+    "step": {
+      "id": "round4-repair-7",
+      "module_id": "round4-module-7",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "comprension",
+      "content": {
+        "prompt": "Caso ficticio de una tienda de un municipio colombiano tras empezar a vender a nuevos mercados. Registro A: las ventas subieron 20 %. Entrevista B: una trabajadora dice «Ahora atiendo más pedidos, pero mi salario sigue igual». Mensaje C de un promotor: «Esto demuestra que todos los hogares del municipio mejoraron sus ingresos». No se aportan registros de otros hogares. ¿Qué conclusión distingue las fuentes y su alcance?",
+        "options": [
+          "El aumento de ventas demuestra que todos los salarios del municipio aumentaron 20 %.",
+          "Ventas y salario son indicadores distintos; las fuentes dadas no prueban la afirmación sobre todos los hogares.",
+          "La entrevista elimina la necesidad de revisar registros de otros hogares.",
+          "El mensaje del promotor es la prueba más completa porque usa la palabra todos."
+        ],
+        "left_items": [],
+        "right_items": []
+      },
+      "enriched_content": {
+        "type": "option",
+        "expected_answer": {
+          "type": "option",
+          "correct_options": [
+            1
+          ]
+        },
+        "cognitive_dimension": "comprension",
+        "explanation": "A describe ventas de una tienda y B un testimonio sobre un salario; no permiten verificar la generalización C.",
+        "option_explanations": [
+          "No hay datos de todos los salarios; ventas y salarios son cantidades distintas.",
+          "A describe ventas de una tienda y B un testimonio sobre un salario; no permiten verificar la generalización C.",
+          "Un testimonio aporta una perspectiva delimitada, no sustituye los datos de todos los hogares.",
+          "La amplitud de una afirmación no es evidencia de que sea verdadera."
+        ],
+        "pair_explanations": [],
+        "learning_focus": "Contrastar registros, testimonios y afirmaciones sin extenderlos más allá de su evidencia.",
+        "step_config": {
+          "hints": [
+            "Pregunta quién aporta cada dato y a qué personas o indicadores se refiere."
+          ],
+          "feedback": "A describe ventas de una tienda y B un testimonio sobre un salario; no permiten verificar la generalización C."
+        }
+      }
+    },
+    "activity": {
+      "options": [
+        "El aumento de ventas demuestra que todos los salarios del municipio aumentaron 20 %.",
+        "Ventas y salario son indicadores distintos; las fuentes dadas no prueban la afirmación sobre todos los hogares.",
+        "La entrevista elimina la necesidad de revisar registros de otros hogares.",
+        "El mensaje del promotor es la prueba más completa porque usa la palabra todos."
+      ],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [],
+      "correct_pairs": [],
+      "correct_index": 1,
+      "expected_text": "",
+      "rubric": "Contrastar registros, testimonios y afirmaciones sin extenderlos más allá de su evidencia.",
+      "option_explanations": [
+        "No hay datos de todos los salarios; ventas y salarios son cantidades distintas.",
+        "A describe ventas de una tienda y B un testimonio sobre un salario; no permiten verificar la generalización C.",
+        "Un testimonio aporta una perspectiva delimitada, no sustituye los datos de todos los hogares.",
+        "La amplitud de una afirmación no es evidencia de que sea verdadera."
+      ],
+      "pair_explanations": [],
+      "type": "option",
+      "question": "Caso ficticio de una tienda de un municipio colombiano tras empezar a vender a nuevos mercados. Registro A: las ventas subieron 20 %. Entrevista B: una trabajadora dice «Ahora atiendo más pedidos, pero mi salario sigue igual». Mensaje C de un promotor: «Esto demuestra que todos los hogares del municipio mejoraron sus ingresos». No se aportan registros de otros hogares. ¿Qué conclusión distingue las fuentes y su alcance?",
+      "hint": "Pregunta quién aporta cada dato y a qué personas o indicadores se refiere.",
+      "learning_focus": "Contrastar registros, testimonios y afirmaciones sin extenderlos más allá de su evidencia.",
+      "explanation": "A describe ventas de una tienda y B un testimonio sobre un salario; no permiten verificar la generalización C.",
+      "dimension": "comprension"
+    },
+    "supports": [
+      {
+        "title": "Triangular sin confundir indicadores",
+        "body": "Contrastar fuentes implica identificar quién habla, qué observó y a quién representa. Más ventas no equivale automáticamente a mayores salarios o al bienestar de todos. Una fuente interesada se examina con evidencia, no se acepta ni descarta solo por su autor.",
+        "insight": "La conclusión debe tener el alcance de la evidencia disponible.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Dos registros escolares",
+        "body": "Contrastar fuentes implica identificar quién habla, qué observó y a quién representa. Más ventas no equivale automáticamente a mayores salarios o al bienestar de todos. Una fuente interesada se examina con evidencia, no se acepta ni descarta solo por su autor.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Caso ficticio: una lista muestra que hubo más asistentes a un taller y un testimonio dice que faltaron materiales. ¿Los datos se contradicen necesariamente?",
+        "example_steps": [
+          "La lista trata cantidad de asistentes.",
+          "El testimonio trata disponibilidad de materiales."
+        ],
+        "example_result": "Pueden ser compatibles: asistir más personas no significa que hubiera suficientes materiales.",
+        "visual": {
+          "kind": "table",
+          "caption": "Aspectos del otro caso",
+          "headers": [
+            "Fuente",
+            "Aspecto"
+          ],
+          "rows": [
+            [
+              "Lista",
+              "Cantidad de asistentes"
+            ],
+            [
+              "Testimonio",
+              "Disponibilidad de materiales"
+            ]
+          ],
+          "steps": []
+        }
+      }
+    ],
+    "findings": [
+      "Se presenta un efecto negativo general de la globalización como clave única, sin fuentes ni indicadores que permitan evaluarlo.",
+      "El objetivo del módulo exige analizar información; el ejercicio original no proporciona información contextual para contrastar las alternativas."
+    ],
+    "sha256": "46a51b9d3495d769ac7227bef42bf90247ed6012d719f3573e07a90485a1c471"
+  }
+]

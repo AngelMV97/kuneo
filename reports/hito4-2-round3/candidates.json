@@ -1,0 +1,1209 @@
+[
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "00000000-0000-0000-0001-000000000003:q:0",
+      "sha256": "d72a53d0c56584aefdd1514378034db6b9a68abf4e6c5215428679fe4740359c"
+    },
+    "module": {
+      "id": "round3-module-1",
+      "title": "Cuadros y fracción restante",
+      "subject": "mathematics",
+      "grade_range": "3-5",
+      "learning_objective": "Relacionar una cantidad restante con la fracción de una unidad de partes iguales.",
+      "is_active": false
+    },
+    "step": {
+      "id": "round3-repair-1",
+      "module_id": "round3-module-1",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "razonamiento",
+      "content": {
+        "prompt": "Situación simulada: una tableta tiene ocho cuadros iguales y se comen tres. ¿Qué dos afirmaciones describen lo que queda de esa tableta?",
+        "options": [
+          "Quedan cinco cuadros.",
+          "Quedan tres cuadros.",
+          "Queda 5/8 de la tableta.",
+          "Queda 3/8 de la tableta."
+        ]
+      },
+      "enriched_content": {
+        "type": "multiple_select",
+        "expected_answer": {
+          "type": "multiple_select",
+          "correct_options": [
+            0,
+            2
+          ]
+        },
+        "cognitive_dimension": "razonamiento",
+        "explanation": "Al quitar tres de ocho quedan cinco cuadros; son cinco de las ocho partes iguales, es decir, 5/8.",
+        "option_explanations": [
+          "8−3=5 cuadros restantes.",
+          "Tres son los cuadros comidos, no los restantes.",
+          "Cinco de ocho partes iguales representan 5/8 de la tableta.",
+          "3/8 corresponde a lo comido."
+        ],
+        "learning_focus": "Relacionar resta y fracción restante.",
+        "step_config": {
+          "hints": [
+            "Distingue lo que se comió de lo que queda y conserva la tableta completa como unidad."
+          ],
+          "feedback": "Al quitar tres de ocho quedan cinco cuadros; son cinco de las ocho partes iguales, es decir, 5/8."
+        }
+      }
+    },
+    "activity": {
+      "options": [
+        "Quedan cinco cuadros.",
+        "Quedan tres cuadros.",
+        "Queda 5/8 de la tableta.",
+        "Queda 3/8 de la tableta."
+      ],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [
+        0,
+        2
+      ],
+      "correct_pairs": [],
+      "correct_index": -1,
+      "expected_text": "",
+      "rubric": "8−3=5 cuadros y quedan 5 de 8 partes iguales de la misma unidad.",
+      "option_explanations": [
+        "8−3=5 cuadros restantes.",
+        "Tres son los cuadros comidos, no los restantes.",
+        "Cinco de ocho partes iguales representan 5/8 de la tableta.",
+        "3/8 corresponde a lo comido."
+      ],
+      "pair_explanations": [],
+      "type": "multiple_select",
+      "question": "Situación simulada: una tableta tiene ocho cuadros iguales y se comen tres. ¿Qué dos afirmaciones describen lo que queda de esa tableta?",
+      "learning_focus": "Relacionar resta y fracción restante.",
+      "hint": "Distingue lo que se comió de lo que queda y conserva la tableta completa como unidad.",
+      "explanation": "Al quitar tres de ocho quedan cinco cuadros; son cinco de las ocho partes iguales, es decir, 5/8.",
+      "dimension": "razonamiento"
+    },
+    "supports": [
+      {
+        "title": "Partes y cantidades",
+        "body": "Cuenta lo que queda y relaciónalo con el total de partes iguales de la unidad. La cantidad de objetos y la fracción no son lo mismo.",
+        "insight": "Conserva la unidad al interpretar una fracción.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Otra tira",
+        "body": "Cuenta lo que queda y relaciónalo con el total de partes iguales de la unidad. La cantidad de objetos y la fracción no son lo mismo.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Situación simulada: una tira tiene diez secciones iguales y se recortan cuatro. ¿Cuántas quedan y qué fracción representan?",
+        "example_steps": [
+          "Restamos 10−4=6 secciones.",
+          "Relacionamos seis secciones con las diez de la tira inicial."
+        ],
+        "example_result": "Quedan seis secciones, equivalentes a 6/10 de la tira original.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Estrategia del ejemplo",
+          "headers": [],
+          "rows": [],
+          "steps": [
+            "Restamos 10−4=6 secciones.",
+            "Relacionamos seis secciones con las diez de la tira inicial."
+          ]
+        }
+      }
+    ],
+    "findings": [
+      "El cálculo original 8−3=5 es correcto.",
+      "El objetivo de fracciones no se verifica solo con una resta; faltan explicación específica y representación de la parte restante."
+    ],
+    "sha256": "cca4ae87572f3239b17e3c8f46a23192492e6adda1384e5c7aa480ae0228a772"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "4dc0d23f-cc9f-4d2a-8120-14fe846bbab4:q:0",
+      "sha256": "07f8faa7b00d0fecb89915f7a0a97cd6f6bdf475d9044c2f2501f4243acd5827"
+    },
+    "module": {
+      "id": "round3-module-2",
+      "title": "Cambios de volumen",
+      "subject": "mathematics",
+      "grade_range": "8-9",
+      "learning_objective": "Interpretar una función lineal y ordenar sus estados según el tiempo dentro del dominio.",
+      "is_active": false
+    },
+    "step": {
+      "id": "round3-repair-2",
+      "module_id": "round3-module-2",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "razonamiento",
+      "content": {
+        "prompt": "Situación simulada: un depósito inicia con 100 litros y pierde 10 litros por minuto sin recibir agua: $V(t)=100-10t$. Se observan los instantes $t=0,3,6,9$ minutos. Ordena los estados del más temprano al más tardío. El modelo solo se usa mientras hay agua.",
+        "options": [],
+        "items": [
+          "Quedan 40 litros.",
+          "Quedan 100 litros.",
+          "Quedan 10 litros.",
+          "Quedan 70 litros."
+        ]
+      },
+      "enriched_content": {
+        "type": "ordering",
+        "expected_answer": {
+          "type": "ordering",
+          "correct_order": [
+            1,
+            3,
+            0,
+            2
+          ]
+        },
+        "cognitive_dimension": "razonamiento",
+        "explanation": "Relacionar los estados de un modelo con tiempos crecientes.",
+        "option_explanations": [],
+        "order_explanations": [
+          "V(0)=100 litros: es el estado inicial.",
+          "V(3)=100−30=70 litros.",
+          "V(6)=100−60=40 litros.",
+          "V(9)=100−90=10 litros; aún no se vacía."
+        ],
+        "learning_focus": "Relacionar los estados de un modelo con tiempos crecientes.",
+        "step_config": {
+          "hints": [
+            "Relaciona cada volumen con uno de los cuatro instantes dados."
+          ],
+          "feedback": "Relacionar los estados de un modelo con tiempos crecientes."
+        }
+      }
+    },
+    "activity": {
+      "options": [],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [],
+      "correct_pairs": [],
+      "correct_index": -1,
+      "expected_text": "",
+      "rubric": "Relacionar los estados de un modelo con tiempos crecientes.",
+      "option_explanations": [],
+      "pair_explanations": [],
+      "type": "ordering",
+      "question": "Situación simulada: un depósito inicia con 100 litros y pierde 10 litros por minuto sin recibir agua: $V(t)=100-10t$. Se observan los instantes $t=0,3,6,9$ minutos. Ordena los estados del más temprano al más tardío. El modelo solo se usa mientras hay agua.",
+      "items": [
+        "Quedan 40 litros.",
+        "Quedan 100 litros.",
+        "Quedan 10 litros.",
+        "Quedan 70 litros."
+      ],
+      "correct_order": [
+        1,
+        3,
+        0,
+        2
+      ],
+      "order_explanations": [
+        "V(0)=100 litros: es el estado inicial.",
+        "V(3)=100−30=70 litros.",
+        "V(6)=100−60=40 litros.",
+        "V(9)=100−90=10 litros; aún no se vacía."
+      ],
+      "learning_focus": "Relacionar los estados de un modelo con tiempos crecientes.",
+      "hint": "Relaciona cada volumen con uno de los cuatro instantes dados.",
+      "explanation": "Relacionar los estados de un modelo con tiempos crecientes.",
+      "dimension": "razonamiento"
+    },
+    "supports": [
+      {
+        "title": "Leer estados de un modelo",
+        "body": "Un modelo permite calcular la cantidad en un instante. Para ordenar estados por tiempo, calcula o despeja el instante de cada uno. Comprueba el dominio físico.",
+        "insight": "La dirección temporal y el signo de la tasa deben ser coherentes.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Otro crecimiento",
+        "body": "Un modelo permite calcular la cantidad en un instante. Para ordenar estados por tiempo, calcula o despeja el instante de cada uno. Comprueba el dominio físico.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Situación simulada: una colecta inicia con 12 libros y recibe cuatro más cada día. ¿Cuántos reúne al tercer día?",
+        "example_steps": [
+          "Usamos L(d)=12+4d.",
+          "Calculamos L(3)=12+12=24."
+        ],
+        "example_result": "Al tercer día reúne 24 libros, según el modelo dado.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Estrategia del ejemplo",
+          "headers": [],
+          "rows": [],
+          "steps": [
+            "Usamos L(d)=12+4d.",
+            "Calculamos L(3)=12+12=24."
+          ]
+        }
+      }
+    ],
+    "findings": [
+      "Reflexión genérica sobre fracciones sin una experiencia delimitada y con puntuación por palabras.",
+      "Objetivo de funciones y título/concepto de fracciones incoherentes; referencias ficticias. El candidato declara razonamiento y objetivo propios, no finge evaluar metacognición."
+    ],
+    "sha256": "fecdb0a191e97fce964363aee86e01953e08214942c25bfccde6aa926d9c0acf"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "0539d36e-6c24-4d8f-9034-4055bcf5100e:q:0",
+      "sha256": "427ea5bbc333d00a56a05ba2dae6a45af78c1d8704abe8e4f556df1d9a6c80ca"
+    },
+    "module": {
+      "id": "round3-module-3",
+      "title": "Organizar un guion acordado",
+      "subject": "language",
+      "grade_range": "9",
+      "learning_objective": "Organizar un guion escrito para una intervención oral siguiendo un plan explícito.",
+      "is_active": false
+    },
+    "step": {
+      "id": "round3-repair-3",
+      "module_id": "round3-module-3",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "razonamiento",
+      "content": {
+        "prompt": "Caso ficticio: para una intervención, el curso acordó este plan: presentar el problema, mencionar el dato del sondeo, proponer una medida y cerrar invitando a dialogar. Ordena los fragmentos según ESE plan. No se afirma que todos los argumentos deban tener siempre este orden.",
+        "options": [],
+        "items": [
+          "Invitamos a escuchar otras propuestas.",
+          "En el sondeo simulado, 20 de 30 estudiantes reportaron ruido.",
+          "Durante la lectura hay demasiado ruido en el salón.",
+          "Proponemos acordar momentos de silencio."
+        ]
+      },
+      "enriched_content": {
+        "type": "ordering",
+        "expected_answer": {
+          "type": "ordering",
+          "correct_order": [
+            2,
+            1,
+            3,
+            0
+          ]
+        },
+        "cognitive_dimension": "razonamiento",
+        "explanation": "Seguir un plan argumentativo explícito sin imponerlo como estructura universal.",
+        "option_explanations": [],
+        "order_explanations": [
+          "El fragmento presenta el problema del ruido.",
+          "El sondeo aporta el dato solicitado tras el problema.",
+          "Se presenta la medida propuesta.",
+          "Se cierra invitando al diálogo."
+        ],
+        "learning_focus": "Seguir un plan argumentativo explícito sin imponerlo como estructura universal.",
+        "step_config": {
+          "hints": [
+            "Identifica la función de cada fragmento y compárala con el plan acordado."
+          ],
+          "feedback": "Seguir un plan argumentativo explícito sin imponerlo como estructura universal."
+        }
+      }
+    },
+    "activity": {
+      "options": [],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [],
+      "correct_pairs": [],
+      "correct_index": -1,
+      "expected_text": "",
+      "rubric": "Seguir un plan argumentativo explícito sin imponerlo como estructura universal.",
+      "option_explanations": [],
+      "pair_explanations": [],
+      "type": "ordering",
+      "question": "Caso ficticio: para una intervención, el curso acordó este plan: presentar el problema, mencionar el dato del sondeo, proponer una medida y cerrar invitando a dialogar. Ordena los fragmentos según ESE plan. No se afirma que todos los argumentos deban tener siempre este orden.",
+      "items": [
+        "Invitamos a escuchar otras propuestas.",
+        "En el sondeo simulado, 20 de 30 estudiantes reportaron ruido.",
+        "Durante la lectura hay demasiado ruido en el salón.",
+        "Proponemos acordar momentos de silencio."
+      ],
+      "correct_order": [
+        2,
+        1,
+        3,
+        0
+      ],
+      "order_explanations": [
+        "El fragmento presenta el problema del ruido.",
+        "El sondeo aporta el dato solicitado tras el problema.",
+        "Se presenta la medida propuesta.",
+        "Se cierra invitando al diálogo."
+      ],
+      "learning_focus": "Seguir un plan argumentativo explícito sin imponerlo como estructura universal.",
+      "hint": "Identifica la función de cada fragmento y compárala con el plan acordado.",
+      "explanation": "Seguir un plan argumentativo explícito sin imponerlo como estructura universal.",
+      "dimension": "razonamiento"
+    },
+    "supports": [
+      {
+        "title": "Planear antes de hablar",
+        "body": "Un guion puede ayudar a organizar una intervención. Distintas situaciones admiten estructuras distintas: sigue el plan indicado para esta tarea. Preparar un guion no demuestra por sí solo cómo se realizó la exposición oral.",
+        "insight": "Distingue plan escrito de ejecución oral.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Otra estructura",
+        "body": "Un guion puede ayudar a organizar una intervención. Distintas situaciones admiten estructuras distintas: sigue el plan indicado para esta tarea. Preparar un guion no demuestra por sí solo cómo se realizó la exposición oral.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Relato ficticio: un club acuerda abrir con una pregunta y después presentar una invitación. Sus fragmentos son «Ven al encuentro» y «¿Qué historia te gustaría leer?». ¿Cuál abre el guion?",
+        "example_steps": [
+          "Identificamos la pregunta entre los dos fragmentos.",
+          "El acuerdo pide usarla antes de la invitación."
+        ],
+        "example_result": "Abre «¿Qué historia te gustaría leer?», porque así lo establece el plan de este caso.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Estrategia del ejemplo",
+          "headers": [],
+          "rows": [],
+          "steps": [
+            "Identificamos la pregunta entre los dos fragmentos.",
+            "El acuerdo pide usarla antes de la invitación."
+          ]
+        }
+      }
+    ],
+    "findings": [
+      "No se ofrece un argumento concreto para explicar su funcionamiento.",
+      "Palabras clave no prueban producción oral ni argumentación; referencias de materiales ficticias."
+    ],
+    "sha256": "e8347fb4deaa8376ac32ab4d11e088b009a3cbd81441ea7927c809aaccd9d4cc"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "08bdaa97-0cd5-47ac-aaec-2d5d4994ad88:q:0",
+      "sha256": "26235292b931b5057c2955d7c910504d7b2c0f8957442951adb61a6eb71efa33"
+    },
+    "module": {
+      "id": "round3-module-4",
+      "title": "Predecir con una pista",
+      "subject": "language",
+      "grade_range": "8",
+      "learning_objective": "Interpretar y anticipar una acción a partir de un diálogo escrito con contexto.",
+      "is_active": false
+    },
+    "step": {
+      "id": "round3-repair-4",
+      "module_id": "round3-module-4",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "razonamiento",
+      "content": {
+        "prompt": "Diálogo inventado, presentado por escrito: Paula ve el piso recién trapeado y dice a Tomás: «Espera aquí; voy a buscar el aviso de piso mojado antes de que entre el grupo». ¿Qué dos interpretaciones están respaldadas?",
+        "options": [
+          "Paula quiere advertir al grupo sobre el piso.",
+          "El texto demuestra que ya ocurrió una caída.",
+          "Es razonable prever que Paula buscará el aviso antes de permitir la entrada.",
+          "Tomás siempre ignora cualquier advertencia."
+        ]
+      },
+      "enriched_content": {
+        "type": "multiple_select",
+        "expected_answer": {
+          "type": "multiple_select",
+          "correct_options": [
+            0,
+            2
+          ]
+        },
+        "cognitive_dimension": "razonamiento",
+        "explanation": "El aviso y la espera respaldan la prevención y la acción siguiente. No se informa de una caída ni de hábitos de Tomás.",
+        "option_explanations": [
+          "El aviso de piso mojado está destinado a advertir al grupo.",
+          "No se relata ninguna caída.",
+          "Paula expresa que buscará el aviso antes de que entre el grupo.",
+          "No hay datos sobre hábitos de Tomás."
+        ],
+        "learning_focus": "Inferir sin inventar hechos.",
+        "step_config": {
+          "hints": [
+            "Separa lo dicho o sugerido del relato de lo que nunca se cuenta."
+          ],
+          "feedback": "El aviso y la espera respaldan la prevención y la acción siguiente. No se informa de una caída ni de hábitos de Tomás."
+        }
+      }
+    },
+    "activity": {
+      "options": [
+        "Paula quiere advertir al grupo sobre el piso.",
+        "El texto demuestra que ya ocurrió una caída.",
+        "Es razonable prever que Paula buscará el aviso antes de permitir la entrada.",
+        "Tomás siempre ignora cualquier advertencia."
+      ],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [
+        0,
+        2
+      ],
+      "correct_pairs": [],
+      "correct_index": -1,
+      "expected_text": "",
+      "rubric": "Seleccionar 0 y 2: inferencias apoyadas en piso mojado e intención explícita. No convertir hechos ausentes en certezas.",
+      "option_explanations": [
+        "El aviso de piso mojado está destinado a advertir al grupo.",
+        "No se relata ninguna caída.",
+        "Paula expresa que buscará el aviso antes de que entre el grupo.",
+        "No hay datos sobre hábitos de Tomás."
+      ],
+      "pair_explanations": [],
+      "type": "multiple_select",
+      "question": "Diálogo inventado, presentado por escrito: Paula ve el piso recién trapeado y dice a Tomás: «Espera aquí; voy a buscar el aviso de piso mojado antes de que entre el grupo». ¿Qué dos interpretaciones están respaldadas?",
+      "learning_focus": "Inferir sin inventar hechos.",
+      "hint": "Separa lo dicho o sugerido del relato de lo que nunca se cuenta.",
+      "explanation": "El aviso y la espera respaldan la prevención y la acción siguiente. No se informa de una caída ni de hábitos de Tomás.",
+      "dimension": "razonamiento"
+    },
+    "supports": [
+      {
+        "title": "Predecir con límites",
+        "body": "Una predicción usa pistas, pero no convierte en hecho lo que aún no ocurre. Distingue lo explícito, lo inferido y lo desconocido.",
+        "insight": "La lectura de un diálogo no acredita una prueba de escucha.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Otra pista",
+        "body": "Una predicción usa pistas, pero no convierte en hecho lo que aún no ocurre. Distingue lo explícito, lo inferido y lo desconocido.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Relato inventado: «María guardó el cuaderno en la mochila y dijo que saldría hacia la biblioteca». ¿Qué acción puede anticiparse?",
+        "example_steps": [
+          "Relacionamos su frase con el destino anunciado.",
+          "No inventamos lo que hará al llegar."
+        ],
+        "example_result": "Es razonable anticipar que saldrá hacia la biblioteca; no sabemos qué libro buscará.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Estrategia del ejemplo",
+          "headers": [],
+          "rows": [],
+          "steps": [
+            "Relacionamos su frase con el destino anunciado.",
+            "No inventamos lo que hará al llegar."
+          ]
+        }
+      }
+    ],
+    "findings": [
+      "No hay diálogo o texto que permita inferir.",
+      "El objetivo de escucha no puede evaluarse con una pregunta genérica escrita; se delimita lectura y predicción."
+    ],
+    "sha256": "80daf25810427b194586fd2e500499486f554d01fcc96af3a35f4501d5cb90da"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "42aa1242-c697-41bb-bbc8-324fc3dd0b5b:q:0",
+      "sha256": "6092badb7b4cb02cb22f8beba5c221cf43d97ce50f189592dc14c8dc8c69eab3"
+    },
+    "module": {
+      "id": "round3-module-5",
+      "title": "Medir antes de comparar",
+      "subject": "natural_sciences",
+      "grade_range": "1-3",
+      "learning_objective": "Reconocer dependencias entre acciones de un registro y una comparación concreta.",
+      "is_active": false
+    },
+    "step": {
+      "id": "round3-repair-5",
+      "module_id": "round3-module-5",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "razonamiento",
+      "content": {
+        "prompt": "Situación imaginada: quieres comparar cuánto pesan dos paquetes usando la misma balanza. Para esta tarea, anota los valores después de medir ambos paquetes y compara los valores anotados al final. No se hará la prueba ahora. Ordena las acciones.",
+        "options": [],
+        "items": [
+          "Anotar los dos valores medidos.",
+          "Comparar los dos valores anotados.",
+          "Medir ambos paquetes con la misma balanza."
+        ]
+      },
+      "enriched_content": {
+        "type": "ordering",
+        "expected_answer": {
+          "type": "ordering",
+          "correct_order": [
+            2,
+            0,
+            1
+          ]
+        },
+        "cognitive_dimension": "razonamiento",
+        "explanation": "Identificar qué información necesita cada acción de un procedimiento concreto.",
+        "option_explanations": [],
+        "order_explanations": [
+          "Se necesitan mediciones antes de registrar sus valores.",
+          "Se anotan los valores ya medidos.",
+          "La tarea pide comparar los registros al final."
+        ],
+        "learning_focus": "Identificar qué información necesita cada acción de un procedimiento concreto.",
+        "step_config": {
+          "hints": [
+            "¿Qué necesitas conocer antes de poder anotarlo?"
+          ],
+          "feedback": "Identificar qué información necesita cada acción de un procedimiento concreto."
+        }
+      }
+    },
+    "activity": {
+      "options": [],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [],
+      "correct_pairs": [],
+      "correct_index": -1,
+      "expected_text": "",
+      "rubric": "Identificar qué información necesita cada acción de un procedimiento concreto.",
+      "option_explanations": [],
+      "pair_explanations": [],
+      "type": "ordering",
+      "question": "Situación imaginada: quieres comparar cuánto pesan dos paquetes usando la misma balanza. Para esta tarea, anota los valores después de medir ambos paquetes y compara los valores anotados al final. No se hará la prueba ahora. Ordena las acciones.",
+      "items": [
+        "Anotar los dos valores medidos.",
+        "Comparar los dos valores anotados.",
+        "Medir ambos paquetes con la misma balanza."
+      ],
+      "correct_order": [
+        2,
+        0,
+        1
+      ],
+      "order_explanations": [
+        "Se necesitan mediciones antes de registrar sus valores.",
+        "Se anotan los valores ya medidos.",
+        "La tarea pide comparar los registros al final."
+      ],
+      "learning_focus": "Identificar qué información necesita cada acción de un procedimiento concreto.",
+      "hint": "¿Qué necesitas conocer antes de poder anotarlo?",
+      "explanation": "Identificar qué información necesita cada acción de un procedimiento concreto.",
+      "dimension": "razonamiento"
+    },
+    "supports": [
+      {
+        "title": "Acciones que dependen de otras",
+        "body": "Algunas acciones necesitan información producida antes. En esta tarea no puedes registrar una medición que aún no hiciste. Otros proyectos pueden organizarse de otra forma.",
+        "insight": "No confundas el plan con resultados observados.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Otra observación",
+        "body": "Algunas acciones necesitan información producida antes. En esta tarea no puedes registrar una medición que aún no hiciste. Otros proyectos pueden organizarse de otra forma.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Situación imaginada: para comparar dos hojas, una tarea pide observar su color, escribir lo observado y después comparar las notas. ¿Qué debe pasar antes de escribir?",
+        "example_steps": [
+          "La nota debe basarse en una observación.",
+          "Por eso hay que observar antes de escribir lo visto."
+        ],
+        "example_result": "Primero se observa. No se dice de antemano qué color tendrán las hojas.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Estrategia del ejemplo",
+          "headers": [],
+          "rows": [],
+          "steps": [
+            "La nota debe basarse en una observación.",
+            "Por eso hay que observar antes de escribir lo visto."
+          ]
+        }
+      }
+    ],
+    "findings": [
+      "Se pide detectar un error sin presentar el razonamiento.",
+      "La referencia es una instrucción docente convertida a coincidencia exacta; opciones genéricas y ayudas no transportadas."
+    ],
+    "sha256": "d717fc978ecfa7a6f3e9568c70c56275af0d84820e5e88d542a7bb25bd84cb1f"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "0032240d-c462-4b01-bc97-0fa67fb3c0fa:q:0",
+      "sha256": "3c25f59cbc793ea88f9a1c7705151eae50a9e1dca6efdcb60f30b08f9def11c8"
+    },
+    "module": {
+      "id": "round3-module-6",
+      "title": "Convivir sin excluir",
+      "subject": "social_studies",
+      "grade_range": "1-3",
+      "learning_objective": "Reconocer una respuesta respetuosa que distingue cuidado compartido y acceso a aprender.",
+      "is_active": false
+    },
+    "step": {
+      "id": "round3-repair-6",
+      "module_id": "round3-module-6",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "comprension",
+      "content": {
+        "prompt": "Caso inventado: Alex olvidó guardar unos materiales del curso. ¿Qué respuesta permite recordar el cuidado compartido sin excluirlo de aprender?",
+        "options": [
+          "Decir que nunca más puede participar en clase.",
+          "Invitarlo a guardar los materiales y recordar juntos cómo cuidarlos.",
+          "Burlarse de Alex frente a todos."
+        ]
+      },
+      "enriched_content": {
+        "type": "option",
+        "expected_answer": {
+          "type": "option",
+          "correct_options": [
+            1
+          ]
+        },
+        "cognitive_dimension": "comprension",
+        "explanation": "Propone reparar el descuido y recordar el acuerdo sin excluir ni humillar.",
+        "option_explanations": [
+          "Excluirlo de aprender no resuelve de forma respetuosa el cuidado de los materiales.",
+          "Propone reparar el descuido y recordar el acuerdo sin excluir ni humillar.",
+          "La burla humilla y no enseña cómo cuidar los materiales."
+        ],
+        "learning_focus": "Distinguir una responsabilidad concreta de una exclusión injusta.",
+        "step_config": {
+          "hints": [
+            "Busca una acción que cuide los materiales y respete a la persona."
+          ],
+          "feedback": "Propone reparar el descuido y recordar el acuerdo sin excluir ni humillar."
+        }
+      }
+    },
+    "activity": {
+      "options": [
+        "Decir que nunca más puede participar en clase.",
+        "Invitarlo a guardar los materiales y recordar juntos cómo cuidarlos.",
+        "Burlarse de Alex frente a todos."
+      ],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [],
+      "correct_pairs": [],
+      "correct_index": 1,
+      "expected_text": "",
+      "rubric": "Distinguir una responsabilidad concreta de una exclusión injusta.",
+      "option_explanations": [
+        "Excluirlo de aprender no resuelve de forma respetuosa el cuidado de los materiales.",
+        "Propone reparar el descuido y recordar el acuerdo sin excluir ni humillar.",
+        "La burla humilla y no enseña cómo cuidar los materiales."
+      ],
+      "pair_explanations": [],
+      "type": "option",
+      "question": "Caso inventado: Alex olvidó guardar unos materiales del curso. ¿Qué respuesta permite recordar el cuidado compartido sin excluirlo de aprender?",
+      "learning_focus": "Distinguir una responsabilidad concreta de una exclusión injusta.",
+      "hint": "Busca una acción que cuide los materiales y respete a la persona.",
+      "explanation": "Propone reparar el descuido y recordar el acuerdo sin excluir ni humillar.",
+      "dimension": "comprension"
+    },
+    "supports": [
+      {
+        "title": "Derechos y cuidado compartido",
+        "body": "Podemos recordar acuerdos y reparar descuidos respetando a cada persona. Los derechos no se presentan como premios que se ganan por cumplir tareas.",
+        "insight": "Corregir un descuido no requiere humillar ni excluir.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Otro descuido",
+        "body": "Podemos recordar acuerdos y reparar descuidos respetando a cada persona. Los derechos no se presentan como premios que se ganan por cumplir tareas.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Caso inventado: alguien deja papeles sobre una mesa compartida. ¿Cómo invitarías a cuidarla sin burlarte?",
+        "example_steps": [
+          "Señalamos la acción concreta: recoger los papeles.",
+          "Lo pedimos con respeto y podemos recordar el acuerdo."
+        ],
+        "example_result": "Se puede pedir recoger y cuidar el espacio sin descalificar a la persona.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Estrategia del ejemplo",
+          "headers": [],
+          "rows": [],
+          "steps": [
+            "Señalamos la acción concreta: recoger los papeles.",
+            "Lo pedimos con respeto y podemos recordar el acuerdo."
+          ]
+        }
+      }
+    ],
+    "findings": [
+      "Tres palabras generales bastan para obtener correcto sin reflexión.",
+      "La relación entre derechos y deberes no puede convertirse en condición para tener derechos; se reemplaza la regla simplista por un caso concreto."
+    ],
+    "sha256": "ea6785a5398370efbaf6ae36708c22a2ed4054463a8536e10bde6b64a49e3040"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "00fce751-7ff6-4d99-adac-09015314f551:q:0",
+      "sha256": "9a9189c7dc731bb9f81d5a8cb3cf43cf84fc27fc5e4afa2d087d4e0ea8a27edd"
+    },
+    "module": {
+      "id": "round3-module-7",
+      "title": "Organizar resultados para comunicar",
+      "subject": "social_studies",
+      "grade_range": "6-7",
+      "learning_objective": "Ordenar hitos de un proyecto ficticio según fechas suministradas y su dependencia informativa.",
+      "is_active": false
+    },
+    "step": {
+      "id": "round3-repair-7",
+      "module_id": "round3-module-7",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "razonamiento",
+      "content": {
+        "prompt": "Proyecto ficticio de un curso en Colombia: el 2 de mayo registró observaciones; el 4 de mayo agrupó esos registros; el 6 de mayo elaboró una cartelera con los resultados; el 8 de mayo presentó la cartelera. Ordena esos hitos del más temprano al más tardío. Son fechas del caso inventado, no hechos históricos.",
+        "options": [],
+        "items": [
+          "Presentar la cartelera.",
+          "Agrupar los registros.",
+          "Registrar observaciones.",
+          "Elaborar la cartelera."
+        ]
+      },
+      "enriched_content": {
+        "type": "ordering",
+        "expected_answer": {
+          "type": "ordering",
+          "correct_order": [
+            2,
+            1,
+            3,
+            0
+          ]
+        },
+        "cognitive_dimension": "razonamiento",
+        "explanation": "Distinguir y organizar los hitos de comunicación de un proyecto dado.",
+        "option_explanations": [],
+        "order_explanations": [
+          "2 de mayo: se registran observaciones.",
+          "4 de mayo: se agrupan los registros.",
+          "6 de mayo: se elabora la cartelera.",
+          "8 de mayo: se presenta la cartelera."
+        ],
+        "learning_focus": "Distinguir y organizar los hitos de comunicación de un proyecto dado.",
+        "step_config": {
+          "hints": [
+            "Relaciona cada hito con su fecha, no con la posición en la lista."
+          ],
+          "feedback": "Distinguir y organizar los hitos de comunicación de un proyecto dado."
+        }
+      }
+    },
+    "activity": {
+      "options": [],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [],
+      "correct_pairs": [],
+      "correct_index": -1,
+      "expected_text": "",
+      "rubric": "Distinguir y organizar los hitos de comunicación de un proyecto dado.",
+      "option_explanations": [],
+      "pair_explanations": [],
+      "type": "ordering",
+      "question": "Proyecto ficticio de un curso en Colombia: el 2 de mayo registró observaciones; el 4 de mayo agrupó esos registros; el 6 de mayo elaboró una cartelera con los resultados; el 8 de mayo presentó la cartelera. Ordena esos hitos del más temprano al más tardío. Son fechas del caso inventado, no hechos históricos.",
+      "items": [
+        "Presentar la cartelera.",
+        "Agrupar los registros.",
+        "Registrar observaciones.",
+        "Elaborar la cartelera."
+      ],
+      "correct_order": [
+        2,
+        1,
+        3,
+        0
+      ],
+      "order_explanations": [
+        "2 de mayo: se registran observaciones.",
+        "4 de mayo: se agrupan los registros.",
+        "6 de mayo: se elabora la cartelera.",
+        "8 de mayo: se presenta la cartelera."
+      ],
+      "learning_focus": "Distinguir y organizar los hitos de comunicación de un proyecto dado.",
+      "hint": "Relaciona cada hito con su fecha, no con la posición en la lista.",
+      "explanation": "Distinguir y organizar los hitos de comunicación de un proyecto dado.",
+      "dimension": "razonamiento"
+    },
+    "supports": [
+      {
+        "title": "Comunicar con registros",
+        "body": "Un informe o cartelera debe distinguir lo observado de cómo se organizó para comunicarlo. Una cronología de un caso no es una receta obligatoria para toda investigación.",
+        "insight": "No inventes resultados que no aparecen en los registros.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Otra agenda",
+        "body": "Un informe o cartelera debe distinguir lo observado de cómo se organizó para comunicarlo. Una cronología de un caso no es una receta obligatoria para toda investigación.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Caso ficticio: un grupo revisó un afiche el día 12 y lo expuso el día 14 del mismo mes. ¿Qué ocurrió antes?",
+        "example_steps": [
+          "Ambas fechas pertenecen al mismo mes.",
+          "12 es anterior a 14."
+        ],
+        "example_result": "La revisión ocurrió antes de la exposición, según las fechas dadas.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Estrategia del ejemplo",
+          "headers": [],
+          "rows": [],
+          "steps": [
+            "Ambas fechas pertenecen al mismo mes.",
+            "12 es anterior a 14."
+          ]
+        }
+      }
+    ],
+    "findings": [
+      "Pregunta genérica sin resultados de investigación para comunicar.",
+      "Evaluación por vocabulario y referencias ficticias; el candidato proporciona todos los datos y no afirma evaluar una investigación real."
+    ],
+    "sha256": "f461fdad796945b70c90765b8db083269765a69477c2e2ff4b41131dd93c40c9"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "06e31b52-7c82-4ee1-865a-35cf8f0134bf:q:0",
+      "sha256": "7c63fedc49ccf42428ef8347239ba1a72ee1e1e52cb4355a4581c566e09c935f"
+    },
+    "module": {
+      "id": "round3-module-8",
+      "title": "Leer una palabra de la escuela",
+      "subject": "english",
+      "grade_range": "1-3",
+      "learning_objective": "Relacionar una palabra escrita en inglés con su significado en un contexto escolar.",
+      "is_active": false
+    },
+    "step": {
+      "id": "round3-repair-8",
+      "module_id": "round3-module-8",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "comprension",
+      "content": {
+        "prompt": "Situación imaginada: un letrero de la escuela dice «Library». Allí se prestan libros. ¿Qué lugar nombra la palabra en inglés?",
+        "options": [
+          "Biblioteca.",
+          "Cocina.",
+          "Baño."
+        ]
+      },
+      "enriched_content": {
+        "type": "option",
+        "expected_answer": {
+          "type": "option",
+          "correct_options": [
+            0
+          ]
+        },
+        "cognitive_dimension": "comprension",
+        "explanation": "Library significa biblioteca; el préstamo de libros concuerda con el contexto.",
+        "option_explanations": [
+          "Library significa biblioteca; el préstamo de libros concuerda con el contexto.",
+          "Kitchen corresponde a cocina, no library.",
+          "Bathroom puede nombrar el baño, no library."
+        ],
+        "learning_focus": "Reconocer vocabulario escrito en contexto.",
+        "step_config": {
+          "hints": [
+            "Relaciona la palabra del letrero con la actividad descrita."
+          ],
+          "feedback": "Library significa biblioteca; el préstamo de libros concuerda con el contexto."
+        }
+      }
+    },
+    "activity": {
+      "options": [
+        "Biblioteca.",
+        "Cocina.",
+        "Baño."
+      ],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [],
+      "correct_pairs": [],
+      "correct_index": 0,
+      "expected_text": "",
+      "rubric": "Reconocer vocabulario escrito en contexto.",
+      "option_explanations": [
+        "Library significa biblioteca; el préstamo de libros concuerda con el contexto.",
+        "Kitchen corresponde a cocina, no library.",
+        "Bathroom puede nombrar el baño, no library."
+      ],
+      "pair_explanations": [],
+      "type": "option",
+      "question": "Situación imaginada: un letrero de la escuela dice «Library». Allí se prestan libros. ¿Qué lugar nombra la palabra en inglés?",
+      "learning_focus": "Reconocer vocabulario escrito en contexto.",
+      "hint": "Relaciona la palabra del letrero con la actividad descrita.",
+      "explanation": "Library significa biblioteca; el préstamo de libros concuerda con el contexto.",
+      "dimension": "comprension"
+    },
+    "supports": [
+      {
+        "title": "Leer con contexto",
+        "body": "Un letrero y lo que ocurre en ese lugar pueden ayudarte a comprender una palabra. Distingue aprender vocabulario escrito de demostrar pronunciación o escucha.",
+        "insight": "Usa las pistas del lugar para comprobar el significado.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Otro letrero",
+        "body": "Un letrero y lo que ocurre en ese lugar pueden ayudarte a comprender una palabra. Distingue aprender vocabulario escrito de demostrar pronunciación o escucha.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Situación imaginada: un aviso dice «Exit» junto a una puerta de salida. ¿Qué indica?",
+        "example_steps": [
+          "La palabra aparece junto a una salida.",
+          "Exit indica salida en este contexto."
+        ],
+        "example_result": "El aviso señala una salida.",
+        "visual": {
+          "kind": "table",
+          "caption": "Palabra del otro caso",
+          "headers": [
+            "Inglés",
+            "Español"
+          ],
+          "rows": [
+            [
+              "Exit",
+              "Salida"
+            ]
+          ],
+          "steps": []
+        }
+      }
+    ],
+    "findings": [
+      "Pregunta abstracta en español sin palabras inglesas que reconocer.",
+      "La evaluación por palabras españolas no verifica vocabulario de la escuela."
+    ],
+    "sha256": "ed9c6c925fb13e648ef60cbc3cbe5a35495d56275232d18d977b7c2978a01a75"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "415b6c1c-59ed-446b-a86d-3124a70e39c3:q:0",
+      "sha256": "9d2b405b85d97ceb7cfaa6166469402ea319a31569423572d72fea0737ea83e1"
+    },
+    "module": {
+      "id": "round3-module-9",
+      "title": "Seguir instrucciones escritas",
+      "subject": "english",
+      "grade_range": "10-11",
+      "learning_objective": "Reconstruir instrucciones escritas en inglés con dependencias explícitas.",
+      "is_active": false
+    },
+    "step": {
+      "id": "round3-repair-9",
+      "module_id": "round3-module-9",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "comprension",
+      "content": {
+        "prompt": "Instrucciones ficticias de una biblioteca escolar:\n\n> Create an account before you reserve a book. Reserve a book before you collect it. Return the book after you have collected it.\n\nOrdena las acciones de acuerdo con estas instrucciones escritas. No es una prueba de escucha.",
+        "options": [],
+        "items": [
+          "Return the book.",
+          "Reserve a book.",
+          "Create an account.",
+          "Collect the book."
+        ]
+      },
+      "enriched_content": {
+        "type": "ordering",
+        "expected_answer": {
+          "type": "ordering",
+          "correct_order": [
+            2,
+            1,
+            3,
+            0
+          ]
+        },
+        "cognitive_dimension": "comprension",
+        "explanation": "Comprender before/after y reconstruir una secuencia única.",
+        "option_explanations": [],
+        "order_explanations": [
+          "Create an account precede a reserve según la primera instrucción.",
+          "Reserve precede a collect según la segunda.",
+          "Collect ocurre después de reserve y antes de return.",
+          "Return ocurre después de collect según la última instrucción."
+        ],
+        "learning_focus": "Comprender before/after y reconstruir una secuencia única.",
+        "step_config": {
+          "hints": [
+            "Identifica qué acción debe ocurrir antes de otra según before y after."
+          ],
+          "feedback": "Comprender before/after y reconstruir una secuencia única."
+        }
+      }
+    },
+    "activity": {
+      "options": [],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [],
+      "correct_pairs": [],
+      "correct_index": -1,
+      "expected_text": "",
+      "rubric": "Comprender before/after y reconstruir una secuencia única.",
+      "option_explanations": [],
+      "pair_explanations": [],
+      "type": "ordering",
+      "question": "Instrucciones ficticias de una biblioteca escolar:\n\n> Create an account before you reserve a book. Reserve a book before you collect it. Return the book after you have collected it.\n\nOrdena las acciones de acuerdo con estas instrucciones escritas. No es una prueba de escucha.",
+      "items": [
+        "Return the book.",
+        "Reserve a book.",
+        "Create an account.",
+        "Collect the book."
+      ],
+      "correct_order": [
+        2,
+        1,
+        3,
+        0
+      ],
+      "order_explanations": [
+        "Create an account precede a reserve según la primera instrucción.",
+        "Reserve precede a collect según la segunda.",
+        "Collect ocurre después de reserve y antes de return.",
+        "Return ocurre después de collect según la última instrucción."
+      ],
+      "learning_focus": "Comprender before/after y reconstruir una secuencia única.",
+      "hint": "Identifica qué acción debe ocurrir antes de otra según before y after.",
+      "explanation": "Comprender before/after y reconstruir una secuencia única.",
+      "dimension": "comprension"
+    },
+    "supports": [
+      {
+        "title": "Before y after",
+        "body": "Before expresa antes de y after después de. Para ordenar instrucciones, identifica las relaciones explícitas entre acciones. No supongas una regla que el texto no da.",
+        "insight": "Una cadena de dependencias puede establecer un orden único.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Otro par de instrucciones",
+        "body": "Before expresa antes de y after después de. Para ordenar instrucciones, identifica las relaciones explícitas entre acciones. No supongas una regla que el texto no da.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Texto ficticio: «Wash your hands before you prepare the snack». ¿Qué acción ocurre antes según el texto?",
+        "example_steps": [
+          "Before relaciona lavar las manos con preparar el refrigerio.",
+          "La acción anterior es wash your hands."
+        ],
+        "example_result": "Según la instrucción, lavarse las manos ocurre antes de preparar el refrigerio.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Otro caso en inglés",
+          "headers": [],
+          "rows": [],
+          "steps": [
+            "Wash your hands.",
+            "Prepare the snack."
+          ]
+        }
+      }
+    ],
+    "findings": [
+      "Reflexión genérica sin instrucciones que comprender.",
+      "Palabras clave no verifican acciones cotidianas; el candidato declara comprensión de instrucciones escritas, no metacognición ni escucha."
+    ],
+    "sha256": "a8b0908f11bcda7f0e8217ffa7595e841947cfe91b88fc6fe87f3b56a20b5c3c"
+  }
+]

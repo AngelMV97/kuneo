@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-04T12:59:08.374Z",
+  "scope": "Synthetic support pilot, no student data or Supabase writes; requires pedagogical and browser review.",
+  "results": [
+    {
+      "case_id": "language-3",
+      "subject": "language",
+      "grade": 3,
+      "question": "Lee: «Lina tomó su paraguas porque vio nubes oscuras». ¿Por qué tomó el paraguas?",
+      "level": 2,
+      "card": {
+        "title": "Identificar causas de acciones en una historia",
+        "body": "Cuando leemos una historia, podemos entender por qué los personajes hacen ciertas cosas. Para reconocer la causa de una acción, primero hay que fijarse en lo que ocurre y luego pensar qué motivo o razón tiene el personaje para actuar así.",
+        "insight": "Una causa responde a la pregunta '¿por qué?' el personaje hizo algo. Podemos encontrar pistas en las palabras o en lo que pasa antes de la acción.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Pasos para reconocer causas de una acción en un cuento",
+          "steps": [
+            "Leer la parte de la historia con la acción.",
+            "Buscar por qué hizo eso el personaje.",
+            "Enfocarse en las palabras que explican motivos.",
+            "Relacionar la causa con la acción para entenderla mejor."
+          ]
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T12:59:11.043Z",
+        "request_id": "ea8f2960-d094-4d2e-b769-7f5a260e8b3b",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 2668,
+        "stages": {
+          "openai_support": 2665
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 734,
+            "output_tokens": 226,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "language-3",
+      "subject": "language",
+      "grade": 3,
+      "question": "Lee: «Lina tomó su paraguas porque vio nubes oscuras». ¿Por qué tomó el paraguas?",
+      "level": 3,
+      "card": {
+        "title": "Identificar la causa de una acción en un cuento corto",
+        "body": "Cuando leemos una historia, es importante entender por qué los personajes hacen lo que hacen. Para reconocer la causa de una acción, debemos fijarnos en lo que pasó justo antes de esa acción o en lo que sienten los personajes.",
+        "insight": "La causa es el motivo o la razón por la que sucede algo en la historia. La acción es lo que hizo el personaje. Para encontrar la causa, piensa: ¿Por qué hizo eso?",
+        "example_problem": "María tenía frío mientras jugaba en el parque. Entonces, decidió ponerse su chaqueta. ¿Por qué María se puso la chaqueta?",
+        "example_steps": [
+          "Observa lo que estaba pasando antes de que María se pusiera la chaqueta: tenía frío mientras jugaba.",
+          "Entiende que sentir frío puede hacer que una persona busque algo para abrigarse.",
+          "Ahora relaciona que María decidió ponerse su chaqueta para dejar de tener frío.",
+          "Por lo tanto, la causa de que María se pusiera la chaqueta es que tenía frío."
+        ],
+        "example_result": "María se puso la chaqueta porque tenía frío. Ese sentimiento fue la causa de su acción de abrigarse.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Pasos para encontrar la causa de la acción",
+          "steps": [
+            "María tenía frío mientras jugaba.",
+            "María decidió ponerse su chaqueta.",
+            "¿Por qué se puso la chaqueta?",
+            "Porque tenía frío.",
+            "El frío es la causa de que se abrigara."
+          ]
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T12:59:14.932Z",
+        "request_id": "ceb3547a-eea6-4ceb-a0e4-bc4b6761c21e",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 3887,
+        "stages": {
+          "openai_support": 3886
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 840,
+            "output_tokens": 317,
+            "cached_input_tokens": 0
+          },
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 505,
+            "output_tokens": 9,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    }
+  ],
+  "summary": {
+    "passed_contract": 2,
+    "total": 2,
+    "latency": {
+      "samples": 2,
+      "p50_ms": 2668,
+      "p95_ms": 3887,
+      "min_ms": 2668,
+      "max_ms": 3887
+    }
+  }
+}

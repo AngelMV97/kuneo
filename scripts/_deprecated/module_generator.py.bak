@@ -1,0 +1,462 @@
+"""
+module_generator.py
+
+Generador de módulos basado en curriculum_taxonomy.
+Crea módulos educativos siguiendo la arquitectura de Kuneo:
+
+ARQUITECTURA:
+    curriculum_taxonomy (estructura) + competency_units (contenido) → modules
+
+PRINCIPIOS:
+    - NO 1:1 mapping de DBA → módulo
+    - Módulos = unidades cognitivas autónomas
+    - 5 fases: Comprensión, Representación, Razonamiento, Transferencia, Metacognición
+    - Progresión tipo Duolingo: sesiones → problemas → ejercicios
+
+Autor: Sistema Kuneo
+Fecha: 2026-05-12
+"""
+
+import os
+import json
+from pathlib import Path
+from typing import Dict, List, Any, Optional
+from dotenv import load_dotenv
+from supabase import create_client, Client
+
+
+class ModuleGenerator:
+    """Generador de módulos educativos basado en taxonomía curricular."""
+    
+    # Mapeo de fases cognitivas
+    COGNITIVE_PHASES = [
+        {
+            "id": "comprension",
+            "name": "Comprensión",
+            "dimension": "comprension",
+            "goal": "Entender conceptos fundamentales",
+            "activities": ["conceptual_cards", "examples", "guided_reading"]
+        },
+        {
+            "id": "representacion",
+            "name": "Representación",
+            "dimension": "representacion",
+            "goal": "Modelar y representar ideas",
+            "activities": ["visual_models", "diagrams", "symbolic_notation"]
+        },
+        {
+            "id": "razonamiento",
+            "name": "Razonamiento",
+            "dimension": "razonamiento",
+            "goal": "Aplicar lógica y estrategias",
+            "activities": ["problem_solving", "logical_reasoning", "pattern_recognition"]
+        },
+        {
+            "id": "transferencia",
+            "name": "Transferencia",
+            "dimension": "transferencia",
+            "goal": "Aplicar en nuevos contextos",
+            "activities": ["real_world_problems", "novel_situations", "cross_domain"]
+        },
+        {
+            "id": "metacognicion",
+            "name": "Metacognición",
+            "dimension": "metacognicion",
+            "goal": "Reflexionar sobre el aprendizaje",
+            "activities": ["self_assessment", "strategy_reflection", "error_analysis"]
+        }
+    ]
+    
+    # Mapeo de materias
+    SUBJECT_MAPPING = {
+        "matematicas": "matematicas",
+        "ciencias_naturales": "ciencias",
+        "ciencias_sociales": "sociales",
+        "lenguaje": "lenguaje",
+        "ingles": "ingles"
+    }
+    
+    def __init__(self):
+        """Inicializa el generador con conexión a Supabase."""
+        # Cargar variables de entorno
+        env_path = Path("server/.env")
+        if not env_path.exists():
+            raise FileNotFoundError(f"No se encontró el archivo .env en {env_path}")
+        
+        load_dotenv(env_path)
+        
+        # Obtener credenciales
+        self.supabase_url = os.getenv("SUPABASE_URL")
+        self.supabase_key = os.getenv("SUPABASE_SERVICE_ROLE_KEY")
+        
+        if not self.supabase_url or not self.supabase_key:
+            raise ValueError("Faltan credenciales de Supabase en .env")
+        
+        # Crear cliente
+        self.supabase: Client = create_client(self.supabase_url, self.supabase_key)
+        
+        print("✅ Module Generator inicializado")
+        print(f"   URL: {self.supabase_url}")
+    
+    def get_taxonomy_entries(
+        self,
+        subject: Optional[str] = None,
+        grade_range: Optional[str] = None,
+        discipline: Optional[str] = None
+    ) -> List[Dict[str, Any]]:
+        """
+        Obtiene entradas de taxonomía filtradas.
+        
+        Args:
+            subject: Materia (matematicas, ciencias_naturales, etc.)
+            grade_range: Rango de grados (1-3, 4-5, etc.)
+            discipline: Disciplina específica
+            
+        Returns:
+            Lista de entradas de taxonomía
+        """
+        query = self.supabase.schema("kuneo").table("curriculum_taxonomy").select("*")
+        
+        if subject:
+            query = query.eq("subject", subject)
+        if grade_range:
+            query = query.eq("grade_range", grade_range)
+        if discipline:
+            query = query.eq("discipline", discipline)
+        
+        response = query.execute()
+        return response.data
+    
+    def search_related_competencies(
+        self,
+        subthematic: str,
+        microtopics: List[str],
+        limit: int = 5
+    ) -> List[Dict[str, Any]]:
+        """
+        Busca competencias relacionadas con una subtemática.
+        
+        Args:
+            subthematic: Nombre de la subtemática
+            microtopics: Lista de microtopics
+            limit: Máximo de competencias a retornar
+            
+        Returns:
+            Lista de competencias relacionadas
+        """
+        # Combinar subtemática y microtopics en un query
+        search_terms = [subthematic] + microtopics[:3]
+        query_text = " ".join(search_terms)
+        
+        # Buscar en la tabla competency_units
+        # Nota: Aquí podrías usar búsqueda semántica, pero por ahora usamos texto simple
+        response = self.supabase.schema("kuneo").table("competency_units").select("*").limit(limit).execute()
+        
+        return response.data[:limit]
+    
+    def calculate_difficulty(
+        self,
+        grade_range: str,
+        complexity_indicators: Dict[str, Any]
+    ) -> int:
+        """
+        Calcula el nivel de dificultad del módulo (1-5).
+        
+        Args:
+            grade_range: Rango de grados
+            complexity_indicators: Indicadores de complejidad
+            
+        Returns:
+            Nivel de dificultad (1-5)
+        """
+        # Mapeo base por grado
+        grade_difficulty = {
+            "1-3": 1,
+            "4-5": 2,
+            "6-7": 3,
+            "8-9": 4,
+            "10-11": 5
+        }
+        
+        base_difficulty = grade_difficulty.get(grade_range, 3)
+        
+        # Ajustar por número de microtopics (más microtopics = más complejo)
+        num_microtopics = complexity_indicators.get("num_microtopics", 0)
+        if num_microtopics > 6:
+            base_difficulty = min(5, base_difficulty + 1)
+        
+        return base_difficulty
+    
+    def generate_module_structure(
+        self,
+        taxonomy_entry: Dict[str, Any],
+        related_competencies: List[Dict[str, Any]]
+    ) -> Dict[str, Any]:
+        """
+        Genera la estructura JSONB del módulo.
+        
+        Args:
+            taxonomy_entry: Entrada de taxonomía
+            related_competencies: Competencias relacionadas
+            
+        Returns:
+            Estructura del módulo
+        """
+        # Extraer competency codes
+        linked_standards = []
+        for comp in related_competencies:
+            if comp.get("competency_code"):
+                linked_standards.append(comp["competency_code"])
+        
+        # Generar content_tags basados en microtopics
+        content_tags = [
+            taxonomy_entry["discipline"],
+            taxonomy_entry["thematic"],
+            taxonomy_entry["subthematic"]
+        ] + taxonomy_entry["microtopics"][:3]  # Primeros 3 microtopics
+        
+        # Expected outcomes basados en microtopics
+        expected_outcomes = [
+            f"Comprender {taxonomy_entry['microtopics'][0]}" if len(taxonomy_entry['microtopics']) > 0 else "Comprender conceptos fundamentales",
+            f"Aplicar {taxonomy_entry['microtopics'][1]}" if len(taxonomy_entry['microtopics']) > 1 else "Aplicar conocimientos",
+            f"Analizar {taxonomy_entry['microtopics'][2]}" if len(taxonomy_entry['microtopics']) > 2 else "Analizar situaciones"
+        ]
+        
+        structure = {
+            "phases": [
+                {
+                    "id": phase["id"],
+                    "name": phase["name"],
+                    "dimension": phase["dimension"],
+                    "goal": phase["goal"],
+                    "activities": phase["activities"]
+                }
+                for phase in self.COGNITIVE_PHASES
+            ],
+            "content_tags": content_tags,
+            "linked_standards": linked_standards,
+            "expected_outcomes": expected_outcomes,
+            "taxonomy_reference": {
+                "discipline": taxonomy_entry["discipline"],
+                "thematic": taxonomy_entry["thematic"],
+                "subthematic": taxonomy_entry["subthematic"],
+                "microtopics": taxonomy_entry["microtopics"]
+            }
+        }
+        
+        return structure
+    
+    def generate_module_title(self, taxonomy_entry: Dict[str, Any]) -> str:
+        """Genera un título descriptivo para el módulo."""
+        # Convertir snake_case a Title Case
+        subthematic = taxonomy_entry["subthematic"].replace("_", " ").title()
+        return subthematic
+    
+    def generate_module_description(
+        self,
+        taxonomy_entry: Dict[str, Any],
+        related_competencies: List[Dict[str, Any]]
+    ) -> str:
+        """Genera una descripción del módulo."""
+        subthematic = taxonomy_entry["subthematic"].replace("_", " ")
+        microtopics = taxonomy_entry["microtopics"][:2]
+        
+        description = f"Explora {subthematic}"
+        
+        if microtopics:
+            topics_text = " y ".join([m.replace("_", " ") for m in microtopics])
+            description += f", incluyendo {topics_text}"
+        
+        description += "."
+        
+        return description
+    
+    def get_grade_level_from_range(self, grade_range: str) -> int:
+        """Extrae el grado medio de un rango."""
+        # "4-5" → 5, "8-9" → 9, etc.
+        parts = grade_range.split("-")
+        return int(parts[-1])
+    
+    def create_module(
+        self,
+        taxonomy_entry: Dict[str, Any],
+        order_index: int = 0
+    ) -> Optional[Dict[str, Any]]:
+        """
+        Crea un módulo completo basado en una entrada de taxonomía.
+        
+        Args:
+            taxonomy_entry: Entrada de curriculum_taxonomy
+            order_index: Índice de orden del módulo
+            
+        Returns:
+            Módulo creado o None si falla
+        """
+        # Buscar competencias relacionadas
+        related_competencies = self.search_related_competencies(
+            taxonomy_entry["subthematic"],
+            taxonomy_entry["microtopics"]
+        )
+        
+        # Generar estructura
+        structure = self.generate_module_structure(taxonomy_entry, related_competencies)
+        
+        # Calcular dificultad
+        difficulty = self.calculate_difficulty(
+            taxonomy_entry["grade_range"],
+            {"num_microtopics": len(taxonomy_entry["microtopics"])}
+        )
+        
+        # Mapear subject
+        subject_key = self.SUBJECT_MAPPING.get(taxonomy_entry["subject"])
+        if not subject_key:
+            print(f"⚠️  Subject no reconocido: {taxonomy_entry['subject']}")
+            return None
+        
+        # Crear módulo
+        module = {
+            "subject": subject_key,
+            "title": self.generate_module_title(taxonomy_entry),
+            "description": self.generate_module_description(taxonomy_entry, related_competencies),
+            "difficulty": difficulty,
+            "grade_level": self.get_grade_level_from_range(taxonomy_entry["grade_range"]),
+            "structure": json.dumps(structure),  # JSONB
+            "order_index": order_index,
+            "is_active": True
+        }
+        
+        try:
+            response = self.supabase.schema("kuneo").table("modules").insert(module).execute()
+            return response.data[0] if response.data else None
+        except Exception as e:
+            print(f"❌ Error creando módulo: {e}")
+            return None
+    
+    def generate_modules_for_subject(
+        self,
+        subject: str,
+        grade_range: Optional[str] = None,
+        limit: Optional[int] = None
+    ) -> List[Dict[str, Any]]:
+        """
+        Genera módulos para una materia específica.
+        
+        Args:
+            subject: Materia (matematicas, ciencias_naturales, etc.)
+            grade_range: Opcional, filtrar por rango de grados
+            limit: Límite de módulos a generar
+            
+        Returns:
+            Lista de módulos creados
+        """
+        print("\n" + "=" * 60)
+        print(f"📚 GENERANDO MÓDULOS: {subject}")
+        if grade_range:
+            print(f"   Grados: {grade_range}")
+        print("=" * 60)
+        
+        # Obtener entradas de taxonomía
+        taxonomy_entries = self.get_taxonomy_entries(subject, grade_range)
+        
+        if not taxonomy_entries:
+            print(f"⚠️  No se encontraron entradas de taxonomía para {subject}")
+            return []
+        
+        print(f"\n📊 {len(taxonomy_entries)} entradas de taxonomía encontradas")
+        
+        if limit:
+            taxonomy_entries = taxonomy_entries[:limit]
+            print(f"   Limitando a {limit} módulos")
+        
+        # Generar módulos
+        created_modules = []
+        
+        for i, entry in enumerate(taxonomy_entries, 1):
+            print(f"\n   [{i}/{len(taxonomy_entries)}] {entry['subthematic']}", end=" ")
+            
+            module = self.create_module(entry, order_index=i)
+            
+            if module:
+                created_modules.append(module)
+                print("✅")
+            else:
+                print("❌")
+        
+        print("\n" + "=" * 60)
+        print(f"✅ {len(created_modules)} módulos creados exitosamente")
+        print("=" * 60)
+        
+        return created_modules
+    
+    def get_generation_statistics(self) -> Dict[str, Any]:
+        """Obtiene estadísticas de los módulos generados."""
+        try:
+            response = self.supabase.schema("kuneo").table("modules").select("*").execute()
+            modules = response.data
+            
+            stats = {
+                "total": len(modules),
+                "by_subject": {},
+                "by_grade": {},
+                "by_difficulty": {}
+            }
+            
+            for module in modules:
+                # Por materia
+                subject = module["subject"]
+                stats["by_subject"][subject] = stats["by_subject"].get(subject, 0) + 1
+                
+                # Por grado
+                grade = module["grade_level"]
+                stats["by_grade"][grade] = stats["by_grade"].get(grade, 0) + 1
+                
+                # Por dificultad
+                difficulty = module["difficulty"]
+                stats["by_difficulty"][difficulty] = stats["by_difficulty"].get(difficulty, 0) + 1
+            
+            return stats
+        except Exception as e:
+            print(f"❌ Error obteniendo estadísticas: {e}")
+            return {}
+    
+    def print_statistics(self):
+        """Imprime estadísticas de los módulos generados."""
+        stats = self.get_generation_statistics()
+        
+        if not stats:
+            return
+        
+        print("\n" + "=" * 60)
+        print("📊 ESTADÍSTICAS DE MÓDULOS")
+        print("=" * 60)
+        
+        print(f"\nTotal de módulos: {stats['total']}")
+        
+        print("\n📚 Por materia:")
+        for subject, count in sorted(stats['by_subject'].items()):
+            print(f"   {subject:15} → {count:3} módulos")
+        
+        print("\n🎓 Por grado:")
+        for grade, count in sorted(stats['by_grade'].items()):
+            print(f"   Grado {grade:2} → {count:3} módulos")
+        
+        print("\n⭐ Por dificultad:")
+        for difficulty, count in sorted(stats['by_difficulty'].items()):
+            stars = "⭐" * difficulty
+            print(f"   {stars:10} → {count:3} módulos")
+
+
+def main():
+    """Función principal para testing."""
+    generator = ModuleGenerator()
+    
+    # Generar 5 módulos de matemáticas para prueba
+    print("\n🧪 MODO DE PRUEBA: Generando 5 módulos de matemáticas (4-5)")
+    generator.generate_modules_for_subject("matematicas", grade_range="4-5", limit=5)
+    
+    # Mostrar estadísticas
+    generator.print_statistics()
+
+
+if __name__ == "__main__":
+    main()

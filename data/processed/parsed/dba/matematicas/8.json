@@ -1,0 +1,500 @@
+[
+  {
+    "id": "2a7c83fa-4fc5-499a-9100-0f02df68c42e",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 1,
+    "subject": "mathematics",
+    "grade_range": "8",
+    "content": {
+      "competency": "Reconoce la existencia de los números irracionales como números no racionales y los describe de acuerdo con sus características y propiedades.",
+      "evidence": [
+        "Utiliza procedimientos geométricos para representar números racionales e irracionales.",
+        "Identifica las diferentes representaciones (decimales y no decimales) para argumentar por qué un número es o no racional."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "En clase de matemáticas la profesora pidió a los estudiantes que construyeran números en su representación decimal. Algunos estudiantes hicieron lo siguiente:"
+        },
+        {
+          "type": "lista",
+          "content": [
+            "Marina dijo: “Yo empecé con el cinco como entero. Para formar los decimales utilicé un dado y lo lancé 10 veces, y así formé el número con 10 dígitos después del punto” Julián dijo: “Yo empecé con cero, puse el punto de decimal y empecé a poner los números naturales de forma consecutiva, es decir, 0.1234567891011121314… y así sucesivamente” Catalina dijo: “Yo recordé algo del año pasado y lo formé dividiendo en la calculadora 1 entre 3” Marcela dijo: “Yo me inspiré en lo que Marina hizo, pero mi número se formaría pensando en que siempre voy a poder seguir tirando el dado, por tanto tendría infinitos dígitos decimales”"
+          ]
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Analiza la manera en que Marina, Julián, Catalina y Marcela construyeron sus números y argumenta cuáles de ellos serían racionales y cuáles no."
+          ]
+        }
+      ],
+      "concepts": [],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 3,
+      "evidence_count": 2
+    }
+  },
+  {
+    "id": "47ea2b30-afb2-4985-b586-4e8bb7d21d38",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 2,
+    "subject": "mathematics",
+    "grade_range": "8",
+    "content": {
+      "competency": "Construye representaciones, argumentos y ejemplos de propiedades de los números racionales y no racionales.",
+      "evidence": [
+        "Utiliza procedimientos geométricos o aritméticos para construir algunos números irracionales y los ubica en la recta numérica.",
+        "Justificar procedimientos con los cuales se representa geométricamente números racionales y números reales.",
+        "Construye varias representaciones (geométrica, decimales o no decimales) de un mismo número racional o irracional."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "Si en la siguiente representación, el triángulo y el cuadrado representan números cualesquiera:"
+        },
+        {
+          "type": "imagen",
+          "content": {
+            "description": "equivalencia de la raíz cuadrada de dos números y la suma de dos raíces cuadradas, utilizando un triángulo y un cuadrado como representación de esos números."
+          }
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Asigna valores en las casillas `triángulo` y `cuadrado` y utiliza la calculadora para establecer la existencia de números que hagan verdadera la igualdad."
+          ]
+        }
+      ],
+      "concepts": [],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 3,
+      "evidence_count": 3
+    }
+  },
+  {
+    "id": "e0ad9a68-a6d7-4d6d-960f-52f3d649a4b6",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 3,
+    "subject": "mathematics",
+    "grade_range": "8",
+    "content": {
+      "competency": "Reconoce los diferentes usos y significados de las operaciones (convencionales y no convencionales) y del signo igual (relación de equivalencia e igualdad condicionada) y los utiliza para argumentar equivalencias entre expresiones algebraicas y resolver sistemas de ecuaciones.",
+      "evidence": [
+        "Reconoce el uso del signo igual como relación de equivalencia de expresiones algebraicas en los números reales.",
+        "Propone y ejecuta procedimientos para resolver una ecuación lineal y sistemas de ecuaciones lineales y argumenta la validez o no de un procedimiento",
+        "Usa el conjunto solución de una relación (de equivalencia y de orden) para argumentar la validez o no de un procedimiento."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "En clase de matemáticas el profesor pidió a los estudiantes analizar tres expresiones y hablar acerca de sus posibles relaciones. Las tres expresiones fueron: x - 1, 4x+1, 5. Al respecto Carlos y José escribieron:"
+        },
+        {
+          "type": "imagen",
+          "content": {
+            "description": "opinión de Carlos y José respecto a la relación entre las expresiones dadas."
+          }
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Analiza los escritos de Carlos y José y presenta argumentos que confirmen o refuten lo que ellos han hecho. Determina si José tiene razón al dudar si aplica o no la propiedad transitiva. ¿De qué depende que la pueda aplicar o no?"
+          ]
+        }
+      ],
+      "concepts": [
+        "operacion",
+        "ecuacion"
+      ],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 3,
+      "evidence_count": 3
+    }
+  },
+  {
+    "id": "3d653e99-d6ba-44b1-8dac-896c09e20a76",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 4,
+    "subject": "mathematics",
+    "grade_range": "8",
+    "content": {
+      "competency": "Describe atributos medibles de diferentes sólidos y explica relaciones entre ellos por medio del lenguaje algebraico.",
+      "evidence": [
+        "Utiliza lenguaje algebraico para representar el volumen de un prisma en términos de sus aristas.",
+        "Realiza la representación gráfica del desarrollo plano de un prisma.",
+        "Estima, calcula y compara volúmenes a partir de las relaciones entre las aristas de un prisma o de otros sólidos.",
+        "Interpreta las expresiones algebraicas que representan el volumen y el área cuando sus dimensiones varían."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "En la figura se presentan cinco cajas y en la tabla se especifican las dimensiones de cada una de ellas. Completa e interpreta la tabla a partir de las dimensiones de cada caja."
+        },
+        {
+          "type": "imagen",
+          "content": {
+            "description": "representación de cinco cajas, y una tabla para registrar el volumen y área exterior total de las mismas."
+          }
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Encuentra las razones aritméticas entre los diferentes volúmenes de las cajas y la expresión general para el volumen y el área exterior total de cada una de ellas."
+          ]
+        }
+      ],
+      "concepts": [],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 3,
+      "evidence_count": 4
+    }
+  },
+  {
+    "id": "e9f98357-1feb-42bf-b0a8-0d5d05ff920c",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 5,
+    "subject": "mathematics",
+    "grade_range": "8",
+    "content": {
+      "competency": "Utiliza y explica diferentes estrategias para encontrar el volumen de objetos regulares e irregulares en la solución de problemas en las matemáticas y en otras ciencias.",
+      "evidence": [
+        "Estima medidas de volumen con unidades estandarizadas y no estandarizadas.",
+        "Utiliza la relación de las unidades de capacidad con las unidades de volumen (litros, dm3, etc) en la solución de un problema.",
+        "Identifica la posibilidad del error en la medición del volumen haciendo aproximaciones pertinentes al respecto.",
+        "Explora y crea estrategias para calcular el volumen de cuerpos regulares e irregulares."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "En un recipiente cilíndrico totalmente lleno de agua, se sumerge por completo un objeto de forma irregular, el agua desalojada se recoge en un recipiente que se ha colocado previamente como lo muestra la figura."
+        },
+        {
+          "type": "imagen",
+          "content": {
+            "description": "un recipiente lleno de agua sobre una bandeja. Un objeto se sumerge y desplaza cierta cantidas de agua del recipiente."
+          }
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Compara el volumen calculado con el volumen de la cantidad de agua derramada. Describe los procedimientos utilizados y explica los resultados y sus respectivos procedimientos."
+          ]
+        }
+      ],
+      "concepts": [
+        "volumen"
+      ],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 3,
+      "evidence_count": 4
+    }
+  },
+  {
+    "id": "68084c6e-4b63-4b4f-802f-b3c04624e3a1",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 6,
+    "subject": "mathematics",
+    "grade_range": "8",
+    "content": {
+      "competency": "Identifica relaciones de congruencia y semejanza entre las formas geométricas que configuran el diseño de un objeto.",
+      "evidence": [
+        "Utiliza criterios para argumentar la congruencia de dos triángulos.",
+        "Discrimina casos de semejanza de triángulos en situaciones diversas.",
+        "Resuelve problemas que implican aplicación de los criterios de semejanza.",
+        "Compara figuras y argumenta la posibilidad de ser congruente o semejantes entre sí."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "Las grandes empresas invierten en el diseño de la imagen corporativa que los representa. Por ejemplo, en sus logotipos o iconos que los diferencian en el mercado. Las empresas buscan que los símbolos además de sencillos sean inconfundibles, para que las personas siempre los distingan entre las demás marcas. En muchos de los logotipos de las grandes marcas priman las regularidades geométricas como se muestra a continuación:"
+        },
+        {
+          "type": "imagen",
+          "content": {
+            "description": "logotipo de seis marcas empresariales con regularidades geométricas."
+          }
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Identifica las figuras congruentes que hay en cada uno de los logotipos. Argumenta las congruencias encontradas en cada logotipo."
+          ]
+        }
+      ],
+      "concepts": [],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 3,
+      "evidence_count": 4
+    }
+  },
+  {
+    "id": "852a200d-7a9a-4edb-b42a-11706683e83d",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 7,
+    "subject": "mathematics",
+    "grade_range": "8",
+    "content": {
+      "competency": "Identifica regularidades y argumenta propiedades de figuras geométricas a partir de teoremas y las aplica en situaciones reales.",
+      "evidence": [
+        "Describe teoremas y argumenta su validez a través de diferentes recursos (Software, tangram, papel, entre otros).",
+        "Argumenta la relación pitagórica por medio de construcción al utilizar material concreto.",
+        "Reconoce relaciones geométricas al utilizar el teorema de Pitágoras y Thales, entre otros.",
+        "Aplica el teorema de Pitágoras para calcular la medida de cualquier lado de un triángulo rectángulo.",
+        "Resuelve problemas utilizando teoremas básicos."
+      ],
+      "examples": [
+        {
+          "type": "pregunta",
+          "content": [
+            "A partir de los rompecabezas que se muestran en la imagen, explica regularidades y propiedades que se presentan al variar los elementos de la construcción geométrica del teorema de Pitágoras hasta llegar a su generalización por medio de diferentes expresiones (numéricas, geométricas y algebraicas). Con el apoyo de Software verifica la generalidad del teorema de Pitágoras con triángulos, cuadrados y formas de diferentes tamaños."
+          ]
+        },
+        {
+          "type": "imagen",
+          "content": {
+            "description": "rompecabezas geométricos ubicados sobre una cuadrícula (aplicación del Teorema de Pitágoras)."
+          }
+        }
+      ],
+      "concepts": [],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 2,
+      "evidence_count": 5
+    }
+  },
+  {
+    "id": "d77a82a7-bc1a-44bd-b3c1-30efeb6c3e9e",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 8,
+    "subject": "mathematics",
+    "grade_range": "8",
+    "content": {
+      "competency": "Identifica y analiza relaciones entre propiedades de las gráficas y propiedades de expresiones algebraicas y relaciona la variación y covariación con los comportamientos gráficos, numéricos y características de las expresiones algebraicas en situaciones de modelación.",
+      "evidence": [
+        "Opera con formas simbólicas y las interpreta.",
+        "Relaciona un cambio en la variable independiente con el cambio correspondiente en la variable dependiente.",
+        "Encuentra valores desconocidos en ecuaciones algebraicas.",
+        "Reconoce y representa relaciones numéricas mediante expresiones algebraicas y encuentra el conjunto de variación de una variable en función del contexto."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "Escribe una expresión que relacione el cambio que ocurre en el valor del volumen del cono circular recto cuando el radio cambia de r a r + Δr (Δr representa un incremento en el valor de r) y la altura permanece constante."
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Calcula el"
+          ]
+        }
+      ],
+      "concepts": [],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 2,
+      "evidence_count": 4
+    }
+  },
+  {
+    "id": "0fcfb660-4456-42e6-9a27-54e4ca374d50",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 9,
+    "subject": "mathematics",
+    "grade_range": "8",
+    "content": {
+      "competency": "Propone, compara y usa procedimientos inductivos y lenguaje algebraico para formular y poner a prueba conjeturas en diversas situaciones o contextos.",
+      "evidence": [
+        "Opera con formas simbólicas que representan números y encuentra valores desconocidos en ecuaciones numéricas.",
+        "Reconoce patrones numéricos y los describe verbalmente.",
+        "Representa relaciones numéricas mediante expresiones algebraicas y opera con y sobre variables.",
+        "Describe diferentes usos del signo igual (equivalencia, igualdad condicionada) en las expresiones algebraicas.",
+        "Utiliza las propiedades de los conjuntos numéricos para resolver ecuaciones."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "Encuentra valores para b, c, d, e, etc., que satisfagan las ecuaciones propuestas y argumenta cómo cambian las respuestas obtenidas si se cambia el valor de a por 6 o por 8. a = 4 a + 2b = 10 a + 2b + 3c = 28 a + 2b + 3c + 4d = 68 a + 2b + 3c + 4d + 5e = 93 a + 2b + 3c + 4d + 5e + 6f = 123 a + 2b + 3c + 4d + 5e + 6f + 7g = 200"
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Describe los procedimientos para obtener valores numéricos que satisfagan las ecuaciones segunda y tercera, si se desconoce el valor de a."
+          ]
+        }
+      ],
+      "concepts": [],
+      "misconceptions": [
+        "Solo los libros contienen textos"
+      ]
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 2,
+      "evidence_count": 5
+    }
+  },
+  {
+    "id": "5cadac40-df58-49f2-bd13-75543555372d",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 10,
+    "subject": "mathematics",
+    "grade_range": "8",
+    "content": {
+      "competency": "Propone relaciones o modelos funcionales entre variables e identifica y analiza propiedades de covariación entre variables, en contextos numéricos, geométricos y cotidianos y las representa mediante gráficas (cartesianas de puntos, continuas, formadas por segmentos, etc.).",
+      "evidence": [
+        "Toma decisiones informadas en exploraciones numéricas, algebraicas o gráficas de los modelos matemáticos usados.",
+        "Relaciona características algebraicas de las funciones, sus gráficas y procesos de aproximación sucesiva."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "Una araña ubicada en una esquina quiere cazar a una mosca que está ubicada en la esquina inferior izquierda de una caja cúbica cuyo lado mide un metro. La araña usará un camino recto pasando por dos caras del cubo y atravesando una de sus aristas por un punto X como se muestra en la línea punteada de la figura."
+        },
+        {
+          "type": "imagen",
+          "content": {
+            "description": "ilustración de una araña sobre un cubo y su camino más corto hasta una mosca ubicada en la esquina opuesta."
+          }
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Determina la posición del punto X para que el camino seguido por la mosca sea el más corto."
+          ]
+        }
+      ],
+      "concepts": [],
+      "misconceptions": [
+        "Solo los libros contienen textos"
+      ]
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 3,
+      "evidence_count": 2
+    }
+  },
+  {
+    "id": "45dd3954-ab36-4bec-82d2-011434c3bf8b",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 11,
+    "subject": "mathematics",
+    "grade_range": "8",
+    "content": {
+      "competency": "Interpreta información presentada en tablas de frecuencia y gráficos cuyos datos están agrupados en intervalos y decide cuál es la medida de tendencia central que mejor representa el comportamiento de dicho conjunto.",
+      "evidence": [
+        "Interpreta los datos representados en diferentes tablas y gráficos.",
+        "Usa estrategias gráficas o numéricas para encontrar las medidas de tendencia central de un conjunto de datos agrupados.",
+        "Describe el comportamiento de los datos empleando las medidas de tendencia central y el rango.",
+        "Reconoce cómo varían las medidas de tendencia central y el rango cuando varían los datos."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "Los estadísticos que hicieron un estudio sobre la producción de café por hectárea en 510 fincas cafeteras cometieron un error, no incorporaron los datos de 60 fincas de un municipio. Ellos afirman que, como en esa población la producción de café por hectárea se encuentra entre los límites menor y mayor de las ya estudiadas, en general los resultados no varían."
+        },
+        {
+          "type": "imagen",
+          "content": {
+            "description": "dos gráficas que muestran la producción de café por hectárea en 510 fincas."
+          }
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Lee y compara la información presentada en cada gráfica. Encuentra las medidas de tendencia central adecuadas y analiza si hay cambios o no cuando se introduce la información faltante."
+          ]
+        }
+      ],
+      "concepts": [
+        "medida"
+      ],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 3,
+      "evidence_count": 4
+    }
+  },
+  {
+    "id": "059c2383-bdda-49c6-a0c6-9546768ab96a",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 12,
+    "subject": "mathematics",
+    "grade_range": "8",
+    "content": {
+      "competency": "Hace predicciones sobre la posibilidad de ocurrencia de un evento compuesto e interpreta la predicción a partir del uso de propiedades básicas de la probabilidad.",
+      "evidence": [
+        "Identifica y enumera el espacio muestral de un experimento aleatorio.",
+        "Identifica y enumera los resultados favorables de ocurrencia de un evento indicado.",
+        "Asigna la probabilidad de la ocurrencia de un evento usando valores entre 0 y 1.",
+        "Reconoce cuando dos eventos son o no mutuamente excluyentes y les asigna la probabilidad usando la regla de la adición."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "Se realiza un estudio con estudiantes de grado octavo para indagar por la cantidad de hermanos y sus edades. En la tabla se presentan la cantidad de estudiantes por cada número de hermanos y rango de edades."
+        },
+        {
+          "type": "tabla",
+          "content": {
+            "description": "descripcion: cantidad de estudiantes por cada número de hermanos y rango de edades."
+          }
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Con base en la tabla de distribución de frecuencias determina:",
+            "La probabilidad de que un estudiante del curso tenga 1 o 2 hermanos.",
+            "La probabilidad de que en la familia de un alumno del curso haya dos hijos y él sea el menor.",
+            "Utiliza al menos dos procedimientos diferentes para calcular esta probabilidad y justifica la igualdad de los resultados."
+          ]
+        }
+      ],
+      "concepts": [],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 3,
+      "evidence_count": 4
+    }
+  }
+]

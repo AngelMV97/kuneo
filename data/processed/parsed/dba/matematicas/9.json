@@ -1,0 +1,510 @@
+[
+  {
+    "id": "63feea59-b5b5-48e4-b393-1aa402e8b849",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 1,
+    "subject": "mathematics",
+    "grade_range": "9",
+    "content": {
+      "competency": "Utiliza los números reales (sus operaciones, relaciones y propiedades) para resolver problemas con expresiones polinómicas.",
+      "evidence": [
+        "Considera el error que genera la aproximación de un número real a partir de números racionales.",
+        "Identifica la diferencia entre exactitud y aproximación en las diferentes representaciones de los números reales.",
+        "Construye representaciones geométricas y numéricas de los números reales (con decimales, raíces, razones, y otros símbolos) y realiza conversiones entre ellas."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "Los estudiantes de noveno inflan dos globos (como se muestran en la figura) para representar la razón entre los diámetros de dos esferas."
+        },
+        {
+          "type": "imagen",
+          "content": {
+            "description": "dos estudiantes inflando globos (representa proporción)."
+          }
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Describa los posibles caminos que tendría en cuenta para construir esferas cuya razón entre sus diámetros sea √5."
+          ]
+        },
+        {
+          "type": "lista",
+          "content": [
+            "Mónica escribió la siguiente relación en el tablero: D/d=√5=2.23",
+            "Usando los mismos símbolos, Fernando escribió en su cuaderno d/D=√5.",
+            "Alex dijo “Yo sé que raíz de dos es más o menos 2.23, así que voy a suponer que eso es 2” y luego agregó “Como el volumen de una esfera es (4/3)π[d/2]^3 quiere decir que cuando reemplazo me da el volumen de la mayor casi ocho veces la menor”. Con ese resultado Alex sopló una vez un globo y luego ocho veces el otro globo y dijo “estos dos globos están en la razón pedida”.",
+            "Paula, al escuchar a Alex hizo el mismo proceso pero ahora usó una aproximación √5≈2,2. Karla hizo lo mismo pero ella usó √5≈2,236",
+            "Finalmente Camila sopló, con toda su potencia, tres veces uno de los globos y dijo que esa sería la menor."
+          ]
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Identifique si en el planteamiento de Mónica puede haber un error y cómo se representaría dicha relación."
+          ]
+        }
+      ],
+      "concepts": [
+        "operacion"
+      ],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 5,
+      "evidence_count": 3
+    }
+  },
+  {
+    "id": "237ce336-5e9e-4152-ae5e-49e1d4293f29",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 2,
+    "subject": "mathematics",
+    "grade_range": "9",
+    "content": {
+      "competency": "Propone y desarrolla expresiones algebraicas en el conjunto de los números reales y utiliza las propiedades de la igualdad y de orden para determinar el conjunto solución de relaciones entre tales expresiones.",
+      "evidence": [
+        "Identifica y utiliza múltiples representaciones de números reales para realizar transformaciones y comparaciones entre expresiones algebraicas.",
+        "Establece conjeturas al resolver una situación problema, apoyado en propiedades y relaciones entre números reales.",
+        "Determina y describe relaciones al comparar características de gráficas y expresiones algebraicas o funciones."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "La siguiente imagen muestra una representación de tres funciones diferentes:"
+        },
+        {
+          "type": "imagen",
+          "content": {
+            "description": "las funciones f(x), g(x) y h(x) en diferentes tipos de representación."
+          }
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Encuentra los valores de x, para los cuales la gráfica de la función f(x) está entre las gráficas de las funciones g(x) y h(x); escribe la respuesta utilizando intervalos."
+          ]
+        }
+      ],
+      "concepts": [],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 3,
+      "evidence_count": 3
+    }
+  },
+  {
+    "id": "66f7701f-0d8c-4b54-a862-aa86285d5165",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 3,
+    "subject": "mathematics",
+    "grade_range": "9",
+    "content": {
+      "competency": "Utiliza los números reales, sus operaciones, relaciones y representaciones para analizar procesos infinitos y resolver problemas.",
+      "evidence": [
+        "Encuentra las relaciones y propiedades que determinan la formación de secuencias numéricas.",
+        "Determina y utiliza la expresión general de una sucesión para calcular cualquier valor de la misma y para compararla con otras sucesiones."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "Observa la siguiente espiral y describe la manera en que fue construida."
+        },
+        {
+          "type": "imagen",
+          "content": {
+            "description": "espiral aurea formada por cuadrados cuyos lados siguen la sucesión de Fibonacci."
+          }
+        },
+        {
+          "type": "tabla",
+          "content": {
+            "description": "descripcion: tabla formada por las filas Lado, Perímetro y Área, y las columnas del 1 al 9."
+          }
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Completa la tabla al iniciar con el lado, el perímetro y el área del cuadrado más pequeño e interior de la espiral (su lado mide 1 unidad)."
+          ]
+        }
+      ],
+      "concepts": [
+        "operacion"
+      ],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 4,
+      "evidence_count": 2
+    }
+  },
+  {
+    "id": "3c3a0d34-81c2-4a5d-ab9d-a0b49497edd1",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 4,
+    "subject": "mathematics",
+    "grade_range": "9",
+    "content": {
+      "competency": "Identifica y utiliza relaciones entre el volumen y la capacidad de algunos cuerpos redondos (cilindro, cono y esfera) con referencia a las situaciones escolares y extraescolares.",
+      "evidence": [
+        "Estima la capacidad de objetos con superficies redondas.",
+        "Construye cuerpos redondos usando diferentes estrategias.",
+        "Compara y representa las relaciones que encuentra de manera experimental entre el volumen y la capacidad de objetos con superficies redondas.",
+        "Explica la pertinencia o no de la solución de un problema de cálculo de área o de volumen, de acuerdo con las condiciones de la situación."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "Un mecánico industrial desea comprobar una estimación que ha realizado en su trabajo, en cuanto a la relación entre el volumen."
+        },
+        {
+          "type": "imagen",
+          "content": {
+            "description": "representación de un cono y un cilindro de bases iguales y altura h."
+          }
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Justifica si el mecánico al construir dos piezas metálicas como las que se muestran en la figura puede comprobar la estimación."
+          ]
+        }
+      ],
+      "concepts": [
+        "volumen"
+      ],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 3,
+      "evidence_count": 4
+    }
+  },
+  {
+    "id": "0f860886-5c77-40b3-bb05-63d9e2b2f3b5",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 5,
+    "subject": "mathematics",
+    "grade_range": "9",
+    "content": {
+      "competency": "Utiliza teoremas, propiedades y relaciones geométricas (teorema de Thales y el teorema de Pitágoras) para proponer y justificar estrategias de medición y cálculo de longitudes.",
+      "evidence": [
+        "Describe y justifica procesos de medición de longitudes.",
+        "Explica propiedades de figuras geométricas que se involucran en los procesos de medición.",
+        "Justifica procedimientos de medición a partir del Teorema de Thales, Teorema de Pitágoras y relaciones intra e interfigurales.",
+        "Valida la precisión de instrumentos para medir longitudes.",
+        "Propone alternativas para estimar y medir con precisión diferentes magnitudes."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "Camila observa un ave en un árbol y desea determinar la altura a la que se encuentra. Para ello utiliza un instrumento como el de la figura 1 (una escuadra isósceles y un pitillo). Además, en uno de los extremos ata un pedazo de hilo con un objeto que actúa como plomada."
+        },
+        {
+          "type": "imagen",
+          "content": {
+            "description": "Figura 1."
+          }
+        },
+        {
+          "type": "texto",
+          "content": "En la figura 2, se observa la técnica que utiliza Camila para medir la altura a la que se encuentra el ave. Ella mira a través del pitillo y se aleja o se acerca del árbol hasta ubicarse en un punto donde pueda visualizar el ave. Luego, fija este lugar con una marca en el piso y mide la distancia h desde este punto hasta la base del árbol."
+        },
+        {
+          "type": "imagen",
+          "content": {
+            "description": "Figura 2"
+          }
+        },
+        {
+          "type": "tabla",
+          "content": {
+            "description": "descripcion: tabla con las columnas Nombre, Lados paralelos, Lados congruentes, y Ángulos."
+          }
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Identifica y describe las figuras geométricas que usó Camila en el proceso de medición y completa la tabla."
+          ]
+        }
+      ],
+      "concepts": [],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 6,
+      "evidence_count": 5
+    }
+  },
+  {
+    "id": "250454e6-3686-4903-8e24-d1b561aad722",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 6,
+    "subject": "mathematics",
+    "grade_range": "9",
+    "content": {
+      "competency": "Conjetura acerca de las regularidades de las formas bidimensionales y tridimensionales y realiza inferencias a partir de los criterios de semejanza, congruencia y teoremas básicos.",
+      "evidence": [
+        "Reconoce regularidades en formas bidimensionales y tridimensionales.",
+        "Explica criterios de semejanza y congruencia a partir del teorema de Thales.",
+        "Compara figuras geométricas y conjetura sobre posibles regularidades.",
+        "Redacta y argumenta procesos llevados a cabo para resolver situaciones de semejanza y congruencia de figuras."
+      ],
+      "examples": [
+        {
+          "type": "pregunta",
+          "content": [
+            "Describe situaciones reales que puedan representarse con las figuras que se presentan a continuación. Problematiza las situaciones y las resuelve con el apoyo del teorema de Thales."
+          ]
+        },
+        {
+          "type": "imagen",
+          "content": {
+            "description": "dos pares de triángulos cortados con una línea paralela a su base, para formar un triángulo semejante y proporcional al original."
+          }
+        }
+      ],
+      "concepts": [],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 2,
+      "evidence_count": 4
+    }
+  },
+  {
+    "id": "e9316717-7f02-4974-bb4d-a7e2cab2b1c5",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 7,
+    "subject": "mathematics",
+    "grade_range": "9",
+    "content": {
+      "competency": "Interpreta el espacio de manera analítica a partir de relaciones geométricas que se establecen en las trayectorias y desplazamientos de los cuerpos en diferentes situaciones.",
+      "evidence": [
+        "Describe verbalmente procesos de trayectorias y de desplazamiento.",
+        "Explica y representa gráficamente la variación del movimiento de diferentes objetos."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "A las motocicletas antes de salir a la venta les realizan pruebas de velocidad."
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "A partir de la visualización del video https://www.youtube.com/watch?v=FeIqwVKdyXc, dibuja una gráfica que represente la velocidad registrada por el tacómetro cada tres segundos."
+          ]
+        },
+        {
+          "type": "tabla",
+          "content": {
+            "description": "descripción: tabla con las columnas Tiempo, Velocidad, Variación tiempo, Variación velocidad, y (Variación velocidad)/(Variación tiempo)"
+          }
+        },
+        {
+          "type": "imagen",
+          "content": {
+            "description": "plano cartesiano donde el estudiante debe dibujar la gráfica de velocidad contra tiempo."
+          }
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Grafica los datos registrados en la tabla y encuentra la relación con respecto a la primera gráfica. Explica a qué se deben las diferencias o las similitudes en caso de que existan y el significado de la expresión (Variación de la velocidad)/(Variación del tiempo)."
+          ]
+        }
+      ],
+      "concepts": [],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 5,
+      "evidence_count": 2
+    }
+  },
+  {
+    "id": "161fe652-31b9-4120-aad0-0b37aa7581c5",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 8,
+    "subject": "mathematics",
+    "grade_range": "9",
+    "content": {
+      "competency": "Utiliza expresiones numéricas, algebraicas o gráficas para hacer descripciones de situaciones concretas y tomar decisiones con base en su interpretación.",
+      "evidence": [
+        "Opera con formas simbólicas que representan cantidades.",
+        "Reconoce que las letras pueden representar números y cantidades, y que se pueden operar con ellas y sobre ellas.",
+        "Interpreta expresiones numéricas, algebraicas o gráficas y toma decisiones con base en su interpretación."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "La figura 1 muestra varios terrenos. Cada terreno será delimitado con una cerca cuyo costo por metro es de 15.000 pesos. Cada lado tiene una longitud en metros, cuyo valor desconocemos, representado por una letra: a, b, c, d, e. Se sabe que a=b; c=e; d<a y d<c."
+        },
+        {
+          "type": "imagen",
+          "content": {
+            "description": "Figura 1. Tomado de Positive Algebra. Compuesto por Martin Kindt.I.F."
+          }
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Encuentra una expresión para el precio total de la cerca de cada terreno. Indica cuál de los terrenos es más costoso y cuál es menos costoso para cercar."
+          ]
+        }
+      ],
+      "concepts": [],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 3,
+      "evidence_count": 3
+    }
+  },
+  {
+    "id": "63e13605-1f45-486d-a895-122c973a5c79",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 9,
+    "subject": "mathematics",
+    "grade_range": "9",
+    "content": {
+      "competency": "Utiliza procesos inductivos y lenguaje simbólico o algebraico para formular, proponer y resolver conjeturas en la solución de problemas numéricos, geométricos, métricos, en situaciones cotidianas y no cotidianas.",
+      "evidence": [
+        "Efectúa exploraciones, organiza los resultados de las mismas y propone patrones de comportamiento.",
+        "Propone conjeturas sobre configuraciones geométricas o numéricas y las expresa verbal o simbólicamente.",
+        "Valida las conjeturas y explica sus conclusiones.",
+        "Interpreta expresiones numéricas y toma decisiones con base en su interpretación."
+      ],
+      "examples": [
+        {
+          "type": "pregunta",
+          "content": [
+            "Encuentra de manera sistemática el número total de rectángulos que se pueden formar en un tablero de 8 x 8 como el de la figura, considerando que los cuadrados son casos particulares de rectángulos. Tomar como referencia la tabla de rectángulos en una tabla de 3x3."
+          ]
+        },
+        {
+          "type": "imagen",
+          "content": {
+            "description": "rectángulos en una tabla de 3x3"
+          }
+        },
+        {
+          "type": "tabla",
+          "content": {
+            "description": "descripcion: Tomado de la tesis de maestría “Patrones y Regularidades Numéricas: Razonamiento Inductivo”, por Luis Miguel Rangel Álvarez. Universidad Nacional de Colombia (2012)."
+          }
+        }
+      ],
+      "concepts": [],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 3,
+      "evidence_count": 4
+    }
+  },
+  {
+    "id": "0f00ea03-570d-44d2-8557-0592d5bfa286",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 10,
+    "subject": "mathematics",
+    "grade_range": "9",
+    "content": {
+      "competency": "Propone un diseño estadístico adecuado para resolver una pregunta que indaga por la comparación sobre las distribuciones de dos grupos de datos, para lo cual usa comprensivamente diagramas de caja, medidas de tendencia central, de variación y de localización.",
+      "evidence": [
+        "Define el método para recolectar los datos (encuestas, observación o experimento simple) e identifica la población y el tamaño de la muestra del estudio.",
+        "Construye diagramas de caja y a partir de los resultados representados en ellos describe y compara la distribución de un conjunto de datos.",
+        "Compara las distribuciones de los conjuntos de datos a partir de las medidas de tendencia central, las de variación y las de localización.",
+        "Elabora conclusiones para responder el problema planteado."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "Usando los resultados obtenidos en un estudio realizado por el preparador físico de una escuela de fútbol en el que comparó los tiempos que se demoran, 60 jugadores, en realizar una actividad de resistencia física antes y después de realizar los entrenamientos alternativos. Se sabe que el preparador físico seleccionó al azar 30 estudiantes para conformar dos grupos y con cada grupo realizó un entrenamiento diferente."
+        },
+        {
+          "type": "imagen",
+          "content": {
+            "description": "diagramas de caja y bigote para el rendimiento físico de los grupos antes y después de los entrenamientos."
+          }
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Responde la pregunta ¿cuál de los dos métodos es el más efectivo?"
+          ]
+        }
+      ],
+      "concepts": [
+        "medida"
+      ],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 3,
+      "evidence_count": 4
+    }
+  },
+  {
+    "id": "107f0e04-a949-425b-ae1c-fd9b6d7ef4f2",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 11,
+    "subject": "mathematics",
+    "grade_range": "9",
+    "content": {
+      "competency": "Encuentra el número de posibles resultados de experimentos aleatorios, con reemplazo y sin reemplazo, usando técnicas de conteo adecuadas, y argumenta la selección realizada en el contexto de la situación abordada. Encuentra la probabilidad de eventos aleatorios compuestos.",
+      "evidence": [
+        "Diferencia experimentos aleatorios realizados con reemplazo, de experimentos aleatorios realizados sin reemplazo.",
+        "Encuentra el número de posibles resultados de un experimento aleatorio, usando métodos adecuados (diagramas de árbol, combinaciones, permutaciones, regla de la multiplicación, etc.).",
+        "Justifica la elección de un método particular de acuerdo al tipo de situación.",
+        "Encuentra la probabilidad de eventos dados usando razón entre frecuencias."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "Se está organizando la ejecución de las pruebas de atletismo en el colegio; para participar en éstas se han organizado 3 horarios, de 7:00 a.m a 8:00 a.m, de 9:00 a.m a 10:00 a.m y de 11:00 a.m a 12:00 m, la condición es que en cada horario solo puede realizar una prueba atlética. Se indica a los participantes que para clasificar es necesario que presenten tres de las cinco pruebas organizadas."
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Se desea conocer el número total de opciones que tiene un participante para seleccionar las tres pruebas que debe presentar."
+          ]
+        }
+      ],
+      "concepts": [],
+      "misconceptions": [
+        "Solo los libros contienen textos"
+      ]
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 2,
+      "evidence_count": 4
+    }
+  }
+]

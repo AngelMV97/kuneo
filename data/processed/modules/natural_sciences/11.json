@@ -1,0 +1,927 @@
+[
+  {
+    "module_id": "6b49acd1-22b1-4580-a515-4f69268daa68",
+    "source_unit_id": "802efeab-fbf8-400b-982c-5dc237e03184",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "11",
+    "difficulty": 1,
+    "title": "¿Cómo funciona movimiento?",
+    "learning_objective": "Comprende la naturaleza de la propagación del sonido y de la luz como fenómenos ondulatorios (ondas mecánicas y electromagnéticas, respectivamente).",
+    "context": "['Dadas las situaciones que se presentan en las fotos, explica, a partir de principios y leyes, lo que observa.'] tres situaciones experimentales: reflexión de un rayo de luz dentro de un vaso de agua, refracción de la luz al deformar un lápiz sumergido en agua hasta la mitad, y \"espejos de sonido\" al enfrentar dos parlantes para que sus ondas sonoras interfieran entre sí.",
+    "core_concept": "movimiento",
+    "concepts": [
+      "movimiento",
+      "estadistica",
+      "fracciones",
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "comprender",
+      "comprender",
+      "explicar",
+      "explicar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con movimiento?",
+      "expected_signals": [
+        "movimiento",
+        "estadistica",
+        "fracciones",
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "d772930e-8cf2-4f3a-9867-7002e39acf23",
+        "evidence_source": "Clasifica las ondas de luz y sonido según el medio de propagación (mecánicas y electromagnéticas) y la dirección de la oscilación (longitudinales y transversales).",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Clasifica las ondas de luz y sonido según el medio de propagación (mecánicas y electromagnéticas) y la dirección de la oscilación (longitudinales y transversales).",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 1
+      },
+      {
+        "id": "67389044-8c26-4cba-844a-38a717ac3302",
+        "evidence_source": "Aplica las leyes y principios del movimiento ondulatorio (ley de reflexión, de refracción y principio de Huygens) para predecir el comportamiento de una onda y los hace visibles en casos prácticos, al incluir cambio de medio de propagación.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Aplica las leyes y principios del movimiento ondulatorio (ley de reflexión, de refracción y principio de Huygens) para predecir el comportamiento de una onda y los hace visibles en casos prácticos, al incluir cambio de medio de propagación.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "transferencia"
+        ],
+        "difficulty": 1,
+        "order": 2
+      },
+      {
+        "id": "30755976-75c4-49c6-8127-e07d7cdfad85",
+        "evidence_source": "Explica los fenómenos ondulatorios de sonido y luz en casos prácticos (reflexión, refracción, interferencia, difracción, polarización).",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica los fenómenos ondulatorios de sonido y luz en casos prácticos (reflexión, refracción, interferencia, difracción, polarización).",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 1,
+        "order": 3
+      },
+      {
+        "id": "f7f5028a-90c9-4624-84ee-1fc7162d41b3",
+        "evidence_source": "Explica las cualidades del sonido (tono, intensidad, audibilidad) y de la luz (color y visibilidad) a partir de las características del fenómeno ondulatorio (longitud de onda, frecuencia, amplitud).",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica las cualidades del sonido (tono, intensidad, audibilidad) y de la luz (color y visibilidad) a partir de las características del fenómeno ondulatorio (longitud de onda, frecuencia, amplitud).",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 1,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "pensar que una fracción solo representa una parte de un objeto y no una relación",
+        "pattern": "pensar que una fracción solo representa una parte de un objeto y no una relación",
+        "feedback": "Revisemos esta idea: pensar que una fracción solo representa una parte de un objeto y no una relación",
+        "visual": "concept_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre movimiento?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender movimiento?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "concept_map",
+        "trigger": "pensar que una fracción solo representa una parte de un objeto y no una relación",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 1
+      }
+    }
+  },
+  {
+    "module_id": "f89ab09e-a5f3-464a-b0c8-c06d6f786b16",
+    "source_unit_id": "edf1daae-9c30-48ad-b60b-f7363593b1f2",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "11",
+    "difficulty": 1,
+    "title": "¿Cómo funciona movimiento?",
+    "learning_objective": "Comprende que la interacción de las cargas en reposo genera fuerzas eléctricas y que cuando las cargas están en movimiento genera fuerzas magnéticas.",
+    "context": "movimiento de la aguja de una brújula al interacuar con un circuito eléctrico cerrado.",
+    "core_concept": "movimiento",
+    "concepts": [
+      "movimiento",
+      "electricidad",
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "identificar",
+      "comprender",
+      "construir"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con movimiento?",
+      "expected_signals": [
+        "movimiento",
+        "electricidad",
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "35c9299b-c786-482e-9752-dedf39bd241e",
+        "evidence_source": "Identifica el tipo de carga eléctrica (positiva o negativa) que adquiere un material cuando se somete a procedimientos de fricción o contacto.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con movimiento y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 1
+      },
+      {
+        "id": "e26991e6-e326-4fab-83ca-adb5ded885c7",
+        "evidence_source": "Reconoce que las fuerzas eléctricas y magnéticas pueden ser de atracción y repulsión, mientras que las gravitacionales solo generan efectos de atracción.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Reconoce que las fuerzas eléctricas y magnéticas pueden ser de atracción y repulsión, mientras que las gravitacionales solo generan efectos de atracción.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 2
+      },
+      {
+        "id": "988cdb9e-5b44-4351-bb1e-59460b98932f",
+        "evidence_source": "Construye y explica el funcionamiento de un electroimán.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Construye y explica el funcionamiento de un electroimán.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 1,
+        "order": 3
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre movimiento?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender movimiento?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 2
+      }
+    }
+  },
+  {
+    "module_id": "13ea7a39-86cc-42a0-8e66-0a1f3d889704",
+    "source_unit_id": "505b11be-7ee1-4a0d-a182-36fa9d84ffc3",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "11",
+    "difficulty": 1,
+    "title": "¿Cómo funciona electricidad?",
+    "learning_objective": "Comprende las relaciones entre corriente y voltaje en circuitos resistivos sencillos en serie, en paralelo y mixtos.",
+    "context": "Dado el siguiente circuito: diagrama de un circuito resistivo mixto, con una x marcada junto a uno de los led o bombillos. ['Identifica los cambios de iluminación en los bombillos restantes si el bombillo (X) se elimina.']",
+    "core_concept": "electricidad",
+    "concepts": [
+      "electricidad",
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "representational_thinking",
+    "skills": [
+      "comprender",
+      "identificar",
+      "identificar",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con electricidad?",
+      "expected_signals": [
+        "electricidad",
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "0b2a3840-31c9-4ca8-8c73-d8192b86c8ca",
+        "evidence_source": "Determina las corrientes y los voltajes en elementos resistivos de un circuito eléctrico utilizando la ley de Ohm.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Determina las corrientes y los voltajes en elementos resistivos de un circuito eléctrico utilizando la ley de Ohm.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de electricidad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 1
+      },
+      {
+        "id": "0085c1dc-b136-447f-8ed8-e6117362fc74",
+        "evidence_source": "Identifica configuraciones en serie, en paralelo y mixtas en diferentes circuitos representados en esquemas.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con electricidad y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de electricidad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "representacion"
+        ],
+        "difficulty": 1,
+        "order": 2
+      },
+      {
+        "id": "dc9745d1-b105-47fa-970a-cf2d06359045",
+        "evidence_source": "Identifica características de circuitos en serie y paralelo a partir de la construcción de circuitos con resistencias.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con electricidad y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de electricidad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 3
+      },
+      {
+        "id": "85caee9f-8165-4e50-b9df-809cc040a8f8",
+        "evidence_source": "Predice los cambios de iluminación en bombillos resistivos en un circuito al alterarlo (eliminar o agregar componentes en diferentes lugares).",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Predice los cambios de iluminación en bombillos resistivos en un circuito al alterarlo (eliminar o agregar componentes en diferentes lugares).",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de electricidad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "circuit_conductor_insulator",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre electricidad?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender electricidad?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "circuit_conductor_insulator",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 3
+      }
+    }
+  },
+  {
+    "module_id": "ed6a24ec-aa86-49dd-8e7b-869bc419b719",
+    "source_unit_id": "46a1821a-e517-4fbd-9bf0-8849dd4630d7",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "11",
+    "difficulty": 1,
+    "title": "¿Cómo funciona reacciones_quimicas?",
+    "learning_objective": "Comprende que los diferentes mecanismos de reacción química (oxido-reducción, homólisis, heterólisis y pericíclicas) posibilitan la formación de distintos tipos de compuestos orgánicos.",
+    "context": "Realiza actividades prácticas individuales o en equipo en las que busca clasificar compuestos orgánicos utilizando diferentes reactivos químicos (Benedict, Fehling, Bicarbonato de Sodio, Tollens), durante el proceso puede identificar algunos factores que influyen en que una reacción sea positiva o negativa para un grupo funcional analizado y un reactivo utilizado. ['Comunica detalladamente el proceso de indagación y de resultados con el uso de gráficos, tablas y ecuaciones. Adicionalmente, determina si una reacción es endotérmica o exotérmica según las evidencias y datos obtenidos.']",
+    "core_concept": "reacciones_quimicas",
+    "concepts": [
+      "proporcionalidad",
+      "estadistica",
+      "lectura_inferencial",
+      "argumentacion"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "representar",
+      "comprender",
+      "explicar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con reacciones_quimicas?",
+      "expected_signals": [
+        "proporcionalidad",
+        "estadistica",
+        "lectura_inferencial",
+        "argumentacion"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "a68dc063-c659-4855-8d9f-7cdacd505b0b",
+        "evidence_source": "Representa las reacciones químicas entre compuestos orgánicos utilizando fórmulas y ecuaciones químicas y la nomenclatura propuesta por la Unión Internacional de Química Pura y Aplicada (IUPAC).",
+        "type": "representation",
+        "prompt": "Representa la idea de reacciones_quimicas usando un esquema, tabla o dibujo mental.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de reacciones_quimicas.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "representacion",
+          "transferencia"
+        ],
+        "difficulty": 1,
+        "order": 1
+      },
+      {
+        "id": "2815428c-023b-407d-8f28-1b6cffa05575",
+        "evidence_source": "Clasifica compuestos orgánicos y moléculas de interés biológico (alcoholes, fenoles, cetonas, aldehídos, carbohidratos, lípidos, proteínas) a partir de la aplicación de pruebas químicas.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Clasifica compuestos orgánicos y moléculas de interés biológico (alcoholes, fenoles, cetonas, aldehídos, carbohidratos, lípidos, proteínas) a partir de la aplicación de pruebas químicas.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de reacciones_quimicas.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "transferencia"
+        ],
+        "difficulty": 1,
+        "order": 2
+      },
+      {
+        "id": "5f578d77-1eb5-4ff3-86d0-50ab133ae8c8",
+        "evidence_source": "Explica el comportamiento exotérmico o endotérmico en una reacción química debido a la naturaleza de los reactivos, la variación de la temperatura, la presencia de catalizadores y los mecanismos propios de un grupo orgánico específico.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica el comportamiento exotérmico o endotérmico en una reacción química debido a la naturaleza de los reactivos, la variación de la temperatura, la presencia de catalizadores y los mecanismos propios de un grupo orgánico específico.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de reacciones_quimicas.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 1,
+        "order": 3
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre reacciones_quimicas?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender reacciones_quimicas?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 4
+      }
+    }
+  },
+  {
+    "module_id": "ce9fcd3a-8065-4efa-9366-047492c81dea",
+    "source_unit_id": "97abf236-e306-4e0c-b7d7-434ce29082ed",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "11",
+    "difficulty": 1,
+    "title": "¿Cómo funciona ecosistema?",
+    "learning_objective": "Analiza cuestiones ambientales actuales, como el calentamiento global, contaminación, tala de bosques y minería, desde una visión sistémica (económico, social, ambiental y cultural).",
+    "context": "A partir de la siguiente gráfica: gráfica de la variación de temperatura (°C) mundial a lo largo de los últimos dos siglos. Relaciona la información anterior con los siguientes datos: descripcion: pérdida de área glaciar entre períodos. ['Grafica la información de la tabla y analiza el impacto que puede tener el derretimiento de los nevados para la biodiversidad de Colombia.']",
+    "core_concept": "ecosistema",
+    "concepts": [
+      "proporcionalidad",
+      "argumentacion",
+      "potenciacion",
+      "ecosistema",
+      "area_perimetro",
+      "sociedad",
+      "estadistica"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "explicar",
+      "identificar",
+      "argumentar",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con ecosistema?",
+      "expected_signals": [
+        "proporcionalidad",
+        "argumentacion",
+        "potenciacion",
+        "ecosistema",
+        "area_perimetro",
+        "sociedad",
+        "estadistica"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "0068b129-8f33-4fd3-a3db-5fbc6d75fc5a",
+        "evidence_source": "Explica el fenómeno del calentamiento global, identificando sus causas y proponiendo acciones locales y globales para controlarlo.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con ecosistema y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ecosistema.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 1,
+        "order": 1
+      },
+      {
+        "id": "789c8029-4b04-4dce-b9fa-bc3e1b90dac8",
+        "evidence_source": "Identifica las implicaciones que tiene para Colombia, en los ámbitos social, ambiental y cultural el hecho de ser “un país mega diverso”.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con ecosistema y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ecosistema.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 2
+      },
+      {
+        "id": "78690799-5dc1-424b-89ed-77a8e926970a",
+        "evidence_source": "Argumenta con base en evidencias sobre los efectos que tienen algunas actividades humanas (contaminación, minería, ganadería, agricultura, la construcción de carreteras y ciudades, tala de bosques) en la biodiversidad del país.",
+        "type": "argumentation",
+        "prompt": "Justifica tu respuesta usando evidencia o razones claras.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ecosistema.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "argumentacion"
+        ],
+        "difficulty": 1,
+        "order": 3
+      },
+      {
+        "id": "60e4618f-76e7-45d3-b30f-ab9ba9e94a17",
+        "evidence_source": "Diseña y propone investigaciones, en las que plantea acciones individuales y colectivas que promuevan el reconocimiento de las especies de su entorno para evitar su tala (plantas), captura y maltrato (animales) con fines de consumo o tráfico ilegal.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Diseña y propone investigaciones, en las que plantea acciones individuales y colectivas que promuevan el reconocimiento de las especies de su entorno para evitar su tala (plantas), captura y maltrato (animales) con fines de consumo o tráfico ilegal.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ecosistema.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "creer que figuras con igual área siempre tienen igual perímetro",
+        "pattern": "creer que figuras con igual área siempre tienen igual perímetro",
+        "feedback": "Revisemos esta idea: creer que figuras con igual área siempre tienen igual perímetro",
+        "visual": "concept_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre ecosistema?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender ecosistema?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "concept_map",
+        "trigger": "creer que figuras con igual área siempre tienen igual perímetro",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 5
+      }
+    }
+  }
+]

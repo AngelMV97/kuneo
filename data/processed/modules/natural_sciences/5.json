@@ -1,0 +1,737 @@
+[
+  {
+    "module_id": "56cd4e6d-bec2-47b7-9293-6045c3940ff7",
+    "source_unit_id": "206305e6-cd18-4d58-ad97-14ff09fc0855",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "5",
+    "difficulty": 2,
+    "title": "¿Cómo funciona movimiento?",
+    "learning_objective": "Comprende que un circuito eléctrico básico está formado por un generador o fuente (pila), conductores (cables) y uno o más dispositivos (bombillos, motores, timbres), que deben estar conectados apropiadamente (por sus dos polos) para que funcionen y produzcan diferentes efectos.",
+    "context": "niños construyendo un circuito eléctrico básico a partir de su respectivo diagrama.",
+    "core_concept": "movimiento",
+    "concepts": [
+      "movimiento",
+      "electricidad",
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "representational_thinking",
+    "skills": [
+      "comprender",
+      "identificar",
+      "identificar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con movimiento?",
+      "expected_signals": [
+        "movimiento",
+        "electricidad",
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "b99654cf-046b-48d2-8780-5c4d0271c03e",
+        "evidence_source": "Realiza circuitos eléctricos simples que funcionan con fuentes (pilas), cables y dispositivos (bombillo, motores, timbres) y los representa utilizando los símbolos apropiados.",
+        "type": "representation",
+        "prompt": "Representa la idea de movimiento usando un esquema, tabla o dibujo mental.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "representacion"
+        ],
+        "difficulty": 2,
+        "order": 1
+      },
+      {
+        "id": "c74e9d9e-bd03-4f8a-8997-0b6a07e603d5",
+        "evidence_source": "Identifica y soluciona dificultades cuando construye un circuito que no funciona.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con movimiento y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 2
+      },
+      {
+        "id": "f3cea292-6206-4203-a05a-36b688d78989",
+        "evidence_source": "Identifica los diferentes efectos que se producen en los componentes de un circuito como luz y calor en un bombillo, movimiento en un motor y sonido en un timbre.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con movimiento y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 3
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "creer que todos los materiales conducen electricidad de la misma forma",
+        "pattern": "creer que todos los materiales conducen electricidad de la misma forma",
+        "feedback": "Revisemos esta idea: creer que todos los materiales conducen electricidad de la misma forma",
+        "visual": "circuit_conductor_insulator",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre movimiento?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender movimiento?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "circuit_conductor_insulator",
+        "trigger": "creer que todos los materiales conducen electricidad de la misma forma",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 1
+      }
+    }
+  },
+  {
+    "module_id": "7343753f-eef8-41f0-a648-0dcdb0b8e25a",
+    "source_unit_id": "4840937a-1e9e-4894-bf52-41077c30f795",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "5",
+    "difficulty": 2,
+    "title": "¿Cómo funciona electricidad?",
+    "learning_objective": "Comprende que algunos materiales son buenos conductores de la corriente eléctrica y otros no (denominados aislantes) y que el paso de la corriente siempre genera calor.",
+    "context": "niño experimentando con distintos materiales conductores al conectarlo a un circuito eléctrico simple.",
+    "core_concept": "electricidad",
+    "concepts": [
+      "lectura_inferencial",
+      "electricidad",
+      "volumen"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "construir",
+      "identificar",
+      "explicar",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con electricidad?",
+      "expected_signals": [
+        "lectura_inferencial",
+        "electricidad",
+        "volumen"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "3cb197fa-adec-4c20-ae7c-06dba31b2fa7",
+        "evidence_source": "Construye experimentalmente circuitos sencillos para establecer qué materiales son buenos conductores de la corriente eléctrica y cuáles no.",
+        "type": "simulation_or_construction",
+        "prompt": "Trabajemos esta evidencia: Construye experimentalmente circuitos sencillos para establecer qué materiales son buenos conductores de la corriente eléctrica y cuáles no.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de electricidad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 1
+      },
+      {
+        "id": "c1ed72b3-92d0-4832-9783-72ba3afcb5f0",
+        "evidence_source": "Identifica, en un conjunto de materiales dados, cuáles son buenos conductores de corriente y cuáles son aislantes de acuerdo a su comportamiento dentro de un circuito eléctrico básico.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con electricidad y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de electricidad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 2
+      },
+      {
+        "id": "e6dea6c6-0a14-4482-adb2-a4273e1bed97",
+        "evidence_source": "Explica por qué algunos objetos se fabrican con ciertos materiales (por ejemplo, por qué los cables están recubiertos por plástico y formados por metal) en función de su capacidad para conducir electricidad.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica por qué algunos objetos se fabrican con ciertos materiales (por ejemplo, por qué los cables están recubiertos por plástico y formados por metal) en función de su capacidad para conducir electricidad.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de electricidad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 2,
+        "order": 3
+      },
+      {
+        "id": "bd3fde1b-ce8f-4604-b8af-de89b06fcb42",
+        "evidence_source": "Verifica, con el tacto, que los compontes de un circuito (cables, pilas, bombillos, motores) se calientan cuando están funcionando, y lo atribuye al paso de la corriente eléctrica.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Verifica, con el tacto, que los compontes de un circuito (cables, pilas, bombillos, motores) se calientan cuando están funcionando, y lo atribuye al paso de la corriente eléctrica.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de electricidad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "pensar que los aislantes no conducen nada de electricidad",
+        "pattern": "pensar que los aislantes no conducen nada de electricidad",
+        "feedback": "Revisemos esta idea: pensar que los aislantes no conducen nada de electricidad",
+        "visual": "circuit_conductor_insulator",
+        "intervention_level": 2
+      },
+      "misconception_2": {
+        "description": "creer que todos los materiales conducen electricidad de la misma forma",
+        "pattern": "creer que todos los materiales conducen electricidad de la misma forma",
+        "feedback": "Revisemos esta idea: creer que todos los materiales conducen electricidad de la misma forma",
+        "visual": "circuit_conductor_insulator",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre electricidad?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender electricidad?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "circuit_conductor_insulator",
+        "trigger": "pensar que los aislantes no conducen nada de electricidad",
+        "intervention_level": 2
+      },
+      {
+        "error_key": "misconception_2",
+        "visual_template": "circuit_conductor_insulator",
+        "trigger": "creer que todos los materiales conducen electricidad de la misma forma",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 2
+      }
+    }
+  },
+  {
+    "module_id": "a6016b20-93ac-4a9c-8efd-19161953438d",
+    "source_unit_id": "016bf8cd-976d-4181-af96-d983d51ea725",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "5",
+    "difficulty": 2,
+    "title": "¿Cómo funciona celula?",
+    "learning_objective": "Comprende que los sistemas del cuerpo humano están formados por órganos, tejidos y células y que la estructura de cada tipo de célula está relacionada con la función del tejido que forman.",
+    "context": "A partir de una situación como la siguiente: En una tarde soleada, Alejandro, un estudiante de quinto grado salió a montar en bicicleta con sus amigos. En el camino Alejandro perdió el control de su bicicleta y cayó. Para no golpear su cabeza, reaccionó con prontitud poniendo sus brazos sobre el suelo con la mala fortuna de rasparse las manos y fracturarse el cúbito y el radio (huesos del brazo). De sus manos salía mucha sangre y sentía dolor. ['Indica qué órganos y sistemas del cuerpo de Alejandro interactúan mientras monta en bicicleta; igualmente cuáles fueron los tejidos y órganos que se lastimaron y qué tipo de células presenta cada uno; señala de qué manera la estructura de esas células ayuda a cumplir su función dentro del tejido y propone cuidados que debe tener con su brazo fracturado y sus raspaduras para que sus tejidos se regeneren.']",
+    "core_concept": "celula",
+    "concepts": [
+      "celula",
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "explicar",
+      "comprender",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con celula?",
+      "expected_signals": [
+        "celula",
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "a1f77be0-4c95-4efc-98f4-f1f7964ffded",
+        "evidence_source": "Explica la estructura (órganos, tejidos y células) y las funciones de los sistemas de su cuerpo.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica la estructura (órganos, tejidos y células) y las funciones de los sistemas de su cuerpo.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de celula.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 2,
+        "order": 1
+      },
+      {
+        "id": "a6b453e1-afc1-4af9-ac99-9aa14889a1b5",
+        "evidence_source": "Relaciona el funcionamiento de los tejidos de un ser vivo con los tipos de células que posee.",
+        "type": "matching",
+        "prompt": "Trabajemos esta evidencia: Relaciona el funcionamiento de los tejidos de un ser vivo con los tipos de células que posee.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de celula.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 2
+      },
+      {
+        "id": "865e9ced-b48c-4f38-9a2a-2525be4f0032",
+        "evidence_source": "Asocia el cuidado de sus sistemas con una alimentación e higiene adecuadas.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Asocia el cuidado de sus sistemas con una alimentación e higiene adecuadas.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de celula.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 3
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "creer que todas las células son iguales",
+        "pattern": "creer que todas las células son iguales",
+        "feedback": "Revisemos esta idea: creer que todas las células son iguales",
+        "visual": "concept_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre celula?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender celula?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "concept_map",
+        "trigger": "creer que todas las células son iguales",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 3
+      }
+    }
+  },
+  {
+    "module_id": "1ddc440f-f3c1-4a89-8fbe-300edc9d685e",
+    "source_unit_id": "b5a1ef36-cb6f-433e-822e-704cb20d166f",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "5",
+    "difficulty": 2,
+    "title": "¿Cómo funciona celula?",
+    "learning_objective": "Comprende que en los seres humanos (y en muchos otros animales) la nutrición involucra el funcionamiento integrado de un conjunto de sistemas de órganos: digestivo, respiratorio y circulatorio.",
+    "context": "['Explica a qué se debe el aumento del ritmo cardiaco de los jugadores de fútbol después de treinta minutos de partido, identificando las necesidades de energía en sus células, que se libera a partir de la combinación del oxígeno (proveniente del sistema respiratorio) y de los nutrientes (provenientes del sistema digestivo) que son llevados por la sangre (como parte del sistema circulatorio).']",
+    "core_concept": "celula",
+    "concepts": [
+      "celula",
+      "estadistica",
+      "fracciones",
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "explicar",
+      "comprender",
+      "explicar",
+      "explicar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con celula?",
+      "expected_signals": [
+        "celula",
+        "estadistica",
+        "fracciones",
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "6dd696f5-4ffe-4525-9718-8236628cee74",
+        "evidence_source": "Explica el camino que siguen los alimentos en el organismo y los cambios que sufren durante el proceso de digestión desde que son ingeridos hasta que los nutrientes llegan a las células.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica el camino que siguen los alimentos en el organismo y los cambios que sufren durante el proceso de digestión desde que son ingeridos hasta que los nutrientes llegan a las células.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de celula.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 2,
+        "order": 1
+      },
+      {
+        "id": "27347645-0c8c-4d67-874f-d6f356f354fd",
+        "evidence_source": "Relaciona las características de los órganos del sistema digestivo (tipos de dientes, características de intestinos y estómagos) de diferentes organismos con los tipos de alimento que consumen.",
+        "type": "matching",
+        "prompt": "Trabajemos esta evidencia: Relaciona las características de los órganos del sistema digestivo (tipos de dientes, características de intestinos y estómagos) de diferentes organismos con los tipos de alimento que consumen.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de celula.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 2,
+        "order": 2
+      },
+      {
+        "id": "535b40c2-36b5-405b-88a9-623608ff796b",
+        "evidence_source": "Explica por qué cuando se hace ejercicio físico aumentan tanto la frecuencia cardíaca como la respiratoria y vincula la explicación con los procesos de obtención de energía de las células.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica por qué cuando se hace ejercicio físico aumentan tanto la frecuencia cardíaca como la respiratoria y vincula la explicación con los procesos de obtención de energía de las células.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de celula.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 2,
+        "order": 3
+      },
+      {
+        "id": "14177878-6373-406a-9238-25fdc9e7e17d",
+        "evidence_source": "Explica el intercambio gaseoso que ocurre en los alvéolos pulmonares, entre la sangre y el aire, y lo relaciona con los procesos de obtención de energía de las células.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica el intercambio gaseoso que ocurre en los alvéolos pulmonares, entre la sangre y el aire, y lo relaciona con los procesos de obtención de energía de las células.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de celula.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 2,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "creer que todas las células son iguales",
+        "pattern": "creer que todas las células son iguales",
+        "feedback": "Revisemos esta idea: creer que todas las células son iguales",
+        "visual": "concept_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre celula?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender celula?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "concept_map",
+        "trigger": "creer que todas las células son iguales",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 4
+      }
+    }
+  }
+]

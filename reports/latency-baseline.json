@@ -1,0 +1,1171 @@
+{
+  "date": "2026-11-05T15:19:33.048Z",
+  "variant": "baseline",
+  "config": {
+    "activityModel": "gpt-4.1-mini",
+    "reviewModel": "gpt-4.1-mini",
+    "compact": false
+  },
+  "scope": "Synthetic OpenAI experiment. No student records or Supabase access.",
+  "activities": [
+    {
+      "case": "math2",
+      "subject": "mathematics",
+      "grade": 2,
+      "dimension": "comprension",
+      "requested": "option",
+      "logs": [
+        {
+          "task": "kuneo_activity",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "ms": 4593,
+          "usage": {
+            "prompt_tokens": 1794,
+            "completion_tokens": 370,
+            "total_tokens": 2164,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.001489
+        },
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "ms": 2141,
+          "usage": {
+            "prompt_tokens": 1323,
+            "completion_tokens": 174,
+            "total_tokens": 1497,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0009399000000000001
+        },
+        {
+          "task": "kuneo_audit",
+          "model": "gpt-6.1-terra",
+          "resolvedModel": "gpt-6.1-terra",
+          "ms": 3383,
+          "usage": {
+            "prompt_tokens": 769,
+            "completion_tokens": 178,
+            "total_tokens": 947,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.00185125
+        }
+      ],
+      "ms": 6742,
+      "metrics": {
+        "timestamp": "2026-11-05T15:19:39.793Z",
+        "request_id": "c5d93a19-4f2d-4306-90fb-2d05f0b6bd76",
+        "operation": "latency_probe",
+        "status": 200,
+        "total_ms": 6742,
+        "stages": {
+          "openai_generation": 4594,
+          "openai_evaluation": 2141
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 1794,
+            "output_tokens": 370,
+            "cached_input_tokens": 0
+          },
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 1323,
+            "output_tokens": 174,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {
+          "generation_outcome": "generated"
+        }
+      },
+      "activity": {
+        "id": "6bd7e966-3df1-4dfc-8d78-e576b5a8c5cc",
+        "step_id": "aceb92a0-634a-471c-9fed-537e28b343a0",
+        "question": "En una clase de segundo grado, la profesora pidió a los niños contar las crayolas que tienen en sus estuches. Juan tiene 4 crayolas y Ana tiene 5 crayolas. ¿Cuántas crayolas tienen entre los dos?\n\n¿Cuál es la respuesta correcta?",
+        "type": "option",
+        "options": [
+          "Tienen 7 crayolas en total.",
+          "Tienen 8 crayolas en total.",
+          "Tienen 9 crayolas en total.",
+          "Tienen 10 crayolas en total."
+        ],
+        "cognitive_dimension": "comprension",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "6bd7e966-3df1-4dfc-8d78-e576b5a8c5cc",
+        "user_id": "synthetic-latency-probe",
+        "module_id": "3a50b558-6559-4c7c-a94a-f0fb201633c6",
+        "step_id": "aceb92a0-634a-471c-9fed-537e28b343a0",
+        "question": "En una clase de segundo grado, la profesora pidió a los niños contar las crayolas que tienen en sus estuches. Juan tiene 4 crayolas y Ana tiene 5 crayolas. ¿Cuántas crayolas tienen entre los dos?\n\n¿Cuál es la respuesta correcta?",
+        "type": "option",
+        "options": [
+          "Tienen 7 crayolas en total.",
+          "Tienen 8 crayolas en total.",
+          "Tienen 9 crayolas en total.",
+          "Tienen 10 crayolas en total."
+        ],
+        "left_items": [],
+        "right_items": [],
+        "expected": {
+          "type": "option",
+          "correct_options": [
+            2
+          ]
+        },
+        "learning_focus": "Sumar cantidades pequeñas de objetos en situaciones escolares",
+        "option_explanations": [
+          "7 es incorrecto porque 4 + 5 no es 7.",
+          "8 es incorrecto porque 4 + 5 no es 8.",
+          "9 es correcto porque 4 + 5 es 9.",
+          "10 es incorrecto porque 4 + 5 no es 10."
+        ],
+        "pair_explanations": [],
+        "rubric": "Se acepta cualquier respuesta que indique correctamente que la suma de 4 y 5 es 9, y que expliquen que sumaron las crayolas de Juan y Ana para encontrar el total. No se penaliza si se usa diferentes palabras, siempre que indiquen la suma correcta.",
+        "hint": "¿Cuántas crayolas tiene cada niño? ¿Cómo puedes juntar esas cantidades para saber el total?",
+        "explanation": "Sumamos la cantidad de crayolas que tiene Juan (4) con la cantidad de Ana (5). Esto da 4 + 5 = 9 crayolas en total, que es la suma correcta.",
+        "dimension": "comprension",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "mathematics",
+        "support_context": {
+          "topic": "Sumar cantidades pequeñas de objetos en situaciones escolares",
+          "concept": "Sumar cantidades pequeñas de objetos en situaciones escolares",
+          "learning_goal": "Sumar cantidades pequeñas de objetos en situaciones escolares"
+        },
+        "grade_group": "1-3",
+        "expires_at": 1793978379793
+      },
+      "audit": {
+        "verification": "4 + 5 = 9 crayolas. Las opciones 7, 8 y 10 son incorrectas; la opción 9 es correcta y sus explicaciones coinciden con el cálculo. La pista y la explicación final son correctas. El contexto escolar interviene en la suma y la actividad es adecuada para segundo grado, comprensión y el idioma. La rúbrica exige explicar la suma, aunque la pregunta solo pide seleccionar una opción. La clave [2] identifica la tercera opción únicamente si se usan índices desde cero; no se especifica la convención.",
+        "approved": false,
+        "issues": [
+          "La rúbrica exige una explicación que no se solicita ni puede darse en la respuesta de opción.",
+          "La clave [2] es ambigua porque no se indica si las opciones se numeran desde cero o desde uno."
+        ]
+      }
+    },
+    {
+      "case": "language3",
+      "subject": "language",
+      "grade": 3,
+      "dimension": "comprension",
+      "requested": "multiple_select",
+      "logs": [
+        {
+          "task": "kuneo_activity",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "ms": 4600,
+          "usage": {
+            "prompt_tokens": 1834,
+            "completion_tokens": 427,
+            "total_tokens": 2261,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0016002
+        },
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "ms": 1737,
+          "usage": {
+            "prompt_tokens": 1379,
+            "completion_tokens": 204,
+            "total_tokens": 1583,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0010159000000000001
+        },
+        {
+          "task": "kuneo_audit",
+          "model": "gpt-6.1-terra",
+          "resolvedModel": "gpt-6.1-terra",
+          "ms": 4179,
+          "usage": {
+            "prompt_tokens": 821,
+            "completion_tokens": 217,
+            "total_tokens": 1038,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.00211125
+        }
+      ],
+      "ms": 6341,
+      "metrics": {
+        "timestamp": "2026-11-05T15:19:39.399Z",
+        "request_id": "5a303903-8a9b-43d3-989c-407b30318d3d",
+        "operation": "latency_probe",
+        "status": 200,
+        "total_ms": 6341,
+        "stages": {
+          "openai_generation": 4601,
+          "openai_evaluation": 1737
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 1834,
+            "output_tokens": 427,
+            "cached_input_tokens": 0
+          },
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 1379,
+            "output_tokens": 204,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {
+          "generation_outcome": "generated"
+        }
+      },
+      "activity": {
+        "id": "3824312a-dc78-4340-ac5e-3755a9c7a932",
+        "step_id": "2e6a86b4-b40f-4ced-996f-05ad3b66652a",
+        "question": "Lee el siguiente relato corto y responde sobre las causas y consecuencias que aparecen:\n\n\"Juan tenía una bicicleta vieja y oxidada. Un día, decidió limpiarla y arreglar los frenos que no funcionaban bien. Después de terminar, salió a dar un paseo por el parque y se sintió muy feliz porque la bicicleta andaba como nueva.\"\n\nSelecciona todas las consecuencias que se pueden identificar en el relato:",
+        "type": "multiple_select",
+        "options": [
+          "Juan decidió limpiar la bicicleta.",
+          "La bicicleta andaba como nueva.",
+          "Juan estaba feliz después del paseo.",
+          "Los frenos no funcionaban bien."
+        ],
+        "cognitive_dimension": "comprension",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "3824312a-dc78-4340-ac5e-3755a9c7a932",
+        "user_id": "synthetic-latency-probe",
+        "module_id": "9ce57c92-3f2b-44c9-be79-3c02a4faec4f",
+        "step_id": "2e6a86b4-b40f-4ced-996f-05ad3b66652a",
+        "question": "Lee el siguiente relato corto y responde sobre las causas y consecuencias que aparecen:\n\n\"Juan tenía una bicicleta vieja y oxidada. Un día, decidió limpiarla y arreglar los frenos que no funcionaban bien. Después de terminar, salió a dar un paseo por el parque y se sintió muy feliz porque la bicicleta andaba como nueva.\"\n\nSelecciona todas las consecuencias que se pueden identificar en el relato:",
+        "type": "multiple_select",
+        "options": [
+          "Juan decidió limpiar la bicicleta.",
+          "La bicicleta andaba como nueva.",
+          "Juan estaba feliz después del paseo.",
+          "Los frenos no funcionaban bien."
+        ],
+        "left_items": [],
+        "right_items": [],
+        "expected": {
+          "type": "multiple_select",
+          "correct_options": [
+            1,
+            2
+          ]
+        },
+        "learning_focus": "Comprender causas y consecuencias en un relato corto en español",
+        "option_explanations": [
+          "Esta es una causa, pues es una acción que Juan hace antes de que ocurran las consecuencias.",
+          "Correcto, es una consecuencia porque muestra el resultado de haber arreglado la bicicleta.",
+          "Correcto, es una consecuencia porque indica cómo se sintió Juan después de usar la bicicleta arreglada.",
+          "Esta es una causa, pues un problema previo que llevó a Juan a arreglarla."
+        ],
+        "pair_explanations": [],
+        "rubric": "Se considera correcta la selección que incluye todas las consecuencias mostradas en el relato (la bicicleta andaba como nueva y Juan estaba feliz después del paseo). Se acepta que el estudiante explique que estas consecuencias ocurren después de que Juan limpia y arregla la bicicleta.",
+        "hint": "Piensa en qué pasa después de que Juan limpia y arregla su bicicleta. ¿Qué resultados o efectos tiene eso en la historia?",
+        "explanation": "La limpieza y arreglo de la bicicleta (causas) provocan que la bicicleta ande bien y que Juan se sienta feliz (consecuencias). Las otras opciones son causas o condiciones del problema, no consecuencias.",
+        "dimension": "comprension",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "language",
+        "support_context": {
+          "topic": "Comprender causas y consecuencias en un relato corto en español",
+          "concept": "Comprender causas y consecuencias en un relato corto en español",
+          "learning_goal": "Comprender causas y consecuencias en un relato corto en español"
+        },
+        "grade_group": "1-3",
+        "expires_at": 1793978379398
+      },
+      "audit": {
+        "verification": "El relato permite inferir que, tras limpiar y arreglar la bicicleta, esta andaba como nueva, y dice que Juan se sintió feliz porque andaba así. Por tanto, las opciones 1 y 2 son consecuencias. La opción 3 describe un problema previo; la 0 es una acción previa, pero también puede interpretarse como consecuencia del estado de la bicicleta. La rúbrica y la explicación repiten esa clasificación discutible. El texto está en español, es adecuado para tercer grado y usa el relato para trabajar comprensión causal.",
+        "approved": false,
+        "issues": [
+          "La consigna pide todas las consecuencias sin limitarse a las de limpiar y arreglar la bicicleta. Juan decidió limpiarla después de presentarse su estado viejo y oxidado, por lo que la opción 0 admite interpretarse como consecuencia; la clave no la acepta.",
+          "La explicación de la opción 0 la clasifica como causa solo por ocurrir antes de otros hechos: la anterioridad por sí sola no demuestra causalidad."
+        ]
+      }
+    },
+    {
+      "case": "science4",
+      "subject": "natural_sciences",
+      "grade": 4,
+      "dimension": "transferencia",
+      "requested": "text",
+      "logs": [
+        {
+          "task": "kuneo_activity",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "ms": 3883,
+          "usage": {
+            "prompt_tokens": 1829,
+            "completion_tokens": 481,
+            "total_tokens": 2310,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0016841
+        },
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "ms": 1951,
+          "usage": {
+            "prompt_tokens": 1440,
+            "completion_tokens": 222,
+            "total_tokens": 1662,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0010752000000000001
+        },
+        {
+          "task": "kuneo_audit",
+          "model": "gpt-6.1-terra",
+          "resolvedModel": "gpt-6.1-terra",
+          "ms": 4094,
+          "usage": {
+            "prompt_tokens": 1020,
+            "completion_tokens": 189,
+            "total_tokens": 1209,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.00222
+        }
+      ],
+      "ms": 5838,
+      "metrics": {
+        "timestamp": "2026-11-05T15:19:49.016Z",
+        "request_id": "2b448ac2-06cb-4bf4-b54c-d7b2e1094317",
+        "operation": "latency_probe",
+        "status": 200,
+        "total_ms": 5838,
+        "stages": {
+          "openai_generation": 3884,
+          "openai_evaluation": 1951
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 1829,
+            "output_tokens": 481,
+            "cached_input_tokens": 0
+          },
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 1440,
+            "output_tokens": 222,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {
+          "generation_outcome": "generated"
+        }
+      },
+      "activity": {
+        "id": "f08275a6-470d-4602-9484-3ceda0ab74d5",
+        "step_id": "622525d6-8647-42a2-b29b-e681f49bbde3",
+        "question": "En una tarde soleada, Ana y Juan están observando diferentes objetos para entender cómo ocurre la transferencia de calor. Ana sostiene una taza de agua caliente y Juan toca una bolsa con hielo. Ambos notan que la taza se enfría poco a poco y la bolsa con hielo se derrite. \n\nExplica con tus palabras qué está pasando con el calor en ambos casos y por qué ocurren estos cambios de estado en los objetos que Ana y Juan tienen. Usa ejemplos que hayas visto en tu vida diaria para apoyar tu explicación.",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "transferencia",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "f08275a6-470d-4602-9484-3ceda0ab74d5",
+        "user_id": "synthetic-latency-probe",
+        "module_id": "50a94beb-65cf-49a3-bbb3-a1e37a5c57cb",
+        "step_id": "622525d6-8647-42a2-b29b-e681f49bbde3",
+        "question": "En una tarde soleada, Ana y Juan están observando diferentes objetos para entender cómo ocurre la transferencia de calor. Ana sostiene una taza de agua caliente y Juan toca una bolsa con hielo. Ambos notan que la taza se enfría poco a poco y la bolsa con hielo se derrite. \n\nExplica con tus palabras qué está pasando con el calor en ambos casos y por qué ocurren estos cambios de estado en los objetos que Ana y Juan tienen. Usa ejemplos que hayas visto en tu vida diaria para apoyar tu explicación.",
+        "type": "text",
+        "options": [],
+        "left_items": [],
+        "right_items": [],
+        "expected": {
+          "type": "rubric",
+          "answer": "La explicación debe mencionar que el calor se transfiere de la taza de agua caliente al ambiente, enfriando el agua, y que en la bolsa con hielo el calor del ambiente se transfiere al hielo, causando que se derrita (cambio de sólido a líquido). También se esperaría que el estudiante ejemplifique con experiencias cotidianas, como sentir frío al tocar algo muy frío o que el agua caliente se enfría con el tiempo.",
+          "rubric": "Se evalúa que el estudiante describa correctamente cómo el calor se mueve de un objeto caliente hacia uno más frío y cómo esto provoca cambios de estado (enfriamiento y calentamiento, estado sólido a líquido). Se aceptan explicaciones que usen ejemplos cotidianos relevantes y que reflejen comprensión de la transferencia de calor y los cambios de estado. No es necesario usar términos científicos exactos, pero sí mostrar la causa y efecto de la transferencia de calor."
+        },
+        "learning_focus": "transferir el conocimiento sobre transferencia de calor para explicar cambios de estado en situaciones cotidianas",
+        "option_explanations": [],
+        "pair_explanations": [],
+        "rubric": "Se evalúa que el estudiante describa correctamente cómo el calor se mueve de un objeto caliente hacia uno más frío y cómo esto provoca cambios de estado (enfriamiento y calentamiento, estado sólido a líquido). Se aceptan explicaciones que usen ejemplos cotidianos relevantes y que reflejen comprensión de la transferencia de calor y los cambios de estado. No es necesario usar términos científicos exactos, pero sí mostrar la causa y efecto de la transferencia de calor.",
+        "hint": "Piensa en cómo el calor se mueve: ¿de dónde sale y hacia dónde va? ¿Qué le pasa al hielo cuando recibe calor? ¿Qué le pasa al agua caliente cuando pierde calor?",
+        "explanation": "El calor siempre se mueve de donde hay más temperatura a donde hay menos. En el caso de la taza, el calor se pierde hacia el ambiente, por eso el agua se enfría. En la bolsa, el hielo recibe calor del aire y eso lo hace pasar de sólido a líquido, un cambio de estado que aprendemos al estudiar transferencias de calor.",
+        "dimension": "transferencia",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "Explicar cambios de estado y transferencia de calor usando observaciones cotidianas",
+          "concept": "Explicar cambios de estado y transferencia de calor usando observaciones cotidianas",
+          "learning_goal": "Explicar cambios de estado y transferencia de calor usando observaciones cotidianas"
+        },
+        "grade_group": "4-5",
+        "expires_at": 1793978389016
+      },
+      "audit": {
+        "verification": "El agua caliente cede calor a su entorno y se enfría; el hielo recibe calor del entorno y se funde, de sólido a líquido. La respuesta esperada, la pista y la explicación identifican correctamente esos procesos. La rúbrica, duplicada en dos campos, confunde enfriamiento y calentamiento con cambios de estado. La situación cotidiana permite aplicar la relación entre calor y fusión; el idioma y la dificultad son adecuados para cuarto grado.",
+        "approved": false,
+        "issues": [
+          "La pregunta presupone cambios de estado en ambos objetos, pero solo se describe la fusión del hielo; el enfriamiento del agua no implica por sí mismo un cambio de estado.",
+          "La rúbrica presenta el enfriamiento y el calentamiento como cambios de estado, en lugar de cambios de temperatura. Esto puede llevar a evaluar como correcta una explicación científicamente incorrecta."
+        ]
+      }
+    },
+    {
+      "case": "social10",
+      "subject": "social_studies",
+      "grade": 10,
+      "dimension": "transferencia",
+      "requested": "option",
+      "logs": [
+        {
+          "task": "kuneo_activity",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "ms": 5202,
+          "usage": {
+            "prompt_tokens": 1823,
+            "completion_tokens": 690,
+            "total_tokens": 2513,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0020155
+        },
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "ms": 2172,
+          "usage": {
+            "prompt_tokens": 1650,
+            "completion_tokens": 247,
+            "total_tokens": 1897,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0012202
+        },
+        {
+          "task": "kuneo_audit",
+          "model": "gpt-6.1-terra",
+          "resolvedModel": "gpt-6.1-terra",
+          "ms": 5011,
+          "usage": {
+            "prompt_tokens": 1096,
+            "completion_tokens": 283,
+            "total_tokens": 1379,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 1093,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.002785
+        }
+      ],
+      "ms": 7377,
+      "metrics": {
+        "timestamp": "2026-11-05T15:19:50.958Z",
+        "request_id": "a7772ca8-0d36-40c9-b56f-d70147d5a78e",
+        "operation": "latency_probe",
+        "status": 200,
+        "total_ms": 7377,
+        "stages": {
+          "openai_generation": 5203,
+          "openai_evaluation": 2172
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 1823,
+            "output_tokens": 690,
+            "cached_input_tokens": 0
+          },
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 1650,
+            "output_tokens": 247,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {
+          "generation_outcome": "generated"
+        }
+      },
+      "activity": {
+        "id": "84e6023b-7fbf-478e-830b-902f98eebe72",
+        "step_id": "1e48925e-28a0-42e3-8b67-6b35f009b167",
+        "question": "En un barrio llamado El Prado, se recogieron las opiniones de la comunidad y diferentes datos reales respecto a la construcción de un parque público. Aquí están los datos recopilados:\n\n| Fuente                 | Tipo                        | Punto principal                                   |\n|-----------------------|-----------------------------|--------------------------------------------------|\n| Encuesta Ciudadana    | Opinión                     | El 75% de los vecinos está a favor del parque.  |\n| Informe Ambiental     | Hecho científico            | La zona tiene 15 árboles grandes y 30 pequeños. |\n| Opinión de Alcalde    | Declaración oficial          | El parque mejorará la calidad del aire.          |\n| Estudio Económico     | Hecho basado en datos       | El parque atraerá 300 visitantes mensuales.       |\n| Comentario en redes   | Opinión personal            | \"No creo que el parque sea seguro ni útil.\"     |\n\nSi la comunidad debe tomar una decisión para apoyar o no la construcción del parque, ¿qué afirmación describe mejor cómo deberían usar esta información?\n",
+        "type": "option",
+        "options": [
+          "Deben tomar la decisión solo basándose en la opinión de la mayoría, que está a favor.",
+          "Deben apoyar el proyecto porque los hechos muestran que el parque tendrá beneficios ambientales y económicos, aunque existan algunas opiniones contrarias.",
+          "Deben no construir el parque porque un comentario en redes sociales dice que no es seguro.",
+          "Deben rechazar el parque porque la opinión oficial del alcalde no es suficiente para justificarlo."
+        ],
+        "cognitive_dimension": "transferencia",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "84e6023b-7fbf-478e-830b-902f98eebe72",
+        "user_id": "synthetic-latency-probe",
+        "module_id": "06638804-f673-47ba-99d0-1aabf211dede",
+        "step_id": "1e48925e-28a0-42e3-8b67-6b35f009b167",
+        "question": "En un barrio llamado El Prado, se recogieron las opiniones de la comunidad y diferentes datos reales respecto a la construcción de un parque público. Aquí están los datos recopilados:\n\n| Fuente                 | Tipo                        | Punto principal                                   |\n|-----------------------|-----------------------------|--------------------------------------------------|\n| Encuesta Ciudadana    | Opinión                     | El 75% de los vecinos está a favor del parque.  |\n| Informe Ambiental     | Hecho científico            | La zona tiene 15 árboles grandes y 30 pequeños. |\n| Opinión de Alcalde    | Declaración oficial          | El parque mejorará la calidad del aire.          |\n| Estudio Económico     | Hecho basado en datos       | El parque atraerá 300 visitantes mensuales.       |\n| Comentario en redes   | Opinión personal            | \"No creo que el parque sea seguro ni útil.\"     |\n\nSi la comunidad debe tomar una decisión para apoyar o no la construcción del parque, ¿qué afirmación describe mejor cómo deberían usar esta información?\n",
+        "type": "option",
+        "options": [
+          "Deben tomar la decisión solo basándose en la opinión de la mayoría, que está a favor.",
+          "Deben apoyar el proyecto porque los hechos muestran que el parque tendrá beneficios ambientales y económicos, aunque existan algunas opiniones contrarias.",
+          "Deben no construir el parque porque un comentario en redes sociales dice que no es seguro.",
+          "Deben rechazar el parque porque la opinión oficial del alcalde no es suficiente para justificarlo."
+        ],
+        "left_items": [],
+        "right_items": [],
+        "expected": {
+          "type": "option",
+          "correct_options": [
+            1
+          ]
+        },
+        "learning_focus": "Tomar decisiones comunitarias analizando y contrastando hechos y opiniones para lograr la mejor opción posible.",
+        "option_explanations": [
+          "La mayoría puede tener una buena opinión, pero solo basarse en opiniones sin datos puede ser insuficiente.",
+          "El proyecto tiene respaldo en hechos ambientales y económicos que se deben valorar junto con opiniones; por eso esta opción es la adecuada.",
+          "Una opinión personal en redes puede no representar la realidad ni información confiable para decidir.",
+          "Una opinión oficial debe estar apoyada en hechos y datos, y no es suficiente para rechazar un proyecto si hay evidencia de beneficios."
+        ],
+        "pair_explanations": [],
+        "rubric": "Se considera correcta la opción que indica que para decidir deben priorizar los hechos científicos y datos económicos que muestran beneficios reales, aun cuando hay opiniones en contra; se rechaza confiar solo en opiniones mayoritarias o aisladas, o en opiniones oficiales sin soporte de datos. Cualquier explicación que evidencie comprensión del contraste entre hechos y opiniones y la importancia de datos para decisiones comunitarias es válida.",
+        "hint": "¿Qué es más confiable para tomar una buena decisión: una opinión personal o datos concretos y hechos comprobados? ¿Cómo puedes usar cada tipo de información para apoyar o rechazar una propuesta comunitaria?",
+        "explanation": "Para tomar decisiones comunitarias se deben analizar datos objetivos y científicos, junto con opiniones mayoritarias y oficiales, pero no tomar decisiones basadas solo en opiniones aisladas o sin respaldo. La opción correcta muestra cómo integrar información para una mejor decisión.",
+        "dimension": "transferencia",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "social_studies",
+        "support_context": {
+          "topic": "Tomar decisiones comunitarias usando datos y contrastando hechos y opiniones de fuentes simuladas",
+          "concept": "Tomar decisiones comunitarias usando datos y contrastando hechos y opiniones de fuentes simuladas",
+          "learning_goal": "Tomar decisiones comunitarias usando datos y contrastando hechos y opiniones de fuentes simuladas"
+        },
+        "grade_group": "10-11",
+        "expires_at": 1793978390957
+      },
+      "audit": {
+        "verification": "La opción 0 descarta indebidamente los demás datos; la 2 decide a partir de un comentario aislado; y la 3 rechaza el proyecto solo por la falta de sustento de una declaración. La opción 1, marcada como correcta, tampoco se sostiene: contar 15 árboles grandes y 30 pequeños no demuestra un beneficio ambiental, y 300 visitantes previstos no prueban un beneficio económico. Las explicaciones de las opciones 1 y 3 y la rúbrica atribuyen beneficios no demostrados; la explicación general llama integración a una conclusión que los datos no justifican. El contexto comunitario es pertinente para transferencia y el idioma y la complejidad son adecuados para grado 10.",
+        "approved": false,
+        "issues": [
+          "No hay una opción plenamente correcta: contrastar la información disponible no obliga a apoyar ni a rechazar el parque.",
+          "La clave y la rúbrica presentan como beneficios comprobados un conteo de árboles y una cifra de visitantes, sin información que permita inferir beneficios ambientales o económicos.",
+          "La mejora de la calidad del aire es una declaración del alcalde sin evidencia presentada; los 300 visitantes son una proyección, no un hecho ocurrido. Además, la cifra del 75 % procede de una encuesta, pero no se informa su alcance ni representatividad para afirmar que corresponde a todos los vecinos."
+        ]
+      }
+    },
+    {
+      "case": "english11",
+      "subject": "english",
+      "grade": 11,
+      "dimension": "metacognicion",
+      "requested": "text",
+      "logs": [
+        {
+          "task": "kuneo_activity",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "ms": 3695,
+          "usage": {
+            "prompt_tokens": 1827,
+            "completion_tokens": 494,
+            "total_tokens": 2321,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0017039000000000002
+        },
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "ms": 1927,
+          "usage": {
+            "prompt_tokens": 1452,
+            "completion_tokens": 206,
+            "total_tokens": 1658,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0010556
+        },
+        {
+          "task": "kuneo_audit",
+          "model": "gpt-6.1-terra",
+          "resolvedModel": "gpt-6.1-terra",
+          "ms": 2459,
+          "usage": {
+            "prompt_tokens": 1042,
+            "completion_tokens": 130,
+            "total_tokens": 1172,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 1039,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0019525
+        }
+      ],
+      "ms": 5624,
+      "metrics": {
+        "timestamp": "2026-11-05T15:19:58.736Z",
+        "request_id": "e735a9d7-fd29-4cd4-b68c-bb31a931d831",
+        "operation": "latency_probe",
+        "status": 200,
+        "total_ms": 5624,
+        "stages": {
+          "openai_generation": 3695,
+          "openai_evaluation": 1927
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 1827,
+            "output_tokens": 494,
+            "cached_input_tokens": 0
+          },
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 1452,
+            "output_tokens": 206,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {
+          "generation_outcome": "generated"
+        }
+      },
+      "activity": {
+        "id": "af9b2c40-3aab-4f3a-ab59-41b12b5e51da",
+        "step_id": "75a04180-e358-40d3-afb3-c062e4086739",
+        "question": "Read the following sentence:  \n\"The children were ecstatic when they saw the amusement park; their faces lit up with joy and excitement.\"  \nNow, think about the word \"ecstatic.\" What does it mean based on the context of the sentence? Explain in your own words how you can check if your interpretation of \"ecstatic\" is correct without immediately looking it up in a dictionary.",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "metacognicion",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "af9b2c40-3aab-4f3a-ab59-41b12b5e51da",
+        "user_id": "synthetic-latency-probe",
+        "module_id": "b49f602d-2e76-4a7e-bf2d-2410ec109c13",
+        "step_id": "75a04180-e358-40d3-afb3-c062e4086739",
+        "question": "Read the following sentence:  \n\"The children were ecstatic when they saw the amusement park; their faces lit up with joy and excitement.\"  \nNow, think about the word \"ecstatic.\" What does it mean based on the context of the sentence? Explain in your own words how you can check if your interpretation of \"ecstatic\" is correct without immediately looking it up in a dictionary.",
+        "type": "text",
+        "options": [],
+        "left_items": [],
+        "right_items": [],
+        "expected": {
+          "type": "rubric",
+          "answer": "El estudiante debe explicar que \"ecstatic\" significa muy feliz, emocionado o lleno de alegría, basado en las pistas contextuales como \"caras iluminadas con alegría y emoción\". Para comprobar su interpretación puede describir estrategias como: buscar sinónimos en el mismo texto, analizar palabras clave que rodean el término, o parafrasear la oración para ver si el sentido se mantiene, antes de consultar un diccionario.",
+          "rubric": "Evalúa si el estudiante infiere correctamente el significado de \"ecstatic\" usando el contexto dado y si propone una estrategia válida de comprobación que no sea buscar inmediatamente en un diccionario. Se acepta que explique que usa pistas del texto para deducir el sentido y luego valida con sinónimos, parafraseo o confirmación con otras fuentes/contextos similares. Se considera incompleto o incorrecto si no presenta un razonamiento basado en el contexto o si no da ninguna estrategia de verificación."
+        },
+        "learning_focus": "Inferir vocabulario inglés por el contexto y explicar cómo comprobar la interpretación",
+        "option_explanations": [],
+        "pair_explanations": [],
+        "rubric": "Evalúa si el estudiante infiere correctamente el significado de \"ecstatic\" usando el contexto dado y si propone una estrategia válida de comprobación que no sea buscar inmediatamente en un diccionario. Se acepta que explique que usa pistas del texto para deducir el sentido y luego valida con sinónimos, parafraseo o confirmación con otras fuentes/contextos similares. Se considera incompleto o incorrecto si no presenta un razonamiento basado en el contexto o si no da ninguna estrategia de verificación.",
+        "hint": "Piensa en las palabras que describen cómo se sienten los niños y cómo se ven. ¿Qué palabras o frases ayudan a entender \"ecstatic\"? ¿Cómo puedes estar seguro de que tu idea es correcta?",
+        "explanation": "La palabra \"ecstatic\" se entiende mejor por pistas en la oración: los niños están en un parque de diversiones y sus caras muestran alegría y emoción, lo que sugiere que \"ecstatic\" significa muy felices o emocionados. Una forma de comprobar esto sin usar un diccionario directamente es revisar palabras similares en el texto o tratar de explicar la palabra en otras palabras para ver si tiene sentido. Esto ayuda a desarrollar habilidades para inferir y confirmar vocabulario nuevo usando el contexto y estrategias de metacognición.",
+        "dimension": "metacognicion",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "english",
+        "support_context": {
+          "topic": "Inferir vocabulario inglés por el contexto y explicar cómo comprobar la interpretación",
+          "concept": "Inferir vocabulario inglés por el contexto y explicar cómo comprobar la interpretación",
+          "learning_goal": "Inferir vocabulario inglés por el contexto y explicar cómo comprobar la interpretación"
+        },
+        "grade_group": "10-11",
+        "expires_at": 1793978398736
+      },
+      "audit": {
+        "verification": "La pista «their faces lit up with joy and excitement» respalda inferir que ecstatic significa muy feliz o emocionado. Sustituir la palabra por «very happy» y comprobar que la oración conserva su sentido es una estrategia válida. Ambas rúbricas coinciden y exigen inferencia contextual y comprobación; la pista y la explicación son coherentes. La actividad es adecuada para inglés de grado 11 y trabaja metacognición mediante la comprobación. El contexto del parque y la reacción de los niños intervienen en la inferencia.",
+        "approved": true,
+        "issues": []
+      }
+    }
+  ],
+  "controls": [
+    {
+      "id": "good-sum",
+      "expected": true,
+      "observed": true,
+      "passed": true,
+      "review": {
+        "verification": "La actividad presenta un problema contextualizado en una biblioteca escolar, adecuado para estudiantes de 1° a 3° grado. La pregunta es clara: Ana tiene 3 libros y recibe 2 más, ¿cuántos tiene en total? Las opciones son 5 libros, 1 libro y 6 libros. La operación correcta es sumar 3 + 2 = 5, por lo que la opción correcta es la primera (índice 0). La rúbrica y la explicación coinciden con esta solución. Las opciones incorrectas están justificadas correctamente: 1 libro es resultado de una resta incorrecta y 6 libros es un error de suma. La actividad es autocontenida, con contexto, datos y solución claros, y la clave correcta está bien identificada. No hay ambigüedad ni datos faltantes.",
+        "approved": true,
+        "issue": ""
+      },
+      "logs": [
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "ms": 1748,
+          "usage": {
+            "prompt_tokens": 1098,
+            "completion_tokens": 180,
+            "total_tokens": 1278,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.000837
+        }
+      ]
+    },
+    {
+      "id": "wrong-sum-key",
+      "expected": false,
+      "observed": false,
+      "passed": true,
+      "review": {
+        "verification": "La pregunta es clara: Ana tiene 3 libros y recibe 2 más, se pregunta cuántos tiene en total. Las opciones son: 5 libros, 1 libro y 6 libros. La operación correcta es sumar 3 + 2 = 5. Por lo tanto, la respuesta correcta es la opción \"5 libros\", que corresponde al índice 0 (considerando que el índice inicia en 0). Sin embargo, la clave correcta dada es 1, que corresponde a \"1 libro\", lo cual es incorrecto. La explicación y la rúbrica indican correctamente que la suma es 5, pero la clave no coincide con la respuesta correcta. Por lo tanto, la clave debe corregirse a 0 para que coincida con la respuesta correcta y la explicación.",
+        "approved": false,
+        "issue": "La clave correcta está mal asignada: debe ser 0 (\"5 libros\"), no 1 (\"1 libro\"). La explicación y la rúbrica son correctas, pero la clave no corresponde a la respuesta correcta."
+      },
+      "logs": [
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "ms": 2041,
+          "usage": {
+            "prompt_tokens": 1098,
+            "completion_tokens": 216,
+            "total_tokens": 1314,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0008946000000000001
+        }
+      ]
+    },
+    {
+      "id": "missing-reading",
+      "expected": false,
+      "observed": false,
+      "passed": true,
+      "review": {
+        "verification": "La actividad pide leer un cuento de María para seleccionar la razón por la que salió al parque, pero el cuento no está incluido en el enunciado. Sin el texto, no es posible determinar la respuesta correcta. Además, las opciones dadas (Porque llovía, Porque quería estudiar, Porque tenía sueño) no tienen contexto ni relación con un cuento proporcionado. La clave correcta_index=0 indica \"Porque llovía\", pero sin el cuento no se puede verificar si es correcto. La rúbrica y la explicación corresponden a una suma (3 + 2 = 5), que no tiene relación con la pregunta de comprensión lectora planteada. Por tanto, la actividad no es autocontenida ni coherente con el objetivo y el contenido. El conjunto de opciones es claro, pero falta el texto necesario para responder. La clave no puede ser validada ni corresponde con la rúbrica ni la explicación.",
+        "approved": false,
+        "issue": "Falta el cuento de María en el enunciado, por lo que la pregunta no es autocontenida ni verificable. Además, la rúbrica y explicación no corresponden con la pregunta de comprensión lectora, sino con una suma, lo que genera incoherencia en la actividad."
+      },
+      "logs": [
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "ms": 2323,
+          "usage": {
+            "prompt_tokens": 1092,
+            "completion_tokens": 253,
+            "total_tokens": 1345,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0009507999999999999
+        }
+      ]
+    },
+    {
+      "id": "wrong-algebra-key",
+      "expected": false,
+      "observed": false,
+      "passed": true,
+      "review": {
+        "verification": "La expresión dada es 6(a+2)-4(a-3). Primero, aplicamos la distributiva: 6a + 12 - 4a + 12. Luego, sumamos términos semejantes: (6a - 4a) + (12 + 12) = 2a + 24. Por lo tanto, la forma equivalente correcta es 2a + 24. Las opciones son: 0: 2a + 26, 1: 2a + 24, 2: 10a. La opción correcta es la 1, no la 0 como indica la clave. La explicación \"Suma 3 y 2 para obtener 5\" no corresponde al procedimiento correcto ni a la expresión dada. La explicación correcta debería indicar la distribución y suma de términos semejantes. Por tanto, la clave y la explicación son incorrectas y deben corregirse para que la opción correcta sea la 1 (2a + 24).",
+        "approved": false,
+        "issue": "La clave correcta es la opción 1 (2a + 24), no la 0 (2a + 26). La explicación y la rúbrica no corresponden al procedimiento correcto para simplificar la expresión dada. Se debe corregir la clave, la explicación y la rúbrica para que coincidan con la solución correcta."
+      },
+      "logs": [
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "ms": 2410,
+          "usage": {
+            "prompt_tokens": 1091,
+            "completion_tokens": 281,
+            "total_tokens": 1372,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0009951
+        }
+      ]
+    },
+    {
+      "id": "opinion-as-fact",
+      "expected": false,
+      "observed": false,
+      "passed": true,
+      "review": {
+        "verification": "La pregunta es sobre identificar un hecho verificable en la cita: «El parque es el más hermoso de Colombia». Las opciones son: 1) El parque es el más hermoso de Colombia, 2) No se presenta un hecho verificable, 3) Todos están de acuerdo. La cita es una opinión o valoración subjetiva, no un hecho verificable. Por lo tanto, la opción correcta es la 2: No se presenta un hecho verificable. Sin embargo, la clave indica la opción 0, que es incorrecta. Además, la rúbrica y explicación no corresponden a la pregunta ni al área de Ciencias Sociales, sino a una suma matemática, lo que es incoherente con el objetivo y contenido. La actividad no es autocontenida ni coherente con el objetivo de comprensión en Ciencias Sociales, y la clave es errónea.",
+        "approved": false,
+        "issue": "La clave correcta debería ser la opción 1 (índice 1), no la 0. Además, la rúbrica y explicación no corresponden a la pregunta ni al área de Ciencias Sociales, sino a una suma matemática, lo que genera incoherencia. La actividad no es autocontenida ni coherente con el objetivo y materia declarados."
+      },
+      "logs": [
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "ms": 3264,
+          "usage": {
+            "prompt_tokens": 1119,
+            "completion_tokens": 256,
+            "total_tokens": 1375,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0009691
+        }
+      ]
+    },
+    {
+      "id": "science-direction",
+      "expected": false,
+      "observed": false,
+      "passed": true,
+      "review": {
+        "verification": "La pregunta es sobre qué explica que el hielo se derrita al ponerlo sobre un plato caliente. Las opciones son: 1) El hielo transfiere calor al plato más caliente y por eso se derrite, 2) El plato transfiere calor al hielo, 3) No hay transferencia. La opción correcta es la 2, porque el calor siempre se transfiere del objeto más caliente al más frío, por lo que el plato caliente transfiere calor al hielo, causando que se derrita. La opción 1 es incorrecta porque el hielo no transfiere calor al plato más caliente, sino al revés. La opción 3 es incorrecta porque sí hay transferencia de calor. Sin embargo, la clave indica como correcta la opción 0, que es la incorrecta. Además, la rúbrica y la explicación no corresponden a la pregunta, hablan de sumar cantidades (3 + 2 = 5), lo cual es irrelevante para esta actividad de ciencias. Por tanto, la actividad no es autocontenida ni coherente, y la clave es errónea.",
+        "approved": false,
+        "issue": "La clave correcta debería ser la opción 1 (índice 1), pero está marcada la opción 0. Además, la rúbrica y explicación no corresponden a la pregunta de ciencias, sino a una suma matemática, lo que genera confusión y falta de autocontención. Se debe corregir la clave y adaptar la rúbrica y explicación al contenido de la pregunta."
+      },
+      "logs": [
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "ms": 2748,
+          "usage": {
+            "prompt_tokens": 1121,
+            "completion_tokens": 312,
+            "total_tokens": 1433,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0010597
+        }
+      ]
+    },
+    {
+      "id": "good-english",
+      "expected": true,
+      "observed": true,
+      "passed": true,
+      "review": {
+        "verification": "La actividad presenta una situación en la biblioteca escolar donde una ficha traduce \"cat = gato\" y \"dog = perro\". Ana busca la tarjeta de un perro, por lo que debe escoger la palabra \"dog\". Las opciones son \"dog\", \"cat\" y \"No se puede saber\". La respuesta correcta es \"dog\" porque la ficha indica claramente que \"dog\" significa \"perro\". La clave correcta es la opción 0, que corresponde a \"dog\". La explicación y la pista son coherentes con la pregunta y la respuesta. La actividad es autocontenida y no requiere información adicional. El enfoque de aprendizaje es aplicar la traducción dada en la ficha para seleccionar la palabra correcta.",
+        "approved": true,
+        "issue": ""
+      },
+      "logs": [
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "ms": 1741,
+          "usage": {
+            "prompt_tokens": 1093,
+            "completion_tokens": 157,
+            "total_tokens": 1250,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0007977
+        }
+      ]
+    },
+    {
+      "id": "fake-metacognition",
+      "expected": false,
+      "observed": true,
+      "passed": false,
+      "review": {
+        "verification": "La pregunta es clara y contextualizada: Ana tiene 3 libros y recibe 2 más en la biblioteca escolar. Se pregunta cuántos libros tiene ahora. Las opciones son 5, 1 y 6 libros. La operación correcta es sumar 3 + 2 = 5. La opción correcta es la primera (5 libros). La explicación y la rúbrica coinciden con esta solución. Las otras opciones son incorrectas: 1 libro sería una resta incorrecta y 6 libros es un error de suma. La actividad es autocontenida y adecuada para el grado 1-3, con un contexto escolar cercano. La etiqueta metacognición es adecuada porque el estudiante debe aplicar la suma en un contexto real y usar la estrategia de juntar cantidades. La clave correcta es la opción 0 (5 libros).",
+        "approved": true,
+        "issue": ""
+      },
+      "logs": [
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "ms": 1740,
+          "usage": {
+            "prompt_tokens": 1100,
+            "completion_tokens": 179,
+            "total_tokens": 1279,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0008364000000000001
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total": 5,
+    "ready": 5,
+    "independentApproved": 1,
+    "readyLatency": {
+      "samples": 5,
+      "p50_ms": 6341,
+      "p95_ms": 7377,
+      "min_ms": 5624,
+      "max_ms": 7377
+    },
+    "approvedLatency": {
+      "samples": 1,
+      "p50_ms": 5624,
+      "p95_ms": 5624,
+      "min_ms": 5624,
+      "max_ms": 5624
+    },
+    "controlPassed": 7,
+    "controlTotal": 8,
+    "estimatedRuntimeUsd": 0.0137995,
+    "runtimeOutputTokens": 3515,
+    "callsSoFar": 23,
+    "estimatedExperimentUsd": 0.032059899999999995
+  }
+}

@@ -1,0 +1,1688 @@
+{
+  "date": "2026-11-05T17:04:47.142Z",
+  "variant": "prefetch-contracts-v2",
+  "config": {
+    "activityModel": "gpt-4.1-mini",
+    "reviewModel": "gpt-4.1-mini",
+    "compact": true
+  },
+  "scope": "Synthetic OpenAI experiment. No student records or Supabase access. Indices in JSON are zero-based. Automated audits are advisory and require human examination.",
+  "activities": [
+    {
+      "case": "math2",
+      "subject": "mathematics",
+      "grade": 2,
+      "dimension": "comprension",
+      "requested": "option",
+      "logs": [
+        {
+          "task": "kuneo_activity",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "serviceTier": "default",
+          "ms": 3114,
+          "usage": {
+            "prompt_tokens": 2059,
+            "completion_tokens": 343,
+            "total_tokens": 2402,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0015783000000000001
+        },
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "serviceTier": "default",
+          "ms": 2132,
+          "usage": {
+            "prompt_tokens": 1533,
+            "completion_tokens": 154,
+            "total_tokens": 1687,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0010129
+        },
+        {
+          "task": "kuneo_activity",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "serviceTier": "default",
+          "ms": 3080,
+          "usage": {
+            "prompt_tokens": 2123,
+            "completion_tokens": 352,
+            "total_tokens": 2475,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0016247
+        }
+      ],
+      "error": {
+        "status": 503,
+        "name": "Error",
+        "cause": "Error"
+      },
+      "metrics": {
+        "timestamp": "2026-11-05T17:04:55.489Z",
+        "request_id": "736b5e5d-674a-40d1-84cb-1de96b01a096",
+        "operation": "latency_probe",
+        "status": 503,
+        "total_ms": 8342,
+        "stages": {
+          "openai_generation": 6196,
+          "openai_review": 2133
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 2059,
+            "output_tokens": 343,
+            "cached_input_tokens": 0
+          },
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 1533,
+            "output_tokens": 154,
+            "cached_input_tokens": 0
+          },
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 2123,
+            "output_tokens": 352,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {
+          "generation_service_tier": "default",
+          "review_service_tier": "default",
+          "generation_failure_initial": "review_rejected",
+          "generation_repair": "attempted",
+          "contract_final": "choices_or_key",
+          "generation_failure_final": "contract",
+          "generation_outcome": "unavailable"
+        }
+      }
+    },
+    {
+      "case": "language3",
+      "subject": "language",
+      "grade": 3,
+      "dimension": "comprension",
+      "requested": "multiple_select",
+      "logs": [
+        {
+          "task": "kuneo_activity",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "serviceTier": "default",
+          "ms": 5853,
+          "usage": {
+            "prompt_tokens": 2099,
+            "completion_tokens": 719,
+            "total_tokens": 2818,
+            "prompt_tokens_details": {
+              "cached_tokens": 1920,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0014319
+        },
+        {
+          "task": "kuneo_activity",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "serviceTier": "default",
+          "ms": 5021,
+          "usage": {
+            "prompt_tokens": 2139,
+            "completion_tokens": 625,
+            "total_tokens": 2764,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0020695
+        }
+      ],
+      "error": {
+        "status": 503,
+        "name": "Error",
+        "cause": "Error"
+      },
+      "metrics": {
+        "timestamp": "2026-11-05T17:04:58.034Z",
+        "request_id": "d1da8f94-b449-427f-8b04-494dd2bdd146",
+        "operation": "latency_probe",
+        "status": 503,
+        "total_ms": 10878,
+        "stages": {
+          "openai_generation": 10875
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 2099,
+            "output_tokens": 719,
+            "cached_input_tokens": 1920
+          },
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 2139,
+            "output_tokens": 625,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {
+          "generation_service_tier": "default",
+          "contract_initial": "multiple_selection",
+          "generation_failure_initial": "contract",
+          "generation_repair": "attempted",
+          "contract_final": "multiple_selection",
+          "generation_failure_final": "contract",
+          "generation_outcome": "unavailable"
+        }
+      }
+    },
+    {
+      "case": "science4",
+      "subject": "natural_sciences",
+      "grade": 4,
+      "dimension": "transferencia",
+      "requested": "text",
+      "logs": [
+        {
+          "task": "kuneo_activity",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "serviceTier": "default",
+          "ms": 3907,
+          "usage": {
+            "prompt_tokens": 2094,
+            "completion_tokens": 466,
+            "total_tokens": 2560,
+            "prompt_tokens_details": {
+              "cached_tokens": 1920,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0010245999999999999
+        },
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "serviceTier": "default",
+          "ms": 1431,
+          "usage": {
+            "prompt_tokens": 1662,
+            "completion_tokens": 130,
+            "total_tokens": 1792,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.001039
+        },
+        {
+          "task": "kuneo_audit",
+          "model": "gpt-6.1-terra",
+          "resolvedModel": "gpt-6.1-terra",
+          "serviceTier": "default",
+          "ms": 3692,
+          "usage": {
+            "prompt_tokens": 979,
+            "completion_tokens": 217,
+            "total_tokens": 1196,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.00230875
+        }
+      ],
+      "ms": 5345,
+      "metrics": {
+        "timestamp": "2026-11-05T17:05:00.895Z",
+        "request_id": "a4cac068-aa01-409e-aab3-1019b93abe33",
+        "operation": "latency_probe",
+        "status": 200,
+        "total_ms": 5345,
+        "stages": {
+          "openai_generation": 3908,
+          "openai_review": 1432
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 2094,
+            "output_tokens": 466,
+            "cached_input_tokens": 1920
+          },
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 1662,
+            "output_tokens": 130,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {
+          "generation_service_tier": "default",
+          "review_service_tier": "default",
+          "generation_outcome": "generated"
+        }
+      },
+      "activity": {
+        "id": "0c29a6af-173c-4f67-a2c6-a693f00c7023",
+        "step_id": "5c119016-6b6d-4942-be51-81959cae7e15",
+        "question": "Kamila y su familia viven en una zona donde por las noches el aire se enfría mucho. Ellos salen a la terraza a observar cómo hay gotas de agua en las hojas de las plantas y en el piso por la mañana, mientras que durante el día no estaban. \n\nKamila quiere explicar qué pasó con el agua que no estaba visible cuando el sol estaba arriba y cómo apareció en las gotas.\n\nEscribe una respuesta donde expliques qué cambio de estado ocurrió y cómo el calor del sol afecta este proceso. Usa ejemplos que conozcas para apoyar tu explicación.",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "transferencia",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "0c29a6af-173c-4f67-a2c6-a693f00c7023",
+        "user_id": "synthetic-latency-probe",
+        "module_id": "d7286350-63c0-4699-be93-ee673966dad5",
+        "step_id": "5c119016-6b6d-4942-be51-81959cae7e15",
+        "question": "Kamila y su familia viven en una zona donde por las noches el aire se enfría mucho. Ellos salen a la terraza a observar cómo hay gotas de agua en las hojas de las plantas y en el piso por la mañana, mientras que durante el día no estaban. \n\nKamila quiere explicar qué pasó con el agua que no estaba visible cuando el sol estaba arriba y cómo apareció en las gotas.\n\nEscribe una respuesta donde expliques qué cambio de estado ocurrió y cómo el calor del sol afecta este proceso. Usa ejemplos que conozcas para apoyar tu explicación.",
+        "type": "text",
+        "options": [],
+        "left_items": [],
+        "right_items": [],
+        "expected": {
+          "type": "rubric",
+          "answer": "El agua que estaba en forma de vapor en el aire durante el día, cuando hace calor, al enfriarse el aire en la noche pierde calor y el vapor se convierte en líquido, formando gotas en las hojas y el piso. Esto es un cambio de estado llamado condensación. El calor del sol hace que el agua se evapore en el día y se vea en forma de vapor, mientras que al bajar la temperatura por la noche, el agua vuelve a líquido.",
+          "rubric": "Se evaluará si el estudiante explica correctamente el cambio de estado de vapor a líquido (condensación) y cómo el calor o la falta de calor (enfriamiento nocturno) influyen en este proceso. Se aceptan explicaciones con ejemplos de evaporación y condensación que relacionen el calor del sol y el enfriamiento."
+        },
+        "learning_focus": "transferir conocimientos sobre la transferencia de calor y cambios de estado a situaciones cotidianas",
+        "option_explanations": [],
+        "pair_explanations": [],
+        "rubric": "Se evaluará si el estudiante explica correctamente el cambio de estado de vapor a líquido (condensación) y cómo el calor o la falta de calor (enfriamiento nocturno) influyen en este proceso. Se aceptan explicaciones con ejemplos de evaporación y condensación que relacionen el calor del sol y el enfriamiento.",
+        "hint": "Piensa en qué pasa con el vapor de agua cuando el aire se enfría y cómo cambia al enfriarse. Recuerda qué nombre tienen los líquidos que aparecen en las superficies en la mañana frío y qué ocurrió durante el día con el agua.",
+        "explanation": "La observación de gotas de agua en la mañana es un ejemplo práctico de condensación, un cambio de estado donde el vapor de agua se convierte en líquido al perder calor durante la noche. La transferencia de calor del aire al ambiente frío permite este cambio, explicando la presencia de las gotas.",
+        "dimension": "transferencia",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "Explicar cambios de estado y transferencia de calor usando observaciones cotidianas",
+          "concept": "Explicar cambios de estado y transferencia de calor usando observaciones cotidianas",
+          "learning_goal": "Explicar cambios de estado y transferencia de calor usando observaciones cotidianas"
+        },
+        "grade_group": "4-5",
+        "expires_at": 1793984700893
+      },
+      "audit": {
+        "verification": "Las gotas son compatibles con condensación: el vapor de agua pierde calor y pasa a líquido sobre superficies suficientemente frías. El Sol puede favorecer la evaporación, pero no se observa que haya evaporado el agua de esas gotas. Las dos rúbricas coinciden y aceptan esa relación general. La explicación identifica bien el cambio de estado, aunque describe de forma imprecisa la transferencia de calor. La situación cotidiana permite aplicar conocimientos adecuados a cuarto grado.",
+        "approved": false,
+        "issues": [
+          "La respuesta esperada afirma que el vapor de agua se ve; el vapor es invisible. También atribuye al Sol la evaporación del agua de las gotas sin que la observación lo permita establecer.",
+          "La explicación atribuye el cambio a la transferencia de calor del aire al ambiente frío, en vez de precisar que el vapor pierde calor al condensarse sobre superficies frías.",
+          "La pista tiene una formulación confusa y un error de concordancia: «qué nombre tienen los líquidos que aparecen en las superficies en la mañana frío»."
+        ]
+      }
+    },
+    {
+      "case": "social10",
+      "subject": "social_studies",
+      "grade": 10,
+      "dimension": "transferencia",
+      "requested": "option",
+      "logs": [
+        {
+          "task": "kuneo_activity",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "serviceTier": "default",
+          "ms": 3395,
+          "usage": {
+            "prompt_tokens": 2090,
+            "completion_tokens": 468,
+            "total_tokens": 2558,
+            "prompt_tokens_details": {
+              "cached_tokens": 1920,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0010258
+        },
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "serviceTier": "default",
+          "ms": 1322,
+          "usage": {
+            "prompt_tokens": 1666,
+            "completion_tokens": 145,
+            "total_tokens": 1811,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.001065
+        },
+        {
+          "task": "kuneo_audit",
+          "model": "gpt-6.1-terra",
+          "resolvedModel": "gpt-6.1-terra",
+          "serviceTier": "default",
+          "ms": 4688,
+          "usage": {
+            "prompt_tokens": 921,
+            "completion_tokens": 265,
+            "total_tokens": 1186,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.00247625
+        }
+      ],
+      "ms": 4722,
+      "metrics": {
+        "timestamp": "2026-11-05T17:05:02.759Z",
+        "request_id": "a17c0342-4bba-4370-b013-bad312d37fa9",
+        "operation": "latency_probe",
+        "status": 200,
+        "total_ms": 4722,
+        "stages": {
+          "openai_generation": 3396,
+          "openai_review": 1323
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 2090,
+            "output_tokens": 468,
+            "cached_input_tokens": 1920
+          },
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 1666,
+            "output_tokens": 145,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {
+          "generation_service_tier": "default",
+          "review_service_tier": "default",
+          "generation_outcome": "generated"
+        }
+      },
+      "activity": {
+        "id": "710afe2e-3203-40b3-aa4f-fc2b48c17514",
+        "step_id": "35ddcecf-a0d5-4eb4-af5f-a78790bc6f43",
+        "question": "En un corregimiento rural en Colombia, la comunidad está decidiendo cómo mejorar el acceso al agua potable. Se recolectaron dos fuentes de información para apoyar la decisión:\n\n---\n\n| Fuente                         | Datos obtenidos                                         | Opiniones expresadas                                         |\n|-------------------------------|--------------------------------------------------------|--------------------------------------------------------------|\n| Encuesta a familias locales   | 80% indica problemas frecuentes de acceso al agua      | La mayoría cree que construir un pozo sería la mejor solución |\n| Informe técnico del municipio  | Agua superficial disponible a 500 metros, calidad baja | Recomienda tratamiento de agua y mantenimiento de la red      |\n\n---\n\n¿Cuál sería el paso más adecuado para tomar una decisión comunitaria basada en estas dos fuentes?",
+        "type": "option",
+        "options": [
+          "Priorizar solo la opinión mayoritaria de las familias para elegir construir un pozo",
+          "Considerar combinar la construcción de un pozo con el tratamiento del agua recomendado por el municipio",
+          "Ignorar el informe técnico porque las familias son quienes usan el agua directamente",
+          "Decidir postergar cualquier acción hasta recolectar más datos",
+          "Considerar solo el informe técnico para asegurar la calidad del agua"
+        ],
+        "cognitive_dimension": "transferencia",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "710afe2e-3203-40b3-aa4f-fc2b48c17514",
+        "user_id": "synthetic-latency-probe",
+        "module_id": "9085dff4-2c31-4bda-920a-73109580f853",
+        "step_id": "35ddcecf-a0d5-4eb4-af5f-a78790bc6f43",
+        "question": "En un corregimiento rural en Colombia, la comunidad está decidiendo cómo mejorar el acceso al agua potable. Se recolectaron dos fuentes de información para apoyar la decisión:\n\n---\n\n| Fuente                         | Datos obtenidos                                         | Opiniones expresadas                                         |\n|-------------------------------|--------------------------------------------------------|--------------------------------------------------------------|\n| Encuesta a familias locales   | 80% indica problemas frecuentes de acceso al agua      | La mayoría cree que construir un pozo sería la mejor solución |\n| Informe técnico del municipio  | Agua superficial disponible a 500 metros, calidad baja | Recomienda tratamiento de agua y mantenimiento de la red      |\n\n---\n\n¿Cuál sería el paso más adecuado para tomar una decisión comunitaria basada en estas dos fuentes?",
+        "type": "option",
+        "options": [
+          "Priorizar solo la opinión mayoritaria de las familias para elegir construir un pozo",
+          "Considerar combinar la construcción de un pozo con el tratamiento del agua recomendado por el municipio",
+          "Ignorar el informe técnico porque las familias son quienes usan el agua directamente",
+          "Decidir postergar cualquier acción hasta recolectar más datos",
+          "Considerar solo el informe técnico para asegurar la calidad del agua"
+        ],
+        "left_items": [],
+        "right_items": [],
+        "expected": {
+          "type": "option",
+          "correct_options": [
+            1
+          ]
+        },
+        "learning_focus": "Tomar decisiones comunitarias usando datos y contrastando hechos y opiniones de fuentes simuladas",
+        "option_explanations": [
+          "No considera el informe técnico que es importante para la calidad del agua.",
+          "Esta opción combina la opinión de la comunidad y la recomendación técnica para una solución integral.",
+          "Ignorar el informe técnico descuida aspectos importantes de la calidad y mantenimiento del agua.",
+          "Postergar la acción no aprovecha la información ya disponible que puede guiar la decisión.",
+          "Considerar solo el informe técnico podría omitir la perspectiva y necesidades reales de las familias."
+        ],
+        "pair_explanations": [],
+        "rubric": "Evalúa si el estudiante identifica la necesidad de combinar datos y opiniones para fundamentar la decisión comunitaria.",
+        "hint": "Piensa en cómo se pueden usar los datos de las familias junto con el informe técnico para una solución completa y efectiva.",
+        "explanation": "La mejor decisión considera tanto las experiencias de las familias como el análisis técnico del municipio para abordar problemas prácticos y de calidad del agua.",
+        "dimension": "transferencia",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "social_studies",
+        "support_context": {
+          "topic": "Tomar decisiones comunitarias usando datos y contrastando hechos y opiniones de fuentes simuladas",
+          "concept": "Tomar decisiones comunitarias usando datos y contrastando hechos y opiniones de fuentes simuladas",
+          "learning_goal": "Tomar decisiones comunitarias usando datos y contrastando hechos y opiniones de fuentes simuladas"
+        },
+        "grade_group": "10-11",
+        "expires_at": 1793984702759
+      },
+      "audit": {
+        "verification": "La tabla distingue el 80% reportado por las familias y la baja calidad del agua superficial de las recomendaciones y opiniones. La opción 1, clave propuesta, incorpora ambas perspectivas, pero construir un pozo no está sustentado por datos de disponibilidad o viabilidad de agua subterránea; tampoco se aclara qué agua se trataría ni se incluye el mantenimiento recomendado. Las opciones 0 y 2 omiten el informe técnico, y la 4 omite la perspectiva familiar; sus explicaciones son razonables. La explicación de la opción 3 descarta sin fundamento recolectar más datos, pese a las incertidumbres. La rúbrica y la explicación general piden considerar ambas fuentes, pero no justifican que la opción 1 sea una decisión integral. El contexto rural interviene en el problema y el idioma y nivel son adecuados para grado 10.",
+        "approved": false,
+        "issues": [
+          "La clave presenta como solución integral una combinación cuya viabilidad no se puede establecer con los datos disponibles. No hay una opción inequívocamente correcta que contraste las fuentes antes de decidir.",
+          "La explicación de la opción 3 desestima sin justificación la recolección adicional de datos, que podría ser necesaria para decidir sobre el pozo."
+        ]
+      }
+    },
+    {
+      "case": "english11",
+      "subject": "english",
+      "grade": 11,
+      "dimension": "metacognicion",
+      "requested": "text",
+      "logs": [
+        {
+          "task": "kuneo_activity",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "serviceTier": "default",
+          "ms": 3676,
+          "usage": {
+            "prompt_tokens": 2093,
+            "completion_tokens": 454,
+            "total_tokens": 2547,
+            "prompt_tokens_details": {
+              "cached_tokens": 1920,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0010049000000000002
+        },
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "serviceTier": "default",
+          "ms": 1743,
+          "usage": {
+            "prompt_tokens": 1649,
+            "completion_tokens": 145,
+            "total_tokens": 1794,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0010565
+        },
+        {
+          "task": "kuneo_audit",
+          "model": "gpt-6.1-terra",
+          "resolvedModel": "gpt-6.1-terra",
+          "serviceTier": "default",
+          "ms": 3667,
+          "usage": {
+            "prompt_tokens": 962,
+            "completion_tokens": 196,
+            "total_tokens": 1158,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0021825
+        }
+      ],
+      "ms": 5422,
+      "metrics": {
+        "timestamp": "2026-11-05T17:05:10.012Z",
+        "request_id": "9c613876-49f7-4ea2-9bf7-ba75d21a8f0b",
+        "operation": "latency_probe",
+        "status": 200,
+        "total_ms": 5422,
+        "stages": {
+          "openai_generation": 3676,
+          "openai_review": 1744
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 2093,
+            "output_tokens": 454,
+            "cached_input_tokens": 1920
+          },
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 1649,
+            "output_tokens": 145,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {
+          "generation_service_tier": "default",
+          "review_service_tier": "default",
+          "generation_outcome": "generated"
+        }
+      },
+      "activity": {
+        "id": "df4c22e8-f299-4a28-9769-a0fb9fb56396",
+        "step_id": "b5d84497-85c3-4611-88eb-d529aba9c0bc",
+        "question": "Lee el siguiente párrafo en inglés y responde a la pregunta que viene después:\n\n\"Maria was hiking in the forest when she encountered a strange animal. It had a long snout and big ears. She had never seen such a creature before. She guessed it might be a 'bandicoot', but she was not sure. To confirm, she decided to check a wildlife guidebook and looked for pictures and descriptions to verify her inference.\"\n\n¿Cómo utilizó Maria el contexto para inferir el significado de la palabra 'bandicoot' y qué hizo para comprobar si su interpretación era correcta? Explica tu respuesta.",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "metacognicion",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "df4c22e8-f299-4a28-9769-a0fb9fb56396",
+        "user_id": "synthetic-latency-probe",
+        "module_id": "ee091c9b-d4c8-4ab3-845d-b925474152fc",
+        "step_id": "b5d84497-85c3-4611-88eb-d529aba9c0bc",
+        "question": "Lee el siguiente párrafo en inglés y responde a la pregunta que viene después:\n\n\"Maria was hiking in the forest when she encountered a strange animal. It had a long snout and big ears. She had never seen such a creature before. She guessed it might be a 'bandicoot', but she was not sure. To confirm, she decided to check a wildlife guidebook and looked for pictures and descriptions to verify her inference.\"\n\n¿Cómo utilizó Maria el contexto para inferir el significado de la palabra 'bandicoot' y qué hizo para comprobar si su interpretación era correcta? Explica tu respuesta.",
+        "type": "text",
+        "options": [],
+        "left_items": [],
+        "right_items": [],
+        "expected": {
+          "type": "rubric",
+          "answer": "Maria usó las pistas del contexto, como la descripción del animal con \"long snout\" (hocico largo) y \"big ears\" (orejas grandes), y que era una criatura en el bosque, para inferir que 'bandicoot' era un tipo de animal con esas características. Para comprobar su interpretación, consultó una guía de vida silvestre, buscando imágenes y descripciones para verificar que su suposición coincidía con la información del libro.",
+          "rubric": "Evalúa si el estudiante explica correctamente cómo se usaron las pistas dentro del texto para inferir el significado de 'bandicoot' y si reconoce que Maria luego usó una fuente confiable para confirmar su inferencia. Se acepta cualquier explicación clara que mencione la inferencia por contexto y la verificación consultando información adicional."
+        },
+        "learning_focus": "Inferir vocabulario inglés por el contexto y explicar cómo comprobar la interpretación",
+        "option_explanations": [],
+        "pair_explanations": [],
+        "rubric": "Evalúa si el estudiante explica correctamente cómo se usaron las pistas dentro del texto para inferir el significado de 'bandicoot' y si reconoce que Maria luego usó una fuente confiable para confirmar su inferencia. Se acepta cualquier explicación clara que mencione la inferencia por contexto y la verificación consultando información adicional.",
+        "hint": "Piensa en las palabras que describen al animal y cómo esa información ayuda a imaginar qué es un 'bandicoot'. ¿Qué hizo Maria para asegurarse de que su idea era correcta?",
+        "explanation": "Maria observó las características del animal descritas en el texto para suponer qué podía ser 'bandicoot'. Luego, verificó su suposición consultando una fuente externa que contenía imágenes y descripciones, confirmando así su inferencia inicial.",
+        "dimension": "metacognicion",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "english",
+        "support_context": {
+          "topic": "Inferir vocabulario inglés por el contexto y explicar cómo comprobar la interpretación",
+          "concept": "Inferir vocabulario inglés por el contexto y explicar cómo comprobar la interpretación",
+          "learning_goal": "Inferir vocabulario inglés por el contexto y explicar cómo comprobar la interpretación"
+        },
+        "grade_group": "10-11",
+        "expires_at": 1793984710012
+      },
+      "audit": {
+        "verification": "El texto permite inferir que «bandicoot» designa un tipo de animal: María observa uno con «long snout» y «big ears» y supone que podría ser un bandicoot. Para comprobarlo, decide buscar imágenes y descripciones en una guía. La respuesta esperada y ambas rúbricas recogen esa estrategia; la pista es pertinente. No hay opciones ni pares que revisar. El contexto de observación interviene en la inferencia y la comprobación aborda la metacognición; el idioma y la dificultad son adecuados para grado 11. Sin embargo, el texto no muestra el resultado de la consulta.",
+        "approved": false,
+        "issues": [
+          "La explicación afirma que María confirmó su inferencia, pero el párrafo solo dice que decidió consultar la guía; no informa si encontró una coincidencia. Debe indicar que intentó comprobarla, sin darla por confirmada."
+        ]
+      }
+    },
+    {
+      "case": "math9",
+      "subject": "mathematics",
+      "grade": 9,
+      "dimension": "representacion",
+      "requested": "matching",
+      "logs": [
+        {
+          "task": "kuneo_activity",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "serviceTier": "default",
+          "ms": 4398,
+          "usage": {
+            "prompt_tokens": 2131,
+            "completion_tokens": 591,
+            "total_tokens": 2722,
+            "prompt_tokens_details": {
+              "cached_tokens": 1920,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0012430999999999998
+        },
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "serviceTier": "default",
+          "ms": 1524,
+          "usage": {
+            "prompt_tokens": 1788,
+            "completion_tokens": 146,
+            "total_tokens": 1934,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0011275999999999999
+        },
+        {
+          "task": "kuneo_audit",
+          "model": "gpt-6.1-terra",
+          "resolvedModel": "gpt-6.1-terra",
+          "serviceTier": "default",
+          "ms": 5137,
+          "usage": {
+            "prompt_tokens": 1042,
+            "completion_tokens": 326,
+            "total_tokens": 1368,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 1039,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0029325
+        }
+      ],
+      "ms": 5927,
+      "metrics": {
+        "timestamp": "2026-11-05T17:05:13.377Z",
+        "request_id": "a98c21c9-6f94-4c51-9eb6-4e3246f75edf",
+        "operation": "latency_probe",
+        "status": 200,
+        "total_ms": 5927,
+        "stages": {
+          "openai_generation": 4399,
+          "openai_review": 1524
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 2131,
+            "output_tokens": 591,
+            "cached_input_tokens": 1920
+          },
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 1788,
+            "output_tokens": 146,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {
+          "generation_service_tier": "default",
+          "review_service_tier": "default",
+          "generation_outcome": "generated"
+        }
+      },
+      "activity": {
+        "id": "82dab507-5f36-4433-b894-a374aeb74075",
+        "step_id": "349c7cbb-566b-41c0-8f38-12611dc62e53",
+        "question": "En una tienda escolar, se venden cuadernos y lápices. Si $x$ representa la cantidad de cuadernos y $y$ la cantidad de lápices, estas son algunas compras y los costos totales correspondientes:\n\n| Cantidad de cuadernos ($x$) | Cantidad de lápices ($y$) | Costo total (en pesos) |\n|------------------------------|----------------------------|-----------------------|\n| 2                            | 5                          | 17,000                |\n| 3                            | 2                          | 13,000                |\n| 1                            | 7                          | 16,000                |\n\nRelaciona cada expresión algebraica con su costo total correspondiente:\n\nColumna izquierda: expresiones del tipo $a x + b y$\n- $2x + 5y$\n- $3x + 2y$\n- $x + 7y$\n\nColumna derecha: costos en miles de pesos\n- 17\n- 13\n- 16",
+        "type": "matching",
+        "options": [],
+        "cognitive_dimension": "representacion",
+        "source": "generated",
+        "notice": null,
+        "left_items": [
+          "2x + 5y",
+          "3x + 2y",
+          "x + 7y"
+        ],
+        "right_items": [
+          "16",
+          "17",
+          "13"
+        ],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "82dab507-5f36-4433-b894-a374aeb74075",
+        "user_id": "synthetic-latency-probe",
+        "module_id": "f0cbb5f0-2fef-4db3-8eaa-204ce5126be2",
+        "step_id": "349c7cbb-566b-41c0-8f38-12611dc62e53",
+        "question": "En una tienda escolar, se venden cuadernos y lápices. Si $x$ representa la cantidad de cuadernos y $y$ la cantidad de lápices, estas son algunas compras y los costos totales correspondientes:\n\n| Cantidad de cuadernos ($x$) | Cantidad de lápices ($y$) | Costo total (en pesos) |\n|------------------------------|----------------------------|-----------------------|\n| 2                            | 5                          | 17,000                |\n| 3                            | 2                          | 13,000                |\n| 1                            | 7                          | 16,000                |\n\nRelaciona cada expresión algebraica con su costo total correspondiente:\n\nColumna izquierda: expresiones del tipo $a x + b y$\n- $2x + 5y$\n- $3x + 2y$\n- $x + 7y$\n\nColumna derecha: costos en miles de pesos\n- 17\n- 13\n- 16",
+        "type": "matching",
+        "options": [],
+        "left_items": [
+          "2x + 5y",
+          "3x + 2y",
+          "x + 7y"
+        ],
+        "right_items": [
+          "16",
+          "17",
+          "13"
+        ],
+        "expected": {
+          "type": "matching",
+          "correct_pairs": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        "learning_focus": "Relacionar cantidades y ecuaciones lineales en compras escolares, sin depender de gráficas",
+        "option_explanations": [],
+        "pair_explanations": [
+          "La expresión $2x + 5y$ corresponde a 2 cuadernos más 5 lápices, que valen 17 miles según la tabla.",
+          "La expresión $3x + 2y$ representa 3 cuadernos y 2 lápices, que cuestan 13 miles en total.",
+          "La expresión $x + 7y$ indica 1 cuaderno y 7 lápices, cuyo costo total es 16 miles."
+        ],
+        "rubric": "Se evalúa si el estudiante relaciona correctamente cada expresión algebraica que representa el costo total con el valor numérico dado en miles de pesos, interpretando la tabla y comprendiendo la relación lineal entre variables.",
+        "hint": "Piensa qué representan $x$ y $y$ en la expresión y usa la información de los costos totales para ver cuál expresión corresponde a qué costo. La cantidad de cuadernos y lápices es la que aparece en la tabla para cada compra.",
+        "explanation": "Primero identifica que $x$ y $y$ simbolizan cantidades de artículos y los coeficientes corresponden al precio unitario implícito. Cada expresión representa la compra indicada en la tabla y se asocia con el costo total que coincide con esos valores dentro de la tabla, expresados en miles para facilitar la comparación.",
+        "dimension": "representacion",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "mathematics",
+        "support_context": {
+          "topic": "Relacionar cantidades y ecuaciones lineales en compras escolares, sin depender de gráficas",
+          "concept": "Relacionar cantidades y ecuaciones lineales en compras escolares, sin depender de gráficas",
+          "learning_goal": "Relacionar cantidades y ecuaciones lineales en compras escolares, sin depender de gráficas"
+        },
+        "grade_group": "8-9",
+        "expires_at": 1793984713376
+      },
+      "audit": {
+        "verification": "Con índices desde cero, la clave asocia 2x + 5y con 17, 3x + 2y con 13 y x + 7y con 16; esas asociaciones siguen las filas, pero no son ecuaciones de costo válidas con las variables definidas. Las tres explicaciones por pareja repiten la misma confusión, al tratar coeficientes como cantidades. La explicación general también es contradictoria: llama precios unitarios a los coeficientes, aunque estos reproducen las cantidades de cada compra. Si p y q son precios unitarios en miles, las filas exigen 2p + 5q = 17, 3p + 2q = 13 y p + 7q = 16; las dos primeras dan p = 31/11 y q = 25/11, pero la tercera da 206/11, no 16. La rúbrica evalúa representaciones que no son válidas y la pista no corrige el problema. El idioma y el nivel son adecuados para noveno; no se requieren gráficas y el contexto de compras sí interviene.",
+        "approved": false,
+        "issues": [
+          "Se definen x e y como cantidades, pero las expresiones y explicaciones usan sus coeficientes como si fueran esas cantidades; por tanto, la clave no representa correctamente los costos.",
+          "Los datos de las tres compras son incompatibles con precios unitarios fijos, por lo que no permiten construir una misma ecuación lineal de costo para la tienda."
+        ]
+      }
+    },
+    {
+      "case": "language8",
+      "subject": "language",
+      "grade": 8,
+      "dimension": "razonamiento",
+      "requested": "text",
+      "logs": [
+        {
+          "task": "kuneo_activity",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "serviceTier": "default",
+          "ms": 3391,
+          "usage": {
+            "prompt_tokens": 2086,
+            "completion_tokens": 318,
+            "total_tokens": 2404,
+            "prompt_tokens_details": {
+              "cached_tokens": 1920,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0007838
+        },
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "serviceTier": "default",
+          "ms": 1451,
+          "usage": {
+            "prompt_tokens": 1511,
+            "completion_tokens": 106,
+            "total_tokens": 1617,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0009251
+        },
+        {
+          "task": "kuneo_audit",
+          "model": "gpt-6.1-terra",
+          "resolvedModel": "gpt-6.1-terra",
+          "serviceTier": "default",
+          "ms": 4288,
+          "usage": {
+            "prompt_tokens": 809,
+            "completion_tokens": 259,
+            "total_tokens": 1068,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.00230625
+        }
+      ],
+      "ms": 4845,
+      "metrics": {
+        "timestamp": "2026-11-05T17:05:18.526Z",
+        "request_id": "37725ac6-bc82-4f94-8ee8-8da43c5f9abf",
+        "operation": "latency_probe",
+        "status": 200,
+        "total_ms": 4845,
+        "stages": {
+          "openai_generation": 3391,
+          "openai_review": 1451
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 2086,
+            "output_tokens": 318,
+            "cached_input_tokens": 1920
+          },
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 1511,
+            "output_tokens": 106,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {
+          "generation_service_tier": "default",
+          "review_service_tier": "default",
+          "generation_outcome": "generated"
+        }
+      },
+      "activity": {
+        "id": "69d6ffd6-a4a4-449b-a53f-e0e53ac3a2c3",
+        "step_id": "257adf3c-282d-43d4-bc75-6fad42213155",
+        "question": "Lee con atención el siguiente fragmento y responde la pregunta:  \n\n\"Es importante que los estudiantes hagan actividad física diaria porque mejora su salud mental y aumenta su concentración en clase. Un estudio reciente mostró que los jóvenes que practican deporte diariamente obtienen mejores resultados académicos.\"  \n\n¿Cuál es la propuesta principal que el autor quiere comunicar y qué evidencia usa para apoyarla? Explica con tus propias palabras.",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "razonamiento",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "69d6ffd6-a4a4-449b-a53f-e0e53ac3a2c3",
+        "user_id": "synthetic-latency-probe",
+        "module_id": "7bc9b987-289a-4e4c-b587-fe8791b3b039",
+        "step_id": "257adf3c-282d-43d4-bc75-6fad42213155",
+        "question": "Lee con atención el siguiente fragmento y responde la pregunta:  \n\n\"Es importante que los estudiantes hagan actividad física diaria porque mejora su salud mental y aumenta su concentración en clase. Un estudio reciente mostró que los jóvenes que practican deporte diariamente obtienen mejores resultados académicos.\"  \n\n¿Cuál es la propuesta principal que el autor quiere comunicar y qué evidencia usa para apoyarla? Explica con tus propias palabras.",
+        "type": "text",
+        "options": [],
+        "left_items": [],
+        "right_items": [],
+        "expected": {
+          "type": "rubric",
+          "answer": "La propuesta principal es que los estudiantes deben hacer actividad física diaria porque esta beneficia su salud mental y su capacidad de concentración. La evidencia que usa es el estudio que demuestra que los jóvenes que practican deporte todos los días tienen mejores resultados académicos.",
+          "rubric": "Se evalúa si el estudiante identifica claramente la propuesta central (actividad física diaria favorece salud mental y concentración) y señala la evidencia (estudio que relaciona deporte diario con mejores notas). Se acepta explicación coherente y en propias palabras, mostrando comprensión del argumento."
+        },
+        "learning_focus": "Identificar propuesta y evidencia en un argumento breve proporcionado en español",
+        "option_explanations": [],
+        "pair_explanations": [],
+        "rubric": "Se evalúa si el estudiante identifica claramente la propuesta central (actividad física diaria favorece salud mental y concentración) y señala la evidencia (estudio que relaciona deporte diario con mejores notas). Se acepta explicación coherente y en propias palabras, mostrando comprensión del argumento.",
+        "hint": "¿Qué idea intenta convencer el autor? ¿Qué dato menciona para apoyar esa idea?",
+        "explanation": "El texto presenta una propuesta clara: hacer actividad física cada día. Luego ofrece una evidencia concreta: un estudio que comprueba que esto mejora resultados académicos, lo que sustenta la propuesta.",
+        "dimension": "razonamiento",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "language",
+        "support_context": {
+          "topic": "Identificar propuesta y evidencia en un argumento breve proporcionado en español",
+          "concept": "Identificar propuesta y evidencia en un argumento breve proporcionado en español",
+          "learning_goal": "Identificar propuesta y evidencia en un argumento breve proporcionado en español"
+        },
+        "grade_group": "8-9",
+        "expires_at": 1793984718525
+      },
+      "audit": {
+        "verification": "La propuesta es que los estudiantes hagan actividad física diaria; las razones alegadas son la salud mental y la concentración. La evidencia citada es un estudio que asocia el deporte diario con mejores resultados académicos. La respuesta esperada identifica ambos elementos. La rúbrica, repetida en dos campos, identifica la evidencia, pero formula la propuesta como un beneficio en vez de una recomendación. La pista es pertinente. La explicación exagera el alcance del estudio al decir que comprueba una mejora. El texto está en español, es adecuado para octavo y permite razonar sobre el argumento en un contexto escolar sin consultar fuentes externas.",
+        "approved": false,
+        "issues": [
+          "Ambas rúbricas caracterizan la propuesta central como que la actividad física favorece la salud mental y la concentración, aunque esa es la razón dada para recomendar que los estudiantes hagan actividad física diaria. Esto puede perjudicar una respuesta que identifique correctamente la recomendación.",
+          "La respuesta esperada afirma que el estudio «demuestra» y la explicación que «comprueba» que la actividad física mejora los resultados académicos. El fragmento solo dice que quienes practican deporte diariamente obtienen mejores resultados; no establece causalidad ni prueba un efecto de toda actividad física."
+        ]
+      }
+    },
+    {
+      "case": "science7",
+      "subject": "natural_sciences",
+      "grade": 7,
+      "dimension": "razonamiento",
+      "requested": "option",
+      "logs": [
+        {
+          "task": "kuneo_activity",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "serviceTier": "default",
+          "ms": 4187,
+          "usage": {
+            "prompt_tokens": 2087,
+            "completion_tokens": 513,
+            "total_tokens": 2600,
+            "prompt_tokens_details": {
+              "cached_tokens": 1920,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0010963000000000001
+        },
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "serviceTier": "default",
+          "ms": 1742,
+          "usage": {
+            "prompt_tokens": 1711,
+            "completion_tokens": 160,
+            "total_tokens": 1871,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0011115
+        },
+        {
+          "task": "kuneo_audit",
+          "model": "gpt-6.1-terra",
+          "resolvedModel": "gpt-6.1-terra",
+          "serviceTier": "default",
+          "ms": 4401,
+          "usage": {
+            "prompt_tokens": 971,
+            "completion_tokens": 241,
+            "total_tokens": 1212,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.00241875
+        }
+      ],
+      "ms": 5933,
+      "metrics": {
+        "timestamp": "2026-11-05T17:05:24.449Z",
+        "request_id": "8a2964e6-3139-403d-b0c7-e222b0fbb078",
+        "operation": "latency_probe",
+        "status": 200,
+        "total_ms": 5933,
+        "stages": {
+          "openai_generation": 4188,
+          "openai_review": 1742
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 2087,
+            "output_tokens": 513,
+            "cached_input_tokens": 1920
+          },
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 1711,
+            "output_tokens": 160,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {
+          "generation_service_tier": "default",
+          "review_service_tier": "default",
+          "generation_outcome": "generated"
+        }
+      },
+      "activity": {
+        "id": "b7bb1f68-3b6f-434a-88a7-410abdfa53db",
+        "step_id": "84fcd296-296b-466c-92f6-6485c1a4a830",
+        "question": "En un ecosistema donde viven las siguientes especies en cadena alimentaria: \n\n| Nivel trófico       | Especie          | Cantidad de alimento disponible (kg) |\n|---------------------|------------------|-------------------------------------|\n| Productores         | Plantas acuáticas| 1000                                |\n| Consumidores primarios | Peces pequeños  | 200                                 |\n| Consumidores secundarios | Peces medianos| 50                                  |\n| Consumidores terciarios | Aves rapaces    | 10                                  |\n\nSi la cantidad de plantas acuáticas disminuye a 500 kg por contaminación, ¿qué efecto es más probable que ocurra en esta cadena alimentaria?",
+        "type": "option",
+        "options": [
+          "La cantidad de aves rapaces aumentará porque hay menos plantas y los peces pequeños buscarán más alimento.",
+          "La cantidad de peces pequeños y medianos disminuirá porque hay menos alimento en el nivel más bajo.",
+          "Los peces medianos aumentarán porque tendrán menos competencia de peces pequeños por el alimento.",
+          "La cantidad de plantas acuáticas aumentará porque hay menos peces que las comen."
+        ],
+        "cognitive_dimension": "razonamiento",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "b7bb1f68-3b6f-434a-88a7-410abdfa53db",
+        "user_id": "synthetic-latency-probe",
+        "module_id": "e3c4efa8-3d50-4dbf-854c-f7b49b062d3d",
+        "step_id": "84fcd296-296b-466c-92f6-6485c1a4a830",
+        "question": "En un ecosistema donde viven las siguientes especies en cadena alimentaria: \n\n| Nivel trófico       | Especie          | Cantidad de alimento disponible (kg) |\n|---------------------|------------------|-------------------------------------|\n| Productores         | Plantas acuáticas| 1000                                |\n| Consumidores primarios | Peces pequeños  | 200                                 |\n| Consumidores secundarios | Peces medianos| 50                                  |\n| Consumidores terciarios | Aves rapaces    | 10                                  |\n\nSi la cantidad de plantas acuáticas disminuye a 500 kg por contaminación, ¿qué efecto es más probable que ocurra en esta cadena alimentaria?",
+        "type": "option",
+        "options": [
+          "La cantidad de aves rapaces aumentará porque hay menos plantas y los peces pequeños buscarán más alimento.",
+          "La cantidad de peces pequeños y medianos disminuirá porque hay menos alimento en el nivel más bajo.",
+          "Los peces medianos aumentarán porque tendrán menos competencia de peces pequeños por el alimento.",
+          "La cantidad de plantas acuáticas aumentará porque hay menos peces que las comen."
+        ],
+        "left_items": [],
+        "right_items": [],
+        "expected": {
+          "type": "option",
+          "correct_options": [
+            1
+          ]
+        },
+        "learning_focus": "Explicar efectos de la disminución de alimento en una cadena alimentaria proporcionada",
+        "option_explanations": [
+          "Existe un error porque si hay menos plantas, no habría aumento en aves debido a alimento insuficiente al inicio de la cadena.",
+          "Correcto, al disminuir el alimento en el nivel más bajo, los consumidores primarios y secundarios tendrán menos alimento y disminuirán en cantidad.",
+          "Incorrecto, si disminuyen peces pequeños, no aumentan los peces medianos porque ellos dependen de éstos para alimentarse.",
+          "Error, si disminuyen los consumidores que comen plantas, las plantas podrían aumentar, pero no al reducir el nivel inicial por contaminación."
+        ],
+        "pair_explanations": [],
+        "rubric": "Se evalúa la explicación lógica del efecto en los consumidores cuando el alimento en productores disminuye, reconociendo la relación directa entre niveles.",
+        "hint": "Piensa qué pasa con los animales que dependen directamente del alimento que disminuyó y cómo eso afecta a los que se alimentan de ellos.",
+        "explanation": "La disminución en plantas afecta primero a los peces pequeños (consumidores primarios) porque tienen menos alimento, y esto generará menos peces medianos y aves rapaces; por eso, la mejor respuesta es la que indica disminución en peces pequeños y medianos.",
+        "dimension": "razonamiento",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "Explicar efectos de la disminución de alimento en una cadena alimentaria proporcionada",
+          "concept": "Explicar efectos de la disminución de alimento en una cadena alimentaria proporcionada",
+          "learning_goal": "Explicar efectos de la disminución de alimento en una cadena alimentaria proporcionada"
+        },
+        "grade_group": "6-7",
+        "expires_at": 1793984724449
+      },
+      "audit": {
+        "verification": "Las plantas se reducen de 1000 a 500 kg, es decir, un 50 %. La opción 1 (índice 1) es la más probable: menos plantas pueden reducir los peces pequeños y, con ello, el alimento de los medianos. Las opciones 0 y 2 proponen aumentos que no se desprenden de la cadena; la 3 contradice la disminución inicial por contaminación. Las explicaciones de las opciones y la pista son coherentes. La explicación general extiende razonablemente el efecto a las aves, aunque lo presenta como seguro. La rúbrica valora el razonamiento causal, pero el formato solo pide seleccionar una opción. El lenguaje y la dificultad son adecuados para séptimo; la contaminación y la cadena intervienen en el razonamiento.",
+        "approved": false,
+        "issues": [
+          "La explicación general y la de la opción correcta presentan la disminución de consumidores como inevitable, aunque se pregunta por el efecto más probable y no se proporcionan datos para asegurarla.",
+          "La rúbrica exige una explicación lógica, pero la actividad de selección no solicita ni recoge una explicación del estudiante."
+        ]
+      }
+    },
+    {
+      "case": "social2",
+      "subject": "social_studies",
+      "grade": 2,
+      "dimension": "metacognicion",
+      "requested": "text",
+      "logs": [
+        {
+          "task": "kuneo_activity",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "serviceTier": "default",
+          "ms": 2855,
+          "usage": {
+            "prompt_tokens": 2094,
+            "completion_tokens": 334,
+            "total_tokens": 2428,
+            "prompt_tokens_details": {
+              "cached_tokens": 1920,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0008133999999999999
+        },
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "serviceTier": "default",
+          "ms": 1537,
+          "usage": {
+            "prompt_tokens": 1532,
+            "completion_tokens": 158,
+            "total_tokens": 1690,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0010188000000000003
+        },
+        {
+          "task": "kuneo_audit",
+          "model": "gpt-6.1-terra",
+          "resolvedModel": "gpt-6.1-terra",
+          "serviceTier": "default",
+          "ms": 2768,
+          "usage": {
+            "prompt_tokens": 833,
+            "completion_tokens": 126,
+            "total_tokens": 959,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.00167125
+        }
+      ],
+      "ms": 4394,
+      "metrics": {
+        "timestamp": "2026-11-05T17:05:27.211Z",
+        "request_id": "7294eb0f-0e8b-4386-986b-de8940341002",
+        "operation": "latency_probe",
+        "status": 200,
+        "total_ms": 4394,
+        "stages": {
+          "openai_generation": 2855,
+          "openai_review": 1537
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 2094,
+            "output_tokens": 334,
+            "cached_input_tokens": 1920
+          },
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 1532,
+            "output_tokens": 158,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {
+          "generation_service_tier": "default",
+          "review_service_tier": "default",
+          "generation_outcome": "generated"
+        }
+      },
+      "activity": {
+        "id": "06d2e1e3-d188-48c5-8bc9-5fccfddd3275",
+        "step_id": "93489192-3103-4dd4-b811-f938d38bcffb",
+        "question": "En la escuela \"Sol Dorado\" se usa mucha agua cada día para actividades como limpiar, regar las plantas y en los baños. El comité de estudiantes quiere ayudar a ahorrar agua. ¿Puedes pensar en una idea para ahorrar agua en el colegio?\n\nLuego, explica cómo podrían medir si esa idea está funcionando para ahorrar agua.",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "metacognicion",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "06d2e1e3-d188-48c5-8bc9-5fccfddd3275",
+        "user_id": "synthetic-latency-probe",
+        "module_id": "0de0bdd7-57a0-4f86-b11b-c47482d87ca4",
+        "step_id": "93489192-3103-4dd4-b811-f938d38bcffb",
+        "question": "En la escuela \"Sol Dorado\" se usa mucha agua cada día para actividades como limpiar, regar las plantas y en los baños. El comité de estudiantes quiere ayudar a ahorrar agua. ¿Puedes pensar en una idea para ahorrar agua en el colegio?\n\nLuego, explica cómo podrían medir si esa idea está funcionando para ahorrar agua.",
+        "type": "text",
+        "options": [],
+        "left_items": [],
+        "right_items": [],
+        "expected": {
+          "type": "rubric",
+          "answer": "Una estrategia posible es colocar carteles que recuerden cerrar bien las llaves o usar baldes con poca agua para limpiar. Para comprobar si funciona, se puede medir la cantidad de agua que usa la escuela antes y después de implementar la idea y ver si disminuye.",
+          "rubric": "Responde proponiendo una estrategia concreta y sencilla para ahorrar agua en el colegio y explica claramente una forma sencilla de comprobar si la estrategia funciona, por ejemplo, midiendo el consumo de agua antes y después o verificando cambios visibles en el uso."
+        },
+        "learning_focus": "Planificación y evaluación de una estrategia para ahorrar agua en el colegio",
+        "option_explanations": [],
+        "pair_explanations": [],
+        "rubric": "Responde proponiendo una estrategia concreta y sencilla para ahorrar agua en el colegio y explica claramente una forma sencilla de comprobar si la estrategia funciona, por ejemplo, midiendo el consumo de agua antes y después o verificando cambios visibles en el uso.",
+        "hint": "Piensa primero en qué actividades usan agua en el colegio y cómo podrías cambiar algo para usar menos agua. Luego, piensa cómo podrías ver si realmente se está usando menos agua con esa idea.",
+        "explanation": "Para esta actividad se busca que el estudiante planifique una acción concreta para el ahorro de agua y que luego piense en una forma práctica para verificar si su propuesta tiene éxito, fomentando la metacognición sobre la estrategia y la evaluación de resultados.",
+        "dimension": "metacognicion",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "social_studies",
+        "support_context": {
+          "topic": "Proponer una estrategia para ahorrar agua en el colegio y cómo comprobar si funciona",
+          "concept": "Proponer una estrategia para ahorrar agua en el colegio y cómo comprobar si funciona",
+          "learning_goal": "Proponer una estrategia para ahorrar agua en el colegio y cómo comprobar si funciona"
+        },
+        "grade_group": "1-3",
+        "expires_at": 1793984727211
+      },
+      "audit": {
+        "verification": "La pregunta pide una acción de ahorro y una forma de medir su resultado. La respuesta modelo propone cerrar las llaves o usar menos agua para limpiar y comparar el consumo antes y después; ambas son pertinentes. Las dos rúbricas coinciden y aceptan estrategias y comprobaciones apropiadas. La pista orienta sin resolver y la explicación corresponde a planificación y evaluación metacognitiva. El contexto escolar interviene en la propuesta; el lenguaje y la tarea son adecuados para segundo grado. No se requieren datos externos ni material ausente.",
+        "approved": true,
+        "issues": []
+      }
+    },
+    {
+      "case": "english2",
+      "subject": "english",
+      "grade": 2,
+      "dimension": "representacion",
+      "requested": "matching",
+      "logs": [
+        {
+          "task": "kuneo_activity",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "serviceTier": "default",
+          "ms": 2761,
+          "usage": {
+            "prompt_tokens": 2122,
+            "completion_tokens": 304,
+            "total_tokens": 2426,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0015474
+        },
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-4.1-mini",
+          "resolvedModel": "gpt-4.1-mini-2025-04-14",
+          "serviceTier": "default",
+          "ms": 1434,
+          "usage": {
+            "prompt_tokens": 1497,
+            "completion_tokens": 139,
+            "total_tokens": 1636,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0009709000000000001
+        },
+        {
+          "task": "kuneo_audit",
+          "model": "gpt-6.1-terra",
+          "resolvedModel": "gpt-6.1-terra",
+          "serviceTier": "default",
+          "ms": 4400,
+          "usage": {
+            "prompt_tokens": 744,
+            "completion_tokens": 227,
+            "total_tokens": 971,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.002065
+        }
+      ],
+      "ms": 4198,
+      "metrics": {
+        "timestamp": "2026-11-05T17:05:33.050Z",
+        "request_id": "234d83e9-6d78-4b8b-9b15-78fbd2b0d525",
+        "operation": "latency_probe",
+        "status": 200,
+        "total_ms": 4198,
+        "stages": {
+          "openai_generation": 2761,
+          "openai_review": 1435
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 2122,
+            "output_tokens": 304,
+            "cached_input_tokens": 0
+          },
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 1497,
+            "output_tokens": 139,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {
+          "generation_service_tier": "default",
+          "review_service_tier": "default",
+          "generation_outcome": "generated"
+        }
+      },
+      "activity": {
+        "id": "ddc8d6f6-f0d0-493c-9bba-7d28b9b34801",
+        "step_id": "ca7cebb6-fd8e-442f-ace0-a8c4017c7ad7",
+        "question": "Relaciona las palabras en inglés de animales con su significado en español:",
+        "type": "matching",
+        "options": [],
+        "cognitive_dimension": "representacion",
+        "source": "generated",
+        "notice": null,
+        "left_items": [
+          "elephant",
+          "frog",
+          "bird",
+          "dog"
+        ],
+        "right_items": [
+          "pájaro",
+          "perro",
+          "elefante",
+          "rana"
+        ],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "ddc8d6f6-f0d0-493c-9bba-7d28b9b34801",
+        "user_id": "synthetic-latency-probe",
+        "module_id": "6ee39590-ac53-4aff-a38a-f7c6504df22f",
+        "step_id": "ca7cebb6-fd8e-442f-ace0-a8c4017c7ad7",
+        "question": "Relaciona las palabras en inglés de animales con su significado en español:",
+        "type": "matching",
+        "options": [],
+        "left_items": [
+          "elephant",
+          "frog",
+          "bird",
+          "dog"
+        ],
+        "right_items": [
+          "pájaro",
+          "perro",
+          "elefante",
+          "rana"
+        ],
+        "expected": {
+          "type": "matching",
+          "correct_pairs": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        },
+        "learning_focus": "Relacionar palabras en inglés de animales con su significado en español",
+        "option_explanations": [],
+        "pair_explanations": [
+          "'elephant' es elefante, un animal grande con trompa.",
+          "'frog' es rana, un anfibio que salta y vive cerca del agua.",
+          "'bird' es pájaro, un animal que vuela con plumas.",
+          "'dog' es perro, el animal doméstico conocido por ser compañero del hombre."
+        ],
+        "rubric": "Se evalúa que cada palabra en inglés de animal esté correctamente relacionada con su significado en español correspondiente, respetando la equivalencia correcta.",
+        "hint": "Piensa en cómo suenan o se escriben las palabras en inglés y busca su equivalente en español entre las opciones que tienes.",
+        "explanation": "El estudiante debe identificar que 'elephant' significa 'elefante', 'frog' es 'rana', 'bird' es 'pájaro' y 'dog' es 'perro'. Esta correspondencia muestra comprensión del vocabulario animal en inglés y su representación en español.",
+        "dimension": "representacion",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "english",
+        "support_context": {
+          "topic": "Relacionar palabras inglesas de animales con su significado proporcionado en español",
+          "concept": "Relacionar palabras inglesas de animales con su significado proporcionado en español",
+          "learning_goal": "Relacionar palabras inglesas de animales con su significado proporcionado en español"
+        },
+        "grade_group": "1-3",
+        "expires_at": 1793984733050
+      },
+      "audit": {
+        "verification": "Las claves son correctas: elephant–elefante (0,2), frog–rana (1,3), bird–pájaro (2,0) y dog–perro (3,1). La rúbrica y la explicación general coinciden con esas equivalencias. Las explicaciones de elephant, frog y dog son aceptables; la de bird contiene una generalización incorrecta. La consigna en español y el vocabulario son apropiados para segundo y para la habilidad de representación, pero no se proporciona información que permita deducir tres equivalencias ni un contexto de aplicación.",
+        "approved": false,
+        "issues": [
+          "La actividad requiere conocer previamente las traducciones de frog, bird y dog: presentar ambas listas no proporciona sus equivalencias, y la pista de sonido o escritura no permite deducirlas de forma fiable.",
+          "La explicación de bird afirma que es un animal que vuela; no todos los pájaros vuelan.",
+          "Falta un contexto de aplicación que intervenga en el razonamiento: la actividad solo presenta listas de palabras."
+        ]
+      }
+    }
+  ],
+  "controls": [],
+  "summary": {
+    "total": 10,
+    "ready": 8,
+    "independentApproved": 1,
+    "readyLatency": {
+      "samples": 8,
+      "p50_ms": 4845,
+      "p95_ms": 5933,
+      "min_ms": 4198,
+      "max_ms": 5933
+    },
+    "approvedLatency": {
+      "samples": 1,
+      "p50_ms": 4394,
+      "p95_ms": 4394,
+      "min_ms": 4394,
+      "max_ms": 4394
+    },
+    "controlPassed": 0,
+    "controlTotal": 0,
+    "estimatedRuntimeUsd": 0.024571000000000006,
+    "runtimeOutputTokens": 6770,
+    "callsSoFar": 29,
+    "estimatedExperimentUsd": 0.04293224999999999
+  }
+}

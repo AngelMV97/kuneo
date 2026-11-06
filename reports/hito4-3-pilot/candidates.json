@@ -1,0 +1,826 @@
+[
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "4a1680e1-ab6d-48f0-8938-f97518deab93:q:0",
+      "sha256": "83b464eeac803c5af9cb8552fc98546e74511cd9685a6fa20c1cbcb104ad6eb2",
+      "associationHashes": {
+        "module": "aced30870d30ba875b8ab4cb8e5385278f484dafac6f16470be8e5a5e0cbae65",
+        "card": "c27a2ea603683b9ddd361fd5f2fd146eae9c165740b2baffd1261fa0cd3de78f",
+        "visual": "ee2c1cf4d94b1b996844b6dbfc2cd4d07620b8f207e1da0b65b8e6aa9e3530fa"
+      }
+    },
+    "module": {
+      "id": "pilot-candidate-module-1",
+      "subject": "mathematics",
+      "grade_range": "8-9",
+      "title": "Agua para la huerta",
+      "core_concept": "cambio_lineal",
+      "learning_objective": "Interpretar una función lineal y relacionar su tasa de cambio con una situación cotidiana.",
+      "is_active": false
+    },
+    "step": {
+      "id": "pilot-repair-1",
+      "module_id": "pilot-candidate-module-1",
+      "content": {
+        "prompt": "Situación simulada: en una huerta escolar de Boyacá, un tanque contiene 120 litros. Mientras se riega, pierde 15 litros por minuto, sin recibir agua. Para los primeros 8 minutos se usa $V(t)=120-15t$, con $t$ en minutos y $V$ en litros.\n\n¿Cuál afirmación interpreta correctamente este modelo?",
+        "options": [
+          "El volumen aumenta 15 litros cada minuto.",
+          "El tanque empieza con 15 litros y pierde 120 por minuto.",
+          "Cada minuto quedan 15 litros menos; a los 8 minutos el modelo llega a cero.",
+          "El volumen es siempre 120 litros."
+        ],
+        "left_items": [],
+        "right_items": []
+      },
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "razonamiento",
+      "enriched_content": {
+        "type": "option",
+        "expected_answer": {
+          "type": "option",
+          "correct_options": [
+            2
+          ]
+        },
+        "cognitive_dimension": "razonamiento",
+        "explanation": "120 es el volumen inicial y −15 indica una disminución de 15 litros por minuto. Al sustituir t=8, V=120−120=0; el modelo solo se usa hasta que se vacía el tanque.",
+        "option_explanations": [
+          "El signo negativo indica que sale agua, no que aumenta el volumen.",
+          "Se intercambiaron volumen inicial y tasa: 120 son litros y 15 son litros por minuto.",
+          "La tasa es −15 L/min y V(8)=0. La interpretación respeta el dominio indicado.",
+          "El término −15t cambia con el tiempo; por eso el volumen no es constante."
+        ],
+        "pair_explanations": [],
+        "learning_focus": "Interpretar tasa, unidades y dominio en un modelo lineal.",
+        "step_config": {
+          "hints": [
+            "Distingue el volumen inicial del cambio por minuto. Comprueba qué unidades tiene cada número."
+          ],
+          "feedback": "120 es el volumen inicial y −15 indica una disminución de 15 litros por minuto. Al sustituir t=8, V=120−120=0; el modelo solo se usa hasta que se vacía el tanque."
+        }
+      }
+    },
+    "activity": {
+      "options": [
+        "El volumen aumenta 15 litros cada minuto.",
+        "El tanque empieza con 15 litros y pierde 120 por minuto.",
+        "Cada minuto quedan 15 litros menos; a los 8 minutos el modelo llega a cero.",
+        "El volumen es siempre 120 litros."
+      ],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [],
+      "correct_pairs": [],
+      "correct_index": 2,
+      "expected_text": "",
+      "rubric": "Interpretar el signo y las unidades de la tasa -15 L/min y el cero V(8)=0 dentro de 0≤t≤8.",
+      "option_explanations": [
+        "El signo negativo indica que sale agua, no que aumenta el volumen.",
+        "Se intercambiaron volumen inicial y tasa: 120 son litros y 15 son litros por minuto.",
+        "La tasa es −15 L/min y V(8)=0. La interpretación respeta el dominio indicado.",
+        "El término −15t cambia con el tiempo; por eso el volumen no es constante."
+      ],
+      "pair_explanations": [],
+      "type": "option",
+      "question": "Situación simulada: en una huerta escolar de Boyacá, un tanque contiene 120 litros. Mientras se riega, pierde 15 litros por minuto, sin recibir agua. Para los primeros 8 minutos se usa $V(t)=120-15t$, con $t$ en minutos y $V$ en litros.\n\n¿Cuál afirmación interpreta correctamente este modelo?",
+      "hint": "Distingue el volumen inicial del cambio por minuto. Comprueba qué unidades tiene cada número.",
+      "explanation": "120 es el volumen inicial y −15 indica una disminución de 15 litros por minuto. Al sustituir t=8, V=120−120=0; el modelo solo se usa hasta que se vacía el tanque.",
+      "learning_focus": "Interpretar tasa, unidades y dominio en un modelo lineal.",
+      "dimension": "razonamiento"
+    },
+    "supports": [
+      {
+        "title": "Leer un modelo lineal",
+        "body": "En un modelo de cambio constante, el valor inicial indica con cuánto se comienza. La tasa indica cuánto cambia la cantidad por cada unidad de tiempo. Su signo distingue aumento y disminución. El dominio limita los valores para los que tiene sentido usar el modelo.",
+        "insight": "Comprueba signo, unidades y dominio antes de interpretar un resultado.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Lectura de un modelo",
+          "headers": [],
+          "rows": [],
+          "steps": [
+            "Identifica la cantidad y su unidad.",
+            "Distingue valor inicial y tasa.",
+            "Comprueba el intervalo de uso."
+          ]
+        }
+      },
+      {
+        "title": "Un ahorro que disminuye",
+        "body": "Un modelo lineal puede representar una cantidad que disminuye a ritmo constante.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Situación simulada: una estudiante tiene 36 mil pesos de ahorro y usa 6 mil pesos cada semana, sin añadir dinero. Su saldo es S(w)=36−6w, en miles de pesos, para 0≤w≤6. ¿Cuánto tiene al terminar la cuarta semana?",
+        "example_steps": [
+          "Sustituimos w=4 porque han pasado cuatro semanas.",
+          "Calculamos 36−6×4=12, en miles de pesos."
+        ],
+        "example_result": "Después de cuatro semanas conserva 12 mil pesos. El resultado está dentro del intervalo del modelo.",
+        "visual": {
+          "kind": "table",
+          "caption": "Saldo calculado, en miles de pesos",
+          "headers": [
+            "Semanas",
+            "Saldo"
+          ],
+          "rows": [
+            [
+              "0",
+              "36"
+            ],
+            [
+              "2",
+              "24"
+            ],
+            [
+              "4",
+              "12"
+            ],
+            [
+              "6",
+              "0"
+            ]
+          ],
+          "steps": []
+        }
+      }
+    ],
+    "checks": [
+      [
+        "2",
+        "correct"
+      ],
+      [
+        "0",
+        "incorrect"
+      ],
+      [
+        "1",
+        "incorrect"
+      ],
+      [
+        "3",
+        "incorrect"
+      ]
+    ],
+    "sha256": "1caf7855d1742b6a942ff1794d76ce0736799de270ed1c7f76e1c12f2a60afa6"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "00b5fbfc-1431-4de4-83cd-786933d2b9f0:q:0",
+      "sha256": "97a3e449372af4a20cea20c09766ed47056c019c09a06772fa39b011f1be382f",
+      "associationHashes": {
+        "module": "824b92a30b993c626e41259d64826bbc435072b270eff053b85340df3c689c29",
+        "card": "bd144fc91acd7364aff113de292fbc1e3eb683beccdcd1c7fa356678b75cdc3a",
+        "visual": "1c8774c1c78f7e24b7529a51b240b61ce57bd479ef204fcf606108e74dc25a6e"
+      }
+    },
+    "module": {
+      "id": "pilot-candidate-module-2",
+      "subject": "language",
+      "grade_range": "5",
+      "title": "Un mensaje para el curso",
+      "core_concept": "argumentacion",
+      "learning_objective": "Planear por escrito un mensaje oral que proponga una decisión y la justifique con información disponible.",
+      "is_active": false
+    },
+    "step": {
+      "id": "pilot-repair-2",
+      "module_id": "pilot-candidate-module-2",
+      "content": {
+        "prompt": "Situación simulada: el curso de una escuela de Cali decidirá qué hacer con el patio durante el descanso. En un sondeo del curso, 18 estudiantes prefieren un rincón de lectura y 12 prefieren una zona de juegos de mesa. Solo se puede organizar un espacio esta semana.\n\nEscribe el mensaje breve que dirías a tus compañeros: propone una de las dos opciones, justifícala con al menos un dato del sondeo y reconoce de forma respetuosa qué podrían necesitar quienes prefieren la otra opción. Puedes defender cualquiera de las dos.",
+        "options": [],
+        "left_items": [],
+        "right_items": []
+      },
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "razonamiento",
+      "enriched_content": {
+        "type": "text",
+        "expected_answer": {
+          "type": "rubric",
+          "answer": "Propongo el rincón de lectura porque 18 compañeros lo prefieren. Sé que 12 quieren juegos de mesa; podríamos escuchar sus ideas para una próxima semana.",
+          "rubric": "Correct si propone lectura O juegos de mesa, utiliza correctamente al menos un dato (18 lectura o 12 juegos) para justificar su propuesta y reconoce respetuosamente la preferencia/necesidad del otro grupo. Se acepta defender la opción minoritaria con una razón coherente y un dato bien atribuido. No exigir mayoría, palabras exactas ni un plan para otra semana. Partial si una o dos de las tres partes están presentes pero falta otra, o si hay un dato invertido junto a partes válidas. Incorrect si no hay propuesta/razón pertinente, solo lista palabras clave, inventa datos como fundamento único o desprecia a sus compañeros sin responder la tarea. No evaluar ejecución oral: se pide un guion escrito.",
+          "criteria": [
+            {
+              "id": "proposal",
+              "requirement": "Propone lectura o juegos de mesa. Ambas decisiones son aceptables, incluso la minoritaria."
+            },
+            {
+              "id": "reason",
+              "requirement": "Da una razón coherente y usa correctamente al menos un dato: 18 prefieren lectura o 12 juegos. Puede reconocer que solo 12 eligen juegos y defenderlos por compartir estrategias. No exigir mayoría ni que el número sea la única razón."
+            },
+            {
+              "id": "respect",
+              "requirement": "Reconoce con respeto la preferencia o necesidad del otro grupo. No exigir plan de otra semana ni mención de su número."
+            }
+          ]
+        },
+        "cognitive_dimension": "razonamiento",
+        "explanation": "Un mensaje puede defender cualquiera de las opciones si usa los datos sin cambiarlos y reconoce respetuosamente al otro grupo.",
+        "option_explanations": [],
+        "pair_explanations": [],
+        "learning_focus": "Justificar una propuesta y considerar a quienes piensan distinto.",
+        "step_config": {
+          "hints": [
+            "Revisa las tres partes solicitadas: decisión, dato que la apoya y reconocimiento de la otra preferencia."
+          ],
+          "feedback": "Un mensaje puede defender cualquiera de las opciones si usa los datos sin cambiarlos y reconoce respetuosamente al otro grupo."
+        }
+      }
+    },
+    "activity": {
+      "options": [],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [],
+      "correct_pairs": [],
+      "correct_index": -1,
+      "expected_text": "Propongo el rincón de lectura porque 18 compañeros lo prefieren. Sé que 12 quieren juegos de mesa; podríamos escuchar sus ideas para una próxima semana.",
+      "rubric": "Correct si propone lectura O juegos de mesa, utiliza correctamente al menos un dato (18 lectura o 12 juegos) para justificar su propuesta y reconoce respetuosamente la preferencia/necesidad del otro grupo. Se acepta defender la opción minoritaria con una razón coherente y un dato bien atribuido. No exigir mayoría, palabras exactas ni un plan para otra semana. Partial si una o dos de las tres partes están presentes pero falta otra, o si hay un dato invertido junto a partes válidas. Incorrect si no hay propuesta/razón pertinente, solo lista palabras clave, inventa datos como fundamento único o desprecia a sus compañeros sin responder la tarea. No evaluar ejecución oral: se pide un guion escrito.",
+      "option_explanations": [],
+      "pair_explanations": [],
+      "type": "text",
+      "question": "Situación simulada: el curso de una escuela de Cali decidirá qué hacer con el patio durante el descanso. En un sondeo del curso, 18 estudiantes prefieren un rincón de lectura y 12 prefieren una zona de juegos de mesa. Solo se puede organizar un espacio esta semana.\n\nEscribe el mensaje breve que dirías a tus compañeros: propone una de las dos opciones, justifícala con al menos un dato del sondeo y reconoce de forma respetuosa qué podrían necesitar quienes prefieren la otra opción. Puedes defender cualquiera de las dos.",
+      "hint": "Revisa las tres partes solicitadas: decisión, dato que la apoya y reconocimiento de la otra preferencia.",
+      "explanation": "Un mensaje puede defender cualquiera de las opciones si usa los datos sin cambiarlos y reconoce respetuosamente al otro grupo.",
+      "learning_focus": "Justificar una propuesta y considerar a quienes piensan distinto.",
+      "dimension": "razonamiento"
+    },
+    "supports": [
+      {
+        "title": "Una propuesta con razones",
+        "body": "Al preparar un mensaje para un grupo, aclara qué propones y por qué. Un dato puede apoyar una razón, pero no decide por sí solo qué es más justo o conveniente. Reconocer otra preferencia ayuda a dialogar sin descalificar.",
+        "insight": "No hay una opinión obligatoria: importa cómo la justificas.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Plan del mensaje",
+          "headers": [],
+          "rows": [],
+          "steps": [
+            "Propongo una opción.",
+            "Explico mi razón con un dato disponible.",
+            "Reconozco otra preferencia con respeto."
+          ]
+        }
+      },
+      {
+        "title": "Una decisión para la biblioteca",
+        "body": "Una propuesta puede reconocer intereses diferentes sin inventar información.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Situación simulada: la biblioteca dispone de un espacio. En otro grupo, 9 estudiantes quieren una exposición de dibujos y 7 una de fotografías. Valeria propone dibujos. ¿Cómo podría justificarlo y reconocer a la otra parte?",
+        "example_steps": [
+          "Valeria dice que 9 compañeros prefieren dibujos: el dato corresponde a su propuesta.",
+          "Reconoce que 7 prefieren fotografías y que también desean mostrar su trabajo."
+        ],
+        "example_result": "Podría decir: «Propongo dibujos porque 9 compañeros los eligieron. También debemos escuchar a los 7 que prefieren fotografías y valorar su trabajo».",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Partes del mensaje",
+          "headers": [],
+          "rows": [],
+          "steps": [
+            "Propuesta: dibujos.",
+            "Dato: 9 estudiantes.",
+            "Reconocimiento: quienes prefieren fotografías también tienen interés en participar."
+          ]
+        }
+      }
+    ],
+    "checks": [
+      [
+        "Quiero lectura: la eligieron 18 compañeros. Entiendo que otros prefieren juegos y también quieren disfrutar el patio.",
+        "correct"
+      ],
+      [
+        "Mejor los juegos: aunque solo 12 los eligieron, me gustaría compartir estrategias; respeto a quienes quieren leer.",
+        "correct"
+      ],
+      [
+        "Propongo lectura porque 18 la prefieren.",
+        "partial"
+      ],
+      [
+        "razón evidencia persuasión",
+        "incorrect"
+      ]
+    ],
+    "sha256": "d7193ce37f205beb3932ab91f21d264d48d1134d9b16f264348a48805238da4b"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "307726e0-3dc0-4abe-97f7-337118de708c:q:0",
+      "sha256": "c3c3ced0abd1a80a2ef6aef5a8f393cad91e58520102dae4d0b7e6f5cbdb3a6f",
+      "associationHashes": {
+        "module": "31aa11d1cd6b85a48516bc4b543387016d9b755731b0745008cb5c169e841c5f",
+        "card": "e9f57e2b4452f7d87a0cd64604739221cc745c5a07f881d44b86bc5a7b7b1a17",
+        "visual": "db1fd3c37a44b98ec7db23af48c58f173eb9182c71d6d175257c8c422e98acad"
+      }
+    },
+    "module": {
+      "id": "pilot-candidate-module-3",
+      "subject": "natural_sciences",
+      "grade_range": "1-3",
+      "title": "Comparar dos plantas",
+      "core_concept": "comparacion_experimental",
+      "learning_objective": "Reconocer una comparación sencilla que permita investigar una pregunta cambiando una condición a la vez.",
+      "is_active": false
+    },
+    "step": {
+      "id": "pilot-repair-3",
+      "module_id": "pilot-candidate-module-3",
+      "content": {
+        "prompt": "Situación imaginada: Sara quiere saber cómo influye la luz en dos plantas de fríjol. Las dos plantas son parecidas y tienen macetas iguales. Una recibirá luz y la otra estará en oscuridad. No vamos a realizar el experimento ahora.\n\n¿Qué dos acciones ayudan a comparar el efecto de la luz? Marca las dos.",
+        "options": [
+          "Dar a ambas la misma cantidad de agua.",
+          "Dar mucha agua a una y ninguna a la otra.",
+          "Observar ambas después del mismo número de días.",
+          "Cambiar también el tipo de tierra en una sola maceta."
+        ],
+        "left_items": [],
+        "right_items": []
+      },
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "comprension",
+      "enriched_content": {
+        "type": "multiple_select",
+        "expected_answer": {
+          "type": "multiple_select",
+          "correct_options": [
+            0,
+            2
+          ]
+        },
+        "cognitive_dimension": "comprension",
+        "explanation": "Para comparar la luz, mantenemos iguales otras condiciones: agua y tiempo de observación. Si cambiamos también agua o tierra, no sabremos qué explica una diferencia. Todavía no tenemos resultados.",
+        "option_explanations": [
+          "La misma cantidad de agua permite que esa condición no sea la diferencia entre las plantas.",
+          "Cambiar el agua además de la luz mezcla dos posibles causas.",
+          "Compararlas tras el mismo tiempo hace más justa la comparación.",
+          "Cambiar la tierra agrega otra posible causa de diferencias."
+        ],
+        "pair_explanations": [],
+        "learning_focus": "Comparar condiciones sin inventar resultados.",
+        "step_config": {
+          "hints": [
+            "Si cambias varias cosas a la vez, será difícil saber cuál produjo una diferencia."
+          ],
+          "feedback": "Para comparar la luz, mantenemos iguales otras condiciones: agua y tiempo de observación. Si cambiamos también agua o tierra, no sabremos qué explica una diferencia. Todavía no tenemos resultados."
+        }
+      }
+    },
+    "activity": {
+      "options": [
+        "Dar a ambas la misma cantidad de agua.",
+        "Dar mucha agua a una y ninguna a la otra.",
+        "Observar ambas después del mismo número de días.",
+        "Cambiar también el tipo de tierra en una sola maceta."
+      ],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [
+        0,
+        2
+      ],
+      "correct_pairs": [],
+      "correct_index": -1,
+      "expected_text": "",
+      "rubric": "Seleccionar las acciones 0 y 2: mantener agua y tiempo de comparación iguales. No afirmar un resultado experimental no observado.",
+      "option_explanations": [
+        "La misma cantidad de agua permite que esa condición no sea la diferencia entre las plantas.",
+        "Cambiar el agua además de la luz mezcla dos posibles causas.",
+        "Compararlas tras el mismo tiempo hace más justa la comparación.",
+        "Cambiar la tierra agrega otra posible causa de diferencias."
+      ],
+      "pair_explanations": [],
+      "type": "multiple_select",
+      "question": "Situación imaginada: Sara quiere saber cómo influye la luz en dos plantas de fríjol. Las dos plantas son parecidas y tienen macetas iguales. Una recibirá luz y la otra estará en oscuridad. No vamos a realizar el experimento ahora.\n\n¿Qué dos acciones ayudan a comparar el efecto de la luz? Marca las dos.",
+      "hint": "Si cambias varias cosas a la vez, será difícil saber cuál produjo una diferencia.",
+      "explanation": "Para comparar la luz, mantenemos iguales otras condiciones: agua y tiempo de observación. Si cambiamos también agua o tierra, no sabremos qué explica una diferencia. Todavía no tenemos resultados.",
+      "learning_focus": "Comparar condiciones sin inventar resultados.",
+      "dimension": "comprension"
+    },
+    "supports": [
+      {
+        "title": "Una comparación justa",
+        "body": "Para investigar una pregunta, compara casos parecidos. Cambia solo lo que quieres estudiar y procura mantener iguales las otras condiciones. Después observa y registra. Antes de observar no sabemos cuál será el resultado.",
+        "insight": "Una idea para probar no es un resultado comprobado.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Comparar sin confundir",
+          "headers": [],
+          "rows": [],
+          "steps": [
+            "Elige qué condición estudiar.",
+            "Mantén iguales las demás condiciones.",
+            "Observa y registra antes de concluir."
+          ]
+        }
+      },
+      {
+        "title": "Investigar un carrito",
+        "body": "Podemos planear una comparación sin decir de antemano qué ocurrirá.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Situación imaginada: Tomás quiere comparar cómo rueda el mismo carrito en cartón y en tela. ¿Qué puede mantener igual? No se hará la prueba ahora.",
+        "example_steps": [
+          "Usaría el mismo carrito y lo soltaría desde la misma altura.",
+          "Cambiaría solo la superficie y observaría cuánto avanza en cada caso."
+        ],
+        "example_result": "Así podría comparar las superficies sin cambiar también el carrito o la altura. Sin hacer la prueba, todavía no sabemos en cuál avanza más.",
+        "visual": {
+          "kind": "table",
+          "caption": "Plan de comparación, sin resultados",
+          "headers": [
+            "Condición",
+            "En ambos casos"
+          ],
+          "rows": [
+            [
+              "Carrito",
+              "El mismo"
+            ],
+            [
+              "Altura de salida",
+              "La misma"
+            ],
+            [
+              "Lo que cambia",
+              "Cartón o tela"
+            ]
+          ],
+          "steps": []
+        }
+      }
+    ],
+    "checks": [
+      [
+        "[0,2]",
+        "correct"
+      ],
+      [
+        "[0]",
+        "partial"
+      ],
+      [
+        "[1,3]",
+        "incorrect"
+      ],
+      [
+        "[0,1,2,3]",
+        "incorrect"
+      ]
+    ],
+    "sha256": "cb29ee7736888243302435921b557feb6656f86729a74955fbb636947579be7a"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "cd032bdb-1d1b-4638-9ff3-ee9776205b6e:q:0",
+      "sha256": "2d27b8b4c9845b0139b19840530db3a43a68af602a1831b361de1fbebea99f56",
+      "associationHashes": {
+        "module": "32cb24643062ecbe18d5c5d440617e8597909b10dfc5aa9470d5357ade2ca752",
+        "card": "0b8fc04a715bb53f90130fd408383c0016a0366c479bd813ecec3a088c1a40c8",
+        "visual": "31804fd5ae96e760ecd2a7b3864be69625205ff40530bd84dca1684d29532339"
+      }
+    },
+    "module": {
+      "id": "pilot-candidate-module-4",
+      "subject": "social_studies",
+      "grade_range": "6-7",
+      "title": "Fechas y procesos en Colombia",
+      "core_concept": "cronologia_colombiana",
+      "learning_objective": "Relacionar hechos históricos delimitados con sus fechas a partir de una lectura y distinguir un hito de un proceso completo.",
+      "is_active": false
+    },
+    "step": {
+      "id": "pilot-repair-4",
+      "module_id": "pilot-candidate-module-4",
+      "content": {
+        "prompt": "Para preparar una cartelera escolar, lee estos hechos del territorio de la actual Colombia:\n\n- El 20 de julio de 1810 ocurrió el movimiento de Santafé y se formó una junta. Es un hito del proceso de independencia, no su culminación en todo el territorio.\n- La batalla de Boyacá ocurrió el 7 de agosto de 1819.\n- La ley de abolición de la esclavitud de la Nueva Granada fue sancionada el 21 de mayo de 1851. Aquí preguntamos por la fecha de la ley, no por su entrada en vigor.\n\nRelaciona cada hecho con la fecha indicada en la lectura.",
+        "options": [],
+        "left_items": [
+          "Movimiento y junta de Santafé",
+          "Batalla de Boyacá",
+          "Ley de abolición en la Nueva Granada"
+        ],
+        "right_items": [
+          "21 de mayo de 1851",
+          "20 de julio de 1810",
+          "7 de agosto de 1819"
+        ]
+      },
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "comprension",
+      "enriched_content": {
+        "type": "matching",
+        "expected_answer": {
+          "type": "matching",
+          "correct_pairs": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        "cognitive_dimension": "comprension",
+        "explanation": "Los hechos están delimitados por territorio y tipo de acontecimiento. La lectura distingue un hito del proceso de independencia y la fecha de una ley.",
+        "option_explanations": [],
+        "pair_explanations": [
+          "El movimiento y la junta de Santafé corresponden al 20 de julio de 1810; no se afirma que ese día terminara todo el proceso.",
+          "La batalla de Boyacá corresponde al 7 de agosto de 1819.",
+          "La fecha solicitada es la sanción de la ley, el 21 de mayo de 1851, no su entrada en vigor."
+        ],
+        "learning_focus": "Leer fechas con precisión y distinguir hitos, procesos y leyes.",
+        "step_config": {
+          "hints": [
+            "Busca el nombre de cada hecho en la lectura y relaciona su fecha. No te guíes por la posición en las columnas."
+          ],
+          "feedback": "Los hechos están delimitados por territorio y tipo de acontecimiento. La lectura distingue un hito del proceso de independencia y la fecha de una ley."
+        }
+      }
+    },
+    "activity": {
+      "options": [],
+      "left_items": [
+        "Movimiento y junta de Santafé",
+        "Batalla de Boyacá",
+        "Ley de abolición en la Nueva Granada"
+      ],
+      "right_items": [
+        "21 de mayo de 1851",
+        "20 de julio de 1810",
+        "7 de agosto de 1819"
+      ],
+      "correct_indices": [],
+      "correct_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "correct_index": -1,
+      "expected_text": "",
+      "rubric": "Relacionar cada hecho con la fecha explícita; distinguir fecha de ley de su vigencia y evitar presentar 1810 como independencia terminada.",
+      "option_explanations": [],
+      "pair_explanations": [
+        "El movimiento y la junta de Santafé corresponden al 20 de julio de 1810; no se afirma que ese día terminara todo el proceso.",
+        "La batalla de Boyacá corresponde al 7 de agosto de 1819.",
+        "La fecha solicitada es la sanción de la ley, el 21 de mayo de 1851, no su entrada en vigor."
+      ],
+      "type": "matching",
+      "question": "Para preparar una cartelera escolar, lee estos hechos del territorio de la actual Colombia:\n\n- El 20 de julio de 1810 ocurrió el movimiento de Santafé y se formó una junta. Es un hito del proceso de independencia, no su culminación en todo el territorio.\n- La batalla de Boyacá ocurrió el 7 de agosto de 1819.\n- La ley de abolición de la esclavitud de la Nueva Granada fue sancionada el 21 de mayo de 1851. Aquí preguntamos por la fecha de la ley, no por su entrada en vigor.\n\nRelaciona cada hecho con la fecha indicada en la lectura.",
+      "hint": "Busca el nombre de cada hecho en la lectura y relaciona su fecha. No te guíes por la posición en las columnas.",
+      "explanation": "Los hechos están delimitados por territorio y tipo de acontecimiento. La lectura distingue un hito del proceso de independencia y la fecha de una ley.",
+      "learning_focus": "Leer fechas con precisión y distinguir hitos, procesos y leyes.",
+      "dimension": "comprension"
+    },
+    "supports": [
+      {
+        "title": "Una fecha necesita contexto",
+        "body": "Una fecha puede señalar una reunión, una batalla o la aprobación de una ley. Un proceso histórico puede durar años y no se reduce a un solo día. Antes de ordenar o relacionar hechos, identifica el lugar y qué ocurrió exactamente.",
+        "insight": "La fecha de una ley y su entrada en vigor pueden ser diferentes.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Leer un hito histórico",
+          "headers": [],
+          "rows": [],
+          "steps": [
+            "Identifica el territorio.",
+            "Nombra qué ocurrió.",
+            "Distingue el hito del proceso completo."
+          ]
+        }
+      },
+      {
+        "title": "Una cronología de otro proyecto",
+        "body": "Las cronologías también permiten distinguir decisiones y puesta en marcha.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Relato ficticio: un colegio aprobó crear una biblioteca el 3 de marzo de 2024 y la abrió el 10 de junio del mismo año. ¿Qué fecha indica su apertura?",
+        "example_steps": [
+          "Distinguimos la aprobación del proyecto de la apertura al público.",
+          "Buscamos la fecha asociada a «abrió»: 10 de junio de 2024."
+        ],
+        "example_result": "La apertura fue el 10 de junio de 2024. La aprobación ocurrió antes, pero no equivale a que la biblioteca ya estuviera abierta.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Cronología del relato ficticio",
+          "headers": [],
+          "rows": [],
+          "steps": [
+            "3 de marzo de 2024: aprobación.",
+            "10 de junio de 2024: apertura."
+          ]
+        }
+      }
+    ],
+    "checks": [
+      [
+        "[[0,1],[1,2],[2,0]]",
+        "correct"
+      ],
+      [
+        "[[0,0],[1,1],[2,2]]",
+        "incorrect"
+      ],
+      [
+        "[[0,1],[1,0],[2,2]]",
+        "incorrect"
+      ]
+    ],
+    "sha256": "e3c081e13e43d40133d0e63f37af282e908bec6d79f43e5773bd94c0d13e7551"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "0d19e23a-ab7e-4b86-84ea-44855c227097:q:0",
+      "sha256": "b93e16c95e32a150cc076a83c4a170a9e745e4e41abca9c3d2a5677809066f7b",
+      "associationHashes": {
+        "module": "f32db183c7bca818fe9fa7baa761c49eff432c0f643f4325fe114a3b246d5b6a",
+        "card": "ca9afbd874e25efbe8583c81772380c2ddf59ccd720d28af1bfb0a91fdc72746",
+        "visual": "1c8774c1c78f7e24b7529a51b240b61ce57bd479ef204fcf606108e74dc25a6e"
+      }
+    },
+    "module": {
+      "id": "pilot-candidate-module-5",
+      "subject": "english",
+      "grade_range": "10-11",
+      "title": "Comprobar un mensaje en inglés",
+      "core_concept": "reading_and_reflection",
+      "learning_objective": "Comprender información explícita de un mensaje en inglés y justificar una estrategia de verificación.",
+      "is_active": false
+    },
+    "step": {
+      "id": "pilot-repair-5",
+      "module_id": "pilot-candidate-module-5",
+      "content": {
+        "prompt": "Situación simulada: un grupo escolar en Medellín recibe este mensaje escrito:\n\n> The science club meeting is on Thursday at 3 p.m. in Room 12. Bring your notebook. If you are unsure about the room, ask Ms. Ruiz before the meeting.\n\nResponde en español o inglés: ¿cuándo y dónde es la reunión? Si no estuvieras seguro del salón, ¿cómo lo comprobarías usando una indicación del mensaje? Explica brevemente por qué esa acción te ayudaría. Esta es una actividad de lectura, no una prueba de escucha.",
+        "options": [],
+        "left_items": [],
+        "right_items": []
+      },
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "metacognicion",
+      "enriched_content": {
+        "type": "text",
+        "expected_answer": {
+          "type": "rubric",
+          "answer": "Es el jueves a las 3 de la tarde en el salón 12. Le preguntaría a la profesora Ruiz antes de la reunión para confirmar el salón y evitar ir al lugar equivocado.",
+          "rubric": "Correct si identifica jueves/Thursday, 3 p.m./15:00/tres de la tarde y salón/Room 12, propone preguntar a Ms./profesora Ruiz antes de la reunión y justifica que eso permite confirmar el lugar o evitar equivocarse. Aceptar español, inglés y paráfrasis; no exigir vocabulario literal. Partial si hay información correcta pertinente pero falta o se equivoca alguna parte, o falta la justificación. Incorrect si solo lista palabras clave, no responde al mensaje, invierte toda la información o propone ignorar el mensaje sin aportar una parte válida. No exigir inferencias adicionales ni evaluar escucha.",
+          "criteria": [
+            {
+              "id": "information",
+              "requirement": "Identifica jueves/Thursday, 3 p.m./15:00/tres de la tarde y salón/Room 12. Aceptar español, inglés, paráfrasis y formatos equivalentes."
+            },
+            {
+              "id": "strategy",
+              "requirement": "Propone consultar a la profesora/Ms. Ruiz antes de la reunión para resolver la duda sobre el salón."
+            },
+            {
+              "id": "purpose",
+              "requirement": "Justifica consultar para confirmar el lugar o evitar equivocarse; basta una explicación breve con esas ideas."
+            }
+          ]
+        },
+        "cognitive_dimension": "metacognicion",
+        "explanation": "El mensaje permite localizar día, hora y salón, y ofrece una persona a quien consultar antes de la reunión.",
+        "option_explanations": [],
+        "pair_explanations": [],
+        "learning_focus": "Comprobar información usando una instrucción del texto.",
+        "step_config": {
+          "hints": [
+            "Separa los datos de la reunión de la instrucción para resolver una duda. Tu explicación puede ser breve."
+          ],
+          "feedback": "El mensaje permite localizar día, hora y salón, y ofrece una persona a quien consultar antes de la reunión."
+        }
+      }
+    },
+    "activity": {
+      "options": [],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [],
+      "correct_pairs": [],
+      "correct_index": -1,
+      "expected_text": "Es el jueves a las 3 de la tarde en el salón 12. Le preguntaría a la profesora Ruiz antes de la reunión para confirmar el salón y evitar ir al lugar equivocado.",
+      "rubric": "Correct si identifica jueves/Thursday, 3 p.m./15:00/tres de la tarde y salón/Room 12, propone preguntar a Ms./profesora Ruiz antes de la reunión y justifica que eso permite confirmar el lugar o evitar equivocarse. Aceptar español, inglés y paráfrasis; no exigir vocabulario literal. Partial si hay información correcta pertinente pero falta o se equivoca alguna parte, o falta la justificación. Incorrect si solo lista palabras clave, no responde al mensaje, invierte toda la información o propone ignorar el mensaje sin aportar una parte válida. No exigir inferencias adicionales ni evaluar escucha.",
+      "option_explanations": [],
+      "pair_explanations": [],
+      "type": "text",
+      "question": "Situación simulada: un grupo escolar en Medellín recibe este mensaje escrito:\n\n> The science club meeting is on Thursday at 3 p.m. in Room 12. Bring your notebook. If you are unsure about the room, ask Ms. Ruiz before the meeting.\n\nResponde en español o inglés: ¿cuándo y dónde es la reunión? Si no estuvieras seguro del salón, ¿cómo lo comprobarías usando una indicación del mensaje? Explica brevemente por qué esa acción te ayudaría. Esta es una actividad de lectura, no una prueba de escucha.",
+      "hint": "Separa los datos de la reunión de la instrucción para resolver una duda. Tu explicación puede ser breve.",
+      "explanation": "El mensaje permite localizar día, hora y salón, y ofrece una persona a quien consultar antes de la reunión.",
+      "learning_focus": "Comprobar información usando una instrucción del texto.",
+      "dimension": "metacognicion"
+    },
+    "supports": [
+      {
+        "title": "Verificar lo que lees",
+        "body": "En un mensaje, distingue los datos del evento y las instrucciones para resolver dudas. Puedes releer una frase concreta, localizar un nombre o seguir la vía de consulta indicada. Explicar por qué eliges una estrategia ayuda a revisar tu comprensión.",
+        "insight": "No adivines un dato que el texto permite comprobar.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Estrategia de lectura",
+          "headers": [],
+          "rows": [],
+          "steps": [
+            "Localiza el dato necesario.",
+            "Identifica cómo resolver una duda.",
+            "Explica qué error te permite evitar."
+          ]
+        }
+      },
+      {
+        "title": "Otro aviso escolar",
+        "body": "Practiquemos con un aviso diferente, sin añadir información que no aparece.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Situación simulada: «The art workshop is on Monday at 9 a.m. in the library. If you need help finding it, ask the librarian before the workshop». ¿Dónde es y a quién puedes consultar para encontrarlo?",
+        "example_steps": [
+          "La expresión «in the library» identifica el lugar: la biblioteca.",
+          "«Ask the librarian» indica consultar a la persona encargada de la biblioteca antes del taller."
+        ],
+        "example_result": "Es en la biblioteca. Consultar a la persona encargada antes del taller permite confirmar cómo llegar al lugar.",
+        "visual": {
+          "kind": "table",
+          "caption": "Datos del otro aviso",
+          "headers": [
+            "Fragmento en inglés",
+            "Significado"
+          ],
+          "rows": [
+            [
+              "in the library",
+              "en la biblioteca"
+            ],
+            [
+              "ask the librarian",
+              "consulta a la persona encargada de la biblioteca"
+            ]
+          ],
+          "steps": []
+        }
+      }
+    ],
+    "checks": [
+      [
+        "Thursday, 3 p.m., Room 12. I would ask Ms. Ruiz before the meeting to confirm the room and avoid going to the wrong place.",
+        "correct"
+      ],
+      [
+        "El jueves a las quince, salón 12; consultaría a Ruiz antes de reunirnos para asegurarme del lugar.",
+        "correct"
+      ],
+      [
+        "El jueves a las tres de la tarde en el salón 12.",
+        "partial"
+      ],
+      [
+        "Aprendí usar comunicación inglés.",
+        "incorrect"
+      ]
+    ],
+    "sha256": "49614f67fed9a680bb55b5c478b34e2b2ac6c984bca5704700f44a9de5cd7436"
+  }
+]

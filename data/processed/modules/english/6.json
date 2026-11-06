@@ -1,0 +1,1194 @@
+[
+  {
+    "module_id": "20541315-689e-4168-8b0f-b81fef77d97b",
+    "source_unit_id": "8f5af4c6-c533-4901-bb37-84e44c7fc3c5",
+    "source": "dba",
+    "subject": "english",
+    "grade_range": "6",
+    "difficulty": 3,
+    "title": "How can you understand this better?",
+    "learning_objective": "Participa en una conversación corta para decir su nombre, edad y datos básicos a profesores, amigos y familiares.",
+    "context": "['A: Hello, I am Antonio. I am your new classmate.', 'B: Hi Antonio, How are you?', 'A: I am fine, thank you. What is your name?', 'B: My name is Margarita.']",
+    "core_concept": "english_communication",
+    "concepts": [
+      "estadistica"
+    ],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué sabes sobre english_communication?",
+      "expected_signals": [
+        "estadistica"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "609f356f-582f-42b7-a900-9ee77abed0df",
+        "evidence_source": "Conversacion",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Conversacion",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de english_communication.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 1
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre english_communication?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender english_communication?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 1
+      }
+    }
+  },
+  {
+    "module_id": "954a6274-25dc-4d31-bde4-053428145eed",
+    "source_unit_id": "7dcde879-3768-4a73-9b24-7e6069cec3e6",
+    "source": "dba",
+    "subject": "english",
+    "grade_range": "6",
+    "difficulty": 3,
+    "title": "How can you understand this better?",
+    "learning_objective": "Solicita y brinda aclaraciones sobre cómo se escriben nombres y palabras desconocidas en una conversación corta.",
+    "context": "['A: Where are you from?', 'B: I am from Riohacha.', 'A: Margarita, how do you spell that?', 'B: R-I-O-H-A-C-H-A', 'A: Nice to meet you, Margarita', 'B: Nice to meet you, too.']",
+    "core_concept": "english_communication",
+    "concepts": [],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué sabes sobre english_communication?",
+      "expected_signals": [],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "69ea6a9f-894d-42a6-a980-86a125be7e87",
+        "evidence_source": "Conversacion",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Conversacion",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de english_communication.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 1
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre english_communication?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender english_communication?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 2
+      }
+    }
+  },
+  {
+    "module_id": "273358a5-6bd9-4417-b81f-bc3e4c860cee",
+    "source_unit_id": "4fc50da9-e1e8-4f79-b164-66e1dd8cb00c",
+    "source": "dba",
+    "subject": "english",
+    "grade_range": "6",
+    "difficulty": 3,
+    "title": "How can you understand this better?",
+    "learning_objective": "Comprende y utiliza palabras familiares y frases cortas sobre rutinas, actividades cotidianas y gustos.",
+    "context": "I’m Angela Poole. I’m a doctor. I work in a hospital. I really like my job. On weekends, I like to play soccer with my children and listen to music. ['Name: Angela', 'Last name: Poole', 'Occupation: Doctor', 'Likes: Play soccer and listen to music.']",
+    "core_concept": "english_communication",
+    "concepts": [
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [
+      "comprender",
+      "comprender",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué sabes sobre english_communication?",
+      "expected_signals": [
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "036f9850-335c-4abc-a8a1-153d0675f859",
+        "evidence_source": "Escucha",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Escucha",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de english_communication.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 1
+      },
+      {
+        "id": "3b63b9b1-1869-496c-aaa5-d13771e404a7",
+        "evidence_source": "Lectura",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Lectura",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de english_communication.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 2
+      },
+      {
+        "id": "132b3953-4992-4bb9-b4b9-fa030fc111e6",
+        "evidence_source": "Monologo",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Monologo",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de english_communication.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 3
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre english_communication?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender english_communication?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 3
+      }
+    }
+  },
+  {
+    "module_id": "d1a5a1ca-df0b-440b-9146-6fe18b808105",
+    "source_unit_id": "a19b8ea3-fd9f-48e1-86ef-688cd941b1e4",
+    "source": "dba",
+    "subject": "english",
+    "grade_range": "6",
+    "difficulty": 3,
+    "title": "How can you understand this better?",
+    "learning_objective": "Comprende instrucciones relacionadas con las actividades y tareas de la clase, la escuela y su comunidad y expresa de manera escrita y oral lo que entiende de estas.",
+    "context": "['Don´t run in the halls.', 'Use the trash can.', 'Turn off the lights.']",
+    "core_concept": "english_communication",
+    "concepts": [
+      "sociedad",
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [
+      "comprender",
+      "comprender",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué sabes sobre english_communication?",
+      "expected_signals": [
+        "sociedad",
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "51c2bf00-9cb5-484b-aedc-aadbaaec149f",
+        "evidence_source": "Escucha",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Escucha",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de english_communication.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 1
+      },
+      {
+        "id": "6638ca1a-1d2e-4059-bf1c-b6b6ba732f7c",
+        "evidence_source": "Lectura",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Lectura",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de english_communication.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 2
+      },
+      {
+        "id": "7af8b100-2a56-4068-9e74-7746bdeaff80",
+        "evidence_source": "Monologo",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Monologo",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de english_communication.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 3
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre english_communication?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender english_communication?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 4
+      }
+    }
+  },
+  {
+    "module_id": "8b648b66-e868-4991-9e09-76bb73d78cc7",
+    "source_unit_id": "295ac4c5-fe41-4136-8c7e-79120e19bca4",
+    "source": "dba",
+    "subject": "english",
+    "grade_range": "6",
+    "difficulty": 3,
+    "title": "How can you understand this better?",
+    "learning_objective": "Describe las características básicas de personas, cosas y lugares de su escuela, ciudad y comunidad, a través de frases y oraciones sencillas.",
+    "context": "My City I live in Pasto. This is a small and beautiful city in the Andean area of Colombia. There are many mountains around the city. Many tourists visit the famous Galeras Volcano and the Black and White´s Carnival Museum.",
+    "core_concept": "english_communication",
+    "concepts": [
+      "escritura",
+      "sociedad"
+    ],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [
+      "comprender",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué sabes sobre english_communication?",
+      "expected_signals": [
+        "escritura",
+        "sociedad"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "192d7e24-5c93-4f30-b87b-ba08fb834261",
+        "evidence_source": "Monologo",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Monologo",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de english_communication.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 1
+      },
+      {
+        "id": "6a852c09-8750-401e-9027-7836e8854988",
+        "evidence_source": "Escritura",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Escritura",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de english_communication.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 2
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre english_communication?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender english_communication?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 5
+      }
+    }
+  },
+  {
+    "module_id": "4b492d97-f39c-4457-9268-0373e560cbef",
+    "source_unit_id": "f4f9d5af-6582-4301-9f8a-38cad3e83c38",
+    "source": "dba",
+    "subject": "english",
+    "grade_range": "6",
+    "difficulty": 3,
+    "title": "How can you understand this better?",
+    "learning_objective": "Responde a preguntas relacionadas con el “qué, quién y cuándo” después de leer o escuchar un texto corto y sencillo, siempre y cuando el tema esté relacionado con eventos que le son familiares.",
+    "context": "Carnival of Barranquilla Carnival is one of the most traditional Colombian folklore celebrations. Dance groups, costume makers, and the Queen of the Carnival work very hard to make it an unforgettable party. We celebrate carnival for four days. On Saturday, we see ‘The Battle of Flowers’, a parade of dance groups and floats. On Sunday, we see ‘La Gran Parada de Tradición’ and the ‘Orchestra Festival’. On Monday, ‘the Gran Parada de Comparsas’ shows fantasy costumes and dancing. Carnival ends on Tuesday with The Burial of Joselito, who symbolizes the joy of the Barranquilla Carnival.z ['What is the Carnival of Barranquilla? The Carnival is a traditional Colombian folklore celebration.', 'Where is this celebration performed? Barranquilla.', 'Who participates in the party? Dance groups, costume makers, and the Queen of the Carnival.', 'What is the ‘Battle of Flowers’? A parade of dance groups and floats.']",
+    "core_concept": "reading",
+    "concepts": [
+      "reading",
+      "lectura_inferencial",
+      "probabilidad"
+    ],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [
+      "comprender",
+      "comprender",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué sabes sobre reading?",
+      "expected_signals": [
+        "reading",
+        "lectura_inferencial",
+        "probabilidad"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "e08a76e4-5d22-4403-b386-693dac1a9815",
+        "evidence_source": "Monologo",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Monologo",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de reading.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 1
+      },
+      {
+        "id": "d83bf504-d45b-4f36-9bd7-19dc13a5848e",
+        "evidence_source": "Lectura",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Lectura",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de reading.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 2
+      },
+      {
+        "id": "b15823d3-a0de-4033-9148-5f0a30e9cef4",
+        "evidence_source": "Escucha",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Escucha",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de reading.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 3
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "creer que la interpretación de un texto es única",
+        "pattern": "creer que la interpretación de un texto es única",
+        "feedback": "Revisemos esta idea: creer que la interpretación de un texto es única",
+        "visual": "idea_evidence_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre reading?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender reading?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "idea_evidence_map",
+        "trigger": "creer que la interpretación de un texto es única",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 6
+      }
+    }
+  },
+  {
+    "module_id": "b477ea86-50db-4e78-a267-2a6a20de2c94",
+    "source_unit_id": "692e2f02-8c56-4d84-b1ec-adee4f52d9d0",
+    "source": "dba",
+    "subject": "english",
+    "grade_range": "6",
+    "difficulty": 3,
+    "title": "How can you understand this better?",
+    "learning_objective": "Escribe información personal básica en formatos preestablecidos que solicitan datos como nombre, edad, fecha de nacimiento, género, nacionalidad, dirección, teléfono, etc.",
+    "context": "['Name: Mariluz', 'Last name: González', 'Sex: Male __ Female X', 'Age: 15', 'Birthday: August 24Th', 'Nationality: Colombian', 'Address: 79th St # 42 - 200', 'City: Tunja', 'Phone: 741 48 60']",
+    "core_concept": "english_communication",
+    "concepts": [
+      "estadistica"
+    ],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué sabes sobre english_communication?",
+      "expected_signals": [
+        "estadistica"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "09ebd2b1-1cb9-4c9a-8932-d899932121ad",
+        "evidence_source": "Escucha",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Escucha",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de english_communication.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 1
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre english_communication?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender english_communication?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 7
+      }
+    }
+  },
+  {
+    "module_id": "dd088f8f-50ce-418a-878f-e5089584654a",
+    "source_unit_id": "e9550d71-3ac6-4eec-9318-06db1d9cdad3",
+    "source": "dba",
+    "subject": "english",
+    "grade_range": "6",
+    "difficulty": 3,
+    "title": "How can you understand this better?",
+    "learning_objective": "Comprende el tema e información general de un texto corto y sencillo, valiéndose de ayudas tales como imágenes, títulos y palabras clave.",
+    "context": "Por ejemplo, después de leer un texto corto, comparte con sus compañeros ideas sobre el tema. tarjetas con información acerca de Francia. ['Carlos: This text is about France and some interesting facts.', 'Jesús: Yes, for example the capital is Paris and the language they speak is French.', 'Carlos: And the flag is blue, white and red.']",
+    "core_concept": "reading",
+    "concepts": [
+      "reading",
+      "fracciones",
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [
+      "comprender",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué sabes sobre reading?",
+      "expected_signals": [
+        "reading",
+        "fracciones",
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "92dde4c2-acf8-4fa5-a340-37bdf21fd0c1",
+        "evidence_source": "Lectura",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Lectura",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de reading.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 1
+      },
+      {
+        "id": "91362ad7-8ae3-4d00-9005-474788926f7a",
+        "evidence_source": "Monologo",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Monologo",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de reading.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 2
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "creer que la interpretación de un texto es única",
+        "pattern": "creer que la interpretación de un texto es única",
+        "feedback": "Revisemos esta idea: creer que la interpretación de un texto es única",
+        "visual": "idea_evidence_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre reading?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender reading?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "idea_evidence_map",
+        "trigger": "creer que la interpretación de un texto es única",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 8
+      }
+    }
+  }
+]

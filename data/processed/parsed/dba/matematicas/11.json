@@ -1,0 +1,434 @@
+[
+  {
+    "id": "5741b9e3-cb1b-490f-b850-5cf1205e7308",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 1,
+    "subject": "mathematics",
+    "grade_range": "11",
+    "content": {
+      "competency": "Utiliza las propiedades de los números (naturales, enteros, racionales y reales) y sus relaciones y operaciones para construir y comparar los distintos sistemas numéricos.",
+      "evidence": [
+        "Describe propiedades de los números y las operaciones que son comunes y diferentes en los distintos sistemas numéricos.",
+        "Utiliza la propiedad de densidad para justificar la necesidad de otras notaciones para subconjuntos de los números reales.",
+        "Construye representaciones de los conjuntos numéricos y establece relaciones acorde con sus propiedades."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "Un profesor presenta a sus estudiantes las siguientes imágenes:"
+        },
+        {
+          "type": "imagen",
+          "content": {
+            "description": "dos tableros con un tipo de representación de conjuntos escrito sobre ellos, además de una regla representando un conjunto de números mayores o iguales a 5."
+          }
+        },
+        {
+          "type": "texto",
+          "content": "El profesor pregunta a sus estudiantes: ¿Cuáles aspectos en común tienen las tres representaciones? A la pregunta Federico respondió: “Las tres representan lo mismo, están hablando de los números mayores que cinco”. Sara dijo “Federico, en parte, tiene razón; pero los conjuntos no son los mismos”. Luego, el profesor agregó: “¡Muy bien Sara! Entonces si no son los mismos conjuntos, ¿cuáles serían sus diferencias?, ¿Podrías describirme esos conjuntos?” Finalmente, Carolina después de todo el trabajo dijo: “Yo no he podido entender una cosa, ¿Por qué no es válido que yo diga que de cinco siga el 5.1 o el 5.01?"
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Discute la veracidad de las afirmaciones de Sara y Federico. Ofrece una respuesta a la pregunta de Carolina."
+          ]
+        }
+      ],
+      "concepts": [
+        "operacion"
+      ],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 4,
+      "evidence_count": 3
+    }
+  },
+  {
+    "id": "be0865ce-fcc9-4d6c-96dd-2fcc7fad3585",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 2,
+    "subject": "mathematics",
+    "grade_range": "11",
+    "content": {
+      "competency": "Justifica la validez de las propiedades de orden de los números reales y las utiliza para resolver problemas analíticos que se modelen con inecuaciones.",
+      "evidence": [
+        "Utiliza propiedades del producto de números Reales para resolver ecuaciones e inecuaciones.",
+        "Interpreta las operaciones en diversos dominios numéricos para validar propiedades de ecuaciones e inecuaciones."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "Ana, una estudiante de undécimo, decide resolver una inecuación como se muestra en la siguiente figura:"
+        },
+        {
+          "type": "imagen",
+          "content": {
+            "description": "cuaderno mostrando una inecuación que se está resolviendo."
+          }
+        },
+        {
+          "type": "texto",
+          "content": "Ana argumenta que para resolver la inecuación, todo lo que está sumando al lado izquierdo se pasa a restar al lado derecho y posteriormente, realiza las operaciones. Luego, termina su ejercicio de la siguiente manera: dice que para despejar la x pasa a multiplicar el 3 a ambos lados”."
+        },
+        {
+          "type": "imagen",
+          "content": {
+            "description": "cuaderno con la misma inecuación, ya resuelta."
+          }
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Analiza los procedimientos propuestos por la estudiante de la situación anterior y valida su solución. En caso de encontrar algún error, construye una nueva solución."
+          ]
+        }
+      ],
+      "concepts": [
+        "ecuacion"
+      ],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 5,
+      "evidence_count": 2
+    }
+  },
+  {
+    "id": "7b105808-c5ff-4c1f-9163-fdc35bb3a9e3",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 3,
+    "subject": "mathematics",
+    "grade_range": "11",
+    "content": {
+      "competency": "Utiliza instrumentos, unidades de medida, sus relaciones y la noción de derivada como razón de cambio, para resolver problemas, estimar cantidades y juzgar la pertinencia de las soluciones de acuerdo al contexto.",
+      "evidence": [
+        "Reconoce magnitudes definidas como razones entre otras magnitudes.",
+        "Interpreta y expresa magnitudes como velocidad y aceleración, con las unidades respectivas y las relaciones entre ellas.",
+        "Utiliza e interpreta la derivada para resolver problemas relacionados con la variación y la razón de cambio de funciones que involucran magnitudes como velocidad, aceleración, longitud, tiempo.",
+        "Explica las respuestas y resultados en un problema usando las expresiones algebraicas y la pertinencia de las unidades utilizadas en los cálculos."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "Desde la terraza de un edificio con una altura (ho) de 40 metros, se lanza un balón verticalmente hacia arriba con una velocidad inicial (Vo) de 19m/s. La altura H que alcanza el balón en un tiempo t (en segundos) se puede calcular con la expresión: H=-4,9*t^2+Vo*t + ho"
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Discute el significado y las unidades del número -4,9."
+          ]
+        }
+      ],
+      "concepts": [
+        "medida"
+      ],
+      "misconceptions": [
+        "Solo los libros contienen textos"
+      ]
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 2,
+      "evidence_count": 4
+    }
+  },
+  {
+    "id": "0fbf3ea5-9802-4613-89ee-f9b2bf9fa002",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 4,
+    "subject": "mathematics",
+    "grade_range": "11",
+    "content": {
+      "competency": "Interpreta y diseña técnicas para hacer mediciones con niveles crecientes de precisión (uso de diferentes instrumentos para la misma medición, revisión de escalas y rangos de medida, estimaciones, verificaciones a través de mediciones indirectas).",
+      "evidence": [
+        "Interpreta la rapidez como una razón de cambio entre dos cantidades.",
+        "Justifica la precisión de una medición directa o indirecta de acuerdo con información suministrada en gráficas y tablas.",
+        "Establece conclusiones pertinentes con respecto a la precisión de mediciones en contextos específicos (científicos, industriales).",
+        "Determina las unidades e instrumentos adecuados para mejorar la precisión en las mediciones.",
+        "Reconoce la diferencia entre la precisión y la exactitud en procesos de medición."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "En una fábrica se requiere cortar láminas de acero para fabricar piezas de diferentes formas (cilindros, conos truncados, pirámides truncadas, prismas, etc). Los cortes de dichas láminas se realizan con “discos de corte” acoplados a una máquina pulidora. Para establecer la eficiencia de un mecánico industrial al hacer los cortes, se toman los datos que aparecen en la tabla (la longitud de la lámina cortada se mide con un flexómetro en mm; el tiempo se mide con un cronómetro en minutos, el procedimiento se realiza para 4 discos de la misma marca y el mismo diámetro)."
+        },
+        {
+          "type": "tabla",
+          "content": {
+            "description": "descripcion: registro de la longitud de cuatro láminas de discos en intervalos de tiempo (minutos). Los datos fueron tomados en un contexto real de la industria."
+          }
+        },
+        {
+          "type": "imagen",
+          "content": {
+            "description": "gráfico de Longitud de la lámina contra Tiempo de corte, que ubica los registros de la tabla."
+          }
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Determina la rapidez media con la que el mecánico corta las láminas. De acuerdo con el gráfico determina la precisión de la rapidez media del mecánico para cortar las láminas."
+          ]
+        }
+      ],
+      "concepts": [
+        "medida"
+      ],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 4,
+      "evidence_count": 5
+    }
+  },
+  {
+    "id": "b041b957-deaf-48d1-b940-6c4edfa861a0",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 5,
+    "subject": "mathematics",
+    "grade_range": "11",
+    "content": {
+      "competency": "Interpreta la noción de derivada como razón de cambio y como valor de la pendiente de la tangente a una curva y desarrolla métodos para hallar las derivadas de algunas funciones básicas en contextos matemáticos y no matemáticos.",
+      "evidence": [
+        "Relaciona la noción derivada con características numéricas, geométricas y métricas.",
+        "Utiliza la derivada para estudiar la covariación entre dos magnitudes y relaciona características de la derivada con características de la función.",
+        "Halla la derivada de algunas funciones empleando métodos gráficos y numéricos."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "Cuando un atleta recorre cierta distancia se puede suponer que su velocidad no es constante, que a partir del momento en que sale empieza a aumentar su velocidad hasta un pico máximo y que disminuye progresivamente hasta el final."
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Si se admite que la ecuación F(t) = 0.00192t(250– t) representa la distancia recorrida por el atleta en metros cuando lleva t segundos."
+          ]
+        }
+      ],
+      "concepts": [],
+      "misconceptions": [
+        "Solo los libros contienen textos"
+      ]
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 2,
+      "evidence_count": 3
+    }
+  },
+  {
+    "id": "7c5f8b88-fa26-40f7-a0b1-4dcc2f4f232c",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 6,
+    "subject": "mathematics",
+    "grade_range": "11",
+    "content": {
+      "competency": "Modela objetos geométricos en diversos sistemas de coordenadas (cartesiano, polar, esférico) y realiza comparaciones y toma decisiones con respecto a los modelos.",
+      "evidence": [
+        "Reconoce y utiliza distintos sistemas de coordenadas para modelar.",
+        "Compara objetos geométricos, a partir de puntos de referencia diferentes.",
+        "Explora el entorno y lo representa mediante diversos sistemas de coordenadas."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "La naturaleza tiene formas curvas que revelan regularidades geométricas muy hermosas. Algunas de ellas se perciben en las flores, las mariposas, los caracoles y otros animales o plantas como se aprecia en las siguientes imágenes."
+        },
+        {
+          "type": "imagen",
+          "content": {
+            "description": "cinco formas de la naturaleza con curvas geométricas: ondas sobre el agua, flor con patrón en espiral, mariposa, zoom sobre la misma flor, planta doblada en espiral."
+          }
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Con el apoyo de un software matemático o de papel milimetrado, realiza una representación aproximada de cada una de las formas que se presentan en los diferentes sistemas de coordenadas."
+          ]
+        }
+      ],
+      "concepts": [],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 3,
+      "evidence_count": 3
+    }
+  },
+  {
+    "id": "3ef21488-91a5-4da4-abdd-f9bb889a7564",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 7,
+    "subject": "mathematics",
+    "grade_range": "11",
+    "content": {
+      "competency": "Usa propiedades y modelos funcionales para analizar situaciones y para establecer relaciones funcionales entre variables que permiten estudiar la variación en situaciones intraescolares y extraescolares.",
+      "evidence": [
+        "Plantea modelos funcionales en los que identifica variables y rangos de variación de las variables.",
+        "Relaciona el signo de la derivada con características numéricas, geométricas y métricas.",
+        "Utiliza la derivada para estudiar la variación y relaciona características de la derivada con características de la función.",
+        "Relaciona características algebraicas de las funciones, sus gráficas y procesos de aproximación sucesiva."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "Una araña ubicada en una esquina quiere cazar a una mosca que está ubicada en la esquina inferior izquierda de una caja cúbica cuyo lado mide un metro. La araña usará un camino recto señalado en línea punteada."
+        },
+        {
+          "type": "imagen",
+          "content": {
+            "description": "ilustración de una araña sobre un cubo y su camino más corto hasta una mosca ubicada en la esquina opuesta."
+          }
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Encuentra el camino más corto que ha de seguir la araña para llegar hasta la mosca."
+          ]
+        }
+      ],
+      "concepts": [],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 3,
+      "evidence_count": 4
+    }
+  },
+  {
+    "id": "90abe30e-50b4-4afc-88a5-3eba50ba9680",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 8,
+    "subject": "mathematics",
+    "grade_range": "11",
+    "content": {
+      "competency": "Encuentra derivadas de funciones, reconoce sus propiedades y las utiliza para resolver problemas.",
+      "evidence": [
+        "Utiliza la derivada para estudiar la variación y relaciona características de la derivada con características de la función.",
+        "Relaciona características algebraicas de las funciones, sus gráficas y procesos de aproximación sucesiva.",
+        "Calcula derivadas de funciones."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "Un avión vuela a una altitud H cuando comienza su descenso a una pista de aeropuerto que está a una distancia L del avión, con respecto al suelo, como se muestra en la figura. Asume que la trayectoria de aterrizaje se representa con la gráfica de una función polinomial cúbica y= ax^3 + bx^2 + cx + d, donde y(-L)=H, y(0)=0."
+        },
+        {
+          "type": "imagen",
+          "content": {
+            "description": "gráfica de la trayectoria de aterrizaje desde una altura H, hasta la pista de una aeropuesto a una distancia L."
+          }
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Encuentra el valor de dy/dx en x=0 y el valor de dy/dx en x=-L."
+          ]
+        }
+      ],
+      "concepts": [],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 3,
+      "evidence_count": 3
+    }
+  },
+  {
+    "id": "073ce7e8-9542-4a37-98a6-98395d674850",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 9,
+    "subject": "mathematics",
+    "grade_range": "11",
+    "content": {
+      "competency": "Plantea y resuelve situaciones problemáticas del contexto real y/o matemático que implican la exploración de posibles asociaciones o correlaciones entre las variables estudiadas.",
+      "evidence": [
+        "En situaciónes matemáticas plantea preguntas que indagan por la correlación o la asociación entre variables.",
+        "Define el plan de recolección de la información, en el que se incluye: definición de población y muestra, método para recolectar la información (encuestas, observaciones o experimentos simples), variables a estudiar.",
+        "Elabora gráficos de dispersión usando software adecuado como Excel y analiza las relaciones que se visibilizan en el gráfico.",
+        "Expresa cualitativamente las relaciones entre las variables, para lo cual utiliza su conocimiento de los modelos lineales.",
+        "Usa adecuadamente la desviación estándar, la media el coeficiente de variación y el de correlación para dar respuesta a la pregunta planteada."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "En un artículo de ciencias se afirma que: “los antropólogos y los paleontólogos usan las longitudes de los huesos fósiles largos como el fémur y el húmero para calcular la estatura del individuo en estudio”."
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Diseña y lleva a cabo un estudio estadístico para comprobar si se puede demostrar que existe una relación entre la estatura y la longitud de los huesos largos entre los seres humanos."
+          ]
+        }
+      ],
+      "concepts": [],
+      "misconceptions": [
+        "Solo los libros contienen textos"
+      ]
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 2,
+      "evidence_count": 5
+    }
+  },
+  {
+    "id": "a95ba689-1b70-4762-ac61-228a50e658f0",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 10,
+    "subject": "mathematics",
+    "grade_range": "11",
+    "content": {
+      "competency": "Plantea y resuelve problemas en los que se reconoce cuando dos eventos son o no independientes y usa la probabilidad condicional para comprobarlo.",
+      "evidence": [
+        "Propone problemas a estudiar en variedad de situaciones aleatorias.",
+        "Reconoce los diferentes eventos que se proponen en una situación o problema.",
+        "Interpreta y asigna la probabilidad de cada evento.",
+        "Usa la probabilidad condicional de cada evento para decidir si son o no independientes."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "Los resultados de la encuesta realizada con personas entre 14 a 17 años de edad, seleccionadas al azar, se presentan en la siguiente tabla:"
+        },
+        {
+          "type": "tabla",
+          "content": {
+            "description": "descripcion: registro de las preferencias entre deportes y música por ambos géneros."
+          }
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Plantea una pregunta sobre la relación entre las dos variables que se presentan en la tabla, indica si las dos variables (género y preferencia) son o no independientes y da respuesta a la pregunta planteada."
+          ]
+        }
+      ],
+      "concepts": [],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 3,
+      "evidence_count": 4
+    }
+  }
+]

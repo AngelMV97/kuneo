@@ -1,0 +1,677 @@
+[
+  {
+    "module_id": "e0a62d8b-46e5-479f-9216-1e0a1927cf0d",
+    "source_unit_id": "1b096d85-8eab-48c9-811e-6f17f15eaece",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "2",
+    "difficulty": 1,
+    "title": "¿Cómo funciona movimiento?",
+    "learning_objective": "Comprende que una acción mecánica (fuerza) puede producir distintas deformaciones en un objeto, y que este resiste a las fuerzas de diferente modo, de acuerdo con el material del que está hecho.",
+    "context": "objetos elásticos siendo sufriendo una deformación por acción humana.",
+    "core_concept": "movimiento",
+    "concepts": [
+      "movimiento",
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [
+      "comparar",
+      "comprender",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con movimiento?",
+      "expected_signals": [
+        "movimiento",
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "bc34e558-5301-4449-a0de-219e762a51ac",
+        "evidence_source": "Compara los cambios de forma que se generan sobre objetos constituidos por distintos materiales (madera, hierro, plástico, plastilina, resortes, papel, entre otros), cuando se someten a diferentes acciones relacionadas con la aplicación de fuerzas (estirar, comprimir, torcer, aplastar, abrir, partir, doblar, arrugar).",
+        "type": "matching",
+        "prompt": "Trabajemos esta evidencia: Compara los cambios de forma que se generan sobre objetos constituidos por distintos materiales (madera, hierro, plástico, plastilina, resortes, papel, entre otros), cuando se someten a diferentes acciones relacionadas con la aplicación de fuerzas (estirar, comprimir, torcer, aplastar, abrir, partir, doblar, arrugar).",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "transferencia"
+        ],
+        "difficulty": 1,
+        "order": 1
+      },
+      {
+        "id": "528420b1-5492-44fd-82be-d376e50bdb35",
+        "evidence_source": "Clasifica los materiales según su resistencia a ser deformados cuando se les aplica una fuerza.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Clasifica los materiales según su resistencia a ser deformados cuando se les aplica una fuerza.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "transferencia"
+        ],
+        "difficulty": 1,
+        "order": 2
+      },
+      {
+        "id": "724e9908-33f0-4925-8c77-6f1960053fe7",
+        "evidence_source": "Predice el tipo de acción requerida para producir una deformación determinada en un cierto material y las comunica haciendo uso de diferentes formatos (oral, escrito).",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Predice el tipo de acción requerida para producir una deformación determinada en un cierto material y las comunica haciendo uso de diferentes formatos (oral, escrito).",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 3
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre movimiento?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender movimiento?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 1
+      }
+    }
+  },
+  {
+    "module_id": "c90f5dce-ed8e-4038-9724-10b78b20268a",
+    "source_unit_id": "8ebec644-d0c6-428b-b03c-098705c54931",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "2",
+    "difficulty": 1,
+    "title": "¿Cómo funciona ciencias_naturales?",
+    "learning_objective": "Comprende que las sustancias pueden encontrarse en distintos estados (sólido, líquido y gaseoso).",
+    "context": "clasificación entre conjuntos de materiales líquidos, materiales sólidos y materiales gaseosos.",
+    "core_concept": "ciencias_naturales",
+    "concepts": [
+      "lectura_inferencial",
+      "volumen",
+      "argumentacion"
+    ],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [
+      "comprender",
+      "comparar",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con ciencias_naturales?",
+      "expected_signals": [
+        "lectura_inferencial",
+        "volumen",
+        "argumentacion"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "bcdc0168-8377-43cf-8391-eadcbfdb3806",
+        "evidence_source": "Clasifica materiales de su entorno según su estado (sólidos, líquidos o gases) a partir de sus propiedades básicas (si tienen forma propia o adoptan la del recipiente que los contiene, si fluyen, entre otros).",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Clasifica materiales de su entorno según su estado (sólidos, líquidos o gases) a partir de sus propiedades básicas (si tienen forma propia o adoptan la del recipiente que los contiene, si fluyen, entre otros).",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 1
+      },
+      {
+        "id": "2d97e79f-ebcf-409c-8513-f8e5518fabd5",
+        "evidence_source": "Compara las características físicas observables (fluidez, viscosidad, transparencia) de un conjunto de líquidos (agua, aceite, miel).",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Compara las características físicas observables (fluidez, viscosidad, transparencia) de un conjunto de líquidos (agua, aceite, miel).",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 2
+      },
+      {
+        "id": "53453b59-0c6b-4791-ab49-9cbcf876dfd7",
+        "evidence_source": "Reconoce el aire como un material a partir de evidencias de su presencia aunque no se pueda ver, en el marco de distintas experiencias (abanicar, soplar, entre otros).",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Reconoce el aire como un material a partir de evidencias de su presencia aunque no se pueda ver, en el marco de distintas experiencias (abanicar, soplar, entre otros).",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 3
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre ciencias_naturales?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender ciencias_naturales?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 2
+      }
+    }
+  },
+  {
+    "module_id": "28a742a0-02de-4043-a1d9-f0a56aa3acbd",
+    "source_unit_id": "4e523262-4c4e-44e3-8d69-4308097728d5",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "2",
+    "difficulty": 1,
+    "title": "¿Cómo funciona ciclo_agua?",
+    "learning_objective": "Comprende la relación entre las características físicas de plantas y animales con los ambientes en donde viven, teniendo en cuenta sus necesidades básicas (luz, agua, aire, suelo, nutrientes, desplazamiento y protección).",
+    "context": "niña registrando el comportamiento de una planta expuesta al sol y otra en un lugar oscuro, para diversos días.",
+    "core_concept": "ciclo_agua",
+    "concepts": [
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "comprender",
+      "explicar",
+      "comprender",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con ciclo_agua?",
+      "expected_signals": [
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "14b275c3-2945-47b3-8325-ae9f9f2943db",
+        "evidence_source": "Describe y clasifica plantas y animales de su entorno, según su tipo de desplazamiento, dieta y protección.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Describe y clasifica plantas y animales de su entorno, según su tipo de desplazamiento, dieta y protección.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciclo_agua.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 1
+      },
+      {
+        "id": "3aab4e9d-a49a-4820-8164-ab753332c084",
+        "evidence_source": "Explica cómo las características físicas de un animal o planta le ayudan a vivir en un cierto ambiente.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica cómo las características físicas de un animal o planta le ayudan a vivir en un cierto ambiente.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciclo_agua.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 1,
+        "order": 2
+      },
+      {
+        "id": "2d640783-d4ba-4c6c-984e-6c883031e216",
+        "evidence_source": "Predice posibles problemas que podrían ocurrir cuando no se satisfacen algunas de las necesidades básicas en el desarrollo de plantas y animales, a partir de los resultados obtenidos en experimentaciones sencillas.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Predice posibles problemas que podrían ocurrir cuando no se satisfacen algunas de las necesidades básicas en el desarrollo de plantas y animales, a partir de los resultados obtenidos en experimentaciones sencillas.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciclo_agua.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 3
+      },
+      {
+        "id": "a5d08219-c317-4696-a170-01b08d9874ca",
+        "evidence_source": "Establece relaciones entre las características de los seres vivos y el ambiente donde habitan.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Establece relaciones entre las características de los seres vivos y el ambiente donde habitan.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciclo_agua.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre ciclo_agua?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender ciclo_agua?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 3
+      }
+    }
+  },
+  {
+    "module_id": "bc7cfe94-94db-448e-b3cf-a4c3f9392b2a",
+    "source_unit_id": "30e3afe3-4212-44c8-9094-848ad42b5241",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "2",
+    "difficulty": 1,
+    "title": "¿Cómo funciona ciclo_agua?",
+    "learning_objective": "Explica los procesos de cambios físicos que ocurren en el ciclo de vida de plantas y animales de su entorno, en un período de tiempo determinado.",
+    "context": "niña planteándose ciertas preguntas acerca de los cambios físicos en los seres vivos.",
+    "core_concept": "ciclo_agua",
+    "concepts": [
+      "historia"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "representar",
+      "representar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con ciclo_agua?",
+      "expected_signals": [
+        "historia"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "db7b59cb-e66a-4ddb-8ea1-06f1c4d6ac62",
+        "evidence_source": "Representa con dibujos u otros formatos los cambios en el desarrollo de plantas y animales en un período de tiempo, identificando procesos como la germinación, la floración y la aparición de frutos.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con ciclo_agua y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciclo_agua.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "representacion"
+        ],
+        "difficulty": 1,
+        "order": 1
+      },
+      {
+        "id": "83f42696-4d60-47d1-ab8c-ca263ea9d126",
+        "evidence_source": "Representa con dibujos u otros formatos los cambios en el desarrollo de los animales en un período de tiempo, identificando procesos como el crecimiento y la reproducción.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con ciclo_agua y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciclo_agua.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "representacion"
+        ],
+        "difficulty": 1,
+        "order": 2
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre ciclo_agua?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender ciclo_agua?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 4
+      }
+    }
+  }
+]

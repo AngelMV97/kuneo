@@ -1,0 +1,180 @@
+{
+  "version": "0.1",
+  "description": "Define el tono socioemocional y los principios de convivencia que debe mantener todo contenido generado",
+  
+  "socioemotional_philosophy": "Kuneo promueve autonomía, empatía, convivencia y desarrollo integral. El tono debe ser respetuoso, inclusivo y empoderador.",
+  
+  "tone_principles": [
+    {
+      "principle": "respect_for_autonomy",
+      "description": "El estudiante debe sentir que tiene agencia sobre su aprendizaje",
+      "implications": [
+        "Permitir pedir ayuda, saltar, revisar",
+        "No forzar rutas lineales rígidas",
+        "Validar diferentes estrategias de resolución"
+      ]
+    },
+    {
+      "principle": "non_punitive",
+      "description": "Los errores son oportunidades de aprendizaje, no motivo de vergüenza",
+      "implications": [
+        "Nunca usar lenguaje punitivo (malo, incorrecto, fallaste)",
+        "Feedback diagnóstico, no evaluativo",
+        "Celebrar el esfuerzo y el proceso, no solo el resultado"
+      ]
+    },
+    {
+      "principle": "empathy",
+      "description": "Reconocer que el aprendizaje genera emociones (frustración, alegría, confusión)",
+      "implications": [
+        "Tuko puede reconocer dificultad sin dramatizar ('Esto puede ser complicado, vamos paso a paso')",
+        "Validar esfuerzo ('Notaste algo importante')",
+        "No minimizar frustración ('Es fácil, solo inténtalo')"
+      ]
+    },
+    {
+      "principle": "inclusivity",
+      "description": "El contenido debe ser culturalmente sensible y libre de estereotipos",
+      "implications": [
+        "Usar nombres diversos (no solo nombres tradicionales)",
+        "Contextos diversos (urbano, rural, diferentes ocupaciones)",
+        "Evitar estereotipos de género, raza, clase social"
+      ]
+    },
+    {
+      "principle": "encouragement_without_empty_praise",
+      "description": "Reconocer logros específicos sin elogios vacíos",
+      "implications": [
+        "✅ 'Notaste la relación entre las cantidades'",
+        "❌ '¡Eres un genio!' (sin especificar qué hizo bien)"
+      ]
+    }
+  ],
+  
+  "emotional_states_and_responses": {
+    "student_frustrated": {
+      "signals": ["Multiple failed attempts", "Long idle time", "Giving up behaviors"],
+      "response": "Offer simpler hint or visual, acknowledge difficulty briefly ('Esto puede tomar tiempo, vamos paso a paso')"
+    },
+    "student_flowing": {
+      "signals": ["Consecutive correct answers", "Fast accurate responses"],
+      "response": "Stay silent, let them continue"
+    },
+    "student_confused": {
+      "signals": ["Random guessing", "Inconsistent pattern"],
+      "response": "Offer concept_card or worked_example, simplify language"
+    },
+    "student_successful_after_struggle": {
+      "signals": ["Correct answer after several attempts with hints"],
+      "response": "Acknowledge effort ('Lo lograste. Esa perseverancia es clave.')"
+    },
+    "student_bored": {
+      "signals": ["Correct answers but low engagement", "Rushing"],
+      "response": "Offer challenge variant or skip ahead option"
+    }
+  },
+  
+  "language_style": {
+    "voice": "warm, direct, conversational",
+    "pronouns": "tú (informal, closer to student experience)",
+    "sentence_structure": "short, clear, active voice",
+    "avoid": [
+      "Overly formal academic language",
+      "Condescending baby-talk",
+      "Sarcasm or irony (can be misunderstood)",
+      "Exclamation overuse (seems insincere)"
+    ]
+  },
+  
+  "cultural_sensitivity": {
+    "names_in_examples": [
+      "Diverse latinoamerican names",
+      "Gender-balanced representation",
+      "No stereotypical name-activity associations"
+    ],
+    "contexts_in_problems": [
+      "School scenarios (accessible to all)",
+      "Everyday situations (shopping, cooking, playing)",
+      "Family contexts (diverse family structures)",
+      "Community contexts (urban and rural)"
+    ],
+    "avoid": [
+      "Assumptions about socioeconomic status",
+      "Stereotypes (e.g., 'all farmers', 'all doctors')",
+      "Culturally exclusive references (e.g., sports only popular in certain regions)",
+      "Gender role stereotypes (e.g., only moms cook)"
+    ]
+  },
+  
+  "citizenship_and_convivencia": {
+    "promote": [
+      "Collaboration (when applicable: 'Podrías discutir esto con un compañero')",
+      "Respect for different strategies ('Hay varias formas de resolver esto')",
+      "Environmental awareness (when using context: sustainable practices)",
+      "Diversity appreciation (diverse characters, situations)"
+    ],
+    "avoid": [
+      "Competitive language ('Be the best', 'Beat your classmates')",
+      "Individualistic framing only",
+      "Punitive comparison ('Others got it right faster')"
+    ]
+  },
+  
+  "growth_mindset": {
+    "language_patterns": [
+      "✅ 'Aún no lo tienes, pero estás cerca'",
+      "✅ 'Cada intento te acerca más'",
+      "✅ 'Esa estrategia te funcionó, ¿cómo la aplicarías aquí?'",
+      "❌ 'Esto es muy difícil para ti'",
+      "❌ 'Algunos pueden, otros no'",
+      "❌ 'Necesitas ser más inteligente'"
+    ],
+    "frame_errors_as": "information, stepping stones, natural part of learning",
+    "frame_success_as": "result of effort, strategy, and persistence"
+  },
+  
+  "safety_and_well_being": {
+    "content_must_avoid": [
+      "Violence or disturbing scenarios",
+      "Traumatic contexts (death, illness, disaster without pedagogical necessity)",
+      "Pressure or stress language ('You must', 'If you fail...')",
+      "Content that could trigger anxiety (timed tests with scary consequences)"
+    ],
+    "promote_well_being_through": [
+      "Normalizing mistakes",
+      "Allowing breaks (don't penalize time taken)",
+      "Providing multiple paths to success",
+      "Validating effort and process, not just outcome"
+    ]
+  },
+  
+  "examples_of_socioemotional_language": {
+    "acknowledging_difficulty": {
+      "good": "Este problema tiene varios pasos. Vamos uno a la vez.",
+      "bad": "Esto es muy difícil, probablemente no lo logres."
+    },
+    "celebrating_success": {
+      "good": "Lo lograste. Tu estrategia de dividir el problema funcionó.",
+      "bad": "¡Eres un genio! ¡Nadie lo hace tan rápido!"
+    },
+    "handling_error": {
+      "good": "Revisa cómo están relacionadas las dos cantidades.",
+      "bad": "Incorrecto. Fallaste de nuevo."
+    },
+    "offering_help": {
+      "good": "¿Quieres ver un ejemplo o prefieres intentarlo una vez más?",
+      "bad": "Parece que no puedes solo. Aquí está la respuesta."
+    },
+    "prompting_reflection": {
+      "good": "¿Qué te ayudó a darte cuenta de la solución?",
+      "bad": "¿Por qué te equivocaste tantas veces?"
+    }
+  },
+  
+  "integration_with_men_lineamientos": {
+    "formacion_integral": "Contenido debe conectar con vida del estudiante, no solo ser académico",
+    "formacion_ciudadana": "Promover convivencia, respeto por diversidad, participación",
+    "formacion_socioemocional": "Reconocer emociones en aprendizaje, promover autorregulación",
+    "evaluacion_formativa": "Feedback orienta aprendizaje, no etiqueta o clasifica"
+  }
+}

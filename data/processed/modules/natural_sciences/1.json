@@ -1,0 +1,751 @@
+[
+  {
+    "module_id": "fb610af1-f6cb-4c4f-9fd2-5bbd3adaae97",
+    "source_unit_id": "71062dfc-6bc7-4b8d-94af-a7c78b23f912",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "1",
+    "difficulty": 1,
+    "title": "¿Cómo funciona ciencias_naturales?",
+    "learning_objective": "Comprende que los sentidos le permiten percibir algunas características de los objetos que nos rodean (temperatura, sabor, sonidos, olor, color, texturas y formas).",
+    "context": "niños con los ojos vendados percibiendo algunos objetos mediante el tacto.",
+    "core_concept": "ciencias_naturales",
+    "concepts": [
+      "reading",
+      "estadistica",
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "representational_thinking",
+    "skills": [
+      "comprender",
+      "comparar",
+      "comprender",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con ciencias_naturales?",
+      "expected_signals": [
+        "reading",
+        "estadistica",
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "a408bd11-4649-4b1c-9798-c42580c1f92d",
+        "evidence_source": "Describe y caracteriza, utilizando el sentido apropiado, sonidos, sabores, olores, colores, texturas y formas.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Describe y caracteriza, utilizando el sentido apropiado, sonidos, sabores, olores, colores, texturas y formas.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 1
+      },
+      {
+        "id": "fccad9c6-ac4f-48ea-b54f-39d30476b20a",
+        "evidence_source": "Compara y describe cambios en las temperaturas (más caliente, similar, menos caliente) utilizando el tacto en diversos objetos (con diferente color) sometidos a fuentes de calor como el sol.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Compara y describe cambios en las temperaturas (más caliente, similar, menos caliente) utilizando el tacto en diversos objetos (con diferente color) sometidos a fuentes de calor como el sol.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 2
+      },
+      {
+        "id": "19432ad3-d3f3-475a-9450-f9e2dfd7f783",
+        "evidence_source": "Describe y caracteriza, utilizando la vista, diferentes tipos de luz (color, intensidad y fuente).",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Describe y caracteriza, utilizando la vista, diferentes tipos de luz (color, intensidad y fuente).",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 3
+      },
+      {
+        "id": "3329ce82-48e5-4181-9c91-8f1f1c25f439",
+        "evidence_source": "Usa instrumentos como la lupa para realizar observaciones de objetos pequeños y representarlos mediante dibujos.",
+        "type": "representation",
+        "prompt": "Representa la idea de ciencias_naturales usando un esquema, tabla o dibujo mental.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "representacion"
+        ],
+        "difficulty": 1,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "confundir promedio con valor representativo en todos los casos",
+        "pattern": "confundir promedio con valor representativo en todos los casos",
+        "feedback": "Revisemos esta idea: confundir promedio con valor representativo en todos los casos",
+        "visual": "concept_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre ciencias_naturales?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender ciencias_naturales?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "concept_map",
+        "trigger": "confundir promedio con valor representativo en todos los casos",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 1
+      }
+    }
+  },
+  {
+    "module_id": "b1f60dcc-2d72-4941-b259-8661f050b872",
+    "source_unit_id": "20926a26-f50d-49e4-91b1-ea0dd8f12186",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "1",
+    "difficulty": 1,
+    "title": "¿Cómo funciona materia?",
+    "learning_objective": "Comprende que existe una gran variedad de materiales y que éstos se utilizan para distintos fines, según sus características (longitud, dureza, flexibilidad, permeabilidad al agua, solubilidad, ductilidad, maleabilidad, color, sabor, textura).",
+    "context": "niña observando diversos objetos separados por el tipo de material que los compone.",
+    "core_concept": "materia",
+    "concepts": [
+      "reading",
+      "lectura_inferencial",
+      "volumen"
+    ],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [
+      "comprender",
+      "comprender",
+      "comprender",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con materia?",
+      "expected_signals": [
+        "reading",
+        "lectura_inferencial",
+        "volumen"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "a99f3183-a30a-4125-90e0-fe456db6c4ed",
+        "evidence_source": "Clasifica materiales de uso cotidiano a partir de características que percibe con los sentidos, incluyendo materiales sólidos como madera, plástico, vidrio, metal, roca y líquidos como opacos, incoloros, transparentes, así como algunas propiedades (flexibilidad, dureza, permeabilidad al agua, color, sabor y textura).",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Clasifica materiales de uso cotidiano a partir de características que percibe con los sentidos, incluyendo materiales sólidos como madera, plástico, vidrio, metal, roca y líquidos como opacos, incoloros, transparentes, así como algunas propiedades (flexibilidad, dureza, permeabilidad al agua, color, sabor y textura).",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de materia.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 1
+      },
+      {
+        "id": "ef1e8adc-f137-42aa-8a59-d267a8a11494",
+        "evidence_source": "Predice cuáles podrían ser los posibles usos de un material (por ejemplo, la goma), de acuerdo con sus características.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Predice cuáles podrían ser los posibles usos de un material (por ejemplo, la goma), de acuerdo con sus características.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de materia.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 2
+      },
+      {
+        "id": "9da6d16a-04f2-4419-a4b0-7c5b6fe17a19",
+        "evidence_source": "Selecciona qué materiales utilizaría para fabricar un objeto dada cierta necesidad (por ejemplo, un paraguas que evite el paso del agua).",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Selecciona qué materiales utilizaría para fabricar un objeto dada cierta necesidad (por ejemplo, un paraguas que evite el paso del agua).",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de materia.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 3
+      },
+      {
+        "id": "c088e5e0-aa87-4e70-bd7d-9623954ff75a",
+        "evidence_source": "Utiliza instrumentos no convencionales (sus manos, palos, cuerdas, vasos, jarras) para medir y clasificar materiales según su tamaño.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Utiliza instrumentos no convencionales (sus manos, palos, cuerdas, vasos, jarras) para medir y clasificar materiales según su tamaño.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de materia.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre materia?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender materia?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 2
+      }
+    }
+  },
+  {
+    "module_id": "c62849d6-15db-469a-920e-424d920e56ac",
+    "source_unit_id": "2a92288f-f46c-496b-94f6-f7175e86de80",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "1",
+    "difficulty": 1,
+    "title": "¿Cómo funciona ciclo_agua?",
+    "learning_objective": "Comprende que los seres vivos (plantas y animales) tienen características comunes (se alimentan, respiran, tienen un ciclo de vida, responden al entorno) y los diferencia de los objetos inertes.",
+    "context": "observación de seres vivos usando una lupa.",
+    "core_concept": "ciclo_agua",
+    "concepts": [
+      "fracciones",
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [
+      "comprender",
+      "comparar",
+      "comprender",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con ciclo_agua?",
+      "expected_signals": [
+        "fracciones",
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "27f38dbc-59e6-4e1b-97a7-08bb2499ab06",
+        "evidence_source": "Clasifica seres vivos (plantas y animales) de su entorno, según sus características observables (tamaño, cubierta corporal, cantidad y tipo de miembros, forma de raíz, tallo, hojas, flores y frutos) y los diferencia de los objetos inertes, a partir de criterios que tienen que ver con las características básicas de los seres vivos.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Clasifica seres vivos (plantas y animales) de su entorno, según sus características observables (tamaño, cubierta corporal, cantidad y tipo de miembros, forma de raíz, tallo, hojas, flores y frutos) y los diferencia de los objetos inertes, a partir de criterios que tienen que ver con las características básicas de los seres vivos.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciclo_agua.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 1
+      },
+      {
+        "id": "bfae8494-44d8-4ca7-acff-79949f63f654",
+        "evidence_source": "Compara características y partes de plantas y animales, utilizando instrumentos simples como la lupa para realizar observaciones.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Compara características y partes de plantas y animales, utilizando instrumentos simples como la lupa para realizar observaciones.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciclo_agua.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 2
+      },
+      {
+        "id": "3058dba0-9bbd-4286-b228-ae0286b71b58",
+        "evidence_source": "Describe las partes de las plantas (raíz, tallo, hojas, flores y frutos), así como las de animales de su entorno, según características observables(tamaño, cubierta corporal, cantidad y tipo de miembros).",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Describe las partes de las plantas (raíz, tallo, hojas, flores y frutos), así como las de animales de su entorno, según características observables(tamaño, cubierta corporal, cantidad y tipo de miembros).",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciclo_agua.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 3
+      },
+      {
+        "id": "db7b7ae1-0e59-4dd7-adb8-13c66eae604d",
+        "evidence_source": "Propone acciones de cuidado a plantas y animales, teniendo en cuenta características como tipo de alimentación, ciclos de vida y relación con el entorno.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Propone acciones de cuidado a plantas y animales, teniendo en cuenta características como tipo de alimentación, ciclos de vida y relación con el entorno.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciclo_agua.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre ciclo_agua?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender ciclo_agua?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 3
+      }
+    }
+  },
+  {
+    "module_id": "718beba8-3c8a-4df5-ab6c-d4da8e938288",
+    "source_unit_id": "95b816bb-95d8-4e26-9e66-8dccfe1ad2a2",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "1",
+    "difficulty": 1,
+    "title": "¿Cómo funciona ciencias_naturales?",
+    "learning_objective": "Comprende que su cuerpo experimenta constantes cambios a lo largo del tiempo y reconoce a partir de su comparación que tiene características similares y diferentes a las de sus padres y compañeros.",
+    "context": "registro descriptivo de características corporales.",
+    "core_concept": "ciencias_naturales",
+    "concepts": [
+      "lectura_inferencial",
+      "historia"
+    ],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [
+      "comprender",
+      "comprender",
+      "comprender",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con ciencias_naturales?",
+      "expected_signals": [
+        "lectura_inferencial",
+        "historia"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "34f0d645-9444-4a93-a58e-57be5d63095a",
+        "evidence_source": "Registra cambios físicos ocurridos en su cuerpo durante el crecimiento, tales como peso, talla, longitud de brazos, piernas, pies y manos, así como algunas características que no varían como el color de ojos, piel y cabello.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Registra cambios físicos ocurridos en su cuerpo durante el crecimiento, tales como peso, talla, longitud de brazos, piernas, pies y manos, así como algunas características que no varían como el color de ojos, piel y cabello.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 1
+      },
+      {
+        "id": "5d5ac37d-4d14-403a-8efa-b54939e90a86",
+        "evidence_source": "Describe su cuerpo y predice los cambios que se producirán en un futuro, a partir de los ejercicios de comparación que realiza entre un niño y un adulto.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Describe su cuerpo y predice los cambios que se producirán en un futuro, a partir de los ejercicios de comparación que realiza entre un niño y un adulto.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 2
+      },
+      {
+        "id": "02f2f39e-c8a7-4615-8b03-e49fd7c3a614",
+        "evidence_source": "Describe y registra similitudes y diferencias físicas que observa entre niños y niñas de su grado reconociéndose y reconociendo al otro.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Describe y registra similitudes y diferencias físicas que observa entre niños y niñas de su grado reconociéndose y reconociendo al otro.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 3
+      },
+      {
+        "id": "74a0bbf5-750a-4cf5-8f11-a71a4e5df0dd",
+        "evidence_source": "Establece relaciones hereditarias a partir de las características físicas de sus padres, describiendo diferencias y similitudes.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Establece relaciones hereditarias a partir de las características físicas de sus padres, describiendo diferencias y similitudes.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre ciencias_naturales?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender ciencias_naturales?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 4
+      }
+    }
+  }
+]

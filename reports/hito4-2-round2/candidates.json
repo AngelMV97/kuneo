@@ -1,0 +1,1953 @@
+[
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "00000000-0000-0000-0001-000000000001:q:0",
+      "sha256": "dfb1cbd1593bef3cde39f633960df0e0e2f04f3eae6348614e6b111f55b4e32f"
+    },
+    "module": {
+      "id": "round2-module-1",
+      "subject": "mathematics",
+      "grade_range": "3",
+      "title": "Porciones iguales",
+      "core_concept": "fracciones",
+      "learning_objective": "Explicar una fracción sencilla como partes iguales de una misma unidad.",
+      "is_active": false
+    },
+    "step": {
+      "id": "round2-repair-1",
+      "module_id": "round2-module-1",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "comprension",
+      "content": {
+        "prompt": "Situación simulada: Ana divide una arepa en cuatro porciones iguales y toma una. Dice: «Tomé un cuarto». Explica qué indican el uno y el cuatro, y por qué importa que las porciones sean iguales.",
+        "options": [],
+        "left_items": [],
+        "right_items": []
+      },
+      "enriched_content": {
+        "type": "text",
+        "cognitive_dimension": "comprension",
+        "expected_answer": {
+          "type": "rubric",
+          "answer": "El cuatro indica las cuatro porciones iguales de la arepa y el uno la porción que Ana toma. Deben ser iguales para representar cuartos del mismo tamaño.",
+          "rubric": "Correct si identifica 4 como total de porciones iguales y 1 como porción tomada, y explica que la igualdad permite que cada porción represente un cuarto del mismo tamaño. Aceptar expresiones cotidianas como pedazos del mismo tamaño; no exigir términos numerador/denominador ni palabras literales. Partial si identifica correctamente alguna parte pero omite otra o no explica la igualdad. Incorrect si solo enumera palabras, invierte ambos números o sostiene que cualquier tamaño da cuartos sin aportar partes válidas.",
+          "criteria": [
+            {
+              "id": "total",
+              "requirement": "Explica que 4 indica el total de porciones del mismo tamaño de la arepa."
+            },
+            {
+              "id": "taken",
+              "requirement": "Explica que 1 indica la porción que Ana toma."
+            },
+            {
+              "id": "equality",
+              "requirement": "Explica que el mismo tamaño permite que cada porción sea un cuarto igual; admitir expresiones como no serían cuartos iguales si fueran distintos."
+            }
+          ]
+        },
+        "explanation": "Un cuarto significa una de cuatro porciones iguales de la misma unidad.",
+        "option_explanations": [],
+        "pair_explanations": [],
+        "learning_focus": "Parte tomada, total de partes e igualdad de tamaño.",
+        "step_config": {
+          "hints": [
+            "Separa cuántas porciones iguales tiene la arepa y cuántas se toman. ¿Sería justo llamar cuartos a pedazos de tamaños distintos?"
+          ],
+          "feedback": "Un cuarto significa una de cuatro porciones iguales de la misma unidad."
+        }
+      }
+    },
+    "activity": {
+      "options": [],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [],
+      "correct_pairs": [],
+      "correct_index": -1,
+      "expected_text": "El cuatro indica las cuatro porciones iguales de la arepa y el uno la porción que Ana toma. Deben ser iguales para representar cuartos del mismo tamaño.",
+      "rubric": "Correct si identifica 4 como total de porciones iguales y 1 como porción tomada, y explica que la igualdad permite que cada porción represente un cuarto del mismo tamaño. Aceptar expresiones cotidianas como pedazos del mismo tamaño; no exigir términos numerador/denominador ni palabras literales. Partial si identifica correctamente alguna parte pero omite otra o no explica la igualdad. Incorrect si solo enumera palabras, invierte ambos números o sostiene que cualquier tamaño da cuartos sin aportar partes válidas.",
+      "option_explanations": [],
+      "pair_explanations": [],
+      "type": "text",
+      "question": "Situación simulada: Ana divide una arepa en cuatro porciones iguales y toma una. Dice: «Tomé un cuarto». Explica qué indican el uno y el cuatro, y por qué importa que las porciones sean iguales.",
+      "hint": "Separa cuántas porciones iguales tiene la arepa y cuántas se toman. ¿Sería justo llamar cuartos a pedazos de tamaños distintos?",
+      "explanation": "Un cuarto significa una de cuatro porciones iguales de la misma unidad.",
+      "learning_focus": "Parte tomada, total de partes e igualdad de tamaño.",
+      "dimension": "comprension"
+    },
+    "supports": [
+      {
+        "title": "Partes de una unidad",
+        "body": "Una fracción puede describir porciones iguales de una unidad. El número de abajo indica cuántas porciones iguales forman esa unidad y el de arriba cuántas se consideran.",
+        "insight": "Primero identifica cuál es la unidad.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Otra repartición",
+        "body": "Usamos otra cantidad para practicar la misma idea.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Situación simulada: una tira de papel se divide en seis secciones iguales y se colorean dos. ¿Qué representa 2/6?",
+        "example_steps": [
+          "El seis indica las secciones iguales de la tira completa.",
+          "El dos indica las secciones coloreadas."
+        ],
+        "example_result": "2/6 representa dos de las seis secciones iguales de la tira.",
+        "visual": {
+          "kind": "table",
+          "caption": "Secciones de la tira",
+          "headers": [
+            "Total igual",
+            "Coloreadas"
+          ],
+          "rows": [
+            [
+              "6",
+              "2"
+            ]
+          ],
+          "steps": []
+        }
+      }
+    ],
+    "checks": [
+      [
+        "El cuatro cuenta todos los pedazos del mismo tamaño y el uno el que se llevó. Si fueran distintos, no serían cuartos iguales.",
+        "correct"
+      ],
+      [
+        "Hay cuatro trozos iguales; Ana toma uno. Todos deben medir igual para que cada uno sea un cuarto.",
+        "correct"
+      ],
+      [
+        "El uno es el pedazo tomado.",
+        "partial"
+      ],
+      [
+        "parte todo dividir porción",
+        "incorrect"
+      ]
+    ],
+    "sha256": "fb96496bd7d00477110f534d9fd37aa80e879bc2c836b0388da0bcb502991572"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "00000000-0000-0000-0001-000000000002:q:0",
+      "sha256": "671aeca94f6b1327b3c7de61de33a04ce96b8ea2a9a7d1acb26a5c1e827520af"
+    },
+    "module": {
+      "id": "round2-module-2",
+      "subject": "mathematics",
+      "grade_range": "4-5",
+      "title": "Una de cuatro partes",
+      "core_concept": "fracciones",
+      "learning_objective": "Representar una parte de una unidad dividida en cuatro porciones iguales.",
+      "is_active": false
+    },
+    "step": {
+      "id": "round2-repair-2",
+      "module_id": "round2-module-2",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "representacion",
+      "content": {
+        "prompt": "Situación simulada: divides una pizza en cuatro porciones iguales y tomas una. ¿Qué fracción de esa pizza tomaste?",
+        "options": [
+          "1/4",
+          "1/2",
+          "4/1",
+          "1/8"
+        ],
+        "left_items": [],
+        "right_items": []
+      },
+      "enriched_content": {
+        "type": "option",
+        "cognitive_dimension": "representacion",
+        "expected_answer": {
+          "type": "option",
+          "correct_options": [
+            0
+          ]
+        },
+        "explanation": "1/4 indica una de cuatro porciones iguales de esa pizza.",
+        "option_explanations": [
+          "1/4 indica una de cuatro porciones iguales de esa pizza.",
+          "1/2 correspondería a la mitad, equivalente a dos de las cuatro porciones.",
+          "4/1 representa cuatro unidades; intercambia el total de partes y las tomadas.",
+          "1/8 supone ocho partes iguales, pero la pizza se dividió en cuatro."
+        ],
+        "pair_explanations": [],
+        "learning_focus": "Relacionar unidad, partes iguales y notación fraccionaria.",
+        "step_config": {
+          "hints": [
+            "Identifica el total de porciones iguales y la cantidad tomada."
+          ],
+          "feedback": "1/4 indica una de cuatro porciones iguales de esa pizza."
+        }
+      }
+    },
+    "activity": {
+      "options": [
+        "1/4",
+        "1/2",
+        "4/1",
+        "1/8"
+      ],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [],
+      "correct_pairs": [],
+      "correct_index": 0,
+      "expected_text": "",
+      "rubric": "Relacionar unidad, partes iguales y notación fraccionaria.",
+      "option_explanations": [
+        "1/4 indica una de cuatro porciones iguales de esa pizza.",
+        "1/2 correspondería a la mitad, equivalente a dos de las cuatro porciones.",
+        "4/1 representa cuatro unidades; intercambia el total de partes y las tomadas.",
+        "1/8 supone ocho partes iguales, pero la pizza se dividió en cuatro."
+      ],
+      "pair_explanations": [],
+      "type": "option",
+      "question": "Situación simulada: divides una pizza en cuatro porciones iguales y tomas una. ¿Qué fracción de esa pizza tomaste?",
+      "learning_focus": "Relacionar unidad, partes iguales y notación fraccionaria.",
+      "hint": "Identifica el total de porciones iguales y la cantidad tomada.",
+      "explanation": "1/4 indica una de cuatro porciones iguales de esa pizza.",
+      "dimension": "representacion"
+    },
+    "supports": [
+      {
+        "title": "Leer una fracción",
+        "body": "Para una misma unidad, el denominador cuenta las partes iguales en que se divide. El numerador cuenta las partes consideradas. No intercambies sus funciones.",
+        "insight": "La unidad de referencia debe permanecer igual.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Una tableta distinta",
+        "body": "La cantidad total de secciones define el denominador.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Situación simulada: una tableta tiene ocho secciones iguales y se comparten tres. ¿Qué fracción se comparte?",
+        "example_steps": [
+          "Contamos ocho secciones iguales en la unidad completa.",
+          "Contamos tres secciones compartidas."
+        ],
+        "example_result": "Se comparte 3/8 de la tableta.",
+        "visual": {
+          "kind": "table",
+          "caption": "Partes de la tableta",
+          "headers": [
+            "Total",
+            "Compartidas"
+          ],
+          "rows": [
+            [
+              "8",
+              "3"
+            ]
+          ],
+          "steps": []
+        }
+      }
+    ],
+    "checks": [
+      [
+        "0",
+        "correct"
+      ],
+      [
+        "1",
+        "incorrect"
+      ],
+      [
+        "2",
+        "incorrect"
+      ],
+      [
+        "3",
+        "incorrect"
+      ]
+    ],
+    "sha256": "ca0301f2a594cb51c71e8fed6c15a21d184b215edff5b3c51368a32720135a31"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "2763c723-9a3b-482d-b775-393deb4195cd:q:0",
+      "sha256": "9309cdfb2ce10a57c450b7424d8c8773dbc6d295930844656e02ff899ff96c5a"
+    },
+    "module": {
+      "id": "round2-module-3",
+      "subject": "language",
+      "grade_range": "1-3",
+      "title": "Una pista para comprender",
+      "core_concept": "lectura_inferencial",
+      "learning_objective": "Explicar una inferencia sencilla con una pista y reconocer cómo comprobarla en un relato.",
+      "is_active": false
+    },
+    "step": {
+      "id": "round2-repair-3",
+      "module_id": "round2-module-3",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "metacognicion",
+      "content": {
+        "prompt": "Relato inventado: «Lina salió al patio sin sombrilla. Volvió con el cabello y la camiseta mojados. Dijo: “¡Qué aguacero!”».\n\n¿Qué crees que le pasó a Lina y qué parte del relato te ayuda a pensarlo? Si dudas, ¿qué frase volverías a leer para comprobar tu idea?",
+        "options": [],
+        "left_items": [],
+        "right_items": []
+      },
+      "enriched_content": {
+        "type": "text",
+        "cognitive_dimension": "metacognicion",
+        "expected_answer": {
+          "type": "rubric",
+          "answer": "Creo que se mojó por la lluvia. Lo pienso porque volvió mojada y dijo «¡Qué aguacero!». Volvería a leer esa frase para comprobarlo.",
+          "rubric": "Correct si infiere que Lina se mojó por la lluvia, señala una pista pertinente del relato (mojada, sin sombrilla o aguacero) y propone releer una frase pertinente para comprobarlo. Aceptar mencionar la misma frase como pista y comprobación en una sola oración; no exigir tecnicismos, dos citas diferentes ni formato. Partial si aporta alguna parte válida pero falta la inferencia, la pista o la relectura. Incorrect si solo enumera términos, no usa información del relato o afirma una causa incompatible sin parte válida.",
+          "criteria": [
+            {
+              "id": "inference",
+              "requirement": "Afirma que Lina se mojó por lluvia o aguacero, con lenguaje cotidiano."
+            },
+            {
+              "id": "clue",
+              "requirement": "Menciona una pista: aguacero, ropa/cabello mojados o ausencia de sombrilla. «Dijo qué aguacero» es una pista suficiente por sí sola; no exigir otra."
+            },
+            {
+              "id": "check",
+              "requirement": "Propone releer una frase pertinente para comprobar. Si ya menciona aguacero y dice «releería esa frase», satisface este criterio usando la MISMA pista; no exigir dos citas."
+            }
+          ]
+        },
+        "explanation": "Una inferencia se apoya en pistas del relato; releerlas permite revisar la idea.",
+        "option_explanations": [],
+        "pair_explanations": [],
+        "learning_focus": "Inferir y explicar cómo se comprueba una idea.",
+        "step_config": {
+          "hints": [
+            "Busca algo que Lina diga o algo que le haya pasado. Puedes usar la misma frase como pista y para volver a comprobar."
+          ],
+          "feedback": "Una inferencia se apoya en pistas del relato; releerlas permite revisar la idea."
+        }
+      }
+    },
+    "activity": {
+      "options": [],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [],
+      "correct_pairs": [],
+      "correct_index": -1,
+      "expected_text": "Creo que se mojó por la lluvia. Lo pienso porque volvió mojada y dijo «¡Qué aguacero!». Volvería a leer esa frase para comprobarlo.",
+      "rubric": "Correct si infiere que Lina se mojó por la lluvia, señala una pista pertinente del relato (mojada, sin sombrilla o aguacero) y propone releer una frase pertinente para comprobarlo. Aceptar mencionar la misma frase como pista y comprobación en una sola oración; no exigir tecnicismos, dos citas diferentes ni formato. Partial si aporta alguna parte válida pero falta la inferencia, la pista o la relectura. Incorrect si solo enumera términos, no usa información del relato o afirma una causa incompatible sin parte válida.",
+      "option_explanations": [],
+      "pair_explanations": [],
+      "type": "text",
+      "question": "Relato inventado: «Lina salió al patio sin sombrilla. Volvió con el cabello y la camiseta mojados. Dijo: “¡Qué aguacero!”».\n\n¿Qué crees que le pasó a Lina y qué parte del relato te ayuda a pensarlo? Si dudas, ¿qué frase volverías a leer para comprobar tu idea?",
+      "hint": "Busca algo que Lina diga o algo que le haya pasado. Puedes usar la misma frase como pista y para volver a comprobar.",
+      "explanation": "Una inferencia se apoya en pistas del relato; releerlas permite revisar la idea.",
+      "learning_focus": "Inferir y explicar cómo se comprueba una idea.",
+      "dimension": "metacognicion"
+    },
+    "supports": [
+      {
+        "title": "Pensar con pistas",
+        "body": "Una pista es un detalle que ayuda a comprender algo. Puedes explicar tu idea y decir qué palabras te ayudaron. Si dudas, vuelve a esas palabras.",
+        "insight": "Una idea puede revisarse al releer.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Un juguete perdido",
+        "body": "Leemos otra historia para practicar.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Relato inventado: «Tomás buscó su carrito debajo de la cama y dentro de una caja. “No lo encuentro”, dijo». ¿Qué problema tiene y qué frase lo indica?",
+        "example_steps": [
+          "Relacionamos la búsqueda con el carrito.",
+          "La frase «No lo encuentro» confirma que no sabe dónde está."
+        ],
+        "example_result": "Tomás no encuentra su carrito. La frase final permite comprobar esa idea.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Comprobar una idea",
+          "headers": [],
+          "rows": [],
+          "steps": [
+            "Pienso que busca un objeto perdido.",
+            "Releo «No lo encuentro»."
+          ]
+        }
+      }
+    ],
+    "checks": [
+      [
+        "Se mojó con la lluvia: dijo qué aguacero. Releería esa frase para estar seguro.",
+        "correct"
+      ],
+      [
+        "Le cayó agua de lluvia; volvió mojada. Volvería a leer lo que dice del aguacero.",
+        "correct"
+      ],
+      [
+        "Se mojó por la lluvia.",
+        "partial"
+      ],
+      [
+        "lectura inferencial aplicar texto ejemplo",
+        "incorrect"
+      ]
+    ],
+    "sha256": "7d31a278fe4dacdd0b44a971e5f375305dbec1f78392454d9840888985684817"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "0dfed78f-259c-4126-b9db-18cfe0890226:q:0",
+      "sha256": "a67da182d4e55aeea4385a0159bd2b073efac6ec8290bc7086bad9061bc7fc0a"
+    },
+    "module": {
+      "id": "round2-module-4",
+      "subject": "language",
+      "grade_range": "7",
+      "title": "Datos y opiniones del noticiero",
+      "core_concept": "comprension_lectora",
+      "learning_objective": "Distinguir datos reportados y opiniones en un mensaje de un medio escolar.",
+      "is_active": false
+    },
+    "step": {
+      "id": "round2-repair-4",
+      "module_id": "round2-module-4",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "razonamiento",
+      "content": {
+        "prompt": "Noticia escolar inventada: «El martes se prestaron 24 libros en la biblioteca, según el registro de préstamos. Julia, estudiante del curso, comentó: “La biblioteca es el mejor lugar del colegio”».\n\nRelaciona cada fragmento con su función. No se pide comprobar un dato real de una escuela.",
+        "options": [],
+        "left_items": [
+          "Se prestaron 24 libros el martes.",
+          "Según el registro de préstamos.",
+          "La biblioteca es el mejor lugar del colegio."
+        ],
+        "right_items": [
+          "Opinión atribuida a una estudiante.",
+          "Dato cuantitativo reportado en la noticia.",
+          "Fuente que el relato atribuye al dato."
+        ]
+      },
+      "enriched_content": {
+        "type": "matching",
+        "cognitive_dimension": "razonamiento",
+        "expected_answer": {
+          "type": "matching",
+          "correct_pairs": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        "explanation": "Distinguir información reportada, fuente y opinión.",
+        "option_explanations": [],
+        "pair_explanations": [
+          "24 es la cantidad reportada; puede contrastarse con un registro, aunque aquí sea una noticia inventada.",
+          "El registro se menciona como procedencia del dato; no expresa una valoración.",
+          "«Mejor» expresa una valoración de Julia, no un hecho establecido para todos."
+        ],
+        "learning_focus": "Distinguir información reportada, fuente y opinión.",
+        "step_config": {
+          "hints": [
+            "Pregunta si cada frase aporta una cantidad, indica de dónde sale o expresa una valoración."
+          ],
+          "feedback": "Distinguir información reportada, fuente y opinión."
+        }
+      }
+    },
+    "activity": {
+      "options": [],
+      "left_items": [
+        "Se prestaron 24 libros el martes.",
+        "Según el registro de préstamos.",
+        "La biblioteca es el mejor lugar del colegio."
+      ],
+      "right_items": [
+        "Opinión atribuida a una estudiante.",
+        "Dato cuantitativo reportado en la noticia.",
+        "Fuente que el relato atribuye al dato."
+      ],
+      "correct_indices": [],
+      "correct_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "correct_index": -1,
+      "expected_text": "",
+      "rubric": "Distinguir información reportada, fuente y opinión.",
+      "option_explanations": [],
+      "pair_explanations": [
+        "24 es la cantidad reportada; puede contrastarse con un registro, aunque aquí sea una noticia inventada.",
+        "El registro se menciona como procedencia del dato; no expresa una valoración.",
+        "«Mejor» expresa una valoración de Julia, no un hecho establecido para todos."
+      ],
+      "type": "matching",
+      "question": "Noticia escolar inventada: «El martes se prestaron 24 libros en la biblioteca, según el registro de préstamos. Julia, estudiante del curso, comentó: “La biblioteca es el mejor lugar del colegio”».\n\nRelaciona cada fragmento con su función. No se pide comprobar un dato real de una escuela.",
+      "learning_focus": "Distinguir información reportada, fuente y opinión.",
+      "hint": "Pregunta si cada frase aporta una cantidad, indica de dónde sale o expresa una valoración.",
+      "explanation": "Distinguir información reportada, fuente y opinión.",
+      "dimension": "razonamiento"
+    },
+    "supports": [
+      {
+        "title": "Dato, fuente y opinión",
+        "body": "Un medio puede combinar cantidades, referencias y valoraciones. Distinguirlas ayuda a no atribuir a todo el mundo la opinión de una persona. Mencionar una fuente no demuestra por sí solo que un dato sea verdadero.",
+        "insight": "Identifica quién afirma algo y con qué respaldo.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Otro boletín",
+        "body": "No toda frase de una noticia cumple la misma función.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Boletín inventado: «El taller recibió 16 dibujos, según la lista de recepción. Pedro dijo que todos eran preciosos». Identifica un dato y una valoración.",
+        "example_steps": [
+          "16 dibujos es el dato reportado; la lista se menciona como fuente.",
+          "«Preciosos» es la valoración de Pedro."
+        ],
+        "example_result": "El boletín distingue una cantidad reportada de una opinión atribuida.",
+        "visual": {
+          "kind": "table",
+          "caption": "Funciones en el boletín",
+          "headers": [
+            "Fragmento",
+            "Función"
+          ],
+          "rows": [
+            [
+              "16 dibujos",
+              "Dato reportado"
+            ],
+            [
+              "Preciosos",
+              "Valoración de Pedro"
+            ]
+          ],
+          "steps": []
+        }
+      }
+    ],
+    "checks": [
+      [
+        "[[0,1],[1,2],[2,0]]",
+        "correct"
+      ],
+      [
+        "[[0,0],[1,1],[2,2]]",
+        "incorrect"
+      ]
+    ],
+    "sha256": "1e4255329392eaff4246ba8ad804ea3a66c1a996b2afaa4d8e7935c4df2dac6a"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "00769650-eb2c-458a-8307-bcd5cdbccf14:q:0",
+      "sha256": "7c4f6d972b26dada4ca6e67150f9aaf3a0c0602b8fba1aafb6cf4ab5293f8f2f"
+    },
+    "module": {
+      "id": "round2-module-5",
+      "subject": "language",
+      "grade_range": "8",
+      "title": "La intención de un aviso",
+      "core_concept": "lectura_inferencial",
+      "learning_objective": "Reconocer intención comunicativa y evidencia textual en un aviso escolar.",
+      "is_active": false
+    },
+    "step": {
+      "id": "round2-repair-5",
+      "module_id": "round2-module-5",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "razonamiento",
+      "content": {
+        "prompt": "Aviso inventado del comité ambiental de un colegio: «Trae tu botella reutilizable a la jornada del viernes. Así evitaremos vasos desechables durante la actividad. ¡Participa!».\n\n¿Cuál interpretación está mejor respaldada por el texto?",
+        "options": [
+          "Busca convencer de participar con una acción concreta para reducir desechables.",
+          "Informa que ya no existe ningún residuo en el colegio.",
+          "Relata una experiencia personal ocurrida el año pasado.",
+          "Prohíbe beber agua a quienes no tengan botella."
+        ],
+        "left_items": [],
+        "right_items": []
+      },
+      "enriched_content": {
+        "type": "option",
+        "cognitive_dimension": "razonamiento",
+        "expected_answer": {
+          "type": "option",
+          "correct_options": [
+            0
+          ]
+        },
+        "explanation": "El imperativo «Trae» y la invitación «¡Participa!» buscan promover una acción; el aviso expresa para qué.",
+        "option_explanations": [
+          "El imperativo «Trae» y la invitación «¡Participa!» buscan promover una acción; el aviso expresa para qué.",
+          "No presenta un resultado ya obtenido ni dice que desaparecieron todos los residuos.",
+          "No narra una experiencia pasada: anuncia una jornada próxima.",
+          "El texto solicita una acción, pero no establece esa prohibición."
+        ],
+        "pair_explanations": [],
+        "learning_focus": "Interpretar intención sin añadir afirmaciones ausentes.",
+        "step_config": {
+          "hints": [
+            "Observa si el aviso describe algo pasado o invita a actuar."
+          ],
+          "feedback": "El imperativo «Trae» y la invitación «¡Participa!» buscan promover una acción; el aviso expresa para qué."
+        }
+      }
+    },
+    "activity": {
+      "options": [
+        "Busca convencer de participar con una acción concreta para reducir desechables.",
+        "Informa que ya no existe ningún residuo en el colegio.",
+        "Relata una experiencia personal ocurrida el año pasado.",
+        "Prohíbe beber agua a quienes no tengan botella."
+      ],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [],
+      "correct_pairs": [],
+      "correct_index": 0,
+      "expected_text": "",
+      "rubric": "Interpretar intención sin añadir afirmaciones ausentes.",
+      "option_explanations": [
+        "El imperativo «Trae» y la invitación «¡Participa!» buscan promover una acción; el aviso expresa para qué.",
+        "No presenta un resultado ya obtenido ni dice que desaparecieron todos los residuos.",
+        "No narra una experiencia pasada: anuncia una jornada próxima.",
+        "El texto solicita una acción, pero no establece esa prohibición."
+      ],
+      "pair_explanations": [],
+      "type": "option",
+      "question": "Aviso inventado del comité ambiental de un colegio: «Trae tu botella reutilizable a la jornada del viernes. Así evitaremos vasos desechables durante la actividad. ¡Participa!».\n\n¿Cuál interpretación está mejor respaldada por el texto?",
+      "learning_focus": "Interpretar intención sin añadir afirmaciones ausentes.",
+      "hint": "Observa si el aviso describe algo pasado o invita a actuar.",
+      "explanation": "El imperativo «Trae» y la invitación «¡Participa!» buscan promover una acción; el aviso expresa para qué.",
+      "dimension": "razonamiento"
+    },
+    "supports": [
+      {
+        "title": "Intención y evidencia",
+        "body": "Un mensaje puede informar, narrar o intentar persuadir. Reconoce expresiones que apoyen tu interpretación. Evita atribuir prohibiciones o resultados que no aparecen en el texto.",
+        "insight": "La interpretación necesita evidencia textual.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Una invitación diferente",
+        "body": "Buscamos la función del mensaje en sus propias palabras.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Aviso ficticio: «Inscríbete en el taller de cuentos. Compartiremos historias y aprenderemos a revisarlas». ¿Qué busca el mensaje?",
+        "example_steps": [
+          "«Inscríbete» invita al lector a realizar una acción.",
+          "La segunda frase presenta una razón para participar."
+        ],
+        "example_result": "El aviso busca animar a inscribirse, no demostrar que todos ya escriben bien.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Lectura de la intención",
+          "headers": [],
+          "rows": [],
+          "steps": [
+            "Localiza una invitación.",
+            "Relaciona la invitación con la razón expresada."
+          ]
+        }
+      }
+    ],
+    "checks": [
+      [
+        "0",
+        "correct"
+      ],
+      [
+        "1",
+        "incorrect"
+      ],
+      [
+        "2",
+        "incorrect"
+      ],
+      [
+        "3",
+        "incorrect"
+      ]
+    ],
+    "sha256": "1b306e9d09098a1a93e18f72a7c53045ca1546a2184e2ed279ae2ab211a4efe0"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "05134c5d-81ef-4ba3-bfb1-c4cc89b90fc0:q:0",
+      "sha256": "378ba1e0e1063cc21ee2792f1fd36ee72ba26b3703d9332473cf0617e409f382"
+    },
+    "module": {
+      "id": "round2-module-6",
+      "subject": "language",
+      "grade_range": "11",
+      "title": "Comparar dos propuestas",
+      "core_concept": "argumentacion",
+      "learning_objective": "Comparar tesis, evidencia y límites de dos textos argumentativos sobre una decisión escolar.",
+      "is_active": false
+    },
+    "step": {
+      "id": "round2-repair-6",
+      "module_id": "round2-module-6",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "razonamiento",
+      "content": {
+        "prompt": "Textos ficticios para una decisión del consejo estudiantil:\n\n**Texto A:** «Abramos la biblioteca una hora más. En una encuesta simulada, 40 de 60 estudiantes dijeron necesitar un lugar de estudio después de clase».\n\n**Texto B:** «Antes de ampliar el horario, revisemos los recursos disponibles. Para atender una hora adicional se necesita personal, pero todavía no se ha calculado ese costo».\n\n¿Cuál comparación respeta lo que ambos textos afirman?",
+        "options": [
+          "A prueba que ampliar el horario no tiene ningún costo.",
+          "B demuestra que ningún estudiante necesita estudiar después de clase.",
+          "Los dos presentan exactamente la misma propuesta y la misma evidencia.",
+          "A apoya ampliar el horario con una necesidad reportada; B pide revisar una condición aún no calculada."
+        ],
+        "left_items": [],
+        "right_items": []
+      },
+      "enriched_content": {
+        "type": "option",
+        "cognitive_dimension": "razonamiento",
+        "expected_answer": {
+          "type": "option",
+          "correct_options": [
+            3
+          ]
+        },
+        "explanation": "Distingue la propuesta de A y su encuesta de la precaución de B sobre recursos; no inventa resultados.",
+        "option_explanations": [
+          "La encuesta no calcula costos ni demuestra que sean cero.",
+          "B no niega la necesidad; señala información que falta sobre recursos.",
+          "A propone ampliar; B pide revisar una condición previa. No usan la misma evidencia.",
+          "Distingue la propuesta de A y su encuesta de la precaución de B sobre recursos; no inventa resultados."
+        ],
+        "pair_explanations": [],
+        "learning_focus": "Comparar argumentos distinguiendo evidencia disponible e información faltante.",
+        "step_config": {
+          "hints": [
+            "Identifica qué propone cada texto y qué dato usa o declara ausente."
+          ],
+          "feedback": "Distingue la propuesta de A y su encuesta de la precaución de B sobre recursos; no inventa resultados."
+        }
+      }
+    },
+    "activity": {
+      "options": [
+        "A prueba que ampliar el horario no tiene ningún costo.",
+        "B demuestra que ningún estudiante necesita estudiar después de clase.",
+        "Los dos presentan exactamente la misma propuesta y la misma evidencia.",
+        "A apoya ampliar el horario con una necesidad reportada; B pide revisar una condición aún no calculada."
+      ],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [],
+      "correct_pairs": [],
+      "correct_index": 3,
+      "expected_text": "",
+      "rubric": "Comparar argumentos distinguiendo evidencia disponible e información faltante.",
+      "option_explanations": [
+        "La encuesta no calcula costos ni demuestra que sean cero.",
+        "B no niega la necesidad; señala información que falta sobre recursos.",
+        "A propone ampliar; B pide revisar una condición previa. No usan la misma evidencia.",
+        "Distingue la propuesta de A y su encuesta de la precaución de B sobre recursos; no inventa resultados."
+      ],
+      "pair_explanations": [],
+      "type": "option",
+      "question": "Textos ficticios para una decisión del consejo estudiantil:\n\n**Texto A:** «Abramos la biblioteca una hora más. En una encuesta simulada, 40 de 60 estudiantes dijeron necesitar un lugar de estudio después de clase».\n\n**Texto B:** «Antes de ampliar el horario, revisemos los recursos disponibles. Para atender una hora adicional se necesita personal, pero todavía no se ha calculado ese costo».\n\n¿Cuál comparación respeta lo que ambos textos afirman?",
+      "learning_focus": "Comparar argumentos distinguiendo evidencia disponible e información faltante.",
+      "hint": "Identifica qué propone cada texto y qué dato usa o declara ausente.",
+      "explanation": "Distingue la propuesta de A y su encuesta de la precaución de B sobre recursos; no inventa resultados.",
+      "dimension": "razonamiento"
+    },
+    "supports": [
+      {
+        "title": "Comparar sin deformar",
+        "body": "Para comparar argumentos, identifica la propuesta, las razones y la información que cada autor considera disponible o pendiente. Que falte un dato no demuestra que la propuesta sea falsa.",
+        "insight": "No conviertas una duda en un hecho demostrado.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Otro consejo escolar",
+        "body": "Dos textos pueden abordar condiciones diferentes de una misma decisión.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Textos ficticios: A propone una feria de lectura porque 22 estudiantes ofrecieron participar. B pide fijar una fecha porque aún no hay salón reservado. ¿Son afirmaciones contradictorias?",
+        "example_steps": [
+          "A aporta un dato sobre participación.",
+          "B señala una condición logística pendiente; no afirma que nadie quiera participar."
+        ],
+        "example_result": "No hay contradicción necesaria: puede existir interés y faltar la reserva del salón.",
+        "visual": {
+          "kind": "table",
+          "caption": "Aspectos diferentes",
+          "headers": [
+            "Texto",
+            "Aspecto"
+          ],
+          "rows": [
+            [
+              "A",
+              "Participación"
+            ],
+            [
+              "B",
+              "Disponibilidad del salón"
+            ]
+          ],
+          "steps": []
+        }
+      }
+    ],
+    "checks": [
+      [
+        "3",
+        "correct"
+      ],
+      [
+        "0",
+        "incorrect"
+      ],
+      [
+        "1",
+        "incorrect"
+      ],
+      [
+        "2",
+        "incorrect"
+      ]
+    ],
+    "sha256": "1b2b7b3d52bcf3ea63edbbf88748024a0e14959b0ba096786f49feb3eeb2597a"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "6eeffe1c-30c4-47ba-b1ab-6f474302aab0:q:0",
+      "sha256": "a3cd4c8b0485669c8e7034f1053fe8d428c9369d888c2a4d042236511d10a19a"
+    },
+    "module": {
+      "id": "round2-module-7",
+      "subject": "natural_sciences",
+      "grade_range": "1-3",
+      "title": "Investigar en otro lugar",
+      "core_concept": "comparacion",
+      "learning_objective": "Aplicar una comparación justa en una situación nueva sin anticipar sus resultados.",
+      "is_active": false
+    },
+    "step": {
+      "id": "round2-repair-7",
+      "module_id": "round2-module-7",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "transferencia",
+      "content": {
+        "prompt": "Situación imaginada: ya aprendiste que para comparar dos casos conviene cambiar solo lo que quieres estudiar. Ahora Sara quiere comparar si un carrito avanza distinto sobre cartón o tela. No se hará la prueba ahora. ¿Qué plan usa esa idea?",
+        "options": [
+          "Cambiar a la vez el carrito y la altura.",
+          "Usar el mismo carrito, soltarlo desde la misma altura y cambiar solo la superficie.",
+          "Probar una vez con una pelota y otra con el carrito.",
+          "Escribir el resultado sin observar."
+        ],
+        "left_items": [],
+        "right_items": []
+      },
+      "enriched_content": {
+        "type": "option",
+        "cognitive_dimension": "transferencia",
+        "expected_answer": {
+          "type": "option",
+          "correct_options": [
+            1
+          ]
+        },
+        "explanation": "Mantiene carrito y altura, y cambia la superficie que se quiere comparar.",
+        "option_explanations": [
+          "Cambiar varias condiciones dificulta atribuir una diferencia a la superficie.",
+          "Mantiene carrito y altura, y cambia la superficie que se quiere comparar.",
+          "Los objetos diferentes agregan otra posible causa.",
+          "Sin observación no se puede inventar un resultado."
+        ],
+        "pair_explanations": [],
+        "learning_focus": "Transferir la idea de comparación justa.",
+        "step_config": {
+          "hints": [
+            "¿Qué cosa se quiere comparar y cuáles pueden mantenerse iguales?"
+          ],
+          "feedback": "Mantiene carrito y altura, y cambia la superficie que se quiere comparar."
+        }
+      }
+    },
+    "activity": {
+      "options": [
+        "Cambiar a la vez el carrito y la altura.",
+        "Usar el mismo carrito, soltarlo desde la misma altura y cambiar solo la superficie.",
+        "Probar una vez con una pelota y otra con el carrito.",
+        "Escribir el resultado sin observar."
+      ],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [],
+      "correct_pairs": [],
+      "correct_index": 1,
+      "expected_text": "",
+      "rubric": "Transferir la idea de comparación justa.",
+      "option_explanations": [
+        "Cambiar varias condiciones dificulta atribuir una diferencia a la superficie.",
+        "Mantiene carrito y altura, y cambia la superficie que se quiere comparar.",
+        "Los objetos diferentes agregan otra posible causa.",
+        "Sin observación no se puede inventar un resultado."
+      ],
+      "pair_explanations": [],
+      "type": "option",
+      "question": "Situación imaginada: ya aprendiste que para comparar dos casos conviene cambiar solo lo que quieres estudiar. Ahora Sara quiere comparar si un carrito avanza distinto sobre cartón o tela. No se hará la prueba ahora. ¿Qué plan usa esa idea?",
+      "learning_focus": "Transferir la idea de comparación justa.",
+      "hint": "¿Qué cosa se quiere comparar y cuáles pueden mantenerse iguales?",
+      "explanation": "Mantiene carrito y altura, y cambia la superficie que se quiere comparar.",
+      "dimension": "transferencia"
+    },
+    "supports": [
+      {
+        "title": "Usar una idea en otro caso",
+        "body": "Una estrategia puede servir en otra situación. Primero reconoce qué quieres comparar; luego piensa qué debe mantenerse igual. No afirmes un resultado antes de observar.",
+        "insight": "Usar una estrategia no significa adivinar el resultado.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Comparar papel",
+        "body": "Otro caso permite practicar sin responder el ejercicio pendiente.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Situación imaginada: Luis quiere comparar cuánto pesan dos tipos de papel del mismo tamaño. ¿Qué mantendría igual?",
+        "example_steps": [
+          "Usaría hojas con las mismas medidas.",
+          "Cambiaría el tipo de papel y usaría la misma balanza."
+        ],
+        "example_result": "Mantener tamaño y balanza permite una comparación más clara. Aquí no se conoce qué papel pesa más.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Plan de comparación",
+          "headers": [],
+          "rows": [],
+          "steps": [
+            "Mismo tamaño y balanza.",
+            "Distinto tipo de papel.",
+            "Medir antes de concluir."
+          ]
+        }
+      }
+    ],
+    "checks": [
+      [
+        "1",
+        "correct"
+      ],
+      [
+        "0",
+        "incorrect"
+      ],
+      [
+        "2",
+        "incorrect"
+      ],
+      [
+        "3",
+        "incorrect"
+      ]
+    ],
+    "sha256": "03edaa00d15fc228d81619cb0b62b42d92517d520e63bebab634edf7d8fd016e"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "34bb219f-4504-45e5-a6bd-ad8e21e8878e:q:0",
+      "sha256": "13dd9f70eb45bb5c9c018b2ddfdf2eef80f335ec6a186cd14a477255386acbba"
+    },
+    "module": {
+      "id": "round2-module-8",
+      "subject": "social_studies",
+      "grade_range": "1-3",
+      "title": "Grupos de la comunidad",
+      "core_concept": "organizacion_social",
+      "learning_objective": "Reconocer grupos de personas organizadas con un propósito en situaciones concretas.",
+      "is_active": false
+    },
+    "step": {
+      "id": "round2-repair-8",
+      "module_id": "round2-module-8",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "comprension",
+      "content": {
+        "prompt": "En estas situaciones imaginadas, ¿cuáles describen grupos de personas que se organizan para hacer algo juntos? Marca todas las que correspondan.",
+        "options": [
+          "Un equipo se reúne para entrenar fútbol.",
+          "Un árbol crece solo en el parque.",
+          "Un club se reúne para leer cuentos.",
+          "Varias familias coordinan el cuidado de una huerta."
+        ],
+        "left_items": [],
+        "right_items": []
+      },
+      "enriched_content": {
+        "type": "multiple_select",
+        "cognitive_dimension": "comprension",
+        "expected_answer": {
+          "type": "multiple_select",
+          "correct_options": [
+            0,
+            2,
+            3
+          ]
+        },
+        "explanation": "Equipo, club y familias coordinadas describen personas organizadas para un propósito. El árbol no describe un grupo de personas.",
+        "option_explanations": [
+          "Hay personas que entrenan en equipo.",
+          "Es un ser vivo, pero no un grupo de personas organizado.",
+          "Hay personas que se reúnen para leer.",
+          "Las familias coordinan una tarea compartida."
+        ],
+        "pair_explanations": [],
+        "learning_focus": "Personas, coordinación y propósito común.",
+        "step_config": {
+          "hints": [
+            "Busca personas que acuerdan hacer algo juntas."
+          ],
+          "feedback": "Equipo, club y familias coordinadas describen personas organizadas para un propósito. El árbol no describe un grupo de personas."
+        }
+      }
+    },
+    "activity": {
+      "options": [
+        "Un equipo se reúne para entrenar fútbol.",
+        "Un árbol crece solo en el parque.",
+        "Un club se reúne para leer cuentos.",
+        "Varias familias coordinan el cuidado de una huerta."
+      ],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [
+        0,
+        2,
+        3
+      ],
+      "correct_pairs": [],
+      "correct_index": -1,
+      "expected_text": "",
+      "rubric": "Seleccionar 0, 2 y 3: personas coordinadas con un propósito. El árbol no es un grupo de personas.",
+      "option_explanations": [
+        "Hay personas que entrenan en equipo.",
+        "Es un ser vivo, pero no un grupo de personas organizado.",
+        "Hay personas que se reúnen para leer.",
+        "Las familias coordinan una tarea compartida."
+      ],
+      "pair_explanations": [],
+      "type": "multiple_select",
+      "question": "En estas situaciones imaginadas, ¿cuáles describen grupos de personas que se organizan para hacer algo juntos? Marca todas las que correspondan.",
+      "learning_focus": "Personas, coordinación y propósito común.",
+      "hint": "Busca personas que acuerdan hacer algo juntas.",
+      "explanation": "Equipo, club y familias coordinadas describen personas organizadas para un propósito. El árbol no describe un grupo de personas.",
+      "dimension": "comprension"
+    },
+    "supports": [
+      {
+        "title": "Un grupo con propósito",
+        "body": "Las personas pueden organizarse para jugar, aprender o cuidar un lugar. Mira quiénes participan y qué acuerdan hacer. Un objeto o una planta no forma por sí solo un grupo social.",
+        "insight": "Observa las personas y la actividad compartida.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Un grupo diferente",
+        "body": "La organización se reconoce en lo que hacen las personas juntas.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Situación inventada: cuatro vecinos acuerdan turnos para regar un jardín. ¿Qué muestra que se organizan?",
+        "example_steps": [
+          "Identificamos a las personas: cuatro vecinos.",
+          "Identificamos el acuerdo: turnos para regar."
+        ],
+        "example_result": "Se organizan porque coordinan turnos para una tarea compartida.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Identificar la organización",
+          "headers": [],
+          "rows": [],
+          "steps": [
+            "Personas: vecinos.",
+            "Acuerdo: turnos.",
+            "Propósito: cuidar el jardín."
+          ]
+        }
+      }
+    ],
+    "checks": [
+      [
+        "[0,2,3]",
+        "correct"
+      ],
+      [
+        "[0]",
+        "partial"
+      ],
+      [
+        "[1]",
+        "incorrect"
+      ]
+    ],
+    "sha256": "93e1b281b1f7b68123304ce5f35d30c55747220d86feb9bb7140bcb67b119993"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "cce00551-48dc-43c8-adb6-d24e4756829c:q:0",
+      "sha256": "65e383648d784b42de2f9922e3acb3b3f591f9c29926086a387830dbebcc252d"
+    },
+    "module": {
+      "id": "round2-module-9",
+      "subject": "social_studies",
+      "grade_range": "4-5",
+      "title": "Orientarse en un croquis",
+      "core_concept": "orientacion_espacial",
+      "learning_objective": "Usar puntos cardinales en un recorrido descrito, con orientación explícita.",
+      "is_active": false
+    },
+    "step": {
+      "id": "round2-repair-9",
+      "module_id": "round2-module-9",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "transferencia",
+      "content": {
+        "prompt": "Situación simulada: en un croquis del barrio, el norte está hacia arriba y el este a la derecha. La biblioteca está dos cuadras al norte de la escuela; el parque está una cuadra al este de la biblioteca. Si sales de la escuela y pasas por la biblioteca para llegar al parque, ¿qué recorrido corresponde?",
+        "options": [
+          "Dos cuadras al sur y una al oeste.",
+          "Una cuadra al este y dos al sur.",
+          "Dos cuadras al norte y una al este.",
+          "Dos cuadras al norte y una al oeste."
+        ],
+        "left_items": [],
+        "right_items": []
+      },
+      "enriched_content": {
+        "type": "option",
+        "cognitive_dimension": "transferencia",
+        "expected_answer": {
+          "type": "option",
+          "correct_options": [
+            2
+          ]
+        },
+        "explanation": "Sigue primero escuela–biblioteca hacia el norte y luego biblioteca–parque hacia el este.",
+        "option_explanations": [
+          "Ambas direcciones son opuestas a las indicadas.",
+          "No pasa primero por la biblioteca y cambia norte por sur.",
+          "Sigue primero escuela–biblioteca hacia el norte y luego biblioteca–parque hacia el este.",
+          "El primer tramo es correcto, pero el segundo debe ir al este."
+        ],
+        "pair_explanations": [],
+        "learning_focus": "Aplicar orientación cardinal a un recorrido nuevo.",
+        "step_config": {
+          "hints": [
+            "Separa el recorrido en dos tramos y conserva la orientación del croquis."
+          ],
+          "feedback": "Sigue primero escuela–biblioteca hacia el norte y luego biblioteca–parque hacia el este."
+        }
+      }
+    },
+    "activity": {
+      "options": [
+        "Dos cuadras al sur y una al oeste.",
+        "Una cuadra al este y dos al sur.",
+        "Dos cuadras al norte y una al este.",
+        "Dos cuadras al norte y una al oeste."
+      ],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [],
+      "correct_pairs": [],
+      "correct_index": 2,
+      "expected_text": "",
+      "rubric": "Aplicar orientación cardinal a un recorrido nuevo.",
+      "option_explanations": [
+        "Ambas direcciones son opuestas a las indicadas.",
+        "No pasa primero por la biblioteca y cambia norte por sur.",
+        "Sigue primero escuela–biblioteca hacia el norte y luego biblioteca–parque hacia el este.",
+        "El primer tramo es correcto, pero el segundo debe ir al este."
+      ],
+      "pair_explanations": [],
+      "type": "option",
+      "question": "Situación simulada: en un croquis del barrio, el norte está hacia arriba y el este a la derecha. La biblioteca está dos cuadras al norte de la escuela; el parque está una cuadra al este de la biblioteca. Si sales de la escuela y pasas por la biblioteca para llegar al parque, ¿qué recorrido corresponde?",
+      "learning_focus": "Aplicar orientación cardinal a un recorrido nuevo.",
+      "hint": "Separa el recorrido en dos tramos y conserva la orientación del croquis.",
+      "explanation": "Sigue primero escuela–biblioteca hacia el norte y luego biblioteca–parque hacia el este.",
+      "dimension": "transferencia"
+    },
+    "supports": [
+      {
+        "title": "Orientación explícita",
+        "body": "Antes de usar un croquis, identifica sus puntos cardinales. Cuando el norte está arriba, el este queda a la derecha y el oeste a la izquierda. La orientación del papel debe comprobarse, no suponerse siempre.",
+        "insight": "Lee la orientación antes de decidir el recorrido.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Otro recorrido",
+        "body": "Usamos otros lugares y direcciones.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Croquis ficticio con norte arriba: la tienda está una cuadra al oeste del colegio y el salón comunal dos al sur de la tienda. ¿Cómo irías pasando por la tienda?",
+        "example_steps": [
+          "Del colegio a la tienda: una cuadra al oeste.",
+          "De la tienda al salón: dos cuadras al sur."
+        ],
+        "example_result": "El recorrido indicado es una cuadra al oeste y luego dos al sur.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Dos tramos del otro croquis",
+          "headers": [],
+          "rows": [],
+          "steps": [
+            "Colegio → tienda: oeste.",
+            "Tienda → salón: sur."
+          ]
+        }
+      }
+    ],
+    "checks": [
+      [
+        "2",
+        "correct"
+      ],
+      [
+        "0",
+        "incorrect"
+      ],
+      [
+        "1",
+        "incorrect"
+      ],
+      [
+        "3",
+        "incorrect"
+      ]
+    ],
+    "sha256": "03eb36f4f3da708eee77e72e18af6ab60590833a9bae21c1c58c68f885fed020"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "316df857-26a5-4c63-ac42-ea2352e5cc79:q:0",
+      "sha256": "3bdb1007e78ade9df45b95c5b83ab891a98662ce8560772e93eb484967be4eba"
+    },
+    "module": {
+      "id": "round2-module-10",
+      "subject": "social_studies",
+      "grade_range": "6-7",
+      "title": "Examinar justificaciones injustas",
+      "core_concept": "analisis_critico",
+      "learning_objective": "Distinguir tipos de justificación en argumentos ficticios y reconocer que describirlos no los hace válidos.",
+      "is_active": false
+    },
+    "step": {
+      "id": "round2-repair-10",
+      "module_id": "round2-module-10",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "comprension",
+      "content": {
+        "prompt": "En una dramatización escolar se inventaron estos argumentos para analizarlos críticamente. No son citas históricas ni afirmaciones verdaderas o aceptables.\n\nRelaciona cada frase con el criterio que intenta usar para justificar una decisión injusta.",
+        "options": [],
+        "left_items": [
+          "«Ese grupo debe tener menos derechos porque su origen lo hace inferior».",
+          "«La regla debe mantenerse porque así la manda nuestra tradición religiosa».",
+          "«No importa el daño: mantengamos la práctica porque produce ganancias»."
+        ],
+        "right_items": [
+          "Apelación a ganancias económicas.",
+          "Jerarquía discriminatoria por origen.",
+          "Apelación a autoridad religiosa."
+        ]
+      },
+      "enriched_content": {
+        "type": "matching",
+        "cognitive_dimension": "comprension",
+        "expected_answer": {
+          "type": "matching",
+          "correct_pairs": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        "explanation": "Identificar argumentos sin confundirlos con hechos verdaderos ni justificaciones válidas.",
+        "option_explanations": [],
+        "pair_explanations": [
+          "La frase inventada usa una supuesta inferioridad por origen; reconocerla no la valida.",
+          "Invoca una autoridad religiosa; no demuestra que la decisión sea justa.",
+          "Usa las ganancias para dejar de lado el daño; obtener beneficio no justifica vulnerar a otros."
+        ],
+        "learning_focus": "Identificar argumentos sin confundirlos con hechos verdaderos ni justificaciones válidas.",
+        "step_config": {
+          "hints": [
+            "Busca a qué apela cada frase: origen, autoridad o ganancias."
+          ],
+          "feedback": "Identificar argumentos sin confundirlos con hechos verdaderos ni justificaciones válidas."
+        }
+      }
+    },
+    "activity": {
+      "options": [],
+      "left_items": [
+        "«Ese grupo debe tener menos derechos porque su origen lo hace inferior».",
+        "«La regla debe mantenerse porque así la manda nuestra tradición religiosa».",
+        "«No importa el daño: mantengamos la práctica porque produce ganancias»."
+      ],
+      "right_items": [
+        "Apelación a ganancias económicas.",
+        "Jerarquía discriminatoria por origen.",
+        "Apelación a autoridad religiosa."
+      ],
+      "correct_indices": [],
+      "correct_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "correct_index": -1,
+      "expected_text": "",
+      "rubric": "Identificar argumentos sin confundirlos con hechos verdaderos ni justificaciones válidas.",
+      "option_explanations": [],
+      "pair_explanations": [
+        "La frase inventada usa una supuesta inferioridad por origen; reconocerla no la valida.",
+        "Invoca una autoridad religiosa; no demuestra que la decisión sea justa.",
+        "Usa las ganancias para dejar de lado el daño; obtener beneficio no justifica vulnerar a otros."
+      ],
+      "type": "matching",
+      "question": "En una dramatización escolar se inventaron estos argumentos para analizarlos críticamente. No son citas históricas ni afirmaciones verdaderas o aceptables.\n\nRelaciona cada frase con el criterio que intenta usar para justificar una decisión injusta.",
+      "learning_focus": "Identificar argumentos sin confundirlos con hechos verdaderos ni justificaciones válidas.",
+      "hint": "Busca a qué apela cada frase: origen, autoridad o ganancias.",
+      "explanation": "Identificar argumentos sin confundirlos con hechos verdaderos ni justificaciones válidas.",
+      "dimension": "comprension"
+    },
+    "supports": [
+      {
+        "title": "Describir no es justificar",
+        "body": "Al analizar un argumento, distingue qué afirma y qué razón intenta usar. Reconocer esa razón no significa aceptarla. Diferentes tipos de argumentos pueden mezclarse: aquí las frases están separadas para practicar.",
+        "insight": "No atribuyas una única razón a toda una época o práctica.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Una regla del juego",
+        "body": "Practiquemos con un conflicto ficticio cercano.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Situación inventada: alguien dice «Solo mi equipo puede usar la cancha porque así lo digo yo». ¿Qué tipo de razón ofrece?",
+        "example_steps": [
+          "No da un dato sobre turnos o necesidades.",
+          "Apela a su propia autoridad sin justificar la exclusión."
+        ],
+        "example_result": "La frase intenta imponer una autoridad; por sí sola no demuestra que la regla sea justa.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Revisión del argumento",
+          "headers": [],
+          "rows": [],
+          "steps": [
+            "¿Qué afirma? Exclusividad de la cancha.",
+            "¿Qué razón ofrece? Su propia autoridad."
+          ]
+        }
+      }
+    ],
+    "checks": [
+      [
+        "[[0,1],[1,2],[2,0]]",
+        "correct"
+      ],
+      [
+        "[[0,0],[1,1],[2,2]]",
+        "incorrect"
+      ]
+    ],
+    "sha256": "4ba39cbd1847d5f1174ff2c9e88c62dc717bd1171fe079e10c81e2617c218b88"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "007c1070-ff4d-4699-a528-d9a682cf52fd:q:0",
+      "sha256": "e4c4c039e99ce5da70d67699711578a1f33fd6d23ff521c9a7b68ab9f5224c33"
+    },
+    "module": {
+      "id": "round2-module-11",
+      "subject": "social_studies",
+      "grade_range": "8-9",
+      "title": "Relacionar decisiones y necesidades",
+      "core_concept": "relaciones_sociales",
+      "learning_objective": "Relacionar dos dimensiones de una situación social a partir de información explícita.",
+      "is_active": false
+    },
+    "step": {
+      "id": "round2-repair-11",
+      "module_id": "round2-module-11",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "razonamiento",
+      "content": {
+        "prompt": "Caso ficticio: una comunidad organiza una feria. Los puestos generan ingresos para algunas familias, pero la música amplificada dificulta el descanso de otras. La junta propone acordar horarios y una zona para las presentaciones.\n\nExplica cómo se relacionan al menos dos aspectos del caso (ingresos, descanso, expresión cultural o acuerdos colectivos). Propón una medida coherente y explica a quiénes ayudaría.",
+        "options": [],
+        "left_items": [],
+        "right_items": []
+      },
+      "enriched_content": {
+        "type": "text",
+        "cognitive_dimension": "razonamiento",
+        "expected_answer": {
+          "type": "rubric",
+          "answer": "Los ingresos y la expresión cultural interesan a quienes participan, pero el ruido afecta el descanso. Acordaría un horario de presentaciones que permita vender y participar, dejando horas sin amplificación para quienes necesitan descansar.",
+          "rubric": "Correct si relaciona al menos dos aspectos explícitos del caso y propone una medida viable dentro del caso, explicando a quién ayuda. Aceptar distintas medidas justificadas, como horarios, zona o menor amplificación; no exigir palabras economía/cultura/política ni una solución única. Partial si relaciona aspectos pero no propone/justifica una medida, o propone una medida pertinente sin explicar relaciones/beneficiarios. Incorrect si solo enumera palabras o introduce una solución sin conexión con el caso, sin una parte pertinente. No exigir datos externos ni asegurar que una medida eliminaría todo conflicto.",
+          "criteria": [
+            {
+              "id": "relation",
+              "requirement": "Explica la relación entre al menos dos aspectos del caso: ingresos, descanso, expresión cultural, acuerdos. No basta enumerar esos términos."
+            },
+            {
+              "id": "measure",
+              "requirement": "Propone una medida conectada con la situación de la feria: horario, zona o menor amplificación, u otra justificada."
+            },
+            {
+              "id": "benefit",
+              "requirement": "Explica a quién o qué necesidad ayuda la medida. Aceptar beneficiarios implícitos claros como cuidar el sueño de vecinos."
+            }
+          ]
+        },
+        "explanation": "El caso puede analizarse desde necesidades distintas; una propuesta debe explicar sus beneficios sin prometer resolverlo todo.",
+        "option_explanations": [],
+        "pair_explanations": [],
+        "learning_focus": "Relacionar dimensiones y justificar una medida concreta.",
+        "step_config": {
+          "hints": [
+            "Pregunta qué necesitan dos grupos diferentes y qué acuerdo podría atender esas necesidades."
+          ],
+          "feedback": "El caso puede analizarse desde necesidades distintas; una propuesta debe explicar sus beneficios sin prometer resolverlo todo."
+        }
+      }
+    },
+    "activity": {
+      "options": [],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [],
+      "correct_pairs": [],
+      "correct_index": -1,
+      "expected_text": "Los ingresos y la expresión cultural interesan a quienes participan, pero el ruido afecta el descanso. Acordaría un horario de presentaciones que permita vender y participar, dejando horas sin amplificación para quienes necesitan descansar.",
+      "rubric": "Correct si relaciona al menos dos aspectos explícitos del caso y propone una medida viable dentro del caso, explicando a quién ayuda. Aceptar distintas medidas justificadas, como horarios, zona o menor amplificación; no exigir palabras economía/cultura/política ni una solución única. Partial si relaciona aspectos pero no propone/justifica una medida, o propone una medida pertinente sin explicar relaciones/beneficiarios. Incorrect si solo enumera palabras o introduce una solución sin conexión con el caso, sin una parte pertinente. No exigir datos externos ni asegurar que una medida eliminaría todo conflicto.",
+      "option_explanations": [],
+      "pair_explanations": [],
+      "type": "text",
+      "question": "Caso ficticio: una comunidad organiza una feria. Los puestos generan ingresos para algunas familias, pero la música amplificada dificulta el descanso de otras. La junta propone acordar horarios y una zona para las presentaciones.\n\nExplica cómo se relacionan al menos dos aspectos del caso (ingresos, descanso, expresión cultural o acuerdos colectivos). Propón una medida coherente y explica a quiénes ayudaría.",
+      "hint": "Pregunta qué necesitan dos grupos diferentes y qué acuerdo podría atender esas necesidades.",
+      "explanation": "El caso puede analizarse desde necesidades distintas; una propuesta debe explicar sus beneficios sin prometer resolverlo todo.",
+      "learning_focus": "Relacionar dimensiones y justificar una medida concreta.",
+      "dimension": "razonamiento"
+    },
+    "supports": [
+      {
+        "title": "Necesidades conectadas",
+        "body": "Una situación puede incluir trabajo, descanso y expresión cultural. Relacionar aspectos significa explicar cómo una acción beneficia o afecta a otros. Una propuesta debe reconocer sus límites.",
+        "insight": "Enumera menos etiquetas y explica más conexiones.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Otro acuerdo comunitario",
+        "body": "Un acuerdo puede atender intereses diferentes.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Caso ficticio: un club quiere entrenar en una cancha y otro grupo quiere usarla para baile. Ambos solicitan la misma hora. Propón un acuerdo e identifica a quién ayuda.",
+        "example_steps": [
+          "Reconocemos que los dos grupos quieren usar el mismo espacio.",
+          "Podrían acordar franjas diferentes si ambos aceptan esa distribución."
+        ],
+        "example_result": "Acordar franjas permitiría participar a ambos grupos, aunque habría que consultar sus horarios disponibles.",
+        "visual": {
+          "kind": "table",
+          "caption": "Intereses del otro caso",
+          "headers": [
+            "Grupo",
+            "Necesidad"
+          ],
+          "rows": [
+            [
+              "Club",
+              "Entrenar"
+            ],
+            [
+              "Grupo de baile",
+              "Practicar"
+            ]
+          ],
+          "steps": []
+        }
+      }
+    ],
+    "checks": [
+      [
+        "La feria da dinero a familias pero el ruido afecta a quienes descansan. Acordaría horas sin amplificadores para permitir las ventas y cuidar el sueño de los vecinos.",
+        "correct"
+      ],
+      [
+        "La música permite expresarse y también puede molestar a otros. Pondría las presentaciones en una zona y horario acordados para que participen artistas y descansen vecinos.",
+        "correct"
+      ],
+      [
+        "Las ventas dan ingresos, pero la música molesta al descanso.",
+        "partial"
+      ],
+      [
+        "interacción relaciones economía cultura política",
+        "incorrect"
+      ]
+    ],
+    "sha256": "8627d40a498fbb6295dc3716394bcd0065e3f525af096d61e142adcc7881747a"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "171d2e82-5d8d-47a9-968e-32753ac094ad:q:0",
+      "sha256": "ce588f85f492082fa8686dc6c7860eab3401024e99b48b858cf67c7fa3608cf7"
+    },
+    "module": {
+      "id": "round2-module-12",
+      "subject": "social_studies",
+      "grade_range": "10-11",
+      "title": "Examinar un modelo de uso del espacio",
+      "core_concept": "territorio",
+      "learning_objective": "Evaluar una conclusión sobre uso del territorio distinguiendo datos, grupos afectados e información faltante.",
+      "is_active": false
+    },
+    "step": {
+      "id": "round2-repair-12",
+      "module_id": "round2-module-12",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "razonamiento",
+      "content": {
+        "prompt": "Situación ficticia: un barrio compara dos planes para una plaza. El plan A mantiene puestos de mercado y el B los retira para ampliar el paso peatonal. No hay estudios sobre ventas, accesibilidad ni opinión de residentes. Un informe afirma: «Como B deja más espacio libre, necesariamente mejora la vida de todas las personas».\n\n¿Cuál crítica es más sólida?",
+        "options": [
+          "La conclusión se sigue solo del tamaño del espacio y no requiere más información.",
+          "No puede concluirse beneficio para todos sin considerar distintos usos, personas afectadas y datos aún ausentes.",
+          "Los residentes siempre rechazan cualquier cambio.",
+          "El plan A garantiza por sí solo mayores ingresos a todas las familias."
+        ],
+        "left_items": [],
+        "right_items": []
+      },
+      "enriched_content": {
+        "type": "option",
+        "cognitive_dimension": "razonamiento",
+        "expected_answer": {
+          "type": "option",
+          "correct_options": [
+            1
+          ]
+        },
+        "explanation": "Distingue una característica del plan de una conclusión universal no respaldada; reconoce qué falta estudiar.",
+        "option_explanations": [
+          "Más espacio libre no prueba por sí solo que todas las personas se beneficien.",
+          "Distingue una característica del plan de una conclusión universal no respaldada; reconoce qué falta estudiar.",
+          "No hay datos que permitan atribuir esa opinión a todos los residentes.",
+          "Tampoco hay datos que garanticen ingresos con A; reemplaza una generalización por otra."
+        ],
+        "pair_explanations": [],
+        "learning_focus": "Detectar una conclusión universal no sustentada sobre un territorio.",
+        "step_config": {
+          "hints": [
+            "Distingue lo que el caso dice del plan y lo que el informe supone sobre todas las personas."
+          ],
+          "feedback": "Distingue una característica del plan de una conclusión universal no respaldada; reconoce qué falta estudiar."
+        }
+      }
+    },
+    "activity": {
+      "options": [
+        "La conclusión se sigue solo del tamaño del espacio y no requiere más información.",
+        "No puede concluirse beneficio para todos sin considerar distintos usos, personas afectadas y datos aún ausentes.",
+        "Los residentes siempre rechazan cualquier cambio.",
+        "El plan A garantiza por sí solo mayores ingresos a todas las familias."
+      ],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [],
+      "correct_pairs": [],
+      "correct_index": 1,
+      "expected_text": "",
+      "rubric": "Detectar una conclusión universal no sustentada sobre un territorio.",
+      "option_explanations": [
+        "Más espacio libre no prueba por sí solo que todas las personas se beneficien.",
+        "Distingue una característica del plan de una conclusión universal no respaldada; reconoce qué falta estudiar.",
+        "No hay datos que permitan atribuir esa opinión a todos los residentes.",
+        "Tampoco hay datos que garanticen ingresos con A; reemplaza una generalización por otra."
+      ],
+      "pair_explanations": [],
+      "type": "option",
+      "question": "Situación ficticia: un barrio compara dos planes para una plaza. El plan A mantiene puestos de mercado y el B los retira para ampliar el paso peatonal. No hay estudios sobre ventas, accesibilidad ni opinión de residentes. Un informe afirma: «Como B deja más espacio libre, necesariamente mejora la vida de todas las personas».\n\n¿Cuál crítica es más sólida?",
+      "learning_focus": "Detectar una conclusión universal no sustentada sobre un territorio.",
+      "hint": "Distingue lo que el caso dice del plan y lo que el informe supone sobre todas las personas.",
+      "explanation": "Distingue una característica del plan de una conclusión universal no respaldada; reconoce qué falta estudiar.",
+      "dimension": "razonamiento"
+    },
+    "supports": [
+      {
+        "title": "Datos y personas afectadas",
+        "body": "Al evaluar un uso del espacio, identifica qué cambia y quién podría beneficiarse o verse afectado. Si faltan datos, expresa esa limitación en vez de afirmar resultados universales.",
+        "insight": "Una característica física no determina por sí sola todos los efectos sociales.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Una biblioteca sin estudio previo",
+        "body": "Una recomendación necesita distinguir información y supuestos.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Caso ficticio: se propone mover una biblioteca a un edificio más grande. No se conocen tiempos de viaje ni necesidades de usuarios. ¿El tamaño prueba que será mejor para todos?",
+        "example_steps": [
+          "El dato disponible es que el edificio sería más grande.",
+          "Falta saber si las personas podrán llegar y utilizarlo."
+        ],
+        "example_result": "El tamaño puede ser una ventaja, pero no demuestra beneficio para todos sin revisar acceso y necesidades.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Revisar una recomendación",
+          "headers": [],
+          "rows": [],
+          "steps": [
+            "Identifica el dato disponible.",
+            "Pregunta qué información falta.",
+            "Evita una conclusión universal."
+          ]
+        }
+      }
+    ],
+    "checks": [
+      [
+        "1",
+        "correct"
+      ],
+      [
+        "0",
+        "incorrect"
+      ],
+      [
+        "2",
+        "incorrect"
+      ],
+      [
+        "3",
+        "incorrect"
+      ]
+    ],
+    "sha256": "eea83c62476dd1eb2f825da479d1ed178459cb9506e710c6e04c74ac699a1c92"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "06bda105-633d-4b1d-bddb-0f9021b293f4:q:0",
+      "sha256": "3c5bff1ebc1e0767f98e346cd44a615856893cfdc110959015710cb07a3bdc94"
+    },
+    "module": {
+      "id": "round2-module-13",
+      "subject": "english",
+      "grade_range": "1-3",
+      "title": "Un saludo en inglés",
+      "core_concept": "english_communication",
+      "learning_objective": "Reconocer un saludo sencillo en un intercambio escrito en inglés.",
+      "is_active": false
+    },
+    "step": {
+      "id": "round2-repair-13",
+      "module_id": "round2-module-13",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "comprension",
+      "content": {
+        "prompt": "Situación imaginada: Alex llega al grupo y dice «Hello!». ¿Qué respuesta también sirve para saludar en inglés?",
+        "options": [
+          "Goodbye!",
+          "Thank you!",
+          "Hello!",
+          "Good night!"
+        ],
+        "left_items": [],
+        "right_items": []
+      },
+      "enriched_content": {
+        "type": "option",
+        "cognitive_dimension": "comprension",
+        "expected_answer": {
+          "type": "option",
+          "correct_options": [
+            2
+          ]
+        },
+        "explanation": "Hello responde con un saludo en inglés.",
+        "option_explanations": [
+          "Goodbye se usa para despedirse, no para responder a este saludo de llegada.",
+          "Thank you expresa agradecimiento.",
+          "Hello responde con un saludo en inglés.",
+          "Good night suele usarse al despedirse por la noche o al ir a dormir; no corresponde a este saludo general."
+        ],
+        "pair_explanations": [],
+        "learning_focus": "Reconocer un saludo sencillo según la situación.",
+        "step_config": {
+          "hints": [
+            "Piensa qué expresión se usa cuando alguien llega y saluda."
+          ],
+          "feedback": "Hello responde con un saludo en inglés."
+        }
+      }
+    },
+    "activity": {
+      "options": [
+        "Goodbye!",
+        "Thank you!",
+        "Hello!",
+        "Good night!"
+      ],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [],
+      "correct_pairs": [],
+      "correct_index": 2,
+      "expected_text": "",
+      "rubric": "Reconocer un saludo sencillo según la situación.",
+      "option_explanations": [
+        "Goodbye se usa para despedirse, no para responder a este saludo de llegada.",
+        "Thank you expresa agradecimiento.",
+        "Hello responde con un saludo en inglés.",
+        "Good night suele usarse al despedirse por la noche o al ir a dormir; no corresponde a este saludo general."
+      ],
+      "pair_explanations": [],
+      "type": "option",
+      "question": "Situación imaginada: Alex llega al grupo y dice «Hello!». ¿Qué respuesta también sirve para saludar en inglés?",
+      "learning_focus": "Reconocer un saludo sencillo según la situación.",
+      "hint": "Piensa qué expresión se usa cuando alguien llega y saluda.",
+      "explanation": "Hello responde con un saludo en inglés.",
+      "dimension": "comprension"
+    },
+    "supports": [
+      {
+        "title": "Palabras y situación",
+        "body": "En inglés, algunas expresiones sirven para saludar y otras para despedirse o agradecer. Mira qué está ocurriendo antes de elegir.",
+        "insight": "Reconoce la intención, no solo una palabra aislada.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Agradecer en otro caso",
+        "body": "Practicamos una intención distinta.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Situación imaginada: una compañera te presta un lápiz. Quieres agradecer en inglés. ¿Puedes decir «Thank you»?",
+        "example_steps": [
+          "Identificamos que quieres dar las gracias.",
+          "Thank you es una expresión de agradecimiento."
+        ],
+        "example_result": "Sí, «Thank you» expresa agradecimiento por el préstamo.",
+        "visual": {
+          "kind": "table",
+          "caption": "Expresión de este ejemplo",
+          "headers": [
+            "Inglés",
+            "Español"
+          ],
+          "rows": [
+            [
+              "Thank you",
+              "Gracias"
+            ]
+          ],
+          "steps": []
+        }
+      }
+    ],
+    "checks": [
+      [
+        "2",
+        "correct"
+      ],
+      [
+        "0",
+        "incorrect"
+      ],
+      [
+        "1",
+        "incorrect"
+      ],
+      [
+        "3",
+        "incorrect"
+      ]
+    ],
+    "sha256": "e45a6f5668ad2505c20a76f008b1e9673c395b9f0bc8c2505f766da90723a782"
+  }
+]

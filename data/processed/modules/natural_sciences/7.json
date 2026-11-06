@@ -1,0 +1,734 @@
+[
+  {
+    "module_id": "ebc3191e-e98b-485f-b424-9bf43967d755",
+    "source_unit_id": "15b841f9-6998-4739-8a3c-280e6e063f55",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "7",
+    "difficulty": 3,
+    "title": "¿Cómo funciona movimiento?",
+    "learning_objective": "Comprende las formas y las transformaciones de energía en un sistema mecánico y la manera como, en los casos reales, la energía se disipa en el medio (calor, sonido).",
+    "context": "niño montando patineta sobre una tampa (transformación de la energía mecánica).",
+    "core_concept": "movimiento",
+    "concepts": [
+      "movimiento",
+      "lectura_inferencial",
+      "historia",
+      "potenciacion"
+    ],
+    "cognitive_type": "representational_thinking",
+    "skills": [
+      "comprender",
+      "identificar",
+      "representar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con movimiento?",
+      "expected_signals": [
+        "movimiento",
+        "lectura_inferencial",
+        "historia",
+        "potenciacion"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "62be6e32-2b32-4a2d-abd2-e016213049d2",
+        "evidence_source": "Relaciona las variables velocidad y posición para describir las formas de energía mecánica (cinética y potencial gravitacional) que tiene un cuerpo en movimiento.",
+        "type": "matching",
+        "prompt": "Trabajemos esta evidencia: Relaciona las variables velocidad y posición para describir las formas de energía mecánica (cinética y potencial gravitacional) que tiene un cuerpo en movimiento.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 1
+      },
+      {
+        "id": "594508ea-4477-4952-a91f-58c6cc13c1d9",
+        "evidence_source": "Identifica las formas de energía mecánica (cinética y potencial) que tienen lugar en diferentes puntos del movimiento en un sistema mecánico (caída libre, montaña rusa, péndulo).",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con movimiento y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 2
+      },
+      {
+        "id": "9d2166e3-a453-46c0-9c8d-13cf8613c73e",
+        "evidence_source": "Representa gráficamente las energías cinética y potencial gravitacional en función del tiempo.",
+        "type": "representation",
+        "prompt": "Representa la idea de movimiento usando un esquema, tabla o dibujo mental.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "representacion"
+        ],
+        "difficulty": 3,
+        "order": 3
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre movimiento?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender movimiento?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 1
+      }
+    }
+  },
+  {
+    "module_id": "94e5e317-ea26-4069-80f3-f010ba992c8d",
+    "source_unit_id": "04465401-f677-4a78-bd92-ecc0e166ae94",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "7",
+    "difficulty": 3,
+    "title": "¿Cómo funciona ciencias_naturales?",
+    "learning_objective": "Explica cómo las sustancias se forman a partir de la interacción de los elementos y que estos se encuentran agrupados en un sistema periódico.",
+    "context": "Tabla Periódica.",
+    "core_concept": "ciencias_naturales",
+    "concepts": [
+      "proporcionalidad"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "comprender",
+      "comprender",
+      "explicar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con ciencias_naturales?",
+      "expected_signals": [
+        "proporcionalidad"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "f14f5d34-e4fd-49eb-ae4d-843d6f89f586",
+        "evidence_source": "Ubica a los elementos en la Tabla Periódica con relación a los números atómicos (Z) y másicos (A).",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Ubica a los elementos en la Tabla Periódica con relación a los números atómicos (Z) y másicos (A).",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 1
+      },
+      {
+        "id": "d922f7b7-da77-4eaa-a72b-82945cdaa012",
+        "evidence_source": "Usa modelos y representaciones (Bohr, Lewis) que le permiten reconocer la estructura del átomo y su relación con su ubicación en la Tabla Periódica.",
+        "type": "representation",
+        "prompt": "Representa la idea de ciencias_naturales usando un esquema, tabla o dibujo mental.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "representacion"
+        ],
+        "difficulty": 3,
+        "order": 2
+      },
+      {
+        "id": "7e8d51ee-d53d-4d68-ab1d-fe8856adc409",
+        "evidence_source": "Explica la variación de algunas de las propiedades (densidad, temperatura de ebullición y fusión) de sustancias simples (metales, no metales, metaloides y gases nobles) en la tabla periódica.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica la variación de algunas de las propiedades (densidad, temperatura de ebullición y fusión) de sustancias simples (metales, no metales, metaloides y gases nobles) en la tabla periódica.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 3,
+        "order": 3
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre ciencias_naturales?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender ciencias_naturales?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 2
+      }
+    }
+  },
+  {
+    "module_id": "5a65f352-61bd-4c1e-a27d-9e283c67d899",
+    "source_unit_id": "788c174b-42f4-42e9-8203-d70fe32298d2",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "7",
+    "difficulty": 3,
+    "title": "¿Cómo funciona ecosistema?",
+    "learning_objective": "Comprende que en las cadenas y redes tróficas existen flujos de materia y energía, y los relaciona con procesos de nutrición, fotosíntesis y respiración celular.",
+    "context": "['Realiza una lista de organismos de su entorno y dibuja con ellos una red trófica, identificando los organismos autótrofos y heterótrofos; además, explica la eficiencia en los procesos de transformación de materia y energía que se dan en esta red.']",
+    "core_concept": "ecosistema",
+    "concepts": [
+      "ecosistema",
+      "escritura",
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "explicar",
+      "explicar",
+      "comparar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con ecosistema?",
+      "expected_signals": [
+        "ecosistema",
+        "escritura",
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "5dc26ce4-050e-4655-b6f2-24b26dc7038a",
+        "evidence_source": "Explica tipos de nutrición (autótrofa y heterótrofa) en las cadenas y redes tróficas dentro de los ecosistemas.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica tipos de nutrición (autótrofa y heterótrofa) en las cadenas y redes tróficas dentro de los ecosistemas.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ecosistema.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 3,
+        "order": 1
+      },
+      {
+        "id": "f72875fd-9b6c-4376-b294-8c9696464f0f",
+        "evidence_source": "Explica la fotosíntesis como un proceso de construcción de materia orgánica a partir del aprovechamiento de la energía solar y su combinación con el dióxido de carbono del aire y el agua, y predice qué efectos sobre la composición de la atmósfera terrestre podría tener su disminución a nivel global (por ejemplo, a partir de la tala masiva de bosques).",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica la fotosíntesis como un proceso de construcción de materia orgánica a partir del aprovechamiento de la energía solar y su combinación con el dióxido de carbono del aire y el agua, y predice qué efectos sobre la composición de la atmósfera terrestre podría tener su disminución a nivel global (por ejemplo, a partir de la tala masiva de bosques).",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ecosistema.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 3,
+        "order": 2
+      },
+      {
+        "id": "e6fb75f6-c941-41ca-a2a1-c995261dd588",
+        "evidence_source": "Compara el proceso de fotosíntesis con el de respiración celular, considerando sus reactivos y productos y su función en los organismos.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Compara el proceso de fotosíntesis con el de respiración celular, considerando sus reactivos y productos y su función en los organismos.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ecosistema.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 3
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "pensar que los ecosistemas son estáticos",
+        "pattern": "pensar que los ecosistemas son estáticos",
+        "feedback": "Revisemos esta idea: pensar que los ecosistemas son estáticos",
+        "visual": "concept_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre ecosistema?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender ecosistema?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "concept_map",
+        "trigger": "pensar que los ecosistemas son estáticos",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 3
+      }
+    }
+  },
+  {
+    "module_id": "8ac8f632-46a4-4eb7-8c51-35aee84650e5",
+    "source_unit_id": "f7bdbcc9-9aac-45e7-9525-f0fab8f7e6ca",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "7",
+    "difficulty": 3,
+    "title": "¿Cómo funciona ecosistema?",
+    "learning_objective": "Comprende la relación entre los ciclos del carbono, el nitrógeno y del agua, explicando su importancia en el mantenimiento de los ecosistemas.",
+    "context": "A partir de casos como: La minería a cielo abierto, contamina cuerpos de agua por residuos sólidos y vertimientos domésticos e industriales; en consecuencia, aumenta el contenido de los sedimentos generando inundaciones por la desviación de los cauces de los ríos, transformación del paisaje y la pérdida de cultivos. Un caso particular, ocurrió en Boyacá donde debido a la extracción de carbón a cielo abierto y precisamente en uno de sus páramos, entre diciembre de 2010 y enero de 2011 murieron cerca de 95.000 truchas en la Piscícola de Tasco a causa de la contaminación de las aguas donde se abastecen sus crías. ['Analiza cómo pudieron verse afectados los ciclos del carbono, nitrógeno y agua; explica la causa de muerte de las truchas; plantea y resuelve preguntas sobre las afectaciones en otros organismos y propone acciones para recuperar este sitio.']",
+    "core_concept": "ecosistema",
+    "concepts": [
+      "volumen",
+      "ecosistema",
+      "lectura_inferencial",
+      "reading",
+      "estadistica"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "comprender",
+      "explicar",
+      "comprender",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con ecosistema?",
+      "expected_signals": [
+        "volumen",
+        "ecosistema",
+        "lectura_inferencial",
+        "reading",
+        "estadistica"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "2c8eb48e-4c36-43af-bd67-a5f4e7b1e990",
+        "evidence_source": "Establece relaciones entre los ciclos del Carbono y Nitrógeno con el mantenimiento de los suelos en un ecosistema.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Establece relaciones entre los ciclos del Carbono y Nitrógeno con el mantenimiento de los suelos en un ecosistema.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ecosistema.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 1
+      },
+      {
+        "id": "4952601b-1fc5-489c-8267-0305ecc7a9af",
+        "evidence_source": "Explica a partir de casos los efectos de la intervención humana (erosión, contaminación, deforestación) en los ciclos biogeoquímicos del suelo (Carbono, Nitrógeno) y del agua y sus consecuencias ambientales y propone posibles acciones para mitigarlas o remediarlas.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica a partir de casos los efectos de la intervención humana (erosión, contaminación, deforestación) en los ciclos biogeoquímicos del suelo (Carbono, Nitrógeno) y del agua y sus consecuencias ambientales y propone posibles acciones para mitigarlas o remediarlas.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ecosistema.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 3,
+        "order": 2
+      },
+      {
+        "id": "a0295538-260c-46c9-9e1a-5f77f53f708f",
+        "evidence_source": "Reconoce las principales funciones de los microorganismos, para identificar casos en los que se relacionen con los ciclos biogeoquímicos y su utilidad en la vida diaria.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con ecosistema y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ecosistema.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 3
+      },
+      {
+        "id": "a6035e05-ebef-4562-9eed-2545c051f1a6",
+        "evidence_source": "Propone acciones de uso responsable del agua en su hogar, en la escuela y en sus contextos cercanos.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Propone acciones de uso responsable del agua en su hogar, en la escuela y en sus contextos cercanos.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ecosistema.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "pensar que los ecosistemas son estáticos",
+        "pattern": "pensar que los ecosistemas son estáticos",
+        "feedback": "Revisemos esta idea: pensar que los ecosistemas son estáticos",
+        "visual": "concept_map",
+        "intervention_level": 2
+      },
+      "misconception_2": {
+        "description": "confundir promedio con valor representativo en todos los casos",
+        "pattern": "confundir promedio con valor representativo en todos los casos",
+        "feedback": "Revisemos esta idea: confundir promedio con valor representativo en todos los casos",
+        "visual": "concept_map",
+        "intervention_level": 2
+      },
+      "misconception_3": {
+        "description": "creer que la interpretación de un texto es única",
+        "pattern": "creer que la interpretación de un texto es única",
+        "feedback": "Revisemos esta idea: creer que la interpretación de un texto es única",
+        "visual": "idea_evidence_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre ecosistema?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender ecosistema?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "concept_map",
+        "trigger": "pensar que los ecosistemas son estáticos",
+        "intervention_level": 2
+      },
+      {
+        "error_key": "misconception_2",
+        "visual_template": "concept_map",
+        "trigger": "confundir promedio con valor representativo en todos los casos",
+        "intervention_level": 2
+      },
+      {
+        "error_key": "misconception_3",
+        "visual_template": "idea_evidence_map",
+        "trigger": "creer que la interpretación de un texto es única",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 4
+      }
+    }
+  }
+]

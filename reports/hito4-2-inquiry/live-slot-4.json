@@ -1,0 +1,110 @@
+{
+  "model": "gpt-4.1-mini",
+  "limit": 4,
+  "calls": 2,
+  "inputTokens": 7109,
+  "outputTokens": 661,
+  "databaseCalls": 0,
+  "results": [
+    {
+      "slot": 4,
+      "seconds": 6.916,
+      "activity": {
+        "id": "534d2163-6a9e-45b7-9a9e-33c4a6d51d70",
+        "step_id": "385dd961-0170-4d66-9620-39059976ad6f",
+        "question": "Caso simulado.\n\nEn un colegio se quieren diseñar experimentos para estudiar cómo se detecta un sonido en distintas condiciones. Se proponen tres diseños distintos:\n\n| Diseño | Variable que cambia                        | Variable que permanece fija          |\n|--------|--------------------------------------------|------------------------------------|\n| A      | Distancia y volumen cambian simultáneamente| Ninguna, ambas cambian             |\n| B      | Solo cambia la distancia                     | Volumen fijo                       |\n| C      | Solo cambia el volumen                       | Distancia fija                     |\n\nSegún el control de variables, relaciona cada uno de estos diseños con su descripción correcta del alcance que tendría para investigar la detección del sonido, usando las siguientes opciones:\n\nRealiza las parejas que consideres correctas entre los diseños y las descripciones.",
+        "type": "matching",
+        "options": [],
+        "cognitive_dimension": "transferencia",
+        "source": "generated",
+        "notice": null,
+        "left_items": [
+          "Diseño A",
+          "Diseño B",
+          "Diseño C"
+        ],
+        "right_items": [
+          "Permite estudiar solo el efecto de la distancia al no variar el volumen.",
+          "Permite estudiar solo el efecto del volumen al no variar la distancia.",
+          "Permite estudiar el efecto combinado de distancia y volumen, pero no aísla ninguno."
+        ],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "534d2163-6a9e-45b7-9a9e-33c4a6d51d70",
+        "user_id": "synthetic",
+        "module_id": "ff3f722e-1646-43a5-bf73-c0434421ac75",
+        "step_id": "385dd961-0170-4d66-9620-39059976ad6f",
+        "question": "Caso simulado.\n\nEn un colegio se quieren diseñar experimentos para estudiar cómo se detecta un sonido en distintas condiciones. Se proponen tres diseños distintos:\n\n| Diseño | Variable que cambia                        | Variable que permanece fija          |\n|--------|--------------------------------------------|------------------------------------|\n| A      | Distancia y volumen cambian simultáneamente| Ninguna, ambas cambian             |\n| B      | Solo cambia la distancia                     | Volumen fijo                       |\n| C      | Solo cambia el volumen                       | Distancia fija                     |\n\nSegún el control de variables, relaciona cada uno de estos diseños con su descripción correcta del alcance que tendría para investigar la detección del sonido, usando las siguientes opciones:\n\nRealiza las parejas que consideres correctas entre los diseños y las descripciones.",
+        "type": "matching",
+        "options": [],
+        "left_items": [
+          "Diseño A",
+          "Diseño B",
+          "Diseño C"
+        ],
+        "right_items": [
+          "Permite estudiar solo el efecto de la distancia al no variar el volumen.",
+          "Permite estudiar solo el efecto del volumen al no variar la distancia.",
+          "Permite estudiar el efecto combinado de distancia y volumen, pero no aísla ninguno."
+        ],
+        "expected": {
+          "type": "matching",
+          "correct_pairs": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        "learning_focus": "transferencia",
+        "option_explanations": [],
+        "pair_explanations": [
+          "El diseño A cambia dos variables juntas por lo que no se puede identificar el efecto aislado de cada una.",
+          "El diseño B cambia solo la distancia para estudiar ese efecto con volumen constante.",
+          "El diseño C cambia solo el volumen para estudiar ese efecto con distancia constante."
+        ],
+        "rubric": "Se evalúa que el estudiante relacione correctamente cada diseño con la descripción que explica qué variable(s) pueden investigar con ese diseño, mostrando comprensión del control de variables.",
+        "hint": "Piensa en qué variable cambia sola en cada diseño para entender qué efecto puedes estudiar sin que otros factores interfieran.",
+        "explanation": "El diseño A cambia dos variables al mismo tiempo, por lo que no es posible saber cuál afecta la detección. El diseño B cambia solo la distancia, manteniendo el volumen fijo, lo que aísla el efecto de la distancia. El diseño C cambia solo el volumen, manteniendo la distancia fija, lo que aísla el efecto del volumen.",
+        "dimension": "transferencia",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "¿Cómo funciona ciencias_naturales?",
+          "concept": "ciencias_naturales",
+          "learning_goal": "Formulo hipótesis con base en el conocimiento cotidiano, teorías y modelos científicos."
+        },
+        "grade_group": "10-11",
+        "expires_at": 1794051507862
+      }
+    }
+  ],
+  "traces": [
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"En un colegio se quieren diseñar experimentos para estudiar cómo se detecta un sonido en distintas condiciones. Se proponen tres diseños distintos:\\n\\n| Diseño | Variable que cambia                        | Variable que permanece fija          |\\n|--------|--------------------------------------------|------------------------------------|\\n| A      | Distancia y volumen cambian simultáneamente| Ninguna, ambas cambian             |\\n| B      | Solo cambia la distancia                     | Volumen fijo                       |\\n| C      | Solo cambia el volumen                       | Distancia fija                     |\\n\\nSegún el control de variables, relaciona cada uno de estos diseños con su descripción correcta del alcance que tendría para investigar la detección del sonido, usando las siguientes opciones:\\n\\n- Permite estudiar el efecto combinado de distancia y volumen, pero no aísla ninguno.\\n- Permite estudiar solo el efecto de la distancia al no variar el volumen.\\n- Permite estudiar solo el efecto del volumen al no variar la distancia.\\n\\nRealiza las parejas que consideres correctas entre los diseños y las descripciones.\",\"type\":\"matching\",\"rubric\":\"Se evalúa que el estudiante relacione correctamente cada diseño con la descripción que explica qué variable(s) pueden investigar con ese diseño, mostrando comprensión del control de variables.\",\"hint\":\"Piensa en qué variable cambia sola en cada diseño para entender qué efecto puedes estudiar sin que otros factores interfieran.\",\"explanation\":\"El diseño A cambia dos variables al mismo tiempo, por lo que no es posible saber cuál afecta la detección. El diseño B cambia solo la distancia, manteniendo el volumen fijo, lo que aísla el efecto de la distancia. El diseño C cambia solo el volumen, manteniendo la distancia fija, lo que aísla el efecto del volumen.\",\"learning_focus\":\"transferencia\",\"left_items\":[\"Diseño A\",\"Diseño B\",\"Diseño C\"],\"right_items\":[\"Permite estudiar el efecto combinado de distancia y volumen, pero no aísla ninguno.\",\"Permite estudiar solo el efecto de la distancia al no variar el volumen.\",\"Permite estudiar solo el efecto del volumen al no variar la distancia.\"],\"correct_pairs\":[[0,0],[1,1],[2,2]],\"pair_explanations\":[\"El diseño A cambia dos variables juntas por lo que no se puede identificar el efecto aislado de cada una.\",\"El diseño B cambia solo la distancia para estudiar ese efecto con volumen constante.\",\"El diseño C cambia solo el volumen para estudiar ese efecto con distancia constante.\"]}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"El diseño A cambia simultáneamente distancia y volumen, por lo que no permite aislar el efecto de ninguna variable, solo el efecto combinado. El diseño B cambia solo la distancia, manteniendo el volumen fijo, por lo que permite estudiar el efecto de la distancia aisladamente. El diseño C cambia solo el volumen, manteniendo la distancia fija, por lo que permite estudiar el efecto del volumen aisladamente. Las parejas correctas son: A con efecto combinado, B con efecto de distancia, C con efecto de volumen. La clave propuesta ([0,0],[1,1],[2,2]) es correcta y las justificaciones coinciden con el control de variables.\",\"approved\":true,\"issue\":\"\"}"
+    }
+  ],
+  "source": {
+    "moduleId": "ff3f722e-1646-43a5-bf73-c0434421ac75",
+    "stepId": "385dd961-0170-4d66-9620-39059976ad6f",
+    "objective": "Formulo hipótesis con base en el conocimiento cotidiano, teorías y modelos científicos.",
+    "grade": 11
+  }
+}

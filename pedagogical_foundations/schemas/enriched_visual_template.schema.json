@@ -1,0 +1,347 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://kuneo.app/schemas/enriched_visual_template.schema.json",
+  "title": "Enriched Visual Template",
+  "description": "Validation schema for visual_templates after OpenAI enrichment. Ensures all required fields are present and properly structured.",
+  "type": "object",
+  "required": [
+    "template_key",
+    "template_name",
+    "visual_type",
+    "renderer",
+    "config",
+    "default_props",
+    "interaction_level",
+    "supported_card_types"
+  ],
+  "properties": {
+    "template_key": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$",
+      "description": "Unique key in snake_case (e.g., 'fraction_part_whole')"
+    },
+    "template_name": {
+      "type": "string",
+      "minLength": 5,
+      "maxLength": 100,
+      "description": "Human-readable name (5-100 chars)"
+    },
+    "visual_type": {
+      "type": "string",
+      "enum": [
+        "math_visual",
+        "process_diagram",
+        "timeline",
+        "graph",
+        "concept_map",
+        "syntax_tree",
+        "molecule",
+        "geographic_map",
+        "infographic",
+        "interactive_simulation"
+      ],
+      "description": "Category of visual"
+    },
+    "renderer": {
+      "type": "string",
+      "enum": [
+        "svg_custom",
+        "recharts",
+        "react_flow",
+        "mermaid",
+        "katex",
+        "timeline",
+        "chemdoodle",
+        "kekule",
+        "concept_map",
+        "leaflet"
+      ],
+      "description": "Frontend library to use for rendering"
+    },
+    "config": {
+      "type": "object",
+      "description": "Renderizable configuration JSONB (structure varies by visual_type, ENRICHED by LLM)",
+      "minProperties": 1
+    },
+    "default_props": {
+      "type": "object",
+      "required": ["width", "height", "responsive"],
+      "properties": {
+        "width": {
+          "type": "integer",
+          "minimum": 200,
+          "maximum": 1200,
+          "description": "Default width in pixels"
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 150,
+          "maximum": 800,
+          "description": "Default height in pixels"
+        },
+        "responsive": {
+          "type": "boolean",
+          "description": "Whether visual adapts to screen size"
+        }
+      },
+      "description": "Default rendering properties"
+    },
+    "interaction_level": {
+      "type": "string",
+      "enum": ["static", "hoverable", "interactive", "animated"],
+      "description": "Level of user interaction"
+    },
+    "supported_card_types": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "enum": ["basic", "corrective", "hint", "reflective", "deepening"]
+      },
+      "description": "Which concept_card types can use this visual"
+    },
+    "labels": {
+      "type": ["object", "null"],
+      "properties": {
+        "title": {
+          "type": "string",
+          "maxLength": 100,
+          "description": "Title of the visual (ENRICHED by LLM)"
+        },
+        "caption": {
+          "type": "string",
+          "maxLength": 200,
+          "description": "Explanatory caption below visual (ENRICHED by LLM)"
+        },
+        "legend": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["label", "color"],
+            "properties": {
+              "label": {
+                "type": "string",
+                "maxLength": 50
+              },
+              "color": {
+                "type": "string",
+                "pattern": "^#[0-9A-Fa-f]{6}$"
+              }
+            }
+          },
+          "description": "Legend explaining colors/symbols (ENRICHED by LLM)"
+        }
+      },
+      "description": "Text labels for the visual (ENRICHED by LLM)"
+    },
+    "overlays": {
+      "type": ["object", "null"],
+      "properties": {
+        "highlight": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["element_id", "reason"],
+            "properties": {
+              "element_id": {
+                "type": "string",
+                "description": "ID of element to highlight"
+              },
+              "reason": {
+                "type": "string",
+                "maxLength": 100,
+                "description": "Why this element is highlighted (ENRICHED by LLM)"
+              },
+              "color": {
+                "type": "string",
+                "pattern": "^#[0-9A-Fa-f]{6}$"
+              }
+            }
+          },
+          "description": "Elements to highlight for hints (ENRICHED by LLM)"
+        },
+        "misconception": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["element_id", "error_explanation"],
+            "properties": {
+              "element_id": {
+                "type": "string",
+                "description": "ID of element showing error"
+              },
+              "error_explanation": {
+                "type": "string",
+                "maxLength": 150,
+                "description": "Explanation of the misconception shown (ENRICHED by LLM)"
+              },
+              "color": {
+                "type": "string",
+                "pattern": "^#[0-9A-Fa-f]{6}$",
+                "default": "#FF0000"
+              }
+            }
+          },
+          "description": "Overlays showing common errors (ENRICHED by LLM)"
+        }
+      },
+      "description": "Visual overlays for hints and misconceptions (ENRICHED by LLM)"
+    },
+    "variants": {
+      "type": ["object", "null"],
+      "properties": {
+        "basic": {
+          "type": "object",
+          "description": "Config for basic concept_card (simplified, ENRICHED by LLM)"
+        },
+        "corrective": {
+          "type": "object",
+          "description": "Config for corrective card (showing error vs correct, ENRICHED by LLM)"
+        },
+        "hint": {
+          "type": "object",
+          "description": "Config for hint card (with highlight overlay, ENRICHED by LLM)"
+        }
+      },
+      "description": "Different configs by card_type (ENRICHED by LLM)"
+    },
+    "animations": {
+      "type": ["object", "null"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["step_by_step", "fade_in", "slide", "morph", "none"],
+          "description": "Type of animation"
+        },
+        "steps": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["step_number", "description"],
+            "properties": {
+              "step_number": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "description": {
+                "type": "string",
+                "maxLength": 100,
+                "description": "What happens in this animation step (ENRICHED by LLM)"
+              },
+              "duration_ms": {
+                "type": "integer",
+                "minimum": 100,
+                "maximum": 5000
+              }
+            }
+          },
+          "description": "Sequential animation steps (ENRICHED by LLM)"
+        }
+      },
+      "description": "Animation specifications (ENRICHED by LLM)"
+    }
+  },
+  "additionalProperties": false,
+  
+  "examples": [
+    {
+      "template_key": "fraction_part_whole",
+      "template_name": "Fracción como Parte de un Entero",
+      "visual_type": "math_visual",
+      "renderer": "svg_custom",
+      "config": {
+        "shape": "circle",
+        "parts": 4,
+        "highlighted": 1,
+        "labels": true,
+        "colors": {
+          "highlighted": "#4CAF50",
+          "non_highlighted": "#E0E0E0",
+          "border": "#333333"
+        },
+        "caption": "1 parte coloreada de 4 partes iguales = 1/4"
+      },
+      "default_props": {
+        "width": 400,
+        "height": 300,
+        "responsive": true
+      },
+      "interaction_level": "hoverable",
+      "supported_card_types": ["basic", "hint", "corrective"],
+      "labels": {
+        "title": "¿Qué fracción está coloreada?",
+        "caption": "Cada parte representa 1/4 del círculo completo.",
+        "legend": [
+          {"label": "Parte coloreada", "color": "#4CAF50"},
+          {"label": "Parte no coloreada", "color": "#E0E0E0"}
+        ]
+      },
+      "overlays": {
+        "highlight": [
+          {
+            "element_id": "part_1",
+            "reason": "Esta es la parte coloreada que representa el numerador.",
+            "color": "#FFD700"
+          }
+        ],
+        "misconception": [
+          {
+            "element_id": "all_parts",
+            "error_explanation": "Algunos estudiantes suman todas las partes en lugar de contar cuántas están coloreadas.",
+            "color": "#FF0000"
+          }
+        ]
+      },
+      "variants": {
+        "basic": {
+          "shape": "circle",
+          "parts": 4,
+          "highlighted": 1,
+          "labels": true
+        },
+        "corrective": {
+          "shape": "circle",
+          "parts": 4,
+          "highlighted": 1,
+          "labels": true,
+          "show_error_overlay": true,
+          "error_parts": [0, 1],
+          "error_caption": "No es 2/4 porque solo 1 parte está coloreada."
+        },
+        "hint": {
+          "shape": "circle",
+          "parts": 4,
+          "highlighted": 1,
+          "labels": true,
+          "pulse_highlighted": true,
+          "hint_caption": "Cuenta las partes coloreadas (arriba) y el total de partes (abajo)."
+        }
+      },
+      "animations": {
+        "type": "step_by_step",
+        "steps": [
+          {
+            "step_number": 1,
+            "description": "Mostrar círculo completo sin dividir",
+            "duration_ms": 500
+          },
+          {
+            "step_number": 2,
+            "description": "Dividir círculo en 4 partes iguales",
+            "duration_ms": 1000
+          },
+          {
+            "step_number": 3,
+            "description": "Colorear 1 parte",
+            "duration_ms": 500
+          },
+          {
+            "step_number": 4,
+            "description": "Mostrar etiqueta 1/4",
+            "duration_ms": 500
+          }
+        ]
+      }
+    }
+  ]
+}

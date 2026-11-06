@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "policy": "Exclude these legacy steps from new reserve selection until explicit re-audit. Existing published tokens and attempts remain valid. A changed source does not silently remove quarantine.",
+  "report": "reports/hito4-2/README.md",
+  "steps": [
+    {"id":"4a1680e1-ab6d-48f0-8938-f97518deab93","sourceSha256":"83b464eeac803c5af9cb8552fc98546e74511cd9685a6fa20c1cbcb104ad6eb2","reason":"Ambiguous prompt and keyword grading"},
+    {"id":"00b5fbfc-1431-4de4-83cd-786933d2b9f0","sourceSha256":"97a3e449372af4a20cea20c09766ed47056c019c09a06772fa39b011f1be382f","reason":"Missing argumentative situation and keyword grading"},
+    {"id":"307726e0-3dc0-4abe-97f7-337118de708c","sourceSha256":"c3c3ced0abd1a80a2ef6aef5a8f393cad91e58520102dae4d0b7e6f5cbdb3a6f","reason":"Missing classification items and exact prose grading"},
+    {"id":"cd032bdb-1d1b-4638-9ff3-ee9776205b6e","sourceSha256":"2d27b8b4c9845b0139b19840530db3a43a68af602a1831b361de1fbebea99f56","reason":"Ambiguous historical scope and curricular mismatch"},
+    {"id":"0d19e23a-ab7e-4b86-84ea-44855c227097","sourceSha256":"b93e16c95e32a150cc076a83c4a170a9e745e4e41abca9c3d2a5677809066f7b","reason":"Undefined task context and keyword grading"}
+  ]
+}

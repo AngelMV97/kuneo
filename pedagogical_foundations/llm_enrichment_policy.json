@@ -1,0 +1,153 @@
+{
+  "version": "0.1",
+  "description": "Define qué puede y NO puede hacer el LLM durante el enrichment",
+  "llm_role": "pedagogical_enricher",
+  "llm_responsibility": "El LLM enriquece contenido existente sin modificar la estructura curricular o cognitiva determinada por Kuneo.",
+  
+  "allowed_to_generate": [
+    {
+      "item": "exercise_prompts",
+      "description": "Mejorar la redacción de preguntas en module_steps.content.prompt"
+    },
+    {
+      "item": "answer_options",
+      "description": "Generar opciones de respuesta pedagógicamente ricas (incluir distractores por misconceptions)"
+    },
+    {
+      "item": "expected_answers",
+      "description": "Definir respuestas correctas y explicar por qué"
+    },
+    {
+      "item": "hints",
+      "description": "Crear hints progresivos (short_hint, visual_hint, worked_example)"
+    },
+    {
+      "item": "feedback",
+      "description": "Generar feedback correcto, incorrecto y por misconception"
+    },
+    {
+      "item": "concept_card_variants",
+      "description": "Expandir concept_cards de tipo basic → corrective, hint, reflective"
+    },
+    {
+      "item": "reflection_prompts",
+      "description": "Generar preguntas metacognitivas para step 8 (metacognicion)"
+    },
+    {
+      "item": "visual_labels",
+      "description": "Generar labels, captions y overlays para visual_templates"
+    },
+    {
+      "item": "misconception_overlays",
+      "description": "Crear visualizaciones de errores comunes con overlays"
+    },
+    {
+      "item": "contextual_examples",
+      "description": "Enriquecer ejemplos con contexto cotidiano o escolar"
+    }
+  ],
+  
+  "not_allowed_to_generate": [
+    {
+      "item": "new_curriculum",
+      "reason": "El currículo está determinado por competency_units y curriculum_taxonomy"
+    },
+    {
+      "item": "new_grade_progressions",
+      "reason": "La progresión por grados está definida por el sistema"
+    },
+    {
+      "item": "new_subject_structure",
+      "reason": "Las materias y taxonomías son fijas"
+    },
+    {
+      "item": "new_module_architecture",
+      "reason": "Los módulos y su estructura están definidos"
+    },
+    {
+      "item": "new_cognitive_step_sequence",
+      "reason": "Los 8 module_steps son fijos (exploración → metacognición)"
+    },
+    {
+      "item": "unverified_factual_claims",
+      "reason": "Todo contenido factual debe ser verificable y curricular"
+    },
+    {
+      "item": "cultural_stereotypes",
+      "reason": "El contenido debe ser culturalmente inclusivo"
+    },
+    {
+      "item": "punitive_or_shaming_language",
+      "reason": "El tono debe ser siempre formativo y empático"
+    }
+  ],
+  
+  "must_preserve": [
+    {
+      "field": "subject",
+      "reason": "La materia no puede cambiar (matematicas, ciencias, sociales, lenguaje, ingles)"
+    },
+    {
+      "field": "grade_range",
+      "reason": "El grado escolar define complejidad lingüística y conceptual"
+    },
+    {
+      "field": "competency_unit",
+      "reason": "El competency_unit vincula con estándares curriculares"
+    },
+    {
+      "field": "core_concept",
+      "reason": "El concepto central del módulo es invariante"
+    },
+    {
+      "field": "cognitive_type",
+      "reason": "El tipo cognitivo de cada step es fijo (exploracion, representacion, etc.)"
+    },
+    {
+      "field": "module_step_sequence",
+      "reason": "Los 8 steps deben mantenerse en orden y propósito"
+    },
+    {
+      "field": "visual_template_key",
+      "reason": "La referencia al visual no puede cambiar arbitrariamente"
+    },
+    {
+      "field": "concept_card_id",
+      "reason": "La vinculación con concept_cards debe mantenerse"
+    }
+  ],
+  
+  "quality_checks": [
+    {
+      "check": "age_appropriate_language",
+      "description": "El lenguaje debe ser apropiado para el grade_range (4-5, 6-7, 8-9, 10-11)"
+    },
+    {
+      "check": "factual_accuracy",
+      "description": "El contenido debe ser factualmente correcto según estándares curriculares"
+    },
+    {
+      "check": "cultural_sensitivity",
+      "description": "El contenido debe ser inclusivo y culturalmente sensible"
+    },
+    {
+      "check": "brevity",
+      "description": "Los prompts y hints deben ser concisos (max 2-3 oraciones)"
+    },
+    {
+      "check": "pedagogical_coherence",
+      "description": "El contenido debe alinearse con pedagogical_principles.json"
+    }
+  ],
+  
+  "validation_process": [
+    "1. Cargar foundations antes de cada enrichment",
+    "2. Inyectar policies en system prompt",
+    "3. Generar contenido con LLM",
+    "4. Validar contra must_preserve",
+    "5. Validar contra quality_checks",
+    "6. Validar contra schemas/",
+    "7. Si pasa todas las validaciones → guardar",
+    "8. Si falla alguna → regenerar o rechazar"
+  ]
+}

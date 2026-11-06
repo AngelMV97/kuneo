@@ -1,0 +1,947 @@
+[
+  {
+    "module_id": "a30e7528-c21d-4a0f-8458-ccff3d762ba3",
+    "source_unit_id": "efe5e7a6-1597-41d5-98e8-e6f86f2d8fcd",
+    "source": "dba",
+    "subject": "social_studies",
+    "grade_range": "11",
+    "difficulty": 1,
+    "title": "¿Cómo analizar una situación social?",
+    "learning_objective": "Analiza cómo el bienestar y la supervivencia de la humanidad dependen de la protección que hagan del ambiente los diferentes actores (políticos, económicos y sociales).",
+    "context": "proceso de cambio y degradación del medio ambiente con la expansión de la industria.",
+    "core_concept": "estudios_sociales",
+    "concepts": [
+      "argumentacion"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "comprender",
+      "comprender",
+      "explicar",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué sabes sobre estudios_sociales?",
+      "expected_signals": [
+        "argumentacion"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "302b6364-d171-4ae5-a932-4ac8f172042f",
+        "evidence_source": "Describe las razones económicas y políticas que sustentan aquellos países que más influyen en el problema del calentamiento global para no cambiar sus prácticas.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Describe las razones económicas y políticas que sustentan aquellos países que más influyen en el problema del calentamiento global para no cambiar sus prácticas.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de estudios_sociales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 1
+      },
+      {
+        "id": "611aea42-eb02-484a-b80b-fa7015f6a642",
+        "evidence_source": "Reconoce acciones y propuestas que ha creado la Organización de Naciones Unidas -ONU- (Protocolos ambientales y Cumbres de la Tierra), para evitar los efectos del calentamiento global en el mundo.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Reconoce acciones y propuestas que ha creado la Organización de Naciones Unidas -ONU- (Protocolos ambientales y Cumbres de la Tierra), para evitar los efectos del calentamiento global en el mundo.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de estudios_sociales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 2
+      },
+      {
+        "id": "2fef33f5-3363-4bd6-b99c-5081757ab8f9",
+        "evidence_source": "Explica las acciones que se sugieren desde las instituciones y organizaciones ambientales en Colombia para disminuir los efectos del calentamiento global.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica las acciones que se sugieren desde las instituciones y organizaciones ambientales en Colombia para disminuir los efectos del calentamiento global.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de estudios_sociales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 1,
+        "order": 3
+      },
+      {
+        "id": "08b9fe9c-a123-4188-9b87-568f197e06b0",
+        "evidence_source": "Propone acciones a seguir para disminuir las causas y los efectos actuales del calentamiento global y el futuro en la vida del planeta.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Propone acciones a seguir para disminuir las causas y los efectos actuales del calentamiento global y el futuro en la vida del planeta.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de estudios_sociales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre estudios_sociales?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender estudios_sociales?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 1
+      }
+    }
+  },
+  {
+    "module_id": "4b288c89-6e79-4de0-a626-419b1beabef7",
+    "source_unit_id": "00468ba6-6dc7-481a-8dc9-3e500acea4eb",
+    "source": "dba",
+    "subject": "social_studies",
+    "grade_range": "11",
+    "difficulty": 1,
+    "title": "¿Cómo analizar una situación social?",
+    "learning_objective": "Evalúa la importancia de la solución negociada de los conflictos armados para la búsqueda de la paz.",
+    "context": "['A partir de la lectura de diferentes fuentes de información, caracteriza los procesos de paz que se desarrollaron en distintos países del mundo como El Salvador, Sudáfrica, Irlanda del Norte, Nepal y Colombia, entre otros, señalando los acuerdos básicos, la transición a la vida civil y política de los actores involucrados.']",
+    "core_concept": "sociedad",
+    "concepts": [
+      "sociedad",
+      "fracciones",
+      "lectura_inferencial",
+      "argumentacion"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "comprender",
+      "explicar",
+      "comprender",
+      "argumentar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué sabes sobre sociedad?",
+      "expected_signals": [
+        "sociedad",
+        "fracciones",
+        "lectura_inferencial",
+        "argumentacion"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "6c5fe759-0787-4f9b-ab1a-0952d03d2bb9",
+        "evidence_source": "Reconoce los principales conflictos sociales y políticos vividos en Colombia en las últimas décadas, a partir de la memoria histórica.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Reconoce los principales conflictos sociales y políticos vividos en Colombia en las últimas décadas, a partir de la memoria histórica.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 1
+      },
+      {
+        "id": "95395594-f9ae-49dc-99c1-34c00b42ed88",
+        "evidence_source": "Explica la importancia que tiene para una sociedad la resolución pacífica de sus conflictos y el respeto por las diferencias políticas, ideológicas, de género, religiosas, étnicas o intereses económicos.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica la importancia que tiene para una sociedad la resolución pacífica de sus conflictos y el respeto por las diferencias políticas, ideológicas, de género, religiosas, étnicas o intereses económicos.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 1,
+        "order": 2
+      },
+      {
+        "id": "878eb880-c77d-4832-a84f-bfc75e5344e4",
+        "evidence_source": "Describe las implicaciones que tiene para las sociedades democráticas considerar la justicia, la verdad, el perdón y la reparación de las víctimas en los procesos de paz.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Describe las implicaciones que tiene para las sociedades democráticas considerar la justicia, la verdad, el perdón y la reparación de las víctimas en los procesos de paz.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 3
+      },
+      {
+        "id": "a7759096-5f37-49ec-a24d-06eae0106cd2",
+        "evidence_source": "Argumenta razones para defender la búsqueda de la paz como un deber ético, moral y constitucional en el que se requiere el compromiso de todos los ciudadanos.",
+        "type": "argumentation",
+        "prompt": "Justifica tu respuesta usando evidencia o razones claras.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "argumentacion"
+        ],
+        "difficulty": 1,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre sociedad?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender sociedad?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 2
+      }
+    }
+  },
+  {
+    "module_id": "8badee50-463b-4013-99af-2a65f55aa79a",
+    "source_unit_id": "a02346d0-f898-4e12-89f3-41b49255316d",
+    "source": "dba",
+    "subject": "social_studies",
+    "grade_range": "11",
+    "difficulty": 1,
+    "title": "¿Cómo analizar una situación social?",
+    "learning_objective": "Analiza las consecuencias políticas, económicas y sociales de algunos conflictos geopolíticos desde finales del siglo XX hasta la actualidad a nivel mundial.",
+    "context": "subasta hipotética ofertando el continente africano.",
+    "core_concept": "politica",
+    "concepts": [
+      "estadistica",
+      "argumentacion",
+      "potenciacion"
+    ],
+    "cognitive_type": "argumentative_reasoning",
+    "skills": [
+      "comprender",
+      "comprender",
+      "comprender",
+      "argumentar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué sabes sobre politica?",
+      "expected_signals": [
+        "estadistica",
+        "argumentacion",
+        "potenciacion"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "3aa603ae-12f7-4894-90fd-c97910434810",
+        "evidence_source": "Caracteriza algunos conflictos geopolíticos contemporáneos ocurridos en distintos continentes por la disputa de recursos naturales, intereses económicos, ideológicos y religiosos.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Caracteriza algunos conflictos geopolíticos contemporáneos ocurridos en distintos continentes por la disputa de recursos naturales, intereses económicos, ideológicos y religiosos.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de politica.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 1
+      },
+      {
+        "id": "d2881f65-d503-455d-8221-b9f5954c28ed",
+        "evidence_source": "Reconoce que en las relaciones internacionales existen dinámicas geopolíticas que tienen implicaciones en las poblaciones fronterizas mediante el análisis de casos recientes.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Reconoce que en las relaciones internacionales existen dinámicas geopolíticas que tienen implicaciones en las poblaciones fronterizas mediante el análisis de casos recientes.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de politica.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 2
+      },
+      {
+        "id": "82bc31e8-bb4a-454a-b62a-fac8cd2826a2",
+        "evidence_source": "Describe los intereses políticos, económicos e ideológicos de las grandes potencias que afectan las relaciones internacionales en la actualidad.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Describe los intereses políticos, económicos e ideológicos de las grandes potencias que afectan las relaciones internacionales en la actualidad.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de politica.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 3
+      },
+      {
+        "id": "7378574f-f965-4f91-afb9-6439779cecd0",
+        "evidence_source": "Argumenta las consecuencias sociales que generan los conflictos internacionales como el desplazamiento forzado, los refugiados y el genocidio de naciones.",
+        "type": "argumentation",
+        "prompt": "Justifica tu respuesta usando evidencia o razones claras.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de politica.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "argumentacion"
+        ],
+        "difficulty": 1,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "confundir promedio con valor representativo en todos los casos",
+        "pattern": "confundir promedio con valor representativo en todos los casos",
+        "feedback": "Revisemos esta idea: confundir promedio con valor representativo en todos los casos",
+        "visual": "concept_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre politica?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender politica?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "concept_map",
+        "trigger": "confundir promedio con valor representativo en todos los casos",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 3
+      }
+    }
+  },
+  {
+    "module_id": "e0b430d8-bd41-4879-a387-5cc81bfbfc73",
+    "source_unit_id": "e3d872c9-5143-4678-908b-ec96afbab27d",
+    "source": "dba",
+    "subject": "social_studies",
+    "grade_range": "11",
+    "difficulty": 1,
+    "title": "¿Cómo analizar una situación social?",
+    "learning_objective": "Comprende las implicaciones sociales, económicas y políticas que tuvo la Guerra Fría en el mundo y las relaciona con las vividas en América Latina.",
+    "context": "ilustración animada de la Guerra Fría.",
+    "core_concept": "politica",
+    "concepts": [
+      "fracciones",
+      "lectura_inferencial",
+      "potenciacion"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "comprender",
+      "explicar",
+      "interpretar",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué sabes sobre politica?",
+      "expected_signals": [
+        "fracciones",
+        "lectura_inferencial",
+        "potenciacion"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "98efba59-d143-4c0c-afd6-7c4468b0a2ba",
+        "evidence_source": "Reconoce las características fundamentales de los dos bloques hegemónicos (Capitalista-Comunista), como sistemas políticos y económicos que se consolidaron en el marco de la Guerra Fría.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Reconoce las características fundamentales de los dos bloques hegemónicos (Capitalista-Comunista), como sistemas políticos y económicos que se consolidaron en el marco de la Guerra Fría.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de politica.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 1
+      },
+      {
+        "id": "5a32ae00-d9fb-4775-9b40-32f03313624e",
+        "evidence_source": "Explica las implicaciones que trajo a la vida cotidiana de los pueblos el que sus países hicieran parte de uno u otro bloque.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica las implicaciones que trajo a la vida cotidiana de los pueblos el que sus países hicieran parte de uno u otro bloque.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de politica.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 1,
+        "order": 2
+      },
+      {
+        "id": "23fbe782-7af9-44f6-82ef-b1056b433338",
+        "evidence_source": "Interpreta las repercusiones sociales, políticas y económicas que la Guerra Fría tuvo para Latinoamérica en casos como la revolución cubana, el surgimiento de las dictaduras, las guerrillas y el intervencionismo.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Interpreta las repercusiones sociales, políticas y económicas que la Guerra Fría tuvo para Latinoamérica en casos como la revolución cubana, el surgimiento de las dictaduras, las guerrillas y el intervencionismo.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de politica.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 3
+      },
+      {
+        "id": "0b57467e-ea5b-46bb-a0dd-912a3584f656",
+        "evidence_source": "Plantea argumentos acerca de las amenazas constantes con armas de destrucción masiva por parte de las potencias vencedoras en la segunda Guerra Mundial y establece relaciones con las tensiones mundiales en la actualidad.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Plantea argumentos acerca de las amenazas constantes con armas de destrucción masiva por parte de las potencias vencedoras en la segunda Guerra Mundial y establece relaciones con las tensiones mundiales en la actualidad.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de politica.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre politica?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender politica?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 4
+      }
+    }
+  },
+  {
+    "module_id": "9be5e7a7-cc65-4505-a796-68d52f46b148",
+    "source_unit_id": "a18a07c9-9815-4933-9302-0efa58c7e369",
+    "source": "dba",
+    "subject": "social_studies",
+    "grade_range": "11",
+    "difficulty": 1,
+    "title": "¿Cómo analizar una situación social?",
+    "learning_objective": "Analiza la globalización como un proceso que redefine el concepto de territorio, las dinámicas de los mercados, las gobernanzas nacionales y las identidades locales.",
+    "context": "comercialización e intercambio de productos y servicios entre los países del mundo.",
+    "core_concept": "sociedad",
+    "concepts": [
+      "sociedad",
+      "argumentacion",
+      "territorio"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "comprender",
+      "explicar",
+      "comprender",
+      "argumentar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué sabes sobre sociedad?",
+      "expected_signals": [
+        "sociedad",
+        "argumentacion",
+        "territorio"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "e48b120e-bb83-43e4-9b1f-f9021d8d9404",
+        "evidence_source": "Reconoce las características de la globalización económica y política en el mundo contemporáneo y las tensiones que ha generado en las comunidades nacionales.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Reconoce las características de la globalización económica y política en el mundo contemporáneo y las tensiones que ha generado en las comunidades nacionales.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 1
+      },
+      {
+        "id": "849d194f-1d6e-4829-9530-f73bc8b90fcb",
+        "evidence_source": "Explica y sitúa los bloques económicos y los tratados de integración que se han configurado en los últimos años, así como las consecuencias que estos han traído para Colombia y América Latina.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica y sitúa los bloques económicos y los tratados de integración que se han configurado en los últimos años, así como las consecuencias que estos han traído para Colombia y América Latina.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 1,
+        "order": 2
+      },
+      {
+        "id": "e06321a1-eeae-4ff3-9ba1-7ce1c9ad524b",
+        "evidence_source": "Describe las ventajas y desventajas económicas, políticas y sociales que tiene el proceso de globalización en las sociedades actuales.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Describe las ventajas y desventajas económicas, políticas y sociales que tiene el proceso de globalización en las sociedades actuales.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 1,
+        "order": 3
+      },
+      {
+        "id": "9546302f-de36-4372-bfbc-d279d7e277a4",
+        "evidence_source": "Argumenta acerca del papel de las organizaciones políticas y económicas en la integración de los países latinoamericanos (Mercosur, El Alba, Alianza del Pacífico y Unasur, entre otros).",
+        "type": "argumentation",
+        "prompt": "Justifica tu respuesta usando evidencia o razones claras.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sociedad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "argumentacion"
+        ],
+        "difficulty": 1,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre sociedad?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender sociedad?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 5
+      }
+    }
+  }
+]

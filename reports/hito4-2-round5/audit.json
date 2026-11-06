@@ -1,0 +1,4055 @@
+{
+  "snapshotSha256": "4baf73f3227ea219926b67a31f632b8e82362cba46000eeb34f3a3e9bdcabba8",
+  "packets": [
+    {
+      "questionId": "1b6c1319-0e6e-4ba3-9e65-44cc28db3ebd:q:0",
+      "sourceSha256": "0f9ab885a97ed64883a44ff1348f52cb450622215b4a100f263ba043643f703e",
+      "module": {
+        "id": "e43bb575-a5d6-4bee-bc97-c7895421ae13",
+        "title": "¿Cómo analizar una situación social?",
+        "subject": "social_studies",
+        "grade_range": "1-3",
+        "core_concept": "estudios_sociales",
+        "learning_objective": "Hago preguntas sobre mí y sobre las organizaciones sociales a las que pertenezco (familia, curso, colegio, barrio…).",
+        "context": "Vamos a explorar estudios_sociales a partir de una situación sencilla y cercana.",
+        "content": {
+          "hints": [
+            "¿Qué sabes ya sobre estudios_sociales?",
+            "¿Qué parte del problema te da una pista?",
+            "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+          ],
+          "phases": [
+            {
+              "goal": "activar conocimiento previo",
+              "phase": "exploration",
+              "tutor_state": "thinking"
+            },
+            {
+              "goal": "construir el concepto central",
+              "phase": "concept_formation",
+              "tutor_state": "hint"
+            },
+            {
+              "goal": "aplicar con apoyo",
+              "phase": "guided_application",
+              "tutor_state": "encouragement"
+            },
+            {
+              "goal": "usar la idea en un nuevo contexto",
+              "phase": "transfer",
+              "tutor_state": "reflection"
+            },
+            {
+              "goal": "reflexionar sobre cómo cambió el pensamiento",
+              "phase": "metacognition",
+              "tutor_state": "reflection"
+            }
+          ],
+          "skills": [],
+          "concepts": [],
+          "metadata": {
+            "generated_from": "competency_unit",
+            "original_metadata": {
+              "axis": "me_aproximo_como_cientifico_social",
+              "axis_name": "me_aproximo_como_cientifico_social",
+              "structure_mode": "science"
+            }
+          },
+          "error_map": {
+            "generic_shallow_response": {
+              "visual": "concept_map",
+              "pattern": "respuesta corta sin explicación",
+              "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+              "description": "respuesta superficial o sin justificación",
+              "intervention_level": 1
+            }
+          },
+          "diagnostic": {
+            "type": "open_question",
+            "detects": [
+              "prior_knowledge",
+              "misconception",
+              "explanation_depth"
+            ],
+            "question": "¿Qué sabes sobre estudios_sociales?",
+            "expected_signals": []
+          },
+          "evaluation": {
+            "rubric": {
+              "comprension": "Identifica la idea central y la explica con sus palabras.",
+              "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+              "metacognicion": "Reconoce cómo cambió su forma de pensar.",
+              "transferencia": "Aplica la idea en una situación nueva.",
+              "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo."
+            },
+            "dimensions": [
+              "comprension",
+              "representacion",
+              "razonamiento",
+              "transferencia",
+              "metacognicion"
+            ],
+            "pass_condition": {
+              "minimum_level": "basic",
+              "minimum_dimensions": 3
+            }
+          },
+          "cognitive_type": "conceptual_understanding",
+          "visual_triggers": [
+            {
+              "trigger": "respuesta corta sin explicación",
+              "error_key": "generic_shallow_response",
+              "visual_template": "concept_map",
+              "intervention_level": 1
+            }
+          ],
+          "guided_exercises": [],
+          "reflection_prompts": [
+            "¿Qué cambió en tu forma de entender estudios_sociales?",
+            "¿Qué estrategia te ayudó más?",
+            "¿Dónde podrías aplicar esta idea en otro contexto?"
+          ]
+        },
+        "difficulty": 1,
+        "source": "standard",
+        "source_unit_id": "f1747ef1-d48c-4f01-b541-a4c1850a512a",
+        "is_active": true,
+        "order_index": 0,
+        "updated_at": "2026-05-13T03:06:53.134283+00:00"
+      },
+      "step": {
+        "id": "1b6c1319-0e6e-4ba3-9e65-44cc28db3ebd",
+        "module_id": "e43bb575-a5d6-4bee-bc97-c7895421ae13",
+        "step_order": 1,
+        "step_type": "question",
+        "cognitive_type": "exploracion",
+        "phase": "exploration",
+        "title": "Exploración inicial: estudios_sociales",
+        "instruction": "Observa y piensa: ¿qué sabes sobre estudios_sociales?",
+        "content": {
+          "prompt": "Observa y piensa: ¿qué sabes sobre estudios_sociales?",
+          "context": "",
+          "options": [
+            "Opción A",
+            "Opción B",
+            "Opción C",
+            "Opción D"
+          ],
+          "input_mode": "multiple_choice",
+          "concept_key": "estudios_sociales",
+          "concept_name": "estudios_sociales"
+        },
+        "expected_response_type": "multiple_choice",
+        "success_criteria": {
+          "min_confidence": "low",
+          "correct_required": false,
+          "requires_explanation": false,
+          "max_attempts_before_hint": 2
+        },
+        "concept_card_id": "7f7a0a85-40d3-4e06-8b31-c44a0e3a1e4a",
+        "visual_template_key": "concept_map",
+        "hint_policy": {
+          "allow_hint": true,
+          "hint_level_sequence": [
+            "short_hint",
+            "visual"
+          ],
+          "show_card_after_attempts": 3,
+          "show_card_if_time_seconds": 120
+        },
+        "feedback_policy": {
+          "adaptive": true,
+          "immediate": true,
+          "show_visual": false,
+          "show_explanation": false
+        },
+        "next_step_logic": {
+          "if_correct": "next",
+          "if_mastered": "next",
+          "if_struggling": "show_visual",
+          "if_incorrect_once": "retry",
+          "if_incorrect_twice": "show_hint"
+        },
+        "difficulty": 1,
+        "enriched_content": {
+          "type": "option",
+          "context": "Las organizaciones sociales son grupos de personas que se unen por algo en común. La familia es la organización social más importante porque es donde aprendemos, crecemos y nos cuidamos unos a otros.",
+          "options": [
+            "Mi familia",
+            "Una pizza",
+            "Un árbol",
+            "Una pelota"
+          ],
+          "question": "¿Cuál de estas es una organización social a la que perteneces?",
+          "step_config": {
+            "hints": [
+              "Piensa en los grupos de personas donde te sientes cuidado y protegido.",
+              "Es el lugar donde vives con las personas que más te quieren.",
+              "Es el grupo donde están tus papás, hermanos o abuelos."
+            ],
+            "expected_time": 45,
+            "concept_card_key": "family_as_social_organization",
+            "reflection_prompts": [
+              "¿Quiénes forman parte de tu familia?",
+              "¿Qué cosas hacen juntos en tu familia?"
+            ],
+            "visual_template_key": null,
+            "difficulty_indicator": "easy"
+          },
+          "correct_answer": "Mi familia",
+          "expected_answer": {
+            "type": "option",
+            "misconceptions": [
+              {
+                "pattern": "Opción B",
+                "card_key": "social_org_misconception",
+                "severity": "low",
+                "explanation": "Una pizza es un objeto, no un grupo de personas. Las organizaciones sociales son grupos donde las personas se relacionan.",
+                "misconception_key": "confuses_objects_with_social_groups",
+                "common_among_grade": "1-3"
+              },
+              {
+                "pattern": "Opción C",
+                "card_key": "social_org_misconception",
+                "severity": "low",
+                "explanation": "Un árbol es parte de la naturaleza. Las organizaciones sociales son grupos de personas, como tu familia o tu escuela.",
+                "misconception_key": "confuses_nature_with_social_groups",
+                "common_among_grade": "1-3"
+              },
+              {
+                "pattern": "Opción D",
+                "card_key": "social_org_misconception",
+                "severity": "low",
+                "explanation": "Una pelota es un juguete. Las organizaciones sociales son grupos de personas que comparten algo.",
+                "misconception_key": "confuses_toys_with_social_groups",
+                "common_among_grade": "1-3"
+              }
+            ],
+            "correct_options": [
+              0
+            ]
+          },
+          "tutor_responses": {
+            "correct": [
+              "¡Exacto! Tu familia es una organización social muy importante.",
+              "¡Muy bien! La familia es el primer grupo social al que pertenecemos.",
+              "¡Correcto! En tu familia aprendes y creces junto a las personas que te quieren."
+            ],
+            "encouragement": [
+              "Estás pensando bien, sigue intentando.",
+              "Casi lo tienes, piensa un poco más.",
+              "Muy bien que lo intentes, vamos por el camino correcto."
+            ],
+            "incorrect_attempt_1": [
+              "Hmm, piensa en un grupo de personas, no en un objeto.",
+              "Recuerda que las organizaciones sociales son grupos de personas que se relacionan.",
+              "Piensa: ¿cuál de estas opciones es un grupo de personas?"
+            ],
+            "incorrect_attempt_2": [
+              "Veamos una pista: es el lugar donde vives con las personas que te cuidan.",
+              "Las organizaciones sociales son grupos de personas. ¿Cuál de las opciones es un grupo?",
+              "Piensa en el grupo de personas con quienes compartes tu casa."
+            ]
+          },
+          "cognitive_dimension": "comprension"
+        },
+        "enrichment_status": "completed",
+        "enrichment_version": "0.1",
+        "enriched_at": "2026-05-25T14:12:50.549+00:00",
+        "updated_at": "2026-05-25T21:43:25.109469+00:00"
+      },
+      "card": {
+        "id": "7f7a0a85-40d3-4e06-8b31-c44a0e3a1e4a",
+        "concept_key": "estudios_sociales",
+        "concept_name": "estudios_sociales",
+        "card_type": "basic",
+        "title": "¿Cómo analizar una situación social?",
+        "body": "Hago preguntas sobre mí y sobre las organizaciones sociales a las que pertenezco (familia, curso, colegio, barrio…).",
+        "explanation": null,
+        "one_line_definition": "Hago preguntas sobre mí y sobre las organizaciones sociales a las que pertenezco (familia, curso, colegio, barrio…).",
+        "core_insight": "Comprender estudios_sociales es fundamental",
+        "example": {
+          "context": "",
+          "problem": "",
+          "solution": "",
+          "visual_ref": ""
+        },
+        "common_misconception": "respuesta superficial o sin justificación",
+        "hint_prompt": "¿Qué sabes ya sobre estudios_sociales?",
+        "visual_template_key": "concept_map",
+        "visual_template": null,
+        "subject": "sociales",
+        "grade_range": "1",
+        "difficulty": 1,
+        "related_concepts": [
+          "plano_cartesiano",
+          "proporcionalidad",
+          "argumentacion",
+          "ecosistema",
+          "estadistica",
+          "probabilidad",
+          "volumen",
+          "lectura_inferencial",
+          "fracciones",
+          "movimiento"
+        ],
+        "enriched_content": {
+          "source": "openai_enrichment",
+          "refined": {
+            "id": "7f7a0a85-40d3-4e06-8b31-c44a0e3a1e4a",
+            "subject": "sociales",
+            "concept_key": "estudios_sociales",
+            "grade_range": "1",
+            "hint_prompt": "¿Qué tipo de mapa has visto antes? ¿Cómo te ayuda a moverte?",
+            "concept_name": "Representación de la Tierra",
+            "core_insight": "Entender cómo se representa la Tierra ayuda a ubicarnos en el espacio.",
+            "requirements": {
+              "generate": [
+                "concept_name",
+                "one_line_definition",
+                "core_insight",
+                "student_friendly_explanation",
+                "practical_example",
+                "common_misconception",
+                "misconception_explanation",
+                "hint_prompt",
+                "visual_caption"
+              ],
+              "preserve": [
+                "concept_key",
+                "subject",
+                "grade_range",
+                "visual_template_key"
+              ],
+              "constraints": {
+                "brief": true,
+                "non_judgmental": true,
+                "age_appropriate": true,
+                "culturally_inclusive": true,
+                "one_idea_one_example": true
+              }
+            },
+            "visual_caption": "Ejemplo de un mapa que muestra diferentes lugares.",
+            "practical_example": "Cuando miras un mapa de tu ciudad, puedes ver dónde vives y cómo llegar a la escuela.",
+            "one_line_definition": "La Tierra se puede representar de diferentes maneras, como mapas y globos.",
+            "visual_template_key": "concept_map",
+            "common_misconception": "Pensar que los mapas son la misma cosa que la Tierra.",
+            "misconception_explanation": "Los mapas son dibujos que representan la Tierra, pero no son la Tierra misma.",
+            "student_friendly_explanation": "Los mapas y globos son herramientas que nos muestran dónde están las cosas en la Tierra."
+          },
+          "version": "0.1",
+          "metadata": {
+            "model": "gpt-4o-mini",
+            "enriched_at": "2026-05-16T00:55:42.867327+00:00"
+          },
+          "variants": {
+            "hint": {
+              "body": "Los mapas nos muestran lugares, pero no son lo mismo que la Tierra. ¿Qué tipo de cosas puedes ver en un mapa?",
+              "title": "Piensa en los mapas",
+              "example": "Un mapa de tu escuela te muestra dónde están las aulas y el patio.",
+              "tuko_line": "Recuerda que los mapas son dibujos que representan lugares.",
+              "when_to_show": [
+                "two_failed_attempts"
+              ],
+              "visual_template_key": "concept_map"
+            },
+            "basic": {
+              "body": "Un mapa es una representación de un lugar que nos ayuda a encontrar caminos y ubicaciones. Por ejemplo, un mapa de tu ciudad muestra calles y edificios.",
+              "title": "¿Qué es un mapa?",
+              "example": "Mira el mapa que tienes en casa. ¿Dónde está tu casa en el mapa?",
+              "tuko_line": "Los mapas son herramientas útiles para orientarnos en el espacio.",
+              "when_to_show": [
+                "stuck"
+              ],
+              "visual_template_key": "concept_map"
+            },
+            "deepening": {
+              "body": "¿Cómo crees que los mapas se relacionan con otros temas que has aprendido, como la ubicación de países o continentes?",
+              "title": "Conexiones con otros conceptos",
+              "example": "Los mapas de países también nos ayudan a entender dónde están las culturas y las lenguas.",
+              "tuko_line": "Conectar ideas puede enriquecer tu aprendizaje sobre el mundo.",
+              "when_to_show": [
+                "after_success"
+              ],
+              "visual_template_key": "concept_map"
+            },
+            "corrective": {
+              "body": "Es común pensar que un mapa es igual a la Tierra. Pero un mapa es solo una representación, no el lugar real.",
+              "title": "Entendiendo los mapas",
+              "example": "Cuando miras un mapa, estás viendo una imagen de la Tierra, no la Tierra misma.",
+              "tuko_line": "Es importante recordar que los mapas son herramientas, no el lugar real.",
+              "when_to_show": [
+                "misconception_detected"
+              ],
+              "visual_template_key": "concept_map"
+            },
+            "reflective": {
+              "body": "Ahora que sabes sobre los mapas, ¿cómo te ayuda un mapa a moverte por tu ciudad?",
+              "title": "Reflexiona sobre el mapa",
+              "example": "Piensa en un momento en que usaste un mapa. ¿Qué aprendiste de esa experiencia?",
+              "tuko_line": "Reflexionar sobre el uso de mapas puede mejorar tu comprensión espacial.",
+              "when_to_show": [
+                "reflection_opportunity_after_success"
+              ],
+              "visual_template_key": "concept_map"
+            }
+          },
+          "adaptive_usage": {
+            "show_when": [
+              "student_is_struggling_with_location_concepts",
+              "student_requests_help_with_maps",
+              "student_makes_two failed_attempts_on_location_questions"
+            ],
+            "cooldown_rules": {
+              "reset_on_mastery": true,
+              "min_interval_minutes": 10,
+              "max_shows_per_session": 3
+            },
+            "do_not_show_when": [
+              "student_is_correct_and_flowing",
+              "student_is_in_exploration_phase",
+              "student_has_recently_seen_this_card"
+            ],
+            "intervention_level": "moderate",
+            "recommended_step_types": [
+              "exploracion",
+              "representacion"
+            ],
+            "recommended_cognitive_types": [
+              "representacion",
+              "razonamiento"
+            ]
+          },
+          "error_patterns": {
+            "patterns": [
+              {
+                "diagnostic_clue": "Pregunta al estudiante si un mapa puede mostrar todo lo que hay en la Tierra.",
+                "misconception_key": "map_equals_earth",
+                "visual_overlay_key": "map_vs_earth_overlay",
+                "corrective_feedback": "Recuerda que un mapa es solo una representación. La Tierra es mucho más grande y compleja.",
+                "likely_wrong_answers": [
+                  "El mapa es la Tierra.",
+                  "Cuando miro un mapa, veo la Tierra.",
+                  "Los mapas son reales, como la Tierra."
+                ],
+                "recommended_card_variant": "corrective",
+                "misconception_description": "Los estudiantes piensan que un mapa es lo mismo que la Tierra."
+              },
+              {
+                "diagnostic_clue": "Pregunta si un mapa puede mostrar detalles pequeños como árboles o personas.",
+                "misconception_key": "maps_show_all_details",
+                "visual_overlay_key": "map_detail_overlay",
+                "corrective_feedback": "Los mapas simplifican la realidad. No pueden mostrar cada detalle, solo lo más importante.",
+                "likely_wrong_answers": [
+                  "Un mapa tiene todo lo que hay en la Tierra.",
+                  "Los mapas son fotos de la Tierra.",
+                  "Puedo ver cada árbol en un mapa."
+                ],
+                "recommended_card_variant": "corrective",
+                "misconception_description": "Los estudiantes creen que los mapas muestran todos los detalles de la Tierra."
+              },
+              {
+                "diagnostic_clue": "Pregunta si conocen diferentes tipos de mapas, como mapas políticos o topográficos.",
+                "misconception_key": "only_one_type_of_map",
+                "visual_overlay_key": "map_types_overlay",
+                "corrective_feedback": "Existen muchos tipos de mapas, cada uno con un propósito diferente. ¡Explora algunos más!",
+                "likely_wrong_answers": [
+                  "Solo existen mapas de carreteras.",
+                  "Un mapa es siempre un mapa físico.",
+                  "No hay otros tipos de mapas."
+                ],
+                "recommended_card_variant": "corrective",
+                "misconception_description": "Los estudiantes piensan que solo hay un tipo de mapa."
+              },
+              {
+                "diagnostic_clue": "Pregunta si han visto un mapa que tenga información incorrecta.",
+                "misconception_key": "maps_are_infallible",
+                "visual_overlay_key": "map_accuracy_overlay",
+                "corrective_feedback": "Los mapas pueden tener errores. Siempre es bueno verificar con otras fuentes.",
+                "likely_wrong_answers": [
+                  "Los mapas nunca mienten.",
+                  "Siempre puedo confiar en un mapa.",
+                  "No hay errores en los mapas."
+                ],
+                "recommended_card_variant": "corrective",
+                "misconception_description": "Los estudiantes creen que los mapas son siempre precisos y no pueden tener errores."
+              },
+              {
+                "diagnostic_clue": "Pregunta cómo se ve un globo en comparación con un mapa.",
+                "misconception_key": "maps_and_globes_are_same",
+                "visual_overlay_key": "map_globe_overlay",
+                "corrective_feedback": "Un globo muestra la Tierra en 3D, mientras que un mapa es plano. Cada uno tiene sus ventajas.",
+                "likely_wrong_answers": [
+                  "Un globo es solo un mapa en 3D.",
+                  "No hay diferencia entre un mapa y un globo.",
+                  "Ambos muestran la misma información."
+                ],
+                "recommended_card_variant": "corrective",
+                "misconception_description": "Los estudiantes piensan que un globo y un mapa son lo mismo."
+              }
+            ]
+          }
+        },
+        "enrichment_status": "completed",
+        "enrichment_version": "0.1",
+        "enriched_at": "2026-05-16T00:55:42.874508+00:00",
+        "updated_at": "2026-05-16T00:55:46.101031+00:00"
+      },
+      "visual": {
+        "id": "7b2c3c13-f0e6-4f15-9446-6e9a223826ef",
+        "template_key": "concept_map",
+        "template_name": "Concept Map",
+        "description": "Plantilla visual para concept map",
+        "visual_type": "concept_map",
+        "renderer": "concept_map",
+        "interaction_level": "hoverable",
+        "config": {
+          "edges": [],
+          "nodes": [],
+          "layout": "hierarchical",
+          "caption": "Mapa conceptual",
+          "showLabels": true
+        },
+        "default_props": {
+          "width": 400,
+          "height": 300,
+          "responsive": true
+        },
+        "asset_url": null,
+        "subject": "sociales",
+        "use_cases": [
+          "explanation",
+          "example",
+          "misconception"
+        ],
+        "supported_card_types": [
+          "basic",
+          "hint",
+          "corrective",
+          "reflective"
+        ],
+        "enriched_config": {
+          "labels": {
+            "title": "Mapa Conceptual de Sociales",
+            "legend": [],
+            "elements": [
+              {
+                "label": "Cultura",
+                "purpose": "Representa la diversidad de costumbres y tradiciones.",
+                "element_id": "concept1"
+              },
+              {
+                "label": "Sociedad",
+                "purpose": "Muestra cómo las personas interactúan y se organizan.",
+                "element_id": "concept2"
+              },
+              {
+                "label": "Economía",
+                "purpose": "Indica cómo se producen y distribuyen bienes y servicios.",
+                "element_id": "concept3"
+              },
+              {
+                "label": "Política",
+                "purpose": "Refleja cómo se toman decisiones y se establecen normas.",
+                "element_id": "concept4"
+              }
+            ]
+          },
+          "source": "openai_enrichment",
+          "version": "0.1",
+          "metadata": {
+            "model": "gpt-4o-mini",
+            "renderer": "concept_map",
+            "enriched_at": "2026-05-16T02:48:02.382074+00:00",
+            "visual_type": "concept_map",
+            "template_key": "concept_map"
+          },
+          "overlays": {
+            "hint": [
+              {
+                "target": "concept1",
+                "message": "Piensa en ejemplos de cómo la cultura se manifiesta en tu vida diaria.",
+                "position": "center",
+                "overlay_id": "hint1",
+                "visual_action": "annotate"
+              }
+            ],
+            "corrective": [
+              {
+                "target": "concept3",
+                "message": "Recuerda que la economía no solo se trata de dinero, sino de cómo se distribuyen los recursos en la sociedad.",
+                "position": "right",
+                "overlay_id": "corrective1",
+                "visual_action": "connect"
+              }
+            ],
+            "explanation": [
+              {
+                "target": "concept1",
+                "message": "La cultura influye en todos los aspectos de la sociedad, incluyendo la economía y la política.",
+                "position": "top",
+                "overlay_id": "explanation1",
+                "visual_action": "highlight"
+              }
+            ],
+            "misconception": [
+              {
+                "target": "concept2",
+                "message": "Algunas personas piensan que sociedad y cultura son lo mismo, pero son conceptos diferentes que se interrelacionan.",
+                "card_variant": "basic",
+                "visual_action": "compare",
+                "misconception_key": "misconception1"
+              },
+              {
+                "target": "concept3",
+                "message": "Es un error pensar que la economía no afecta a la política; en realidad, están profundamente conectadas.",
+                "card_variant": "corrective",
+                "visual_action": "highlight",
+                "misconception_key": "misconception2"
+              },
+              {
+                "target": "concept4",
+                "message": "Algunos creen que la política no influye en la cultura, pero esto no es cierto; las decisiones políticas pueden cambiar costumbres y tradiciones.",
+                "card_variant": "reflective",
+                "visual_action": "dim",
+                "misconception_key": "misconception3"
+              }
+            ]
+          },
+          "animation_steps": [
+            {
+              "step": 1,
+              "action": "show",
+              "target": "concept1",
+              "caption": "Observa el concepto de Cultura, que es fundamental en nuestras interacciones sociales.",
+              "duration_ms": 500
+            },
+            {
+              "step": 2,
+              "action": "highlight",
+              "target": "concept1",
+              "caption": "La Cultura influye en la Sociedad, Economía y Política.",
+              "duration_ms": 700
+            },
+            {
+              "step": 3,
+              "action": "show",
+              "target": "concept2",
+              "caption": "Ahora, veamos el concepto de Sociedad.",
+              "delay_ms": 300,
+              "duration_ms": 500
+            },
+            {
+              "step": 4,
+              "action": "compare",
+              "target": "concept2",
+              "caption": "Recuerda que Sociedad y Cultura son diferentes, pero están interrelacionadas.",
+              "duration_ms": 800
+            },
+            {
+              "step": 5,
+              "action": "show",
+              "target": "concept3",
+              "caption": "A continuación, el concepto de Economía.",
+              "delay_ms": 300,
+              "duration_ms": 500
+            },
+            {
+              "step": 6,
+              "action": "connect",
+              "target": "concept3",
+              "caption": "La Economía está conectada con la Política y la Sociedad.",
+              "duration_ms": 700
+            },
+            {
+              "step": 7,
+              "action": "reveal",
+              "target": "concept4",
+              "caption": "Finalmente, el concepto de Política, que influye en todos los demás.",
+              "duration_ms": 500
+            }
+          ],
+          "interaction_rules": {
+            "drag": [],
+            "click": [
+              {
+                "action": "reveal",
+                "target": "concept1",
+                "feedback": "Haz clic para obtener más información sobre la cultura.",
+                "conditions": []
+              },
+              {
+                "action": "reveal",
+                "target": "concept2",
+                "feedback": "Haz clic para explorar cómo interactúan las sociedades.",
+                "conditions": []
+              },
+              {
+                "action": "reveal",
+                "target": "concept3",
+                "feedback": "Haz clic para aprender sobre la economía y su impacto.",
+                "conditions": []
+              },
+              {
+                "action": "reveal",
+                "target": "concept4",
+                "feedback": "Haz clic para entender el papel de la política.",
+                "conditions": []
+              }
+            ],
+            "hover": [
+              {
+                "action": "highlight",
+                "target": "concept1",
+                "feedback": "Este concepto es clave para entender la diversidad cultural.",
+                "conditions": []
+              },
+              {
+                "action": "highlight",
+                "target": "concept2",
+                "feedback": "Observa cómo la sociedad se organiza y se relaciona.",
+                "conditions": []
+              },
+              {
+                "action": "highlight",
+                "target": "concept3",
+                "feedback": "La economía es fundamental para la producción y distribución.",
+                "conditions": []
+              },
+              {
+                "action": "highlight",
+                "target": "concept4",
+                "feedback": "La política determina las normas y decisiones en la sociedad.",
+                "conditions": []
+              }
+            ],
+            "slider": [],
+            "fallback_static": "Las interacciones no están disponibles en este mapa conceptual."
+          },
+          "pedagogical_visual": {
+            "caption": "Este mapa conceptual ilustra las relaciones entre los conceptos clave en el tema de sociales, ayudando a visualizar cómo se conectan entre sí.",
+            "main_question": "¿Cómo se relacionan los conceptos en este mapa?",
+            "student_focus": "Observa primero los conceptos centrales y cómo se conectan entre ellos.",
+            "accessibility_text": "Este mapa conceptual muestra diferentes conceptos relacionados con el tema de sociales. Cada nodo representa un concepto clave, y las líneas indican las relaciones entre ellos. Los estudiantes deben observar cómo estos conceptos interactúan y se influencian mutuamente."
+          },
+          "usage_by_card_type": {
+            "hint": {
+              "emphasis": "Proveer pistas sobre relaciones clave.",
+              "interaction_level": "guided",
+              "recommended_overlays": [
+                "highlight"
+              ],
+              "recommended_animations": [
+                1
+              ]
+            },
+            "basic": {
+              "emphasis": "Visualizar conexiones entre conceptos.",
+              "interaction_level": "passive",
+              "recommended_overlays": [],
+              "recommended_animations": [
+                1
+              ]
+            },
+            "deepening": {
+              "emphasis": "Profundizar en las relaciones entre conceptos.",
+              "interaction_level": "full",
+              "recommended_overlays": [
+                "connect",
+                "zoom"
+              ],
+              "recommended_animations": [
+                1
+              ]
+            },
+            "corrective": {
+              "emphasis": "Corregir malentendidos sobre conceptos.",
+              "interaction_level": "guided",
+              "recommended_overlays": [
+                "dim",
+                "compare"
+              ],
+              "recommended_animations": [
+                1
+              ]
+            },
+            "reflective": {
+              "emphasis": "Fomentar la reflexión sobre las conexiones.",
+              "interaction_level": "exploratory",
+              "recommended_overlays": [
+                "annotate"
+              ],
+              "recommended_animations": [
+                1
+              ]
+            }
+          }
+        },
+        "enrichment_status": "completed",
+        "enrichment_version": "0.1",
+        "enriched_at": "2026-05-16T02:48:02.644976+00:00",
+        "updated_at": "2026-05-16T02:48:05.645405+00:00"
+      },
+      "associationHashes": {
+        "module": "b0693ac76d7ec825a7449e114ae14e7504028fb92488138e1defe90aa4267544",
+        "card": "3d19830f0c306a606e135d37709bd1f76d59e035409ccb34755d0d533fc9f94f",
+        "visual": "cfcf557492012ef73985b487ce8d2cd9ccdc1e4391ddee1ebd36f18be5591e07"
+      },
+      "findings": [
+        "La clave familia es válida; no se corrige como si fuera un error factual.",
+        "La pregunta reconoce una categoría pero no comprueba que el estudiante formule preguntas; las ayudas presuponen un hogar seguro y una composición familiar determinada. La tarjeta enriquecida trata mapas y globos."
+      ],
+      "originalProbe": {
+        "answer": "0",
+        "actual": {
+          "result": "correct",
+          "feedback": "Revisa qué afirmaciones cumplen lo solicitado y por qué.",
+          "feedbackDetails": [
+            {
+              "label": "Mi familia",
+              "selected": "La elegiste",
+              "expected": "Sí corresponde",
+              "correct": true,
+              "explanation": ""
+            },
+            {
+              "label": "Una pizza",
+              "selected": "No la elegiste",
+              "expected": "No corresponde",
+              "correct": true,
+              "explanation": ""
+            },
+            {
+              "label": "Un árbol",
+              "selected": "No la elegiste",
+              "expected": "No corresponde",
+              "correct": true,
+              "explanation": ""
+            },
+            {
+              "label": "Una pelota",
+              "selected": "No la elegiste",
+              "expected": "No corresponde",
+              "correct": true,
+              "explanation": ""
+            }
+          ]
+        }
+      },
+      "candidateSha256": "c82aded53cf1e9995f469a1cccf66e3681e8820aee19b58de600bfc1c25a6130"
+    },
+    {
+      "questionId": "3e01bd93-2447-4fad-9d9e-56a1efd42181:q:0",
+      "sourceSha256": "d1496d81681a5aba1b2681b458c6831d474168adc26422414f329eaeac66dbfe",
+      "module": {
+        "id": "50723c30-801e-4fcf-a0d9-bc8aabf7d392",
+        "title": "Derechos y Responsabilidades",
+        "subject": "social_studies",
+        "grade_range": "1-3",
+        "core_concept": "derechos_y_responsabilidades",
+        "learning_objective": "Identifico y respeto mis derechos y los de otras personas, y entiendo que tengo responsabilidades en mi familia, escuela y comunidad.",
+        "context": "Vamos a explorar historia a partir de una situación sencilla y cercana.",
+        "content": {
+          "hints": [
+            "¿Qué sabes ya sobre historia?",
+            "¿Qué parte del problema te da una pista?",
+            "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+          ],
+          "phases": [
+            {
+              "goal": "activar conocimiento previo",
+              "phase": "exploration",
+              "tutor_state": "thinking"
+            },
+            {
+              "goal": "construir el concepto central",
+              "phase": "concept_formation",
+              "tutor_state": "hint"
+            },
+            {
+              "goal": "aplicar con apoyo",
+              "phase": "guided_application",
+              "tutor_state": "encouragement"
+            },
+            {
+              "goal": "usar la idea en un nuevo contexto",
+              "phase": "transfer",
+              "tutor_state": "reflection"
+            },
+            {
+              "goal": "reflexionar sobre cómo cambió el pensamiento",
+              "phase": "metacognition",
+              "tutor_state": "reflection"
+            }
+          ],
+          "skills": [],
+          "concepts": [
+            "historia"
+          ],
+          "metadata": {
+            "generated_from": "competency_unit",
+            "original_metadata": {
+              "axis": "me_aproximo_como_cientifico_social",
+              "axis_name": "me_aproximo_como_cientifico_social",
+              "structure_mode": "science"
+            }
+          },
+          "error_map": {
+            "generic_shallow_response": {
+              "visual": "concept_map",
+              "pattern": "respuesta corta sin explicación",
+              "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+              "description": "respuesta superficial o sin justificación",
+              "intervention_level": 1
+            }
+          },
+          "diagnostic": {
+            "type": "open_question",
+            "detects": [
+              "prior_knowledge",
+              "misconception",
+              "explanation_depth"
+            ],
+            "question": "¿Qué sabes sobre historia?",
+            "expected_signals": [
+              "historia"
+            ]
+          },
+          "evaluation": {
+            "rubric": {
+              "comprension": "Identifica la idea central y la explica con sus palabras.",
+              "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+              "metacognicion": "Reconoce cómo cambió su forma de pensar.",
+              "transferencia": "Aplica la idea en una situación nueva.",
+              "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo."
+            },
+            "dimensions": [
+              "comprension",
+              "representacion",
+              "razonamiento",
+              "transferencia",
+              "metacognicion"
+            ],
+            "pass_condition": {
+              "minimum_level": "basic",
+              "minimum_dimensions": 3
+            }
+          },
+          "cognitive_type": "conceptual_understanding",
+          "visual_triggers": [
+            {
+              "trigger": "respuesta corta sin explicación",
+              "error_key": "generic_shallow_response",
+              "visual_template": "concept_map",
+              "intervention_level": 1
+            }
+          ],
+          "guided_exercises": [],
+          "reflection_prompts": [
+            "¿Qué cambió en tu forma de entender historia?",
+            "¿Qué estrategia te ayudó más?",
+            "¿Dónde podrías aplicar esta idea en otro contexto?"
+          ]
+        },
+        "difficulty": 1,
+        "source": "standard",
+        "source_unit_id": "d096fe4a-2728-4112-a266-68d2cd062081",
+        "is_active": true,
+        "order_index": 0,
+        "updated_at": "2026-05-28T14:53:44.113925+00:00"
+      },
+      "step": {
+        "id": "3e01bd93-2447-4fad-9d9e-56a1efd42181",
+        "module_id": "50723c30-801e-4fcf-a0d9-bc8aabf7d392",
+        "step_order": 2,
+        "step_type": "visual_exploration",
+        "cognitive_type": "representacion",
+        "phase": "representation",
+        "title": "Visualiza: historia",
+        "instruction": "Observa cómo se representa historia visualmente",
+        "content": {
+          "prompt": "Observa cómo se representa historia visualmente",
+          "context": "",
+          "input_mode": "selection",
+          "concept_key": "historia",
+          "concept_name": "historia"
+        },
+        "expected_response_type": "selection",
+        "success_criteria": {
+          "min_confidence": "low",
+          "correct_required": false,
+          "requires_explanation": false,
+          "max_attempts_before_hint": 1
+        },
+        "concept_card_id": "93480eef-916b-4c33-ab33-6209ebf73c07",
+        "visual_template_key": "timeline",
+        "hint_policy": {
+          "allow_hint": true,
+          "hint_level_sequence": [
+            "visual",
+            "concept_card"
+          ],
+          "show_card_after_attempts": 2,
+          "show_card_if_time_seconds": 90
+        },
+        "feedback_policy": {
+          "adaptive": true,
+          "immediate": true,
+          "show_visual": true,
+          "show_explanation": true
+        },
+        "next_step_logic": {
+          "if_correct": "next",
+          "if_mastered": "next",
+          "if_struggling": "remedial_representation",
+          "if_incorrect_once": "show_visual",
+          "if_incorrect_twice": "show_concept_card"
+        },
+        "difficulty": 2,
+        "enriched_content": {
+          "hint": "Piensa en algo importante para crecer y aprender, no en caprichos.",
+          "type": "option",
+          "phase": "representation",
+          "context": "Los derechos de los niños están reconocidos internacionalmente y protegen aspectos fundamentales como la educación, la salud, el juego y la protección contra el maltrato. Conocer estos derechos nos permite defenderlos cuando sea necesario y también respetar los derechos de los demás. Esta conciencia sobre los derechos humanos es la base para construir sociedades más justas y democráticas.",
+          "options": [
+            "Derecho a la educación",
+            "Derecho a tener todos los juguetes que quiera",
+            "Derecho a no hacer tareas",
+            "Derecho a comer solo dulces"
+          ],
+          "question": "¿Cuál de estos es un derecho que tienen todos los niños?",
+          "step_config": {
+            "hints": [
+              "Piensa en algo importante para crecer y aprender, no en caprichos.",
+              "Los derechos protegen cosas necesarias para tu bienestar.",
+              "La respuesta correcta es: derecho a la educación."
+            ],
+            "expected_time": 50,
+            "concept_card_key": "derecho_educacion",
+            "reflection_prompts": [
+              "¿Por qué es importante ir a la escuela?",
+              "¿Qué otros derechos crees que tienen los niños?"
+            ],
+            "visual_template_key": null,
+            "difficulty_indicator": "easy"
+          },
+          "expected_answer": {
+            "type": "option",
+            "explanation": "¡Correcto! Todos los niños tienen derecho a recibir educación para poder aprender y crecer.",
+            "misconceptions": [
+              {
+                "hint": "Los derechos no son deseos. Son cosas necesarias para tu bienestar, no caprichos.",
+                "pattern": "^1$",
+                "misconception_key": "confunde_derecho_con_deseo"
+              },
+              {
+                "hint": "Los derechos no eliminan las responsabilidades. Hacer tareas es parte de aprender.",
+                "pattern": "^2$",
+                "misconception_key": "confunde_derecho_con_ausencia_responsabilidad"
+              },
+              {
+                "hint": "Tienes derecho a la alimentación, pero debe ser saludable. Comer solo dulces no es bueno para ti.",
+                "pattern": "^3$",
+                "misconception_key": "confunde_derecho_con_deseo_alimenticio"
+              }
+            ],
+            "correct_options": [
+              0
+            ],
+            "evaluation_strategy": "option"
+          },
+          "tutor_responses": {
+            "correct": [
+              "¡Correcto! Todos los niños tienen derecho a ir a la escuela.",
+              "¡Muy bien! La educación es un derecho fundamental.",
+              "¡Exacto! Aprender es un derecho de todos los niños."
+            ],
+            "encouragement": [
+              "Vas bien, piensa en algo realmente importante.",
+              "Casi lo logras, sigue intentando."
+            ],
+            "incorrect_attempt_1": [
+              "Piensa en algo importante para crecer y aprender, no en caprichos.",
+              "Los derechos son cosas importantes, no son deseos o caprichos."
+            ],
+            "incorrect_attempt_2": [
+              "La educación es un derecho porque te ayuda a crecer y desarrollarte.",
+              "Tener juguetes es lindo, pero no es un derecho. La educación sí lo es."
+            ]
+          },
+          "cognitive_dimension": "comprension"
+        },
+        "enrichment_status": "pending",
+        "enrichment_version": "0.1",
+        "enriched_at": "2026-05-20T05:19:15.247+00:00",
+        "updated_at": "2026-05-28T14:53:44.87041+00:00"
+      },
+      "card": {
+        "id": "93480eef-916b-4c33-ab33-6209ebf73c07",
+        "concept_key": "historia",
+        "concept_name": "historia",
+        "card_type": "basic",
+        "title": "¿Cómo analizar una situación social?",
+        "body": "Reconozco diversos aspectos míos y de las organizaciones sociales a las que pertenezco, así como los cambios que han ocurrido a través del tiempo.",
+        "explanation": null,
+        "one_line_definition": "Reconozco diversos aspectos míos y de las organizaciones sociales a las que pertenezco, así como los cambios que han ocurrido a través del tiempo.",
+        "core_insight": "Comprender historia es fundamental",
+        "example": {
+          "context": "",
+          "problem": "",
+          "solution": "",
+          "visual_ref": ""
+        },
+        "common_misconception": "respuesta superficial o sin justificación",
+        "hint_prompt": "¿Qué sabes ya sobre historia?",
+        "visual_template_key": "timeline",
+        "visual_template": null,
+        "subject": "sociales",
+        "grade_range": "1",
+        "difficulty": 1,
+        "related_concepts": [
+          "celula",
+          "proporcionalidad",
+          "sociedad",
+          "argumentacion",
+          "estadistica",
+          "probabilidad",
+          "territorio",
+          "lectura_inferencial",
+          "fracciones",
+          "movimiento"
+        ],
+        "enriched_content": {
+          "source": "openai_enrichment",
+          "refined": {
+            "id": "93480eef-916b-4c33-ab33-6209ebf73c07",
+            "subject": "sociales",
+            "concept_key": "historia",
+            "grade_range": "1",
+            "hint_prompt": "¿Qué eventos importantes puedes recordar en tu vida que podrías poner en una línea de tiempo?",
+            "concept_name": "Línea de tiempo",
+            "core_insight": "Los eventos históricos se pueden organizar cronológicamente para entender mejor su secuencia y relación.",
+            "visual_caption": "Ejemplo de una línea de tiempo que muestra eventos importantes.",
+            "practical_example": "Si dibujas una línea de tiempo de tu vida, podrías poner tu nacimiento en el inicio, luego el primer día de escuela, y después tus vacaciones.",
+            "one_line_definition": "Una línea de tiempo muestra eventos en el orden en que ocurrieron.",
+            "visual_template_key": "timeline",
+            "common_misconception": "Pensar que todos los eventos importantes suceden al mismo tiempo.",
+            "misconception_explanation": "Es importante recordar que algunos eventos ocurren antes que otros, y la línea de tiempo nos ayuda a ver esto claramente.",
+            "student_friendly_explanation": "Imagina que dibujas una línea y marcas fechas importantes, como tu cumpleaños o el día que aprendiste algo nuevo. Así puedes ver qué pasó primero y qué pasó después."
+          },
+          "version": "0.1",
+          "metadata": {
+            "model": "gpt-4o-mini",
+            "enriched_at": "2026-05-16T00:58:03.249426+00:00"
+          },
+          "variants": {
+            "hint": {
+              "body": "Piensa en eventos importantes de tu vida. ¿Qué fechas puedes recordar que podrías poner en tu línea de tiempo?",
+              "title": "Pista para tu Línea de Tiempo",
+              "example": "Tal vez tu cumpleaños o el día que aprendiste a montar en bicicleta.",
+              "tuko_line": "Intenta recordar el primer evento que te gustaría incluir.",
+              "when_to_show": [
+                "first_struggle"
+              ],
+              "visual_template_key": "timeline"
+            },
+            "basic": {
+              "body": "Una línea de tiempo es una representación visual que muestra eventos en el orden en que ocurrieron. Ayuda a entender la secuencia de los eventos históricos.",
+              "title": "¿Qué es una Línea de Tiempo?",
+              "example": "Por ejemplo, si dibujas una línea de tiempo de tu vida, podrías incluir tu nacimiento, el primer día de escuela y tus vacaciones.",
+              "tuko_line": "Recuerda que cada evento tiene su lugar en la línea. ¿Cuál fue el primero?",
+              "when_to_show": [
+                "stuck"
+              ],
+              "visual_template_key": "timeline"
+            },
+            "deepening": {
+              "body": "¿Cómo crees que una línea de tiempo puede ayudarte a entender otros temas, como la historia de tu país?",
+              "title": "Conectando con Otros Conceptos",
+              "example": "Podrías usarla para ver cómo diferentes eventos históricos se relacionan entre sí.",
+              "tuko_line": "Piensa en qué otros eventos podrías incluir en una línea de tiempo más grande.",
+              "when_to_show": [
+                "after_success"
+              ],
+              "visual_template_key": "timeline"
+            },
+            "corrective": {
+              "body": "Parece que estás pensando que todos los eventos importantes suceden al mismo tiempo. Recuerda que algunos eventos ocurren antes que otros.",
+              "title": "Revisando tu Línea de Tiempo",
+              "example": "Por ejemplo, tu nacimiento ocurrió antes de tu primer día de escuela.",
+              "tuko_line": "Asegúrate de que los eventos estén en el orden correcto.",
+              "when_to_show": [
+                "misconception_detected"
+              ],
+              "visual_template_key": "timeline"
+            },
+            "reflective": {
+              "body": "Ahora que has creado tu línea de tiempo, ¿qué te ayudó a decidir qué eventos incluir?",
+              "title": "Reflexiona sobre tu Línea de Tiempo",
+              "example": "Piensa en cómo te sentiste al recordar esos momentos.",
+              "tuko_line": "Esa es una buena observación. ¿Cómo podrías usar esta estrategia en el futuro?",
+              "when_to_show": [
+                "reflection_opportunity_after_success"
+              ],
+              "visual_template_key": "timeline"
+            }
+          },
+          "adaptive_usage": {
+            "show_when": [
+              "student is exploring historical events",
+              "student is learning about chronological order",
+              "student has shown interest in personal history"
+            ],
+            "cooldown_rules": {
+              "reset_on_mastery": true,
+              "min_interval_minutes": 10,
+              "max_shows_per_session": 3
+            },
+            "do_not_show_when": [
+              "student is confident in using timelines",
+              "student is currently engaged in a different topic",
+              "student has just completed a timeline activity"
+            ],
+            "intervention_level": "minimal",
+            "recommended_step_types": [
+              "exploración",
+              "representación"
+            ],
+            "recommended_cognitive_types": [
+              "exploracion",
+              "representacion",
+              "razonamiento"
+            ]
+          },
+          "error_patterns": {
+            "patterns": [
+              {
+                "diagnostic_clue": "Pregunta a los estudiantes si pueden identificar qué evento ocurrió primero.",
+                "misconception_key": "simultaneous_events",
+                "visual_overlay_key": "timeline_error_overlay",
+                "corrective_feedback": "Recuerda que algunos eventos suceden antes que otros. Una línea de tiempo te ayuda a ver el orden correcto.",
+                "likely_wrong_answers": [
+                  "El nacimiento y el primer día de escuela ocurrieron al mismo tiempo.",
+                  "Las vacaciones y el cumpleaños son el mismo evento."
+                ],
+                "recommended_card_variant": "corrective",
+                "misconception_description": "Los estudiantes piensan que todos los eventos importantes suceden al mismo tiempo."
+              },
+              {
+                "diagnostic_clue": "Pide a los estudiantes que piensen en eventos que duraron más tiempo y cómo representarlos.",
+                "misconception_key": "linear_thinking",
+                "visual_overlay_key": "timeline_duration_overlay",
+                "corrective_feedback": "Es importante mostrar la duración entre eventos. Usa diferentes espacios para representar el tiempo que pasó entre ellos.",
+                "likely_wrong_answers": [
+                  "Todos los eventos deben estar a la misma distancia en la línea.",
+                  "No importa cuánto tiempo pasó entre los eventos."
+                ],
+                "recommended_card_variant": "corrective",
+                "misconception_description": "Los estudiantes creen que solo se pueden representar eventos en una línea recta sin considerar la duración entre ellos."
+              },
+              {
+                "diagnostic_clue": "Pregunta a los estudiantes qué eventos consideran más significativos en su vida.",
+                "misconception_key": "event_importance",
+                "visual_overlay_key": "timeline_importance_overlay",
+                "corrective_feedback": "Algunos eventos son más importantes que otros. Piensa en cuáles cambiaron tu vida de manera significativa.",
+                "likely_wrong_answers": [
+                  "El día que aprendí a montar en bicicleta es tan importante como el día de mi nacimiento.",
+                  "No hay eventos más importantes que otros."
+                ],
+                "recommended_card_variant": "corrective",
+                "misconception_description": "Los estudiantes creen que todos los eventos en la línea de tiempo son igualmente importantes."
+              },
+              {
+                "diagnostic_clue": "Pide a los estudiantes que expliquen por qué eligieron ese orden.",
+                "misconception_key": "event_sequence",
+                "visual_overlay_key": "timeline_sequence_overlay",
+                "corrective_feedback": "Recuerda que la línea de tiempo muestra el orden en que ocurrieron los eventos. Asegúrate de que estén en la secuencia correcta.",
+                "likely_wrong_answers": [
+                  "Poner el primer día de escuela después de las vacaciones.",
+                  "Colocar el cumpleaños después de aprender a leer."
+                ],
+                "recommended_card_variant": "corrective",
+                "misconception_description": "Los estudiantes no comprenden que los eventos deben seguir un orden cronológico."
+              },
+              {
+                "diagnostic_clue": "Pregunta a los estudiantes si conocen eventos históricos que podrían incluir.",
+                "misconception_key": "personal_events_only",
+                "visual_overlay_key": "timeline_scope_overlay",
+                "corrective_feedback": "Una línea de tiempo puede incluir eventos personales y también eventos importantes de la historia. Piensa en cómo se conectan.",
+                "likely_wrong_answers": [
+                  "Solo puedo poner mis cumpleaños y vacaciones.",
+                  "No puedo incluir eventos históricos o de otros."
+                ],
+                "recommended_card_variant": "corrective",
+                "misconception_description": "Los estudiantes piensan que solo pueden incluir eventos personales en la línea de tiempo."
+              }
+            ]
+          }
+        },
+        "enrichment_status": "completed",
+        "enrichment_version": "0.1",
+        "enriched_at": "2026-05-16T00:58:03.256672+00:00",
+        "updated_at": "2026-05-16T00:58:06.461844+00:00"
+      },
+      "visual": {
+        "id": "0de226dd-538d-4d9d-ab8d-691e48f1fa10",
+        "template_key": "timeline",
+        "template_name": "Línea de Tiempo",
+        "description": "Secuencia cronológica de eventos",
+        "visual_type": "timeline",
+        "renderer": "timeline",
+        "interaction_level": "hoverable",
+        "config": {
+          "events": [
+            {
+              "date": "1810",
+              "label": "Independencia",
+              "description": "Colombia se independiza de España"
+            },
+            {
+              "date": "1819",
+              "label": "República",
+              "description": "Formación de la Gran Colombia"
+            }
+          ],
+          "orientation": "vertical"
+        },
+        "default_props": {
+          "width": 600,
+          "height": 400
+        },
+        "asset_url": null,
+        "subject": "sociales",
+        "use_cases": [
+          "explanation",
+          "example"
+        ],
+        "supported_card_types": [
+          "basic",
+          "hint"
+        ],
+        "enriched_config": {
+          "labels": {
+            "title": "Línea de Tiempo de Eventos Sociales",
+            "legend": [],
+            "elements": [
+              {
+                "label": "Inicio de la Revolución Industrial",
+                "purpose": "Destacar un cambio significativo en la producción y la sociedad.",
+                "element_id": "event1"
+              },
+              {
+                "label": "Abolición de la esclavitud",
+                "purpose": "Ilustrar un avance en los derechos humanos y la justicia social.",
+                "element_id": "event2"
+              },
+              {
+                "label": "Movimiento por los derechos civiles",
+                "purpose": "Mostrar la lucha por la igualdad y su impacto en la sociedad moderna.",
+                "element_id": "event3"
+              }
+            ]
+          },
+          "source": "openai_enrichment",
+          "version": "0.1",
+          "metadata": {
+            "model": "gpt-4o-mini",
+            "renderer": "timeline",
+            "enriched_at": "2026-05-16T02:40:19.054214+00:00",
+            "visual_type": "timeline",
+            "template_key": "timeline"
+          },
+          "overlays": {
+            "hint": [
+              {
+                "target": "event1",
+                "message": "Considera cómo la Revolución Industrial cambió la vida diaria de las personas.",
+                "position": "bottom",
+                "overlay_id": "hint1",
+                "visual_action": "annotate"
+              }
+            ],
+            "corrective": [
+              {
+                "target": "event2",
+                "message": "Revisa cómo la abolición de la esclavitud se relaciona con otros eventos de derechos humanos.",
+                "position": "center",
+                "overlay_id": "corrective1",
+                "visual_action": "dim"
+              }
+            ],
+            "explanation": [
+              {
+                "target": "event1",
+                "message": "La Revolución Industrial marcó un cambio radical en la forma de producción y en la estructura social.",
+                "position": "top",
+                "overlay_id": "explanation1",
+                "visual_action": "highlight"
+              }
+            ],
+            "misconception": [
+              {
+                "target": "event2",
+                "message": "Algunos piensan que la abolición de la esclavitud fue un evento aislado, pero en realidad fue parte de un movimiento más amplio por los derechos humanos.",
+                "card_variant": "corrective",
+                "visual_action": "compare",
+                "misconception_key": "misconception1"
+              },
+              {
+                "target": "event3",
+                "message": "Es un error creer que el movimiento por los derechos civiles solo afectó a los Estados Unidos; sus principios han influido globalmente.",
+                "card_variant": "corrective",
+                "visual_action": "highlight",
+                "misconception_key": "misconception2"
+              }
+            ]
+          },
+          "animation_steps": [
+            {
+              "step": 1,
+              "action": "show",
+              "target": "timeline",
+              "caption": "Observa la línea de tiempo completa con todos los eventos destacados.",
+              "duration_ms": 500
+            },
+            {
+              "step": 2,
+              "action": "highlight",
+              "target": "event1",
+              "caption": "Inicio de la Revolución Industrial: un cambio significativo en la producción y la sociedad.",
+              "delay_ms": 300,
+              "duration_ms": 700
+            },
+            {
+              "step": 3,
+              "action": "highlight",
+              "target": "event2",
+              "caption": "Abolición de la esclavitud: un avance crucial en los derechos humanos.",
+              "delay_ms": 300,
+              "duration_ms": 700
+            },
+            {
+              "step": 4,
+              "action": "highlight",
+              "target": "event3",
+              "caption": "Movimiento por los derechos civiles: la lucha por la igualdad y su impacto.",
+              "delay_ms": 300,
+              "duration_ms": 700
+            },
+            {
+              "step": 5,
+              "action": "compare",
+              "target": "event2",
+              "caption": "Comparando la abolición de la esclavitud con otros eventos de derechos humanos.",
+              "delay_ms": 300,
+              "duration_ms": 900
+            },
+            {
+              "step": 6,
+              "action": "dim",
+              "target": "event2",
+              "caption": "Revisando la conexión entre la abolición de la esclavitud y otros movimientos.",
+              "delay_ms": 300,
+              "duration_ms": 700
+            },
+            {
+              "step": 7,
+              "action": "reveal",
+              "target": "timeline",
+              "caption": "Reflexiona sobre cómo estos eventos han influido en nuestra sociedad actual.",
+              "delay_ms": 300,
+              "duration_ms": 500
+            }
+          ],
+          "interaction_rules": {
+            "drag": [],
+            "click": [
+              {
+                "action": "reveal",
+                "target": "event1",
+                "feedback": "Haz clic para obtener más información sobre la Revolución Industrial.",
+                "conditions": []
+              },
+              {
+                "action": "reveal",
+                "target": "event2",
+                "feedback": "Haz clic para explorar el impacto de la abolición de la esclavitud.",
+                "conditions": []
+              },
+              {
+                "action": "reveal",
+                "target": "event3",
+                "feedback": "Haz clic para aprender sobre el movimiento por los derechos civiles.",
+                "conditions": []
+              }
+            ],
+            "hover": [
+              {
+                "action": "highlight",
+                "target": "event1",
+                "feedback": "Este evento marcó el inicio de un cambio significativo en la producción.",
+                "conditions": []
+              },
+              {
+                "action": "highlight",
+                "target": "event2",
+                "feedback": "Este evento representa un avance crucial en los derechos humanos.",
+                "conditions": []
+              },
+              {
+                "action": "highlight",
+                "target": "event3",
+                "feedback": "Este evento muestra la lucha por la igualdad en nuestra sociedad.",
+                "conditions": []
+              }
+            ],
+            "slider": [],
+            "fallback_static": "Las interacciones no están disponibles en este momento."
+          },
+          "pedagogical_visual": {
+            "caption": "Esta línea de tiempo ilustra los eventos clave en la historia social, permitiendo observar cómo se relacionan entre sí y su impacto en el presente.",
+            "main_question": "¿Cómo se conectan estos eventos a los cambios en nuestra sociedad?",
+            "student_focus": "Observa primero los eventos más destacados y sus fechas.",
+            "accessibility_text": "Esta línea de tiempo presenta una serie de eventos importantes en la historia social, organizados horizontalmente. Cada evento está marcado con su fecha correspondiente, mostrando la secuencia y la relación entre ellos. Los estudiantes deben prestar atención a cómo estos eventos influyen en la sociedad actual."
+          },
+          "usage_by_card_type": {
+            "hint": {
+              "emphasis": "Proporcionar pistas sobre eventos",
+              "interaction_level": "guided",
+              "recommended_overlays": [
+                "highlight"
+              ],
+              "recommended_animations": [
+                1
+              ]
+            },
+            "basic": {
+              "emphasis": "Destacar eventos clave",
+              "interaction_level": "passive",
+              "recommended_overlays": [],
+              "recommended_animations": [
+                1
+              ]
+            },
+            "deepening": {
+              "emphasis": "Profundizar en las relaciones entre eventos",
+              "interaction_level": "full",
+              "recommended_overlays": [
+                "connect"
+              ],
+              "recommended_animations": [
+                1
+              ]
+            },
+            "corrective": {
+              "emphasis": "Corregir conceptos erróneos sobre eventos",
+              "interaction_level": "guided",
+              "recommended_overlays": [
+                "highlight",
+                "dim"
+              ],
+              "recommended_animations": [
+                1
+              ]
+            },
+            "reflective": {
+              "emphasis": "Fomentar la reflexión sobre el impacto social",
+              "interaction_level": "exploratory",
+              "recommended_overlays": [
+                "annotate"
+              ],
+              "recommended_animations": [
+                1
+              ]
+            }
+          }
+        },
+        "enrichment_status": "completed",
+        "enrichment_version": "0.1",
+        "enriched_at": "2026-05-16T02:40:19.319062+00:00",
+        "updated_at": "2026-05-16T22:59:41.811376+00:00"
+      },
+      "associationHashes": {
+        "module": "fd890cfee5cc05fa5078b49a01453562390b41e1baf2c83103aaf24d62fa8341",
+        "card": "0b8fc04a715bb53f90130fd408383c0016a0366c479bd813ecec3a088c1a40c8",
+        "visual": "31804fd5ae96e760ecd2a7b3864be69625205ff40530bd84dca1684d29532339"
+      },
+      "findings": [
+        "Derecho a la educación es una clave correcta.",
+        "Una pista entrega literalmente esa clave y la tarjeta asociada es de líneas de tiempo. Se reemplaza el reconocimiento abstracto por una acción contextualizada con ayudas propias."
+      ],
+      "originalProbe": {
+        "answer": "0",
+        "actual": {
+          "result": "correct",
+          "feedback": "Revisa qué afirmaciones cumplen lo solicitado y por qué.",
+          "feedbackDetails": [
+            {
+              "label": "Derecho a la educación",
+              "selected": "La elegiste",
+              "expected": "Sí corresponde",
+              "correct": true,
+              "explanation": ""
+            },
+            {
+              "label": "Derecho a tener todos los juguetes que quiera",
+              "selected": "No la elegiste",
+              "expected": "No corresponde",
+              "correct": true,
+              "explanation": ""
+            },
+            {
+              "label": "Derecho a no hacer tareas",
+              "selected": "No la elegiste",
+              "expected": "No corresponde",
+              "correct": true,
+              "explanation": ""
+            },
+            {
+              "label": "Derecho a comer solo dulces",
+              "selected": "No la elegiste",
+              "expected": "No corresponde",
+              "correct": true,
+              "explanation": ""
+            }
+          ]
+        }
+      },
+      "candidateSha256": "ca21fde94a07b0100f8efe60024634f1ba5da8f59efeca8144e70e8a9dc69aaa"
+    },
+    {
+      "questionId": "65590a17-fd40-416d-b048-63495e5aeca5:q:0",
+      "sourceSha256": "d4344d41b410f7262c27fc807f11aef168d5987977b6a3535fec4dee2da8a8e5",
+      "module": {
+        "id": "4b94fd6c-ea04-4889-b025-546fc6e5ab1f",
+        "title": "¿Cómo analizar una situación social?",
+        "subject": "social_studies",
+        "grade_range": "6-7",
+        "core_concept": "sociedad",
+        "learning_objective": "Identifico algunas corrientes de pensamiento económico, político, cultural y filosófico del siglo XIX y explico su influencia en el pensamiento colombiano y el de América Latina.",
+        "context": "Vamos a explorar historia a partir de una situación sencilla y cercana.",
+        "content": {
+          "hints": [
+            "¿Qué sabes ya sobre historia?",
+            "¿Qué parte del problema te da una pista?",
+            "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+          ],
+          "phases": [
+            {
+              "goal": "activar conocimiento previo",
+              "phase": "exploration",
+              "tutor_state": "thinking"
+            },
+            {
+              "goal": "construir el concepto central",
+              "phase": "concept_formation",
+              "tutor_state": "hint"
+            },
+            {
+              "goal": "aplicar con apoyo",
+              "phase": "guided_application",
+              "tutor_state": "encouragement"
+            },
+            {
+              "goal": "usar la idea en un nuevo contexto",
+              "phase": "transfer",
+              "tutor_state": "reflection"
+            },
+            {
+              "goal": "reflexionar sobre cómo cambió el pensamiento",
+              "phase": "metacognition",
+              "tutor_state": "reflection"
+            }
+          ],
+          "skills": [],
+          "concepts": [
+            "historia"
+          ],
+          "metadata": {
+            "generated_from": "competency_unit",
+            "original_metadata": {
+              "axis": "desarrollo_compromisos",
+              "axis_name": "desarrollo_compromisos",
+              "structure_mode": "science"
+            }
+          },
+          "error_map": {
+            "generic_shallow_response": {
+              "visual": "concept_map",
+              "pattern": "respuesta corta sin explicación",
+              "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+              "description": "respuesta superficial o sin justificación",
+              "intervention_level": 1
+            }
+          },
+          "diagnostic": {
+            "type": "open_question",
+            "detects": [
+              "prior_knowledge",
+              "misconception",
+              "explanation_depth"
+            ],
+            "question": "¿Qué sabes sobre historia?",
+            "expected_signals": [
+              "historia"
+            ]
+          },
+          "evaluation": {
+            "rubric": {
+              "comprension": "Identifica la idea central y la explica con sus palabras.",
+              "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+              "metacognicion": "Reconoce cómo cambió su forma de pensar.",
+              "transferencia": "Aplica la idea en una situación nueva.",
+              "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo."
+            },
+            "dimensions": [
+              "comprension",
+              "representacion",
+              "razonamiento",
+              "transferencia",
+              "metacognicion"
+            ],
+            "pass_condition": {
+              "minimum_level": "basic",
+              "minimum_dimensions": 3
+            }
+          },
+          "cognitive_type": "conceptual_understanding",
+          "visual_triggers": [
+            {
+              "trigger": "respuesta corta sin explicación",
+              "error_key": "generic_shallow_response",
+              "visual_template": "concept_map",
+              "intervention_level": 1
+            }
+          ],
+          "guided_exercises": [],
+          "reflection_prompts": [
+            "¿Qué cambió en tu forma de entender historia?",
+            "¿Qué estrategia te ayudó más?",
+            "¿Dónde podrías aplicar esta idea en otro contexto?"
+          ]
+        },
+        "difficulty": 3,
+        "source": "standard",
+        "source_unit_id": "4b474285-b970-4b7b-ba69-133290debe52",
+        "is_active": true,
+        "order_index": 0,
+        "updated_at": "2026-05-28T16:29:38.136015+00:00"
+      },
+      "step": {
+        "id": "65590a17-fd40-416d-b048-63495e5aeca5",
+        "module_id": "4b94fd6c-ea04-4889-b025-546fc6e5ab1f",
+        "step_order": 4,
+        "step_type": "classification_task",
+        "cognitive_type": "clasificacion",
+        "phase": "classification",
+        "title": "Clasifica: ejemplos de historia",
+        "instruction": "¿Cuáles de estos son ejemplos de historia y cuáles no?",
+        "content": {
+          "prompt": "¿Cuáles de estos son ejemplos de historia y cuáles no?",
+          "context": "",
+          "input_mode": "drag_drop",
+          "concept_key": "historia",
+          "concept_name": "historia"
+        },
+        "expected_response_type": "drag_drop",
+        "success_criteria": {
+          "min_confidence": "medium",
+          "correct_required": true,
+          "requires_explanation": false,
+          "max_attempts_before_hint": 2
+        },
+        "concept_card_id": "93480eef-916b-4c33-ab33-6209ebf73c07",
+        "visual_template_key": "timeline",
+        "hint_policy": {
+          "allow_hint": true,
+          "hint_level_sequence": [
+            "short_hint",
+            "concept_card"
+          ],
+          "show_card_after_attempts": 2,
+          "show_card_if_time_seconds": 120
+        },
+        "feedback_policy": {
+          "adaptive": true,
+          "immediate": true,
+          "show_visual": false,
+          "show_explanation": true
+        },
+        "next_step_logic": {
+          "if_correct": "next",
+          "if_mastered": "next",
+          "if_struggling": "remedial_classification",
+          "if_incorrect_once": "retry_with_hint",
+          "if_incorrect_twice": "show_concept_card"
+        },
+        "difficulty": 3,
+        "enriched_content": {
+          "hint": "Piensa en prácticas que hoy rechazamos pero que fueron justificadas con argumentos de superioridad o religión.",
+          "type": "multiple_select",
+          "phase": "representation",
+          "context": "Las sociedades históricas desarrollaron complejos sistemas de justificación para legitimar prácticas que vulneraban derechos fundamentales. Estos sistemas combinaban elementos religiosos, pseudocientíficos, económicos y culturales, y fueron aceptados durante siglos por amplios sectores sociales. Reconocer cómo operaban estas justificaciones nos ayuda a comprender los mecanismos mediante los cuales las sociedades legitiman sus prácticas, y nos sensibiliza para identificar justificaciones similares en contextos contemporáneos.",
+          "options": [
+            "La esclavitud de personas africanas",
+            "El voto universal desde la antigüedad",
+            "La Inquisición",
+            "La igualdad de género en todos los ámbitos",
+            "La colonización de América",
+            "El derecho a la educación para todos"
+          ],
+          "question": "¿Cuáles de las siguientes prácticas históricas fueron justificadas con argumentos religiosos o de \"superioridad\"? (Selecciona todas las correctas)",
+          "step_config": {
+            "hints": [
+              "Piensa en prácticas que hoy rechazamos pero fueron justificadas entonces.",
+              "La esclavitud, Inquisición y colonización usaban justificaciones de superioridad.",
+              "Las correctas son: esclavitud, Inquisición y colonización."
+            ],
+            "expected_time": 75,
+            "concept_card_key": "practicas_historicas_injustas",
+            "reflection_prompts": [
+              "¿Qué argumentos usaban para justificar estas prácticas?",
+              "¿Por qué sociedades enteras aceptaban estas prácticas?"
+            ],
+            "visual_template_key": null,
+            "difficulty_indicator": "medium"
+          },
+          "correct_options": [
+            0,
+            2,
+            4
+          ],
+          "expected_answer": {
+            "type": "multiple_select",
+            "explanation": "¡Muy bien! La esclavitud, la Inquisición y la colonización fueron justificadas con argumentos religiosos, de supuesta superioridad racial o cultural.",
+            "misconceptions": [
+              {
+                "hint": "El voto universal es una conquista relativamente reciente, no una práctica histórica que fuera justificada con argumentos de superioridad.",
+                "pattern": "includes_1",
+                "misconception_key": "confunde_conquistas_recientes"
+              },
+              {
+                "hint": "La igualdad de género es un derecho que aún estamos conquistando, no una práctica histórica injusta.",
+                "pattern": "includes_3",
+                "misconception_key": "confunde_derechos_con_practicas_injustas"
+              },
+              {
+                "hint": "El derecho a la educación es una conquista moderna, no una práctica histórica que se justificara con argumentos de superioridad.",
+                "pattern": "includes_5",
+                "misconception_key": "confunde_derechos_educativos"
+              }
+            ],
+            "correct_options": [
+              0,
+              2,
+              4
+            ],
+            "evaluation_strategy": "multiple_select"
+          },
+          "tutor_responses": {
+            "correct": [
+              "¡Perfecto! Identificaste las prácticas históricas que fueron justificadas así.",
+              "¡Excelente! Reconoces qué prácticas usaban estos argumentos.",
+              "¡Muy bien! Comprendes qué tipo de justificaciones se daban."
+            ],
+            "encouragement": [
+              "Algunas respuestas son correctas, revisa las demás.",
+              "Vas bien, piensa en qué prácticas hoy consideramos injustas."
+            ],
+            "incorrect_attempt_1": [
+              "Piensa en prácticas que vulneraban derechos pero eran justificadas en su época.",
+              "Considera cuáles de estas prácticas hoy rechazamos como injustas."
+            ],
+            "incorrect_attempt_2": [
+              "La esclavitud, la Inquisición y la colonización fueron justificadas con argumentos de superioridad o religión.",
+              "El voto universal, la igualdad de género y la educación para todos son conquistas recientes, no prácticas históricas injustas."
+            ]
+          },
+          "cognitive_dimension": "comprension"
+        },
+        "enrichment_status": "pending",
+        "enrichment_version": "0.1",
+        "enriched_at": null,
+        "updated_at": "2026-05-28T16:23:26.31378+00:00"
+      },
+      "card": {
+        "id": "93480eef-916b-4c33-ab33-6209ebf73c07",
+        "concept_key": "historia",
+        "concept_name": "historia",
+        "card_type": "basic",
+        "title": "¿Cómo analizar una situación social?",
+        "body": "Reconozco diversos aspectos míos y de las organizaciones sociales a las que pertenezco, así como los cambios que han ocurrido a través del tiempo.",
+        "explanation": null,
+        "one_line_definition": "Reconozco diversos aspectos míos y de las organizaciones sociales a las que pertenezco, así como los cambios que han ocurrido a través del tiempo.",
+        "core_insight": "Comprender historia es fundamental",
+        "example": {
+          "context": "",
+          "problem": "",
+          "solution": "",
+          "visual_ref": ""
+        },
+        "common_misconception": "respuesta superficial o sin justificación",
+        "hint_prompt": "¿Qué sabes ya sobre historia?",
+        "visual_template_key": "timeline",
+        "visual_template": null,
+        "subject": "sociales",
+        "grade_range": "1",
+        "difficulty": 1,
+        "related_concepts": [
+          "celula",
+          "proporcionalidad",
+          "sociedad",
+          "argumentacion",
+          "estadistica",
+          "probabilidad",
+          "territorio",
+          "lectura_inferencial",
+          "fracciones",
+          "movimiento"
+        ],
+        "enriched_content": {
+          "source": "openai_enrichment",
+          "refined": {
+            "id": "93480eef-916b-4c33-ab33-6209ebf73c07",
+            "subject": "sociales",
+            "concept_key": "historia",
+            "grade_range": "1",
+            "hint_prompt": "¿Qué eventos importantes puedes recordar en tu vida que podrías poner en una línea de tiempo?",
+            "concept_name": "Línea de tiempo",
+            "core_insight": "Los eventos históricos se pueden organizar cronológicamente para entender mejor su secuencia y relación.",
+            "visual_caption": "Ejemplo de una línea de tiempo que muestra eventos importantes.",
+            "practical_example": "Si dibujas una línea de tiempo de tu vida, podrías poner tu nacimiento en el inicio, luego el primer día de escuela, y después tus vacaciones.",
+            "one_line_definition": "Una línea de tiempo muestra eventos en el orden en que ocurrieron.",
+            "visual_template_key": "timeline",
+            "common_misconception": "Pensar que todos los eventos importantes suceden al mismo tiempo.",
+            "misconception_explanation": "Es importante recordar que algunos eventos ocurren antes que otros, y la línea de tiempo nos ayuda a ver esto claramente.",
+            "student_friendly_explanation": "Imagina que dibujas una línea y marcas fechas importantes, como tu cumpleaños o el día que aprendiste algo nuevo. Así puedes ver qué pasó primero y qué pasó después."
+          },
+          "version": "0.1",
+          "metadata": {
+            "model": "gpt-4o-mini",
+            "enriched_at": "2026-05-16T00:58:03.249426+00:00"
+          },
+          "variants": {
+            "hint": {
+              "body": "Piensa en eventos importantes de tu vida. ¿Qué fechas puedes recordar que podrías poner en tu línea de tiempo?",
+              "title": "Pista para tu Línea de Tiempo",
+              "example": "Tal vez tu cumpleaños o el día que aprendiste a montar en bicicleta.",
+              "tuko_line": "Intenta recordar el primer evento que te gustaría incluir.",
+              "when_to_show": [
+                "first_struggle"
+              ],
+              "visual_template_key": "timeline"
+            },
+            "basic": {
+              "body": "Una línea de tiempo es una representación visual que muestra eventos en el orden en que ocurrieron. Ayuda a entender la secuencia de los eventos históricos.",
+              "title": "¿Qué es una Línea de Tiempo?",
+              "example": "Por ejemplo, si dibujas una línea de tiempo de tu vida, podrías incluir tu nacimiento, el primer día de escuela y tus vacaciones.",
+              "tuko_line": "Recuerda que cada evento tiene su lugar en la línea. ¿Cuál fue el primero?",
+              "when_to_show": [
+                "stuck"
+              ],
+              "visual_template_key": "timeline"
+            },
+            "deepening": {
+              "body": "¿Cómo crees que una línea de tiempo puede ayudarte a entender otros temas, como la historia de tu país?",
+              "title": "Conectando con Otros Conceptos",
+              "example": "Podrías usarla para ver cómo diferentes eventos históricos se relacionan entre sí.",
+              "tuko_line": "Piensa en qué otros eventos podrías incluir en una línea de tiempo más grande.",
+              "when_to_show": [
+                "after_success"
+              ],
+              "visual_template_key": "timeline"
+            },
+            "corrective": {
+              "body": "Parece que estás pensando que todos los eventos importantes suceden al mismo tiempo. Recuerda que algunos eventos ocurren antes que otros.",
+              "title": "Revisando tu Línea de Tiempo",
+              "example": "Por ejemplo, tu nacimiento ocurrió antes de tu primer día de escuela.",
+              "tuko_line": "Asegúrate de que los eventos estén en el orden correcto.",
+              "when_to_show": [
+                "misconception_detected"
+              ],
+              "visual_template_key": "timeline"
+            },
+            "reflective": {
+              "body": "Ahora que has creado tu línea de tiempo, ¿qué te ayudó a decidir qué eventos incluir?",
+              "title": "Reflexiona sobre tu Línea de Tiempo",
+              "example": "Piensa en cómo te sentiste al recordar esos momentos.",
+              "tuko_line": "Esa es una buena observación. ¿Cómo podrías usar esta estrategia en el futuro?",
+              "when_to_show": [
+                "reflection_opportunity_after_success"
+              ],
+              "visual_template_key": "timeline"
+            }
+          },
+          "adaptive_usage": {
+            "show_when": [
+              "student is exploring historical events",
+              "student is learning about chronological order",
+              "student has shown interest in personal history"
+            ],
+            "cooldown_rules": {
+              "reset_on_mastery": true,
+              "min_interval_minutes": 10,
+              "max_shows_per_session": 3
+            },
+            "do_not_show_when": [
+              "student is confident in using timelines",
+              "student is currently engaged in a different topic",
+              "student has just completed a timeline activity"
+            ],
+            "intervention_level": "minimal",
+            "recommended_step_types": [
+              "exploración",
+              "representación"
+            ],
+            "recommended_cognitive_types": [
+              "exploracion",
+              "representacion",
+              "razonamiento"
+            ]
+          },
+          "error_patterns": {
+            "patterns": [
+              {
+                "diagnostic_clue": "Pregunta a los estudiantes si pueden identificar qué evento ocurrió primero.",
+                "misconception_key": "simultaneous_events",
+                "visual_overlay_key": "timeline_error_overlay",
+                "corrective_feedback": "Recuerda que algunos eventos suceden antes que otros. Una línea de tiempo te ayuda a ver el orden correcto.",
+                "likely_wrong_answers": [
+                  "El nacimiento y el primer día de escuela ocurrieron al mismo tiempo.",
+                  "Las vacaciones y el cumpleaños son el mismo evento."
+                ],
+                "recommended_card_variant": "corrective",
+                "misconception_description": "Los estudiantes piensan que todos los eventos importantes suceden al mismo tiempo."
+              },
+              {
+                "diagnostic_clue": "Pide a los estudiantes que piensen en eventos que duraron más tiempo y cómo representarlos.",
+                "misconception_key": "linear_thinking",
+                "visual_overlay_key": "timeline_duration_overlay",
+                "corrective_feedback": "Es importante mostrar la duración entre eventos. Usa diferentes espacios para representar el tiempo que pasó entre ellos.",
+                "likely_wrong_answers": [
+                  "Todos los eventos deben estar a la misma distancia en la línea.",
+                  "No importa cuánto tiempo pasó entre los eventos."
+                ],
+                "recommended_card_variant": "corrective",
+                "misconception_description": "Los estudiantes creen que solo se pueden representar eventos en una línea recta sin considerar la duración entre ellos."
+              },
+              {
+                "diagnostic_clue": "Pregunta a los estudiantes qué eventos consideran más significativos en su vida.",
+                "misconception_key": "event_importance",
+                "visual_overlay_key": "timeline_importance_overlay",
+                "corrective_feedback": "Algunos eventos son más importantes que otros. Piensa en cuáles cambiaron tu vida de manera significativa.",
+                "likely_wrong_answers": [
+                  "El día que aprendí a montar en bicicleta es tan importante como el día de mi nacimiento.",
+                  "No hay eventos más importantes que otros."
+                ],
+                "recommended_card_variant": "corrective",
+                "misconception_description": "Los estudiantes creen que todos los eventos en la línea de tiempo son igualmente importantes."
+              },
+              {
+                "diagnostic_clue": "Pide a los estudiantes que expliquen por qué eligieron ese orden.",
+                "misconception_key": "event_sequence",
+                "visual_overlay_key": "timeline_sequence_overlay",
+                "corrective_feedback": "Recuerda que la línea de tiempo muestra el orden en que ocurrieron los eventos. Asegúrate de que estén en la secuencia correcta.",
+                "likely_wrong_answers": [
+                  "Poner el primer día de escuela después de las vacaciones.",
+                  "Colocar el cumpleaños después de aprender a leer."
+                ],
+                "recommended_card_variant": "corrective",
+                "misconception_description": "Los estudiantes no comprenden que los eventos deben seguir un orden cronológico."
+              },
+              {
+                "diagnostic_clue": "Pregunta a los estudiantes si conocen eventos históricos que podrían incluir.",
+                "misconception_key": "personal_events_only",
+                "visual_overlay_key": "timeline_scope_overlay",
+                "corrective_feedback": "Una línea de tiempo puede incluir eventos personales y también eventos importantes de la historia. Piensa en cómo se conectan.",
+                "likely_wrong_answers": [
+                  "Solo puedo poner mis cumpleaños y vacaciones.",
+                  "No puedo incluir eventos históricos o de otros."
+                ],
+                "recommended_card_variant": "corrective",
+                "misconception_description": "Los estudiantes piensan que solo pueden incluir eventos personales en la línea de tiempo."
+              }
+            ]
+          }
+        },
+        "enrichment_status": "completed",
+        "enrichment_version": "0.1",
+        "enriched_at": "2026-05-16T00:58:03.256672+00:00",
+        "updated_at": "2026-05-16T00:58:06.461844+00:00"
+      },
+      "visual": {
+        "id": "0de226dd-538d-4d9d-ab8d-691e48f1fa10",
+        "template_key": "timeline",
+        "template_name": "Línea de Tiempo",
+        "description": "Secuencia cronológica de eventos",
+        "visual_type": "timeline",
+        "renderer": "timeline",
+        "interaction_level": "hoverable",
+        "config": {
+          "events": [
+            {
+              "date": "1810",
+              "label": "Independencia",
+              "description": "Colombia se independiza de España"
+            },
+            {
+              "date": "1819",
+              "label": "República",
+              "description": "Formación de la Gran Colombia"
+            }
+          ],
+          "orientation": "vertical"
+        },
+        "default_props": {
+          "width": 600,
+          "height": 400
+        },
+        "asset_url": null,
+        "subject": "sociales",
+        "use_cases": [
+          "explanation",
+          "example"
+        ],
+        "supported_card_types": [
+          "basic",
+          "hint"
+        ],
+        "enriched_config": {
+          "labels": {
+            "title": "Línea de Tiempo de Eventos Sociales",
+            "legend": [],
+            "elements": [
+              {
+                "label": "Inicio de la Revolución Industrial",
+                "purpose": "Destacar un cambio significativo en la producción y la sociedad.",
+                "element_id": "event1"
+              },
+              {
+                "label": "Abolición de la esclavitud",
+                "purpose": "Ilustrar un avance en los derechos humanos y la justicia social.",
+                "element_id": "event2"
+              },
+              {
+                "label": "Movimiento por los derechos civiles",
+                "purpose": "Mostrar la lucha por la igualdad y su impacto en la sociedad moderna.",
+                "element_id": "event3"
+              }
+            ]
+          },
+          "source": "openai_enrichment",
+          "version": "0.1",
+          "metadata": {
+            "model": "gpt-4o-mini",
+            "renderer": "timeline",
+            "enriched_at": "2026-05-16T02:40:19.054214+00:00",
+            "visual_type": "timeline",
+            "template_key": "timeline"
+          },
+          "overlays": {
+            "hint": [
+              {
+                "target": "event1",
+                "message": "Considera cómo la Revolución Industrial cambió la vida diaria de las personas.",
+                "position": "bottom",
+                "overlay_id": "hint1",
+                "visual_action": "annotate"
+              }
+            ],
+            "corrective": [
+              {
+                "target": "event2",
+                "message": "Revisa cómo la abolición de la esclavitud se relaciona con otros eventos de derechos humanos.",
+                "position": "center",
+                "overlay_id": "corrective1",
+                "visual_action": "dim"
+              }
+            ],
+            "explanation": [
+              {
+                "target": "event1",
+                "message": "La Revolución Industrial marcó un cambio radical en la forma de producción y en la estructura social.",
+                "position": "top",
+                "overlay_id": "explanation1",
+                "visual_action": "highlight"
+              }
+            ],
+            "misconception": [
+              {
+                "target": "event2",
+                "message": "Algunos piensan que la abolición de la esclavitud fue un evento aislado, pero en realidad fue parte de un movimiento más amplio por los derechos humanos.",
+                "card_variant": "corrective",
+                "visual_action": "compare",
+                "misconception_key": "misconception1"
+              },
+              {
+                "target": "event3",
+                "message": "Es un error creer que el movimiento por los derechos civiles solo afectó a los Estados Unidos; sus principios han influido globalmente.",
+                "card_variant": "corrective",
+                "visual_action": "highlight",
+                "misconception_key": "misconception2"
+              }
+            ]
+          },
+          "animation_steps": [
+            {
+              "step": 1,
+              "action": "show",
+              "target": "timeline",
+              "caption": "Observa la línea de tiempo completa con todos los eventos destacados.",
+              "duration_ms": 500
+            },
+            {
+              "step": 2,
+              "action": "highlight",
+              "target": "event1",
+              "caption": "Inicio de la Revolución Industrial: un cambio significativo en la producción y la sociedad.",
+              "delay_ms": 300,
+              "duration_ms": 700
+            },
+            {
+              "step": 3,
+              "action": "highlight",
+              "target": "event2",
+              "caption": "Abolición de la esclavitud: un avance crucial en los derechos humanos.",
+              "delay_ms": 300,
+              "duration_ms": 700
+            },
+            {
+              "step": 4,
+              "action": "highlight",
+              "target": "event3",
+              "caption": "Movimiento por los derechos civiles: la lucha por la igualdad y su impacto.",
+              "delay_ms": 300,
+              "duration_ms": 700
+            },
+            {
+              "step": 5,
+              "action": "compare",
+              "target": "event2",
+              "caption": "Comparando la abolición de la esclavitud con otros eventos de derechos humanos.",
+              "delay_ms": 300,
+              "duration_ms": 900
+            },
+            {
+              "step": 6,
+              "action": "dim",
+              "target": "event2",
+              "caption": "Revisando la conexión entre la abolición de la esclavitud y otros movimientos.",
+              "delay_ms": 300,
+              "duration_ms": 700
+            },
+            {
+              "step": 7,
+              "action": "reveal",
+              "target": "timeline",
+              "caption": "Reflexiona sobre cómo estos eventos han influido en nuestra sociedad actual.",
+              "delay_ms": 300,
+              "duration_ms": 500
+            }
+          ],
+          "interaction_rules": {
+            "drag": [],
+            "click": [
+              {
+                "action": "reveal",
+                "target": "event1",
+                "feedback": "Haz clic para obtener más información sobre la Revolución Industrial.",
+                "conditions": []
+              },
+              {
+                "action": "reveal",
+                "target": "event2",
+                "feedback": "Haz clic para explorar el impacto de la abolición de la esclavitud.",
+                "conditions": []
+              },
+              {
+                "action": "reveal",
+                "target": "event3",
+                "feedback": "Haz clic para aprender sobre el movimiento por los derechos civiles.",
+                "conditions": []
+              }
+            ],
+            "hover": [
+              {
+                "action": "highlight",
+                "target": "event1",
+                "feedback": "Este evento marcó el inicio de un cambio significativo en la producción.",
+                "conditions": []
+              },
+              {
+                "action": "highlight",
+                "target": "event2",
+                "feedback": "Este evento representa un avance crucial en los derechos humanos.",
+                "conditions": []
+              },
+              {
+                "action": "highlight",
+                "target": "event3",
+                "feedback": "Este evento muestra la lucha por la igualdad en nuestra sociedad.",
+                "conditions": []
+              }
+            ],
+            "slider": [],
+            "fallback_static": "Las interacciones no están disponibles en este momento."
+          },
+          "pedagogical_visual": {
+            "caption": "Esta línea de tiempo ilustra los eventos clave en la historia social, permitiendo observar cómo se relacionan entre sí y su impacto en el presente.",
+            "main_question": "¿Cómo se conectan estos eventos a los cambios en nuestra sociedad?",
+            "student_focus": "Observa primero los eventos más destacados y sus fechas.",
+            "accessibility_text": "Esta línea de tiempo presenta una serie de eventos importantes en la historia social, organizados horizontalmente. Cada evento está marcado con su fecha correspondiente, mostrando la secuencia y la relación entre ellos. Los estudiantes deben prestar atención a cómo estos eventos influyen en la sociedad actual."
+          },
+          "usage_by_card_type": {
+            "hint": {
+              "emphasis": "Proporcionar pistas sobre eventos",
+              "interaction_level": "guided",
+              "recommended_overlays": [
+                "highlight"
+              ],
+              "recommended_animations": [
+                1
+              ]
+            },
+            "basic": {
+              "emphasis": "Destacar eventos clave",
+              "interaction_level": "passive",
+              "recommended_overlays": [],
+              "recommended_animations": [
+                1
+              ]
+            },
+            "deepening": {
+              "emphasis": "Profundizar en las relaciones entre eventos",
+              "interaction_level": "full",
+              "recommended_overlays": [
+                "connect"
+              ],
+              "recommended_animations": [
+                1
+              ]
+            },
+            "corrective": {
+              "emphasis": "Corregir conceptos erróneos sobre eventos",
+              "interaction_level": "guided",
+              "recommended_overlays": [
+                "highlight",
+                "dim"
+              ],
+              "recommended_animations": [
+                1
+              ]
+            },
+            "reflective": {
+              "emphasis": "Fomentar la reflexión sobre el impacto social",
+              "interaction_level": "exploratory",
+              "recommended_overlays": [
+                "annotate"
+              ],
+              "recommended_animations": [
+                1
+              ]
+            }
+          }
+        },
+        "enrichment_status": "completed",
+        "enrichment_version": "0.1",
+        "enriched_at": "2026-05-16T02:40:19.319062+00:00",
+        "updated_at": "2026-05-16T22:59:41.811376+00:00"
+      },
+      "associationHashes": {
+        "module": "32cb24643062ecbe18d5c5d440617e8597909b10dfc5aa9470d5357ade2ca752",
+        "card": "0b8fc04a715bb53f90130fd408383c0016a0366c479bd813ecec3a088c1a40c8",
+        "visual": "31804fd5ae96e760ecd2a7b3864be69625205ff40530bd84dca1684d29532339"
+      },
+      "findings": [
+        "La pregunta mezcla prácticas de periodos amplios sin fuentes ni delimitación y no verifica el objetivo sobre pensamiento del siglo XIX. Las pistas entregan la clave.",
+        "El objetivo está registrado en 6–7, pero corresponde al tramo 8–9 en la Guía 7 del MEN. El reemplazo se aísla en ese tramo, sin reclasificar automáticamente los demás pasos del módulo."
+      ],
+      "originalProbe": {
+        "answer": "[0,2,4]",
+        "actual": {
+          "result": "correct",
+          "feedback": "Revisa qué afirmaciones cumplen lo solicitado y por qué.",
+          "feedbackDetails": [
+            {
+              "label": "La esclavitud de personas africanas",
+              "selected": "La elegiste",
+              "expected": "Sí corresponde",
+              "correct": true,
+              "explanation": ""
+            },
+            {
+              "label": "El voto universal desde la antigüedad",
+              "selected": "No la elegiste",
+              "expected": "No corresponde",
+              "correct": true,
+              "explanation": ""
+            },
+            {
+              "label": "La Inquisición",
+              "selected": "La elegiste",
+              "expected": "Sí corresponde",
+              "correct": true,
+              "explanation": ""
+            },
+            {
+              "label": "La igualdad de género en todos los ámbitos",
+              "selected": "No la elegiste",
+              "expected": "No corresponde",
+              "correct": true,
+              "explanation": ""
+            },
+            {
+              "label": "La colonización de América",
+              "selected": "La elegiste",
+              "expected": "Sí corresponde",
+              "correct": true,
+              "explanation": ""
+            },
+            {
+              "label": "El derecho a la educación para todos",
+              "selected": "No la elegiste",
+              "expected": "No corresponde",
+              "correct": true,
+              "explanation": ""
+            }
+          ]
+        }
+      },
+      "candidateSha256": "3e8996332d65ccaf8ad713bd101b522f17cbf4ce361e150cb7ea249c4badc861"
+    },
+    {
+      "questionId": "724ff139-fac6-4f63-a296-56d9198e2889:q:0",
+      "sourceSha256": "4934ac5cc3cd9fd13031b7e16152486485b3348e95a81c34b9c3eaef66208536",
+      "module": {
+        "id": "e43bb575-a5d6-4bee-bc97-c7895421ae13",
+        "title": "¿Cómo analizar una situación social?",
+        "subject": "social_studies",
+        "grade_range": "1-3",
+        "core_concept": "estudios_sociales",
+        "learning_objective": "Hago preguntas sobre mí y sobre las organizaciones sociales a las que pertenezco (familia, curso, colegio, barrio…).",
+        "context": "Vamos a explorar estudios_sociales a partir de una situación sencilla y cercana.",
+        "content": {
+          "hints": [
+            "¿Qué sabes ya sobre estudios_sociales?",
+            "¿Qué parte del problema te da una pista?",
+            "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+          ],
+          "phases": [
+            {
+              "goal": "activar conocimiento previo",
+              "phase": "exploration",
+              "tutor_state": "thinking"
+            },
+            {
+              "goal": "construir el concepto central",
+              "phase": "concept_formation",
+              "tutor_state": "hint"
+            },
+            {
+              "goal": "aplicar con apoyo",
+              "phase": "guided_application",
+              "tutor_state": "encouragement"
+            },
+            {
+              "goal": "usar la idea en un nuevo contexto",
+              "phase": "transfer",
+              "tutor_state": "reflection"
+            },
+            {
+              "goal": "reflexionar sobre cómo cambió el pensamiento",
+              "phase": "metacognition",
+              "tutor_state": "reflection"
+            }
+          ],
+          "skills": [],
+          "concepts": [],
+          "metadata": {
+            "generated_from": "competency_unit",
+            "original_metadata": {
+              "axis": "me_aproximo_como_cientifico_social",
+              "axis_name": "me_aproximo_como_cientifico_social",
+              "structure_mode": "science"
+            }
+          },
+          "error_map": {
+            "generic_shallow_response": {
+              "visual": "concept_map",
+              "pattern": "respuesta corta sin explicación",
+              "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+              "description": "respuesta superficial o sin justificación",
+              "intervention_level": 1
+            }
+          },
+          "diagnostic": {
+            "type": "open_question",
+            "detects": [
+              "prior_knowledge",
+              "misconception",
+              "explanation_depth"
+            ],
+            "question": "¿Qué sabes sobre estudios_sociales?",
+            "expected_signals": []
+          },
+          "evaluation": {
+            "rubric": {
+              "comprension": "Identifica la idea central y la explica con sus palabras.",
+              "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+              "metacognicion": "Reconoce cómo cambió su forma de pensar.",
+              "transferencia": "Aplica la idea en una situación nueva.",
+              "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo."
+            },
+            "dimensions": [
+              "comprension",
+              "representacion",
+              "razonamiento",
+              "transferencia",
+              "metacognicion"
+            ],
+            "pass_condition": {
+              "minimum_level": "basic",
+              "minimum_dimensions": 3
+            }
+          },
+          "cognitive_type": "conceptual_understanding",
+          "visual_triggers": [
+            {
+              "trigger": "respuesta corta sin explicación",
+              "error_key": "generic_shallow_response",
+              "visual_template": "concept_map",
+              "intervention_level": 1
+            }
+          ],
+          "guided_exercises": [],
+          "reflection_prompts": [
+            "¿Qué cambió en tu forma de entender estudios_sociales?",
+            "¿Qué estrategia te ayudó más?",
+            "¿Dónde podrías aplicar esta idea en otro contexto?"
+          ]
+        },
+        "difficulty": 1,
+        "source": "standard",
+        "source_unit_id": "f1747ef1-d48c-4f01-b541-a4c1850a512a",
+        "is_active": true,
+        "order_index": 0,
+        "updated_at": "2026-05-13T03:06:53.134283+00:00"
+      },
+      "step": {
+        "id": "724ff139-fac6-4f63-a296-56d9198e2889",
+        "module_id": "e43bb575-a5d6-4bee-bc97-c7895421ae13",
+        "step_order": 2,
+        "step_type": "visual_exploration",
+        "cognitive_type": "representacion",
+        "phase": "representation",
+        "title": "Visualiza: estudios_sociales",
+        "instruction": "Observa cómo se representa estudios_sociales visualmente",
+        "content": {
+          "prompt": "Observa cómo se representa estudios_sociales visualmente",
+          "context": "",
+          "input_mode": "selection",
+          "concept_key": "estudios_sociales",
+          "concept_name": "estudios_sociales"
+        },
+        "expected_response_type": "selection",
+        "success_criteria": {
+          "min_confidence": "low",
+          "correct_required": false,
+          "requires_explanation": false,
+          "max_attempts_before_hint": 1
+        },
+        "concept_card_id": "7f7a0a85-40d3-4e06-8b31-c44a0e3a1e4a",
+        "visual_template_key": "concept_map",
+        "hint_policy": {
+          "allow_hint": true,
+          "hint_level_sequence": [
+            "visual",
+            "concept_card"
+          ],
+          "show_card_after_attempts": 2,
+          "show_card_if_time_seconds": 90
+        },
+        "feedback_policy": {
+          "adaptive": true,
+          "immediate": true,
+          "show_visual": true,
+          "show_explanation": true
+        },
+        "next_step_logic": {
+          "if_correct": "next",
+          "if_mastered": "next",
+          "if_struggling": "remedial_representation",
+          "if_incorrect_once": "show_visual",
+          "if_incorrect_twice": "show_concept_card"
+        },
+        "difficulty": 2,
+        "enriched_content": {
+          "type": "option",
+          "context": "La escuela es una organización social donde niños y niñas aprenden juntos. Es un lugar donde hacemos amigos, compartimos, aprendemos y nos ayudamos unos a otros. Los maestros nos guían para aprender cosas nuevas cada día.",
+          "options": [
+            "Aprendemos y hacemos amigos",
+            "Comemos pizza todo el día",
+            "Dormimos siempre",
+            "Vemos televisión solamente"
+          ],
+          "question": "¿Qué hacemos en la escuela como organización social?",
+          "step_config": {
+            "hints": [
+              "Piensa en lo que haces cada día cuando vas a la escuela.",
+              "En la escuela hay maestros que te enseñan cosas nuevas.",
+              "También es donde conoces y juegas con otros niños de tu edad."
+            ],
+            "expected_time": 50,
+            "concept_card_key": "school_as_social_organization",
+            "reflection_prompts": [
+              "¿Qué es lo que más te gusta hacer en la escuela?",
+              "¿Con quién compartes en la escuela?"
+            ],
+            "visual_template_key": null,
+            "difficulty_indicator": "easy"
+          },
+          "correct_answer": "Aprendemos y hacemos amigos",
+          "expected_answer": {
+            "type": "option",
+            "misconceptions": [
+              {
+                "pattern": "Opción B",
+                "card_key": "school_purpose_misconception",
+                "severity": "medium",
+                "explanation": "En la escuela sí comemos, pero el propósito principal es aprender y convivir con otros niños. No pasamos todo el día comiendo.",
+                "misconception_key": "confuses_school_with_recreation",
+                "common_among_grade": "1-3"
+              },
+              {
+                "pattern": "Opción C",
+                "card_key": "school_purpose_misconception",
+                "severity": "medium",
+                "explanation": "En la escuela a veces descansamos, pero vamos principalmente para aprender, jugar y hacer amigos.",
+                "misconception_key": "confuses_school_with_rest",
+                "common_among_grade": "1-3"
+              },
+              {
+                "pattern": "Opción D",
+                "card_key": "school_purpose_misconception",
+                "severity": "medium",
+                "explanation": "En la escuela a veces vemos videos educativos, pero hacemos muchas más cosas: aprender, jugar, compartir y hacer amigos.",
+                "misconception_key": "confuses_school_with_entertainment",
+                "common_among_grade": "1-3"
+              }
+            ],
+            "correct_options": [
+              0
+            ]
+          },
+          "tutor_responses": {
+            "correct": [
+              "¡Perfecto! En la escuela aprendemos y hacemos amigos.",
+              "¡Muy bien! La escuela es donde crecemos aprendiendo con otros niños.",
+              "¡Exacto! En la escuela compartimos, aprendemos y jugamos juntos."
+            ],
+            "encouragement": [
+              "Vas muy bien, sigue pensando.",
+              "Estás cerca de la respuesta correcta.",
+              "Me gusta cómo estás pensando, intenta otra vez."
+            ],
+            "incorrect_attempt_1": [
+              "Mmm, piensa en las actividades más importantes que haces en la escuela.",
+              "Recuerda para qué vas cada día a la escuela.",
+              "Piensa: ¿qué es lo principal que haces con tus compañeros y maestros?"
+            ],
+            "incorrect_attempt_2": [
+              "La escuela es un lugar especial para aprender cosas nuevas.",
+              "En la escuela conoces a otros niños y niñas con quienes compartes.",
+              "Piensa en lo que haces con tus compañeros de clase cada día."
+            ]
+          },
+          "cognitive_dimension": "comprension"
+        },
+        "enrichment_status": "completed",
+        "enrichment_version": "0.1",
+        "enriched_at": "2026-05-25T14:12:50.893+00:00",
+        "updated_at": "2026-05-25T21:43:25.856227+00:00"
+      },
+      "card": {
+        "id": "7f7a0a85-40d3-4e06-8b31-c44a0e3a1e4a",
+        "concept_key": "estudios_sociales",
+        "concept_name": "estudios_sociales",
+        "card_type": "basic",
+        "title": "¿Cómo analizar una situación social?",
+        "body": "Hago preguntas sobre mí y sobre las organizaciones sociales a las que pertenezco (familia, curso, colegio, barrio…).",
+        "explanation": null,
+        "one_line_definition": "Hago preguntas sobre mí y sobre las organizaciones sociales a las que pertenezco (familia, curso, colegio, barrio…).",
+        "core_insight": "Comprender estudios_sociales es fundamental",
+        "example": {
+          "context": "",
+          "problem": "",
+          "solution": "",
+          "visual_ref": ""
+        },
+        "common_misconception": "respuesta superficial o sin justificación",
+        "hint_prompt": "¿Qué sabes ya sobre estudios_sociales?",
+        "visual_template_key": "concept_map",
+        "visual_template": null,
+        "subject": "sociales",
+        "grade_range": "1",
+        "difficulty": 1,
+        "related_concepts": [
+          "plano_cartesiano",
+          "proporcionalidad",
+          "argumentacion",
+          "ecosistema",
+          "estadistica",
+          "probabilidad",
+          "volumen",
+          "lectura_inferencial",
+          "fracciones",
+          "movimiento"
+        ],
+        "enriched_content": {
+          "source": "openai_enrichment",
+          "refined": {
+            "id": "7f7a0a85-40d3-4e06-8b31-c44a0e3a1e4a",
+            "subject": "sociales",
+            "concept_key": "estudios_sociales",
+            "grade_range": "1",
+            "hint_prompt": "¿Qué tipo de mapa has visto antes? ¿Cómo te ayuda a moverte?",
+            "concept_name": "Representación de la Tierra",
+            "core_insight": "Entender cómo se representa la Tierra ayuda a ubicarnos en el espacio.",
+            "requirements": {
+              "generate": [
+                "concept_name",
+                "one_line_definition",
+                "core_insight",
+                "student_friendly_explanation",
+                "practical_example",
+                "common_misconception",
+                "misconception_explanation",
+                "hint_prompt",
+                "visual_caption"
+              ],
+              "preserve": [
+                "concept_key",
+                "subject",
+                "grade_range",
+                "visual_template_key"
+              ],
+              "constraints": {
+                "brief": true,
+                "non_judgmental": true,
+                "age_appropriate": true,
+                "culturally_inclusive": true,
+                "one_idea_one_example": true
+              }
+            },
+            "visual_caption": "Ejemplo de un mapa que muestra diferentes lugares.",
+            "practical_example": "Cuando miras un mapa de tu ciudad, puedes ver dónde vives y cómo llegar a la escuela.",
+            "one_line_definition": "La Tierra se puede representar de diferentes maneras, como mapas y globos.",
+            "visual_template_key": "concept_map",
+            "common_misconception": "Pensar que los mapas son la misma cosa que la Tierra.",
+            "misconception_explanation": "Los mapas son dibujos que representan la Tierra, pero no son la Tierra misma.",
+            "student_friendly_explanation": "Los mapas y globos son herramientas que nos muestran dónde están las cosas en la Tierra."
+          },
+          "version": "0.1",
+          "metadata": {
+            "model": "gpt-4o-mini",
+            "enriched_at": "2026-05-16T00:55:42.867327+00:00"
+          },
+          "variants": {
+            "hint": {
+              "body": "Los mapas nos muestran lugares, pero no son lo mismo que la Tierra. ¿Qué tipo de cosas puedes ver en un mapa?",
+              "title": "Piensa en los mapas",
+              "example": "Un mapa de tu escuela te muestra dónde están las aulas y el patio.",
+              "tuko_line": "Recuerda que los mapas son dibujos que representan lugares.",
+              "when_to_show": [
+                "two_failed_attempts"
+              ],
+              "visual_template_key": "concept_map"
+            },
+            "basic": {
+              "body": "Un mapa es una representación de un lugar que nos ayuda a encontrar caminos y ubicaciones. Por ejemplo, un mapa de tu ciudad muestra calles y edificios.",
+              "title": "¿Qué es un mapa?",
+              "example": "Mira el mapa que tienes en casa. ¿Dónde está tu casa en el mapa?",
+              "tuko_line": "Los mapas son herramientas útiles para orientarnos en el espacio.",
+              "when_to_show": [
+                "stuck"
+              ],
+              "visual_template_key": "concept_map"
+            },
+            "deepening": {
+              "body": "¿Cómo crees que los mapas se relacionan con otros temas que has aprendido, como la ubicación de países o continentes?",
+              "title": "Conexiones con otros conceptos",
+              "example": "Los mapas de países también nos ayudan a entender dónde están las culturas y las lenguas.",
+              "tuko_line": "Conectar ideas puede enriquecer tu aprendizaje sobre el mundo.",
+              "when_to_show": [
+                "after_success"
+              ],
+              "visual_template_key": "concept_map"
+            },
+            "corrective": {
+              "body": "Es común pensar que un mapa es igual a la Tierra. Pero un mapa es solo una representación, no el lugar real.",
+              "title": "Entendiendo los mapas",
+              "example": "Cuando miras un mapa, estás viendo una imagen de la Tierra, no la Tierra misma.",
+              "tuko_line": "Es importante recordar que los mapas son herramientas, no el lugar real.",
+              "when_to_show": [
+                "misconception_detected"
+              ],
+              "visual_template_key": "concept_map"
+            },
+            "reflective": {
+              "body": "Ahora que sabes sobre los mapas, ¿cómo te ayuda un mapa a moverte por tu ciudad?",
+              "title": "Reflexiona sobre el mapa",
+              "example": "Piensa en un momento en que usaste un mapa. ¿Qué aprendiste de esa experiencia?",
+              "tuko_line": "Reflexionar sobre el uso de mapas puede mejorar tu comprensión espacial.",
+              "when_to_show": [
+                "reflection_opportunity_after_success"
+              ],
+              "visual_template_key": "concept_map"
+            }
+          },
+          "adaptive_usage": {
+            "show_when": [
+              "student_is_struggling_with_location_concepts",
+              "student_requests_help_with_maps",
+              "student_makes_two failed_attempts_on_location_questions"
+            ],
+            "cooldown_rules": {
+              "reset_on_mastery": true,
+              "min_interval_minutes": 10,
+              "max_shows_per_session": 3
+            },
+            "do_not_show_when": [
+              "student_is_correct_and_flowing",
+              "student_is_in_exploration_phase",
+              "student_has_recently_seen_this_card"
+            ],
+            "intervention_level": "moderate",
+            "recommended_step_types": [
+              "exploracion",
+              "representacion"
+            ],
+            "recommended_cognitive_types": [
+              "representacion",
+              "razonamiento"
+            ]
+          },
+          "error_patterns": {
+            "patterns": [
+              {
+                "diagnostic_clue": "Pregunta al estudiante si un mapa puede mostrar todo lo que hay en la Tierra.",
+                "misconception_key": "map_equals_earth",
+                "visual_overlay_key": "map_vs_earth_overlay",
+                "corrective_feedback": "Recuerda que un mapa es solo una representación. La Tierra es mucho más grande y compleja.",
+                "likely_wrong_answers": [
+                  "El mapa es la Tierra.",
+                  "Cuando miro un mapa, veo la Tierra.",
+                  "Los mapas son reales, como la Tierra."
+                ],
+                "recommended_card_variant": "corrective",
+                "misconception_description": "Los estudiantes piensan que un mapa es lo mismo que la Tierra."
+              },
+              {
+                "diagnostic_clue": "Pregunta si un mapa puede mostrar detalles pequeños como árboles o personas.",
+                "misconception_key": "maps_show_all_details",
+                "visual_overlay_key": "map_detail_overlay",
+                "corrective_feedback": "Los mapas simplifican la realidad. No pueden mostrar cada detalle, solo lo más importante.",
+                "likely_wrong_answers": [
+                  "Un mapa tiene todo lo que hay en la Tierra.",
+                  "Los mapas son fotos de la Tierra.",
+                  "Puedo ver cada árbol en un mapa."
+                ],
+                "recommended_card_variant": "corrective",
+                "misconception_description": "Los estudiantes creen que los mapas muestran todos los detalles de la Tierra."
+              },
+              {
+                "diagnostic_clue": "Pregunta si conocen diferentes tipos de mapas, como mapas políticos o topográficos.",
+                "misconception_key": "only_one_type_of_map",
+                "visual_overlay_key": "map_types_overlay",
+                "corrective_feedback": "Existen muchos tipos de mapas, cada uno con un propósito diferente. ¡Explora algunos más!",
+                "likely_wrong_answers": [
+                  "Solo existen mapas de carreteras.",
+                  "Un mapa es siempre un mapa físico.",
+                  "No hay otros tipos de mapas."
+                ],
+                "recommended_card_variant": "corrective",
+                "misconception_description": "Los estudiantes piensan que solo hay un tipo de mapa."
+              },
+              {
+                "diagnostic_clue": "Pregunta si han visto un mapa que tenga información incorrecta.",
+                "misconception_key": "maps_are_infallible",
+                "visual_overlay_key": "map_accuracy_overlay",
+                "corrective_feedback": "Los mapas pueden tener errores. Siempre es bueno verificar con otras fuentes.",
+                "likely_wrong_answers": [
+                  "Los mapas nunca mienten.",
+                  "Siempre puedo confiar en un mapa.",
+                  "No hay errores en los mapas."
+                ],
+                "recommended_card_variant": "corrective",
+                "misconception_description": "Los estudiantes creen que los mapas son siempre precisos y no pueden tener errores."
+              },
+              {
+                "diagnostic_clue": "Pregunta cómo se ve un globo en comparación con un mapa.",
+                "misconception_key": "maps_and_globes_are_same",
+                "visual_overlay_key": "map_globe_overlay",
+                "corrective_feedback": "Un globo muestra la Tierra en 3D, mientras que un mapa es plano. Cada uno tiene sus ventajas.",
+                "likely_wrong_answers": [
+                  "Un globo es solo un mapa en 3D.",
+                  "No hay diferencia entre un mapa y un globo.",
+                  "Ambos muestran la misma información."
+                ],
+                "recommended_card_variant": "corrective",
+                "misconception_description": "Los estudiantes piensan que un globo y un mapa son lo mismo."
+              }
+            ]
+          }
+        },
+        "enrichment_status": "completed",
+        "enrichment_version": "0.1",
+        "enriched_at": "2026-05-16T00:55:42.874508+00:00",
+        "updated_at": "2026-05-16T00:55:46.101031+00:00"
+      },
+      "visual": {
+        "id": "7b2c3c13-f0e6-4f15-9446-6e9a223826ef",
+        "template_key": "concept_map",
+        "template_name": "Concept Map",
+        "description": "Plantilla visual para concept map",
+        "visual_type": "concept_map",
+        "renderer": "concept_map",
+        "interaction_level": "hoverable",
+        "config": {
+          "edges": [],
+          "nodes": [],
+          "layout": "hierarchical",
+          "caption": "Mapa conceptual",
+          "showLabels": true
+        },
+        "default_props": {
+          "width": 400,
+          "height": 300,
+          "responsive": true
+        },
+        "asset_url": null,
+        "subject": "sociales",
+        "use_cases": [
+          "explanation",
+          "example",
+          "misconception"
+        ],
+        "supported_card_types": [
+          "basic",
+          "hint",
+          "corrective",
+          "reflective"
+        ],
+        "enriched_config": {
+          "labels": {
+            "title": "Mapa Conceptual de Sociales",
+            "legend": [],
+            "elements": [
+              {
+                "label": "Cultura",
+                "purpose": "Representa la diversidad de costumbres y tradiciones.",
+                "element_id": "concept1"
+              },
+              {
+                "label": "Sociedad",
+                "purpose": "Muestra cómo las personas interactúan y se organizan.",
+                "element_id": "concept2"
+              },
+              {
+                "label": "Economía",
+                "purpose": "Indica cómo se producen y distribuyen bienes y servicios.",
+                "element_id": "concept3"
+              },
+              {
+                "label": "Política",
+                "purpose": "Refleja cómo se toman decisiones y se establecen normas.",
+                "element_id": "concept4"
+              }
+            ]
+          },
+          "source": "openai_enrichment",
+          "version": "0.1",
+          "metadata": {
+            "model": "gpt-4o-mini",
+            "renderer": "concept_map",
+            "enriched_at": "2026-05-16T02:48:02.382074+00:00",
+            "visual_type": "concept_map",
+            "template_key": "concept_map"
+          },
+          "overlays": {
+            "hint": [
+              {
+                "target": "concept1",
+                "message": "Piensa en ejemplos de cómo la cultura se manifiesta en tu vida diaria.",
+                "position": "center",
+                "overlay_id": "hint1",
+                "visual_action": "annotate"
+              }
+            ],
+            "corrective": [
+              {
+                "target": "concept3",
+                "message": "Recuerda que la economía no solo se trata de dinero, sino de cómo se distribuyen los recursos en la sociedad.",
+                "position": "right",
+                "overlay_id": "corrective1",
+                "visual_action": "connect"
+              }
+            ],
+            "explanation": [
+              {
+                "target": "concept1",
+                "message": "La cultura influye en todos los aspectos de la sociedad, incluyendo la economía y la política.",
+                "position": "top",
+                "overlay_id": "explanation1",
+                "visual_action": "highlight"
+              }
+            ],
+            "misconception": [
+              {
+                "target": "concept2",
+                "message": "Algunas personas piensan que sociedad y cultura son lo mismo, pero son conceptos diferentes que se interrelacionan.",
+                "card_variant": "basic",
+                "visual_action": "compare",
+                "misconception_key": "misconception1"
+              },
+              {
+                "target": "concept3",
+                "message": "Es un error pensar que la economía no afecta a la política; en realidad, están profundamente conectadas.",
+                "card_variant": "corrective",
+                "visual_action": "highlight",
+                "misconception_key": "misconception2"
+              },
+              {
+                "target": "concept4",
+                "message": "Algunos creen que la política no influye en la cultura, pero esto no es cierto; las decisiones políticas pueden cambiar costumbres y tradiciones.",
+                "card_variant": "reflective",
+                "visual_action": "dim",
+                "misconception_key": "misconception3"
+              }
+            ]
+          },
+          "animation_steps": [
+            {
+              "step": 1,
+              "action": "show",
+              "target": "concept1",
+              "caption": "Observa el concepto de Cultura, que es fundamental en nuestras interacciones sociales.",
+              "duration_ms": 500
+            },
+            {
+              "step": 2,
+              "action": "highlight",
+              "target": "concept1",
+              "caption": "La Cultura influye en la Sociedad, Economía y Política.",
+              "duration_ms": 700
+            },
+            {
+              "step": 3,
+              "action": "show",
+              "target": "concept2",
+              "caption": "Ahora, veamos el concepto de Sociedad.",
+              "delay_ms": 300,
+              "duration_ms": 500
+            },
+            {
+              "step": 4,
+              "action": "compare",
+              "target": "concept2",
+              "caption": "Recuerda que Sociedad y Cultura son diferentes, pero están interrelacionadas.",
+              "duration_ms": 800
+            },
+            {
+              "step": 5,
+              "action": "show",
+              "target": "concept3",
+              "caption": "A continuación, el concepto de Economía.",
+              "delay_ms": 300,
+              "duration_ms": 500
+            },
+            {
+              "step": 6,
+              "action": "connect",
+              "target": "concept3",
+              "caption": "La Economía está conectada con la Política y la Sociedad.",
+              "duration_ms": 700
+            },
+            {
+              "step": 7,
+              "action": "reveal",
+              "target": "concept4",
+              "caption": "Finalmente, el concepto de Política, que influye en todos los demás.",
+              "duration_ms": 500
+            }
+          ],
+          "interaction_rules": {
+            "drag": [],
+            "click": [
+              {
+                "action": "reveal",
+                "target": "concept1",
+                "feedback": "Haz clic para obtener más información sobre la cultura.",
+                "conditions": []
+              },
+              {
+                "action": "reveal",
+                "target": "concept2",
+                "feedback": "Haz clic para explorar cómo interactúan las sociedades.",
+                "conditions": []
+              },
+              {
+                "action": "reveal",
+                "target": "concept3",
+                "feedback": "Haz clic para aprender sobre la economía y su impacto.",
+                "conditions": []
+              },
+              {
+                "action": "reveal",
+                "target": "concept4",
+                "feedback": "Haz clic para entender el papel de la política.",
+                "conditions": []
+              }
+            ],
+            "hover": [
+              {
+                "action": "highlight",
+                "target": "concept1",
+                "feedback": "Este concepto es clave para entender la diversidad cultural.",
+                "conditions": []
+              },
+              {
+                "action": "highlight",
+                "target": "concept2",
+                "feedback": "Observa cómo la sociedad se organiza y se relaciona.",
+                "conditions": []
+              },
+              {
+                "action": "highlight",
+                "target": "concept3",
+                "feedback": "La economía es fundamental para la producción y distribución.",
+                "conditions": []
+              },
+              {
+                "action": "highlight",
+                "target": "concept4",
+                "feedback": "La política determina las normas y decisiones en la sociedad.",
+                "conditions": []
+              }
+            ],
+            "slider": [],
+            "fallback_static": "Las interacciones no están disponibles en este mapa conceptual."
+          },
+          "pedagogical_visual": {
+            "caption": "Este mapa conceptual ilustra las relaciones entre los conceptos clave en el tema de sociales, ayudando a visualizar cómo se conectan entre sí.",
+            "main_question": "¿Cómo se relacionan los conceptos en este mapa?",
+            "student_focus": "Observa primero los conceptos centrales y cómo se conectan entre ellos.",
+            "accessibility_text": "Este mapa conceptual muestra diferentes conceptos relacionados con el tema de sociales. Cada nodo representa un concepto clave, y las líneas indican las relaciones entre ellos. Los estudiantes deben observar cómo estos conceptos interactúan y se influencian mutuamente."
+          },
+          "usage_by_card_type": {
+            "hint": {
+              "emphasis": "Proveer pistas sobre relaciones clave.",
+              "interaction_level": "guided",
+              "recommended_overlays": [
+                "highlight"
+              ],
+              "recommended_animations": [
+                1
+              ]
+            },
+            "basic": {
+              "emphasis": "Visualizar conexiones entre conceptos.",
+              "interaction_level": "passive",
+              "recommended_overlays": [],
+              "recommended_animations": [
+                1
+              ]
+            },
+            "deepening": {
+              "emphasis": "Profundizar en las relaciones entre conceptos.",
+              "interaction_level": "full",
+              "recommended_overlays": [
+                "connect",
+                "zoom"
+              ],
+              "recommended_animations": [
+                1
+              ]
+            },
+            "corrective": {
+              "emphasis": "Corregir malentendidos sobre conceptos.",
+              "interaction_level": "guided",
+              "recommended_overlays": [
+                "dim",
+                "compare"
+              ],
+              "recommended_animations": [
+                1
+              ]
+            },
+            "reflective": {
+              "emphasis": "Fomentar la reflexión sobre las conexiones.",
+              "interaction_level": "exploratory",
+              "recommended_overlays": [
+                "annotate"
+              ],
+              "recommended_animations": [
+                1
+              ]
+            }
+          }
+        },
+        "enrichment_status": "completed",
+        "enrichment_version": "0.1",
+        "enriched_at": "2026-05-16T02:48:02.644976+00:00",
+        "updated_at": "2026-05-16T02:48:05.645405+00:00"
+      },
+      "associationHashes": {
+        "module": "b0693ac76d7ec825a7449e114ae14e7504028fb92488138e1defe90aa4267544",
+        "card": "3d19830f0c306a606e135d37709bd1f76d59e035409ccb34755d0d533fc9f94f",
+        "visual": "cfcf557492012ef73985b487ce8d2cd9ccdc1e4391ddee1ebd36f18be5591e07"
+      },
+      "findings": [
+        "Aprender y hacer amigos es una respuesta admisible: no se declara falsa.",
+        "Los distractores caricaturescos y la pregunta genérica no verifican la formulación de preguntas del objetivo. La tarjeta compartida se enriqueció como mapas/globos, sin una ayuda específica para indagar sobre el curso."
+      ],
+      "originalProbe": {
+        "answer": "0",
+        "actual": {
+          "result": "correct",
+          "feedback": "Revisa qué afirmaciones cumplen lo solicitado y por qué.",
+          "feedbackDetails": [
+            {
+              "label": "Aprendemos y hacemos amigos",
+              "selected": "La elegiste",
+              "expected": "Sí corresponde",
+              "correct": true,
+              "explanation": ""
+            },
+            {
+              "label": "Comemos pizza todo el día",
+              "selected": "No la elegiste",
+              "expected": "No corresponde",
+              "correct": true,
+              "explanation": ""
+            },
+            {
+              "label": "Dormimos siempre",
+              "selected": "No la elegiste",
+              "expected": "No corresponde",
+              "correct": true,
+              "explanation": ""
+            },
+            {
+              "label": "Vemos televisión solamente",
+              "selected": "No la elegiste",
+              "expected": "No corresponde",
+              "correct": true,
+              "explanation": ""
+            }
+          ]
+        }
+      },
+      "candidateSha256": "7c8205b13f15ca3f211743868dd16b6364de1d5fbb174b937bd42eaedff49bd8"
+    },
+    {
+      "questionId": "7f386848-d365-4931-9371-bcef21ec7c10:q:0",
+      "sourceSha256": "71fe70bc714bae28ffb374e684602778e80583834a01d3f51b1d849290165c32",
+      "module": {
+        "id": "50723c30-801e-4fcf-a0d9-bc8aabf7d392",
+        "title": "Derechos y Responsabilidades",
+        "subject": "social_studies",
+        "grade_range": "1-3",
+        "core_concept": "derechos_y_responsabilidades",
+        "learning_objective": "Identifico y respeto mis derechos y los de otras personas, y entiendo que tengo responsabilidades en mi familia, escuela y comunidad.",
+        "context": "Vamos a explorar historia a partir de una situación sencilla y cercana.",
+        "content": {
+          "hints": [
+            "¿Qué sabes ya sobre historia?",
+            "¿Qué parte del problema te da una pista?",
+            "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+          ],
+          "phases": [
+            {
+              "goal": "activar conocimiento previo",
+              "phase": "exploration",
+              "tutor_state": "thinking"
+            },
+            {
+              "goal": "construir el concepto central",
+              "phase": "concept_formation",
+              "tutor_state": "hint"
+            },
+            {
+              "goal": "aplicar con apoyo",
+              "phase": "guided_application",
+              "tutor_state": "encouragement"
+            },
+            {
+              "goal": "usar la idea en un nuevo contexto",
+              "phase": "transfer",
+              "tutor_state": "reflection"
+            },
+            {
+              "goal": "reflexionar sobre cómo cambió el pensamiento",
+              "phase": "metacognition",
+              "tutor_state": "reflection"
+            }
+          ],
+          "skills": [],
+          "concepts": [
+            "historia"
+          ],
+          "metadata": {
+            "generated_from": "competency_unit",
+            "original_metadata": {
+              "axis": "me_aproximo_como_cientifico_social",
+              "axis_name": "me_aproximo_como_cientifico_social",
+              "structure_mode": "science"
+            }
+          },
+          "error_map": {
+            "generic_shallow_response": {
+              "visual": "concept_map",
+              "pattern": "respuesta corta sin explicación",
+              "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+              "description": "respuesta superficial o sin justificación",
+              "intervention_level": 1
+            }
+          },
+          "diagnostic": {
+            "type": "open_question",
+            "detects": [
+              "prior_knowledge",
+              "misconception",
+              "explanation_depth"
+            ],
+            "question": "¿Qué sabes sobre historia?",
+            "expected_signals": [
+              "historia"
+            ]
+          },
+          "evaluation": {
+            "rubric": {
+              "comprension": "Identifica la idea central y la explica con sus palabras.",
+              "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+              "metacognicion": "Reconoce cómo cambió su forma de pensar.",
+              "transferencia": "Aplica la idea en una situación nueva.",
+              "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo."
+            },
+            "dimensions": [
+              "comprension",
+              "representacion",
+              "razonamiento",
+              "transferencia",
+              "metacognicion"
+            ],
+            "pass_condition": {
+              "minimum_level": "basic",
+              "minimum_dimensions": 3
+            }
+          },
+          "cognitive_type": "conceptual_understanding",
+          "visual_triggers": [
+            {
+              "trigger": "respuesta corta sin explicación",
+              "error_key": "generic_shallow_response",
+              "visual_template": "concept_map",
+              "intervention_level": 1
+            }
+          ],
+          "guided_exercises": [],
+          "reflection_prompts": [
+            "¿Qué cambió en tu forma de entender historia?",
+            "¿Qué estrategia te ayudó más?",
+            "¿Dónde podrías aplicar esta idea en otro contexto?"
+          ]
+        },
+        "difficulty": 1,
+        "source": "standard",
+        "source_unit_id": "d096fe4a-2728-4112-a266-68d2cd062081",
+        "is_active": true,
+        "order_index": 0,
+        "updated_at": "2026-05-28T14:53:44.113925+00:00"
+      },
+      "step": {
+        "id": "7f386848-d365-4931-9371-bcef21ec7c10",
+        "module_id": "50723c30-801e-4fcf-a0d9-bc8aabf7d392",
+        "step_order": 4,
+        "step_type": "classification_task",
+        "cognitive_type": "clasificacion",
+        "phase": "classification",
+        "title": "Clasifica: ejemplos de historia",
+        "instruction": "¿Cuáles de estos son ejemplos de historia y cuáles no?",
+        "content": {
+          "prompt": "¿Cuáles de estos son ejemplos de historia y cuáles no?",
+          "context": "",
+          "input_mode": "drag_drop",
+          "concept_key": "historia",
+          "concept_name": "historia"
+        },
+        "expected_response_type": "drag_drop",
+        "success_criteria": {
+          "min_confidence": "medium",
+          "correct_required": true,
+          "requires_explanation": false,
+          "max_attempts_before_hint": 2
+        },
+        "concept_card_id": "93480eef-916b-4c33-ab33-6209ebf73c07",
+        "visual_template_key": "timeline",
+        "hint_policy": {
+          "allow_hint": true,
+          "hint_level_sequence": [
+            "short_hint",
+            "concept_card"
+          ],
+          "show_card_after_attempts": 2,
+          "show_card_if_time_seconds": 120
+        },
+        "feedback_policy": {
+          "adaptive": true,
+          "immediate": true,
+          "show_visual": false,
+          "show_explanation": true
+        },
+        "next_step_logic": {
+          "if_correct": "next",
+          "if_mastered": "next",
+          "if_struggling": "remedial_classification",
+          "if_incorrect_once": "retry_with_hint",
+          "if_incorrect_twice": "show_concept_card"
+        },
+        "difficulty": 3,
+        "enriched_content": {
+          "hint": "Los derechos protegen cosas importantes para tu bienestar, no son caprichos.",
+          "type": "multiple_select",
+          "phase": "classification",
+          "context": "La Convención sobre los Derechos del Niño establece una serie de derechos fundamentales que todos los países deben garantizar. Estos derechos cubren diferentes aspectos de la vida: supervivencia, desarrollo, protección y participación. Conocer la diversidad de estos derechos nos ayuda a tener una visión integral de lo que necesitan los niños para desarrollarse plenamente en un ambiente seguro y estimulante.",
+          "options": [
+            "Derecho a tener un nombre y una familia",
+            "Derecho a ver televisión todo el día",
+            "Derecho a la salud y atención médica",
+            "Derecho a no bañarse nunca",
+            "Derecho a jugar y descansar",
+            "Derecho a la protección contra el maltrato"
+          ],
+          "question": "Marca TODOS los derechos que tienen los niños:",
+          "step_config": {
+            "hints": [
+              "Los derechos protegen cosas importantes para tu bienestar, no son caprichos.",
+              "Piensa en qué necesitas para crecer sano, seguro y feliz.",
+              "Las correctas son: nombre y familia, salud, jugar y protección."
+            ],
+            "expected_time": 75,
+            "concept_card_key": "tipos_derechos",
+            "reflection_prompts": [
+              "¿Por qué el juego es un derecho?",
+              "¿Qué significa tener derecho a la protección?"
+            ],
+            "visual_template_key": null,
+            "difficulty_indicator": "medium"
+          },
+          "correct_options": [
+            0,
+            2,
+            4,
+            5
+          ],
+          "expected_answer": {
+            "type": "multiple_select",
+            "explanation": "¡Muy bien! Los derechos incluyen tener familia, salud, juego y protección. Ver TV todo el día o no bañarse no son derechos.",
+            "misconceptions": [
+              {
+                "hint": "Ver TV está bien, pero hacerlo todo el día no es bueno para tu salud ni tu aprendizaje.",
+                "pattern": "includes_1",
+                "misconception_key": "confunde_derecho_con_entretenimiento_ilimitado"
+              },
+              {
+                "hint": "La higiene es importante para tu salud. Los derechos buscan tu bienestar, no descuidarlo.",
+                "pattern": "includes_3",
+                "misconception_key": "confunde_derecho_con_rechazo_higiene"
+              }
+            ],
+            "correct_options": [
+              0,
+              2,
+              4,
+              5
+            ],
+            "evaluation_strategy": "multiple_select"
+          },
+          "tutor_responses": {
+            "correct": [
+              "¡Perfecto! Identificaste todos los derechos reales de los niños.",
+              "¡Excelente! Distingues entre derechos y caprichos.",
+              "¡Muy bien! Comprendes cuáles son los verdaderos derechos."
+            ],
+            "encouragement": [
+              "Algunas opciones están correctas, sigue pensando.",
+              "Vas bien, revisa cuáles son realmente importantes."
+            ],
+            "incorrect_attempt_1": [
+              "Piensa en qué cosas son realmente importantes para tu bienestar.",
+              "Los derechos protegen lo necesario para crecer sano y feliz, no son caprichos."
+            ],
+            "incorrect_attempt_2": [
+              "Los derechos incluyen tener familia, salud, juego y protección.",
+              "Ver TV todo el día o no bañarse no son derechos, son deseos que pueden ser malos para ti."
+            ]
+          },
+          "cognitive_dimension": "comprension"
+        },
+        "enrichment_status": "pending",
+        "enrichment_version": "0.1",
+        "enriched_at": null,
+        "updated_at": "2026-05-28T14:53:45.328416+00:00"
+      },
+      "card": {
+        "id": "93480eef-916b-4c33-ab33-6209ebf73c07",
+        "concept_key": "historia",
+        "concept_name": "historia",
+        "card_type": "basic",
+        "title": "¿Cómo analizar una situación social?",
+        "body": "Reconozco diversos aspectos míos y de las organizaciones sociales a las que pertenezco, así como los cambios que han ocurrido a través del tiempo.",
+        "explanation": null,
+        "one_line_definition": "Reconozco diversos aspectos míos y de las organizaciones sociales a las que pertenezco, así como los cambios que han ocurrido a través del tiempo.",
+        "core_insight": "Comprender historia es fundamental",
+        "example": {
+          "context": "",
+          "problem": "",
+          "solution": "",
+          "visual_ref": ""
+        },
+        "common_misconception": "respuesta superficial o sin justificación",
+        "hint_prompt": "¿Qué sabes ya sobre historia?",
+        "visual_template_key": "timeline",
+        "visual_template": null,
+        "subject": "sociales",
+        "grade_range": "1",
+        "difficulty": 1,
+        "related_concepts": [
+          "celula",
+          "proporcionalidad",
+          "sociedad",
+          "argumentacion",
+          "estadistica",
+          "probabilidad",
+          "territorio",
+          "lectura_inferencial",
+          "fracciones",
+          "movimiento"
+        ],
+        "enriched_content": {
+          "source": "openai_enrichment",
+          "refined": {
+            "id": "93480eef-916b-4c33-ab33-6209ebf73c07",
+            "subject": "sociales",
+            "concept_key": "historia",
+            "grade_range": "1",
+            "hint_prompt": "¿Qué eventos importantes puedes recordar en tu vida que podrías poner en una línea de tiempo?",
+            "concept_name": "Línea de tiempo",
+            "core_insight": "Los eventos históricos se pueden organizar cronológicamente para entender mejor su secuencia y relación.",
+            "visual_caption": "Ejemplo de una línea de tiempo que muestra eventos importantes.",
+            "practical_example": "Si dibujas una línea de tiempo de tu vida, podrías poner tu nacimiento en el inicio, luego el primer día de escuela, y después tus vacaciones.",
+            "one_line_definition": "Una línea de tiempo muestra eventos en el orden en que ocurrieron.",
+            "visual_template_key": "timeline",
+            "common_misconception": "Pensar que todos los eventos importantes suceden al mismo tiempo.",
+            "misconception_explanation": "Es importante recordar que algunos eventos ocurren antes que otros, y la línea de tiempo nos ayuda a ver esto claramente.",
+            "student_friendly_explanation": "Imagina que dibujas una línea y marcas fechas importantes, como tu cumpleaños o el día que aprendiste algo nuevo. Así puedes ver qué pasó primero y qué pasó después."
+          },
+          "version": "0.1",
+          "metadata": {
+            "model": "gpt-4o-mini",
+            "enriched_at": "2026-05-16T00:58:03.249426+00:00"
+          },
+          "variants": {
+            "hint": {
+              "body": "Piensa en eventos importantes de tu vida. ¿Qué fechas puedes recordar que podrías poner en tu línea de tiempo?",
+              "title": "Pista para tu Línea de Tiempo",
+              "example": "Tal vez tu cumpleaños o el día que aprendiste a montar en bicicleta.",
+              "tuko_line": "Intenta recordar el primer evento que te gustaría incluir.",
+              "when_to_show": [
+                "first_struggle"
+              ],
+              "visual_template_key": "timeline"
+            },
+            "basic": {
+              "body": "Una línea de tiempo es una representación visual que muestra eventos en el orden en que ocurrieron. Ayuda a entender la secuencia de los eventos históricos.",
+              "title": "¿Qué es una Línea de Tiempo?",
+              "example": "Por ejemplo, si dibujas una línea de tiempo de tu vida, podrías incluir tu nacimiento, el primer día de escuela y tus vacaciones.",
+              "tuko_line": "Recuerda que cada evento tiene su lugar en la línea. ¿Cuál fue el primero?",
+              "when_to_show": [
+                "stuck"
+              ],
+              "visual_template_key": "timeline"
+            },
+            "deepening": {
+              "body": "¿Cómo crees que una línea de tiempo puede ayudarte a entender otros temas, como la historia de tu país?",
+              "title": "Conectando con Otros Conceptos",
+              "example": "Podrías usarla para ver cómo diferentes eventos históricos se relacionan entre sí.",
+              "tuko_line": "Piensa en qué otros eventos podrías incluir en una línea de tiempo más grande.",
+              "when_to_show": [
+                "after_success"
+              ],
+              "visual_template_key": "timeline"
+            },
+            "corrective": {
+              "body": "Parece que estás pensando que todos los eventos importantes suceden al mismo tiempo. Recuerda que algunos eventos ocurren antes que otros.",
+              "title": "Revisando tu Línea de Tiempo",
+              "example": "Por ejemplo, tu nacimiento ocurrió antes de tu primer día de escuela.",
+              "tuko_line": "Asegúrate de que los eventos estén en el orden correcto.",
+              "when_to_show": [
+                "misconception_detected"
+              ],
+              "visual_template_key": "timeline"
+            },
+            "reflective": {
+              "body": "Ahora que has creado tu línea de tiempo, ¿qué te ayudó a decidir qué eventos incluir?",
+              "title": "Reflexiona sobre tu Línea de Tiempo",
+              "example": "Piensa en cómo te sentiste al recordar esos momentos.",
+              "tuko_line": "Esa es una buena observación. ¿Cómo podrías usar esta estrategia en el futuro?",
+              "when_to_show": [
+                "reflection_opportunity_after_success"
+              ],
+              "visual_template_key": "timeline"
+            }
+          },
+          "adaptive_usage": {
+            "show_when": [
+              "student is exploring historical events",
+              "student is learning about chronological order",
+              "student has shown interest in personal history"
+            ],
+            "cooldown_rules": {
+              "reset_on_mastery": true,
+              "min_interval_minutes": 10,
+              "max_shows_per_session": 3
+            },
+            "do_not_show_when": [
+              "student is confident in using timelines",
+              "student is currently engaged in a different topic",
+              "student has just completed a timeline activity"
+            ],
+            "intervention_level": "minimal",
+            "recommended_step_types": [
+              "exploración",
+              "representación"
+            ],
+            "recommended_cognitive_types": [
+              "exploracion",
+              "representacion",
+              "razonamiento"
+            ]
+          },
+          "error_patterns": {
+            "patterns": [
+              {
+                "diagnostic_clue": "Pregunta a los estudiantes si pueden identificar qué evento ocurrió primero.",
+                "misconception_key": "simultaneous_events",
+                "visual_overlay_key": "timeline_error_overlay",
+                "corrective_feedback": "Recuerda que algunos eventos suceden antes que otros. Una línea de tiempo te ayuda a ver el orden correcto.",
+                "likely_wrong_answers": [
+                  "El nacimiento y el primer día de escuela ocurrieron al mismo tiempo.",
+                  "Las vacaciones y el cumpleaños son el mismo evento."
+                ],
+                "recommended_card_variant": "corrective",
+                "misconception_description": "Los estudiantes piensan que todos los eventos importantes suceden al mismo tiempo."
+              },
+              {
+                "diagnostic_clue": "Pide a los estudiantes que piensen en eventos que duraron más tiempo y cómo representarlos.",
+                "misconception_key": "linear_thinking",
+                "visual_overlay_key": "timeline_duration_overlay",
+                "corrective_feedback": "Es importante mostrar la duración entre eventos. Usa diferentes espacios para representar el tiempo que pasó entre ellos.",
+                "likely_wrong_answers": [
+                  "Todos los eventos deben estar a la misma distancia en la línea.",
+                  "No importa cuánto tiempo pasó entre los eventos."
+                ],
+                "recommended_card_variant": "corrective",
+                "misconception_description": "Los estudiantes creen que solo se pueden representar eventos en una línea recta sin considerar la duración entre ellos."
+              },
+              {
+                "diagnostic_clue": "Pregunta a los estudiantes qué eventos consideran más significativos en su vida.",
+                "misconception_key": "event_importance",
+                "visual_overlay_key": "timeline_importance_overlay",
+                "corrective_feedback": "Algunos eventos son más importantes que otros. Piensa en cuáles cambiaron tu vida de manera significativa.",
+                "likely_wrong_answers": [
+                  "El día que aprendí a montar en bicicleta es tan importante como el día de mi nacimiento.",
+                  "No hay eventos más importantes que otros."
+                ],
+                "recommended_card_variant": "corrective",
+                "misconception_description": "Los estudiantes creen que todos los eventos en la línea de tiempo son igualmente importantes."
+              },
+              {
+                "diagnostic_clue": "Pide a los estudiantes que expliquen por qué eligieron ese orden.",
+                "misconception_key": "event_sequence",
+                "visual_overlay_key": "timeline_sequence_overlay",
+                "corrective_feedback": "Recuerda que la línea de tiempo muestra el orden en que ocurrieron los eventos. Asegúrate de que estén en la secuencia correcta.",
+                "likely_wrong_answers": [
+                  "Poner el primer día de escuela después de las vacaciones.",
+                  "Colocar el cumpleaños después de aprender a leer."
+                ],
+                "recommended_card_variant": "corrective",
+                "misconception_description": "Los estudiantes no comprenden que los eventos deben seguir un orden cronológico."
+              },
+              {
+                "diagnostic_clue": "Pregunta a los estudiantes si conocen eventos históricos que podrían incluir.",
+                "misconception_key": "personal_events_only",
+                "visual_overlay_key": "timeline_scope_overlay",
+                "corrective_feedback": "Una línea de tiempo puede incluir eventos personales y también eventos importantes de la historia. Piensa en cómo se conectan.",
+                "likely_wrong_answers": [
+                  "Solo puedo poner mis cumpleaños y vacaciones.",
+                  "No puedo incluir eventos históricos o de otros."
+                ],
+                "recommended_card_variant": "corrective",
+                "misconception_description": "Los estudiantes piensan que solo pueden incluir eventos personales en la línea de tiempo."
+              }
+            ]
+          }
+        },
+        "enrichment_status": "completed",
+        "enrichment_version": "0.1",
+        "enriched_at": "2026-05-16T00:58:03.256672+00:00",
+        "updated_at": "2026-05-16T00:58:06.461844+00:00"
+      },
+      "visual": {
+        "id": "0de226dd-538d-4d9d-ab8d-691e48f1fa10",
+        "template_key": "timeline",
+        "template_name": "Línea de Tiempo",
+        "description": "Secuencia cronológica de eventos",
+        "visual_type": "timeline",
+        "renderer": "timeline",
+        "interaction_level": "hoverable",
+        "config": {
+          "events": [
+            {
+              "date": "1810",
+              "label": "Independencia",
+              "description": "Colombia se independiza de España"
+            },
+            {
+              "date": "1819",
+              "label": "República",
+              "description": "Formación de la Gran Colombia"
+            }
+          ],
+          "orientation": "vertical"
+        },
+        "default_props": {
+          "width": 600,
+          "height": 400
+        },
+        "asset_url": null,
+        "subject": "sociales",
+        "use_cases": [
+          "explanation",
+          "example"
+        ],
+        "supported_card_types": [
+          "basic",
+          "hint"
+        ],
+        "enriched_config": {
+          "labels": {
+            "title": "Línea de Tiempo de Eventos Sociales",
+            "legend": [],
+            "elements": [
+              {
+                "label": "Inicio de la Revolución Industrial",
+                "purpose": "Destacar un cambio significativo en la producción y la sociedad.",
+                "element_id": "event1"
+              },
+              {
+                "label": "Abolición de la esclavitud",
+                "purpose": "Ilustrar un avance en los derechos humanos y la justicia social.",
+                "element_id": "event2"
+              },
+              {
+                "label": "Movimiento por los derechos civiles",
+                "purpose": "Mostrar la lucha por la igualdad y su impacto en la sociedad moderna.",
+                "element_id": "event3"
+              }
+            ]
+          },
+          "source": "openai_enrichment",
+          "version": "0.1",
+          "metadata": {
+            "model": "gpt-4o-mini",
+            "renderer": "timeline",
+            "enriched_at": "2026-05-16T02:40:19.054214+00:00",
+            "visual_type": "timeline",
+            "template_key": "timeline"
+          },
+          "overlays": {
+            "hint": [
+              {
+                "target": "event1",
+                "message": "Considera cómo la Revolución Industrial cambió la vida diaria de las personas.",
+                "position": "bottom",
+                "overlay_id": "hint1",
+                "visual_action": "annotate"
+              }
+            ],
+            "corrective": [
+              {
+                "target": "event2",
+                "message": "Revisa cómo la abolición de la esclavitud se relaciona con otros eventos de derechos humanos.",
+                "position": "center",
+                "overlay_id": "corrective1",
+                "visual_action": "dim"
+              }
+            ],
+            "explanation": [
+              {
+                "target": "event1",
+                "message": "La Revolución Industrial marcó un cambio radical en la forma de producción y en la estructura social.",
+                "position": "top",
+                "overlay_id": "explanation1",
+                "visual_action": "highlight"
+              }
+            ],
+            "misconception": [
+              {
+                "target": "event2",
+                "message": "Algunos piensan que la abolición de la esclavitud fue un evento aislado, pero en realidad fue parte de un movimiento más amplio por los derechos humanos.",
+                "card_variant": "corrective",
+                "visual_action": "compare",
+                "misconception_key": "misconception1"
+              },
+              {
+                "target": "event3",
+                "message": "Es un error creer que el movimiento por los derechos civiles solo afectó a los Estados Unidos; sus principios han influido globalmente.",
+                "card_variant": "corrective",
+                "visual_action": "highlight",
+                "misconception_key": "misconception2"
+              }
+            ]
+          },
+          "animation_steps": [
+            {
+              "step": 1,
+              "action": "show",
+              "target": "timeline",
+              "caption": "Observa la línea de tiempo completa con todos los eventos destacados.",
+              "duration_ms": 500
+            },
+            {
+              "step": 2,
+              "action": "highlight",
+              "target": "event1",
+              "caption": "Inicio de la Revolución Industrial: un cambio significativo en la producción y la sociedad.",
+              "delay_ms": 300,
+              "duration_ms": 700
+            },
+            {
+              "step": 3,
+              "action": "highlight",
+              "target": "event2",
+              "caption": "Abolición de la esclavitud: un avance crucial en los derechos humanos.",
+              "delay_ms": 300,
+              "duration_ms": 700
+            },
+            {
+              "step": 4,
+              "action": "highlight",
+              "target": "event3",
+              "caption": "Movimiento por los derechos civiles: la lucha por la igualdad y su impacto.",
+              "delay_ms": 300,
+              "duration_ms": 700
+            },
+            {
+              "step": 5,
+              "action": "compare",
+              "target": "event2",
+              "caption": "Comparando la abolición de la esclavitud con otros eventos de derechos humanos.",
+              "delay_ms": 300,
+              "duration_ms": 900
+            },
+            {
+              "step": 6,
+              "action": "dim",
+              "target": "event2",
+              "caption": "Revisando la conexión entre la abolición de la esclavitud y otros movimientos.",
+              "delay_ms": 300,
+              "duration_ms": 700
+            },
+            {
+              "step": 7,
+              "action": "reveal",
+              "target": "timeline",
+              "caption": "Reflexiona sobre cómo estos eventos han influido en nuestra sociedad actual.",
+              "delay_ms": 300,
+              "duration_ms": 500
+            }
+          ],
+          "interaction_rules": {
+            "drag": [],
+            "click": [
+              {
+                "action": "reveal",
+                "target": "event1",
+                "feedback": "Haz clic para obtener más información sobre la Revolución Industrial.",
+                "conditions": []
+              },
+              {
+                "action": "reveal",
+                "target": "event2",
+                "feedback": "Haz clic para explorar el impacto de la abolición de la esclavitud.",
+                "conditions": []
+              },
+              {
+                "action": "reveal",
+                "target": "event3",
+                "feedback": "Haz clic para aprender sobre el movimiento por los derechos civiles.",
+                "conditions": []
+              }
+            ],
+            "hover": [
+              {
+                "action": "highlight",
+                "target": "event1",
+                "feedback": "Este evento marcó el inicio de un cambio significativo en la producción.",
+                "conditions": []
+              },
+              {
+                "action": "highlight",
+                "target": "event2",
+                "feedback": "Este evento representa un avance crucial en los derechos humanos.",
+                "conditions": []
+              },
+              {
+                "action": "highlight",
+                "target": "event3",
+                "feedback": "Este evento muestra la lucha por la igualdad en nuestra sociedad.",
+                "conditions": []
+              }
+            ],
+            "slider": [],
+            "fallback_static": "Las interacciones no están disponibles en este momento."
+          },
+          "pedagogical_visual": {
+            "caption": "Esta línea de tiempo ilustra los eventos clave en la historia social, permitiendo observar cómo se relacionan entre sí y su impacto en el presente.",
+            "main_question": "¿Cómo se conectan estos eventos a los cambios en nuestra sociedad?",
+            "student_focus": "Observa primero los eventos más destacados y sus fechas.",
+            "accessibility_text": "Esta línea de tiempo presenta una serie de eventos importantes en la historia social, organizados horizontalmente. Cada evento está marcado con su fecha correspondiente, mostrando la secuencia y la relación entre ellos. Los estudiantes deben prestar atención a cómo estos eventos influyen en la sociedad actual."
+          },
+          "usage_by_card_type": {
+            "hint": {
+              "emphasis": "Proporcionar pistas sobre eventos",
+              "interaction_level": "guided",
+              "recommended_overlays": [
+                "highlight"
+              ],
+              "recommended_animations": [
+                1
+              ]
+            },
+            "basic": {
+              "emphasis": "Destacar eventos clave",
+              "interaction_level": "passive",
+              "recommended_overlays": [],
+              "recommended_animations": [
+                1
+              ]
+            },
+            "deepening": {
+              "emphasis": "Profundizar en las relaciones entre eventos",
+              "interaction_level": "full",
+              "recommended_overlays": [
+                "connect"
+              ],
+              "recommended_animations": [
+                1
+              ]
+            },
+            "corrective": {
+              "emphasis": "Corregir conceptos erróneos sobre eventos",
+              "interaction_level": "guided",
+              "recommended_overlays": [
+                "highlight",
+                "dim"
+              ],
+              "recommended_animations": [
+                1
+              ]
+            },
+            "reflective": {
+              "emphasis": "Fomentar la reflexión sobre el impacto social",
+              "interaction_level": "exploratory",
+              "recommended_overlays": [
+                "annotate"
+              ],
+              "recommended_animations": [
+                1
+              ]
+            }
+          }
+        },
+        "enrichment_status": "completed",
+        "enrichment_version": "0.1",
+        "enriched_at": "2026-05-16T02:40:19.319062+00:00",
+        "updated_at": "2026-05-16T22:59:41.811376+00:00"
+      },
+      "associationHashes": {
+        "module": "fd890cfee5cc05fa5078b49a01453562390b41e1baf2c83103aaf24d62fa8341",
+        "card": "0b8fc04a715bb53f90130fd408383c0016a0366c479bd813ecec3a088c1a40c8",
+        "visual": "31804fd5ae96e760ecd2a7b3864be69625205ff40530bd84dca1684d29532339"
+      },
+      "findings": [
+        "La selección original de derechos es sustancialmente válida; no se presenta como una clave completamente falsa.",
+        "Una pista enumera las respuestas y la tarjeta trata líneas de tiempo. Se necesita una ayuda propia y un caso que permita aplicar el reconocimiento de derechos sin respuestas reveladas."
+      ],
+      "originalProbe": {
+        "answer": "[0,2,4,5]",
+        "actual": {
+          "result": "correct",
+          "feedback": "Revisa qué afirmaciones cumplen lo solicitado y por qué.",
+          "feedbackDetails": [
+            {
+              "label": "Derecho a tener un nombre y una familia",
+              "selected": "La elegiste",
+              "expected": "Sí corresponde",
+              "correct": true,
+              "explanation": ""
+            },
+            {
+              "label": "Derecho a ver televisión todo el día",
+              "selected": "No la elegiste",
+              "expected": "No corresponde",
+              "correct": true,
+              "explanation": ""
+            },
+            {
+              "label": "Derecho a la salud y atención médica",
+              "selected": "La elegiste",
+              "expected": "Sí corresponde",
+              "correct": true,
+              "explanation": ""
+            },
+            {
+              "label": "Derecho a no bañarse nunca",
+              "selected": "No la elegiste",
+              "expected": "No corresponde",
+              "correct": true,
+              "explanation": ""
+            },
+            {
+              "label": "Derecho a jugar y descansar",
+              "selected": "La elegiste",
+              "expected": "Sí corresponde",
+              "correct": true,
+              "explanation": ""
+            },
+            {
+              "label": "Derecho a la protección contra el maltrato",
+              "selected": "La elegiste",
+              "expected": "Sí corresponde",
+              "correct": true,
+              "explanation": ""
+            }
+          ]
+        }
+      },
+      "candidateSha256": "80b9c37e25a8172382b4de66b88119d723f2509e69ad43b92453d08c87ab6930"
+    }
+  ],
+  "modelCalls": 0,
+  "databaseCalls": 0
+}

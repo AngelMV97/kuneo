@@ -1,0 +1,274 @@
+{
+  "version": "0.1",
+  "description": "Define cómo evaluar el progreso del estudiante de manera formativa, alineado con las 8 dimensiones cognitivas de module_steps",
+  
+  "assessment_philosophy": "La evaluación debe orientar el siguiente paso de aprendizaje, no etiquetar ni clasificar al estudiante. Los resultados indican necesidades, no deficiencias.",
+  
+  "assessment_dimensions": [
+    {
+      "dimension": "exploracion",
+      "step_number": 1,
+      "what_it_measures": "Conocimientos previos e intuiciones sobre el concepto",
+      "mastery_signal": "Identifica elementos clave sin explicación previa",
+      "struggle_signal": "Respuestas al azar o confusión sobre qué observar",
+      "adaptive_action_if_struggling": "Provide visual_hint or guiding question"
+    },
+    {
+      "dimension": "representacion",
+      "step_number": 2,
+      "what_it_measures": "Capacidad de interpretar representaciones visuales del concepto",
+      "mastery_signal": "Conecta visual con concepto verbal",
+      "struggle_signal": "No puede interpretar el visual o confunde elementos",
+      "adaptive_action_if_struggling": "Show labeled visual or provide concept_card"
+    },
+    {
+      "dimension": "razonamiento",
+      "step_number": 3,
+      "what_it_measures": "Capacidad de explicar por qué funciona el concepto",
+      "mastery_signal": "Explica relación causal o lógica",
+      "struggle_signal": "Solo repite procedimiento sin explicar por qué",
+      "adaptive_action_if_struggling": "Provide worked_example with reasoning steps"
+    },
+    {
+      "dimension": "clasificacion",
+      "step_number": 4,
+      "what_it_measures": "Capacidad de distinguir ejemplos de no-ejemplos del concepto",
+      "mastery_signal": "Clasifica correctamente y puede justificar",
+      "struggle_signal": "Confunde casos similares o usa criterio incorrecto",
+      "adaptive_action_if_struggling": "Show corrective_card highlighting key distinction"
+    },
+    {
+      "dimension": "aplicacion_guiada",
+      "step_number": 5,
+      "what_it_measures": "Capacidad de aplicar el concepto con apoyo",
+      "mastery_signal": "Resuelve correctamente con mínimo apoyo",
+      "struggle_signal": "Requiere múltiples hints o comete errores de procedimiento",
+      "adaptive_action_if_struggling": "Provide step-by-step scaffolding"
+    },
+    {
+      "dimension": "transferencia",
+      "step_number": 6,
+      "what_it_measures": "Capacidad de aplicar el concepto en contexto nuevo",
+      "mastery_signal": "Identifica cómo aplicar concepto en situación no vista",
+      "struggle_signal": "No reconoce concepto en nuevo contexto",
+      "adaptive_action_if_struggling": "Highlight connection to previous context, then retry"
+    },
+    {
+      "dimension": "analisis_de_error",
+      "step_number": 7,
+      "what_it_measures": "Capacidad de detectar y explicar misconceptions",
+      "mastery_signal": "Identifica error y explica por qué es incorrecto",
+      "struggle_signal": "No detecta error o lo justifica incorrectamente",
+      "adaptive_action_if_struggling": "Show corrective_card explaining misconception"
+    },
+    {
+      "dimension": "metacognicion",
+      "step_number": 8,
+      "what_it_measures": "Capacidad de reflexionar sobre el propio proceso de aprendizaje",
+      "mastery_signal": "Articula qué estrategia usó y cómo la aplicaría de nuevo",
+      "struggle_signal": "Respuesta vaga ('No sé') o no puede identificar estrategia",
+      "adaptive_action_if_struggling": "Prompt with specific questions ('¿Qué te ayudó más: el dibujo o el ejemplo?')"
+    }
+  ],
+  
+  "mastery_levels": {
+    "strong_mastery": {
+      "definition": "Student demonstrates understanding across multiple dimensions",
+      "signals": [
+        "Correct transfer (step 6)",
+        "Explains reasoning clearly (step 3)",
+        "Detects errors correctly (step 7)",
+        "Can reflect on strategy (step 8)"
+      ],
+      "adaptive_action": "Offer challenge variant or allow skip to next module"
+    },
+    "developing_mastery": {
+      "definition": "Student understands core concept but struggles with transfer or error detection",
+      "signals": [
+        "Correct guided_application (step 5) with hints",
+        "Struggles with transfer (step 6)",
+        "Needs support for error_analysis (step 7)"
+      ],
+      "adaptive_action": "Provide more practice in transfer contexts, show worked examples"
+    },
+    "emerging_understanding": {
+      "definition": "Student grasps basic idea but needs significant support",
+      "signals": [
+        "Correct exploration (step 1) and representation (step 2)",
+        "Struggles with reasoning (step 3) and classification (step 4)",
+        "Requires multiple hints in application (step 5)"
+      ],
+      "adaptive_action": "Insert remedial steps, provide concept_cards, simplify language"
+    },
+    "not_yet": {
+      "definition": "Student shows persistent misconception or lack of prerequisite knowledge",
+      "signals": [
+        "Repeated errors in exploration (step 1)",
+        "Cannot interpret representations (step 2)",
+        "Random guessing pattern",
+        "Cannot explain reasoning even after support"
+      ],
+      "adaptive_action": "Diagnose prerequisite gap, offer simpler module first, or flag for human teacher"
+    }
+  },
+  
+  "misconception_detection": {
+    "what_are_misconceptions": "Systematic errors that reveal incorrect mental models, not random mistakes",
+    "how_to_detect": [
+      "Pattern of same error across multiple contexts",
+      "Incorrect but consistent reasoning",
+      "Confusion between related concepts (e.g., área vs perímetro)"
+    ],
+    "common_misconceptions_by_subject": {
+      "matematicas": [
+        "Larger denominator = larger fraction",
+        "Area and perimeter are the same",
+        "You can add fractions by adding numerators and denominators separately",
+        "Multiplication always makes numbers bigger"
+      ],
+      "ciencias": [
+        "Heavy objects fall faster than light objects",
+        "Seasons are caused by Earth's distance from sun",
+        "Evolution means 'progress' or 'improvement'",
+        "Plants get food from soil"
+      ],
+      "sociales": [
+        "Democracy means majority always wins",
+        "All conflicts are bad",
+        "History is linear progress"
+      ]
+    },
+    "action_when_misconception_detected": "Show corrective_card that names the misconception and explains correct concept"
+  },
+  
+  "formative_vs_summative": {
+    "formative_assessment": {
+      "purpose": "Orient learning, adapt instruction",
+      "when": "Every module_step provides formative data",
+      "how_used": "Adaptive engine adjusts next_step_logic based on performance",
+      "visible_to_student": "As feedback and hints, not as grades"
+    },
+    "summative_assessment": {
+      "purpose": "Document mastery for reporting (if needed)",
+      "when": "After completing module or unit",
+      "how_used": "Generate report for teachers/parents",
+      "visible_to_student": "As progress indicator, not as judgment"
+    },
+    "kuneo_priority": "Formative assessment is primary; summative is secondary and optional"
+  },
+  
+  "progress_tracking": {
+    "what_to_track": [
+      {
+        "metric": "steps_completed",
+        "purpose": "Track progression through module"
+      },
+      {
+        "metric": "hints_used",
+        "purpose": "Identify which students need more support"
+      },
+      {
+        "metric": "time_per_step",
+        "purpose": "Detect struggling or rushing"
+      },
+      {
+        "metric": "misconceptions_detected",
+        "purpose": "Target remediation"
+      },
+      {
+        "metric": "dimension_mastery_profile",
+        "purpose": "Identify strengths/weaknesses across 8 dimensions"
+      }
+    ],
+    "what_not_to_track": [
+      "Number of errors (without context)",
+      "Comparison to other students (no leaderboards)",
+      "Speed as proxy for intelligence"
+    ]
+  },
+  
+  "adaptive_engine_integration": {
+    "decision_points": [
+      {
+        "trigger": "student_correct_on_transfer_without_hints",
+        "action": "Strong mastery signal → allow skip to next module or offer challenge"
+      },
+      {
+        "trigger": "student_fails_classification_twice",
+        "action": "Show corrective_card, then retry classification"
+      },
+      {
+        "trigger": "student_struggles_on_aplicacion_guiada_after_3_hints",
+        "action": "Insert remedial step or simplify problem"
+      },
+      {
+        "trigger": "student_cannot_explain_reasoning_even_after_hint",
+        "action": "Provide worked_example, then ask to explain a similar problem"
+      },
+      {
+        "trigger": "student_detects_error_correctly_in_step_7",
+        "action": "Metacognition opportunity: prompt reflection on how they identified it"
+      }
+    ]
+  },
+  
+  "reporting_and_visibility": {
+    "to_student": {
+      "show": [
+        "Progress bar (% of module completed)",
+        "Badges or milestones for completing units",
+        "Encouraging messages after overcoming difficulty"
+      ],
+      "do_not_show": [
+        "Numeric grades",
+        "Comparison to peers",
+        "Labels like 'low', 'medium', 'high' performer"
+      ]
+    },
+    "to_teacher": {
+      "show": [
+        "Which students are struggling on which dimensions",
+        "Common misconceptions across class",
+        "Students who may need 1-on-1 support",
+        "Progress over time (growth)"
+      ],
+      "do_not_show": [
+        "Rankings or leaderboards",
+        "Fixed labels ('This student is weak at math')"
+      ]
+    },
+    "to_parent": {
+      "show": [
+        "What concepts child is working on",
+        "Areas of strength and areas needing support",
+        "Suggestions for practice at home"
+      ],
+      "do_not_show": [
+        "Comparison to other children",
+        "Deficit-focused language"
+      ]
+    }
+  },
+  
+  "quality_indicators": {
+    "good_assessment_practice": [
+      "Multiple opportunities to demonstrate understanding",
+      "Differentiated support based on performance",
+      "Feedback that guides next steps",
+      "Recognition of growth and effort"
+    ],
+    "poor_assessment_practice": [
+      "One-shot tests with no retries",
+      "Same instruction for everyone regardless of performance",
+      "Vague feedback ('Try again')",
+      "Focus only on final score"
+    ]
+  },
+  
+  "alignment_with_men_lineamientos": {
+    "evaluacion_formativa": "Priorizar evaluación que orienta, no que clasifica",
+    "evaluacion_continua": "Cada module_step genera evidencia, no solo test final",
+    "retroalimentacion": "Feedback específico y oportuno",
+    "autoevaluacion": "Metacognition step (8) promueve autoevaluación del estudiante"
+  }
+}

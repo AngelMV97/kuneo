@@ -1,0 +1,886 @@
+
+> kuneo-server@1.0.0 test
+> node --test learning.test.js competencySearch.test.js runtimeMetrics.test.js curriculumQuality.test.js reserveInventory.test.js reserveRepairs.test.js reserveRound2.test.js reserveRound4.test.js reserveRound5.test.js reserveRound6.test.js ordering.test.js learningPresentation.test.js learningVariety.test.js learningInquiry.test.js
+
+TAP version 13
+# Subtest: accents and plurals retrieve identical records without fabricating other grades
+ok 1 - accents and plurals retrieve identical records without fabricating other grades
+  ---
+  duration_ms: 13.694
+  type: 'test'
+  ...
+# Subtest: grade filters include overlapping ranges and individual grades
+ok 2 - grade filters include overlapping ranges and individual grades
+  ---
+  duration_ms: 1.461
+  type: 'test'
+  ...
+# Subtest: semantic matches complement text, null scores do not fabricate matches
+ok 3 - semantic matches complement text, null scores do not fabricate matches
+  ---
+  duration_ms: 1.4174
+  type: 'test'
+  ...
+# Subtest: failure retains lexical results; filters precede pagination; concurrent searches share provider
+ok 4 - failure retains lexical results; filters precede pagination; concurrent searches share provider
+  ---
+  duration_ms: 4.7004
+  type: 'test'
+  ...
+# Subtest: HTTP search preserves pagination contract and module links without returning embeddings
+ok 5 - HTTP search preserves pagination contract and module links without returning embeddings
+  ---
+  duration_ms: 661.3083
+  type: 'test'
+  ...
+# Subtest: inmediato cannot create media tags or mean misconceptions; source remains intact
+ok 6 - inmediato cannot create media tags or mean misconceptions; source remains intact
+  ---
+  duration_ms: 10.0209
+  type: 'test'
+  ...
+# Subtest: genuine statistics stays searchable across subjects, including accented plural graph cues
+ok 7 - genuine statistics stays searchable across subjects, including accented plural graph cues
+  ---
+  duration_ms: 2.537
+  type: 'test'
+  ...
+# Subtest: unverified arbitrary concepts cannot create lexical matches
+ok 8 - unverified arbitrary concepts cannot create lexical matches
+  ---
+  duration_ms: 2.2084
+  type: 'test'
+  ...
+# Subtest: frecuencia of writing, personal data and medium-length texts are not statistical evidence
+ok 9 - frecuencia of writing, personal data and medium-length texts are not statistical evidence
+  ---
+  duration_ms: 3.3726
+  type: 'test'
+  ...
+# [Learning] Generation unavailable: unknown 
+# [Learning] Generation unavailable: repeated_question 
+# Subtest: new student has zero evidence, no fabricated scores or lesson
+ok 10 - new student has zero evidence, no fabricated scores or lesson
+  ---
+  duration_ms: 9.9729
+  type: 'test'
+  ...
+# Subtest: legacy attempts contribute real evidence and time without metadata
+ok 11 - legacy attempts contribute real evidence and time without metadata
+  ---
+  duration_ms: 6.2549
+  type: 'test'
+  ...
+# Subtest: a resumable lesson can have attempts with zero consolidated objectives
+ok 12 - a resumable lesson can have attempts with zero consolidated objectives
+  ---
+  duration_ms: 0.9747
+  type: 'test'
+  ...
+# Subtest: objective consolidation can reach 100% while module still awaits other skills
+ok 13 - objective consolidation can reach 100% while module still awaits other skills
+  ---
+  duration_ms: 0.8118
+  type: 'test'
+  ...
+# Subtest: the cognitive average counts only evaluated skills and exposes its coverage
+ok 14 - the cognitive average counts only evaluated skills and exposes its coverage
+  ---
+  duration_ms: 0.6743
+  type: 'test'
+  ...
+# Subtest: subject history and recent cognitive evidence deliberately use different windows
+ok 15 - subject history and recent cognitive evidence deliberately use different windows
+  ---
+  duration_ms: 1.8159
+  type: 'test'
+  ...
+# Subtest: correct responses increase evidence; hints reduce the weight
+ok 16 - correct responses increase evidence; hints reduce the weight
+  ---
+  duration_ms: 0.5806
+  type: 'test'
+  ...
+# Subtest: mastery requires all objectives and all five dimensions, two unassisted successes each
+ok 17 - mastery requires all objectives and all five dimensions, two unassisted successes each
+  ---
+  duration_ms: 0.8124
+  type: 'test'
+  ...
+# Subtest: all five grade bands are mapped and invalid grades rejected
+ok 18 - all five grade bands are mapped and invalid grades rejected
+  ---
+  duration_ms: 1.4572
+  type: 'test'
+  ...
+# Subtest: activity token encrypts answers and is bound to its user and expiry
+ok 19 - activity token encrypts answers and is bound to its user and expiry
+  ---
+  duration_ms: 5.4751
+  type: 'test'
+  ...
+# Subtest: generated options must have one valid answer and distinct choices
+ok 20 - generated options must have one valid answer and distinct choices
+  ---
+  duration_ms: 5.3598
+  type: 'test'
+  ...
+# Subtest: stored activity uses the displayed question and matching answer
+ok 21 - stored activity uses the displayed question and matching answer
+  ---
+  duration_ms: 1.7958
+  type: 'test'
+  ...
+# Subtest: OpenAI failure chooses evaluable reserve content without changing templates
+ok 22 - OpenAI failure chooses evaluable reserve content without changing templates
+  ---
+  duration_ms: 10.3787
+  type: 'test'
+  ...
+# Subtest: repeated generated question falls back instead of showing the same generated content
+ok 23 - repeated generated question falls back instead of showing the same generated content
+  ---
+  duration_ms: 5.2017
+  type: 'test'
+  ...
+# Subtest: all 25 subject/grade combinations pass the correct curriculum context to generation
+ok 24 - all 25 subject/grade combinations pass the correct curriculum context to generation
+  ---
+  duration_ms: 39.4622
+  type: 'test'
+  ...
+# Subtest: text rubric evaluation accepts equivalent answers through structured grading
+ok 25 - text rubric evaluation accepts equivalent answers through structured grading
+  ---
+  duration_ms: 0.7911
+  type: 'test'
+  ...
+# Subtest: failed rubric evaluation never records an invented result
+ok 26 - failed rubric evaluation never records an invented result
+  ---
+  duration_ms: 1.0228
+  type: 'test'
+  ...
+# Subtest: API rejects missing/invalid auth and spoofed user identifiers
+ok 27 - API rejects missing/invalid auth and spoofed user identifiers
+  ---
+  duration_ms: 213.7387
+  type: 'test'
+  ...
+# Subtest: API reads only the authenticated student history
+ok 28 - API reads only the authenticated student history
+  ---
+  duration_ms: 40.1106
+  type: 'test'
+  ...
+# Subtest: history loads beyond 30 entries, has stable pages, and excludes another user
+ok 29 - history loads beyond 30 entries, has stable pages, and excludes another user
+  ---
+  duration_ms: 83.5551
+  type: 'test'
+  ...
+# [Learning] 400
+# [Learning] 400
+# [Learning] 400
+# [Learning] 400
+# [Learning] 400
+# [Learning] 400
+# Subtest: history filters subject and dimension, validates input and respects its snapshot date
+ok 30 - history filters subject and dimension, validates input and respects its snapshot date
+  ---
+  duration_ms: 63.1461
+  type: 'test'
+  ...
+# [Learning] 404
+# [Learning] 400
+# Subtest: attempt detail returns its saved question and response only to its owner
+ok 31 - attempt detail returns its saved question and response only to its owner
+  ---
+  duration_ms: 26.4697
+  type: 'test'
+  ...
+# Subtest: legacy attempt detail does not invent a missing question or feedback
+ok 32 - legacy attempt detail does not invent a missing question or feedback
+  ---
+  duration_ms: 12.148
+  type: 'test'
+  ...
+# [Learning] 403
+# Subtest: answer persists, initializes absent aggregates, and a repeated submission is idempotent
+ok 33 - answer persists, initializes absent aggregates, and a repeated submission is idempotent
+  ---
+  duration_ms: 66.4269
+  type: 'test'
+  ...
+# Subtest: hint is recorded in the token and prevents an assisted response from mastering an objective
+ok 34 - hint is recorded in the token and prevents an assisted response from mastering an objective
+  ---
+  duration_ms: 20.6741
+  type: 'test'
+  ...
+# [Learning] injected_failure
+# Subtest: failed persistence returns an error and never claims success
+ok 35 - failed persistence returns an error and never claims success
+  ---
+  duration_ms: 15.4264
+  type: 'test'
+  ...
+# Subtest: help validates data-only visuals and rejects incompatible table dimensions
+ok 36 - help validates data-only visuals and rejects incompatible table dimensions
+  ---
+  duration_ms: 0.776
+  type: 'test'
+  ...
+# Subtest: support generation receives grade/curriculum but never question, expected solution or rubric
+ok 37 - support generation receives grade/curriculum but never question, expected solution or rubric
+  ---
+  duration_ms: 1.9373
+  type: 'test'
+  ...
+# [Learning] 400
+# [Learning] 403
+# [Learning] 409
+# Subtest: progressive help is cached, owner bound, counted once per level and cannot follow an answer
+ok 38 - progressive help is cached, owner bound, counted once per level and cannot follow an answer
+  ---
+  duration_ms: 51.0665
+  type: 'test'
+  ...
+# [Learning] 503
+# Subtest: failed additional help keeps activity available and does not count nonexistent assistance
+ok 39 - failed additional help keeps activity available and does not count nonexistent assistance
+  ---
+  duration_ms: 23.4508
+  type: 'test'
+  ...
+# Subtest: prefetch starts after persistence, uses new evidence and survives retries of the previous answer
+ok 40 - prefetch starts after persistence, uses new evidence and survives retries of the previous answer
+  ---
+  duration_ms: 28.5994
+  type: 'test'
+  ...
+# Subtest: example quality rejection is retried once, then fails without returning an unchecked example
+ok 41 - example quality rejection is retried once, then fails without returning an unchecked example
+  ---
+  duration_ms: 2.7236
+  type: 'test'
+  ...
+# Subtest: Spanish subjects reject English passages while English practice remains allowed
+ok 42 - Spanish subjects reject English passages while English practice remains allowed
+  ---
+  duration_ms: 0.6778
+  type: 'test'
+  ...
+# Subtest: shared curriculum words, coefficients and step numbers do not reject a distinct example
+ok 43 - shared curriculum words, coefficients and step numbers do not reject a distinct example
+  ---
+  duration_ms: 0.7441
+  type: 'test'
+  ...
+# Subtest: help resolves subject and curriculum for tokens issued before subject metadata existed
+ok 44 - help resolves subject and curriculum for tokens issued before subject metadata existed
+  ---
+  duration_ms: 13.9559
+  type: 'test'
+  ...
+# Subtest: example conclusions reject duplicated tables and graphics without rejecting inline mathematics
+ok 45 - example conclusions reject duplicated tables and graphics without rejecting inline mathematics
+  ---
+  duration_ms: 0.6133
+  type: 'test'
+  ...
+# Subtest: deterministic linear grading accepts equivalent expressions despite a wrong reference
+ok 46 - deterministic linear grading accepts equivalent expressions despite a wrong reference
+  ---
+  duration_ms: 1.7099
+  type: 'test'
+  ...
+# Subtest: four generated formats validate their answers; duplicate selections cannot gain credit
+ok 47 - four generated formats validate their answers; duplicate selections cannot gain credit
+  ---
+  duration_ms: 2.3874
+  type: 'test'
+  ...
+# Subtest: partial JSON previews expose only allowed public fields through every escape boundary
+ok 48 - partial JSON previews expose only allowed public fields through every escape boundary
+  ---
+  duration_ms: 2.8793
+  type: 'test'
+  ...
+# Subtest: streamed activity withholds all content until the reviewed final activity
+ok 49 - streamed activity withholds all content until the reviewed final activity
+  ---
+  duration_ms: 11.3019
+  type: 'test'
+  ...
+# [Learning] 503
+# Subtest: stream failure has a recoverable terminal error and does not persist a fake attempt
+ok 50 - stream failure has a recoverable terminal error and does not persist a fake attempt
+  ---
+  duration_ms: 7.4889
+  type: 'test'
+  ...
+# [Learning] 404
+# [Learning] 400
+# Subtest: practice summary uses owned attempts and prepares just one restart after persistence
+ok 51 - practice summary uses owned attempts and prepares just one restart after persistence
+  ---
+  duration_ms: 44.9335
+  type: 'test'
+  ...
+# [Learning] Generation unavailable: review_rejected 
+# Subtest: activity key review prevents publishing a semantically rejected question
+ok 52 - activity key review prevents publishing a semantically rejected question
+  ---
+  duration_ms: 8.3865
+  type: 'test'
+  ...
+# Subtest: science support rejects a known false generalization about evaporation
+ok 53 - science support rejects a known false generalization about evaporation
+  ---
+  duration_ms: 0.6753
+  type: 'test'
+  ...
+# Subtest: client streaming decoder handles UTF-8 byte boundaries and interrupted streams
+ok 54 - client streaming decoder handles UTF-8 byte boundaries and interrupted streams
+  ---
+  duration_ms: 13.0325
+  type: 'test'
+  ...
+# Subtest: arithmetic matching columns are computed exactly by the server
+ok 55 - arithmetic matching columns are computed exactly by the server
+  ---
+  duration_ms: 1.61
+  type: 'test'
+  ...
+# Subtest: expired support time budget does not call the provider or consume an assistance level
+ok 56 - expired support time budget does not call the provider or consume an assistance level
+  ---
+  duration_ms: 0.8203
+  type: 'test'
+  ...
+# Subtest: closed feedback explains chosen, omitted and incorrect alternatives and matching pairs
+ok 57 - closed feedback explains chosen, omitted and incorrect alternatives and matching pairs
+  ---
+  duration_ms: 0.6351
+  type: 'test'
+  ...
+# Subtest: rationales are private before submission and persist through duplicates and history
+ok 58 - rationales are private before submission and persist through duplicates and history
+  ---
+  duration_ms: 19.4041
+  type: 'test'
+  ...
+# Subtest: coaching uses actual saved feedback and rejects invented or contradictory evidence
+ok 59 - coaching uses actual saved feedback and rejects invented or contradictory evidence
+  ---
+  duration_ms: 1.4544
+  type: 'test'
+  ...
+# [Learning] Generation unavailable: network 
+# [Learning] Generation unavailable: rate_limit 
+# [Learning] Generation unavailable: provider_unavailable 
+# [Learning] Generation unavailable: incomplete 
+# [Learning] Generation unavailable: refusal 
+# [Learning] Generation unavailable: contract invalid_json
+# [Learning] Generation unavailable: network 
+# [Learning] Generation unavailable: timeout 
+# [Learning] Generation unavailable: review_rejected 
+# Subtest: legacy math normalizes nested fractions and roots while preserving delimited math and code
+ok 60 - legacy math normalizes nested fractions and roots while preserving delimited math and code
+  ---
+  duration_ms: 4.6249
+  type: 'test'
+  ...
+# Subtest: matching presentation shuffles and remaps keys without changing meanings or explanations
+ok 61 - matching presentation shuffles and remaps keys without changing meanings or explanations
+  ---
+  duration_ms: 3.8653
+  type: 'test'
+  ...
+# Subtest: missing graphs and tables are rejected but self-contained tables and plotting proposals remain valid
+ok 62 - missing graphs and tables are rejected but self-contained tables and plotting proposals remain valid
+  ---
+  duration_ms: 0.9194
+  type: 'test'
+  ...
+# Subtest: generated and reserve matching both expose a stable shuffled presentation with a private valid key
+ok 63 - generated and reserve matching both expose a stable shuffled presentation with a private valid key
+  ---
+  duration_ms: 3.0325
+  type: 'test'
+  ...
+# Subtest: generation failures never publish drafts and record private-safe diagnostic categories
+ok 64 - generation failures never publish drafts and record private-safe diagnostic categories
+  ---
+  duration_ms: 12.7598
+  type: 'test'
+  ...
+# [Learning] Generation unavailable: unknown 
+# Subtest: repair success publishes only the final reviewed question and returns stable cached identity
+ok 65 - repair success publishes only the final reviewed question and returns stable cached identity
+  ---
+  duration_ms: 14.4423
+  type: 'test'
+  ...
+# Subtest: reserve does not silently change the target objective or cognitive skill
+ok 66 - reserve does not silently change the target objective or cognitive skill
+  ---
+  duration_ms: 1.4534
+  type: 'test'
+  ...
+# [Learning] 403
+# [Learning] 403
+# Subtest: a previously published activity resumes after server restart without generating a replacement
+ok 67 - a previously published activity resumes after server restart without generating a replacement
+  ---
+  duration_ms: 24.041
+  type: 'test'
+  ...
+# [Learning] 503
+# [Learning] injected_failure
+# Subtest: evaluation and persistence failures preserve the same activity and can be retried once
+ok 68 - evaluation and persistence failures preserve the same activity and can be retried once
+  ---
+  duration_ms: 24.2965
+  type: 'test'
+  ...
+# [Learning] injected_lost_response
+# Subtest: lost insertion response is recovered by resume and does not repeat evaluation or retain answered pending content
+ok 69 - lost insertion response is recovered by resume and does not repeat evaluation or retain answered pending content
+  ---
+  duration_ms: 24.3457
+  type: 'test'
+  ...
+# [Learning] 410
+# Subtest: expired resume cannot create another activity or an invented attempt
+ok 70 - expired resume cannot create another activity or an invented attempt
+  ---
+  duration_ms: 7.4175
+  type: 'test'
+  ...
+# Subtest: browser drafts preserve all answer formats and remain scoped to user and module
+ok 71 - browser drafts preserve all answer formats and remain scoped to user and module
+  ---
+  duration_ms: 3.7649
+  type: 'test'
+  ...
+# [Learning] Generation unavailable: contract choices_or_key
+# [Learning] Generation unavailable: contract choices_or_key
+# [Learning] Generation unavailable: contract choices_or_key
+# [Learning] Generation unavailable: contract choices_or_key
+# Subtest: disconnect during generation and a concurrent retry still publish only one activity
+ok 72 - disconnect during generation and a concurrent retry still publish only one activity
+  ---
+  duration_ms: 15.0989
+  type: 'test'
+  ...
+# Subtest: failure reasons are bounded categories and respect causes without exposing provider messages
+ok 73 - failure reasons are bounded categories and respect causes without exposing provider messages
+  ---
+  duration_ms: 0.4282
+  type: 'test'
+  ...
+# Subtest: generation model experiments keep grading isolated and retain the private publication gate
+ok 74 - generation model experiments keep grading isolated and retain the private publication gate
+  ---
+  duration_ms: 1.4432
+  type: 'test'
+  ...
+# Subtest: unused explanation metadata is harmless but missing required rationale still fails
+ok 75 - unused explanation metadata is harmless but missing required rationale still fails
+  ---
+  duration_ms: 0.4961
+  type: 'test'
+  ...
+# Subtest: a reviewed reserve survives generation failure without changing objective, owner or activity identity
+ok 76 - a reviewed reserve survives generation failure without changing objective, owner or activity identity
+  ---
+  duration_ms: 4.6804
+  type: 'test'
+  ...
+# Subtest: lookahead starts while reading and does not lock hints or answers; delivery reuses the reviewed candidate
+ok 77 - lookahead starts while reading and does not lock hints or answers; delivery reuses the reviewed candidate
+  ---
+  duration_ms: 27.2223
+  type: 'test'
+  ...
+# Subtest: lookahead planner waits for uncertain outcomes and refuses stale curriculum or evidence
+ok 78 - lookahead planner waits for uncertain outcomes and refuses stale curriculum or evidence
+  ---
+  duration_ms: 1.2324
+  type: 'test'
+  ...
+# Subtest: conditional skill lookahead is accepted only when the real saved result selects that skill
+ok 79 - conditional skill lookahead is accepted only when the real saved result selects that skill
+  ---
+  duration_ms: 1.0579
+  type: 'test'
+  ...
+# Subtest: an eight-activity practice and restart reuse work finished while reading, without duplicate foreground generation
+ok 80 - an eight-activity practice and restart reuse work finished while reading, without duplicate foreground generation
+  ---
+  duration_ms: 70.8527
+  type: 'test'
+  ...
+# Subtest: closed-format wire contracts constrain keys and lengths but allow an honest open alternative
+ok 81 - closed-format wire contracts constrain keys and lengths but allow an honest open alternative
+  ---
+  duration_ms: 1.4629
+  type: 'test'
+  ...
+# [Learning] Lookahead unavailable: 503
+# [Learning] Lookahead unavailable: 503
+# Subtest: a failed lookahead never replaces the visible question and falls back to normal preparation after saving
+ok 82 - a failed lookahead never replaces the visible question and falls back to normal preparation after saving
+  ---
+  duration_ms: 17.0699
+  type: 'test'
+  ...
+# Subtest: a profile change discards a finished lookahead and prepares using the actual current grade
+ok 83 - a profile change discards a finished lookahead and prepares using the actual current grade
+  ---
+  duration_ms: 17.4837
+  type: 'test'
+  ...
+# [Learning] Restart prefetch unavailable: 503
+# Subtest: failed restart prefetch cannot block a summary or retry generation on summary reload
+ok 84 - failed restart prefetch cannot block a summary or retry generation on summary reload
+  ---
+  duration_ms: 16.6404
+  type: 'test'
+  ...
+# Subtest: eight-question practice persists all five formats and returns a finite owned summary
+ok 85 - eight-question practice persists all five formats and returns a finite owned summary
+  ---
+  duration_ms: 68.1074
+  type: 'test'
+  ...
+# Subtest: generic inquiry uses eight independent briefs; specific scientific content and other subjects remain unchanged
+ok 86 - generic inquiry uses eight independent briefs; specific scientific content and other subjects remain unchanged
+  ---
+  duration_ms: 6.4474
+  type: 'test'
+  ...
+# Subtest: matching refuses the two-column answer/third-relation table shown in the report, including paraphrased copies
+ok 87 - matching refuses the two-column answer/third-relation table shown in the report, including paraphrased copies
+  ---
+  duration_ms: 5.6682
+  type: 'test'
+  ...
+# Subtest: matching refuses solution assignments, model instructions, grouped tasks and unsupported triple relations
+ok 88 - matching refuses solution assignments, model instructions, grouped tasks and unsupported triple relations
+  ---
+  duration_ms: 6.0887
+  type: 'test'
+  ...
+# Subtest: provider deadline aborts have a fixed diagnostic category instead of unknown
+ok 89 - provider deadline aborts have a fixed diagnostic category instead of unknown
+  ---
+  duration_ms: 2.7165
+  type: 'test'
+  ...
+# Subtest: separates exact A/B/C alternatives, wrapped lines, Markdown labels and bullet lists from required data
+ok 90 - separates exact A/B/C alternatives, wrapped lines, Markdown labels and bullet lists from required data
+  ---
+  duration_ms: 13.8311
+  type: 'test'
+  ...
+# Subtest: removes only response tables, preserves observation and reading tables
+ok 91 - removes only response tables, preserves observation and reading tables
+  ---
+  duration_ms: 3.5543
+  type: 'test'
+  ...
+# Subtest: leaves embedded mentions, partial lists, quotes and unlabelled passages untouched
+ok 92 - leaves embedded mentions, partial lists, quotes and unlabelled passages untouched
+  ---
+  duration_ms: 4.2226
+  type: 'test'
+  ...
+# Subtest: generated and stored activities use the same corrected question with unchanged answer keys
+ok 93 - generated and stored activities use the same corrected question with unchanged answer keys
+  ---
+  duration_ms: 9.8401
+  type: 'test'
+  ...
+# Subtest: review, sealed token and delivery agree, with no extra generation calls
+ok 94 - review, sealed token and delivery agree, with no extra generation calls
+  ---
+  duration_ms: 15.5806
+  type: 'test'
+  ...
+# [Learning] Generation unavailable: unknown 
+# Subtest: eight context suggestions vary across all subjects while task guidance follows the cognitive dimension
+ok 95 - eight context suggestions vary across all subjects while task guidance follows the cognitive dimension
+  ---
+  duration_ms: 4.1273
+  type: 'test'
+  ...
+# Subtest: lookahead exclusions reach generation and semantic review without invented learner evidence or additional model calls
+ok 96 - lookahead exclusions reach generation and semantic review without invented learner evidence or additional model calls
+  ---
+  duration_ms: 36.3718
+  type: 'test'
+  ...
+# Subtest: semantic repetition rejection repairs before delivery and preserves the previous question as exclusion
+ok 97 - semantic repetition rejection repairs before delivery and preserves the previous question as exclusion
+  ---
+  duration_ms: 5.8
+  type: 'test'
+  ...
+# Subtest: a generation failure cannot reissue a previously answered approved reserve
+ok 98 - a generation failure cannot reissue a previously answered approved reserve
+  ---
+  duration_ms: 9.3264
+  type: 'test'
+  ...
+# Subtest: computed primary sums do not recycle the same reading-day scenario in another activity
+ok 99 - computed primary sums do not recycle the same reading-day scenario in another activity
+  ---
+  duration_ms: 10.1821
+  type: 'test'
+  ...
+# Subtest: eight preferred slots include ordering, retain two open slots and do not require a ten-question session
+ok 100 - eight preferred slots include ordering, retain two open slots and do not require a ten-question session
+  ---
+  duration_ms: 4.9207
+  type: 'test'
+  ...
+# Subtest: permutation shuffling preserves the exact semantic key and position explanations without revealing a solved sequence
+ok 101 - permutation shuffling preserves the exact semantic key and position explanations without revealing a solved sequence
+  ---
+  duration_ms: 28.3718
+  type: 'test'
+  ...
+# Subtest: ordering rejects repeated/empty items and malformed keys before publication
+ok 102 - ordering rejects repeated/empty items and malformed keys before publication
+  ---
+  duration_ms: 3.0002
+  type: 'test'
+  ...
+# Subtest: nine corrected sources have immutable provenance, valid content and support, and are excluded from old reserve delivery
+ok 103 - nine corrected sources have immutable provenance, valid content and support, and are excluded from old reserve delivery
+  ---
+  duration_ms: 32.4359
+  type: 'test'
+  ...
+# Subtest: remaining fractions and linear-model computations are independently correct
+ok 104 - remaining fractions and linear-model computations are independently correct
+  ---
+  duration_ms: 0.6546
+  type: 'test'
+  ...
+# Subtest: generated ordering dependencies must be quoted, acyclic, complete and consistent with the answer key
+ok 105 - generated ordering dependencies must be quoted, acyclic, complete and consistent with the answer key
+  ---
+  duration_ms: 1.5021
+  type: 'test'
+  ...
+# Subtest: non-ordering generation does not receive the extra ordering prompts or change models
+ok 106 - non-ordering generation does not receive the extra ordering prompts or change models
+  ---
+  duration_ms: 14.5484
+  type: 'test'
+  ...
+# Subtest: numeric reserves honor explicit zero tolerance instead of silently allowing a one-hundredth error
+ok 107 - numeric reserves honor explicit zero tolerance instead of silently allowing a one-hundredth error
+  ---
+  duration_ms: 24.9435
+  type: 'test'
+  ...
+# Subtest: inventory reconciles steps and nested question units without promoting enrichment to approval
+ok 108 - inventory reconciles steps and nested question units without promoting enrichment to approval
+  ---
+  duration_ms: 57.0848
+  type: 'test'
+  ...
+# Subtest: out of range keys, unsupported formats and unknown evaluation strategies are listed by source id
+ok 109 - out of range keys, unsupported formats and unknown evaluation strategies are listed by source id
+  ---
+  duration_ms: 3.4322
+  type: 'test'
+  ...
+# Subtest: placeholder options block selection, while irrelevant unused options do not block open questions
+ok 110 - placeholder options block selection, while irrelevant unused options do not block open questions
+  ---
+  duration_ms: 3.6824
+  type: 'test'
+  ...
+# Subtest: completed flags without data, broken material links and unsupported renderers remain findings only
+ok 111 - completed flags without data, broken material links and unsupported renderers remain findings only
+  ---
+  duration_ms: 1.7748
+  type: 'test'
+  ...
+# Subtest: implicit dimensions, invalid numeric references and non-permutation ordering are not certified
+ok 112 - implicit dimensions, invalid numeric references and non-permutation ordering are not certified
+  ---
+  duration_ms: 3.298
+  type: 'test'
+  ...
+# Subtest: duplicate groups preserve every id, and grade coverage cannot invent missing audit cells
+ok 113 - duplicate groups preserve every id, and grade coverage cannot invent missing audit cells
+  ---
+  duration_ms: 3.1959
+  type: 'test'
+  ...
+# Subtest: content hashes ignore object-key ordering but change with an edited answer key
+ok 114 - content hashes ignore object-key ordering but change with an edited answer key
+  ---
+  duration_ms: 3.6108
+  type: 'test'
+  ...
+# Subtest: known defective legacy steps are quarantined, without quarantining their isolated replacements
+ok 115 - known defective legacy steps are quarantined, without quarantining their isolated replacements
+  ---
+  duration_ms: 3.6738
+  type: 'test'
+  ...
+# Subtest: quarantine prevents serving the five known defective reserves and leaves other reserve delivery working
+ok 116 - quarantine prevents serving the five known defective reserves and leaves other reserve delivery working
+  ---
+  duration_ms: 23.9663
+  type: 'test'
+  ...
+# Subtest: pilot candidates preserve provenance, stay inactive and satisfy the live format contract
+ok 117 - pilot candidates preserve provenance, stay inactive and satisfy the live format contract
+  ---
+  duration_ms: 9.9156
+  type: 'test'
+  ...
+# Subtest: all authored support cards keep their real visual and prose-only conclusions
+ok 118 - all authored support cards keep their real visual and prose-only conclusions
+  ---
+  duration_ms: 4.2664
+  type: 'test'
+  ...
+# Subtest: closed candidate keys and distractors grade correctly through the real service with detailed explanations
+ok 119 - closed candidate keys and distractors grade correctly through the real service with detailed explanations
+  ---
+  duration_ms: 5.5551
+  type: 'test'
+  ...
+# Subtest: ordering rejects omissions, additions, repetitions and out-of-range indices before grading
+ok 120 - ordering rejects omissions, additions, repetitions and out-of-range indices before grading
+  ---
+  duration_ms: 24.6703
+  type: 'test'
+  ...
+# Subtest: mathematics key is independently checked with integer arithmetic and the specified physical domain
+ok 121 - mathematics key is independently checked with integer arithmetic and the specified physical domain
+  ---
+  duration_ms: 0.3247
+  type: 'test'
+  ...
+# Subtest: second round has thirteen unique versioned corrections and preserves nine genuine coverage gaps
+ok 122 - second round has thirteen unique versioned corrections and preserves nine genuine coverage gaps
+  ---
+  duration_ms: 32.0813
+  type: 'test'
+  ...
+# Subtest: second-round closed keys, distractors and feedback pass the real evaluator without model calls
+ok 123 - second-round closed keys, distractors and feedback pass the real evaluator without model calls
+  ---
+  duration_ms: 9.6761
+  type: 'test'
+  ...
+# Subtest: all thirteen original second-round sources are quarantined in the delivery path
+ok 124 - all thirteen original second-round sources are quarantined in the delivery path
+  ---
+  duration_ms: 20.1658
+  type: 'test'
+  ...
+# Subtest: fraction correction keeps the independently correct original key and explains each alternative
+ok 125 - fraction correction keeps the independently correct original key and explains each alternative
+  ---
+  duration_ms: 0.5924
+  type: 'test'
+  ...
+# Subtest: rubric evaluation separates student response from reference and never asks the model to infer missing student statements
+ok 126 - rubric evaluation separates student response from reference and never asks the model to infer missing student statements
+  ---
+  duration_ms: 3.8113
+  type: 'test'
+  ...
+# Subtest: criterion grading aggregates evidence and rejects fabricated, duplicate or missing checks
+ok 127 - criterion grading aggregates evidence and rejects fabricated, duplicate or missing checks
+  ---
+  duration_ms: 5.8821
+  type: 'test'
+  ...
+# Subtest: round four preserves seven source packets and shared associations; candidates remain isolated and inactive
+ok 128 - round four preserves seven source packets and shared associations; candidates remain isolated and inactive
+  ---
+  duration_ms: 35.7614
+  type: 'test'
+  ...
+# Subtest: round four closed keys and all 54 permitted complete answers are verified with specific explanations
+ok 129 - round four closed keys and all 54 permitted complete answers are verified with specific explanations
+  ---
+  duration_ms: 51.6505
+  type: 'test'
+  ...
+# Subtest: all seven known defective originals are excluded from new runtime reserves
+ok 130 - all seven known defective originals are excluded from new runtime reserves
+  ---
+  duration_ms: 47.9252
+  type: 'test'
+  ...
+# Subtest: round five preserves five original sources, keeps valid original keys and isolates the historical grade correction
+ok 131 - round five preserves five original sources, keeps valid original keys and isolates the historical grade correction
+  ---
+  duration_ms: 25.0457
+  type: 'test'
+  ...
+# Subtest: round five validates all 39 complete selections and explains every alternative
+ok 132 - round five validates all 39 complete selections and explains every alternative
+  ---
+  duration_ms: 20.1107
+  type: 'test'
+  ...
+# Subtest: five originals with confirmed quality issues cannot be delivered as new reserves
+ok 133 - five originals with confirmed quality issues cannot be delivered as new reserves
+  ---
+  duration_ms: 21.0216
+  type: 'test'
+  ...
+# Subtest: round six preserves eight sources and verifies 32 real criterion evaluations
+ok 134 - round six preserves eight sources and verifies 32 real criterion evaluations
+  ---
+  duration_ms: 29.2604
+  type: 'test'
+  ...
+# Subtest: eight defective exact-text reserves cannot be delivered
+ok 135 - eight defective exact-text reserves cannot be delivered
+  ---
+  duration_ms: 5.8358
+  type: 'test'
+  ...
+# Subtest: fragment references preserve exact student text and repair evidence only once
+ok 136 - fragment references preserve exact student text and repair evidence only once
+  ---
+  duration_ms: 12.2247
+  type: 'test'
+  ...
+# Subtest: concurrent traces isolate timing and token usage without recording payloads
+ok 137 - concurrent traces isolate timing and token usage without recording payloads
+  ---
+  duration_ms: 10.8149
+  type: 'test'
+  ...
+# Subtest: activity report separates cold, prepared and repeated deliveries and recognizes streamed errors
+ok 138 - activity report separates cold, prepared and repeated deliveries and recognizes streamed errors
+  ---
+  duration_ms: 3.524
+  type: 'test'
+  ...
+1..138
+# tests 138
+# suites 0
+# pass 138
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2568.2926

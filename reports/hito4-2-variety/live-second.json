@@ -1,0 +1,616 @@
+{
+  "model": "gpt-4.1-mini",
+  "limit": 32,
+  "calls": 20,
+  "inputTokens": 72186,
+  "outputTokens": 8002,
+  "databaseCalls": 0,
+  "results": [
+    {
+      "slot": 1,
+      "seconds": 5.887,
+      "activity": {
+        "id": "0b643065-05ec-4bfa-9486-2e9d7177e631",
+        "step_id": "variety-step",
+        "question": "Una estudiante realiza un experimento en la huerta de su colegio para entender qué afecta la evaporación del agua. Coloca tres recipientes con la misma cantidad de agua: uno a la sombra, otro al sol, y uno cubierto con una tapa transparente y al sol. Después de una hora, mide el volumen de agua que quedó en cada recipiente.\n\n| Recipiente                | Volumen inicial (ml) | Volumen después de 1 hora (ml) |\n|---------------------------|---------------------|-------------------------------|\n| A (a la sombra)            | 500                 | 480                           |\n| B (al sol)                 | 500                 | 350                           |\n| C (al sol con tapa)        | 500                 | 490                           |\n\nLa estudiante plantea estas dos hipótesis:\n\n1. La exposición al sol aumenta la evaporación del agua.\n2. La tapa evita la evaporación del agua, ya que protege el agua del aire.\n\n¿Cuál hipótesis está mejor apoyada por los datos del experimento?",
+        "type": "option",
+        "options": [
+          "Solo la hipótesis 1 está mejor apoyada por los datos.",
+          "Solo la hipótesis 2 está mejor apoyada por los datos.",
+          "Ambas hipótesis están mejor apoyadas por los datos.",
+          "Ninguna hipótesis está respaldada por los datos."
+        ],
+        "cognitive_dimension": "comprension",
+        "source": "generated",
+        "notice": null,
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "0b643065-05ec-4bfa-9486-2e9d7177e631",
+        "user_id": "synthetic",
+        "module_id": "variety-science",
+        "step_id": "variety-step",
+        "question": "Una estudiante realiza un experimento en la huerta de su colegio para entender qué afecta la evaporación del agua. Coloca tres recipientes con la misma cantidad de agua: uno a la sombra, otro al sol, y uno cubierto con una tapa transparente y al sol. Después de una hora, mide el volumen de agua que quedó en cada recipiente.\n\n| Recipiente                | Volumen inicial (ml) | Volumen después de 1 hora (ml) |\n|---------------------------|---------------------|-------------------------------|\n| A (a la sombra)            | 500                 | 480                           |\n| B (al sol)                 | 500                 | 350                           |\n| C (al sol con tapa)        | 500                 | 490                           |\n\nLa estudiante plantea estas dos hipótesis:\n\n1. La exposición al sol aumenta la evaporación del agua.\n2. La tapa evita la evaporación del agua, ya que protege el agua del aire.\n\n¿Cuál hipótesis está mejor apoyada por los datos del experimento?",
+        "type": "option",
+        "options": [
+          "Solo la hipótesis 1 está mejor apoyada por los datos.",
+          "Solo la hipótesis 2 está mejor apoyada por los datos.",
+          "Ambas hipótesis están mejor apoyadas por los datos.",
+          "Ninguna hipótesis está respaldada por los datos."
+        ],
+        "expected": {
+          "type": "option",
+          "correct_options": [
+            2
+          ]
+        },
+        "learning_focus": "Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación.",
+        "option_explanations": [
+          "La hipótesis 1 es apoyada porque el agua evaporó más bajo el sol (recipiente B vs A).",
+          "La hipótesis 2 aunque es razonable, la pérdida mínima en recipiente C muestra que la tapa reduce, no que evite totalmente la evaporación; sin embargo, no es la hipótesis más fuerte en datos.",
+          "Los datos apoyan ambas hipótesis: la evaporación aumenta con sol y la tapa reduce la evaporación.",
+          "Los datos claramente muestran cambios en los volúmenes que apoyan las hipótesis, por lo que esta opción es incorrecta."
+        ],
+        "pair_explanations": [],
+        "rubric": "Evalúa si el estudiante identifica correctamente que la exposición al sol incrementa la evaporación y que la tapa reduce o evita la evaporación, usando los datos comparativos de los volúmenes de agua.",
+        "hint": "Observa qué recipiente perdió más agua y cuál perdió menos. ¿Qué efecto tiene la tapa según el cambio en el volumen?",
+        "explanation": "Los datos muestran que el recipiente al sol sin tapa perdió mucho más agua que el de la sombra, apoyando la hipótesis 1. Además, el recipiente con tapa al sol casi no perdió agua, apoyando la hipótesis 2. Por tanto, ambas hipótesis están respaldadas, pero la hipótesis 1 se confirma con más claridad gracias a la comparación entre recipiente A y B.",
+        "dimension": "comprension",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "Hipótesis y evidencia",
+          "concept": "hipotesis_y_evidencia",
+          "learning_goal": "Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación."
+        },
+        "grade_group": "6-7",
+        "expires_at": 1794017313583
+      }
+    },
+    {
+      "slot": 2,
+      "seconds": 6.394,
+      "activity": {
+        "id": "7212bb80-fe1b-4a31-a3f1-466f0a88b892",
+        "step_id": "variety-step",
+        "question": "Una estudiante quiere investigar qué material afecta más la rapidez con la que se enfría una bebida caliente. Para ello, llena tres términos con agua caliente a la misma temperatura: uno con tapa metálica, otro con tapa plástica y otro sin tapa. Después de 30 minutos en una habitación, mide la temperatura del agua en cada uno.\n\n| Término               | Temperatura inicial (°C) | Temperatura después de 30 min (°C) |\\n|----------------------|--------------------------|----------------------------------|\n| 1 (tapa metálica)     | 80                       | 60                               |\n| 2 (tapa plástica)     | 80                       | 55                               |\n| 3 (sin tapa)          | 80                       | 40                               |\n\nLa estudiante plantea estas dos hipótesis:\n\n1. Las tapas reducen la pérdida de calor del agua caliente.\n2. El tipo de tapa influye en el enfriamiento del agua debido a sus propiedades.\n\n¿Cuál hipótesis está mejor apoyada por los datos? Explica tu respuesta apoyándote en los datos de la tabla.",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "razonamiento",
+        "source": "generated",
+        "notice": null,
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "7212bb80-fe1b-4a31-a3f1-466f0a88b892",
+        "user_id": "synthetic",
+        "module_id": "variety-science",
+        "step_id": "variety-step",
+        "question": "Una estudiante quiere investigar qué material afecta más la rapidez con la que se enfría una bebida caliente. Para ello, llena tres términos con agua caliente a la misma temperatura: uno con tapa metálica, otro con tapa plástica y otro sin tapa. Después de 30 minutos en una habitación, mide la temperatura del agua en cada uno.\n\n| Término               | Temperatura inicial (°C) | Temperatura después de 30 min (°C) |\\n|----------------------|--------------------------|----------------------------------|\n| 1 (tapa metálica)     | 80                       | 60                               |\n| 2 (tapa plástica)     | 80                       | 55                               |\n| 3 (sin tapa)          | 80                       | 40                               |\n\nLa estudiante plantea estas dos hipótesis:\n\n1. Las tapas reducen la pérdida de calor del agua caliente.\n2. El tipo de tapa influye en el enfriamiento del agua debido a sus propiedades.\n\n¿Cuál hipótesis está mejor apoyada por los datos? Explica tu respuesta apoyándote en los datos de la tabla.",
+        "type": "text",
+        "options": [],
+        "expected": {
+          "type": "rubric",
+          "answer": "La hipótesis 1 está mejor apoyada porque los términos con tapa tienen una temperatura mayor después de 30 minutos que el sin tapa, lo que indica que la tapa reduce la pérdida de calor. La hipótesis 2 es plausible porque hay diferencias entre los tipos de tapa, pero con estos datos no se puede asegurar que el tipo de tapa influya definitivamente en el enfriamiento.",
+          "rubric": "Evalúa si el estudiante identifica que la primera hipótesis tiene evidencia clara: los términos con tapa mantienen más temperatura que sin tapa. También valora si reconoce que la segunda hipótesis es plausible pero no concluyente con esta información porque faltan datos para comparar las tapas entre sí claramente (hay diferencia, pero podría atribuirse a otros factores). Se aceptan explicaciones que mencionen estas observaciones de forma lógica y coherente."
+        },
+        "learning_focus": "Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación.",
+        "option_explanations": [],
+        "pair_explanations": [],
+        "rubric": "Evalúa si el estudiante identifica que la primera hipótesis tiene evidencia clara: los términos con tapa mantienen más temperatura que sin tapa. También valora si reconoce que la segunda hipótesis es plausible pero no concluyente con esta información porque faltan datos para comparar las tapas entre sí claramente (hay diferencia, pero podría atribuirse a otros factores). Se aceptan explicaciones que mencionen estas observaciones de forma lógica y coherente.",
+        "hint": "Observa cómo cambia la temperatura en cada término y compárala en términos con y sin tapa para ver si la tapa afecta el enfriamiento. Luego analiza si hay suficiente evidencia para asegurar que el tipo de tapa también influye.",
+        "explanation": "La hipótesis 1 se apoya porque los términos con tapa mantienen más temperatura que el sin tapa, mostrando que la tapa reduce la pérdida de calor. La hipótesis 2 no se puede confirmar claramente solo con estos datos, porque aunque el término con tapa metálica tiene una temperatura más alta que el de tapa plástica, no conocemos otras variables o repetición del experimento para validar esta diferencia.",
+        "dimension": "razonamiento",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "Hipótesis y evidencia",
+          "concept": "hipotesis_y_evidencia",
+          "learning_goal": "Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación."
+        },
+        "grade_group": "6-7",
+        "expires_at": 1794017319979
+      }
+    },
+    {
+      "slot": 3,
+      "seconds": 6.235,
+      "activity": {
+        "id": "82f36be1-7f62-4e59-b7a6-a3c16e744aaf",
+        "step_id": "variety-step",
+        "question": "Un grupo de estudiantes mide cuánto cambia la temperatura del agua en tres recipientes diferentes durante una tarde fría. Colocan los recipientes con la misma cantidad de agua, pero con diferentes cubiertas y miden la temperatura inicial y después de 2 horas.\n\n| Recipiente         | Temperatura inicial (°C) | Temperatura después de 2 horas (°C) |\n|--------------------|--------------------------|------------------------------------|\n| 1 (sin cubierta)   | 20                       | 10                                 |\n| 2 (cobertura plástica) | 20                       | 15                                 |\n| 3 (cobertura de aluminio) | 20                       | 18                                 |\n\nUsando estos datos, señala todas las afirmaciones verdaderas sobre la influencia de las cubiertas en el cambio de temperatura del agua:\n",
+        "type": "multiple_select",
+        "options": [
+          "El recipiente sin cubierta pierde más temperatura que los otros dos.",
+          "La cobertura de aluminio reduce más la pérdida de calor que la cobertura plástica.",
+          "Los recipientes con cubierta mantienen mejor la temperatura que el sin cubierta.",
+          "La cobertura plástica aumenta la pérdida de calor del agua."
+        ],
+        "cognitive_dimension": "representacion",
+        "source": "generated",
+        "notice": null,
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "82f36be1-7f62-4e59-b7a6-a3c16e744aaf",
+        "user_id": "synthetic",
+        "module_id": "variety-science",
+        "step_id": "variety-step",
+        "question": "Un grupo de estudiantes mide cuánto cambia la temperatura del agua en tres recipientes diferentes durante una tarde fría. Colocan los recipientes con la misma cantidad de agua, pero con diferentes cubiertas y miden la temperatura inicial y después de 2 horas.\n\n| Recipiente         | Temperatura inicial (°C) | Temperatura después de 2 horas (°C) |\n|--------------------|--------------------------|------------------------------------|\n| 1 (sin cubierta)   | 20                       | 10                                 |\n| 2 (cobertura plástica) | 20                       | 15                                 |\n| 3 (cobertura de aluminio) | 20                       | 18                                 |\n\nUsando estos datos, señala todas las afirmaciones verdaderas sobre la influencia de las cubiertas en el cambio de temperatura del agua:\n",
+        "type": "multiple_select",
+        "options": [
+          "El recipiente sin cubierta pierde más temperatura que los otros dos.",
+          "La cobertura de aluminio reduce más la pérdida de calor que la cobertura plástica.",
+          "Los recipientes con cubierta mantienen mejor la temperatura que el sin cubierta.",
+          "La cobertura plástica aumenta la pérdida de calor del agua."
+        ],
+        "expected": {
+          "type": "multiple_select",
+          "correct_options": [
+            0,
+            1,
+            2
+          ]
+        },
+        "learning_focus": "Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación.",
+        "option_explanations": [
+          "La temperatura bajó de 20 a 10°C aquí, que es el mayor cambio, indicando más pérdida de calor.",
+          "La temperatura bajó menos con cobertura de aluminio (de 20 a 18°C), mostrando mayor reducción de pérdida que la plástica.",
+          "Ambos recipientes con cubierta perdieron menos temperatura que el sin cubierta.",
+          "Los datos muestran que la cobertura plástica disminuyó la pérdida de calor, no la aumentó."
+        ],
+        "pair_explanations": [],
+        "rubric": "Se considera correcta cualquier selección que incluya todas las afirmaciones verdaderas que se derivan directamente de los datos, sin marcar afirmaciones falsas. Las observaciones válidas relacionan correctamente las cubiertas con la disminución de temperatura, mostrando menor bajada con cubiertas especiales.",
+        "hint": "Compara la temperatura inicial y final de cada recipiente para ver cuánto bajó en cada caso. Piensa en cómo el tipo de cubierta podría estar afectando la pérdida de calor.",
+        "explanation": "Se compara cuánto bajó la temperatura en cada recipiente: el sin cubierta bajó más, el con cobertura plástica menos y el de aluminio aún menos. Esto indica que las cubiertas reducen la pérdida de calor, con aluminio siendo más efectivo que plástico.",
+        "dimension": "representacion",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "Hipótesis y evidencia",
+          "concept": "hipotesis_y_evidencia",
+          "learning_goal": "Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación."
+        },
+        "grade_group": "6-7",
+        "expires_at": 1794017326215
+      }
+    },
+    {
+      "slot": 4,
+      "seconds": 17.422,
+      "activity": {
+        "id": "f30454f2-996a-41b2-830f-e3fff8c68d6d",
+        "step_id": "variety-step",
+        "question": "Un grupo de estudiantes del colegio observa tres aulas durante una hora para analizar cómo se puede reducir el desperdicio de agua al lavar las manos. En cada aula hay un dispensador diferente de agua para el lavado: uno con agua potable normal, otro con agua reciclada y uno con un jabón especial que no requiere aclarado con agua.\n\n| Aula  | Tipo de dispensador            | Cantidad de agua utilizada (litros) |\n|-------|-------------------------------|-------------------------------------|\n| A     | Agua potable normal            | 15                                  |\n| B     | Agua reciclada                 | 15                                  |\n| C     | Jabón especial sin aclarado   | 5                                   |\n\nLos estudiantes plantean dos hipótesis:\n\n1. Usar jabón especial sin aclarado reduce el desperdicio de agua.\n2. No se puede saber si el tipo de agua afecta el consumo porque las cantidades usadas son iguales.\n\nRelaciona cada hipótesis con la afirmación que mejor la apoya o explica por qué no puede confirmarse:\n\nA) El aula C usó menos agua, lo que indica que el jabón especial ayuda a ahorrar agua.\nB) El aula B y el aula A usaron la misma cantidad de agua, por lo tanto, no se puede decir si el agua reciclada cambia el consumo.\nC) El aula C tiene menos desperdicio de agua que las otras aulas.\n\nEscribe la correspondencia entre hipótesis y afirmación. Usa la numeración de las hipótesis (1, 2) y las letras de las afirmaciones (A, B, C).",
+        "type": "matching",
+        "options": [],
+        "cognitive_dimension": "transferencia",
+        "source": "generated",
+        "notice": null,
+        "left_items": [
+          "Hipótesis 1: Usar jabón especial sin aclarado reduce el desperdicio de agua.",
+          "Hipótesis 2: No se puede saber si el tipo de agua afecta el consumo porque las cantidades usadas son iguales.",
+          "Afirmación A: El aula C usó menos agua, lo que indica que el jabón especial ayuda a ahorrar agua."
+        ],
+        "right_items": [
+          "Afirmación C: El aula C tiene menos desperdicio de agua que las otras aulas.",
+          "Afirmación A: El aula C usó menos agua, lo que indica que el jabón especial ayuda a ahorrar agua.",
+          "Afirmación B: El aula B y el aula A usaron la misma cantidad de agua, por lo tanto, no se puede decir si el agua reciclada cambia el consumo."
+        ],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "f30454f2-996a-41b2-830f-e3fff8c68d6d",
+        "user_id": "synthetic",
+        "module_id": "variety-science",
+        "step_id": "variety-step",
+        "question": "Un grupo de estudiantes del colegio observa tres aulas durante una hora para analizar cómo se puede reducir el desperdicio de agua al lavar las manos. En cada aula hay un dispensador diferente de agua para el lavado: uno con agua potable normal, otro con agua reciclada y uno con un jabón especial que no requiere aclarado con agua.\n\n| Aula  | Tipo de dispensador            | Cantidad de agua utilizada (litros) |\n|-------|-------------------------------|-------------------------------------|\n| A     | Agua potable normal            | 15                                  |\n| B     | Agua reciclada                 | 15                                  |\n| C     | Jabón especial sin aclarado   | 5                                   |\n\nLos estudiantes plantean dos hipótesis:\n\n1. Usar jabón especial sin aclarado reduce el desperdicio de agua.\n2. No se puede saber si el tipo de agua afecta el consumo porque las cantidades usadas son iguales.\n\nRelaciona cada hipótesis con la afirmación que mejor la apoya o explica por qué no puede confirmarse:\n\nA) El aula C usó menos agua, lo que indica que el jabón especial ayuda a ahorrar agua.\nB) El aula B y el aula A usaron la misma cantidad de agua, por lo tanto, no se puede decir si el agua reciclada cambia el consumo.\nC) El aula C tiene menos desperdicio de agua que las otras aulas.\n\nEscribe la correspondencia entre hipótesis y afirmación. Usa la numeración de las hipótesis (1, 2) y las letras de las afirmaciones (A, B, C).",
+        "type": "matching",
+        "options": [],
+        "left_items": [
+          "Hipótesis 1: Usar jabón especial sin aclarado reduce el desperdicio de agua.",
+          "Hipótesis 2: No se puede saber si el tipo de agua afecta el consumo porque las cantidades usadas son iguales.",
+          "Afirmación A: El aula C usó menos agua, lo que indica que el jabón especial ayuda a ahorrar agua."
+        ],
+        "right_items": [
+          "Afirmación C: El aula C tiene menos desperdicio de agua que las otras aulas.",
+          "Afirmación A: El aula C usó menos agua, lo que indica que el jabón especial ayuda a ahorrar agua.",
+          "Afirmación B: El aula B y el aula A usaron la misma cantidad de agua, por lo tanto, no se puede decir si el agua reciclada cambia el consumo."
+        ],
+        "expected": {
+          "type": "matching",
+          "correct_pairs": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        "learning_focus": "Contrastar hipótesis con observaciones y decidir cuál hipótesis se apoya mejor con los datos dados.",
+        "option_explanations": [],
+        "pair_explanations": [
+          "Menor uso de agua en aula C apoya la hipótesis de jabón especial que reduce desperdicio.",
+          "Igual consumo en aulas A y B indica que no se puede confirmar efecto del tipo de agua.",
+          "El menor desperdicio de agua en el aula C confirma que el jabón especial efectivamente ahorra agua."
+        ],
+        "rubric": "El estudiante debe relacionar correctamente la hipótesis 1 con las afirmaciones que indican menor uso de agua con jabón especial (A y C), y la hipótesis 2 con la afirmación que indica que no se puede confirmar si el agua reciclada afecta consumo (B). Se aceptan respuestas que expliquen que la comparación con agua reciclada no cambia el consumo, y que la reducción de agua está en el caso del jabón especial.",
+        "hint": "Observa los datos de agua usada y piensa qué variable está cambiando y cuál no. ¿Cuál hipótesis es apoyada por la diferencia en litros usados?",
+        "explanation": "La hipótesis 1 es apoyada por las afirmaciones A y C que indican menos agua usada con jabón especial. La hipótesis 2 señala que entre agua potable y reciclada no hay diferencia en consumo, por eso no se puede confirmar si cambia el consumo, lo que corresponde a B.",
+        "dimension": "transferencia",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "Hipótesis y evidencia",
+          "concept": "hipotesis_y_evidencia",
+          "learning_goal": "Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación."
+        },
+        "grade_group": "6-7",
+        "expires_at": 1794017343638
+      }
+    },
+    {
+      "slot": 5,
+      "seconds": 5.651,
+      "activity": {
+        "id": "d61f9e57-1de3-4ea3-98fd-8d09b25c1fcb",
+        "step_id": "variety-step",
+        "question": "Un estudiante quiere investigar cómo afecta el tipo de contenedor en un cambio físico: la condensación del agua en el aire. Coloca tres vasos con la misma cantidad de agua tibia pero en diferentes contenedores: uno de vidrio, otro de plástico, y otro de metal. Después de 1 hora en una habitación fresca, mide cuánta agua se condensó en las paredes externas de cada vaso.\n\n| Contenedor | Agua inicial (ml) | Agua condensada en paredes externas (ml) |\n|------------|------------------|------------------------------------------|\n| Vidrio     | 300              | 50                                       |\n| Plástico   | 300              | 30                                       |\n| Metal      | 300              | 65                                       |\n\nEl estudiante plantea dos hipótesis:\n\n¿Cuál hipótesis está mejor apoyada por los datos de este experimento?",
+        "type": "option",
+        "options": [
+          "1. El material del contenedor influye en la cantidad de agua que se condensa en sus paredes.",
+          "2. La cantidad de agua inicial afecta la cantidad de condensación observada.",
+          "Ninguna de las dos hipótesis es correcta.",
+          "Ambas hipótesis están igualmente apoyadas por los datos."
+        ],
+        "cognitive_dimension": "metacognicion",
+        "source": "generated",
+        "notice": null,
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "d61f9e57-1de3-4ea3-98fd-8d09b25c1fcb",
+        "user_id": "synthetic",
+        "module_id": "variety-science",
+        "step_id": "variety-step",
+        "question": "Un estudiante quiere investigar cómo afecta el tipo de contenedor en un cambio físico: la condensación del agua en el aire. Coloca tres vasos con la misma cantidad de agua tibia pero en diferentes contenedores: uno de vidrio, otro de plástico, y otro de metal. Después de 1 hora en una habitación fresca, mide cuánta agua se condensó en las paredes externas de cada vaso.\n\n| Contenedor | Agua inicial (ml) | Agua condensada en paredes externas (ml) |\n|------------|------------------|------------------------------------------|\n| Vidrio     | 300              | 50                                       |\n| Plástico   | 300              | 30                                       |\n| Metal      | 300              | 65                                       |\n\nEl estudiante plantea dos hipótesis:\n\n¿Cuál hipótesis está mejor apoyada por los datos de este experimento?",
+        "type": "option",
+        "options": [
+          "1. El material del contenedor influye en la cantidad de agua que se condensa en sus paredes.",
+          "2. La cantidad de agua inicial afecta la cantidad de condensación observada.",
+          "Ninguna de las dos hipótesis es correcta.",
+          "Ambas hipótesis están igualmente apoyadas por los datos."
+        ],
+        "expected": {
+          "type": "option",
+          "correct_options": [
+            0
+          ]
+        },
+        "learning_focus": "Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación.",
+        "option_explanations": [
+          "Los datos muestran que con igual cantidad inicial de agua, la condensación cambia según el material, apoyando esta hipótesis.",
+          "La cantidad inicial de agua es la misma para todos, por lo que no explica las diferencias observadas en la condensación.",
+          "Los datos sí apoyan una hipótesis claramente, por lo que esta opción es incorrecta.",
+          "Los datos no apoyan ambas hipótesis porque la cantidad inicial es fija y no explica la variación."
+        ],
+        "pair_explanations": [],
+        "rubric": "Se evalúa si el estudiante identifica correctamente la hipótesis apoyada por los datos, reconociendo que el material del contenedor influye en la condensación porque el agua inicial es igual en todos los vasos.",
+        "hint": "Observa que todos los vasos tienen la misma cantidad inicial de agua; piensa qué variable cambia y qué efecto tiene en la cantidad de condensación.",
+        "explanation": "Como en todos los vasos hay la misma cantidad inicial de agua, la cantidad de condensación varía según el material del contenedor, lo que apoya la primera hipótesis y descarta que la cantidad inicial de agua afecte la condensación.",
+        "dimension": "metacognicion",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "Hipótesis y evidencia",
+          "concept": "hipotesis_y_evidencia",
+          "learning_goal": "Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación."
+        },
+        "grade_group": "6-7",
+        "expires_at": 1794017349290
+      }
+    },
+    {
+      "slot": 6,
+      "seconds": 5.959,
+      "activity": {
+        "id": "ee60dcff-368a-4c8c-b972-db0d7f2030b3",
+        "step_id": "variety-step",
+        "question": "En un laboratorio del colegio, una estudiante decide investigar cómo cambia la masa de un hielo durante una hora a temperatura ambiente. Coloca tres cubos de hielo de diferentes tamaños en platos separados y mide su masa al inicio y después de una hora.\n\n| Cubo de hielo | Masa inicial (g) | Masa después de 1 hora (g) |\n|---------------|------------------|----------------------------|\n| A (pequeño)   | 150              | 100                        |\n| B (mediano)   | 300              | 210                        |\n| C (grande)    | 450              | 315                        |\n\nLa estudiante formula estas hipótesis:\n\n1. La masa del hielo disminuye debido a la fusión causada por la temperatura ambiente.\n2. El tamaño inicial del hielo no afecta la cantidad de masa que se pierde al fundirse.\n\nSegún los datos, ¿qué hipótesis está mejor apoyada y por qué? Explica tu respuesta usando la información de la tabla.",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "comprension",
+        "source": "generated",
+        "notice": null,
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "ee60dcff-368a-4c8c-b972-db0d7f2030b3",
+        "user_id": "synthetic",
+        "module_id": "variety-science",
+        "step_id": "variety-step",
+        "question": "En un laboratorio del colegio, una estudiante decide investigar cómo cambia la masa de un hielo durante una hora a temperatura ambiente. Coloca tres cubos de hielo de diferentes tamaños en platos separados y mide su masa al inicio y después de una hora.\n\n| Cubo de hielo | Masa inicial (g) | Masa después de 1 hora (g) |\n|---------------|------------------|----------------------------|\n| A (pequeño)   | 150              | 100                        |\n| B (mediano)   | 300              | 210                        |\n| C (grande)    | 450              | 315                        |\n\nLa estudiante formula estas hipótesis:\n\n1. La masa del hielo disminuye debido a la fusión causada por la temperatura ambiente.\n2. El tamaño inicial del hielo no afecta la cantidad de masa que se pierde al fundirse.\n\nSegún los datos, ¿qué hipótesis está mejor apoyada y por qué? Explica tu respuesta usando la información de la tabla.",
+        "type": "text",
+        "options": [],
+        "expected": {
+          "type": "rubric",
+          "answer": "La hipótesis 1 está mejor apoyada porque los datos muestran que la masa del hielo disminuye después de una hora, lo que indica que el hielo se está fundiendo debido a la temperatura ambiente. La hipótesis 2 no está apoyada porque la cantidad de masa que se pierde depende del tamaño inicial: los cubos más grandes pierden más masa en gramos, aunque el porcentaje de pérdida es similar. Esto significa que el tamaño sí influye en la cantidad de hielo que se derrite.",
+          "rubric": "La respuesta debe identificar que la masa del hielo disminuye (hipótesis 1) como efecto del cambio físico de fusión y evidenciar con datos que la pérdida de masa está relacionada con el tamaño inicial (rechazando hipótesis 2) apoyándose en las diferencias proporcionales entre masas iniciales y finales."
+        },
+        "learning_focus": "Formulación y contraste de hipótesis sobre cambios físicos a partir de observaciones cuantitativas.",
+        "option_explanations": [],
+        "pair_explanations": [],
+        "rubric": "La respuesta debe identificar que la masa del hielo disminuye (hipótesis 1) como efecto del cambio físico de fusión y evidenciar con datos que la pérdida de masa está relacionada con el tamaño inicial (rechazando hipótesis 2) apoyándose en las diferencias proporcionales entre masas iniciales y finales.",
+        "hint": "Observa cómo cambia la masa en cada cubo, y piensa si el tamaño inicial influye en la cantidad de hielo que se derrite en una hora a temperatura ambiente.",
+        "explanation": "Al comparar la masa inicial y final, se ve que la masa disminuye en cada cubo, confirmando que la fusión ocurre. Además, aunque el porcentaje de pérdida es similar, el cubo más grande pierde más masa en gramos, mostrando que el tamaño inicial sí afecta la cantidad de masa perdida, por lo que la hipótesis 1 está mejor sustentada y la 2 es incorrecta.",
+        "dimension": "comprension",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "Hipótesis y evidencia",
+          "concept": "hipotesis_y_evidencia",
+          "learning_goal": "Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación."
+        },
+        "grade_group": "6-7",
+        "expires_at": 1794017355250
+      }
+    },
+    {
+      "slot": 7,
+      "seconds": 14.559,
+      "activity": {
+        "id": "6a927574-c737-4579-be95-d8ae550baf48",
+        "step_id": "variety-step",
+        "question": "En un laboratorio de ciencias, un grupo de estudiantes quiere comprender cómo afecta el tipo de tapa a la evaporación del agua. Colocan tres vasos con 600 ml de agua a temperatura ambiente, con diferentes condiciones:\n\n| Vaso       | Condición           | Volumen inicial (ml) | Volumen después de 2 horas (ml) |\n|------------|---------------------|---------------------|--------------------------------|\n| 1          | Sin tapa            | 600                 | 400                            |\n| 2          | Tapa perforada      | 600                 | 550                            |\n| 3          | Tapa cerrada hermética | 600               | 595                            |\n\nLos estudiantes proponen las siguientes hipótesis:\n\n1. El agua en el vaso sin tapa pierde más volumen por evaporación debido a la exposición al aire.\n2. La tapa perforada reduce un poco la evaporación, pero no la detiene completamente.\n3. La tapa cerrada hermética evita casi toda la evaporación al impedir la salida del vapor.\n\nMarca todas las hipótesis que están bien apoyadas por estos datos.",
+        "type": "multiple_select",
+        "options": [
+          "Solo la hipótesis 1 está bien apoyada.",
+          "Las hipótesis 1 y 2 están bien apoyadas.",
+          "Las hipótesis 1, 2 y 3 están bien apoyadas.",
+          "Ninguna hipótesis está bien apoyada."
+        ],
+        "cognitive_dimension": "razonamiento",
+        "source": "generated",
+        "notice": null,
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "6a927574-c737-4579-be95-d8ae550baf48",
+        "user_id": "synthetic",
+        "module_id": "variety-science",
+        "step_id": "variety-step",
+        "question": "En un laboratorio de ciencias, un grupo de estudiantes quiere comprender cómo afecta el tipo de tapa a la evaporación del agua. Colocan tres vasos con 600 ml de agua a temperatura ambiente, con diferentes condiciones:\n\n| Vaso       | Condición           | Volumen inicial (ml) | Volumen después de 2 horas (ml) |\n|------------|---------------------|---------------------|--------------------------------|\n| 1          | Sin tapa            | 600                 | 400                            |\n| 2          | Tapa perforada      | 600                 | 550                            |\n| 3          | Tapa cerrada hermética | 600               | 595                            |\n\nLos estudiantes proponen las siguientes hipótesis:\n\n1. El agua en el vaso sin tapa pierde más volumen por evaporación debido a la exposición al aire.\n2. La tapa perforada reduce un poco la evaporación, pero no la detiene completamente.\n3. La tapa cerrada hermética evita casi toda la evaporación al impedir la salida del vapor.\n\nMarca todas las hipótesis que están bien apoyadas por estos datos.",
+        "type": "multiple_select",
+        "options": [
+          "Solo la hipótesis 1 está bien apoyada.",
+          "Las hipótesis 1 y 2 están bien apoyadas.",
+          "Las hipótesis 1, 2 y 3 están bien apoyadas.",
+          "Ninguna hipótesis está bien apoyada."
+        ],
+        "expected": {
+          "type": "multiple_select",
+          "correct_options": [
+            2,
+            1,
+            0
+          ]
+        },
+        "learning_focus": "Formulación y contraste de hipótesis sobre evaporación en función de las condiciones para un cambio físico",
+        "option_explanations": [
+          "El vaso sin tapa pierde mucho agua, lo que apoya la hipótesis 1, pero las otras hipótesis también muestran patrones claros en los datos.",
+          "Los datos muestran que la tapa perforada reduce algo la evaporación, apoyando la hipótesis 2, pero también la tapa hermética tiene un efecto notable.",
+          "Los datos respaldan claramente las tres hipótesis según la comparación de volúmenes y condiciones.",
+          "Los datos sí apoyan hipótesis específicas, entonces esta opción es incorrecta."
+        ],
+        "pair_explanations": [],
+        "rubric": "Se acepta seleccionar las hipótesis 1, 2 y 3, ya que los datos muestran que el vaso sin tapa pierde más agua, el vaso con tapa perforada pierde algo menos, y el vaso con tapa hermética casi no pierde agua. No se acepta seleccionar hipótesis contrarias a los datos.",
+        "hint": "Observa los cambios en el volumen de agua de cada vaso y cómo se relacionan con las condiciones de cada tapa para evaluar cada hipótesis.",
+        "explanation": "El vaso 1 perdió 200 ml, indicando gran evaporación sin tapa. El vaso 2 perdió 50 ml, menos que sin tapa, lo que muestra que la tapa perforada reduce la evaporación. El vaso 3 perdió solo 5 ml, casi nada, confirmando que la tapa hermética impide la evaporación. Por eso las tres hipótesis están respaldadas.",
+        "dimension": "razonamiento",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "Hipótesis y evidencia",
+          "concept": "hipotesis_y_evidencia",
+          "learning_goal": "Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación."
+        },
+        "grade_group": "6-7",
+        "expires_at": 1794017369809
+      }
+    },
+    {
+      "slot": 8,
+      "seconds": 6.483,
+      "activity": {
+        "id": "20a4cd44-9b5d-4534-8f3c-3c22ea27a262",
+        "step_id": "variety-step",
+        "question": "Un grupo de estudiantes del colegio investiga cómo cambia el volumen de diferentes líquidos cuando se calientan a la misma temperatura durante 30 minutos. Usan tres frascos con 500 ml de líquidoss distintos: aceite, agua y alcohol. Miden el volumen antes y después de calentar.\n\n| Líquido | Volumen inicial (ml) | Volumen después de 30 min a 60 °C (ml) |\n|---------|----------------------|---------------------------------------|\n| Aceite  | 500                  | 520                                   |\n| Agua    | 500                  | 505                                   |\n| Alcohol | 500                  | 528                                   |\n\nLos estudiantes proponen estas dos hipótesis:\n\n1. El volumen de los líquidos aumenta cuando se calientan.\n2. El aumento de volumen depende del tipo de líquido.\n\nRelaciona cada hipótesis con la afirmación que mejor describe la evidencia del experimento.",
+        "type": "matching",
+        "options": [],
+        "cognitive_dimension": "representacion",
+        "source": "generated",
+        "notice": null,
+        "left_items": [
+          "El volumen de los líquidos aumenta con el calor.",
+          "El aumento de volumen depende del tipo de líquido.",
+          "Ningún líquido cambió de volumen al calentarse."
+        ],
+        "right_items": [
+          "El aceite y el alcohol aumentaron más su volumen que el agua, mostrando diferencias.",
+          "Los datos muestran aumento en todos los líquidos, así que esta afirmación no es correcta.",
+          "Todos los líquidos mostraron un incremento en volumen después de calentarse."
+        ],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "20a4cd44-9b5d-4534-8f3c-3c22ea27a262",
+        "user_id": "synthetic",
+        "module_id": "variety-science",
+        "step_id": "variety-step",
+        "question": "Un grupo de estudiantes del colegio investiga cómo cambia el volumen de diferentes líquidos cuando se calientan a la misma temperatura durante 30 minutos. Usan tres frascos con 500 ml de líquidoss distintos: aceite, agua y alcohol. Miden el volumen antes y después de calentar.\n\n| Líquido | Volumen inicial (ml) | Volumen después de 30 min a 60 °C (ml) |\n|---------|----------------------|---------------------------------------|\n| Aceite  | 500                  | 520                                   |\n| Agua    | 500                  | 505                                   |\n| Alcohol | 500                  | 528                                   |\n\nLos estudiantes proponen estas dos hipótesis:\n\n1. El volumen de los líquidos aumenta cuando se calientan.\n2. El aumento de volumen depende del tipo de líquido.\n\nRelaciona cada hipótesis con la afirmación que mejor describe la evidencia del experimento.",
+        "type": "matching",
+        "options": [],
+        "left_items": [
+          "El volumen de los líquidos aumenta con el calor.",
+          "El aumento de volumen depende del tipo de líquido.",
+          "Ningún líquido cambió de volumen al calentarse."
+        ],
+        "right_items": [
+          "El aceite y el alcohol aumentaron más su volumen que el agua, mostrando diferencias.",
+          "Los datos muestran aumento en todos los líquidos, así que esta afirmación no es correcta.",
+          "Todos los líquidos mostraron un incremento en volumen después de calentarse."
+        ],
+        "expected": {
+          "type": "matching",
+          "correct_pairs": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        "learning_focus": "Representar la relación entre hipótesis científicas y evidencias experimentales a partir de datos tabulados.",
+        "option_explanations": [],
+        "pair_explanations": [
+          "El volumen aumentó en aceite, agua y alcohol, lo que confirma el aumento con calor.",
+          "El cambio de volumen es diferente; el alcohol y aceite subieron más que el agua.",
+          "Observaciones muestran cambios, por tanto la opción es incorrecta."
+        ],
+        "rubric": "El estudiante debe asociar correctamente cada hipótesis con la afirmación que la evidencia de la tabla apoya claramente, reconociendo que la evidencia muestra un aumento general del volumen y variaciones según el tipo de líquido.",
+        "hint": "Observa cómo cambia el volumen en cada líquido y piensa si todos aumentan o si el cambio varía entre ellos.",
+        "explanation": "Para el aumento de volumen general, todos los líquidos muestran un incremento tras calentar. Para la dependencia del tipo de líquido, se observa que el alcohol y el aceite aumentan más que el agua, lo que apoya esa hipótesis.",
+        "dimension": "representacion",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "Hipótesis y evidencia",
+          "concept": "hipotesis_y_evidencia",
+          "learning_goal": "Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación."
+        },
+        "grade_group": "6-7",
+        "expires_at": 1794017376293
+      }
+    }
+  ],
+  "traces": [
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"Una estudiante realiza un experimento en la huerta de su colegio para entender qué afecta la evaporación del agua. Coloca tres recipientes con la misma cantidad de agua: uno a la sombra, otro al sol, y uno cubierto con una tapa transparente y al sol. Después de una hora, mide el volumen de agua que quedó en cada recipiente.\\n\\n| Recipiente                | Volumen inicial (ml) | Volumen después de 1 hora (ml) |\\n|---------------------------|---------------------|-------------------------------|\\n| A (a la sombra)            | 500                 | 480                           |\\n| B (al sol)                 | 500                 | 350                           |\\n| C (al sol con tapa)        | 500                 | 490                           |\\n\\nLa estudiante plantea estas dos hipótesis:\\n\\n1. La exposición al sol aumenta la evaporación del agua.\\n2. La tapa evita la evaporación del agua, ya que protege el agua del aire.\\n\\n¿Cuál hipótesis está mejor apoyada por los datos del experimento?\",\"type\":\"option\",\"rubric\":\"Evalúa si el estudiante identifica correctamente que la exposición al sol incrementa la evaporación y que la tapa reduce o evita la evaporación, usando los datos comparativos de los volúmenes de agua.\",\"hint\":\"Observa qué recipiente perdió más agua y cuál perdió menos. ¿Qué efecto tiene la tapa según el cambio en el volumen?\",\"explanation\":\"Los datos muestran que el recipiente al sol sin tapa perdió mucho más agua que el de la sombra, apoyando la hipótesis 1. Además, el recipiente con tapa al sol casi no perdió agua, apoyando la hipótesis 2. Por tanto, ambas hipótesis están respaldadas, pero la hipótesis 1 se confirma con más claridad gracias a la comparación entre recipiente A y B.\",\"learning_focus\":\"Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación.\",\"options\":[\"Solo la hipótesis 1 está mejor apoyada por los datos.\",\"Solo la hipótesis 2 está mejor apoyada por los datos.\",\"Ambas hipótesis están mejor apoyadas por los datos.\",\"Ninguna hipótesis está respaldada por los datos.\"],\"option_explanations\":[\"La hipótesis 1 es apoyada porque el agua evaporó más bajo el sol (recipiente B vs A).\",\"La hipótesis 2 aunque es razonable, la pérdida mínima en recipiente C muestra que la tapa reduce, no que evite totalmente la evaporación; sin embargo, no es la hipótesis más fuerte en datos.\",\"Los datos apoyan ambas hipótesis: la evaporación aumenta con sol y la tapa reduce la evaporación.\",\"Los datos claramente muestran cambios en los volúmenes que apoyan las hipótesis, por lo que esta opción es incorrecta.\"],\"correct_index\":2}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"El recipiente B (al sol) perdió 150 ml, más que A (a la sombra) que perdió 20 ml, apoyando la hipótesis 1. El recipiente C (al sol con tapa) perdió solo 10 ml, mucho menos que B, apoyando la hipótesis 2. Por tanto, ambas hipótesis están respaldadas por los datos. La clave correcta es la opción 2 (índice 2) que indica que ambas hipótesis están mejor apoyadas.\",\"approved\":true,\"issue\":\"\"}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"Una estudiante quiere investigar qué material afecta más la rapidez con la que se enfría una bebida caliente. Para ello, llena tres términos con agua caliente a la misma temperatura: uno con tapa metálica, otro con tapa plástica y otro sin tapa. Después de 30 minutos en una habitación, mide la temperatura del agua en cada uno.\\n\\n| Término               | Temperatura inicial (°C) | Temperatura después de 30 min (°C) |\\\\n|----------------------|--------------------------|----------------------------------|\\n| 1 (tapa metálica)     | 80                       | 60                               |\\n| 2 (tapa plástica)     | 80                       | 55                               |\\n| 3 (sin tapa)          | 80                       | 40                               |\\n\\nLa estudiante plantea estas dos hipótesis:\\n\\n1. Las tapas reducen la pérdida de calor del agua caliente.\\n2. El tipo de tapa influye en el enfriamiento del agua debido a sus propiedades.\\n\\n¿Cuál hipótesis está mejor apoyada por los datos? Explica tu respuesta apoyándote en los datos de la tabla.\",\"type\":\"text\",\"rubric\":\"Evalúa si el estudiante identifica que la primera hipótesis tiene evidencia clara: los términos con tapa mantienen más temperatura que sin tapa. También valora si reconoce que la segunda hipótesis es plausible pero no concluyente con esta información porque faltan datos para comparar las tapas entre sí claramente (hay diferencia, pero podría atribuirse a otros factores). Se aceptan explicaciones que mencionen estas observaciones de forma lógica y coherente.\",\"hint\":\"Observa cómo cambia la temperatura en cada término y compárala en términos con y sin tapa para ver si la tapa afecta el enfriamiento. Luego analiza si hay suficiente evidencia para asegurar que el tipo de tapa también influye.\",\"explanation\":\"La hipótesis 1 se apoya porque los términos con tapa mantienen más temperatura que el sin tapa, mostrando que la tapa reduce la pérdida de calor. La hipótesis 2 no se puede confirmar claramente solo con estos datos, porque aunque el término con tapa metálica tiene una temperatura más alta que el de tapa plástica, no conocemos otras variables o repetición del experimento para validar esta diferencia.\",\"learning_focus\":\"Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación.\",\"expected_text\":\"La hipótesis 1 está mejor apoyada porque los términos con tapa tienen una temperatura mayor después de 30 minutos que el sin tapa, lo que indica que la tapa reduce la pérdida de calor. La hipótesis 2 es plausible porque hay diferencias entre los tipos de tapa, pero con estos datos no se puede asegurar que el tipo de tapa influya definitivamente en el enfriamiento.\"}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"La tabla muestra que el término sin tapa bajó de 80°C a 40°C, mientras que los con tapa metálica y plástica bajaron a 60°C y 55°C respectivamente. Esto confirma que las tapas reducen la pérdida de calor (hipótesis 1). Sin embargo, la diferencia entre tapa metálica y plástica es pequeña y no se indica si es significativa o si hay otras variables, por lo que no se puede concluir firmemente que el tipo de tapa influya (hipótesis 2). Por tanto, la hipótesis 1 está mejor apoyada por los datos.\",\"approved\":true,\"issue\":\"\"}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"Un grupo de estudiantes mide cuánto cambia la temperatura del agua en tres recipientes diferentes durante una tarde fría. Colocan los recipientes con la misma cantidad de agua, pero con diferentes cubiertas y miden la temperatura inicial y después de 2 horas.\\n\\n| Recipiente         | Temperatura inicial (°C) | Temperatura después de 2 horas (°C) |\\n|--------------------|--------------------------|------------------------------------|\\n| 1 (sin cubierta)   | 20                       | 10                                 |\\n| 2 (cobertura plástica) | 20                       | 15                                 |\\n| 3 (cobertura de aluminio) | 20                       | 18                                 |\\n\\nUsando estos datos, señala todas las afirmaciones verdaderas sobre la influencia de las cubiertas en el cambio de temperatura del agua:\\n\",\"type\":\"multiple_select\",\"rubric\":\"Se considera correcta cualquier selección que incluya todas las afirmaciones verdaderas que se derivan directamente de los datos, sin marcar afirmaciones falsas. Las observaciones válidas relacionan correctamente las cubiertas con la disminución de temperatura, mostrando menor bajada con cubiertas especiales.\",\"hint\":\"Compara la temperatura inicial y final de cada recipiente para ver cuánto bajó en cada caso. Piensa en cómo el tipo de cubierta podría estar afectando la pérdida de calor.\",\"explanation\":\"Se compara cuánto bajó la temperatura en cada recipiente: el sin cubierta bajó más, el con cobertura plástica menos y el de aluminio aún menos. Esto indica que las cubiertas reducen la pérdida de calor, con aluminio siendo más efectivo que plástico.\",\"learning_focus\":\"Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación.\",\"options\":[\"El recipiente sin cubierta pierde más temperatura que los otros dos.\",\"La cobertura de aluminio reduce más la pérdida de calor que la cobertura plástica.\",\"Los recipientes con cubierta mantienen mejor la temperatura que el sin cubierta.\",\"La cobertura plástica aumenta la pérdida de calor del agua.\"],\"option_explanations\":[\"La temperatura bajó de 20 a 10°C aquí, que es el mayor cambio, indicando más pérdida de calor.\",\"La temperatura bajó menos con cobertura de aluminio (de 20 a 18°C), mostrando mayor reducción de pérdida que la plástica.\",\"Ambos recipientes con cubierta perdieron menos temperatura que el sin cubierta.\",\"Los datos muestran que la cobertura plástica disminuyó la pérdida de calor, no la aumentó.\"],\"correct_indices\":[0,1,2]}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"El recipiente sin cubierta bajó de 20 a 10°C (10°C de pérdida), el con cobertura plástica bajó a 15°C (5°C de pérdida) y el con cobertura de aluminio bajó a 18°C (2°C de pérdida). Por tanto, es cierto que el recipiente sin cubierta pierde más temperatura que los otros dos, que la cobertura de aluminio reduce más la pérdida que la plástica, y que los recipientes con cubierta mantienen mejor la temperatura que el sin cubierta. La afirmación de que la cobertura plástica aumenta la pérdida de calor es falsa, pues reduce la pérdida comparado con el sin cubierta. La clave correcta es [0,1,2].\",\"approved\":true,\"issue\":\"\"}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"La directora del colegio quiere conservar mejor el agua en los baños. Decide probar dos comportamientos: cerrar bien el grifo después de lavarse las manos y dejar el grifo abierto mientras se enjabonan las manos. Mide cuánta agua se desperdicia en litros durante una hora en dos baños diferentes usando cada comportamiento.\\n\\n| Baño          | Comportamiento                   | Agua desperdiciada en 1 hora (litros) |\\n|---------------|--------------------------------|---------------------------------------|\\n| Baño 1        | Cerrar grifo después de usarlo | 5                                     |\\n| Baño 2        | Dejar grifo abierto             | 20                                    |\\n\\nEl equipo de estudiantes plantea dos hipótesis:\\n1. Cerrar bien el grifo reduce el desperdicio de agua.\\n2. El tipo de jabón afecta la cantidad de agua desperdiciada.\\n\\nRelaciona cada hipótesis con la afirmación que mejor la apoya o refuta según los datos del experimento.\",\"type\":\"matching\",\"rubric\":\"Se acepta la correspondencia que vincula la hipótesis 1 con la afirmación que reconoce menor desperdicio al cerrar el grifo, y la hipótesis 2 con la afirmación que indica que no hay información sobre el jabón. La evidencia debe mostrar comprensión del contraste entre hipótesis y datos, y transferir el razonamiento a esta nueva situación sin errores en la correspondencia.\",\"hint\":\"Observa qué variable cambia en el experimento (comportamiento de usar el grifo) y qué variable no se menciona (tipo de jabón). Relaciona la hipótesis con la evidencia que corresponde directamente a lo observado.\",\"explanation\":\"La hipótesis 1 se apoya porque cerrar el grifo reduce el desperdicio notablemente. La hipótesis 2 no se puede apoyar ni refutar con estos datos porque el tipo de jabón no se menciona ni se controla. Esto demuestra cómo contrastar hipótesis con evidencia y aplicar ese razonamiento a un nuevo caso.\",\"learning_focus\":\"transferencia\",\"left_items\":[\"Hipótesis 1: Cerrar bien el grifo reduce el desperdicio de agua.\",\"Hipótesis 2: El tipo de jabón afecta la cantidad de agua desperdiciada.\"    ,\"Afirmación A: El baño que cierra el grifo desperdicia menos agua que el que lo deja abierto.\"  \t],\"right_items\":[\"Afirmación B: No hay información sobre el tipo de jabón en el experimento para probar esta hipótesis.\",\"Esta afirmación apoya la hipótesis 1 porque muestra que cerrar el grifo cambia el desperdicio de agua.\"    ,\"No es posible confirmar o rechazar esta hipótesis solo con estos datos, ya que el jabón no cambió.\"  ],\"correct_pairs\":[[0,2],[1,0],[2,1]],\"pair_explanations\":[\"Cerrar el grifo reduce el desperdicio, que es el cambio observado, por eso esta afirmación apoya la hipótesis 1.\",\"No hay cambios ni datos sobre el jabón en este experimento, por eso la evidencia es insuficiente para esta hipótesis.\",\"La afirmación señala la falta de datos sobre el jabón, así explica que no se puede probar dicha hipótesis con esta información.\"]}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"El experimento mide agua desperdiciada en dos baños con comportamientos distintos: cerrar grifo (5 L) y dejar abierto (20 L). Hipótesis 1 (cerrar grifo reduce desperdicio) se apoya claramente, pues hay menos desperdicio al cerrar. Hipótesis 2 (tipo de jabón afecta desperdicio) no puede evaluarse porque no se menciona ni controla el jabón. Las afirmaciones deben reflejar esto: una que apoye la hipótesis 1 con menor desperdicio, otra que indique falta de información sobre el jabón para la hipótesis 2, y una que explique que no se puede confirmar ni rechazar la hipótesis 2 con estos datos. El enunciado permite relacionar cada hipótesis con una afirmación que la apoya o refuta según los datos. La clave asigna correctamente: Hipótesis 1 con afirmación que indica que no se puede confirmar ni rechazar (índice 2), Hipótesis 2 con afirmación que no hay información sobre jabón (índice 0), y afirmación A con la que apoya la hipótesis 1 (índice 1). Esto es incorrecto porque la afirmación que apoya la hipótesis 1 es la que indica menor desperdicio (índice 1), no la que dice que no se puede confirmar (índice 2). Por tanto, la clave está mal asignada.\",\"approved\":false,\"issue\":\"La clave de correspondencias está incorrecta: la hipótesis 1 debe vincularse con la afirmación que indica menor desperdicio (índice 1), no con la que dice que no se puede confirmar (índice 2). La hipótesis 2 debe vincularse con la afirmación que indica falta de información sobre el jabón (índice 0). La afirmación A debe vincularse con la que apoya la hipótesis 1 (índice 1).\"}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"Un grupo de estudiantes del colegio observa tres aulas durante una hora para analizar cómo se puede reducir el desperdicio de agua al lavar las manos. En cada aula hay un dispensador diferente de agua para el lavado: uno con agua potable normal, otro con agua reciclada y uno con un jabón especial que no requiere aclarado con agua.\\n\\n| Aula  | Tipo de dispensador            | Cantidad de agua utilizada (litros) |\\n|-------|-------------------------------|-------------------------------------|\\n| A     | Agua potable normal            | 15                                  |\\n| B     | Agua reciclada                 | 15                                  |\\n| C     | Jabón especial sin aclarado   | 5                                   |\\n\\nLos estudiantes plantean dos hipótesis:\\n\\n1. Usar jabón especial sin aclarado reduce el desperdicio de agua.\\n2. No se puede saber si el tipo de agua afecta el consumo porque las cantidades usadas son iguales.\\n\\nRelaciona cada hipótesis con la afirmación que mejor la apoya o explica por qué no puede confirmarse:\\n\\nA) El aula C usó menos agua, lo que indica que el jabón especial ayuda a ahorrar agua.\\nB) El aula B y el aula A usaron la misma cantidad de agua, por lo tanto, no se puede decir si el agua reciclada cambia el consumo.\\nC) El aula C tiene menos desperdicio de agua que las otras aulas.\\n\\nEscribe la correspondencia entre hipótesis y afirmación. Usa la numeración de las hipótesis (1, 2) y las letras de las afirmaciones (A, B, C).\",\"type\":\"matching\",\"rubric\":\"El estudiante debe relacionar correctamente la hipótesis 1 con las afirmaciones que indican menor uso de agua con jabón especial (A y C), y la hipótesis 2 con la afirmación que indica que no se puede confirmar si el agua reciclada afecta consumo (B). Se aceptan respuestas que expliquen que la comparación con agua reciclada no cambia el consumo, y que la reducción de agua está en el caso del jabón especial.\",\"hint\":\"Observa los datos de agua usada y piensa qué variable está cambiando y cuál no. ¿Cuál hipótesis es apoyada por la diferencia en litros usados?\",\"explanation\":\"La hipótesis 1 es apoyada por las afirmaciones A y C que indican menos agua usada con jabón especial. La hipótesis 2 señala que entre agua potable y reciclada no hay diferencia en consumo, por eso no se puede confirmar si cambia el consumo, lo que corresponde a B.\",\"learning_focus\":\"Contrastar hipótesis con observaciones y decidir cuál hipótesis se apoya mejor con los datos dados.\",\"left_items\":[\"Hipótesis 1: Usar jabón especial sin aclarado reduce el desperdicio de agua.\",\"Hipótesis 2: No se puede saber si el tipo de agua afecta el consumo porque las cantidades usadas son iguales.\"      ,\"Afirmación A: El aula C usó menos agua, lo que indica que el jabón especial ayuda a ahorrar agua.\"    ],\"right_items\":[\"Afirmación C: El aula C tiene menos desperdicio de agua que las otras aulas.\",\"Afirmación B: El aula B y el aula A usaron la misma cantidad de agua, por lo tanto, no se puede decir si el agua reciclada cambia el consumo.\",\"Afirmación A: El aula C usó menos agua, lo que indica que el jabón especial ayuda a ahorrar agua.\"   ],\"correct_pairs\":[[0,2],[1,1],[2,0]],\"pair_explanations\":[\"Menor uso de agua en aula C apoya la hipótesis de jabón especial que reduce desperdicio.\",\"Igual consumo en aulas A y B indica que no se puede confirmar efecto del tipo de agua.\",\"El menor desperdicio de agua en el aula C confirma que el jabón especial efectivamente ahorra agua.\"]}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"La tabla muestra que el aula C (jabón especial sin aclarado) usó 5 litros, menos que las aulas A y B (15 litros cada una). Esto apoya la hipótesis 1, que el jabón especial reduce el desperdicio de agua, vinculándola con afirmaciones A y C. Las aulas A y B usaron la misma cantidad, por lo que no se puede confirmar si el tipo de agua (potable o reciclada) afecta el consumo, apoyando la hipótesis 2 con la afirmación B. La correspondencia correcta es: Hipótesis 1 con A y C, Hipótesis 2 con B. La clave propuesta [[0,2],[1,1],[2,0]] corresponde a: Hipótesis 1 con afirmación A (índice 2 en right_items), Hipótesis 2 con afirmación B (índice 1), y afirmación C con Hipótesis 1 (índice 0). Esto es correcto y consistente con los datos y explicaciones.\",\"approved\":true,\"issue\":\"\"}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"Un estudiante quiere investigar cómo afecta el tipo de contenedor en un cambio físico: la condensación del agua en el aire. Coloca tres vasos con la misma cantidad de agua tibia pero en diferentes contenedores: uno de vidrio, otro de plástico, y otro de metal. Después de 1 hora en una habitación fresca, mide cuánta agua se condensó en las paredes externas de cada vaso.\\n\\n| Contenedor | Agua inicial (ml) | Agua condensada en paredes externas (ml) |\\n|------------|------------------|------------------------------------------|\\n| Vidrio     | 300              | 50                                       |\\n| Plástico   | 300              | 30                                       |\\n| Metal      | 300              | 65                                       |\\n\\nEl estudiante plantea dos hipótesis:\\n\\n1. El material del contenedor influye en la cantidad de agua que se condensa en sus paredes.\\n2. La cantidad de agua inicial afecta la cantidad de condensación observada.\\n\\n¿Cuál hipótesis está mejor apoyada por los datos de este experimento?\",\"type\":\"option\",\"rubric\":\"Se evalúa si el estudiante identifica correctamente la hipótesis apoyada por los datos, reconociendo que el material del contenedor influye en la condensación porque el agua inicial es igual en todos los vasos.\",\"hint\":\"Observa que todos los vasos tienen la misma cantidad inicial de agua; piensa qué variable cambia y qué efecto tiene en la cantidad de condensación.\",\"explanation\":\"Como en todos los vasos hay la misma cantidad inicial de agua, la cantidad de condensación varía según el material del contenedor, lo que apoya la primera hipótesis y descarta que la cantidad inicial de agua afecte la condensación.\",\"learning_focus\":\"Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación.\",\"options\":[\"1. El material del contenedor influye en la cantidad de agua que se condensa en sus paredes.\",\"2. La cantidad de agua inicial afecta la cantidad de condensación observada.\",\"Ninguna de las dos hipótesis es correcta.\",\"Ambas hipótesis están igualmente apoyadas por los datos.\"],\"option_explanations\":[\"Los datos muestran que con igual cantidad inicial de agua, la condensación cambia según el material, apoyando esta hipótesis.\",\"La cantidad inicial de agua es la misma para todos, por lo que no explica las diferencias observadas en la condensación.\",\"Los datos sí apoyan una hipótesis claramente, por lo que esta opción es incorrecta.\",\"Los datos no apoyan ambas hipótesis porque la cantidad inicial es fija y no explica la variación.\"],\"correct_index\":0}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"El experimento muestra que la cantidad inicial de agua es constante (300 ml) en los tres vasos, pero la condensación varía: metal (65 ml), vidrio (50 ml), plástico (30 ml). Esto indica que el material del contenedor influye en la condensación. La hipótesis 1 es apoyada por los datos. La hipótesis 2 es incorrecta porque la cantidad inicial no cambia y no puede explicar las diferencias. Las opciones 2, 3 y 4 son incorrectas según los datos. La clave correcta es la opción 0, que coincide con la hipótesis 1.\",\"approved\":true,\"issue\":\"\"}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"En un laboratorio del colegio, una estudiante decide investigar cómo cambia la masa de un hielo durante una hora a temperatura ambiente. Coloca tres cubos de hielo de diferentes tamaños en platos separados y mide su masa al inicio y después de una hora.\\n\\n| Cubo de hielo | Masa inicial (g) | Masa después de 1 hora (g) |\\n|---------------|------------------|----------------------------|\\n| A (pequeño)   | 150              | 100                        |\\n| B (mediano)   | 300              | 210                        |\\n| C (grande)    | 450              | 315                        |\\n\\nLa estudiante formula estas hipótesis:\\n\\n1. La masa del hielo disminuye debido a la fusión causada por la temperatura ambiente.\\n2. El tamaño inicial del hielo no afecta la cantidad de masa que se pierde al fundirse.\\n\\nSegún los datos, ¿qué hipótesis está mejor apoyada y por qué? Explica tu respuesta usando la información de la tabla.\",\"type\":\"text\",\"rubric\":\"La respuesta debe identificar que la masa del hielo disminuye (hipótesis 1) como efecto del cambio físico de fusión y evidenciar con datos que la pérdida de masa está relacionada con el tamaño inicial (rechazando hipótesis 2) apoyándose en las diferencias proporcionales entre masas iniciales y finales.\",\"hint\":\"Observa cómo cambia la masa en cada cubo, y piensa si el tamaño inicial influye en la cantidad de hielo que se derrite en una hora a temperatura ambiente.\",\"explanation\":\"Al comparar la masa inicial y final, se ve que la masa disminuye en cada cubo, confirmando que la fusión ocurre. Además, aunque el porcentaje de pérdida es similar, el cubo más grande pierde más masa en gramos, mostrando que el tamaño inicial sí afecta la cantidad de masa perdida, por lo que la hipótesis 1 está mejor sustentada y la 2 es incorrecta.\",\"learning_focus\":\"Formulación y contraste de hipótesis sobre cambios físicos a partir de observaciones cuantitativas.\",\"expected_text\":\"La hipótesis 1 está mejor apoyada porque los datos muestran que la masa del hielo disminuye después de una hora, lo que indica que el hielo se está fundiendo debido a la temperatura ambiente. La hipótesis 2 no está apoyada porque la cantidad de masa que se pierde depende del tamaño inicial: los cubos más grandes pierden más masa en gramos, aunque el porcentaje de pérdida es similar. Esto significa que el tamaño sí influye en la cantidad de hielo que se derrite.\"}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"La masa de cada cubo disminuye tras una hora, confirmando la hipótesis 1 sobre la fusión. El cubo A pierde 50 g (150-100), B pierde 90 g (300-210) y C pierde 135 g (450-315). La pérdida absoluta aumenta con el tamaño inicial, por lo que la hipótesis 2, que afirma que el tamaño no afecta la masa perdida, no se sostiene. Aunque el porcentaje de pérdida es similar (aprox. 33%), la cantidad de masa perdida depende del tamaño inicial. Por tanto, la hipótesis 1 está mejor apoyada y la 2 es rechazada, coincidiendo con la explicación y el objetivo de formular y contrastar hipótesis sobre cambios físicos.\",\"approved\":true,\"issue\":\"\"}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"Un grupo de estudiantes realiza un experimento para investigar el efecto de la luz y el viento sobre la evaporación de un líquido. Colocan tres recipientes con la misma cantidad de jugo natural en distintas condiciones durante una hora:\\n\\n| Recipiente         | Volumen inicial (ml) | Condición             | Volumen después de 1 hora (ml) |\\n|--------------------|----------------------|-----------------------|-------------------------------|\\n| 1                  | 600                  | En lugar cerrado sin viento | 590                           |\\n| 2                  | 600                  | En lugar abierto con viento | 450                           |\\n| 3                  | 600                  | En lugar abierto sin viento  | 520                           |\\n\\nLos estudiantes plantean estas hipótesis:\\n\\n1. La presencia de viento aumenta la evaporación del jugo.\\n2. La luz no influye en la evaporación del jugo.\\n\\n¿Cuáles de estas hipótesis están mejor respaldadas por los datos del experimento? Selecciona todas las respuestas correctas.\",\"type\":\"multiple_select\",\"rubric\":\"La respuesta debe identificar correctamente que la hipótesis 1 está respaldada porque el volumen disminuye más con viento, y que la hipótesis 2 está corroborada porque no se variaron condiciones de luz y, por tanto, no hay evidencia que contradiga esta hipótesis.\",\"hint\":\"Observa cómo cambia el volumen de jugo en función de la presencia de viento y reflexiona si hubo cambio en la luz en las condiciones dadas.\",\"explanation\":\"El recipiente con viento (2) perdió más jugo que el sin viento (3) y el cerrado (1), lo que apoya la hipótesis 1. La luz no cambió entre las condiciones, entonces no hay evidencia para rechazar la hipótesis 2, que dice que la luz no afecta la evaporación.\",\"learning_focus\":\"Formulación y contraste de hipótesis sobre cambios físicos con base en evidencia experimental.\",\"options\":[\"Solo la hipótesis 1 está mejor apoyada.\",\"Solo la hipótesis 2 está mejor apoyada.\",\"Ambas hipótesis 1 y 2 están mejor apoyadas.\",\"Ninguna hipótesis está apoyada por los datos.\"],\"option_explanations\":[\"La disminución de volumen mayor con viento apoya la hipótesis 1 por comparación directa de condiciones.\",\"No hay cambio en las condiciones de luz, por lo que no hay evidencia para apoyar exclusivamente esta hipótesis.\",\"La hipótesis 1 se apoya por el cambio en viento, y la hipótesis 2 no es contradecida por falta de cambio en luz.\",\"Los datos muestran que el viento sí influye, por lo que la opción de que ninguna está apoyada es incorrecta.\"],\"correct_indices\":[0,2]}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"El recipiente 2 (con viento) muestra una mayor evaporación (600 ml a 450 ml) que el recipiente 3 (sin viento, 600 ml a 520 ml) y el recipiente 1 (cerrado, 600 ml a 590 ml), lo que apoya la hipótesis 1. Sobre la hipótesis 2, no hay variación en la luz entre las condiciones, por lo que no hay evidencia que la contradiga, apoyando también esta hipótesis. Por tanto, las hipótesis 1 y 2 están mejor apoyadas. Las opciones correctas deben incluir ambas hipótesis, pero la clave indica índices 0 y 2, que corresponden a \\\"Solo la hipótesis 1 está mejor apoyada\\\" y \\\"Ambas hipótesis 1 y 2 están mejor apoyadas\\\". Esto es contradictorio porque si ambas están apoyadas, no puede ser \\\"solo la hipótesis 1\\\". La opción correcta es solo la tercera: \\\"Ambas hipótesis 1 y 2 están mejor apoyadas\\\".\",\"approved\":false,\"issue\":\"La clave incluye dos opciones contradictorias (solo hipótesis 1 y ambas hipótesis 1 y 2), pero solo la opción que indica ambas hipótesis está correctamente respaldada por los datos. Se debe corregir la clave para que solo incluya la opción que indica que ambas hipótesis están mejor apoyadas.\"}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"En un laboratorio de ciencias, un grupo de estudiantes quiere comprender cómo afecta el tipo de tapa a la evaporación del agua. Colocan tres vasos con 600 ml de agua a temperatura ambiente, con diferentes condiciones:\\n\\n| Vaso       | Condición           | Volumen inicial (ml) | Volumen después de 2 horas (ml) |\\n|------------|---------------------|---------------------|--------------------------------|\\n| 1          | Sin tapa            | 600                 | 400                            |\\n| 2          | Tapa perforada      | 600                 | 550                            |\\n| 3          | Tapa cerrada hermética | 600               | 595                            |\\n\\nLos estudiantes proponen las siguientes hipótesis:\\n\\n1. El agua en el vaso sin tapa pierde más volumen por evaporación debido a la exposición al aire.\\n2. La tapa perforada reduce un poco la evaporación, pero no la detiene completamente.\\n3. La tapa cerrada hermética evita casi toda la evaporación al impedir la salida del vapor.\\n\\nMarca todas las hipótesis que están bien apoyadas por estos datos.\",\"type\":\"multiple_select\",\"rubric\":\"Se acepta seleccionar las hipótesis 1, 2 y 3, ya que los datos muestran que el vaso sin tapa pierde más agua, el vaso con tapa perforada pierde algo menos, y el vaso con tapa hermética casi no pierde agua. No se acepta seleccionar hipótesis contrarias a los datos.\",\"hint\":\"Observa los cambios en el volumen de agua de cada vaso y cómo se relacionan con las condiciones de cada tapa para evaluar cada hipótesis.\",\"explanation\":\"El vaso 1 perdió 200 ml, indicando gran evaporación sin tapa. El vaso 2 perdió 50 ml, menos que sin tapa, lo que muestra que la tapa perforada reduce la evaporación. El vaso 3 perdió solo 5 ml, casi nada, confirmando que la tapa hermética impide la evaporación. Por eso las tres hipótesis están respaldadas.\",\"learning_focus\":\"Formulación y contraste de hipótesis sobre evaporación en función de las condiciones para un cambio físico\",\"options\":[\"Solo la hipótesis 1 está bien apoyada.\",\"Las hipótesis 1 y 2 están bien apoyadas.\",\"Las hipótesis 1, 2 y 3 están bien apoyadas.\",\"Ninguna hipótesis está bien apoyada.\"],\"option_explanations\":[\"El vaso sin tapa pierde mucho agua, lo que apoya la hipótesis 1, pero las otras hipótesis también muestran patrones claros en los datos.\",\"Los datos muestran que la tapa perforada reduce algo la evaporación, apoyando la hipótesis 2, pero también la tapa hermética tiene un efecto notable.\",\"Los datos respaldan claramente las tres hipótesis según la comparación de volúmenes y condiciones.\",\"Los datos sí apoyan hipótesis específicas, entonces esta opción es incorrecta.\"],\"correct_indices\":[2,1,0]}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"El vaso sin tapa pierde 200 ml (600 a 400), lo que apoya la hipótesis 1. El vaso con tapa perforada pierde 50 ml (600 a 550), menos que sin tapa, apoyando la hipótesis 2. El vaso con tapa hermética pierde solo 5 ml (600 a 595), casi nada, apoyando la hipótesis 3. Por tanto, las tres hipótesis están bien respaldadas por los datos. El enunciado permite seleccionar todas las hipótesis que estén bien apoyadas, y la clave correcta es seleccionar las hipótesis 1, 2 y 3, que corresponden a índices 0,1,2. Sin embargo, en correct_indices están [2,1,0], que es el mismo conjunto pero en orden inverso, lo cual es aceptable porque el orden no afecta la validez. Las justificaciones de las opciones coinciden con esta interpretación.\",\"approved\":true,\"issue\":\"\"}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"Un grupo de estudiantes del colegio investiga cómo cambia el volumen de diferentes líquidos cuando se calientan a la misma temperatura durante 30 minutos. Usan tres frascos con 500 ml de líquidoss distintos: aceite, agua y alcohol. Miden el volumen antes y después de calentar.\\n\\n| Líquido | Volumen inicial (ml) | Volumen después de 30 min a 60 °C (ml) |\\n|---------|----------------------|---------------------------------------|\\n| Aceite  | 500                  | 520                                   |\\n| Agua    | 500                  | 505                                   |\\n| Alcohol | 500                  | 528                                   |\\n\\nLos estudiantes proponen estas dos hipótesis:\\n\\n1. El volumen de los líquidos aumenta cuando se calientan.\\n2. El aumento de volumen depende del tipo de líquido.\\n\\nRelaciona cada hipótesis con la afirmación que mejor describe la evidencia del experimento.\",\"type\":\"matching\",\"rubric\":\"El estudiante debe asociar correctamente cada hipótesis con la afirmación que la evidencia de la tabla apoya claramente, reconociendo que la evidencia muestra un aumento general del volumen y variaciones según el tipo de líquido.\",\"hint\":\"Observa cómo cambia el volumen en cada líquido y piensa si todos aumentan o si el cambio varía entre ellos.\",\"explanation\":\"Para el aumento de volumen general, todos los líquidos muestran un incremento tras calentar. Para la dependencia del tipo de líquido, se observa que el alcohol y el aceite aumentan más que el agua, lo que apoya esa hipótesis.\",\"learning_focus\":\"Representar la relación entre hipótesis científicas y evidencias experimentales a partir de datos tabulados.\",\"left_items\":[\"El volumen de los líquidos aumenta con el calor.\",\"El aumento de volumen depende del tipo de líquido.\"  \t,\"Ningún líquido cambió de volumen al calentarse.\"     ],\n\"right_items\":[\"Todos los líquidos mostraron un incremento en volumen después de calentarse.\",\"El aceite y el alcohol aumentaron más su volumen que el agua, mostrando diferencias.\",\"Los datos muestran aumento en todos los líquidos, así que esta afirmación no es correcta.\"],\n\"correct_pairs\":[[0,0],[1,1],[2,2]],\n\"pair_explanations\":[\"El volumen aumentó en aceite, agua y alcohol, lo que confirma el aumento con calor.\",\"El cambio de volumen es diferente; el alcohol y aceite subieron más que el agua.\",\"Observaciones muestran cambios, por tanto la opción es incorrecta.\"]}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"Los datos muestran que el volumen de los tres líquidos aumentó tras calentarse: aceite de 500 a 520 ml, agua de 500 a 505 ml y alcohol de 500 a 528 ml, apoyando la hipótesis 1. Además, el aumento no es igual para todos: alcohol y aceite aumentaron más que el agua, lo que respalda la hipótesis 2. La afirmación \\\"Ningún líquido cambió de volumen\\\" es falsa según los datos. Por tanto, la correspondencia correcta es: hipótesis 1 con afirmación 0, hipótesis 2 con afirmación 1, y la afirmación 2 con la hipótesis falsa. La clave propuesta [[0,0],[1,1],[2,2]] es correcta y las justificaciones coinciden con los datos.\",\"approved\":true,\"issue\":\"\"}"
+    }
+  ]
+}

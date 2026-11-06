@@ -1,0 +1,356 @@
+{
+  "model": "gpt-4.1-mini",
+  "limit": 20,
+  "calls": 13,
+  "inputTokens": 27390,
+  "outputTokens": 5393,
+  "results": [
+    {
+      "subject": "mathematics",
+      "grade": 5,
+      "seconds": 20.153,
+      "error": 503,
+      "pass": false
+    },
+    {
+      "subject": "language",
+      "grade": 7,
+      "seconds": 21.069,
+      "error": 503,
+      "pass": false
+    },
+    {
+      "subject": "natural_sciences",
+      "grade": 3,
+      "module": {
+        "id": "ordering-natural_sciences",
+        "subject": "natural_sciences",
+        "title": "Ordenar tres acciones de una observación imaginada con dependencias explícitas, sin resultados inventados.",
+        "learning_objective": "Ordenar tres acciones de una observación imaginada con dependencias explícitas, sin resultados inventados.",
+        "core_concept": "Ordenar tres acciones de una observación imaginada con dependencias explícitas, sin resultados inventados.",
+        "grade_range": "3"
+      },
+      "activity": {
+        "id": "fb3c6cc9-7559-4970-8bc8-6862131b8278",
+        "step_id": "step-natural_sciences",
+        "question": "Imagina que estás en el jardín del colegio para observar las plantas y deseas registrar lo que ves. ¿Cuál es el orden correcto para hacer la observación y registrarla?\n\nLas acciones son:\n- Escribir las características de las plantas que ves.\n- Mirar con atención las hojas, flores y tallos.\n- Preparar tu cuaderno y lápiz para tomar apuntes.",
+        "type": "ordering",
+        "options": [],
+        "cognitive_dimension": "comprension",
+        "source": "generated",
+        "notice": null,
+        "items": [
+          "Preparar tu cuaderno y lápiz para tomar apuntes.",
+          "Escribir las características de las plantas que ves.",
+          "Mirar con atención las hojas, flores y tallos."
+        ],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "fb3c6cc9-7559-4970-8bc8-6862131b8278",
+        "user_id": "synthetic",
+        "module_id": "ordering-natural_sciences",
+        "step_id": "step-natural_sciences",
+        "question": "Imagina que estás en el jardín del colegio para observar las plantas y deseas registrar lo que ves. ¿Cuál es el orden correcto para hacer la observación y registrarla?\n\nLas acciones son:\n- Escribir las características de las plantas que ves.\n- Mirar con atención las hojas, flores y tallos.\n- Preparar tu cuaderno y lápiz para tomar apuntes.",
+        "type": "ordering",
+        "options": [],
+        "expected": {
+          "type": "ordering",
+          "correct_order": [
+            0,
+            2,
+            1
+          ]
+        },
+        "learning_focus": "ordenar acciones en una secuencia lógica para realizar una observación científica con materiales preparados",
+        "option_explanations": [],
+        "pair_explanations": [],
+        "order_explanations": [
+          "Primero es necesario estar preparado con los materiales para poder anotar.",
+          "Después de estar listo, se observa atentamente para conocer los detalles.",
+          "Finalmente, se escribe lo observado para registrar la información recogida."
+        ],
+        "rubric": "La respuesta será correcta si el orden respeta la lógica de preparar materiales primero, luego observar y finalmente registrar las características. Se acepta este orden exacto: preparar el cuaderno, observar las partes de la planta y después escribir la información observada.",
+        "hint": "¿Qué debes hacer primero para poder escribir después? ¿Puedes escribir sin antes observar?",
+        "explanation": "Para observar correctamente, primero debes estar listo con los materiales (cuaderno y lápiz), luego debes mirar con atención la planta para ver detalles importantes, y finalmente escribir lo que observaste. Esto garantiza que la información registrada sea precisa y ordenada.",
+        "dimension": "comprension",
+        "items": [
+          "Preparar tu cuaderno y lápiz para tomar apuntes.",
+          "Escribir las características de las plantas que ves.",
+          "Mirar con atención las hojas, flores y tallos."
+        ],
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "Ordenar tres acciones de una observación imaginada con dependencias explícitas, sin resultados inventados.",
+          "concept": "Ordenar tres acciones de una observación imaginada con dependencias explícitas, sin resultados inventados.",
+          "learning_goal": "Ordenar tres acciones de una observación imaginada con dependencias explícitas, sin resultados inventados."
+        },
+        "grade_group": "1-3",
+        "expires_at": 1794006127544
+      },
+      "evaluation": {
+        "result": "correct",
+        "feedback": "Para observar correctamente, primero debes estar listo con los materiales (cuaderno y lápiz), luego debes mirar con atención la planta para ver detalles importantes, y finalmente escribir lo que observaste. Esto garantiza que la información registrada sea precisa y ordenada.",
+        "feedbackDetails": [
+          {
+            "label": "Posición 1",
+            "selected": "Preparar tu cuaderno y lápiz para tomar apuntes.",
+            "expected": "Preparar tu cuaderno y lápiz para tomar apuntes.",
+            "correct": true,
+            "explanation": "Primero es necesario estar preparado con los materiales para poder anotar."
+          },
+          {
+            "label": "Posición 2",
+            "selected": "Mirar con atención las hojas, flores y tallos.",
+            "expected": "Mirar con atención las hojas, flores y tallos.",
+            "correct": true,
+            "explanation": "Después de estar listo, se observa atentamente para conocer los detalles."
+          },
+          {
+            "label": "Posición 3",
+            "selected": "Escribir las características de las plantas que ves.",
+            "expected": "Escribir las características de las plantas que ves.",
+            "correct": true,
+            "explanation": "Finalmente, se escribe lo observado para registrar la información recogida."
+          }
+        ]
+      },
+      "seconds": 5.633,
+      "pass": true
+    },
+    {
+      "subject": "social_studies",
+      "grade": 9,
+      "module": {
+        "id": "ordering-social_studies",
+        "subject": "social_studies",
+        "title": "Ordenar cuatro hitos de un proyecto escolar ficticio con fechas explícitas, sin cronologías universales.",
+        "learning_objective": "Ordenar cuatro hitos de un proyecto escolar ficticio con fechas explícitas, sin cronologías universales.",
+        "core_concept": "Ordenar cuatro hitos de un proyecto escolar ficticio con fechas explícitas, sin cronologías universales.",
+        "grade_range": "9"
+      },
+      "activity": {
+        "id": "4064bbc2-08c7-4248-9794-4fcd59ff19e1",
+        "step_id": "step-social_studies",
+        "question": "Un grupo de estudiantes está organizando un proyecto escolar llamado \"Cuidado del Agua en Nuestra Comunidad\". A continuación, se enumeran cuatro hitos importantes con las fechas en que sucedieron:\n\n| Hito                         | Fecha        |\n|------------------------------|--------------|\n| Presentación de la propuesta  | 2 de marzo   |\n| Recolección de datos          | 15 de marzo  |\n| Análisis de los resultados    | 1 de abril   |\n| Exposición final del proyecto | 10 de abril  |\n\nOrdena los hitos siguiendo la secuencia correcta según las fechas.",
+        "type": "ordering",
+        "options": [],
+        "cognitive_dimension": "comprension",
+        "source": "generated",
+        "notice": null,
+        "items": [
+          "Presentación de la propuesta",
+          "Recolección de datos",
+          "Exposición final del proyecto",
+          "Análisis de los resultados"
+        ],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "4064bbc2-08c7-4248-9794-4fcd59ff19e1",
+        "user_id": "synthetic",
+        "module_id": "ordering-social_studies",
+        "step_id": "step-social_studies",
+        "question": "Un grupo de estudiantes está organizando un proyecto escolar llamado \"Cuidado del Agua en Nuestra Comunidad\". A continuación, se enumeran cuatro hitos importantes con las fechas en que sucedieron:\n\n| Hito                         | Fecha        |\n|------------------------------|--------------|\n| Presentación de la propuesta  | 2 de marzo   |\n| Recolección de datos          | 15 de marzo  |\n| Análisis de los resultados    | 1 de abril   |\n| Exposición final del proyecto | 10 de abril  |\n\nOrdena los hitos siguiendo la secuencia correcta según las fechas.",
+        "type": "ordering",
+        "options": [],
+        "expected": {
+          "type": "ordering",
+          "correct_order": [
+            0,
+            1,
+            3,
+            2
+          ]
+        },
+        "learning_focus": "Ordenar cuatro hitos de un proyecto escolar con fechas explícitas, sin cronologías universales.",
+        "option_explanations": [],
+        "pair_explanations": [],
+        "order_explanations": [
+          "La propuesta siempre se presenta primero para iniciar el proyecto.",
+          "Los datos se recolectan después de la propuesta y antes de su análisis.",
+          "Una vez recolectados los datos, se analizan para sacar conclusiones.",
+          "El último paso es exponer los resultados o productos del proyecto."
+        ],
+        "rubric": "La respuesta correcta es la secuencia de hitos ordenados de la fecha más antigua a la más reciente, según las fechas dadas. Se acepta cualquier formato que respete ese orden.",
+        "hint": "Piensa en el calendario y ubica cada fecha desde la más temprana hasta la más tardía para ordenar las actividades del proyecto.",
+        "explanation": "Para ordenar los hitos, se comparan las fechas de cada actividad y se colocan en orden cronológico: 2 de marzo, 15 de marzo, 1 de abril y 10 de abril. Esto refleja el proceso natural de un proyecto desde la propuesta hasta la presentación final.",
+        "dimension": "comprension",
+        "items": [
+          "Presentación de la propuesta",
+          "Recolección de datos",
+          "Exposición final del proyecto",
+          "Análisis de los resultados"
+        ],
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "social_studies",
+        "support_context": {
+          "topic": "Ordenar cuatro hitos de un proyecto escolar ficticio con fechas explícitas, sin cronologías universales.",
+          "concept": "Ordenar cuatro hitos de un proyecto escolar ficticio con fechas explícitas, sin cronologías universales.",
+          "learning_goal": "Ordenar cuatro hitos de un proyecto escolar ficticio con fechas explícitas, sin cronologías universales."
+        },
+        "grade_group": "8-9",
+        "expires_at": 1794006133301
+      },
+      "evaluation": {
+        "result": "correct",
+        "feedback": "Para ordenar los hitos, se comparan las fechas de cada actividad y se colocan en orden cronológico: 2 de marzo, 15 de marzo, 1 de abril y 10 de abril. Esto refleja el proceso natural de un proyecto desde la propuesta hasta la presentación final.",
+        "feedbackDetails": [
+          {
+            "label": "Posición 1",
+            "selected": "Presentación de la propuesta",
+            "expected": "Presentación de la propuesta",
+            "correct": true,
+            "explanation": "La propuesta siempre se presenta primero para iniciar el proyecto."
+          },
+          {
+            "label": "Posición 2",
+            "selected": "Recolección de datos",
+            "expected": "Recolección de datos",
+            "correct": true,
+            "explanation": "Los datos se recolectan después de la propuesta y antes de su análisis."
+          },
+          {
+            "label": "Posición 3",
+            "selected": "Análisis de los resultados",
+            "expected": "Análisis de los resultados",
+            "correct": true,
+            "explanation": "Una vez recolectados los datos, se analizan para sacar conclusiones."
+          },
+          {
+            "label": "Posición 4",
+            "selected": "Exposición final del proyecto",
+            "expected": "Exposición final del proyecto",
+            "correct": true,
+            "explanation": "El último paso es exponer los resultados o productos del proyecto."
+          }
+        ]
+      },
+      "seconds": 5.754,
+      "pass": true
+    },
+    {
+      "subject": "english",
+      "grade": 11,
+      "module": {
+        "id": "ordering-english",
+        "subject": "english",
+        "title": "Ordenar cuatro acciones de instrucciones escritas EN INGLÉS con before/after y dependencias explícitas.",
+        "learning_objective": "Ordenar cuatro acciones de instrucciones escritas EN INGLÉS con before/after y dependencias explícitas.",
+        "core_concept": "Ordenar cuatro acciones de instrucciones escritas EN INGLÉS con before/after y dependencias explícitas.",
+        "grade_range": "11"
+      },
+      "activity": {
+        "id": "61d29244-5997-4568-bab6-9366a96838cc",
+        "step_id": "step-english",
+        "question": "Read the following instructions on assembling a birdhouse. Arrange the actions in the correct order based on the clues \"before\" and \"after\".\n\nInstructions:\n\n- Paint the birdhouse after you assemble the walls.\n- Attach the roof before painting.\n- Build the walls before attaching the roof.\n- Place the birdhouse in the garden after it is painted.",
+        "type": "ordering",
+        "options": [],
+        "cognitive_dimension": "comprension",
+        "source": "generated",
+        "notice": null,
+        "items": [
+          "Attach the roof before painting.",
+          "Place the birdhouse in the garden after it is painted.",
+          "Build the walls before attaching the roof.",
+          "Paint the birdhouse after you assemble the walls."
+        ],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "61d29244-5997-4568-bab6-9366a96838cc",
+        "user_id": "synthetic",
+        "module_id": "ordering-english",
+        "step_id": "step-english",
+        "question": "Read the following instructions on assembling a birdhouse. Arrange the actions in the correct order based on the clues \"before\" and \"after\".\n\nInstructions:\n\n- Paint the birdhouse after you assemble the walls.\n- Attach the roof before painting.\n- Build the walls before attaching the roof.\n- Place the birdhouse in the garden after it is painted.",
+        "type": "ordering",
+        "options": [],
+        "expected": {
+          "type": "ordering",
+          "correct_order": [
+            2,
+            0,
+            3,
+            1
+          ]
+        },
+        "learning_focus": "Ordenar cuatro acciones de instrucciones escritas EN INGLÉS con before/after y dependencias explícitas.",
+        "option_explanations": [],
+        "pair_explanations": [],
+        "order_explanations": [
+          "Las paredes deben construirse antes de poner el techo, indicado explícitamente.",
+          "El techo se coloca antes de pintar, por eso va después de construir las paredes.",
+          "La pintura se aplica después de armar las paredes y poner el techo.",
+          "Finalmente, el birdhouse se coloca en el jardín sólo después de estar pintado."
+        ],
+        "rubric": "El estudiante debe ordenar correctamente las instrucciones siguiendo las dependencias indicadas por \"before\" y \"after\", demostrando comprensión de secuencias temporales en inglés.",
+        "hint": "Piensa en qué acción necesita completarse para que pueda empezar la siguiente, usando las palabras \"before\" y \"after\" para guiarte.",
+        "explanation": "Para ordenar estas instrucciones, se identifica que primero se deben construir las paredes, luego se adjunta el techo, después se pinta la casa y finalmente se coloca en el jardín, respetando todas las indicaciones \"before\" y \"after\" dadas.",
+        "dimension": "comprension",
+        "items": [
+          "Attach the roof before painting.",
+          "Place the birdhouse in the garden after it is painted.",
+          "Build the walls before attaching the roof.",
+          "Paint the birdhouse after you assemble the walls."
+        ],
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "english",
+        "support_context": {
+          "topic": "Ordenar cuatro acciones de instrucciones escritas EN INGLÉS con before/after y dependencias explícitas.",
+          "concept": "Ordenar cuatro acciones de instrucciones escritas EN INGLÉS con before/after y dependencias explícitas.",
+          "learning_goal": "Ordenar cuatro acciones de instrucciones escritas EN INGLÉS con before/after y dependencias explícitas."
+        },
+        "grade_group": "10-11",
+        "expires_at": 1794006139202
+      },
+      "evaluation": {
+        "result": "correct",
+        "feedback": "Para ordenar estas instrucciones, se identifica que primero se deben construir las paredes, luego se adjunta el techo, después se pinta la casa y finalmente se coloca en el jardín, respetando todas las indicaciones \"before\" y \"after\" dadas.",
+        "feedbackDetails": [
+          {
+            "label": "Posición 1",
+            "selected": "Build the walls before attaching the roof.",
+            "expected": "Build the walls before attaching the roof.",
+            "correct": true,
+            "explanation": "Las paredes deben construirse antes de poner el techo, indicado explícitamente."
+          },
+          {
+            "label": "Posición 2",
+            "selected": "Attach the roof before painting.",
+            "expected": "Attach the roof before painting.",
+            "correct": true,
+            "explanation": "El techo se coloca antes de pintar, por eso va después de construir las paredes."
+          },
+          {
+            "label": "Posición 3",
+            "selected": "Paint the birdhouse after you assemble the walls.",
+            "expected": "Paint the birdhouse after you assemble the walls.",
+            "correct": true,
+            "explanation": "La pintura se aplica después de armar las paredes y poner el techo."
+          },
+          {
+            "label": "Posición 4",
+            "selected": "Place the birdhouse in the garden after it is painted.",
+            "expected": "Place the birdhouse in the garden after it is painted.",
+            "correct": true,
+            "explanation": "Finalmente, el birdhouse se coloca en el jardín sólo después de estar pintado."
+          }
+        ]
+      },
+      "seconds": 5.9,
+      "pass": true
+    }
+  ],
+  "databaseCalls": 0,
+  "passed": false
+}

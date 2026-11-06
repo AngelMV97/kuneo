@@ -1,0 +1,599 @@
+{
+  "model": "gpt-4.1-mini",
+  "limit": 32,
+  "calls": 16,
+  "inputTokens": 52340,
+  "outputTokens": 5701,
+  "databaseCalls": 0,
+  "results": [
+    {
+      "slot": 1,
+      "seconds": 6.856,
+      "activity": {
+        "id": "72374c50-c5da-4940-b40c-c7f08aba0d32",
+        "step_id": "variety-step",
+        "question": "En una huerta escolar, dos grupos de estudiantes observaron cómo cambiaban las hojas de dos plantas diferentes cuando las expusieron al mismo sol durante 2 horas. La planta A tenía las hojas verdes con bordes amarillos al inicio, y después del sol, las hojas estaban completamente verdes. La planta B tenía hojas verdes y después del sol varias hojas estaban con manchas marrones.\n\nBasado en estas observaciones, ¿qué hipótesis sobre cambios físicos se puede contrastar con los datos?",
+        "type": "option",
+        "options": [
+          "Las hojas de las plantas cambian de color solo por cambios internos de la planta.",
+          "La exposición al sol puede causar cambios físicos diferentes en las hojas según el tipo de planta.",
+          "Las manchas marrones en las hojas son un cambio físico causado por la falta de agua.",
+          "Las hojas verdes siempre se vuelven amarillas con la exposición al sol."
+        ],
+        "cognitive_dimension": "comprension",
+        "source": "generated",
+        "notice": null,
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "72374c50-c5da-4940-b40c-c7f08aba0d32",
+        "user_id": "synthetic",
+        "module_id": "variety-science",
+        "step_id": "variety-step",
+        "question": "En una huerta escolar, dos grupos de estudiantes observaron cómo cambiaban las hojas de dos plantas diferentes cuando las expusieron al mismo sol durante 2 horas. La planta A tenía las hojas verdes con bordes amarillos al inicio, y después del sol, las hojas estaban completamente verdes. La planta B tenía hojas verdes y después del sol varias hojas estaban con manchas marrones.\n\nBasado en estas observaciones, ¿qué hipótesis sobre cambios físicos se puede contrastar con los datos?",
+        "type": "option",
+        "options": [
+          "Las hojas de las plantas cambian de color solo por cambios internos de la planta.",
+          "La exposición al sol puede causar cambios físicos diferentes en las hojas según el tipo de planta.",
+          "Las manchas marrones en las hojas son un cambio físico causado por la falta de agua.",
+          "Las hojas verdes siempre se vuelven amarillas con la exposición al sol."
+        ],
+        "expected": {
+          "type": "option",
+          "correct_options": [
+            1
+          ]
+        },
+        "learning_focus": "Interpretar evidencia para contrastar hipótesis sobre cambios físicos en plantas.",
+        "option_explanations": [
+          "Esta hipótesis no considera la influencia externa del sol y no explica las diferencias entre las plantas observadas.",
+          "Correcto: esta hipótesis explica que la misma exposición al sol produce cambios físicos distintos en cada planta, lo que coincide con la evidencia.",
+          "El experimento solo expone las plantas al sol; no informa sobre el agua, por lo que esta hipótesis no se soporta con los datos.",
+          "La evidencia muestra una planta que tuvo hojas verdes siempre verdes, y otra con manchas marrones, no un cambio a amarillo; esta hipótesis no concuerda con las observaciones."
+        ],
+        "pair_explanations": [],
+        "rubric": "Evalúa que el estudiante interprete la observación y la relacione adecuadamente con hipótesis sobre cambios físicos, identificando que la planta y la exposición al sol afectan el cambio observado.",
+        "hint": "Observa qué cambio físico sucedió en cada planta y piensa qué puede explicar las diferencias usando la misma condición (el sol).",
+        "explanation": "Se evalúa que el estudiante reconozca que los cambios físicos observados en las hojas dependen del tipo de planta y la exposición solar, apoyando la hipótesis 1. Las otras hipótesis no coinciden con la evidencia presentada.",
+        "dimension": "comprension",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "Hipótesis y evidencia",
+          "concept": "hipotesis_y_evidencia",
+          "learning_goal": "Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación."
+        },
+        "grade_group": "6-7",
+        "expires_at": 1794017476515
+      }
+    },
+    {
+      "slot": 2,
+      "seconds": 7.205,
+      "activity": {
+        "id": "f67c4047-c307-4efe-bb55-4bccda481937",
+        "step_id": "variety-step",
+        "question": "En una tienda, Ana y Carlos observan que diferentes materiales cambian cuando se exponen al sol durante varias horas. Ana dice que \"si un material cambia de color, entonces siempre se ha producido un cambio físico\". Carlos dice: \"No siempre un cambio de color es un cambio físico\". Los materiales que mostraron cambios están en esta tabla:\n\n| Material   | Color al inicio | Color después de 3 horas al sol |\n|------------|-----------------|------------------------------|\n| Tela       | Blanco          | Amarillo                      |\n| Papel      | Blanco          | Amarillo                      |\n| Plástico   | Verde           | Verde                        |\n| Madera     | Marrón claro    | Marrón oscuro                |\n\nObserva los materiales y sus cambios. ¿Cuál explicación sobre los cambios físicos apoyan mejor las evidencias? Explica por qué. ",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "razonamiento",
+        "source": "generated",
+        "notice": null,
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "f67c4047-c307-4efe-bb55-4bccda481937",
+        "user_id": "synthetic",
+        "module_id": "variety-science",
+        "step_id": "variety-step",
+        "question": "En una tienda, Ana y Carlos observan que diferentes materiales cambian cuando se exponen al sol durante varias horas. Ana dice que \"si un material cambia de color, entonces siempre se ha producido un cambio físico\". Carlos dice: \"No siempre un cambio de color es un cambio físico\". Los materiales que mostraron cambios están en esta tabla:\n\n| Material   | Color al inicio | Color después de 3 horas al sol |\n|------------|-----------------|------------------------------|\n| Tela       | Blanco          | Amarillo                      |\n| Papel      | Blanco          | Amarillo                      |\n| Plástico   | Verde           | Verde                        |\n| Madera     | Marrón claro    | Marrón oscuro                |\n\nObserva los materiales y sus cambios. ¿Cuál explicación sobre los cambios físicos apoyan mejor las evidencias? Explica por qué. ",
+        "type": "text",
+        "options": [],
+        "expected": {
+          "type": "rubric",
+          "answer": "La explicación que mejor apoyan los datos es la de Carlos, porque aunque algunos materiales cambiaron de color (como la tela, el papel y la madera), no todos los cambios de color indican un cambio físico necesariamente. Por ejemplo, el plástico no cambió de color, lo que muestra que un cambio físico no siempre implica cambio de color. Además, algunos cambios de color podrían ser químicos, no solo físicos. Por eso, la hipótesis de Carlos es más adecuada porque considera que no todo cambio de color implica un cambio físico, y la observación de los materiales y sus colores apoya esta idea.",
+          "rubric": "El estudiante debe argumentar que un cambio de color puede ser un cambio físico si no altera la sustancia, pero que no siempre un cambio de color implica un cambio físico. La respuesta debe incluir una referencia a la evidencia de los materiales que cambiaron color y al que no cambió, y diferenciar tipos de cambio con justificación clara basada en la tabla."
+        },
+        "learning_focus": "Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación.",
+        "option_explanations": [],
+        "pair_explanations": [],
+        "rubric": "El estudiante debe argumentar que un cambio de color puede ser un cambio físico si no altera la sustancia, pero que no siempre un cambio de color implica un cambio físico. La respuesta debe incluir una referencia a la evidencia de los materiales que cambiaron color y al que no cambió, y diferenciar tipos de cambio con justificación clara basada en la tabla.",
+        "hint": "Piensa en cómo sabes si un cambio en un material es físico o no. ¿Qué nos dice el cambio de color sobre el material? ¿Puede cambiar el color sin que la sustancia cambie?",
+        "explanation": "Para responder, primero considera qué es un cambio físico: es un cambio en el aspecto sin alterar la composición del material. Algunos materiales cambiaron de color al sol; esto puede ser un cambio físico (como el tejido o el papel que pierden o cambian color) o no. Carlos observa que no todos los cambios de color significan un cambio físico; así, la evidencia muestra que el plástico no cambió color mientras que otros sí. Por tanto, no todos los cambios físicos se reflejan en cambios de color, y un cambio de color no asegura un cambio físico. La comparación permite contrastar las hipótesis de Ana y Carlos con base en la tabla.",
+        "dimension": "razonamiento",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "Hipótesis y evidencia",
+          "concept": "hipotesis_y_evidencia",
+          "learning_goal": "Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación."
+        },
+        "grade_group": "6-7",
+        "expires_at": 1794017483721
+      }
+    },
+    {
+      "slot": 3,
+      "seconds": 6.363,
+      "activity": {
+        "id": "84d5190b-1c83-421a-8071-e6ce5f6283d6",
+        "step_id": "variety-step",
+        "question": "En un parque natural, se registraron cambios en la temperatura y el volumen de tres tipos de rocas después de ser expuestas al sol durante 4 horas. Los datos iniciales y finales se muestran en la tabla:\n\n| Tipo de roca | Volumen inicial (cm³) | Volumen después del sol (cm³) | Temperatura inicial (°C) | Temperatura después del sol (°C) |\n|--------------|----------------------|-------------------------------|-------------------------|---------------------------------|\n| Granito      | 1500                 | 1503                          | 25                      | 40                              |\n| Caliza       | 1200                 | 1205                          | 25                      | 38                              |\n| Basalto      | 1800                 | 1800                          | 25                      | 39                              |\n\nBasado en estos datos, selecciona todas las afirmaciones correctas que representan cambios físicos observados y coherentes con la tabla.",
+        "type": "multiple_select",
+        "options": [
+          "El granito aumentó su volumen y temperatura, indicando un cambio físico por calor.",
+          "La caliza no cambió su volumen, por lo que no experimentó cambio físico.",
+          "El basalto elevó su temperatura sin cambio de volumen, lo que es un cambio físico.",
+          "El aumento en volumen de la caliza significa que ocurrió un cambio químico."
+        ],
+        "cognitive_dimension": "representacion",
+        "source": "generated",
+        "notice": null,
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "84d5190b-1c83-421a-8071-e6ce5f6283d6",
+        "user_id": "synthetic",
+        "module_id": "variety-science",
+        "step_id": "variety-step",
+        "question": "En un parque natural, se registraron cambios en la temperatura y el volumen de tres tipos de rocas después de ser expuestas al sol durante 4 horas. Los datos iniciales y finales se muestran en la tabla:\n\n| Tipo de roca | Volumen inicial (cm³) | Volumen después del sol (cm³) | Temperatura inicial (°C) | Temperatura después del sol (°C) |\n|--------------|----------------------|-------------------------------|-------------------------|---------------------------------|\n| Granito      | 1500                 | 1503                          | 25                      | 40                              |\n| Caliza       | 1200                 | 1205                          | 25                      | 38                              |\n| Basalto      | 1800                 | 1800                          | 25                      | 39                              |\n\nBasado en estos datos, selecciona todas las afirmaciones correctas que representan cambios físicos observados y coherentes con la tabla.",
+        "type": "multiple_select",
+        "options": [
+          "El granito aumentó su volumen y temperatura, indicando un cambio físico por calor.",
+          "La caliza no cambió su volumen, por lo que no experimentó cambio físico.",
+          "El basalto elevó su temperatura sin cambio de volumen, lo que es un cambio físico.",
+          "El aumento en volumen de la caliza significa que ocurrió un cambio químico."
+        ],
+        "expected": {
+          "type": "multiple_select",
+          "correct_options": [
+            0,
+            2
+          ]
+        },
+        "learning_focus": "Representar y transformar datos en una tabla para interpretar cambios físicos.",
+        "option_explanations": [
+          "Los datos muestran que el granito aumentó de 1500 a 1503 cm³ y la temperatura subió de 25 °C a 40 °C, un cambio físico por expansión térmica.",
+          "La caliza aumentó su volumen de 1200 a 1205 cm³, por lo que sí hay cambio físico; esta afirmación es incorrecta.",
+          "El basalto sí aumentó su temperatura (25 a 39 °C) sin cambio en volumen, indicando un cambio físico por calor.",
+          "El aumento en volumen es coherente con cambio físico, no químico, según los datos; esta afirmación es errónea."
+        ],
+        "pair_explanations": [],
+        "rubric": "La respuesta es correcta si identifica afirmaciones que reflejan con precisión el cambio en volumen o temperatura registrado en la tabla como indicadores de cambios físicos. No se consideran válidas afirmaciones que contradigan los datos o que impliquen cambios químicos sin evidencia.",
+        "hint": "Observa cómo cambian el volumen y la temperatura en la tabla. Recuerda que un cambio físico puede involucrar la expansión térmica sin alterar la composición de la roca.",
+        "explanation": "Para responder, primero compara el volumen y temperatura iniciales y finales de cada tipo de roca. Un aumento en volumen con un aumento de temperatura indica un cambio físico por expansión térmica. La afirmación debe ajustarse a estos datos. Por ejemplo, el basalto no cambia su volumen, aunque sube la temperatura, lo cual también es un cambio físico que no altera su composición.",
+        "dimension": "representacion",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "Hipótesis y evidencia",
+          "concept": "hipotesis_y_evidencia",
+          "learning_goal": "Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación."
+        },
+        "grade_group": "6-7",
+        "expires_at": 1794017490085
+      }
+    },
+    {
+      "slot": 4,
+      "seconds": 5.632,
+      "activity": {
+        "id": "d69bbeec-ffd2-41ff-8631-9880790ddb38",
+        "step_id": "variety-step",
+        "question": "En un colegio, para ayudarte a ahorrar agua, se instalaron sensores en tres grifos que miden cuántos litros de agua se usan al día. En la siguiente tabla se muestran los litros empleados y las condiciones que se cambian cada día para observar si hay cambios físicos relacionados con el agua usada.\n\n| Grifo | Litros usados el lunes | Cambio aplicado el martes           | Litros usados el martes |\n|-------|------------------------|-----------------------------------|-------------------------|\n| 1     | 80                     | Se ajustó el flujo para que salga menos agua | 60                      |\n| 2     | 50                     | Se puso una perilla que controla la salida   | 45                      |\n| 3     | 70                     | El agua se dejó abierta más tiempo              | 90                      |\n\nRelaciona cada cambio realizado con la hipótesis que describe correctamente el efecto físico en el consumo de agua.",
+        "type": "matching",
+        "options": [],
+        "cognitive_dimension": "transferencia",
+        "source": "generated",
+        "notice": null,
+        "left_items": [
+          "Ajustar el flujo para que salga menos agua",
+          "Poner una perilla que controla la salida",
+          "Dejar el agua abierta más tiempo"
+        ],
+        "right_items": [
+          "Incrementar físicamente el uso de agua al dejarla fluir más tiempo",
+          "Controlar físicamente el volumen de agua para reducir el consumo",
+          "Modificar el grifo para un consumo menor mediante regulación"
+        ],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "d69bbeec-ffd2-41ff-8631-9880790ddb38",
+        "user_id": "synthetic",
+        "module_id": "variety-science",
+        "step_id": "variety-step",
+        "question": "En un colegio, para ayudarte a ahorrar agua, se instalaron sensores en tres grifos que miden cuántos litros de agua se usan al día. En la siguiente tabla se muestran los litros empleados y las condiciones que se cambian cada día para observar si hay cambios físicos relacionados con el agua usada.\n\n| Grifo | Litros usados el lunes | Cambio aplicado el martes           | Litros usados el martes |\n|-------|------------------------|-----------------------------------|-------------------------|\n| 1     | 80                     | Se ajustó el flujo para que salga menos agua | 60                      |\n| 2     | 50                     | Se puso una perilla que controla la salida   | 45                      |\n| 3     | 70                     | El agua se dejó abierta más tiempo              | 90                      |\n\nRelaciona cada cambio realizado con la hipótesis que describe correctamente el efecto físico en el consumo de agua.",
+        "type": "matching",
+        "options": [],
+        "left_items": [
+          "Ajustar el flujo para que salga menos agua",
+          "Poner una perilla que controla la salida",
+          "Dejar el agua abierta más tiempo"
+        ],
+        "right_items": [
+          "Incrementar físicamente el uso de agua al dejarla fluir más tiempo",
+          "Controlar físicamente el volumen de agua para reducir el consumo",
+          "Modificar el grifo para un consumo menor mediante regulación"
+        ],
+        "expected": {
+          "type": "matching",
+          "correct_pairs": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        "learning_focus": "Transferencia: usar hipótesis y observaciones previas para tomar decisiones de conservación física de recursos en el colegio.",
+        "option_explanations": [],
+        "pair_explanations": [
+          "Reducir el flujo disminuye físicamente la cantidad de agua que fluye, por eso el consumo baja.",
+          "Controlar la salida con una perilla es una modificación física que limita el agua usada.",
+          "Dejar el agua abierta más tiempo aumenta físicamente el volumen de agua consumida."
+        ],
+        "rubric": "Se evalúa la capacidad para identificar qué hipótesis explica correctamente el efecto físico que causa un cambio observable en el consumo de agua según las condiciones aplicadas.",
+        "hint": "Piensa en cómo cada cambio afecta físicamente la cantidad de agua que pasa por el grifo, y qué se espera que suceda con el consumo.",
+        "explanation": "La respuesta correcta requiere reconocer que ajustar el flujo o controlar la salida reduce físicamente la cantidad de agua, mientras que dejar el agua abierta más tiempo aumenta físicamente el consumo. La hipótesis debe expresar esta relación física concreta entre el cambio aplicado y el volumen de agua usado.",
+        "dimension": "transferencia",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "Hipótesis y evidencia",
+          "concept": "hipotesis_y_evidencia",
+          "learning_goal": "Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación."
+        },
+        "grade_group": "6-7",
+        "expires_at": 1794017495718
+      }
+    },
+    {
+      "slot": 5,
+      "seconds": 4.87,
+      "activity": {
+        "id": "e80c3699-efd2-4c6f-aa17-804ccd7af8f8",
+        "step_id": "variety-step",
+        "question": "En un laboratorio escolar, Laura quiere estudiar cómo afecta el calor a diferentes tipos de metales para entender si se producen cambios físicos cuando se calientan. Planea calentar tres barras metálicas iguales durante 10 minutos y medir si cambian de forma o tamaño.\n\n¿Qué estrategia de planificación debe seguir Laura para que su experimento sea confiable y pueda contrastar la hipótesis \"El calor produce un cambio físico en el tamaño de los metales\"?",
+        "type": "option",
+        "options": [
+          "Medir el tamaño de las barras antes y después de calentarlas, usar la misma temperatura y tiempo para todas, y no calentar ninguna barra para comparar.",
+          "Solo calentar una barra metálica y medir su tamaño después para ver si cambió.",
+          "Calentar las barras sin medirlas antes y después, y observar solo su color.",
+          "Calentar las barras durante diferentes tiempos sin medir ni registrar las temperaturas."
+        ],
+        "cognitive_dimension": "metacognicion",
+        "source": "generated",
+        "notice": null,
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "e80c3699-efd2-4c6f-aa17-804ccd7af8f8",
+        "user_id": "synthetic",
+        "module_id": "variety-science",
+        "step_id": "variety-step",
+        "question": "En un laboratorio escolar, Laura quiere estudiar cómo afecta el calor a diferentes tipos de metales para entender si se producen cambios físicos cuando se calientan. Planea calentar tres barras metálicas iguales durante 10 minutos y medir si cambian de forma o tamaño.\n\n¿Qué estrategia de planificación debe seguir Laura para que su experimento sea confiable y pueda contrastar la hipótesis \"El calor produce un cambio físico en el tamaño de los metales\"?",
+        "type": "option",
+        "options": [
+          "Medir el tamaño de las barras antes y después de calentarlas, usar la misma temperatura y tiempo para todas, y no calentar ninguna barra para comparar.",
+          "Solo calentar una barra metálica y medir su tamaño después para ver si cambió.",
+          "Calentar las barras sin medirlas antes y después, y observar solo su color.",
+          "Calentar las barras durante diferentes tiempos sin medir ni registrar las temperaturas."
+        ],
+        "expected": {
+          "type": "option",
+          "correct_options": [
+            0
+          ]
+        },
+        "learning_focus": "Planificación para contrastar hipótesis sobre cambios físicos mediante observación y medidas",
+        "option_explanations": [
+          "Esta estrategia permite tener datos comparables y controlar variables, apoyando la prueba de una hipótesis clara.",
+          "Calentar solo una barra no permite comparar y verificar si el cambio es general o específico.",
+          "Observar solo el color no permite confirmar si hay un cambio físico en el tamaño, que es lo hipotetizado.",
+          "No medir ni controlar tiempo ni temperatura impide sacar conclusiones confiables sobre cambios físicos."
+        ],
+        "pair_explanations": [],
+        "rubric": "Evalúa si el estudiante elige una estrategia que controle variables, usa mediciones claras y considera la comparación adecuada para contrastar la hipótesis.",
+        "hint": "Piensa en cómo debe organizar los pasos para asegurarse de que cualquier cambio observado sea por el calor y no por otras causas.",
+        "explanation": "Planificar el experimento controlando la temperatura, el tiempo y usando una medición antes y después permite contrastar si el calor causa un cambio físico en el tamaño del metal.",
+        "dimension": "metacognicion",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "Hipótesis y evidencia",
+          "concept": "hipotesis_y_evidencia",
+          "learning_goal": "Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación."
+        },
+        "grade_group": "6-7",
+        "expires_at": 1794017500588
+      }
+    },
+    {
+      "slot": 6,
+      "seconds": 5.68,
+      "activity": {
+        "id": "5bfcdd7c-9199-4cf6-b27c-227f0bd9f4f5",
+        "step_id": "variety-step",
+        "question": "En un laboratorio escolar, se colocaron tres recipientes con agua de diferentes colores para observar cómo cambia el agua al dejarla al sol durante 5 horas. Al inicio y al final del tiempo, se registraron estas observaciones:\n\n| Recipiente | Color del agua al inicio | Color del agua después de 5 horas al sol | Cantidad de líquido al inicio (ml) | Cantidad de líquido después de 5 horas (ml) |\n|------------|--------------------------|------------------------------------------|-----------------------------------|---------------------------------------------|\n| 1          | Azul                     | Azul                                    | 500                               | 450                                         |\n| 2          | Rojo                     | Rojo clara                               | 500                               | 480                                         |\n| 3          | Verde                    | Verde                                   | 500                               | 400                                         |\n\nBasado en estas observaciones, explica qué evidencia concreta apoya la hipótesis de que la exposición al sol causa un cambio físico en los líquidos, y por qué esta hipótesis es razonable considerando los datos.",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "comprension",
+        "source": "generated",
+        "notice": null,
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "5bfcdd7c-9199-4cf6-b27c-227f0bd9f4f5",
+        "user_id": "synthetic",
+        "module_id": "variety-science",
+        "step_id": "variety-step",
+        "question": "En un laboratorio escolar, se colocaron tres recipientes con agua de diferentes colores para observar cómo cambia el agua al dejarla al sol durante 5 horas. Al inicio y al final del tiempo, se registraron estas observaciones:\n\n| Recipiente | Color del agua al inicio | Color del agua después de 5 horas al sol | Cantidad de líquido al inicio (ml) | Cantidad de líquido después de 5 horas (ml) |\n|------------|--------------------------|------------------------------------------|-----------------------------------|---------------------------------------------|\n| 1          | Azul                     | Azul                                    | 500                               | 450                                         |\n| 2          | Rojo                     | Rojo clara                               | 500                               | 480                                         |\n| 3          | Verde                    | Verde                                   | 500                               | 400                                         |\n\nBasado en estas observaciones, explica qué evidencia concreta apoya la hipótesis de que la exposición al sol causa un cambio físico en los líquidos, y por qué esta hipótesis es razonable considerando los datos.",
+        "type": "text",
+        "options": [],
+        "expected": {
+          "type": "rubric",
+          "answer": "La evidencia concreta que apoya la hipótesis es la disminución del volumen de agua en los recipientes después de 5 horas al sol, lo que indica que parte del líquido se evaporó, un cambio físico porque el agua sigue siendo agua y el color no cambia mucho. Esto confirma que la exposición al sol provoca cambios físicos, como la evaporación, y no cambios químicos.",
+          "rubric": "La respuesta debe identificar que la reducción del volumen de líquido en los recipientes indica evaporación, un cambio físico, porque el color permanece igual o ligeramente alterado pero no cambia la sustancia. Debe explicar que el cambio en volumen sin alteración química sustancial es evidencia de cambio físico."
+        },
+        "learning_focus": "Interpretar y explicar cómo una evidencia observada confirma una hipótesis sobre cambios físicos en líquidos al exponerlos al sol.",
+        "option_explanations": [],
+        "pair_explanations": [],
+        "rubric": "La respuesta debe identificar que la reducción del volumen de líquido en los recipientes indica evaporación, un cambio físico, porque el color permanece igual o ligeramente alterado pero no cambia la sustancia. Debe explicar que el cambio en volumen sin alteración química sustancial es evidencia de cambio físico.",
+        "hint": "Observa qué cambia y qué permanece igual en los líquidos después de la exposición al sol. ¿Qué proceso físico puede explicar la disminución de la cantidad de agua?",
+        "explanation": "La actividad requiere que el estudiante vincule la observación de disminución del volumen de agua con la hipótesis de un cambio físico por evaporación. Mantener el color o cambios leves señala que no hay transformación química, lo que apoya la hipótesis. Esta interpretación conecta evidencia (datos de volúmenes y colores) con la hipótesis sobre cambios físicos.",
+        "dimension": "comprension",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "Hipótesis y evidencia",
+          "concept": "hipotesis_y_evidencia",
+          "learning_goal": "Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación."
+        },
+        "grade_group": "6-7",
+        "expires_at": 1794017506269
+      }
+    },
+    {
+      "slot": 7,
+      "seconds": 6.482,
+      "activity": {
+        "id": "6a501c8a-173c-4311-a536-1e97486f4d3d",
+        "step_id": "variety-step",
+        "question": "En un laboratorio escolar, Ana y Juan hicieron un experimento para observar cómo cambia el hielo cuando se expone al calor durante 30 minutos. Usaron tres cubos de hielo con formas diferentes y midieron su tamaño antes y después de exponerlos a una lámpara. Los datos se registraron así:\n\n| Cubo de hielo | Tamaño inicial (cm³) | Tamaño después de 30 min al calor (cm³) |\n|---------------|---------------------|-----------------------------------------|\n| 1 (cuadrado)  | 100                 | 40                                      |\n| 2 (esfera)    | 100                 | 50                                      |\n| 3 (cilindro)  | 100                 | 30                                      |\n\nAna dice: \"El calor siempre cambia el tamaño del hielo porque hace que se derrita y disminuya\".\nJuan dice: \"Aunque el tamaño cambia, no siempre es un cambio físico, puede ser un cambio químico\".\n\nBasándote en las observaciones y datos, ¿cuáles afirmaciones apoyan correctamente hipótesis sobre cambios físicos? Selecciona todas las que sean correctas.",
+        "type": "multiple_select",
+        "options": [
+          "El tamaño del hielo disminuye porque se derrite, lo que es un cambio físico.",
+          "El calor provoca variación en el tamaño sin cambiar la composición, entonces es un cambio físico.",
+          "El cambio en tamaño indica un cambio químico porque el agua cambia de estado.",
+          "El hielo cambia de tamaño, apoyando la hipótesis de que el calor produce cambios físicos."
+        ],
+        "cognitive_dimension": "razonamiento",
+        "source": "generated",
+        "notice": null,
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "6a501c8a-173c-4311-a536-1e97486f4d3d",
+        "user_id": "synthetic",
+        "module_id": "variety-science",
+        "step_id": "variety-step",
+        "question": "En un laboratorio escolar, Ana y Juan hicieron un experimento para observar cómo cambia el hielo cuando se expone al calor durante 30 minutos. Usaron tres cubos de hielo con formas diferentes y midieron su tamaño antes y después de exponerlos a una lámpara. Los datos se registraron así:\n\n| Cubo de hielo | Tamaño inicial (cm³) | Tamaño después de 30 min al calor (cm³) |\n|---------------|---------------------|-----------------------------------------|\n| 1 (cuadrado)  | 100                 | 40                                      |\n| 2 (esfera)    | 100                 | 50                                      |\n| 3 (cilindro)  | 100                 | 30                                      |\n\nAna dice: \"El calor siempre cambia el tamaño del hielo porque hace que se derrita y disminuya\".\nJuan dice: \"Aunque el tamaño cambia, no siempre es un cambio físico, puede ser un cambio químico\".\n\nBasándote en las observaciones y datos, ¿cuáles afirmaciones apoyan correctamente hipótesis sobre cambios físicos? Selecciona todas las que sean correctas.",
+        "type": "multiple_select",
+        "options": [
+          "El tamaño del hielo disminuye porque se derrite, lo que es un cambio físico.",
+          "El calor provoca variación en el tamaño sin cambiar la composición, entonces es un cambio físico.",
+          "El cambio en tamaño indica un cambio químico porque el agua cambia de estado.",
+          "El hielo cambia de tamaño, apoyando la hipótesis de que el calor produce cambios físicos."
+        ],
+        "expected": {
+          "type": "multiple_select",
+          "correct_options": [
+            0,
+            1,
+            3
+          ]
+        },
+        "learning_focus": "Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación.",
+        "option_explanations": [
+          "Correcto. La fusión es un cambio físico porque implica cambio de estado sin cambiar la composición química.",
+          "Correcto. La variación en el tamaño y estado sin modificar la sustancia en sí apoya un cambio físico.",
+          "Incorrecto. Cambiar de sólido a líquido es un cambio físico, no químico, pues la composición del agua no cambia.",
+          "Correcto. La observación directa del cambio de tamaño es evidencia para apoyar la hipótesis sobre cambios físicos."
+        ],
+        "pair_explanations": [],
+        "rubric": "Se considera correcta toda selección que incluya afirmaciones que expliquen que el cambio de tamaño del hielo es un cambio físico (fusión al derretirse), y que los cambios de tamaño son evidencias observables para contrastar la hipótesis. Se debe rechazar afirmaciones que confundan cambio físico con cambio químico sin evidencia en el contexto dado.",
+        "hint": "Piensa qué cambios se observan directamente y si esos cambios alteran la composición del hielo o solo su estado y tamaño.",
+        "explanation": "El experimento muestra que el hielo pierde volumen al exponerse al calor, lo que indica un cambio físico de fusión (paso de sólido a líquido). Esto apoya la hipótesis de que el calor causa cambios físicos en el tamaño del hielo. La afirmación que confunde cambio físico con químico no se sostiene con los datos, pues no hay evidencia de cambio en la composición del agua.",
+        "dimension": "razonamiento",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "Hipótesis y evidencia",
+          "concept": "hipotesis_y_evidencia",
+          "learning_goal": "Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación."
+        },
+        "grade_group": "6-7",
+        "expires_at": 1794017512752
+      }
+    },
+    {
+      "slot": 8,
+      "seconds": 6.636,
+      "activity": {
+        "id": "04e0586f-0142-46c1-9949-cf10963fb408",
+        "step_id": "variety-step",
+        "question": "En un laboratorio escolar, se realizó una observación sobre cómo cambia el tamaño y la temperatura de tres metales distintos al ser calentados durante 15 minutos. Al inicio y al terminar el calentamiento, se registraron estos datos:\n\n| Metal       | Tamaño inicial (cm) | Tamaño después del calor (cm) | Temperatura inicial (°C) | Temperatura después del calor (°C) |\n|-------------|---------------------|-------------------------------|-------------------------|-----------------------------------|\n| Hierro      | 25.0                | 25.2                          | 22                      | 60                                |\n| Cobre       | 30.0                | 30.3                          | 22                      | 65                                |\n| Aluminio    | 20.0                | 20.2                          | 22                      | 62                                |\n\nAsocia cada cambio observado con la descripción correcta que explica los cambios físicos que sufrieron los metales al calentarse.",
+        "type": "matching",
+        "options": [],
+        "cognitive_dimension": "representacion",
+        "source": "generated",
+        "notice": null,
+        "left_items": [
+          "Hierro",
+          "Cobre",
+          "Aluminio"
+        ],
+        "right_items": [
+          "El metal aumentó su temperatura y su tamaño creció por efecto del calor aplicado.",
+          "Al calentarse, el metal se agrandó porque la temperatura subió y provocó expansión física.",
+          "El metal se expandió al aumentar su temperatura, aumentando ligeramente su tamaño."
+        ],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "04e0586f-0142-46c1-9949-cf10963fb408",
+        "user_id": "synthetic",
+        "module_id": "variety-science",
+        "step_id": "variety-step",
+        "question": "En un laboratorio escolar, se realizó una observación sobre cómo cambia el tamaño y la temperatura de tres metales distintos al ser calentados durante 15 minutos. Al inicio y al terminar el calentamiento, se registraron estos datos:\n\n| Metal       | Tamaño inicial (cm) | Tamaño después del calor (cm) | Temperatura inicial (°C) | Temperatura después del calor (°C) |\n|-------------|---------------------|-------------------------------|-------------------------|-----------------------------------|\n| Hierro      | 25.0                | 25.2                          | 22                      | 60                                |\n| Cobre       | 30.0                | 30.3                          | 22                      | 65                                |\n| Aluminio    | 20.0                | 20.2                          | 22                      | 62                                |\n\nAsocia cada cambio observado con la descripción correcta que explica los cambios físicos que sufrieron los metales al calentarse.",
+        "type": "matching",
+        "options": [],
+        "left_items": [
+          "Hierro",
+          "Cobre",
+          "Aluminio"
+        ],
+        "right_items": [
+          "El metal aumentó su temperatura y su tamaño creció por efecto del calor aplicado.",
+          "Al calentarse, el metal se agrandó porque la temperatura subió y provocó expansión física.",
+          "El metal se expandió al aumentar su temperatura, aumentando ligeramente su tamaño."
+        ],
+        "expected": {
+          "type": "matching",
+          "correct_pairs": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        "learning_focus": "Representar el cambio físico de expansión térmica en metales al calentarse, usando datos de tamaño y temperatura.",
+        "option_explanations": [],
+        "pair_explanations": [
+          "El hierro muestra un aumento en tamaño (de 25.0 a 25.2 cm) y temperatura (de 22 a 60 °C), lo que explica la expansión física por calor.",
+          "El cobre tiene un incremento de tamaño (30.0 a 30.3 cm) y temperatura (22 a 65 °C), demostrando una expansión térmica observable.",
+          "El aluminio crece de tamaño (20.0 a 20.2 cm) y su temperatura sube (22 a 62 °C), indicando un cambio físico por calentamiento."
+        ],
+        "rubric": "Se evalúa que cada metal se relacione correctamente con la explicación que describe el cambio físico observable producido por el calor, valorando la comprensión del concepto de cambio físico por expansión térmica y su representación correcta. Se acepta equivalentes en la formulación, siempre que expliquen el aumento de tamaño y temperatura sin confundir con cambios químicos.",
+        "hint": "Observa cómo varían el tamaño y la temperatura de cada metal. Piensa qué efecto tiene el calor en un objeto sólido y cómo se manifiesta ese cambio. ¿Qué propiedad del metal cambia sin alterar su composición?",
+        "explanation": "El calor provoca una expansión térmica en los metales, aumentando su tamaño sin cambiar su composición química. Por eso, se observa un aumento de tamaño y temperatura en cada metal. La representación correcta muestra el metal emparejado con la explicación de expansión térmica debido a la temperatura mayor tras calentar.",
+        "dimension": "representacion",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "Hipótesis y evidencia",
+          "concept": "hipotesis_y_evidencia",
+          "learning_goal": "Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación."
+        },
+        "grade_group": "6-7",
+        "expires_at": 1794017519389
+      }
+    }
+  ],
+  "traces": [
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"En una huerta escolar, dos grupos de estudiantes observaron cómo cambiaban las hojas de dos plantas diferentes cuando las expusieron al mismo sol durante 2 horas. La planta A tenía las hojas verdes con bordes amarillos al inicio, y después del sol, las hojas estaban completamente verdes. La planta B tenía hojas verdes y después del sol varias hojas estaban con manchas marrones.\\n\\nBasado en estas observaciones, ¿qué hipótesis sobre cambios físicos se puede contrastar con los datos?\\n\\nOpciones:\\n0) Las hojas de las plantas cambian de color solo por cambios internos de la planta.\\n1) La exposición al sol puede causar cambios físicos diferentes en las hojas según el tipo de planta.\\n2) Las manchas marrones en las hojas son un cambio físico causado por la falta de agua.\\n3) Las hojas verdes siempre se vuelven amarillas con la exposición al sol.\",\"type\":\"option\",\"rubric\":\"Evalúa que el estudiante interprete la observación y la relacione adecuadamente con hipótesis sobre cambios físicos, identificando que la planta y la exposición al sol afectan el cambio observado.\",\"hint\":\"Observa qué cambio físico sucedió en cada planta y piensa qué puede explicar las diferencias usando la misma condición (el sol).\",\"explanation\":\"Se evalúa que el estudiante reconozca que los cambios físicos observados en las hojas dependen del tipo de planta y la exposición solar, apoyando la hipótesis 1. Las otras hipótesis no coinciden con la evidencia presentada.\",\"learning_focus\":\"Interpretar evidencia para contrastar hipótesis sobre cambios físicos en plantas.\",\"options\":[\"Las hojas de las plantas cambian de color solo por cambios internos de la planta.\",\"La exposición al sol puede causar cambios físicos diferentes en las hojas según el tipo de planta.\",\"Las manchas marrones en las hojas son un cambio físico causado por la falta de agua.\",\"Las hojas verdes siempre se vuelven amarillas con la exposición al sol.\"],\"option_explanations\":[\"Esta hipótesis no considera la influencia externa del sol y no explica las diferencias entre las plantas observadas.\",\"Correcto: esta hipótesis explica que la misma exposición al sol produce cambios físicos distintos en cada planta, lo que coincide con la evidencia.\",\"El experimento solo expone las plantas al sol; no informa sobre el agua, por lo que esta hipótesis no se soporta con los datos.\",\"La evidencia muestra una planta que tuvo hojas verdes siempre verdes, y otra con manchas marrones, no un cambio a amarillo; esta hipótesis no concuerda con las observaciones.\"] ,\"correct_index\":1}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"La observación indica que la planta A cambió de hojas con bordes amarillos a hojas completamente verdes, y la planta B desarrolló manchas marrones tras la exposición al sol. La hipótesis 1 no explica la influencia del sol ni las diferencias entre plantas. La hipótesis 2 explica que el sol causa cambios físicos distintos según la planta, coincidiendo con los datos. La hipótesis 3 menciona falta de agua, no considerada en el experimento. La hipótesis 4 afirma que las hojas verdes se vuelven amarillas, pero no se observa tal cambio. Por tanto, solo la opción 2 es correcta y corresponde con correct_index=1.\",\"approved\":true,\"issue\":\"\"}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"En una tienda, Ana y Carlos observan que diferentes materiales cambian cuando se exponen al sol durante varias horas. Ana dice que \\\"si un material cambia de color, entonces siempre se ha producido un cambio físico\\\". Carlos dice: \\\"No siempre un cambio de color es un cambio físico\\\". Los materiales que mostraron cambios están en esta tabla:\\n\\n| Material   | Color al inicio | Color después de 3 horas al sol |\\n|------------|-----------------|------------------------------|\\n| Tela       | Blanco          | Amarillo                      |\\n| Papel      | Blanco          | Amarillo                      |\\n| Plástico   | Verde           | Verde                        |\\n| Madera     | Marrón claro    | Marrón oscuro                |\\n\\nObserva los materiales y sus cambios. ¿Cuál explicación sobre los cambios físicos apoyan mejor las evidencias? Explica por qué. \",\"type\":\"text\",\"rubric\":\"El estudiante debe argumentar que un cambio de color puede ser un cambio físico si no altera la sustancia, pero que no siempre un cambio de color implica un cambio físico. La respuesta debe incluir una referencia a la evidencia de los materiales que cambiaron color y al que no cambió, y diferenciar tipos de cambio con justificación clara basada en la tabla.\",\"hint\":\"Piensa en cómo sabes si un cambio en un material es físico o no. ¿Qué nos dice el cambio de color sobre el material? ¿Puede cambiar el color sin que la sustancia cambie?\",\"explanation\":\"Para responder, primero considera qué es un cambio físico: es un cambio en el aspecto sin alterar la composición del material. Algunos materiales cambiaron de color al sol; esto puede ser un cambio físico (como el tejido o el papel que pierden o cambian color) o no. Carlos observa que no todos los cambios de color significan un cambio físico; así, la evidencia muestra que el plástico no cambió color mientras que otros sí. Por tanto, no todos los cambios físicos se reflejan en cambios de color, y un cambio de color no asegura un cambio físico. La comparación permite contrastar las hipótesis de Ana y Carlos con base en la tabla.\",\"learning_focus\":\"Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación.\",\"expected_text\":\"La explicación que mejor apoyan los datos es la de Carlos, porque aunque algunos materiales cambiaron de color (como la tela, el papel y la madera), no todos los cambios de color indican un cambio físico necesariamente. Por ejemplo, el plástico no cambió de color, lo que muestra que un cambio físico no siempre implica cambio de color. Además, algunos cambios de color podrían ser químicos, no solo físicos. Por eso, la hipótesis de Carlos es más adecuada porque considera que no todo cambio de color implica un cambio físico, y la observación de los materiales y sus colores apoya esta idea.\"}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"La tabla muestra que tela, papel y madera cambiaron de color tras exposición al sol, mientras que el plástico no. Ana afirma que todo cambio de color es un cambio físico, pero esto es incorrecto porque un cambio de color puede ser químico (oxidación, degradación) y no solo físico. Carlos dice que no siempre un cambio de color es físico, lo cual es correcto. Además, el plástico no cambió de color, indicando que un cambio físico no siempre implica cambio de color. Por tanto, la hipótesis de Carlos está mejor apoyada por la evidencia. La respuesta debe argumentar esta distinción y usar la tabla para justificarla.\",\"approved\":true,\"issue\":\"\"}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"En un parque natural, se registraron cambios en la temperatura y el volumen de tres tipos de rocas después de ser expuestas al sol durante 4 horas. Los datos iniciales y finales se muestran en la tabla:\\n\\n| Tipo de roca | Volumen inicial (cm³) | Volumen después del sol (cm³) | Temperatura inicial (°C) | Temperatura después del sol (°C) |\\n|--------------|----------------------|-------------------------------|-------------------------|---------------------------------|\\n| Granito      | 1500                 | 1503                          | 25                      | 40                              |\\n| Caliza       | 1200                 | 1205                          | 25                      | 38                              |\\n| Basalto      | 1800                 | 1800                          | 25                      | 39                              |\\n\\nBasado en estos datos, selecciona todas las afirmaciones correctas que representan cambios físicos observados y coherentes con la tabla.\",\"type\":\"multiple_select\",\"rubric\":\"La respuesta es correcta si identifica afirmaciones que reflejan con precisión el cambio en volumen o temperatura registrado en la tabla como indicadores de cambios físicos. No se consideran válidas afirmaciones que contradigan los datos o que impliquen cambios químicos sin evidencia.\",\"hint\":\"Observa cómo cambian el volumen y la temperatura en la tabla. Recuerda que un cambio físico puede involucrar la expansión térmica sin alterar la composición de la roca.\",\"explanation\":\"Para responder, primero compara el volumen y temperatura iniciales y finales de cada tipo de roca. Un aumento en volumen con un aumento de temperatura indica un cambio físico por expansión térmica. La afirmación debe ajustarse a estos datos. Por ejemplo, el basalto no cambia su volumen, aunque sube la temperatura, lo cual también es un cambio físico que no altera su composición.\",\"learning_focus\":\"Representar y transformar datos en una tabla para interpretar cambios físicos.\",\"options\":[\"El granito aumentó su volumen y temperatura, indicando un cambio físico por calor.\",\"La caliza no cambió su volumen, por lo que no experimentó cambio físico.\",\"El basalto elevó su temperatura sin cambio de volumen, lo que es un cambio físico.\",\"El aumento en volumen de la caliza significa que ocurrió un cambio químico.\"],\"option_explanations\":[\"Los datos muestran que el granito aumentó de 1500 a 1503 cm³ y la temperatura subió de 25 °C a 40 °C, un cambio físico por expansión térmica.\",\"La caliza aumentó su volumen de 1200 a 1205 cm³, por lo que sí hay cambio físico; esta afirmación es incorrecta.\",\"El basalto sí aumentó su temperatura (25 a 39 °C) sin cambio en volumen, indicando un cambio físico por calor.\",\"El aumento en volumen es coherente con cambio físico, no químico, según los datos; esta afirmación es errónea.\"],\"correct_indices\":[0,2]}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"El granito aumentó volumen (1500 a 1503 cm³) y temperatura (25 a 40 °C), lo que indica un cambio físico por expansión térmica, por lo que la opción 0 es correcta. La caliza aumentó volumen (1200 a 1205 cm³) y temperatura (25 a 38 °C), por lo que la afirmación que dice que no cambió volumen es falsa; la opción 1 es incorrecta. El basalto aumentó temperatura (25 a 39 °C) sin cambio de volumen, lo que también es un cambio físico, por lo que la opción 2 es correcta. La opción 3 afirma que el aumento de volumen de la caliza es un cambio químico, lo cual contradice los datos y el concepto de expansión térmica, por lo que es incorrecta. La clave correcta es [0,2], que coincide con las opciones válidas.\",\"approved\":true,\"issue\":\"\"}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"En un colegio, para ayudarte a ahorrar agua, se instalaron sensores en tres grifos que miden cuántos litros de agua se usan al día. En la siguiente tabla se muestran los litros empleados y las condiciones que se cambian cada día para observar si hay cambios físicos relacionados con el agua usada.\\n\\n| Grifo | Litros usados el lunes | Cambio aplicado el martes           | Litros usados el martes |\\n|-------|------------------------|-----------------------------------|-------------------------|\\n| 1     | 80                     | Se ajustó el flujo para que salga menos agua | 60                      |\\n| 2     | 50                     | Se puso una perilla que controla la salida   | 45                      |\\n| 3     | 70                     | El agua se dejó abierta más tiempo              | 90                      |\\n\\nRelaciona cada cambio realizado con la hipótesis que describe correctamente el efecto físico en el consumo de agua.\",\"type\":\"matching\",\"rubric\":\"Se evalúa la capacidad para identificar qué hipótesis explica correctamente el efecto físico que causa un cambio observable en el consumo de agua según las condiciones aplicadas.\",\"hint\":\"Piensa en cómo cada cambio afecta físicamente la cantidad de agua que pasa por el grifo, y qué se espera que suceda con el consumo.\",\"explanation\":\"La respuesta correcta requiere reconocer que ajustar el flujo o controlar la salida reduce físicamente la cantidad de agua, mientras que dejar el agua abierta más tiempo aumenta físicamente el consumo. La hipótesis debe expresar esta relación física concreta entre el cambio aplicado y el volumen de agua usado.\",\"learning_focus\":\"Transferencia: usar hipótesis y observaciones previas para tomar decisiones de conservación física de recursos en el colegio.\",\"left_items\":[\"Ajustar el flujo para que salga menos agua\",\"Poner una perilla que controla la salida\",\"Dejar el agua abierta más tiempo\"],\"right_items\":[\"Controlar físicamente el volumen de agua para reducir el consumo\",\"Modificar el grifo para un consumo menor mediante regulación\",\"Incrementar físicamente el uso de agua al dejarla fluir más tiempo\"],\"correct_pairs\":[[0,0],[1,1],[2,2]],\"pair_explanations\":[\"Reducir el flujo disminuye físicamente la cantidad de agua que fluye, por eso el consumo baja.\",\"Controlar la salida con una perilla es una modificación física que limita el agua usada.\",\"Dejar el agua abierta más tiempo aumenta físicamente el volumen de agua consumida.\"]}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"La tabla muestra tres grifos con cambios físicos aplicados y su efecto en litros usados. Grifo 1: ajustar flujo reduce litros de 80 a 60, hipótesis correcta es que controlar físicamente el volumen reduce consumo. Grifo 2: poner perilla controla salida, litros bajan de 50 a 45, hipótesis correcta es modificar el grifo para regulación menor. Grifo 3: dejar agua abierta más tiempo aumenta litros de 70 a 90, hipótesis correcta es que incrementar tiempo incrementa físicamente el uso. Las parejas indicadas (0-0, 1-1, 2-2) corresponden correctamente a cada cambio y efecto físico. Las explicaciones justifican bien cada relación física entre cambio y consumo. No hay ambigüedad ni falta de datos. La actividad es autocontenida y coherente con el objetivo de transferencia para formular y contrastar hipótesis sobre cambios físicos.\",\"approved\":true,\"issue\":\"\"}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"En un laboratorio escolar, Laura quiere estudiar cómo afecta el calor a diferentes tipos de metales para entender si se producen cambios físicos cuando se calientan. Planea calentar tres barras metálicas iguales durante 10 minutos y medir si cambian de forma o tamaño.\\n\\n¿Qué estrategia de planificación debe seguir Laura para que su experimento sea confiable y pueda contrastar la hipótesis \\\"El calor produce un cambio físico en el tamaño de los metales\\\"?\",\"type\":\"option\",\"rubric\":\"Evalúa si el estudiante elige una estrategia que controle variables, usa mediciones claras y considera la comparación adecuada para contrastar la hipótesis.\",\"hint\":\"Piensa en cómo debe organizar los pasos para asegurarse de que cualquier cambio observado sea por el calor y no por otras causas.\",\"explanation\":\"Planificar el experimento controlando la temperatura, el tiempo y usando una medición antes y después permite contrastar si el calor causa un cambio físico en el tamaño del metal.\",\"learning_focus\":\"Planificación para contrastar hipótesis sobre cambios físicos mediante observación y medidas\",\"options\":[\"Medir el tamaño de las barras antes y después de calentarlas, usar la misma temperatura y tiempo para todas, y no calentar ninguna barra para comparar.\",\"Solo calentar una barra metálica y medir su tamaño después para ver si cambió.\",\"Calentar las barras sin medirlas antes y después, y observar solo su color.\",\"Calentar las barras durante diferentes tiempos sin medir ni registrar las temperaturas.\"],\"option_explanations\":[\"Esta estrategia permite tener datos comparables y controlar variables, apoyando la prueba de una hipótesis clara.\",\"Calentar solo una barra no permite comparar y verificar si el cambio es general o específico.\",\"Observar solo el color no permite confirmar si hay un cambio físico en el tamaño, que es lo hipotetizado.\",\"No medir ni controlar tiempo ni temperatura impide sacar conclusiones confiables sobre cambios físicos.\"] ,\"correct_index\":0}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"La hipótesis es que el calor produce un cambio físico en el tamaño de los metales. Para contrastarla, Laura debe medir el tamaño antes y después del calentamiento, controlar la temperatura y el tiempo, y usar una barra sin calentar como control. La opción 0 propone medir antes y después, usar misma temperatura y tiempo, y no calentar una barra para comparar, lo que permite controlar variables y obtener datos confiables. Las otras opciones no controlan variables ni permiten comparación adecuada, por lo que no son estrategias confiables para contrastar la hipótesis.\",\"approved\":true,\"issue\":\"\"}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"En un laboratorio escolar, se colocaron tres recipientes con agua de diferentes colores para observar cómo cambia el agua al dejarla al sol durante 5 horas. Al inicio y al final del tiempo, se registraron estas observaciones:\\n\\n| Recipiente | Color del agua al inicio | Color del agua después de 5 horas al sol | Cantidad de líquido al inicio (ml) | Cantidad de líquido después de 5 horas (ml) |\\n|------------|--------------------------|------------------------------------------|-----------------------------------|---------------------------------------------|\\n| 1          | Azul                     | Azul                                    | 500                               | 450                                         |\\n| 2          | Rojo                     | Rojo clara                               | 500                               | 480                                         |\\n| 3          | Verde                    | Verde                                   | 500                               | 400                                         |\\n\\nBasado en estas observaciones, explica qué evidencia concreta apoya la hipótesis de que la exposición al sol causa un cambio físico en los líquidos, y por qué esta hipótesis es razonable considerando los datos.\",\"type\":\"text\",\"rubric\":\"La respuesta debe identificar que la reducción del volumen de líquido en los recipientes indica evaporación, un cambio físico, porque el color permanece igual o ligeramente alterado pero no cambia la sustancia. Debe explicar que el cambio en volumen sin alteración química sustancial es evidencia de cambio físico.\",\"hint\":\"Observa qué cambia y qué permanece igual en los líquidos después de la exposición al sol. ¿Qué proceso físico puede explicar la disminución de la cantidad de agua?\",\"explanation\":\"La actividad requiere que el estudiante vincule la observación de disminución del volumen de agua con la hipótesis de un cambio físico por evaporación. Mantener el color o cambios leves señala que no hay transformación química, lo que apoya la hipótesis. Esta interpretación conecta evidencia (datos de volúmenes y colores) con la hipótesis sobre cambios físicos.\",\"learning_focus\":\"Interpretar y explicar cómo una evidencia observada confirma una hipótesis sobre cambios físicos en líquidos al exponerlos al sol.\",\"expected_text\":\"La evidencia concreta que apoya la hipótesis es la disminución del volumen de agua en los recipientes después de 5 horas al sol, lo que indica que parte del líquido se evaporó, un cambio físico porque el agua sigue siendo agua y el color no cambia mucho. Esto confirma que la exposición al sol provoca cambios físicos, como la evaporación, y no cambios químicos.\"}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"Los datos muestran que el volumen de agua disminuye en los tres recipientes tras 5 horas al sol (de 500 ml a 450, 480 y 400 ml respectivamente), mientras que el color permanece igual o con cambios leves. Esto indica evaporación, un cambio físico, ya que no hay transformación química (el agua sigue siendo agua). La hipótesis de que la exposición al sol causa un cambio físico en los líquidos se apoya en la reducción del volumen sin cambio sustancial en la sustancia. La respuesta esperada debe explicar esta relación entre observación y cambio físico.\",\"approved\":true,\"issue\":\"\"}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"En un laboratorio escolar, Ana y Juan hicieron un experimento para observar cómo cambia el hielo cuando se expone al calor durante 30 minutos. Usaron tres cubos de hielo con formas diferentes y midieron su tamaño antes y después de exponerlos a una lámpara. Los datos se registraron así:\\n\\n| Cubo de hielo | Tamaño inicial (cm³) | Tamaño después de 30 min al calor (cm³) |\\n|---------------|---------------------|-----------------------------------------|\\n| 1 (cuadrado)  | 100                 | 40                                      |\\n| 2 (esfera)    | 100                 | 50                                      |\\n| 3 (cilindro)  | 100                 | 30                                      |\\n\\nAna dice: \\\"El calor siempre cambia el tamaño del hielo porque hace que se derrita y disminuya\\\".\\nJuan dice: \\\"Aunque el tamaño cambia, no siempre es un cambio físico, puede ser un cambio químico\\\".\\n\\nBasándote en las observaciones y datos, ¿cuáles afirmaciones apoyan correctamente hipótesis sobre cambios físicos? Selecciona todas las que sean correctas.\",\"type\":\"multiple_select\",\"rubric\":\"Se considera correcta toda selección que incluya afirmaciones que expliquen que el cambio de tamaño del hielo es un cambio físico (fusión al derretirse), y que los cambios de tamaño son evidencias observables para contrastar la hipótesis. Se debe rechazar afirmaciones que confundan cambio físico con cambio químico sin evidencia en el contexto dado.\",\"hint\":\"Piensa qué cambios se observan directamente y si esos cambios alteran la composición del hielo o solo su estado y tamaño.\",\"explanation\":\"El experimento muestra que el hielo pierde volumen al exponerse al calor, lo que indica un cambio físico de fusión (paso de sólido a líquido). Esto apoya la hipótesis de que el calor causa cambios físicos en el tamaño del hielo. La afirmación que confunde cambio físico con químico no se sostiene con los datos, pues no hay evidencia de cambio en la composición del agua.\",\"learning_focus\":\"Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación.\",\"options\":[\"El tamaño del hielo disminuye porque se derrite, lo que es un cambio físico.\",\"El calor provoca variación en el tamaño sin cambiar la composición, entonces es un cambio físico.\",\"El cambio en tamaño indica un cambio químico porque el agua cambia de estado.\",\"El hielo cambia de tamaño, apoyando la hipótesis de que el calor produce cambios físicos.\"],\"option_explanations\":[\"Correcto. La fusión es un cambio físico porque implica cambio de estado sin cambiar la composición química.\",\"Correcto. La variación en el tamaño y estado sin modificar la sustancia en sí apoya un cambio físico.\",\"Incorrecto. Cambiar de sólido a líquido es un cambio físico, no químico, pues la composición del agua no cambia.\",\"Correcto. La observación directa del cambio de tamaño es evidencia para apoyar la hipótesis sobre cambios físicos.\"],\"correct_indices\":[0,1,3]}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"El experimento muestra que el hielo disminuye su tamaño al calentarse (de 100 cm³ a 40, 50 y 30 cm³), lo que indica fusión, un cambio físico. Las afirmaciones correctas son: que el tamaño disminuye por fusión (cambio físico), que el calor cambia tamaño sin alterar composición (cambio físico), y que el cambio de tamaño apoya la hipótesis de cambios físicos. La afirmación que dice que el cambio de tamaño indica cambio químico es incorrecta, pues no hay evidencia de cambio en la composición del agua, solo cambio de estado.\",\"approved\":true,\"issue\":\"\"}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"En un laboratorio escolar, se realizó una observación sobre cómo cambia el tamaño y la temperatura de tres metales distintos al ser calentados durante 15 minutos. Al inicio y al terminar el calentamiento, se registraron estos datos:\\n\\n| Metal       | Tamaño inicial (cm) | Tamaño después del calor (cm) | Temperatura inicial (°C) | Temperatura después del calor (°C) |\\n|-------------|---------------------|-------------------------------|-------------------------|-----------------------------------|\\n| Hierro      | 25.0                | 25.2                          | 22                      | 60                                |\\n| Cobre       | 30.0                | 30.3                          | 22                      | 65                                |\\n| Aluminio    | 20.0                | 20.2                          | 22                      | 62                                |\\n\\nAsocia cada cambio observado con la descripción correcta que explica los cambios físicos que sufrieron los metales al calentarse.\",\"type\":\"matching\",\"rubric\":\"Se evalúa que cada metal se relacione correctamente con la explicación que describe el cambio físico observable producido por el calor, valorando la comprensión del concepto de cambio físico por expansión térmica y su representación correcta. Se acepta equivalentes en la formulación, siempre que expliquen el aumento de tamaño y temperatura sin confundir con cambios químicos.\",\"hint\":\"Observa cómo varían el tamaño y la temperatura de cada metal. Piensa qué efecto tiene el calor en un objeto sólido y cómo se manifiesta ese cambio. ¿Qué propiedad del metal cambia sin alterar su composición?\",\"explanation\":\"El calor provoca una expansión térmica en los metales, aumentando su tamaño sin cambiar su composición química. Por eso, se observa un aumento de tamaño y temperatura en cada metal. La representación correcta muestra el metal emparejado con la explicación de expansión térmica debido a la temperatura mayor tras calentar.\",\"learning_focus\":\"Representar el cambio físico de expansión térmica en metales al calentarse, usando datos de tamaño y temperatura.\",\"left_items\":[\"Hierro\",\"Cobre\",\"Aluminio\"],\"right_items\":[\"El metal se expandió al aumentar su temperatura, aumentando ligeramente su tamaño.\",\"El metal aumentó su temperatura y su tamaño creció por efecto del calor aplicado.\",\"Al calentarse, el metal se agrandó porque la temperatura subió y provocó expansión física.\"],\"correct_pairs\":[[0,0],[1,1],[2,2]],\"pair_explanations\":[\"El hierro muestra un aumento en tamaño (de 25.0 a 25.2 cm) y temperatura (de 22 a 60 °C), lo que explica la expansión física por calor.\",\"El cobre tiene un incremento de tamaño (30.0 a 30.3 cm) y temperatura (22 a 65 °C), demostrando una expansión térmica observable.\",\"El aluminio crece de tamaño (20.0 a 20.2 cm) y su temperatura sube (22 a 62 °C), indicando un cambio físico por calentamiento.\"]}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"Los datos muestran que cada metal aumentó su tamaño y temperatura tras calentarse: hierro de 25.0 a 25.2 cm y 22 a 60 °C, cobre de 30.0 a 30.3 cm y 22 a 65 °C, aluminio de 20.0 a 20.2 cm y 22 a 62 °C. Las tres explicaciones asignadas describen correctamente la expansión térmica como cambio físico que causa aumento de tamaño sin alterar la composición. No hay ambigüedad ni contradicción en las parejas. La clave [0,0],[1,1],[2,2] es correcta y las justificaciones corresponden a cada metal y su cambio físico observable.\",\"approved\":true,\"issue\":\"\"}"
+    }
+  ]
+}

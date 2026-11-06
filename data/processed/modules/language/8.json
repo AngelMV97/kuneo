@@ -1,0 +1,1463 @@
+[
+  {
+    "module_id": "8387abfe-a474-4f45-b191-66e126bd7e2e",
+    "source_unit_id": "27a4098a-d337-4c0c-b644-fe1eade65c5d",
+    "source": "dba",
+    "subject": "language",
+    "grade_range": "8",
+    "difficulty": 4,
+    "title": "¿Cómo interpretar mejor una idea?",
+    "learning_objective": "Caracteriza los discursos presentes en los medios de comunicación y otras fuentes de información, atendiendo al contenido, la intención comunicativa del autor y al contexto en que se producen.",
+    "context": "Durante la caracterización de la información emitida en los medios de comunicación, por ejemplo, las noticias: ['Compara la información presentada por diferentes noticias.', 'Analiza el lenguaje empleado en cada medio.', 'Comprende el manejo que cada medio hace de dicha información.', 'Considera las implicaciones sociales que conlleva cada mensaje presentado.']",
+    "core_concept": "lectura_inferencial",
+    "concepts": [
+      "reading",
+      "sociedad",
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [
+      "identificar",
+      "comprender",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué crees que significa realmente la idea central de un texto?",
+      "expected_signals": [
+        "reading",
+        "sociedad",
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "903b0f2d-0b1a-4262-81ae-ec59bd86dd7c",
+        "evidence_source": "Identifica la función social de los medios de comunicación y otras fuentes de información de la cultura, como una forma de construcción de identidad.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con lectura_inferencial y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de lectura_inferencial.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 1
+      },
+      {
+        "id": "7f68a780-199b-4f4e-a3f6-fe3aaeb6ca7b",
+        "evidence_source": "Infiere el significado de palabras de acuerdo con el contexto en que se encuentren y los propósitos en que se enmarquen.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Infiere el significado de palabras de acuerdo con el contexto en que se encuentren y los propósitos en que se enmarquen.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de lectura_inferencial.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 2
+      },
+      {
+        "id": "1f999a34-ddb4-4b4a-9a7d-6a86cd252451",
+        "evidence_source": "Selecciona estrategias para organizar la información que circula en los medios masivos de comunicación.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Selecciona estrategias para organizar la información que circula en los medios masivos de comunicación.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de lectura_inferencial.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 3
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "creer que la interpretación de un texto es única",
+        "pattern": "creer que la interpretación de un texto es única",
+        "feedback": "Revisemos esta idea: creer que la interpretación de un texto es única",
+        "visual": "idea_evidence_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre lectura_inferencial?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender lectura_inferencial?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "idea_evidence_map",
+        "trigger": "creer que la interpretación de un texto es única",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 1
+      }
+    }
+  },
+  {
+    "module_id": "f9152844-ab27-4d89-b665-183e8e21a80b",
+    "source_unit_id": "ec8c2709-de29-4c5e-8799-242c52b5ddd3",
+    "source": "dba",
+    "subject": "language",
+    "grade_range": "8",
+    "difficulty": 4,
+    "title": "¿Cómo interpretar mejor una idea?",
+    "learning_objective": "Relaciona las manifestaciones artísticas con las comunidades y culturas en las que se producen.",
+    "context": "['Con el objeto de relacionar algunas manifestaciones artísticas con las comunidades que las producen:', 'Elige una canción popular de su región y analiza sus contenidos y estructura.', 'Busca canciones de otras regiones y analiza sus contenidos y estructura.', 'Relaciona las dos expresiones artísticas para encontrar semejanzas y diferencias.']",
+    "core_concept": "comprension_lectora",
+    "concepts": [
+      "sociedad",
+      "territorio"
+    ],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [
+      "comprender",
+      "comprender",
+      "comprender",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué crees que significa realmente la idea central de un texto?",
+      "expected_signals": [
+        "sociedad",
+        "territorio"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "8abb69f1-304e-4f18-8acb-db77a4017a92",
+        "evidence_source": "Valora expresiones artísticas propias de los distintos pueblos y comunidades.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Valora expresiones artísticas propias de los distintos pueblos y comunidades.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de comprension_lectora.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 1
+      },
+      {
+        "id": "045f90d7-d1a1-42f2-82bb-1987a033b94d",
+        "evidence_source": "Determina el contenido expresado en diferentes manifestaciones artísticas.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Determina el contenido expresado en diferentes manifestaciones artísticas.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de comprension_lectora.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 2
+      },
+      {
+        "id": "1b5c4dda-1f4c-4d74-b0e7-d2dfcc9cf46d",
+        "evidence_source": "Resignifica las expresiones artísticas de origen popular para explorar usos no convencionales del léxico.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Resignifica las expresiones artísticas de origen popular para explorar usos no convencionales del léxico.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de comprension_lectora.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 3
+      },
+      {
+        "id": "578edff8-690e-4633-9e18-263be82ed005",
+        "evidence_source": "Reconoce las características de las distintas manifestaciones artísticas de una comunidad o grupo poblacional y las incorpora en sus elaboraciones.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Reconoce las características de las distintas manifestaciones artísticas de una comunidad o grupo poblacional y las incorpora en sus elaboraciones.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de comprension_lectora.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre comprension_lectora?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender comprension_lectora?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 2
+      }
+    }
+  },
+  {
+    "module_id": "6c48d3f3-56b1-4a3d-907a-794fde52f117",
+    "source_unit_id": "f9fcb7f8-1b73-47e4-95f0-a5eb4b1d8d89",
+    "source": "dba",
+    "subject": "language",
+    "grade_range": "8",
+    "difficulty": 4,
+    "title": "¿Cómo interpretar mejor una idea?",
+    "learning_objective": "Reconoce en las producciones literarias como cuentos, relatos cortos, fábulas y novelas, aspectos referidos a la estructura formal del género y a la identidad cultural que recrea.",
+    "context": "Durante la lectura de obras literarias: Lee textos literarios que contienen sucesos que han ocurrido en una región (por ejemplo, la novela Leopardo al Sol de Laura Restrepo). ['Consulta sobre los temas y sucesos abordados en la obra (por ejemplo el tema del narcotráfico y el conflicto en Colombia), y los comenta con sus compañeros.']",
+    "core_concept": "lectura_inferencial",
+    "concepts": [
+      "historia",
+      "territorio",
+      "potenciacion",
+      "lectura_inferencial",
+      "reading",
+      "sociedad"
+    ],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [
+      "identificar",
+      "construir",
+      "comprender",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué crees que significa realmente la idea central de un texto?",
+      "expected_signals": [
+        "historia",
+        "territorio",
+        "potenciacion",
+        "lectura_inferencial",
+        "reading",
+        "sociedad"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "56680b61-c68b-423c-840a-35714e0b2a7b",
+        "evidence_source": "Identifica las estrategias narrativas del autor para relatar su perspectiva sobre lo que ha ocurrido en una región.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con lectura_inferencial y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de lectura_inferencial.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 1
+      },
+      {
+        "id": "b664f751-0e62-4dba-8170-1ca0615aea26",
+        "evidence_source": "Construye el sentido de los textos literarios con base en las interacciones que sostiene con las comunidades de lectores y escritores a las que pertenece.",
+        "type": "simulation_or_construction",
+        "prompt": "Trabajemos esta evidencia: Construye el sentido de los textos literarios con base en las interacciones que sostiene con las comunidades de lectores y escritores a las que pertenece.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de lectura_inferencial.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 2
+      },
+      {
+        "id": "2f1e60b5-e893-4e76-bc7d-8aa068cb700e",
+        "evidence_source": "Determina la identidad cultural presente en textos literarios y la relaciona con épocas y autores.",
+        "type": "matching",
+        "prompt": "Trabajemos esta evidencia: Determina la identidad cultural presente en textos literarios y la relaciona con épocas y autores.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de lectura_inferencial.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 3
+      },
+      {
+        "id": "b861a2d6-19dc-434e-a9bf-249e321056a2",
+        "evidence_source": "Distingue las estructuras formales de textos literarios como la presencia de diferentes narradores que se encargan de nutrir la historia con diferentes puntos de vista sobre un suceso.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Distingue las estructuras formales de textos literarios como la presencia de diferentes narradores que se encargan de nutrir la historia con diferentes puntos de vista sobre un suceso.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de lectura_inferencial.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "creer que la interpretación de un texto es única",
+        "pattern": "creer que la interpretación de un texto es única",
+        "feedback": "Revisemos esta idea: creer que la interpretación de un texto es única",
+        "visual": "idea_evidence_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre lectura_inferencial?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender lectura_inferencial?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "idea_evidence_map",
+        "trigger": "creer que la interpretación de un texto es única",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 3
+      }
+    }
+  },
+  {
+    "module_id": "8aa2cef3-70a1-4c09-ac66-6d70669f0497",
+    "source_unit_id": "4ca5201e-71a1-4380-8a1f-eed28ea03d57",
+    "source": "dba",
+    "subject": "language",
+    "grade_range": "8",
+    "difficulty": 4,
+    "title": "¿Cómo interpretar mejor una idea?",
+    "learning_objective": "Comprende que el género lírico es una construcción mediada por la musicalidad, la rima y el uso de figuras retóricas, que permiten recrear una idea, un sentimiento o una situación.",
+    "context": "En la lectura de textos líricos reconoce las diferencias entre la escritura de un poema y otros textos.",
+    "core_concept": "lectura_inferencial",
+    "concepts": [
+      "reading",
+      "escritura",
+      "estadistica",
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [
+      "comprender",
+      "comprender",
+      "identificar",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué crees que significa realmente la idea central de un texto?",
+      "expected_signals": [
+        "reading",
+        "escritura",
+        "estadistica",
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "31105514-94b2-416a-a875-5afd920e71a9",
+        "evidence_source": "Relaciona los textos que lee con producciones artísticas en las que se presentan rimas, acompañamientos musicales o imágenes.",
+        "type": "matching",
+        "prompt": "Trabajemos esta evidencia: Relaciona los textos que lee con producciones artísticas en las que se presentan rimas, acompañamientos musicales o imágenes.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de lectura_inferencial.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 1
+      },
+      {
+        "id": "129f47ef-e7c5-400e-b254-b79b37b48fc8",
+        "evidence_source": "Reconoce el sentido de las imágenes poéticas en las obras literarias que lee.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Reconoce el sentido de las imágenes poéticas en las obras literarias que lee.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de lectura_inferencial.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 2
+      },
+      {
+        "id": "60fc2cc2-2598-4031-98d3-3ea63a588151",
+        "evidence_source": "Identifica elementos formales asociados a las figuras retóricas y al tipo de rima utilizada.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con lectura_inferencial y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de lectura_inferencial.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 3
+      },
+      {
+        "id": "d23c4584-59b9-4c06-b061-4a430d871152",
+        "evidence_source": "Comprende la diferencia que se presenta entre la segmentación silábica gramatical y la segmentación silábica métrica, en los textos poéticos que lee o escribe.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Comprende la diferencia que se presenta entre la segmentación silábica gramatical y la segmentación silábica métrica, en los textos poéticos que lee o escribe.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de lectura_inferencial.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "confundir promedio con valor representativo en todos los casos",
+        "pattern": "confundir promedio con valor representativo en todos los casos",
+        "feedback": "Revisemos esta idea: confundir promedio con valor representativo en todos los casos",
+        "visual": "idea_evidence_map",
+        "intervention_level": 2
+      },
+      "misconception_2": {
+        "description": "creer que la interpretación de un texto es única",
+        "pattern": "creer que la interpretación de un texto es única",
+        "feedback": "Revisemos esta idea: creer que la interpretación de un texto es única",
+        "visual": "idea_evidence_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre lectura_inferencial?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender lectura_inferencial?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "idea_evidence_map",
+        "trigger": "confundir promedio con valor representativo en todos los casos",
+        "intervention_level": 2
+      },
+      {
+        "error_key": "misconception_2",
+        "visual_template": "idea_evidence_map",
+        "trigger": "creer que la interpretación de un texto es única",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 4
+      }
+    }
+  },
+  {
+    "module_id": "568bd96b-8a92-4e2c-93d6-8774d56492a6",
+    "source_unit_id": "4c312c32-a643-4f9c-ae21-0ad7b4622e90",
+    "source": "dba",
+    "subject": "language",
+    "grade_range": "8",
+    "difficulty": 4,
+    "title": "¿Cómo interpretar mejor una idea?",
+    "learning_objective": "Escucha con atención a sus compañeros en diálogos informales y predice los contenidos de la comunicación.",
+    "context": "Durante una conversación informal con sus compañeros: Escucha lo que dicen sus compañeros y se adecúa al nivel de formalidad de la conversación.",
+    "core_concept": "lectura_inferencial",
+    "concepts": [
+      "lectura_inferencial",
+      "territorio"
+    ],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [
+      "comprender",
+      "comprender",
+      "identificar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué crees que significa realmente la idea central de un texto?",
+      "expected_signals": [
+        "lectura_inferencial",
+        "territorio"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "155fd2dc-0098-49e7-a595-329231c1dfd3",
+        "evidence_source": "Participa en espacios discursivos que se dan en la cotidianidad de la escuela con el propósito de conocer las posturas de sus compañeros frente a diversos temas.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Participa en espacios discursivos que se dan en la cotidianidad de la escuela con el propósito de conocer las posturas de sus compañeros frente a diversos temas.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de lectura_inferencial.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 1
+      },
+      {
+        "id": "e0cbc64a-7cda-473c-8435-9ca085914da4",
+        "evidence_source": "Comprende los contenidos de un diálogo y predice las posibles ideas que pueden darse en él.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Comprende los contenidos de un diálogo y predice las posibles ideas que pueden darse en él.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de lectura_inferencial.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 2
+      },
+      {
+        "id": "a9c59f2d-d5cb-42a5-9abc-903862361340",
+        "evidence_source": "Identifica el nivel de formalidad o informalidad que se da en un diálogo con sus compañeros.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con lectura_inferencial y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de lectura_inferencial.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 3
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "idea_evidence_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre lectura_inferencial?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender lectura_inferencial?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "idea_evidence_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 5
+      }
+    }
+  },
+  {
+    "module_id": "1690f602-e638-4fc6-926b-f27c34902f35",
+    "source_unit_id": "6aef296c-b92b-45df-9884-2c8f5e9fe439",
+    "source": "dba",
+    "subject": "language",
+    "grade_range": "8",
+    "difficulty": 4,
+    "title": "¿Cómo interpretar mejor una idea?",
+    "learning_objective": "Infiere múltiples sentidos en los textos que lee y los relaciona con los conceptos macro del texto y con sus contextos de producción y circulación.",
+    "context": "['Analiza las características propias de un texto como el narrativo: voz que narra, punto de vista de dicha voz, tipos de personajes, lugar, tiempo, orden la historia, recursos como la descripción o el diálogo, entre otras.'] El perturbado inquilino No creo en fantasmas, pero últimamente unas voces miedosas han abrumado las habitaciones y muchas pisadas han medido la largura polvorienta de los corredores. He percibido charlas en que una voz le cuenta a otra sus pánicas aventuras de caza, o el cabal rendimiento de sus acciones en la capital Edimburgo, o sus prohibidos amores. Estoy muy intranquilo porque es la primera vez que semejantes seres impredecibles perturban la paz de este castillo en el que he sido feliz siglos y siglos, ambulando sus aposentos y patios, atravesando sin abrir las puertas, viendo el alba por entre sus ruinosas paredes, o inventando huracanados silbidos que hacen bambolear las ventanas como si las animara la vida. David Ramírez Tomado de: Bustamante, G. y Kremer, H. (2006). Antología del cuento corto colombiano. Bogotá: Universidad Pedagógica Nacional.",
+    "core_concept": "lectura_inferencial",
+    "concepts": [
+      "reading",
+      "lectura_inferencial",
+      "historia"
+    ],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [
+      "identificar",
+      "comprender",
+      "identificar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué crees que significa realmente la idea central de un texto?",
+      "expected_signals": [
+        "reading",
+        "lectura_inferencial",
+        "historia"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "b30a5ec5-9eea-4dc1-b1f4-0eed87b34044",
+        "evidence_source": "Identifica y caracteriza las voces que hablan en el texto.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con lectura_inferencial y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de lectura_inferencial.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 1
+      },
+      {
+        "id": "311baa1f-4a83-4085-9cbe-5520742aa10a",
+        "evidence_source": "Elabora hipótesis sobre el sentido global de un texto a partir de la relación de información explícita e implícita.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Elabora hipótesis sobre el sentido global de un texto a partir de la relación de información explícita e implícita.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de lectura_inferencial.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 2
+      },
+      {
+        "id": "c30fa9d4-daa6-444c-9d3b-7d62ec7c13fa",
+        "evidence_source": "Identifica las características retóricas de las tipologías textuales con las que trabaja y señala en sus notas de clase los conceptos más relevantes.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con lectura_inferencial y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de lectura_inferencial.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 3
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "creer que la interpretación de un texto es única",
+        "pattern": "creer que la interpretación de un texto es única",
+        "feedback": "Revisemos esta idea: creer que la interpretación de un texto es única",
+        "visual": "idea_evidence_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre lectura_inferencial?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender lectura_inferencial?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "idea_evidence_map",
+        "trigger": "creer que la interpretación de un texto es única",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 6
+      }
+    }
+  },
+  {
+    "module_id": "6828dcf1-e4d0-41be-82b1-e0f266fd3978",
+    "source_unit_id": "8ae16a57-e724-44eb-a64d-ea442b935356",
+    "source": "dba",
+    "subject": "language",
+    "grade_range": "8",
+    "difficulty": 4,
+    "title": "¿Cómo interpretar mejor una idea?",
+    "learning_objective": "Reconstruye en sus intervenciones el sentido de los textos desde la relación existente entre la temática, los interlocutores y el contexto histórico-cultural.",
+    "context": "Durante intercambios orales como la plenaria: ['Plantea sus argumentos a partir de una planeación previa.', 'Conduce el tema de acuerdo con la manera como se desarrolla el discurso.', 'Usa verbos de pensamiento en sus intervenciones (opinar, definir, argumentar, etc.).', 'Apoya o refuta las ideas de sus interlocutores respetando sus posiciones.']",
+    "core_concept": "argumentacion",
+    "concepts": [
+      "argumentacion",
+      "potenciacion",
+      "lectura_inferencial",
+      "reading",
+      "sociedad"
+    ],
+    "cognitive_type": "argumentative_reasoning",
+    "skills": [
+      "comprender",
+      "comprender",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué crees que significa realmente la idea central de un texto?",
+      "expected_signals": [
+        "argumentacion",
+        "potenciacion",
+        "lectura_inferencial",
+        "reading",
+        "sociedad"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "713efc3a-5bb7-452f-88f9-804f4b99cf2f",
+        "evidence_source": "Expone sus puntos de vista para apoyar o contradecir las opiniones de sus interlocutores.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Expone sus puntos de vista para apoyar o contradecir las opiniones de sus interlocutores.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de argumentacion.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 1
+      },
+      {
+        "id": "bd6f013b-2513-4ad3-80e9-3a1673c65269",
+        "evidence_source": "Precisa el significado de los principales conceptos tratados en los textos orales que produce.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Precisa el significado de los principales conceptos tratados en los textos orales que produce.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de argumentacion.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 2
+      },
+      {
+        "id": "3a8ec29f-5e93-4cb3-b2d6-97a8909980e0",
+        "evidence_source": "Prepara una estructura retórica que contempla el contexto formal, el papel del orador y la posición del auditorio, como base para los intercambios orales en debates, plenarias y sustentaciones.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Prepara una estructura retórica que contempla el contexto formal, el papel del orador y la posición del auditorio, como base para los intercambios orales en debates, plenarias y sustentaciones.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de argumentacion.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 3
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "creer que la interpretación de un texto es única",
+        "pattern": "creer que la interpretación de un texto es única",
+        "feedback": "Revisemos esta idea: creer que la interpretación de un texto es única",
+        "visual": "idea_evidence_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre argumentacion?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender argumentacion?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "idea_evidence_map",
+        "trigger": "creer que la interpretación de un texto es única",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 7
+      }
+    }
+  },
+  {
+    "module_id": "72eacb35-4761-42d3-90b0-ebe409b260bd",
+    "source_unit_id": "16477ed5-ab20-4ecb-87ff-8307090d3374",
+    "source": "dba",
+    "subject": "language",
+    "grade_range": "8",
+    "difficulty": 4,
+    "title": "¿Cómo interpretar mejor una idea?",
+    "learning_objective": "Compone diferentes tipos de texto atendiendo a las características de sus ámbitos de uso: privado/público o cotidiano/científico.",
+    "context": "['En la composición de un texto escrito específico, por ejemplo un artículo de opinión, tiene en cuenta la estructura de este tipo de texto: un buen uso de conectores, un manejo adecuado de la ortografía y acontecimientos relacionados que puedan ampliar sus argumentos y que le ayuden a presentar de una manera más convincente sus ideas.'] estructura general y estilo de un texto escrito.",
+    "core_concept": "gramatica",
+    "concepts": [
+      "gramatica",
+      "argumentacion",
+      "escritura",
+      "lectura_inferencial",
+      "reading",
+      "estadistica"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "comprender",
+      "comprender",
+      "comprender",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué crees que significa realmente la idea central de un texto?",
+      "expected_signals": [
+        "gramatica",
+        "argumentacion",
+        "escritura",
+        "lectura_inferencial",
+        "reading",
+        "estadistica"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "fe7e1ed8-5b5d-4182-b1d8-47504562e736",
+        "evidence_source": "Estructura los textos que compone, para lo cual elige entre las diferentes formas que puede asumir la expresión (narración, explicación, descripción, argumentación) y su adecuación al ámbito de uso.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Estructura los textos que compone, para lo cual elige entre las diferentes formas que puede asumir la expresión (narración, explicación, descripción, argumentación) y su adecuación al ámbito de uso.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de gramatica.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento",
+          "argumentacion"
+        ],
+        "difficulty": 4,
+        "order": 1
+      },
+      {
+        "id": "1dbbdd86-08a9-48ff-aa13-51a680585d84",
+        "evidence_source": "Evalúa sus propios textos atendiendo a las características del género, el léxico empleado y el propósito comunicativo.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Evalúa sus propios textos atendiendo a las características del género, el léxico empleado y el propósito comunicativo.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de gramatica.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 2
+      },
+      {
+        "id": "7dd3539f-f234-4aac-af38-f2d9b5967a6d",
+        "evidence_source": "Evalúa el uso adecuado de elementos gramaticales y ortográficos en las producciones propias y en las de otros.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Evalúa el uso adecuado de elementos gramaticales y ortográficos en las producciones propias y en las de otros.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de gramatica.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 3
+      },
+      {
+        "id": "e7ea7f11-f8fa-4a37-aa71-818e4b2bf490",
+        "evidence_source": "Emplea de forma precisa los signos de puntuación.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Emplea de forma precisa los signos de puntuación.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de gramatica.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "creer que la interpretación de un texto es única",
+        "pattern": "creer que la interpretación de un texto es única",
+        "feedback": "Revisemos esta idea: creer que la interpretación de un texto es única",
+        "visual": "idea_evidence_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre gramatica?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender gramatica?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "idea_evidence_map",
+        "trigger": "creer que la interpretación de un texto es única",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 8
+      }
+    }
+  }
+]

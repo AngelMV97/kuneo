@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-04T01:11:07.693Z",
+  "scope": "One synthetic session, local HTTP/in-memory DB, real OpenAI generation; evaluation stubbed. Excludes real Supabase, browser and concurrent load.",
+  "cold_activity_ms": 3009,
+  "answer_stub_ms": 52,
+  "prefetch_wait_after_feedback_ms": 2073,
+  "ready_next_ms": 4,
+  "repeated_pending_ms": 4,
+  "generations": 2,
+  "prefetch_evidence": 1,
+  "stable_pending": true,
+  "first_server_timing": "db_context;dur=0.8, openai_generation;dur=2958.9, activity_build;dur=2962.6, total;dur=2966.8",
+  "next_server_timing": "total;dur=0.3"
+}

@@ -1,0 +1,82 @@
+{
+  "scope": "Bounded dynamic inquiry batch; no Supabase publication, no approval of the historical catalog.",
+  "moduleId": "ff3f722e-1646-43a5-bf73-c0434421ac75",
+  "objective": "Formulo hipótesis con base en el conocimiento cotidiano, teorías y modelos científicos.",
+  "sourceSha256": "4bd08714ed6b0fb7234a46eabb9a090abda813b25490c9e9bb226ad5dd9fff8a",
+  "checks": [
+    {
+      "slot": 1,
+      "caseId": "paper_absorption",
+      "questionSha256": "9c3c1608dee29b03087b1a78c3b520213b5756da8364b83f428ddcd86d485cdc",
+      "format": "option",
+      "answersChecked": 4,
+      "openGradingLiveTested": false
+    },
+    {
+      "slot": 2,
+      "caseId": "rolling_distance",
+      "questionSha256": "97b1eec4f04de0e7597cda869e99f080e83473ad9f6d620fa07c5c3e778a1080",
+      "format": "text",
+      "answersChecked": 0,
+      "openGradingLiveTested": false
+    },
+    {
+      "slot": 3,
+      "caseId": "plant_records",
+      "questionSha256": "ff7ec3a71cfe7293ca2e55431c2c203dc4113672673c7e9cb10c97b7202881a9",
+      "format": "multiple_select",
+      "answersChecked": 15,
+      "openGradingLiveTested": false
+    },
+    {
+      "slot": 4,
+      "caseId": "sound_record",
+      "questionSha256": "29bd3b78f73a5d385ec6dc759d3eac0aefa792d30d24f743cab28a3acc0d8406",
+      "format": "matching",
+      "answersChecked": 6,
+      "openGradingLiveTested": false
+    },
+    {
+      "slot": 5,
+      "caseId": "seed_prediction",
+      "questionSha256": "424a54b7601f17dc1215e4399857470a051ecca4532856313043b42aa2356ba1",
+      "format": "option",
+      "answersChecked": 4,
+      "openGradingLiveTested": false
+    },
+    {
+      "slot": 6,
+      "caseId": "cooling_records",
+      "questionSha256": "01aba8c2f60ecfafd6b3af972f5dbd7dab67d2d5a596ac04b031acfa214a5a9b",
+      "format": "text",
+      "answersChecked": 0,
+      "openGradingLiveTested": false
+    },
+    {
+      "slot": 7,
+      "caseId": "school_garden",
+      "questionSha256": "3487af137917e8dd7eec70b1d84369e8dc8c24231f646b6d67fbcc26d6cd574f",
+      "format": "multiple_select",
+      "answersChecked": 15,
+      "openGradingLiveTested": false
+    },
+    {
+      "slot": 8,
+      "caseId": "record_versions",
+      "questionSha256": "c5fdf0202f2d40271d04a4a5e4f0484f01f2b1d7fd8601336bb28c52303615cc",
+      "format": "matching",
+      "answersChecked": 6,
+      "openGradingLiveTested": false
+    }
+  ],
+  "closedAnswersChecked": 50,
+  "modelCalls": 18,
+  "inputTokens": 64195,
+  "outputTokens": 6133,
+  "remainingLimitations": [
+    "Open rubrics checked by reading; not evaluated with real student answers in this batch.",
+    "Simulated synthetic routing evidence; not a learner progress test.",
+    "Provider generation time is not frontend latency with lookahead.",
+    "Contexts are a bounded authoring scaffold; this is not a persistent bank of approved activities."
+  ]
+}

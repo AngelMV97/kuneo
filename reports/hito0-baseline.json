@@ -1,0 +1,1216 @@
+{
+  "created_at": "2026-11-03T23:01:54.710Z",
+  "kind": "synthetic_read_only_baseline",
+  "writes_to_supabase": false,
+  "limitations": [
+    "Small pilot sample; p95 is descriptive, not a production SLO.",
+    "No real student answers are sent to OpenAI.",
+    "Persistence and browser/network latency are not exercised by this synthetic baseline.",
+    "Generated activities require pedagogical review; passing schema validation is not a teaching-quality certification."
+  ],
+  "generation": [
+    {
+      "case_id": "math-2",
+      "grade": 2,
+      "subject": "mathematics",
+      "target_dimension": "comprension",
+      "activity": {
+        "id": "c6038147-9d55-4b99-8f54-714252ed6310",
+        "step_id": "math-2-objective",
+        "question": "En la tienda de Ana hay 5 paquetes de galletas. Si vende 2 paquetes más, ¿cuántos paquetes de galletas tiene ahora?",
+        "type": "option",
+        "options": [
+          "1 paquete",
+          "2 paquetes",
+          "3 paquetes",
+          "5 paquetes"
+        ],
+        "cognitive_dimension": "comprension",
+        "source": "generated",
+        "notice": null,
+        "visual_template_key": null
+      },
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:01.834Z",
+        "request_id": "ec29d09c-192a-4012-9dbd-aa9d322b4563",
+        "operation": "benchmark_generation",
+        "status": 200,
+        "total_ms": 3997,
+        "stages": {
+          "openai_generation": 3993
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 765,
+            "output_tokens": 208,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "math-9",
+      "grade": 9,
+      "subject": "mathematics",
+      "target_dimension": "representacion",
+      "activity": {
+        "id": "f4f58326-952c-43fe-9729-dbeec2411276",
+        "step_id": "math-9-objective",
+        "question": "Considera la siguiente relación de la tabla: cuando x=1, y=5; cuando x=2, y=7; cuando x=3, y=9. Escribe la regla que describa esta relación y úsalas para encontrar el valor de y cuando x=4.",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "representacion",
+        "source": "generated",
+        "notice": null,
+        "visual_template_key": null
+      },
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:02.344Z",
+        "request_id": "67268211-5e12-46f7-b2ab-20f9b81b066a",
+        "operation": "benchmark_generation",
+        "status": 200,
+        "total_ms": 4504,
+        "stages": {
+          "openai_generation": 4503
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 824,
+            "output_tokens": 235,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "language-3",
+      "grade": 3,
+      "subject": "language",
+      "target_dimension": "comprension",
+      "activity": {
+        "id": "e10ac229-e784-42a8-b23a-f6861ba53a62",
+        "step_id": "language-3-objective",
+        "question": "Lee la siguiente oración: «Carlos vio que el cielo estaba muy nublado y decidió llevar chaqueta». ¿Por qué decidió llevar chaqueta?",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "comprension",
+        "source": "generated",
+        "notice": null,
+        "visual_template_key": null
+      },
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:09.516Z",
+        "request_id": "c776ea63-da12-453a-9741-ff28ef2e1893",
+        "operation": "benchmark_generation",
+        "status": 200,
+        "total_ms": 4106,
+        "stages": {
+          "openai_generation": 4105
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 784,
+            "output_tokens": 214,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "language-8",
+      "grade": 8,
+      "subject": "language",
+      "target_dimension": "razonamiento",
+      "activity": {
+        "id": "1225e188-670f-415e-ac09-267a5150a5f8",
+        "step_id": "language-8-objective",
+        "question": "Analiza el siguiente aviso: «La cafetería debe ofrecer más opciones de comida saludable porque los estudiantes desean alimentarse mejor». ¿Cuál es la propuesta y cuál es la razón de esta propuesta?",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "razonamiento",
+        "source": "generated",
+        "notice": null,
+        "visual_template_key": null
+      },
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:09.713Z",
+        "request_id": "0859094b-11bb-4282-9c6a-c23bd128e7dd",
+        "operation": "benchmark_generation",
+        "status": 200,
+        "total_ms": 4099,
+        "stages": {
+          "openai_generation": 4098
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 794,
+            "output_tokens": 197,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "science-4",
+      "grade": 4,
+      "subject": "natural_sciences",
+      "target_dimension": "transferencia",
+      "activity": {
+        "id": "2f3f476a-71b3-44c0-bf41-2a57ac2a0905",
+        "step_id": "science-4-objective",
+        "question": "Imagina que tienes una linterna que usa pilas. ¿De dónde obtiene la energía para encenderse y en qué tipo de energía se transforma para que podamos ver la luz? Escribe tu respuesta explicando el proceso.",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "transferencia",
+        "source": "generated",
+        "notice": null,
+        "visual_template_key": null
+      },
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:15.715Z",
+        "request_id": "329eb21e-2898-4f90-b4a6-c14e5d390066",
+        "operation": "benchmark_generation",
+        "status": 200,
+        "total_ms": 3135,
+        "stages": {
+          "openai_generation": 3135
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 818,
+            "output_tokens": 229,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "science-7",
+      "grade": 7,
+      "subject": "natural_sciences",
+      "target_dimension": "razonamiento",
+      "activity": {
+        "id": "deb15f9e-da3e-444a-a40b-3f97cbaa7dcd",
+        "step_id": "science-7-objective",
+        "question": "En una cadena alimentaria, si hay menos hierba, ¿qué podría pasarle a los conejos y a los zorros? Explica tu respuesta considerando el alimento disponible y sus relaciones.",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "razonamiento",
+        "source": "generated",
+        "notice": null,
+        "visual_template_key": null
+      },
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:19.113Z",
+        "request_id": "1942953a-73d3-49cd-bcae-410acdb97b52",
+        "operation": "benchmark_generation",
+        "status": 200,
+        "total_ms": 5511,
+        "stages": {
+          "openai_generation": 5510
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 803,
+            "output_tokens": 327,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "social-2",
+      "grade": 2,
+      "subject": "social_studies",
+      "target_dimension": "metacognicion",
+      "activity": {
+        "id": "5741cdb5-0d83-4f6c-b430-d48ef8ea0a2d",
+        "step_id": "social-2-objective",
+        "question": "Piensa en cómo puedes recordar cerrar la llave del agua mientras te lavas las manos. Propón un recordatorio creativo y explica cómo vas a saber si te ha funcionado.",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "metacognicion",
+        "source": "generated",
+        "notice": null,
+        "visual_template_key": null
+      },
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:22.113Z",
+        "request_id": "d05d971d-f0e2-4f0d-b6c9-e2f2749cb22c",
+        "operation": "benchmark_generation",
+        "status": 200,
+        "total_ms": 3284,
+        "stages": {
+          "openai_generation": 3283
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 800,
+            "output_tokens": 208,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "social-10",
+      "grade": 10,
+      "subject": "social_studies",
+      "target_dimension": "transferencia",
+      "activity": {
+        "id": "04e7e99f-1df3-4829-9727-390cb0339ccf",
+        "step_id": "social-10-objective",
+        "question": "En un barrio se realizó una encuesta y 60 vecinos expresaron que necesitan un mejor servicio de transporte, mientras que 40 vecinos dijeron que necesitan un parque. Con base en estos datos, elige una opción para mejorar el barrio y propone una estrategia para escuchar la opinión de los que no fueron priorizados.",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "transferencia",
+        "source": "generated",
+        "notice": null,
+        "visual_template_key": null
+      },
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:26.444Z",
+        "request_id": "f77c27a9-cc79-4b5e-9621-252e3f78bf7b",
+        "operation": "benchmark_generation",
+        "status": 200,
+        "total_ms": 3828,
+        "stages": {
+          "openai_generation": 3827
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 885,
+            "output_tokens": 274,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "english-2",
+      "grade": 2,
+      "subject": "english",
+      "target_dimension": "representacion",
+      "activity": {
+        "id": "2c8c7cbe-38ec-4e78-a9fd-2531c830d4e4",
+        "step_id": "english-2-objective",
+        "question": "Conéctales a los animales correctos. Escribe dos palabras en inglés y su significado en español. Usa «bird» y «fish». ¿Cómo se dirán en español?",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "representacion",
+        "source": "generated",
+        "notice": null,
+        "visual_template_key": null
+      },
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:27.123Z",
+        "request_id": "acd30316-7d87-4709-b63e-dfa72a3edd9a",
+        "operation": "benchmark_generation",
+        "status": 200,
+        "total_ms": 2050,
+        "stages": {
+          "openai_generation": 2049
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 762,
+            "output_tokens": 142,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "english-11",
+      "grade": 11,
+      "subject": "english",
+      "target_dimension": "metacognicion",
+      "activity": {
+        "id": "7eeef5f5-e19e-4a63-b865-dd5b031a69e3",
+        "step_id": "english-11-objective",
+        "question": "Al leer la oración «The ground was slippery after the rain», no conoces la palabra slippery. ¿Cuál sería tu estrategia para inferir su significado en este contexto y cómo comprobarías si tu inferencia es correcta?",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "metacognicion",
+        "source": "generated",
+        "notice": null,
+        "visual_template_key": null
+      },
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:32.651Z",
+        "request_id": "06ea7022-d41c-4da9-bf03-4b39488b3fff",
+        "operation": "benchmark_generation",
+        "status": 200,
+        "total_ms": 2970,
+        "stages": {
+          "openai_generation": 2969
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 832,
+            "output_tokens": 263,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    }
+  ],
+  "evaluation": [
+    {
+      "case_id": "math-2",
+      "expected": "correct",
+      "observed": "correct",
+      "passed": true,
+      "feedback": "¡Muy bien! Has sumado correctamente. Ana tiene 5 lápices en total.",
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:02.621Z",
+        "request_id": "524b8fe1-d667-4f1e-9cd7-db48cadcebc8",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 787,
+        "stages": {
+          "openai_evaluation": 786
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 265,
+            "output_tokens": 26,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "math-9",
+      "expected": "correct",
+      "observed": "correct",
+      "passed": true,
+      "feedback": "Has encontrado correctamente la regla y calculado el valor de y cuando x=4. Bien hecho!",
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:03.228Z",
+        "request_id": "b5cd71b3-c9d9-4852-a089-9b0285cf1b2c",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 884,
+        "stages": {
+          "openai_evaluation": 883
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 314,
+            "output_tokens": 28,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "math-2",
+      "expected": "partial",
+      "observed": "partial",
+      "passed": true,
+      "feedback": "Identificaste que es una suma, pero no llegaste al resultado. Intenta sumar 3 lápices más 2 lápices para encontrar la respuesta.",
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:04.044Z",
+        "request_id": "47041705-ba5c-46db-ab4f-1a43493a78d9",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1423,
+        "stages": {
+          "openai_evaluation": 1423
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 277,
+            "output_tokens": 40,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "math-9",
+      "expected": "partial",
+      "observed": "partial",
+      "passed": true,
+      "feedback": "Has identificado correctamente el patrón de aumento, pero no has proporcionado la regla completa ni el valor de y cuando x=4. Piensa en cómo puedes expresar ese patrón como una ecuación.",
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:04.299Z",
+        "request_id": "cb1027ca-e562-49bf-9bea-8745a3bc5048",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1071,
+        "stages": {
+          "openai_evaluation": 1070
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 310,
+            "output_tokens": 47,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "math-2",
+      "expected": "incorrect",
+      "observed": "incorrect",
+      "passed": true,
+      "feedback": "Ana hizo una resta en lugar de sumar. Recuerda que 3 lápices más 2 lápices son 5 lápices en total.",
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:05.409Z",
+        "request_id": "5bac1ad5-17a9-4f29-a749-12a552025696",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1364,
+        "stages": {
+          "openai_evaluation": 1364
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 274,
+            "output_tokens": 37,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "math-9",
+      "expected": "incorrect",
+      "observed": "incorrect",
+      "passed": true,
+      "feedback": "La regla propuesta no es correcta, ya que no refleja el aumento observados en los valores de y. Considera cómo se relaciona y con x en los valores dados y busca la regla correcta.",
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:05.614Z",
+        "request_id": "3e4f9759-3a2b-414b-a827-968257aae0a6",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1315,
+        "stages": {
+          "openai_evaluation": 1314
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 310,
+            "output_tokens": 48,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "language-3",
+      "expected": "correct",
+      "observed": "correct",
+      "passed": true,
+      "feedback": "Buen trabajo, entendiste que Lina tomó el paraguas porque pensaba que podía llover. ¡Sigue así!",
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:10.544Z",
+        "request_id": "a8eb3f06-8501-46fb-9ebf-8fea4bef5c5d",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1027,
+        "stages": {
+          "openai_evaluation": 1027
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 280,
+            "output_tokens": 32,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "language-8",
+      "expected": "correct",
+      "observed": "partial",
+      "passed": false,
+      "feedback": "Has identificado la propuesta pero no la razón de forma completa. La propuesta es abrir más horas, pero faltó mencionar que la razón es que muchos estudiantes no pueden ir antes de las 4 p. m. Intenta ser más específico.",
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:10.969Z",
+        "request_id": "e303e94d-a4f0-445d-a48b-24d5a068ad87",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1257,
+        "stages": {
+          "openai_evaluation": 1256
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 307,
+            "output_tokens": 56,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "language-3",
+      "expected": "partial",
+      "observed": "partial",
+      "passed": true,
+      "feedback": "Mencionaste las nubes, pero no explicaste por qué eso llevó a Lina a tomar su paraguas. Piensa en cómo las nubes oscuras pueden indicar lluvia.",
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:11.458Z",
+        "request_id": "3f9d4d6c-fa6c-4460-b9e7-a3cb965998b1",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 914,
+        "stages": {
+          "openai_evaluation": 914
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 276,
+            "output_tokens": 44,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "language-8",
+      "expected": "partial",
+      "observed": "partial",
+      "passed": true,
+      "feedback": "Has identificado correctamente la propuesta, pero falta la razón que la respalda. Recuerda mencionar por qué se sugiere ampliar el horario.",
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:12.270Z",
+        "request_id": "63688328-b79b-454b-9f75-ef5619a96c66",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1301,
+        "stages": {
+          "openai_evaluation": 1300
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 299,
+            "output_tokens": 36,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "language-3",
+      "expected": "incorrect",
+      "observed": "incorrect",
+      "passed": true,
+      "feedback": "La respuesta es incorrecta porque contradice la información del texto. Lina toma el paraguas debido a las nubes oscuras, que suelen indicar que puede llover. Te recomiendo revisar cómo las nubes pueden relacionarse con la lluvia.",
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:12.580Z",
+        "request_id": "7349fdfc-427c-4941-ba3b-1b16f2b65846",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1121,
+        "stages": {
+          "openai_evaluation": 1121
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 282,
+            "output_tokens": 56,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "language-8",
+      "expected": "incorrect",
+      "observed": "incorrect",
+      "passed": true,
+      "feedback": "La respuesta no identifica correctamente la propuesta ni la razón del aviso. Recuerda que la propuesta es lo que se sugiere hacer y la razón explica por qué se sugiere.",
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:13.602Z",
+        "request_id": "a70d249a-76f5-4df7-9687-36644cf554f0",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1332,
+        "stages": {
+          "openai_evaluation": 1332
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 299,
+            "output_tokens": 45,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "science-4",
+      "expected": "correct",
+      "observed": "correct",
+      "passed": true,
+      "feedback": "Correcto, has explicado que la energía de las pilas se transforma en luz. Buen trabajo!",
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:16.476Z",
+        "request_id": "eee56b2d-5890-407a-b87e-79307482ebc7",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 760,
+        "stages": {
+          "openai_evaluation": 760
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 304,
+            "output_tokens": 28,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "science-4",
+      "expected": "partial",
+      "observed": "partial",
+      "passed": true,
+      "feedback": "Has mencionado que la linterna usa pilas, lo cual es un buen inicio. Sin embargo, falta explicar que la energía de las pilas se transforma en luz. Intenta incluir cómo la energía de las pilas nos permite ver.",
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:17.801Z",
+        "request_id": "09099368-68e1-4584-b0f3-14e38122cf69",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1325,
+        "stages": {
+          "openai_evaluation": 1324
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 296,
+            "output_tokens": 56,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "science-4",
+      "expected": "incorrect",
+      "observed": "incorrect",
+      "passed": true,
+      "feedback": "La respuesta es incorrecta porque afirma que la luz aparece de la nada, sin mencionar que las pilas aportan energía. Recuerda que las pilas generan energía que se transforma en luz.",
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:18.829Z",
+        "request_id": "8eebab5a-e207-44b8-ba8e-6f36afd50508",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1028,
+        "stages": {
+          "openai_evaluation": 1028
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 301,
+            "output_tokens": 47,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "science-7",
+      "expected": "correct",
+      "observed": "correct",
+      "passed": true,
+      "feedback": "Buena respuesta, has relacionado correctamente la disminución de hierba con los conejos y zorros. Esto muestra comprensión del flujo de alimento en la cadena alimentaria.",
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:20.155Z",
+        "request_id": "28e585b0-dcaa-4c7b-a0a5-4b1821c8ecf3",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1042,
+        "stages": {
+          "openai_evaluation": 1041
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 318,
+            "output_tokens": 43,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "science-7",
+      "expected": "partial",
+      "observed": "partial",
+      "passed": true,
+      "feedback": "Has identificado la disminución de alimento para los conejos, pero no mencionaste cómo esto afectaría a los zorros. Intenta explicar el efecto en ambos niveles de la cadena alimentaria.",
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:21.282Z",
+        "request_id": "cd4bf690-30e4-43ea-b7b9-2acd20ca4399",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1127,
+        "stages": {
+          "openai_evaluation": 1126
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 302,
+            "output_tokens": 48,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "science-7",
+      "expected": "incorrect",
+      "observed": "incorrect",
+      "passed": true,
+      "feedback": "Parece haber una confusión en la cadena alimentaria. Los zorros no comen hierba ni conejos. Recuerda que la hierba alimenta a los conejos, y estos son la presa para los zorros. Piensa en cómo la disminución de hierba afecta a los conejos y, a su vez, a los zorros.",
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:22.615Z",
+        "request_id": "4bbcb0ec-52b5-478c-a262-d70c7b8974bb",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1334,
+        "stages": {
+          "openai_evaluation": 1334
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 315,
+            "output_tokens": 83,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "social-2",
+      "expected": "correct",
+      "observed": "correct",
+      "passed": true,
+      "feedback": "¡Muy buen enfoque! Usar un dibujo como recordatorio y verificar si cerraste la llave después es una excelente forma de recordar y revisar. Sigue así!",
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:23.133Z",
+        "request_id": "d79a3ad7-8a06-4195-a908-48bc68140a17",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1019,
+        "stages": {
+          "openai_evaluation": 1019
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 310,
+            "output_tokens": 40,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "social-2",
+      "expected": "partial",
+      "observed": "partial",
+      "passed": true,
+      "feedback": "Es bueno que propongas un dibujo como recordatorio. Sin embargo, no mencionaste cómo comprobarías si funcionó. Intenta incluir eso la próxima vez.",
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:24.047Z",
+        "request_id": "4ff96736-2a21-4d38-a27e-42a9f0bb3451",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 914,
+        "stages": {
+          "openai_evaluation": 914
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 301,
+            "output_tokens": 41,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "social-2",
+      "expected": "incorrect",
+      "observed": "incorrect",
+      "passed": true,
+      "feedback": "Es importante recordar estos hábitos y revisar, ya que ayudan a mejorar nuestra responsabilidad en el uso del agua. Intenta pensar en un recordatorio que te funcione.",
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:25.073Z",
+        "request_id": "6e60879a-7ed4-40ca-97a5-f04714043d7f",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1025,
+        "stages": {
+          "openai_evaluation": 1025
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 307,
+            "output_tokens": 41,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "social-10",
+      "expected": "correct",
+      "observed": "correct",
+      "passed": true,
+      "feedback": "Buena elección priorizar el transporte, ya que es la mayor necesidad. Además, isitar a los 40 vecinos para planear la siguiente etapa muestra un enfoque inclusivo. Muy bien hecho.",
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:27.633Z",
+        "request_id": "f2dc3093-dc1a-4fd0-bd08-c8e448348263",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1189,
+        "stages": {
+          "openai_evaluation": 1188
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 359,
+            "output_tokens": 48,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "english-2",
+      "expected": "correct",
+      "observed": "correct",
+      "passed": true,
+      "feedback": "¡Buen trabajo! Has emparejado correctamente las palabras en inglés con sus traducciones en español.",
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:28.041Z",
+        "request_id": "db434b2d-36c1-4ee6-a0ff-b58d7fbdfc67",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 918,
+        "stages": {
+          "openai_evaluation": 918
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 266,
+            "output_tokens": 28,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "social-10",
+      "expected": "partial",
+      "observed": "partial",
+      "passed": true,
+      "feedback": "Tu decisión de priorizar el transporte es válida según los datos, pero falta un mecanismo para escuchar a los 40 vecinos que necesitan un parque. Piensa en cómo involucrarlos en el proceso.",
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:28.759Z",
+        "request_id": "1461da55-0b82-4046-bdef-495baef03f0e",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1126,
+        "stages": {
+          "openai_evaluation": 1126
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 344,
+            "output_tokens": 47,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "english-2",
+      "expected": "partial",
+      "observed": "incorrect",
+      "passed": false,
+      "feedback": "La respuesta no cumple con la tarea de unir las palabras. Intenta escribir las parejas directamente, como se indica en la ficha.",
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:28.859Z",
+        "request_id": "6732fe07-26c3-4ff7-b54f-d47e7796586f",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 818,
+        "stages": {
+          "openai_evaluation": 817
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 262,
+            "output_tokens": 34,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "social-10",
+      "expected": "incorrect",
+      "observed": "incorrect",
+      "passed": true,
+      "feedback": "La respuesta ignora los datos de la encuesta y niega la participación de los vecinos. Debes considerar las necesidades expresadas y proponer un mecanismo para escuchar a todos.",
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:29.681Z",
+        "request_id": "92b6c568-dec8-4a0d-b2fa-1eb9f2c20398",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 922,
+        "stages": {
+          "openai_evaluation": 921
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 348,
+            "output_tokens": 43,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "english-2",
+      "expected": "incorrect",
+      "observed": "incorrect",
+      "passed": true,
+      "feedback": "Las parejas están invertidas. Recuerda que 'cat' significa 'gato' y 'dog' significa 'perro'. Intenta de nuevo.",
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:29.685Z",
+        "request_id": "aebc13a8-6fab-47c2-a06c-7d86830826f8",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 826,
+        "stages": {
+          "openai_evaluation": 825
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 266,
+            "output_tokens": 39,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "english-11",
+      "expected": "correct",
+      "observed": "correct",
+      "passed": true,
+      "feedback": "Has propuesto una buena estrategia al relacionar la lluvia con el estado del suelo y has mencionado cómo comprobar tu inferencia. ¡Bien hecho!",
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:33.581Z",
+        "request_id": "5a6cfebc-dd04-4c4e-98fd-9f69dc13f6ca",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 929,
+        "stages": {
+          "openai_evaluation": 929
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 339,
+            "output_tokens": 37,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "english-11",
+      "expected": "partial",
+      "observed": "partial",
+      "passed": true,
+      "feedback": "Has propuesto una buena inferencia respecto a cómo queda el suelo tras la lluvia, pero falta una estrategia clara para comprobar tu inferencia. Te sugiero pensar en cómo buscarías ejemplos de esta condición en otros contextos o en un diccionario.",
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:34.902Z",
+        "request_id": "abb79791-954a-4ebc-b120-c5e9106e9b3d",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1321,
+        "stages": {
+          "openai_evaluation": 1321
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 321,
+            "output_tokens": 58,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "english-11",
+      "expected": "incorrect",
+      "observed": "incorrect",
+      "passed": true,
+      "feedback": "Lo que propones no aprovecha el contexto ni intenta comprobar tu inferencia. Es importante relacionar las palabras en su contexto para entender su significado. Intenta pensar en cómo la lluvia afecta el suelo y busca la relación.",
+      "metrics": {
+        "timestamp": "2026-11-03T23:02:36.240Z",
+        "request_id": "14936f00-e763-443f-a45f-d432d050b2be",
+        "operation": "benchmark_evaluation",
+        "status": 200,
+        "total_ms": 1338,
+        "stages": {
+          "openai_evaluation": 1338
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 326,
+            "output_tokens": 53,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    }
+  ],
+  "database": [
+    {
+      "operation": "sample_steps_read",
+      "elapsed_ms": 2016,
+      "rows": 30
+    },
+    {
+      "operation": "sample_steps_read",
+      "elapsed_ms": 286,
+      "rows": 30
+    },
+    {
+      "operation": "sample_steps_read",
+      "elapsed_ms": 324,
+      "rows": 30
+    },
+    {
+      "operation": "sample_steps_read",
+      "elapsed_ms": 228,
+      "rows": 30
+    },
+    {
+      "operation": "sample_steps_read",
+      "elapsed_ms": 270,
+      "rows": 30
+    }
+  ],
+  "summary": {
+    "generation": {
+      "samples": 10,
+      "p50_ms": 3828,
+      "p95_ms": 5511,
+      "min_ms": 2050,
+      "max_ms": 5511
+    },
+    "evaluation": {
+      "samples": 30,
+      "p50_ms": 1042,
+      "p95_ms": 1364,
+      "min_ms": 760,
+      "max_ms": 1423
+    },
+    "database": {
+      "samples": 5,
+      "p50_ms": 286,
+      "p95_ms": 2016,
+      "min_ms": 228,
+      "max_ms": 2016
+    },
+    "reference_passed": 28,
+    "reference_total": 30,
+    "tokens": {
+      "input": 17145,
+      "output": 3606
+    }
+  }
+}

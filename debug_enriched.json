@@ -1,0 +1,167 @@
+{
+  "version": "0.1",
+  "source": "openai_enrichment",
+  "refined": {
+    "id": "e0a4a1d3-8f4d-4b50-8ae9-9d0e6099d1f8",
+    "concept_key": "operaciones_basicas",
+    "subject": "matematicas",
+    "grade_range": "1",
+    "visual_template_key": "graph",
+    "concept_name": "Operaciones Básicas",
+    "one_line_definition": "Las operaciones básicas son las acciones matemáticas fundamentales como sumar y restar.",
+    "core_insight": "Entender cómo funcionan las operaciones básicas nos ayuda a resolver problemas cotidianos.",
+    "student_friendly_explanation": "Las operaciones básicas son como herramientas que usamos para contar y resolver problemas. Sumar es juntar cosas, y restar es quitar.",
+    "practical_example": "Si tienes 3 manzanas y compras 2 más, ahora tienes 5 manzanas. Eso es sumar.",
+    "common_misconception": "Pensar que sumar y restar son lo mismo.",
+    "misconception_explanation": "Aunque ambas son operaciones, sumar añade cantidades y restar quita. Es importante saber cuándo usar cada una.",
+    "hint_prompt": "Piensa en un ejemplo de tu vida donde sumas o restas cosas.",
+    "visual_caption": "Gráfico que muestra ejemplos de suma y resta."
+  },
+  "variants": {
+    "basic": {
+      "title": "Entendiendo las Operaciones Básicas",
+      "body": "Las operaciones básicas son acciones matemáticas que usamos para resolver problemas. Sumar es juntar, y restar es quitar. Por ejemplo, si tienes 4 caramelos y compras 3 más, ahora tienes 7 caramelos. Eso es sumar.",
+      "example": "Si tienes 5 galletas y comes 2, ¿cuántas galletas te quedan? Eso es restar.",
+      "tuko_line": "Recuerda, sumar es juntar y restar es quitar. ¿Puedes pensar en un ejemplo?",
+      "when_to_show": [
+        "stuck"
+      ],
+      "visual_template_key": "graph"
+    },
+    "hint": {
+      "title": "Pista para las Operaciones Básicas",
+      "body": "Piensa en una situación en la que hayas tenido que juntar o quitar cosas. ¿Qué hiciste?",
+      "example": "Imagina que tienes 10 lápices y decides regalar 3. ¿Cuántos lápices te quedan?",
+      "tuko_line": "Observa cómo cambian las cantidades cuando sumas o restas.",
+      "when_to_show": [
+        "first_struggle"
+      ],
+      "visual_template_key": "graph"
+    },
+    "corrective": {
+      "title": "Corrigiendo la Confusión",
+      "body": "Parece que piensas que sumar y restar son lo mismo. Recuerda, sumar añade y restar quita. Es importante saber cuándo usar cada operación.",
+      "example": "Si tienes 8 flores y le das 3 a un amigo, ¿cuántas te quedan? Eso es restar.",
+      "tuko_line": "No confundas sumar con restar, son acciones diferentes en matemáticas.",
+      "when_to_show": [
+        "misconception_detected"
+      ],
+      "visual_template_key": "graph"
+    },
+    "reflective": {
+      "title": "Reflexionando sobre el Aprendizaje",
+      "body": "Ahora que resolviste el problema, ¿qué estrategia usaste para sumar o restar? ¿Cómo te ayudó a entender mejor?",
+      "example": "¿Qué pasos seguiste para llegar a la respuesta correcta?",
+      "tuko_line": "Reflexiona sobre cómo resolviste el problema. ¿Qué aprendiste?",
+      "when_to_show": [
+        "success_after_struggle"
+      ],
+      "visual_template_key": "graph"
+    },
+    "deepening": {
+      "title": "Conectando con Otros Conceptos",
+      "body": "Las operaciones básicas son fundamentales para entender conceptos más complejos en matemáticas. ¿Cómo crees que usarías sumar o restar en situaciones cotidianas?",
+      "example": "Piensa en cómo usarías estas operaciones al hacer una compra o al compartir cosas con amigos.",
+      "tuko_line": "¿Dónde más podrías aplicar lo que aprendiste sobre sumar y restar?",
+      "when_to_show": [
+        "after_success"
+      ],
+      "visual_template_key": "graph"
+    }
+  },
+  "error_patterns": {
+    "patterns": [
+      {
+        "misconception_key": "sum_and_subtract_confusion",
+        "misconception_description": "El estudiante confunde sumar y restar, aplicando la operación incorrecta.",
+        "likely_wrong_answers": [
+          "5 (restando en lugar de sumando)",
+          "1 (sumando incorrectamente)"
+        ],
+        "diagnostic_clue": "Pregunta al estudiante si está juntando o quitando elementos en el problema.",
+        "corrective_feedback": "Recuerda que sumar es juntar cosas y restar es quitar. Piensa en lo que está sucediendo en el problema.",
+        "visual_overlay_key": "overlay_sum_vs_subtract",
+        "recommended_card_variant": "corrective"
+      },
+      {
+        "misconception_key": "incorrect_use_of_numbers",
+        "misconception_description": "El estudiante usa números incorrectos en la suma o resta.",
+        "likely_wrong_answers": [
+          "6 (sumando mal)",
+          "4 (restando mal)"
+        ],
+        "diagnostic_clue": "Revisa si el estudiante está usando los números correctos del problema.",
+        "corrective_feedback": "Verifica los números que estás usando. Asegúrate de que sean los correctos del problema.",
+        "visual_overlay_key": "overlay_number_check",
+        "recommended_card_variant": "hint"
+      },
+      {
+        "misconception_key": "ignoring_context",
+        "misconception_description": "El estudiante no considera el contexto del problema al resolverlo.",
+        "likely_wrong_answers": [
+          "2 (sin entender la situación)",
+          "3 (sin aplicar la operación correcta)"
+        ],
+        "diagnostic_clue": "Pregunta cómo se relacionan los números con la situación del problema.",
+        "corrective_feedback": "Piensa en lo que el problema está diciendo. ¿Estás sumando o restando según la situación?",
+        "visual_overlay_key": "overlay_context",
+        "recommended_card_variant": "reflective"
+      },
+      {
+        "misconception_key": "operation_order_error",
+        "misconception_description": "El estudiante no sigue el orden correcto de operaciones al resolver problemas más complejos.",
+        "likely_wrong_answers": [
+          "8 (sumando antes de restar)",
+          "0 (restando antes de sumar)"
+        ],
+        "diagnostic_clue": "Pregunta si el estudiante está resolviendo las operaciones en el orden correcto.",
+        "corrective_feedback": "Recuerda que debes seguir el orden de operaciones. Primero suma y luego resta si es necesario.",
+        "visual_overlay_key": "overlay_order_of_operations",
+        "recommended_card_variant": "worked_example"
+      },
+      {
+        "misconception_key": "misunderstanding_zero",
+        "misconception_description": "El estudiante no entiende cómo funciona el cero en las operaciones.",
+        "likely_wrong_answers": [
+          "3 (sumando cero)",
+          "2 (restando cero)"
+        ],
+        "diagnostic_clue": "Pregunta cómo creen que el cero afecta la suma o la resta.",
+        "corrective_feedback": "Recuerda que sumar o restar cero no cambia el número. ¿Qué pasa si sumas o restas cero?",
+        "visual_overlay_key": "overlay_zero_effect",
+        "recommended_card_variant": "hint"
+      }
+    ]
+  },
+  "adaptive_usage": {
+    "show_when": [
+      "student_requests_help",
+      "two_failed_attempts",
+      "misconception_detected"
+    ],
+    "do_not_show_when": [
+      "student_is_correct_and_flowing",
+      "student_is_actively_typing",
+      "first_minor_error"
+    ],
+    "recommended_cognitive_types": [
+      "exploracion",
+      "representacion",
+      "razonamiento"
+    ],
+    "recommended_step_types": [
+      "aplicacion_guiada",
+      "analisis_de_error"
+    ],
+    "intervention_level": "moderate",
+    "cooldown_rules": {
+      "min_interval_minutes": 10,
+      "max_shows_per_session": 3,
+      "reset_on_mastery": true
+    }
+  },
+  "metadata": {
+    "model": "gpt-4o-mini",
+    "enriched_at": "2026-05-16T01:02:25.566277+00:00"
+  }
+}

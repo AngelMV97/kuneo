@@ -1,0 +1,592 @@
+{
+  "model": "gpt-4.1-mini",
+  "limit": 32,
+  "calls": 19,
+  "inputTokens": 63111,
+  "outputTokens": 7704,
+  "databaseCalls": 0,
+  "results": [
+    {
+      "slot": 1,
+      "seconds": 7.217,
+      "activity": {
+        "id": "1d3f16bb-846a-4308-8485-098c040555f8",
+        "step_id": "variety-step",
+        "question": "María está observando cómo cambian las plantas de su huerta durante una semana de mucho sol. Ella formula dos hipótesis:\n\n1. Si una planta recibe más agua, crecerá más rápido.\n2. Si una planta está más expuesta al sol, sus hojas se pondrán más verdes.\n\nMaría tiene tres plantas y registra lo siguiente:\n\n| Planta | Agua diaria (ml) | Exposición al sol (horas) | Observación de crecimiento y color |\n|--------|-----------------|---------------------------|-----------------------------------|\n| A      | 300             | 8                         | Creció mucho, hojas muy verdes    |\n| B      | 300             | 4                         | Creció menos, hojas verdes claras |\n| C      | 100             | 8                         | Creció poco, hojas muy verdes     |\n\n¿Cuál hipótesis está mejor apoyada por las observaciones?",
+        "type": "option",
+        "options": [
+          "La hipótesis de que más agua hace que la planta crezca más rápido está mejor apoyada, porque la planta con más agua crece más que la que tiene menos agua.",
+          "La hipótesis de que más sol pone las hojas más verdes está mejor apoyada, porque la planta con más sol tiene hojas más verdes que las otras.",
+          "Ninguna hipótesis está apoyada, porque el color y el crecimiento no muestran relación con el agua ni con el sol.",
+          "Ambas hipótesis están igualmente apoyadas, porque todas las plantas tienen colores y crecimientos variables sin relación clara."
+        ],
+        "cognitive_dimension": "comprension",
+        "source": "generated",
+        "notice": null,
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "1d3f16bb-846a-4308-8485-098c040555f8",
+        "user_id": "synthetic",
+        "module_id": "variety-science",
+        "step_id": "variety-step",
+        "question": "María está observando cómo cambian las plantas de su huerta durante una semana de mucho sol. Ella formula dos hipótesis:\n\n1. Si una planta recibe más agua, crecerá más rápido.\n2. Si una planta está más expuesta al sol, sus hojas se pondrán más verdes.\n\nMaría tiene tres plantas y registra lo siguiente:\n\n| Planta | Agua diaria (ml) | Exposición al sol (horas) | Observación de crecimiento y color |\n|--------|-----------------|---------------------------|-----------------------------------|\n| A      | 300             | 8                         | Creció mucho, hojas muy verdes    |\n| B      | 300             | 4                         | Creció menos, hojas verdes claras |\n| C      | 100             | 8                         | Creció poco, hojas muy verdes     |\n\n¿Cuál hipótesis está mejor apoyada por las observaciones?",
+        "type": "option",
+        "options": [
+          "La hipótesis de que más agua hace que la planta crezca más rápido está mejor apoyada, porque la planta con más agua crece más que la que tiene menos agua.",
+          "La hipótesis de que más sol pone las hojas más verdes está mejor apoyada, porque la planta con más sol tiene hojas más verdes que las otras.",
+          "Ninguna hipótesis está apoyada, porque el color y el crecimiento no muestran relación con el agua ni con el sol.",
+          "Ambas hipótesis están igualmente apoyadas, porque todas las plantas tienen colores y crecimientos variables sin relación clara."
+        ],
+        "expected": {
+          "type": "option",
+          "correct_options": [
+            0
+          ]
+        },
+        "learning_focus": "Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación.",
+        "option_explanations": [
+          "Las plantas con más agua (A y B) crecieron más que la planta con menos agua (C), mostrando que el agua influye en el crecimiento.",
+          "Aunque la planta C tiene mucha exposición al sol y hojas muy verdes, la planta B con menos sol tiene hojas menos verdes, lo que apoya la hipótesis del sol y color de hojas.",
+          "Los datos muestran relaciones entre agua y crecimiento, y sol y color de hojas, por lo que sí hay apoyo a hipótesis concretas.",
+          "Las diferencias observadas sí guardan relación con las variables agua y sol, por lo que no están igualmente apoyadas, sino que una tiene más evidencia."
+        ],
+        "pair_explanations": [],
+        "rubric": "Se evalúa si el estudiante identifica correctamente cuál hipótesis está respaldada por los datos, justificando con relación entre cantidad de agua, exposición al sol, crecimiento o color de hojas.",
+        "hint": "Observa cómo cambian el crecimiento y el color en función del agua y del sol que reciben las plantas. ¿Qué variable parece tener más influencia en cada aspecto?",
+        "explanation": "Se comparan las plantas para ver la influencia del agua y del sol. El crecimiento es mayor con más agua (planta A y B comparadas con C), mientras que el color verde es más intenso con más sol (planta A y C con 8 horas frente a planta B con 4). Por eso, la hipótesis sobre el crecimiento con el agua está mejor apoyada.",
+        "dimension": "comprension",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "Hipótesis y evidencia",
+          "concept": "hipotesis_y_evidencia",
+          "learning_goal": "Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación."
+        },
+        "grade_group": "6-7",
+        "expires_at": 1794017230585
+      }
+    },
+    {
+      "slot": 2,
+      "seconds": 6.229,
+      "activity": {
+        "id": "d1b7080d-c094-4ced-a0aa-a7c718aeaeee",
+        "step_id": "variety-step",
+        "question": "En un aula, se colocaron tres tipos diferentes de telas para comparar cómo cambian al exponerlas durante tres días a la luz directa del sol. Se hicieron dos hipótesis:\n\n1. Si una tela está hecha de algodón, se decolorará más rápido.\n2. Si una tela se moja con agua, se mantendrá protegida y cambiará menos de color.\n\nLas observaciones registradas fueron:\n\n| Tela    | Material  | Se mojó con agua | Cambio de color después de 3 días |\n|---------|-----------|------------------|----------------------------------|\n| Tela X  | Algodón   | No               | Cambio fuerte de color            |\n| Tela Y  | Poliéster | Sí               | Cambio leve de color             |\n| Tela Z  | Algodón   | Sí               | Cambio leve de color             |\n\nSegún estas observaciones, ¿cuál hipótesis está mejor respaldada? Explica tu respuesta.",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "razonamiento",
+        "source": "generated",
+        "notice": null,
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "d1b7080d-c094-4ced-a0aa-a7c718aeaeee",
+        "user_id": "synthetic",
+        "module_id": "variety-science",
+        "step_id": "variety-step",
+        "question": "En un aula, se colocaron tres tipos diferentes de telas para comparar cómo cambian al exponerlas durante tres días a la luz directa del sol. Se hicieron dos hipótesis:\n\n1. Si una tela está hecha de algodón, se decolorará más rápido.\n2. Si una tela se moja con agua, se mantendrá protegida y cambiará menos de color.\n\nLas observaciones registradas fueron:\n\n| Tela    | Material  | Se mojó con agua | Cambio de color después de 3 días |\n|---------|-----------|------------------|----------------------------------|\n| Tela X  | Algodón   | No               | Cambio fuerte de color            |\n| Tela Y  | Poliéster | Sí               | Cambio leve de color             |\n| Tela Z  | Algodón   | Sí               | Cambio leve de color             |\n\nSegún estas observaciones, ¿cuál hipótesis está mejor respaldada? Explica tu respuesta.",
+        "type": "text",
+        "options": [],
+        "expected": {
+          "type": "rubric",
+          "answer": "La hipótesis que está mejor respaldada es la segunda, que dice que si una tela se moja con agua, cambiará menos de color. Esto se ve porque tanto la Tela Y (poliéster mojada) como la Tela Z (algodón mojada) tuvieron un cambio leve de color, mientras que la Tela X (algodón sin mojar) tuvo un cambio fuerte de color. Por lo tanto, mojar la tela protege de la decoloración más que el tipo de material.",
+          "rubric": "Se evalúa que el estudiante identifique correctamente la hipótesis mejor respaldada por las observaciones y justifique con evidencias de la tabla, mostrando razonamiento coherente."
+        },
+        "learning_focus": "Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación.",
+        "option_explanations": [],
+        "pair_explanations": [],
+        "rubric": "Se evalúa que el estudiante identifique correctamente la hipótesis mejor respaldada por las observaciones y justifique con evidencias de la tabla, mostrando razonamiento coherente.",
+        "hint": "Revisa qué telas cambiaron más o menos de color y cómo se relaciona con el material y si estuvieron mojadas.",
+        "explanation": "Se comparan los cambios de color entre telas de algodón y poliéster, considerando si estuvieron mojadas, para determinar cuál hipótesis concuerda mejor con los resultados observados.",
+        "dimension": "razonamiento",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "Hipótesis y evidencia",
+          "concept": "hipotesis_y_evidencia",
+          "learning_goal": "Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación."
+        },
+        "grade_group": "6-7",
+        "expires_at": 1794017236817
+      }
+    },
+    {
+      "slot": 3,
+      "seconds": 6.282,
+      "activity": {
+        "id": "c67950e2-38b3-47b5-93c2-d2f44be349e1",
+        "step_id": "variety-step",
+        "question": "Se midieron cambios en la temperatura y el tipo de superficie para analizar cómo afectan el calentamiento durante un día soleado. Se realizaron dos hipótesis:\n\nLas observaciones registradas al mediodía fueron:\n\n| Superficie   | Temperatura al inicio (°C) | Temperatura al mediodía (°C) | Exposición a sombra |\n|--------------|----------------------------|------------------------------|--------------------|\n| Zona A       | 20                         | 35                           | No                 |\n| Zona B       | 20                         | 22                           | Sí                 |\n| Zona C       | 20                         | 33                           | No                 |\n\n¿Cuáles hipótesis están apoyadas por las observaciones? Selecciona todas las correctas.",
+        "type": "multiple_select",
+        "options": [
+          "Si la superficie es de cemento, la temperatura aumenta más rápido.",
+          "Si la superficie tiene sombra, la temperatura se mantiene más baja.",
+          "Si la superficie es de césped, la temperatura aumenta más rápido.",
+          "Si la exposición es al aire libre, la temperatura disminuye."
+        ],
+        "cognitive_dimension": "representacion",
+        "source": "generated",
+        "notice": null,
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "c67950e2-38b3-47b5-93c2-d2f44be349e1",
+        "user_id": "synthetic",
+        "module_id": "variety-science",
+        "step_id": "variety-step",
+        "question": "Se midieron cambios en la temperatura y el tipo de superficie para analizar cómo afectan el calentamiento durante un día soleado. Se realizaron dos hipótesis:\n\nLas observaciones registradas al mediodía fueron:\n\n| Superficie   | Temperatura al inicio (°C) | Temperatura al mediodía (°C) | Exposición a sombra |\n|--------------|----------------------------|------------------------------|--------------------|\n| Zona A       | 20                         | 35                           | No                 |\n| Zona B       | 20                         | 22                           | Sí                 |\n| Zona C       | 20                         | 33                           | No                 |\n\n¿Cuáles hipótesis están apoyadas por las observaciones? Selecciona todas las correctas.",
+        "type": "multiple_select",
+        "options": [
+          "Si la superficie es de cemento, la temperatura aumenta más rápido.",
+          "Si la superficie tiene sombra, la temperatura se mantiene más baja.",
+          "Si la superficie es de césped, la temperatura aumenta más rápido.",
+          "Si la exposición es al aire libre, la temperatura disminuye."
+        ],
+        "expected": {
+          "type": "multiple_select",
+          "correct_options": [
+            0,
+            1
+          ]
+        },
+        "learning_focus": "Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación.",
+        "option_explanations": [
+          "Las temperaturas altas en zonas A y C sin sombra respaldan que el cemento (supuesto) hace que la temperatura aumente rápido.",
+          "La baja temperatura en la zona con sombra (Zona B) confirma que la sombra mantiene la temperatura más baja.",
+          "No hay evidencia de césped en las superficies, ni se observa aumento rápido relacionado con césped.",
+          "Las temperaturas observadas no muestran que la exposición al aire libre disminuya temperatura; al contrario, sin sombra sube mucho."
+        ],
+        "pair_explanations": [],
+        "rubric": "Se considera correcta toda selección que incluya la hipótesis sobre sombra (que reduce la temperatura) y la hipótesis sobre cemento (que aumenta la temperatura rápidamente). Se califican como incorrectas las hipótesis no apoyadas por las observaciones en la tabla. Son válidas explicaciones que relacionen las temperaturas con sombra o tipo de superficie, usando evidencias de los datos.",
+        "hint": "Compara la temperatura de las zonas con sombra y sin sombra, y observa cómo cambian las temperaturas según la exposición y el material de la superficie. ¿Qué hipótesis explican mejor estos cambios?",
+        "explanation": "La hipótesis sobre sombra está respaldada porque la zona con sombra (Zona B) tiene un aumento pequeño de temperatura (de 20 °C a 22 °C), mientras que las zonas sin sombra (A y C) tienen aumentos mayores (a 35 °C y 33 °C). También la hipótesis de que el cemento aumenta la temperatura rápidamente se valida porque las zonas A y C (que se infiere son de cemento por el apoyo a la hipótesis) alcanzan temperaturas mucho mayores que la zona con sombra. Por eso ambas hipótesis son coherentes con las observaciones.",
+        "dimension": "representacion",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "Hipótesis y evidencia",
+          "concept": "hipotesis_y_evidencia",
+          "learning_goal": "Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación."
+        },
+        "grade_group": "6-7",
+        "expires_at": 1794017243100
+      }
+    },
+    {
+      "slot": 4,
+      "seconds": 11.434,
+      "activity": {
+        "id": "496cf6f0-4a71-4330-9b0f-3d52da29c3ba",
+        "step_id": "variety-step",
+        "question": "En el colegio, los estudiantes están investigando cómo el tipo de material de las botellas afecta el calentamiento del agua expuesta al sol durante dos horas. Formulan dos hipótesis:\n\n1. Si una botella es de plástico, el agua se calentará más rápido que en una botella de vidrio.\n2. Si una botella está sin tapa, el agua cambiará menos de temperatura porque se enfría por evaporación.\n\nRegistraron las siguientes observaciones:\n\n| Botella | Material | Tiene tapa | Temperatura del agua antes (°C) | Temperatura del agua después (°C) |\n|---------|----------|------------|---------------------------------|----------------------------------|\n| 1       | Plástico | Sí         | 20                              | 30                               |\n| 2       | Vidrio   | Sí         | 20                              | 27                               |\n| 3       | Plástico | No         | 20                              | 23                               |\n\nRelaciona cada hipótesis con la observación que la apoya mejor.",
+        "type": "matching",
+        "options": [],
+        "cognitive_dimension": "transferencia",
+        "source": "generated",
+        "notice": null,
+        "left_items": [
+          "Hipótesis 1: Si una botella es de plástico, el agua se calentará más rápido que en una botella de vidrio.",
+          "Hipótesis 2: Si una botella está sin tapa, el agua cambiará menos de temperatura porque se enfría por evaporación.",
+          "Observación: Botella de plástico con tapa sube de 20°C a 30°C."
+        ],
+        "right_items": [
+          "Botella plástico con tapa calentó más que la de vidrio con tapa (27°C).",
+          "Hipótesis de calentamiento por material apoyada por mayor aumento de temperatura en botella plástica tapada.",
+          "Botella de plástico sin tapa subió de 20°C a 23°C, menos que la misma con tapa."
+        ],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "496cf6f0-4a71-4330-9b0f-3d52da29c3ba",
+        "user_id": "synthetic",
+        "module_id": "variety-science",
+        "step_id": "variety-step",
+        "question": "En el colegio, los estudiantes están investigando cómo el tipo de material de las botellas afecta el calentamiento del agua expuesta al sol durante dos horas. Formulan dos hipótesis:\n\n1. Si una botella es de plástico, el agua se calentará más rápido que en una botella de vidrio.\n2. Si una botella está sin tapa, el agua cambiará menos de temperatura porque se enfría por evaporación.\n\nRegistraron las siguientes observaciones:\n\n| Botella | Material | Tiene tapa | Temperatura del agua antes (°C) | Temperatura del agua después (°C) |\n|---------|----------|------------|---------------------------------|----------------------------------|\n| 1       | Plástico | Sí         | 20                              | 30                               |\n| 2       | Vidrio   | Sí         | 20                              | 27                               |\n| 3       | Plástico | No         | 20                              | 23                               |\n\nRelaciona cada hipótesis con la observación que la apoya mejor.",
+        "type": "matching",
+        "options": [],
+        "left_items": [
+          "Hipótesis 1: Si una botella es de plástico, el agua se calentará más rápido que en una botella de vidrio.",
+          "Hipótesis 2: Si una botella está sin tapa, el agua cambiará menos de temperatura porque se enfría por evaporación.",
+          "Observación: Botella de plástico con tapa sube de 20°C a 30°C."
+        ],
+        "right_items": [
+          "Botella plástico con tapa calentó más que la de vidrio con tapa (27°C).",
+          "Hipótesis de calentamiento por material apoyada por mayor aumento de temperatura en botella plástica tapada.",
+          "Botella de plástico sin tapa subió de 20°C a 23°C, menos que la misma con tapa."
+        ],
+        "expected": {
+          "type": "matching",
+          "correct_pairs": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        "learning_focus": "transferencia",
+        "option_explanations": [],
+        "pair_explanations": [
+          "El mayor aumento de temperatura en botella plástica con tapa apoya que el material plastico calienta más rápido.",
+          "La botella sin tapa tiene menor aumento de temperatura, apoyando que la evaporación enfría y reduce el cambio.",
+          "La observación muestra el contraste entre materiales con tapa y apoya la hipótesis sobre calentamiento según material."
+        ],
+        "rubric": "Cada hipótesis debe asignarse a la observación que la apoya claramente, basándose en comparación de datos sobre material y tapa. Son parejas uno a uno, no ambiguas.",
+        "hint": "Piensa en cómo el material influye en la temperatura final y cómo la tapa puede afectar la evaporación y el cambio de temperatura.",
+        "explanation": "Se comparan los efectos del material (plástico vs vidrio) y la presencia de tapa sobre la temperatura final del agua. Se observa que el agua en botella de plástico con tapa calentó más que vidrio; y que la botella plástico sin tapa calentó menos que la misma con tapa, lo que apoya las hipótesis.",
+        "dimension": "transferencia",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "Hipótesis y evidencia",
+          "concept": "hipotesis_y_evidencia",
+          "learning_goal": "Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación."
+        },
+        "grade_group": "6-7",
+        "expires_at": 1794017254535
+      }
+    },
+    {
+      "slot": 5,
+      "seconds": 5.724,
+      "activity": {
+        "id": "0a8daaf8-bb2f-41a1-8c0a-7ff61ca08ccb",
+        "step_id": "variety-step",
+        "question": "Un grupo de estudiantes quiere investigar cómo afecta la cantidad de tiempo que una lámpara LED se enciende a la temperatura que alcanza una taza de agua. Formulan dos hipótesis:\n\n1. Si la lámpara está encendida más tiempo, el agua se calentará más.\n2. Si la lámpara está encendida un tiempo corto, el agua no cambiará de temperatura.\n\nRealizaron la siguiente prueba, midiendo la temperatura antes y después de encender la lámpara:\n\n| Prueba | Tiempo encendida (minutos) | Temperatura inicial del agua (°C) | Temperatura final del agua (°C) |\n|--------|----------------------------|-----------------------------------|---------------------------------|\n| 1      | 5                          | 20                                | 21                              |\n| 2      | 15                         | 20                                | 25                              |\n| 3      | 0                          | 20                                | 20                              |\n\n¿Qué deben hacer los estudiantes para comprobar si sus hipótesis son correctas?",
+        "type": "option",
+        "options": [
+          "Medir la temperatura del agua antes y después de encender la lámpara por distintos tiempos y comparar los cambios.",
+          "Solo observar si el agua cambia color cuando la lámpara está encendida.",
+          "Encender la lámpara siempre el mismo tiempo y medir la temperatura después.",
+          "Medir solo la temperatura inicial y asumir que no cambia con el tiempo que la lámpara está encendida."
+        ],
+        "cognitive_dimension": "metacognicion",
+        "source": "generated",
+        "notice": null,
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "0a8daaf8-bb2f-41a1-8c0a-7ff61ca08ccb",
+        "user_id": "synthetic",
+        "module_id": "variety-science",
+        "step_id": "variety-step",
+        "question": "Un grupo de estudiantes quiere investigar cómo afecta la cantidad de tiempo que una lámpara LED se enciende a la temperatura que alcanza una taza de agua. Formulan dos hipótesis:\n\n1. Si la lámpara está encendida más tiempo, el agua se calentará más.\n2. Si la lámpara está encendida un tiempo corto, el agua no cambiará de temperatura.\n\nRealizaron la siguiente prueba, midiendo la temperatura antes y después de encender la lámpara:\n\n| Prueba | Tiempo encendida (minutos) | Temperatura inicial del agua (°C) | Temperatura final del agua (°C) |\n|--------|----------------------------|-----------------------------------|---------------------------------|\n| 1      | 5                          | 20                                | 21                              |\n| 2      | 15                         | 20                                | 25                              |\n| 3      | 0                          | 20                                | 20                              |\n\n¿Qué deben hacer los estudiantes para comprobar si sus hipótesis son correctas?",
+        "type": "option",
+        "options": [
+          "Medir la temperatura del agua antes y después de encender la lámpara por distintos tiempos y comparar los cambios.",
+          "Solo observar si el agua cambia color cuando la lámpara está encendida.",
+          "Encender la lámpara siempre el mismo tiempo y medir la temperatura después.",
+          "Medir solo la temperatura inicial y asumir que no cambia con el tiempo que la lámpara está encendida."
+        ],
+        "expected": {
+          "type": "option",
+          "correct_options": [
+            0
+          ]
+        },
+        "learning_focus": "metacognicion",
+        "option_explanations": [
+          "Esta opción indica un plan adecuado para comprobar las hipótesis, midiendo temperatura y variando el tiempo de encendido.",
+          "Observar el color no da información sobre temperatura, por lo que no ayuda a comprobar las hipótesis.",
+          "No variar el tiempo de encendido no permite comparar el efecto de diferentes duraciones, por lo que no permite probar las hipótesis.",
+          "Medir solo la temperatura inicial no es suficiente para observar cambios relacionados con el tiempo de encendido, por eso no es una buena estrategia."
+        ],
+        "pair_explanations": [],
+        "rubric": "Se evalúa que el estudiante planifique un procedimiento para comparar tiempos y temperaturas, buscando evidencia que apoye o refute las hipótesis, con pasos coherentes y control de variables.",
+        "hint": "Piensa qué observación directa o medición puedes hacer para ver si más tiempo encendida la lámpara calienta más el agua.",
+        "explanation": "Para comprobar las hipótesis, es necesario comparar la temperatura inicial y final en cada prueba, y relacionar el tiempo que la lámpara estuvo encendida con el cambio de temperatura, controlando que otras condiciones sean iguales.",
+        "dimension": "metacognicion",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "Hipótesis y evidencia",
+          "concept": "hipotesis_y_evidencia",
+          "learning_goal": "Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación."
+        },
+        "grade_group": "6-7",
+        "expires_at": 1794017260260
+      }
+    },
+    {
+      "slot": 6,
+      "seconds": 5.391,
+      "activity": {
+        "id": "498ca731-0f0e-4dbd-bd74-5aa450de55ab",
+        "step_id": "variety-step",
+        "question": "Un grupo de estudiantes quiere comprobar cómo afecta al enfriamiento del agua en recipientes diferentes materiales y la exposición al viento. Formulan dos hipótesis:\n\n1. Si un recipiente es de metal y está al viento, el agua se enfriará más rápido.\n2. Si un recipiente es de plástico y no está al viento, el agua se enfriará menos.\n\nRegistraron las siguientes observaciones después de 30 minutos:\n\n| Recipiente | Material | Exposición al viento | Temperatura inicial (°C) | Temperatura final (°C) |\n|------------|----------|---------------------|-------------------------|-----------------------|\n| A          | Metal    | Sí                  | 30                      | 20                    |\n| B          | Plástico | No                  | 30                      | 27                    |\n| C          | Metal    | No                  | 30                      | 25                    |\n\n¿Con base en estas observaciones, cuál hipótesis está mejor apoyada? Explica tu respuesta.",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "comprension",
+        "source": "generated",
+        "notice": null,
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "498ca731-0f0e-4dbd-bd74-5aa450de55ab",
+        "user_id": "synthetic",
+        "module_id": "variety-science",
+        "step_id": "variety-step",
+        "question": "Un grupo de estudiantes quiere comprobar cómo afecta al enfriamiento del agua en recipientes diferentes materiales y la exposición al viento. Formulan dos hipótesis:\n\n1. Si un recipiente es de metal y está al viento, el agua se enfriará más rápido.\n2. Si un recipiente es de plástico y no está al viento, el agua se enfriará menos.\n\nRegistraron las siguientes observaciones después de 30 minutos:\n\n| Recipiente | Material | Exposición al viento | Temperatura inicial (°C) | Temperatura final (°C) |\n|------------|----------|---------------------|-------------------------|-----------------------|\n| A          | Metal    | Sí                  | 30                      | 20                    |\n| B          | Plástico | No                  | 30                      | 27                    |\n| C          | Metal    | No                  | 30                      | 25                    |\n\n¿Con base en estas observaciones, cuál hipótesis está mejor apoyada? Explica tu respuesta.",
+        "type": "text",
+        "options": [],
+        "expected": {
+          "type": "rubric",
+          "answer": "La hipótesis 1 está mejor apoyada porque el recipiente de metal expuesto al viento (Recipiente A) tuvo la mayor caída de temperatura (de 30 a 20 °C), mostrando que el viento y material metálico favorecen el enfriamiento. En contraste, el recipiente de plástico sin viento (Recipiente B) tuvo menor cambio de temperatura (de 30 a 27 °C), apoyando la hipótesis 2, pero la diferencia más marcada respalda principalmente la hipótesis 1.",
+          "rubric": "Evalúa si el estudiante identifica correctamente cuál hipótesis se apoya en los datos y justifica con observaciones concretas de temperaturas y condiciones dadas."
+        },
+        "learning_focus": "Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación.",
+        "option_explanations": [],
+        "pair_explanations": [],
+        "rubric": "Evalúa si el estudiante identifica correctamente cuál hipótesis se apoya en los datos y justifica con observaciones concretas de temperaturas y condiciones dadas.",
+        "hint": "Mira cómo cambia la temperatura del agua según el material y si está expuesto al viento. Compara los recipientes para ver cuál hipótesis coincide mejor con esos cambios.",
+        "explanation": "Para resolver, se comparan los cambios de temperatura en recipientes de diferente material y condición de viento. Se observa que el recipiente de metal expuesto al viento se enfría más, y el de plástico sin viento menos, apoyando ambas hipótesis pero con mayor evidencia en la primera.",
+        "dimension": "comprension",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "Hipótesis y evidencia",
+          "concept": "hipotesis_y_evidencia",
+          "learning_goal": "Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación."
+        },
+        "grade_group": "6-7",
+        "expires_at": 1794017265651
+      }
+    },
+    {
+      "slot": 7,
+      "seconds": 13.276,
+      "activity": {
+        "id": "a4faa175-9e67-4c56-892a-08d54cbe007c",
+        "step_id": "variety-step",
+        "question": "En un aula, se colocaron tres tipos diferentes de telas para comparar cómo cambian al exponerlas durante tres días a la luz directa del sol. Se hicieron dos hipótesis:\n\n1. Si una tela está hecha de algodón, se decolorará más rápido.\n2. Si una tela se moja con agua, se mantendrá protegida y cambiará menos de color.\n\nLas observaciones registradas fueron:\n\n| Tela    | Material  | Se mojó con agua | Cambio de color después de 3 días |\n|---------|-----------|------------------|----------------------------------|\n| Tela X  | Algodón   | No               | Cambio fuerte de color            |\n| Tela Y  | Poliéster | Sí               | Cambio leve de color             |\n| Tela Z  | Algodón   | Sí               | Cambio leve de color             |\n\nSegún estas observaciones, ¿cuál hipótesis está mejor respaldada? Explica tu respuesta.",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "razonamiento",
+        "source": "stored",
+        "notice": "No se pudo generar una actividad nueva. Usamos contenido de reserva.",
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "a4faa175-9e67-4c56-892a-08d54cbe007c",
+        "user_id": "synthetic",
+        "module_id": "variety-science",
+        "step_id": "variety-step",
+        "question": "En un aula, se colocaron tres tipos diferentes de telas para comparar cómo cambian al exponerlas durante tres días a la luz directa del sol. Se hicieron dos hipótesis:\n\n1. Si una tela está hecha de algodón, se decolorará más rápido.\n2. Si una tela se moja con agua, se mantendrá protegida y cambiará menos de color.\n\nLas observaciones registradas fueron:\n\n| Tela    | Material  | Se mojó con agua | Cambio de color después de 3 días |\n|---------|-----------|------------------|----------------------------------|\n| Tela X  | Algodón   | No               | Cambio fuerte de color            |\n| Tela Y  | Poliéster | Sí               | Cambio leve de color             |\n| Tela Z  | Algodón   | Sí               | Cambio leve de color             |\n\nSegún estas observaciones, ¿cuál hipótesis está mejor respaldada? Explica tu respuesta.",
+        "type": "text",
+        "options": [],
+        "expected": {
+          "type": "rubric",
+          "answer": "La hipótesis que está mejor respaldada es la segunda, que dice que si una tela se moja con agua, cambiará menos de color. Esto se ve porque tanto la Tela Y (poliéster mojada) como la Tela Z (algodón mojada) tuvieron un cambio leve de color, mientras que la Tela X (algodón sin mojar) tuvo un cambio fuerte de color. Por lo tanto, mojar la tela protege de la decoloración más que el tipo de material.",
+          "rubric": "Se evalúa que el estudiante identifique correctamente la hipótesis mejor respaldada por las observaciones y justifique con evidencias de la tabla, mostrando razonamiento coherente."
+        },
+        "learning_focus": "Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación.",
+        "option_explanations": [],
+        "pair_explanations": [],
+        "rubric": "Se evalúa que el estudiante identifique correctamente la hipótesis mejor respaldada por las observaciones y justifique con evidencias de la tabla, mostrando razonamiento coherente.",
+        "hint": "Revisa qué telas cambiaron más o menos de color y cómo se relaciona con el material y si estuvieron mojadas.",
+        "explanation": "Se comparan los cambios de color entre telas de algodón y poliéster, considerando si estuvieron mojadas, para determinar cuál hipótesis concuerda mejor con los resultados observados.",
+        "dimension": "razonamiento",
+        "notice": "No se pudo generar una actividad nueva. Usamos contenido de reserva.",
+        "source": "stored",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "Hipótesis y evidencia",
+          "concept": "hipotesis_y_evidencia",
+          "learning_goal": "Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación."
+        },
+        "grade_group": "6-7",
+        "expires_at": 1794017278928
+      }
+    },
+    {
+      "slot": 8,
+      "seconds": 7.891,
+      "activity": {
+        "id": "e2851733-1357-4205-8523-622217ca27fb",
+        "step_id": "variety-step",
+        "question": "Un grupo de estudiantes investiga dos hipótesis sobre el efecto del tipo de suelo y la cantidad de luz en el crecimiento de plantas en el colegio. Las hipótesis son:\n\nSe registraron estas observaciones después de tres semanas:\n\n| Planta | Tipo de suelo | Horas de luz diaria | Crecimiento observado (cm) |\n|--------|---------------|---------------------|----------------------------|\n| 1      | Arenoso       | 8                   | 10                         |\n| 2      | Arcilloso     | 5                   | 7                          |\n| 3      | Arenoso       | 10                  | 13                         |\n\nRelaciona cada hipótesis con la observación que la respalda mejor.",
+        "type": "matching",
+        "options": [],
+        "cognitive_dimension": "representacion",
+        "source": "generated",
+        "notice": null,
+        "left_items": [
+          "Si una planta está en suelo arenoso, crecerá menos.",
+          "Si una planta recibe más horas de luz, crecerá más rápido.",
+          "Observación: Planta 2 presenta menor crecimiento con suelo arcilloso y 5 horas de luz."
+        ],
+        "right_items": [
+          "Planta 2: suelo arcilloso, 5 horas de luz, crecimiento 7 cm.",
+          "Planta 1: suelo arenoso, 8 horas de luz, crecimiento 10 cm.",
+          "Planta 3: suelo arenoso, 10 horas de luz, crecimiento 13 cm."
+        ],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "e2851733-1357-4205-8523-622217ca27fb",
+        "user_id": "synthetic",
+        "module_id": "variety-science",
+        "step_id": "variety-step",
+        "question": "Un grupo de estudiantes investiga dos hipótesis sobre el efecto del tipo de suelo y la cantidad de luz en el crecimiento de plantas en el colegio. Las hipótesis son:\n\nSe registraron estas observaciones después de tres semanas:\n\n| Planta | Tipo de suelo | Horas de luz diaria | Crecimiento observado (cm) |\n|--------|---------------|---------------------|----------------------------|\n| 1      | Arenoso       | 8                   | 10                         |\n| 2      | Arcilloso     | 5                   | 7                          |\n| 3      | Arenoso       | 10                  | 13                         |\n\nRelaciona cada hipótesis con la observación que la respalda mejor.",
+        "type": "matching",
+        "options": [],
+        "left_items": [
+          "Si una planta está en suelo arenoso, crecerá menos.",
+          "Si una planta recibe más horas de luz, crecerá más rápido.",
+          "Observación: Planta 2 presenta menor crecimiento con suelo arcilloso y 5 horas de luz."
+        ],
+        "right_items": [
+          "Planta 2: suelo arcilloso, 5 horas de luz, crecimiento 7 cm.",
+          "Planta 1: suelo arenoso, 8 horas de luz, crecimiento 10 cm.",
+          "Planta 3: suelo arenoso, 10 horas de luz, crecimiento 13 cm."
+        ],
+        "expected": {
+          "type": "matching",
+          "correct_pairs": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              0
+            ]
+          ]
+        },
+        "learning_focus": "Contrastar hipótesis con observaciones usando una representación de datos en tabla.",
+        "option_explanations": [],
+        "pair_explanations": [
+          "La hipótesis sobre suelo arenoso se relaciona con las plantas que están en suelo arenoso: plantas 1 y 3. Se debe elegir la planta con menos crecimiento entre estas (planta 1 tiene 10 cm de crecimiento).",
+          "La hipótesis sobre horas de luz se relaciona con que la planta con más horas de luz (planta 3, 10 horas) tenga mayor crecimiento (13 cm).",
+          "La observación de planta 2, con suelo arcilloso y menos horas de luz, muestra menor crecimiento (7 cm), contrasta con las hipótesis y sirve como referencia para comparar."
+        ],
+        "rubric": "Evalúa que el estudiante identifique correctamente qué observación apoya cada hipótesis, mostrando comprensión de la relación entre suelo, luz y crecimiento de plantas.",
+        "hint": "Piensa en si el crecimiento menor o mayor se relaciona mejor con el tipo de suelo o con las horas de luz. Observa cuáles plantas se encuentran en suelo arenoso y cuáles tienen más luz.",
+        "explanation": "Para apoyar la hipótesis 1 se observa que las plantas en suelo arenoso presentan menor crecimiento que la que no está en suelo arenoso. Para la hipótesis 2 se observa que la planta con más horas de luz crece más. Así, las parejas correctas son hipótesis 1 con planta 2 (suelo arcilloso mayor crecimiento que arenoso) y hipótesis 2 con planta 3 (más luz, más crecimiento).",
+        "dimension": "representacion",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "Hipótesis y evidencia",
+          "concept": "hipotesis_y_evidencia",
+          "learning_goal": "Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación."
+        },
+        "grade_group": "6-7",
+        "expires_at": 1794017286821
+      }
+    }
+  ],
+  "traces": [
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"María está observando cómo cambian las plantas de su huerta durante una semana de mucho sol. Ella formula dos hipótesis:\\n\\n1. Si una planta recibe más agua, crecerá más rápido.\\n2. Si una planta está más expuesta al sol, sus hojas se pondrán más verdes.\\n\\nMaría tiene tres plantas y registra lo siguiente:\\n\\n| Planta | Agua diaria (ml) | Exposición al sol (horas) | Observación de crecimiento y color |\\n|--------|-----------------|---------------------------|-----------------------------------|\\n| A      | 300             | 8                         | Creció mucho, hojas muy verdes    |\\n| B      | 300             | 4                         | Creció menos, hojas verdes claras |\\n| C      | 100             | 8                         | Creció poco, hojas muy verdes     |\\n\\n¿Cuál hipótesis está mejor apoyada por las observaciones?\",\"type\":\"option\",\"rubric\":\"Se evalúa si el estudiante identifica correctamente cuál hipótesis está respaldada por los datos, justificando con relación entre cantidad de agua, exposición al sol, crecimiento o color de hojas.\",\"hint\":\"Observa cómo cambian el crecimiento y el color en función del agua y del sol que reciben las plantas. ¿Qué variable parece tener más influencia en cada aspecto?\",\"explanation\":\"Se comparan las plantas para ver la influencia del agua y del sol. El crecimiento es mayor con más agua (planta A y B comparadas con C), mientras que el color verde es más intenso con más sol (planta A y C con 8 horas frente a planta B con 4). Por eso, la hipótesis sobre el crecimiento con el agua está mejor apoyada.\",\"learning_focus\":\"Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación.\",\"options\":[\"La hipótesis de que más agua hace que la planta crezca más rápido está mejor apoyada, porque la planta con más agua crece más que la que tiene menos agua.\",\"La hipótesis de que más sol pone las hojas más verdes está mejor apoyada, porque la planta con más sol tiene hojas más verdes que las otras.\",\"Ninguna hipótesis está apoyada, porque el color y el crecimiento no muestran relación con el agua ni con el sol.\",\"Ambas hipótesis están igualmente apoyadas, porque todas las plantas tienen colores y crecimientos variables sin relación clara.\"],\"option_explanations\":[\"Las plantas con más agua (A y B) crecieron más que la planta con menos agua (C), mostrando que el agua influye en el crecimiento.\",\"Aunque la planta C tiene mucha exposición al sol y hojas muy verdes, la planta B con menos sol tiene hojas menos verdes, lo que apoya la hipótesis del sol y color de hojas.\",\"Los datos muestran relaciones entre agua y crecimiento, y sol y color de hojas, por lo que sí hay apoyo a hipótesis concretas.\",\"Las diferencias observadas sí guardan relación con las variables agua y sol, por lo que no están igualmente apoyadas, sino que una tiene más evidencia.\"],\"correct_index\":0}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"La hipótesis 1 dice que más agua hace crecer más rápido. Planta A y B tienen 300 ml y crecieron más que C con 100 ml, apoyando esta hipótesis. La hipótesis 2 dice que más sol pone hojas más verdes. Planta A y C tienen 8 horas y hojas muy verdes, B tiene 4 horas y hojas verdes claras, apoyando también esta hipótesis. Sin embargo, el enunciado pide cuál hipótesis está mejor apoyada. El crecimiento muestra una relación clara con el agua, mientras que el color con el sol es menos concluyente porque la planta C creció poco a pesar del sol. Por tanto, la hipótesis 1 está mejor apoyada. La opción 0 es correcta y sus justificaciones coinciden con los datos y el razonamiento.\",\"approved\":true,\"issue\":\"\"}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"En un aula, se colocaron tres tipos diferentes de telas para comparar cómo cambian al exponerlas durante tres días a la luz directa del sol. Se hicieron dos hipótesis:\\n\\n1. Si una tela está hecha de algodón, se decolorará más rápido.\\n2. Si una tela se moja con agua, se mantendrá protegida y cambiará menos de color.\\n\\nLas observaciones registradas fueron:\\n\\n| Tela    | Material  | Se mojó con agua | Cambio de color después de 3 días |\\n|---------|-----------|------------------|----------------------------------|\\n| Tela X  | Algodón   | No               | Cambio fuerte de color            |\\n| Tela Y  | Poliéster | Sí               | Cambio leve de color             |\\n| Tela Z  | Algodón   | Sí               | Cambio leve de color             |\\n\\nSegún estas observaciones, ¿cuál hipótesis está mejor respaldada? Explica tu respuesta.\",\"type\":\"text\",\"rubric\":\"Se evalúa que el estudiante identifique correctamente la hipótesis mejor respaldada por las observaciones y justifique con evidencias de la tabla, mostrando razonamiento coherente.\",\"hint\":\"Revisa qué telas cambiaron más o menos de color y cómo se relaciona con el material y si estuvieron mojadas.\",\"explanation\":\"Se comparan los cambios de color entre telas de algodón y poliéster, considerando si estuvieron mojadas, para determinar cuál hipótesis concuerda mejor con los resultados observados.\",\"learning_focus\":\"Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación.\",\"expected_text\":\"La hipótesis que está mejor respaldada es la segunda, que dice que si una tela se moja con agua, cambiará menos de color. Esto se ve porque tanto la Tela Y (poliéster mojada) como la Tela Z (algodón mojada) tuvieron un cambio leve de color, mientras que la Tela X (algodón sin mojar) tuvo un cambio fuerte de color. Por lo tanto, mojar la tela protege de la decoloración más que el tipo de material.\"}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"La tabla muestra que la Tela X (algodón, sin mojar) tuvo un cambio fuerte de color, mientras que la Tela Z (algodón, mojada) y la Tela Y (poliéster, mojada) tuvieron cambios leves. Esto indica que mojar la tela reduce el cambio de color, independientemente del material. Por tanto, la hipótesis 2 (\\\"Si una tela se moja con agua, se mantendrá protegida y cambiará menos de color\\\") está mejor respaldada. La hipótesis 1 no se cumple porque la Tela Z (algodón mojada) cambió poco, igual que la Tela Y (poliéster mojada).\",\"approved\":true,\"issue\":\"\"}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"Se midieron cambios en la temperatura y el tipo de superficie para analizar cómo afectan el calentamiento durante un día soleado. Se realizaron dos hipótesis:\\n\\n1. Si la superficie es de cemento, la temperatura aumenta más rápido.\\n2. Si la superficie tiene sombra, la temperatura se mantiene más baja.\\n\\nLas observaciones registradas al mediodía fueron:\\n\\n| Superficie   | Temperatura al inicio (°C) | Temperatura al mediodía (°C) | Exposición a sombra |\\n|--------------|----------------------------|------------------------------|--------------------|\\n| Zona A       | 20                         | 35                           | No                 |\\n| Zona B       | 20                         | 22                           | Sí                 |\\n| Zona C       | 20                         | 33                           | No                 |\\n\\n¿Cuáles hipótesis están apoyadas por las observaciones? Selecciona todas las correctas.\",\"type\":\"multiple_select\",\"rubric\":\"Se considera correcta toda selección que incluya la hipótesis sobre sombra (que reduce la temperatura) y la hipótesis sobre cemento (que aumenta la temperatura rápidamente). Se califican como incorrectas las hipótesis no apoyadas por las observaciones en la tabla. Son válidas explicaciones que relacionen las temperaturas con sombra o tipo de superficie, usando evidencias de los datos.\",\"hint\":\"Compara la temperatura de las zonas con sombra y sin sombra, y observa cómo cambian las temperaturas según la exposición y el material de la superficie. ¿Qué hipótesis explican mejor estos cambios?\",\"explanation\":\"La hipótesis sobre sombra está respaldada porque la zona con sombra (Zona B) tiene un aumento pequeño de temperatura (de 20 °C a 22 °C), mientras que las zonas sin sombra (A y C) tienen aumentos mayores (a 35 °C y 33 °C). También la hipótesis de que el cemento aumenta la temperatura rápidamente se valida porque las zonas A y C (que se infiere son de cemento por el apoyo a la hipótesis) alcanzan temperaturas mucho mayores que la zona con sombra. Por eso ambas hipótesis son coherentes con las observaciones.\",\"learning_focus\":\"Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación.\",\"options\":[\"Si la superficie es de cemento, la temperatura aumenta más rápido.\",\"Si la superficie tiene sombra, la temperatura se mantiene más baja.\",\"Si la superficie es de césped, la temperatura aumenta más rápido.\",\"Si la exposición es al aire libre, la temperatura disminuye.\"],\"option_explanations\":[\"Las temperaturas altas en zonas A y C sin sombra respaldan que el cemento (supuesto) hace que la temperatura aumente rápido.\",\"La baja temperatura en la zona con sombra (Zona B) confirma que la sombra mantiene la temperatura más baja.\",\"No hay evidencia de césped en las superficies, ni se observa aumento rápido relacionado con césped.\",\"Las temperaturas observadas no muestran que la exposición al aire libre disminuya temperatura; al contrario, sin sombra sube mucho.\"],\"correct_indices\":[0,1]}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"Las observaciones muestran que la Zona B, con sombra, tiene un aumento pequeño de temperatura (20 a 22 °C), mientras que las Zonas A y C, sin sombra, aumentan mucho más (20 a 35 °C y 33 °C). Esto apoya la hipótesis de que la sombra mantiene la temperatura más baja. Además, se infiere que las Zonas A y C son de cemento porque su temperatura aumenta rápido, apoyando la hipótesis sobre cemento. No hay datos sobre césped ni evidencia que relacione la exposición al aire libre con disminución de temperatura. Por tanto, las opciones 0 y 1 son correctas, coincidiendo con correct_indices.\",\"approved\":true,\"issue\":\"\"}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"En una escuela, tres recipientes diferentes se llenaron con agua a diferentes alturas para observar cómo cambia la evaporación al dejarse al sol durante una tarde. El profesor formuló dos hipótesis:\\n\\n1. Si el nivel de agua es mayor, se evaporará más agua.\\n2. Si el recipiente está expuesto a sol directo, la evaporación será mayor.\\n\\nLas observaciones hechas al final de la tarde fueron:\\n\\n| Recipiente | Nivel inicial de agua (cm) | ¿Estuvo al sol directo? | Nivel final de agua (cm) |\\n|------------|----------------------------|-------------------------|-------------------------|\\n| 1          | 20                         | Sí                      | 15                      |\\n| 2          | 10                         | Sí                      | 8                       |\\n| 3          | 20                         | No                      | 19                      |\\n\\nRelaciona cada hipótesis con el enunciado que mejor la apoya según las observaciones.\",\"type\":\"matching\",\"rubric\":\"Se evalúa que el estudiante identifique correctamente qué hipótesis se apoya en las observaciones y cuál no, justificando con la comparación de niveles y exposición al sol. La correspondencia correcta refleja comprensión del efecto de la exposición solar y nivel de agua sobre la evaporación.\",\"hint\":\"Observa cómo cambió el nivel de agua en cada recipiente y qué factor se relaciona más con una mayor evaporación.\",\"explanation\":\"Se compara la diferencia entre niveles inicial y final para cada recipiente y se analiza qué condición (nivel de agua o exposición al sol) coincide con la mayor evaporación observada. Las observaciones muestran que la exposición al sol tiene un mayor efecto que solo el nivel inicial, apoyando la segunda hipótesis.\",\"learning_focus\":\"Transferir el conocimiento sobre hipótesis y evidencia para decidir cuál condición influye más en el cambio físico observado.\",\"left_items\":[\"Hipótesis 1: Si el nivel de agua es mayor, se evaporará más agua.\",\"Hipótesis 2: Si el recipiente está expuesto a sol directo, la evaporación será mayor.\"  ,\"Observación A: Recipientes con mayor nivel inicial no pierden tanta agua si no están al sol.\" \t],\"right_items\":[\"La diferencia mayor en nivel de agua se dio entre recipientes expuestos al sol, sin importar el nivel inicial.\",\"El recipiente con alto nivel sin sol tuvo poca evaporación, mientras que el de menor nivel con sol perdió más agua.\",\"Las mayores pérdidas de nivel se relacionan con los recipientes bajo sol, no solo con el nivel inicial.\"],\"correct_pairs\":[[0,2],[1,0],[0,1]],\"pair_explanations\":[\"La hipótesis 1 es apoyada por la observación de que un mayor nivel no garantiza más evaporación si no hay sol.\",\"La hipótesis 2 es apoyada porque la mayor evaporación se dio en recipientes con exposición al sol.\",\"La observación A aporta evidencia contra la hipótesis 1, mostrando que la exposición al sol es más determinante.\" ]}}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"En el colegio, los estudiantes están investigando cómo el tipo de material de las botellas afecta el calentamiento del agua expuesta al sol durante dos horas. Formulan dos hipótesis:\\n\\n1. Si una botella es de plástico, el agua se calentará más rápido que en una botella de vidrio.\\n2. Si una botella está sin tapa, el agua cambiará menos de temperatura porque se enfría por evaporación.\\n\\nRegistraron las siguientes observaciones:\\n\\n| Botella | Material | Tiene tapa | Temperatura del agua antes (°C) | Temperatura del agua después (°C) |\\n|---------|----------|------------|---------------------------------|----------------------------------|\\n| 1       | Plástico | Sí         | 20                              | 30                               |\\n| 2       | Vidrio   | Sí         | 20                              | 27                               |\\n| 3       | Plástico | No         | 20                              | 23                               |\\n\\nRelaciona cada hipótesis con la observación que la apoya mejor.\",\"type\":\"matching\",\"rubric\":\"Cada hipótesis debe asignarse a la observación que la apoya claramente, basándose en comparación de datos sobre material y tapa. Son parejas uno a uno, no ambiguas.\",\"hint\":\"Piensa en cómo el material influye en la temperatura final y cómo la tapa puede afectar la evaporación y el cambio de temperatura.\",\"explanation\":\"Se comparan los efectos del material (plástico vs vidrio) y la presencia de tapa sobre la temperatura final del agua. Se observa que el agua en botella de plástico con tapa calentó más que vidrio; y que la botella plástico sin tapa calentó menos que la misma con tapa, lo que apoya las hipótesis.\",\"learning_focus\":\"transferencia\",\"left_items\":[\"Hipótesis 1: Si una botella es de plástico, el agua se calentará más rápido que en una botella de vidrio.\",\"Hipótesis 2: Si una botella está sin tapa, el agua cambiará menos de temperatura porque se enfría por evaporación.\"  \t,\"Observación: Botella de plástico con tapa sube de 20°C a 30°C.\"],\"right_items\":[\"Botella plástico con tapa calentó más que la de vidrio con tapa (27°C).\",\"Botella de plástico sin tapa subió de 20°C a 23°C, menos que la misma con tapa.\",\"Hipótesis de calentamiento por material apoyada por mayor aumento de temperatura en botella plástica tapada.\"],\"correct_pairs\":[[0,2],[1,1],[2,0]],\"pair_explanations\":[\"El mayor aumento de temperatura en botella plástica con tapa apoya que el material plastico calienta más rápido.\",\"La botella sin tapa tiene menor aumento de temperatura, apoyando que la evaporación enfría y reduce el cambio.\",\"La observación muestra el contraste entre materiales con tapa y apoya la hipótesis sobre calentamiento según material.\"]}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"La hipótesis 1 dice que el agua en botella de plástico se calentará más rápido que en vidrio. Observamos que la botella 1 (plástico con tapa) subió de 20°C a 30°C, mientras que la botella 2 (vidrio con tapa) subió a 27°C, apoyando esta hipótesis. La hipótesis 2 dice que si la botella está sin tapa, el agua cambiará menos de temperatura por evaporación. La botella 3 (plástico sin tapa) subió solo a 23°C, menos que la botella 1 (plástico con tapa), apoyando esta hipótesis. Las observaciones se asignan así: Hipótesis 1 con la observación del mayor aumento en botella plástica con tapa (índice 2 en right_items), Hipótesis 2 con la observación del menor aumento en botella plástica sin tapa (índice 1), y la observación restante (índice 0) corresponde a la comparación entre materiales con tapa. La clave [[0,2],[1,1],[2,0]] corresponde a: Hipótesis 1 con right_items[2], Hipótesis 2 con right_items[1], y Observación con right_items[0]. Esto es correcto y no ambiguo.\",\"approved\":true,\"issue\":\"\"}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"Un grupo de estudiantes quiere investigar cómo afecta la cantidad de tiempo que una lámpara LED se enciende a la temperatura que alcanza una taza de agua. Formulan dos hipótesis:\\n\\n1. Si la lámpara está encendida más tiempo, el agua se calentará más.\\n2. Si la lámpara está encendida un tiempo corto, el agua no cambiará de temperatura.\\n\\nRealizaron la siguiente prueba, midiendo la temperatura antes y después de encender la lámpara:\\n\\n| Prueba | Tiempo encendida (minutos) | Temperatura inicial del agua (°C) | Temperatura final del agua (°C) |\\n|--------|----------------------------|-----------------------------------|---------------------------------|\\n| 1      | 5                          | 20                                | 21                              |\\n| 2      | 15                         | 20                                | 25                              |\\n| 3      | 0                          | 20                                | 20                              |\\n\\n¿Qué deben hacer los estudiantes para comprobar si sus hipótesis son correctas?\",\"type\":\"option\",\"rubric\":\"Se evalúa que el estudiante planifique un procedimiento para comparar tiempos y temperaturas, buscando evidencia que apoye o refute las hipótesis, con pasos coherentes y control de variables.\",\"hint\":\"Piensa qué observación directa o medición puedes hacer para ver si más tiempo encendida la lámpara calienta más el agua.\",\"explanation\":\"Para comprobar las hipótesis, es necesario comparar la temperatura inicial y final en cada prueba, y relacionar el tiempo que la lámpara estuvo encendida con el cambio de temperatura, controlando que otras condiciones sean iguales.\",\"learning_focus\":\"metacognicion\",\"options\":[\"Medir la temperatura del agua antes y después de encender la lámpara por distintos tiempos y comparar los cambios.\",\"Solo observar si el agua cambia color cuando la lámpara está encendida.\",\"Encender la lámpara siempre el mismo tiempo y medir la temperatura después.\",\"Medir solo la temperatura inicial y asumir que no cambia con el tiempo que la lámpara está encendida.\"],\"option_explanations\":[\"Esta opción indica un plan adecuado para comprobar las hipótesis, midiendo temperatura y variando el tiempo de encendido.\",\"Observar el color no da información sobre temperatura, por lo que no ayuda a comprobar las hipótesis.\",\"No variar el tiempo de encendido no permite comparar el efecto de diferentes duraciones, por lo que no permite probar las hipótesis.\",\"Medir solo la temperatura inicial no es suficiente para observar cambios relacionados con el tiempo de encendido, por eso no es una buena estrategia.\"],\"correct_index\":0}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"Las hipótesis plantean que más tiempo encendida la lámpara calienta más el agua y que un tiempo corto no cambia la temperatura. La tabla muestra que a 5 min la temperatura sube 1°C, a 15 min sube 5°C y a 0 min no cambia. Para comprobarlas, se debe medir temperatura antes y después con distintos tiempos y comparar los cambios. La opción 0 es correcta porque propone medir y comparar temperaturas variando el tiempo. Las otras opciones no permiten comparar o no miden temperatura, por lo que no sirven para comprobar las hipótesis.\",\"approved\":true,\"issue\":\"\"}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"Un grupo de estudiantes quiere comprobar cómo afecta al enfriamiento del agua en recipientes diferentes materiales y la exposición al viento. Formulan dos hipótesis:\\n\\n1. Si un recipiente es de metal y está al viento, el agua se enfriará más rápido.\\n2. Si un recipiente es de plástico y no está al viento, el agua se enfriará menos.\\n\\nRegistraron las siguientes observaciones después de 30 minutos:\\n\\n| Recipiente | Material | Exposición al viento | Temperatura inicial (°C) | Temperatura final (°C) |\\n|------------|----------|---------------------|-------------------------|-----------------------|\\n| A          | Metal    | Sí                  | 30                      | 20                    |\\n| B          | Plástico | No                  | 30                      | 27                    |\\n| C          | Metal    | No                  | 30                      | 25                    |\\n\\n¿Con base en estas observaciones, cuál hipótesis está mejor apoyada? Explica tu respuesta.\",\"type\":\"text\",\"rubric\":\"Evalúa si el estudiante identifica correctamente cuál hipótesis se apoya en los datos y justifica con observaciones concretas de temperaturas y condiciones dadas.\",\"hint\":\"Mira cómo cambia la temperatura del agua según el material y si está expuesto al viento. Compara los recipientes para ver cuál hipótesis coincide mejor con esos cambios.\",\"explanation\":\"Para resolver, se comparan los cambios de temperatura en recipientes de diferente material y condición de viento. Se observa que el recipiente de metal expuesto al viento se enfría más, y el de plástico sin viento menos, apoyando ambas hipótesis pero con mayor evidencia en la primera.\",\"learning_focus\":\"Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación.\",\"expected_text\":\"La hipótesis 1 está mejor apoyada porque el recipiente de metal expuesto al viento (Recipiente A) tuvo la mayor caída de temperatura (de 30 a 20 °C), mostrando que el viento y material metálico favorecen el enfriamiento. En contraste, el recipiente de plástico sin viento (Recipiente B) tuvo menor cambio de temperatura (de 30 a 27 °C), apoyando la hipótesis 2, pero la diferencia más marcada respalda principalmente la hipótesis 1.\"}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"Las observaciones muestran que el recipiente A (metal y viento) bajó de 30 a 20 °C, un enfriamiento de 10 °C; el B (plástico sin viento) bajó de 30 a 27 °C, solo 3 °C; y el C (metal sin viento) bajó 5 °C. La hipótesis 1 dice que metal y viento causan mayor enfriamiento, lo que se cumple claramente en A. La hipótesis 2 dice que plástico sin viento enfría menos, lo que también se cumple en B, pero el cambio es menor que en A. Por tanto, ambas hipótesis tienen apoyo, pero la 1 está mejor respaldada por la mayor diferencia observada. La solución esperada coincide con esta conclusión y justifica con datos concretos.\",\"approved\":true,\"issue\":\"\"}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"Un grupo de estudiantes está investigando cómo afecta la cantidad de azúcar disuelta en agua a la velocidad con la que el agua cambia de temperatura al ponerla al sol durante 1 hora. Plantean dos hipótesis:\\n\\n1. Si el agua tiene más azúcar disuelta, se calentará más rápido.\\n2. Si el agua tiene menos azúcar, su temperatura cambiará menos.\\n\\nRealizaron la siguiente medición de temperatura:\\n\\n| Muestra | Cantidad de azúcar (gramos) | Temperatura inicial (°C) | Temperatura final (°C) |\\n|---------|-----------------------------|--------------------------|------------------------|\\n| 1       | 0                           | 20                       | 27                     |\\n| 2       | 10                          | 20                       | 30                     |\\n| 3       | 20                          | 20                       | 32                     |\\n\\nDe acuerdo con estas observaciones, ¿cuáles hipótesis están apoyadas? Selecciona todas las correctas.\",\"type\":\"multiple_select\",\"rubric\":\"Se consideran correctas todas las hipótesis que corresponden correctamente con los datos de temperatura inicial y final en relación con la cantidad de azúcar, mostrando una interpretación coherente del efecto de la cantidad de azúcar sobre el calentamiento del agua.\",\"hint\":\"Observa cómo cambia la temperatura del agua en las muestras con distinta cantidad de azúcar y compara con cada hipótesis sobre el efecto del azúcar en el calentamiento.\",\"explanation\":\"Las observaciones muestran que a mayor azúcar disuelta, la temperatura final es mayor, lo que apoya la primera hipótesis. Además, a menor azúcar, el cambio de temperatura es menor, apoyando también la segunda hipótesis. Por tanto, ambas hipótesis están respaldadas por los datos.\",\"learning_focus\":\"Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación.\",\"options\":[\"Solo la hipótesis 1 está apoyada por las observaciones.\",\"Solo la hipótesis 2 está apoyada por las observaciones.\",\"Ambas hipótesis 1 y 2 están apoyadas por las observaciones.\",\"Ninguna hipótesis está apoyada por las observaciones.\"],\"option_explanations\":[\"Los datos muestran que a más azúcar, el agua se calentó más, apoyando la hipótesis 1.\",\"Los datos muestran que a menos azúcar, el agua cambió menos de temperatura, apoyando la hipótesis 2, no solo esta es apoyada.\",\"Los datos indican que a mayor azúcar la temperatura sube más y a menor azúcar sube menos, ambas hipótesis coinciden con las observaciones.\",\"Los datos muestran diferencias claras en la temperatura final según la cantidad de azúcar, por lo que al menos una hipótesis es apoyada.\"],\"correct_indices\":[2,1]}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"Las observaciones muestran que la muestra con 0 g de azúcar subió de 20 a 27 °C (7 °C de aumento), la de 10 g subió a 30 °C (10 °C de aumento) y la de 20 g a 32 °C (12 °C de aumento). Esto indica que a mayor azúcar, el agua se calentó más rápido, apoyando la hipótesis 1. También muestra que a menor azúcar, el cambio de temperatura es menor, apoyando la hipótesis 2. Por tanto, ambas hipótesis están respaldadas por los datos. Las opciones correctas son la 2 (solo hipótesis 2) y la 3 (ambas hipótesis), pero la opción 2 es incorrecta porque la hipótesis 1 también está apoyada. La clave correcta es solo la opción 3 (índice 2).\",\"approved\":false,\"issue\":\"La clave incluye incorrectamente la opción 1 (índice 1) que dice que solo la hipótesis 2 está apoyada, pero los datos apoyan ambas hipótesis. La única opción correcta es la 3 (índice 2). Además, la opción 1 no corresponde a la hipótesis 2 sino a la 1, hay confusión en la clave y justificaciones.\"}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"Un grupo de estudiantes realizó un experimento para comprobar cómo afectan el tipo de suelo y la cantidad de agua al crecimiento de las plantas durante una semana. Formulan dos hipótesis:\\n\\n1. Si una planta está en suelo arenoso, crecerá menos.\\n2. Si una planta recibe más agua, crecerá más.\\n\\nLas observaciones registradas fueron:\\n\\n| Planta | Tipo de suelo | Agua diaria (ml) | Crecimiento en 7 días (cm) |\\n|--------|---------------|-----------------|----------------------------|\\n| 1      | Arenoso       | 400             | 5                          |\\n| 2      | Arcilloso     | 200             | 3                          |\\n| 3      | Arenoso       | 200             | 2                          |\\n\\n¿Cuáles hipótesis están apoyadas por estas observaciones? Selecciona todas las que corresponda.\",\"type\":\"multiple_select\",\"rubric\":\"Evalúa que el estudiante identifique correctamente que ambas hipótesis tienen soporte en las observaciones: las plantas con suelo arenoso crecen menos (1 y 3 vs 2), y las plantas con más agua crecen más (1 vs 2 y 3). Debe seleccionar ambas hipótesis y omitir respuestas erróneas.\",\"hint\":\"Observa qué plantas crecieron más y relaciona ese crecimiento con el tipo de suelo y la cantidad de agua que recibieron.\",\"explanation\":\"Para comprobar la primera hipótesis, comparamos plantas en suelo arenoso (1 y 3) con la planta en suelo arcilloso (2); la planta en arcilloso creció más que la planta 3, lo que apoya que el suelo arenoso limita el crecimiento. Para la segunda hipótesis, comparando las plantas que reciben 400 ml (planta 1) con las que reciben 200 ml (plantas 2 y 3), la que recibe más agua creció más; por lo tanto, ambas hipótesis están apoyadas.\",\"learning_focus\":\"Formular y contrastar hipótesis sobre cambios físicos usando observaciones y condiciones de comparación.\",\"options\":[\"Solo la hipótesis 1 está apoyada por las observaciones.\",\"Solo la hipótesis 2 está apoyada por las observaciones.\",\"Ambas hipótesis están apoyadas por las observaciones.\",\"Ninguna de las hipótesis está apoyada por las observaciones.\"],\"option_explanations\":[\"La hipótesis 1 está apoyada pero no es la única; esta opción ignora el efecto del agua.\",\"La hipótesis 2 está apoyada pero no es la única; esta opción ignora el efecto del tipo de suelo.\",\"Correcto: ambas hipótesis están respaldadas por las observaciones.\",\"Incorrecto: los datos muestran que ambas hipótesis son apoyadas.\"],\"correct_indices\":[2,0]}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"La planta 1 (suelo arenoso, 400 ml) creció 5 cm, la planta 2 (suelo arcilloso, 200 ml) creció 3 cm y la planta 3 (suelo arenoso, 200 ml) creció 2 cm. Comparando plantas en suelo arenoso (1 y 3) con la planta en suelo arcilloso (2), la planta en arcilloso creció más que la planta 3, apoyando la hipótesis 1. Comparando plantas con diferente agua, la planta con 400 ml creció más que las que recibieron 200 ml, apoyando la hipótesis 2. Por tanto, ambas hipótesis están apoyadas. Sin embargo, la clave incluye índices [2,0], que corresponden a \\\"Ambas hipótesis están apoyadas\\\" y \\\"Solo la hipótesis 1 está apoyada\\\", lo cual es contradictorio porque solo debe seleccionarse la opción correcta, que es la tercera (índice 2).\",\"approved\":false,\"issue\":\"La clave incluye dos opciones cuando solo una es correcta; debe seleccionarse únicamente la opción 'Ambas hipótesis están apoyadas por las observaciones' (índice 2).\"}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"Un grupo de estudiantes investiga dos hipótesis sobre el efecto del tipo de suelo y la cantidad de luz en el crecimiento de plantas en el colegio. Las hipótesis son:\\n\\n1. Si una planta está en suelo arenoso, crecerá menos.\\n2. Si una planta recibe más horas de luz, crecerá más rápido.\\n\\nSe registraron estas observaciones después de tres semanas:\\n\\n| Planta | Tipo de suelo | Horas de luz diaria | Crecimiento observado (cm) |\\n|--------|---------------|---------------------|----------------------------|\\n| 1      | Arenoso       | 8                   | 10                         |\\n| 2      | Arcilloso     | 5                   | 7                          |\\n| 3      | Arenoso       | 10                  | 13                         |\\n\\nRelaciona cada hipótesis con la observación que la respalda mejor.\",\"type\":\"matching\",\"rubric\":\"Evalúa que el estudiante identifique correctamente qué observación apoya cada hipótesis, mostrando comprensión de la relación entre suelo, luz y crecimiento de plantas.\",\"hint\":\"Piensa en si el crecimiento menor o mayor se relaciona mejor con el tipo de suelo o con las horas de luz. Observa cuáles plantas se encuentran en suelo arenoso y cuáles tienen más luz.\",\"explanation\":\"Para apoyar la hipótesis 1 se observa que las plantas en suelo arenoso presentan menor crecimiento que la que no está en suelo arenoso. Para la hipótesis 2 se observa que la planta con más horas de luz crece más. Así, las parejas correctas son hipótesis 1 con planta 2 (suelo arcilloso mayor crecimiento que arenoso) y hipótesis 2 con planta 3 (más luz, más crecimiento).\",\"learning_focus\":\"Contrastar hipótesis con observaciones usando una representación de datos en tabla.\",\"left_items\":[\"Si una planta está en suelo arenoso, crecerá menos.\",\"Si una planta recibe más horas de luz, crecerá más rápido.\" \t, \"Observación: Planta 2 presenta menor crecimiento con suelo arcilloso y 5 horas de luz.\"],\"right_items\":[\"Planta 1: suelo arenoso, 8 horas de luz, crecimiento 10 cm.\",\"Planta 3: suelo arenoso, 10 horas de luz, crecimiento 13 cm.\",\"Planta 2: suelo arcilloso, 5 horas de luz, crecimiento 7 cm.\"],\"correct_pairs\":[[0,0],[1,1],[2,2]],\"pair_explanations\":[\"La hipótesis sobre suelo arenoso se relaciona con las plantas que están en suelo arenoso: plantas 1 y 3. Se debe elegir la planta con menos crecimiento entre estas (planta 1 tiene 10 cm de crecimiento).\",\"La hipótesis sobre horas de luz se relaciona con que la planta con más horas de luz (planta 3, 10 horas) tenga mayor crecimiento (13 cm).\",\"La observación de planta 2, con suelo arcilloso y menos horas de luz, muestra menor crecimiento (7 cm), contrasta con las hipótesis y sirve como referencia para comparar.\"]}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"La hipótesis 1 dice que suelo arenoso implica menor crecimiento. Plantas 1 y 3 están en suelo arenoso con crecimientos 10 y 13 cm. La hipótesis 2 dice que más horas de luz implica mayor crecimiento. Planta 3 tiene más luz (10 h) y mayor crecimiento (13 cm). La observación de planta 2 (suelo arcilloso, 5 h luz, crecimiento 7 cm) es menor que planta 1 (arenoso, 8 h, 10 cm), lo que contradice la hipótesis 1 si se interpreta literalmente. Sin embargo, la hipótesis 1 se relaciona con plantas en suelo arenoso, y la hipótesis 2 con horas de luz. La pareja hipótesis 1 con planta 1 (suelo arenoso, 10 cm) y hipótesis 2 con planta 3 (más luz, 13 cm) es correcta. La observación planta 2 es referencia. La clave asigna hipótesis 1 a planta 1, hipótesis 2 a planta 3 y observación a planta 2, lo cual es coherente con el enunciado y las hipótesis.\",\"approved\":true,\"issue\":\"\"}"
+    }
+  ]
+}

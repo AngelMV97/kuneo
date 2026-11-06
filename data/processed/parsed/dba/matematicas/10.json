@@ -1,0 +1,455 @@
+[
+  {
+    "id": "fb7eb9cd-763d-42ab-8375-076d8dc527ac",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 1,
+    "subject": "mathematics",
+    "grade_range": "10",
+    "content": {
+      "competency": "Utiliza las propiedades de los números reales para justificar procedimientos y diferentes representaciones de subconjuntos de ellos.",
+      "evidence": [
+        "Argumenta la existencia de los números irracionales.",
+        "Utiliza representaciones geométricas de los números irracionales y los ubica en una recta numérica.",
+        "Describe la propiedad de densidad de los números reales y utiliza estrategias para calcular un número entre otros dos."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "A partir de construcciones como la de la figura elabora argumentos para mostrar que raíz cuadrada de dos no puede representarse como la división de dos enteros. Los catetos de los triángulos son números enteros."
+        },
+        {
+          "type": "imagen",
+          "content": {
+            "description": "tres triángulos rectángulos mostrando una construcción sucesiva."
+          }
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Identifica que en cada nuevo elemento de la sucesión el nuevo triángulo construido es rectángulo isósceles."
+          ]
+        }
+      ],
+      "concepts": [],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 3,
+      "evidence_count": 3
+    }
+  },
+  {
+    "id": "537598c2-7435-4bee-b70d-ddfe26d79068",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 2,
+    "subject": "mathematics",
+    "grade_range": "10",
+    "content": {
+      "competency": "Utiliza las propiedades algebraicas de equivalencia y de orden de los números reales para comprender y crear estrategias que permitan compararlos y comparar subconjuntos de ellos (por ejemplo, intervalos).",
+      "evidence": [
+        "Ordena de menor a mayor o viceversa números reales.",
+        "Describe el ‘efecto’ que tendría realizar operaciones con números reales (positivos, negativos, mayores y menores que 1) sobre la cantidad.",
+        "Utiliza las propiedades de la equivalencia para realizar cálculos con números reales."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "A la ‘máquina’ de la figura se le introducen números, los procesa de acuerdo con una regla y arroja los resultados. La máquina puede realizar los siguientes procesos:"
+        },
+        {
+          "type": "lista",
+          "content": [
+            "Proceso 1: “Toma el número de entrada y lo divide entre 0,25”. Proceso 2: “Toma el número de entrada y lo multiplica por 5”. Proceso 3. “Toma el número de entrada y le saca raíz cuadrada”."
+          ]
+        },
+        {
+          "type": "imagen",
+          "content": {
+            "description": "máquina que representa la analogía del comportamiento de una función."
+          }
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Determina los conjuntos de salida, si se toman los números de entrada en cada uno de los conjuntos dados;"
+          ]
+        },
+        {
+          "type": "lista",
+          "content": [
+            "Conjunto 1: 1/10, 1/100, 1/1000 Conjunto 2: [0, 0.5) Conjunto 3: [5,∞) Conjunto 4: [-1.5, -0.5]"
+          ]
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Margarita dijo “yo pensaba que dividir siempre daba como resultado un número más pequeño,ahora me doy cuenta que no”. Analiza la validez de la afirmación y justifica la decisión tomada."
+          ]
+        }
+      ],
+      "concepts": [],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 6,
+      "evidence_count": 3
+    }
+  },
+  {
+    "id": "c476a3de-ba9a-47d8-8fd0-dccddf761f46",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 3,
+    "subject": "mathematics",
+    "grade_range": "10",
+    "content": {
+      "competency": "Resuelve problemas que involucran el significado de medidas de magnitudes relacionales (velocidad media, aceleración media) a partir de tablas, gráficas y expresiones algebraicas.",
+      "evidence": [
+        "Reconoce la relación funcional entre variables asociadas a problemas.",
+        "Interpreta y expresa magnitudes definidas como razones entre magnitudes (velocidad, aceleración, etc.), con las unidades respectivas y las relaciones entre ellas.",
+        "Utiliza e interpreta la razón de cambio para resolver problemas relacionados con magnitudes como velocidad, aceleración.",
+        "Explica las respuestas y resultados en un problema usando las expresiones algebraicas y la pertinencia de las unidades utilizadas en los cálculos."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "Al arrojar piedras a un lago de aguas tranquilas se van formando ondas circulares concéntricas, las cuales van aumentando de tamaño a medida que transcurre el tiempo. Una onda exterior tiene un radio de 80 cm y la rapidez con la que aumenta su radio es de 0,3 m/s. El aumento del tamaño de las ondas significa que aumenta el radio y por lo tanto el área de los círculos concéntricos."
+        },
+        {
+          "type": "imagen",
+          "content": {
+            "description": "ondas con radio R1 y R2 formadas en un lago."
+          }
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Discute la rapidez con la cual aumenta el área del círculo formado por la onda. Completa la tabla calculando la rapidez con la que aumenta el área de las ondas, para t = 1, 2, 3, respectivamente."
+          ]
+        },
+        {
+          "type": "tabla",
+          "content": {
+            "description": "descripcion: tabla con las columnas Radio (m), Área del circulo (m^2), Tiempo (seg), y Rapidez (m^2/s)."
+          }
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Discute sobre las magnitudes que son razones de otras magnitudes, sus unidades y la solución de ecuaciones."
+          ]
+        }
+      ],
+      "concepts": [
+        "medida"
+      ],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 5,
+      "evidence_count": 4
+    }
+  },
+  {
+    "id": "cc130ca5-01e5-4be5-8e81-1e76d2d6c29d",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 4,
+    "subject": "mathematics",
+    "grade_range": "10",
+    "content": {
+      "competency": "Comprende y utiliza funciones para modelar fenómenos periódicos y justifica las soluciones.",
+      "evidence": [
+        "Reconoce el significado de las razones trigonométricas en un triángulo rectángulo para ángulos agudos, en particular, seno, coseno y tangente.",
+        "Explora, en una situación o fenómeno de variación periódica, valores, condiciones, relaciones o comportamientos, a través de diferentes representaciones.",
+        "Calcula algunos valores de las razones seno y coseno para ángulos no agudos, auxiliándose de ángulos de referencia inscritos en el círculo unitario.",
+        "Reconoce algunas aplicaciones de las funciones trigonométricas en el estudio de fenómenos diversos de variación periódica, por ejemplo: movimiento circular, movimiento del péndulo, del pistón, ciclo de la respiración, entre otros.",
+        "Modela fenómenos periódicos a través de funciones trigonométricas."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "Construye un disco de radio 12 cm con diferentes colores, de tal forma que cada franja de color se encuentre a una distancia determinada con respecto al centro del disco. El primer color (azul claro) se encuentra desde el centro del disco hasta un radio de 5 cm y los demás colores tienen un ancho de un centímetro."
+        },
+        {
+          "type": "imagen",
+          "content": {
+            "description": "círculos concentricos de diferentes colores."
+          }
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Representa en un plano cartesiano el movimiento que realiza una marca que se hace en algunos de las franjas del disco, cuando éste se hace girar. El centro del disco de colores está en (0, 0)."
+          ]
+        }
+      ],
+      "concepts": [],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 3,
+      "evidence_count": 5
+    }
+  },
+  {
+    "id": "474c7680-3c63-4627-ad5d-bd822da02a7b",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 5,
+    "subject": "mathematics",
+    "grade_range": "10",
+    "content": {
+      "competency": "Explora y describe las propiedades de los lugares geométricos y de sus transformaciones a partir de diferentes representaciones.",
+      "evidence": [
+        "Localiza objetos geométricos en el plano cartesiano.",
+        "Identifica las propiedades de lugares geométricos a través de sus representación en un sistema de referencia.",
+        "Utiliza las expresiones simbólicas de las cónicas y propone los rangos de variación para obtener una gráfica requerida.",
+        "Representa lugares geométricos en el plano cartesiano, a partir de su expresión algebraica."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "Con un software de geometría dinámica y mediante la escritura de las ecuaciones diseña la imagen de la figura. Realiza su propio diseño."
+        },
+        {
+          "type": "imagen",
+          "content": {
+            "description": "figura en un plano de coordenadas, formada por diversas ecuaciones."
+          }
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Realiza un vídeo (editor de videos Windows Movie Maker de office o Virtual Dub) acerca del paso a paso del diseño. En caso de no contar con un software de geometría dinámica realiza en papel milimetrado la construcción."
+          ]
+        }
+      ],
+      "concepts": [],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 3,
+      "evidence_count": 4
+    }
+  },
+  {
+    "id": "a946ece2-70ee-4214-a859-ef5636abcba5",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 6,
+    "subject": "mathematics",
+    "grade_range": "10",
+    "content": {
+      "competency": "Comprende y usa el concepto de razón de cambio para estudiar el cambio promedio y el cambio alrededor de un punto y lo reconoce en representaciones gráficas, numéricas y algebraicas.",
+      "evidence": [
+        "Utiliza representaciones gráficas o numéricas para tomar decisiones, frente a la solución de problemas prácticos.",
+        "Determina la tendencia numérica en relación con problemas prácticos como predicción del comportamiento futuro.",
+        "Relaciona características algebraicas de las funciones, sus gráficas y procesos de aproximación sucesiva."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "Difusión del sarampión. La difusión del sarampión en cierta escuela está dada por la expresión, P(t)=200/[1+e^(5-t)] donde t representa el número de días desde la aparición del sarampión, y P(t) representa el número total de estudiantes que se han contagiado hasta la fecha."
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Estima tanto el número inicial de estudiantes infectados como el número de estudiantes que se contagiarán."
+          ]
+        },
+        {
+          "type": "imagen",
+          "content": {
+            "description": "gráfica que muestra el aumento de estudiantes contagiados P(t) a lo largo del tiepo."
+          }
+        }
+      ],
+      "concepts": [],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 3,
+      "evidence_count": 3
+    }
+  },
+  {
+    "id": "13d08585-94f7-4237-849e-3430ed18e212",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 7,
+    "subject": "mathematics",
+    "grade_range": "10",
+    "content": {
+      "competency": "Resuelve problemas mediante el uso de las propiedades de las funciones y usa representaciones tabulares, gráficas y algebraicas para estudiar la variación, la tendencia numérica y las razones de cambio entre magnitudes.",
+      "evidence": [
+        "Utiliza representaciones gráficas o numéricas para tomar decisiones en problemas prácticos.",
+        "Usa la pendiente de la recta tangente como razón de cambio, la reconoce y verbaliza en representaciones gráficas, numéricas y algebraicas.",
+        "Utiliza la razón entre magnitudes para tomar decisiones sobre el cambio.",
+        "Relaciona características algebraicas de las funciones, sus gráficas y procesos de aproximación sucesiva."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "Al lanzar un cohete, el combustible se quema durante algunos segundos, acelerando hacia arriba. Después de consumirse el combustible, el cohete sigue ascendiendo durante un tiempo y luego comienza a caer. Una pequeña carga explosiva expulsa un paracaídas poco después que el cohete comienza a descender. El paracaídas evita que el cohete se estrelle. La gráfica muestra los datos de velocidad durante el vuelo."
+        },
+        {
+          "type": "imagen",
+          "content": {
+            "description": "gráfica de la velocidad del vuelo (Pies/s) durante el tiempo posterior al lanzamiento."
+          }
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Utiliza la gráfica para determinar: la velocidad del cohete cuando se para el motor, el tiempo de funcionamiento del motor, el tiempo cuando alcanzó el cohete el punto más alto y su velocidad en ese momento."
+          ]
+        }
+      ],
+      "concepts": [
+        "razon"
+      ],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 3,
+      "evidence_count": 4
+    }
+  },
+  {
+    "id": "735dfb31-39ea-43a0-8eb9-4ca66e36fb43",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 8,
+    "subject": "mathematics",
+    "grade_range": "10",
+    "content": {
+      "competency": "Selecciona muestras aleatorias en poblaciones grandes para inferir el comportamiento de las variables en estudio. Interpreta, valora y analiza críticamente los resultados y las inferencias presentadas en estudios estadísticos.",
+      "evidence": [
+        "Define la población de la cual va a extraer las muestras.",
+        "Define el tamaño y el método de selección de la muestra.",
+        "Construye gráficas para representar las distribuciones de los datos muestrales y encuentra los estadígrafos adecuados. Usa software cuando sea posible.",
+        "Hace inferencias sobre los parámetros basadas en los estadígrafos calculados.",
+        "Hace análisis críticos de las conclusiones de los estudios presentados en medios de comunicación o en artículos científicos."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "Con la información que se presenta tanto en la página web (http://banrep.gov.co/es/encuestaexpectativas-trimestral) como en la siguiente ficha técnica,"
+        },
+        {
+          "type": "imagen",
+          "content": {
+            "description": "ficha técnica del estudio sobre las expectativas económicas."
+          }
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Elabora un informe crítico al estudio realizado por el Banco de la República sobre las expectativas económicas."
+          ]
+        }
+      ],
+      "concepts": [],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 3,
+      "evidence_count": 5
+    }
+  },
+  {
+    "id": "780a4156-6d2a-4fe4-a1a3-6ceb4607f6b3",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 9,
+    "subject": "mathematics",
+    "grade_range": "10",
+    "content": {
+      "competency": "Comprende y explica el carácter relativo de las medidas de tendencias central y de dispersión, junto con algunas de sus propiedades, y la necesidad de complementar una medida con otra para obtener mejores lecturas de los datos.",
+      "evidence": [
+        "Encuentra las medidas de tendencia central y de dispersión, usando, cuando sea posible, herramientas tecnológicas.",
+        "Interpreta y compara lo que representan cada una de las medidas de tendencia central en un conjunto de datos.",
+        "Interpreta y compara lo que representan cada una de las medidas de dispersión en un conjunto de datos.",
+        "Usa algunas de las propiedades de las medidas de tendencia central y de dispersión para caracterizar un conjunto de datos.",
+        "Formula conclusiones sobre la distribución de un conjunto de datos, empleando más de una medida."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "Se realizó un estudio para determinar la durabilidad de dos marcas de llantas para moto, para esto, se escogieron al azar 20 llantas de cada marca y se pusieron a prueba. Los resultados se presentan en las siguientes tablas."
+        },
+        {
+          "type": "tabla",
+          "content": {
+            "description": "descripcion: registro de la durabilidad en meses de dos marcas de llantas."
+          }
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Encuentra la medida que mejor representa los datos, justifica su elección y decide cuál es la marca con mayor durabilidad."
+          ]
+        }
+      ],
+      "concepts": [
+        "medida"
+      ],
+      "misconceptions": []
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 3,
+      "evidence_count": 5
+    }
+  },
+  {
+    "id": "85493f16-e70e-420e-90d3-f39d9775b868",
+    "type": "competency_unit",
+    "source": "dba",
+    "dba_number": 10,
+    "subject": "mathematics",
+    "grade_range": "10",
+    "content": {
+      "competency": "Propone y realiza experimentos aleatorios en contextos de las ciencias naturales o sociales y predice la ocurrencia de eventos, en casos para los cuales el espacio muestral es indeterminado.",
+      "evidence": [
+        "Plantea o identifica una pregunta cuya solución requiera de la realización de un experimento aleatorio.",
+        "Identifica la población y las variables en estudio.",
+        "Encuentra muestras aleatorias para hacer predicciones sobre el comportamiento de las variables en estudio.",
+        "Usa la probabilidad frecuencial para interpretar la posibilidad de ocurrencia de un evento dado.",
+        "Infiere o valida la probabilidad de ocurrencia del evento en estudio."
+      ],
+      "examples": [
+        {
+          "type": "texto",
+          "content": "En una revista médica se menciona lo siguiente: “Se ha estimado que la probabilidad de que una persona fumadora muera de una enfermedad asociada con el consumo del cigarrillo es de aproximadamente 1/2”."
+        },
+        {
+          "type": "pregunta",
+          "content": [
+            "Se trata de describir un método posible por medio del cual se haya podido llegar a este resultado."
+          ]
+        }
+      ],
+      "concepts": [],
+      "misconceptions": [
+        "Solo los libros contienen textos"
+      ]
+    },
+    "metadata": {
+      "is_english": false,
+      "example_count": 2,
+      "evidence_count": 5
+    }
+  }
+]

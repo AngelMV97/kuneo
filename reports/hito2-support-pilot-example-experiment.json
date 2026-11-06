@@ -1,0 +1,395 @@
+{
+  "date": "2026-11-04T01:12:09.546Z",
+  "scope": "Synthetic support pilot, no student data or Supabase writes; requires pedagogical and browser review.",
+  "results": [
+    {
+      "case_id": "math-2",
+      "subject": "mathematics",
+      "grade": 2,
+      "question": "Ana tiene 3 lápices y recibe 2 más. ¿Cuántos lápices tiene ahora?",
+      "level": 2,
+      "card": {
+        "title": "Estrategia para Combinar Cantidades",
+        "body": "Cuando sumas diferentes cantidades, puedes combinar los grupos para encontrar el total. Piensa en cuántas cosas tienes en cada grupo.",
+        "insight": "Identifica grupos que puedas sumar. Usa objetos reales como juguetes, frutas o lápices para contar y sumar.",
+        "visual": {
+          "kind": "none"
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:12:11.816Z",
+        "request_id": "00f26a06-fb71-414f-8f4f-36a1869307ae",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 2268,
+        "stages": {
+          "openai_support": 2265
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 539,
+            "output_tokens": 93,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "math-2",
+      "subject": "mathematics",
+      "grade": 2,
+      "question": "Ana tiene 3 lápices y recibe 2 más. ¿Cuántos lápices tiene ahora?",
+      "level": 3,
+      "card": {
+        "title": "Suma de objetos",
+        "body": "Combinemos diferentes objetos sumando sus cantidades. Esto te ayudará a entender la suma de forma práctica.",
+        "insight": "Para sumar, puedes agrupar objetos y contar el total al final. Sumar es juntar y contar lo que tienes en total.",
+        "example_problem": "Diana tiene 4 pelotas y Juan tiene 5 pelotas. ¿Cuántas pelotas tienen en total?",
+        "example_steps": [
+          "Agrupa las pelotas de Diana y de Juan.",
+          "Cuenta cuántas pelotas hay en total."
+        ],
+        "example_result": "Diana y Juan tienen 9 pelotas en total.",
+        "visual": {
+          "kind": "none"
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:12:14.054Z",
+        "request_id": "1702176f-ae9a-44c8-a745-aaa25c4cdf87",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 2237,
+        "stages": {
+          "openai_support": 2236
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 646,
+            "output_tokens": 147,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "language-3",
+      "subject": "language",
+      "grade": 3,
+      "question": "Lee: «Lina tomó su paraguas porque vio nubes oscuras». ¿Por qué tomó el paraguas?",
+      "level": 2,
+      "card": {
+        "title": "Causas en una Narración",
+        "body": "En una narración, las causas explican por qué ocurren ciertas acciones. Comprender las causas ayuda a entender mejor la historia y a los personajes. Se pueden identificar haciendo preguntas como: ¿Por qué hizo eso el personaje? ¿Qué motivó su acción?",
+        "insight": "Identificar las causas mejora la comprensión del texto. Reconocer por qué suceden las cosas también ayuda a anticipar lo que pasará después.",
+        "visual": {
+          "kind": "none"
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:12:15.908Z",
+        "request_id": "53e5f997-82a2-4f5d-affb-90806f412e21",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 1854,
+        "stages": {
+          "openai_support": 1854
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 541,
+            "output_tokens": 126,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "language-3",
+      "subject": "language",
+      "grade": 3,
+      "question": "Lee: «Lina tomó su paraguas porque vio nubes oscuras». ¿Por qué tomó el paraguas?",
+      "level": 3,
+      "card": {
+        "title": "Ejemplo sobre Causas de las Acciones",
+        "body": "En este ejemplo, vamos a aprender cómo reconocer las causas de las acciones en una narración. Observaremos lo que sucede y por qué sucede.",
+        "insight": "Identificar las causas en una historia ayuda a entender mejor por qué los personajes actúan de cierta manera.",
+        "example_problem": "María quería hacer una fiesta de cumpleaños, así que invitó a sus amigos. Todos estaban muy felices por la invitación. ¿Cuál es la causa de que los amigos estén felices?",
+        "example_steps": [
+          "Identificar qué acción se realiza: los amigos reciben la invitación.",
+          "Pensar por qué sucede eso: porque María los invitó a su fiesta."
+        ],
+        "example_result": "La causa de que los amigos estén felices es que María los invitó a su fiesta.",
+        "visual": {
+          "kind": "none"
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:12:18.054Z",
+        "request_id": "8f932847-5bf3-4fff-a103-847bbda4aa0c",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 2145,
+        "stages": {
+          "openai_support": 2145
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 649,
+            "output_tokens": 184,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "science-4",
+      "subject": "natural_sciences",
+      "grade": 4,
+      "question": "Una linterna funciona con pilas. Explica de dónde obtiene la energía y en qué se transforma para que podamos ver.",
+      "level": 2,
+      "card": {
+        "title": "Transformaciones de energía",
+        "body": "La energía se puede transformar de una forma a otra en objetos que usamos cada día. Por ejemplo, un juguete que funciona con pilas convierte energía química en energía eléctrica para moverse. Es importante reconocer estas transformaciones para entender cómo funcionan las cosas a nuestro alrededor.",
+        "insight": "Pasos para identificar transformaciones de energía en objetos cotidianos: 1. Observa el objeto. 2. Identifica el tipo de energía que está presente (química, eléctrica, etc.). 3. Piensa en cómo esa energía puede cambiar a otra forma (mecánica, térmica, etc.). 4. Relaciona el uso del objeto con la transformación de energía que ocurre en él.",
+        "visual": {
+          "kind": "none"
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:12:20.401Z",
+        "request_id": "1928c548-36f1-4943-ae5d-240e0bc68fac",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 2346,
+        "stages": {
+          "openai_support": 2346
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 543,
+            "output_tokens": 179,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "science-4",
+      "subject": "natural_sciences",
+      "grade": 4,
+      "question": "Una linterna funciona con pilas. Explica de dónde obtiene la energía y en qué se transforma para que podamos ver.",
+      "level": 3,
+      "card": {
+        "title": "Ejemplo de Transformaciones de Energía",
+        "body": "Este ejemplo muestra cómo identificamos las transformaciones de energía en objetos comunes. Vamos a ver cómo una cuerda puede convertir energía. El problema involucra una cuerda estirada y un juguete de madera. Cuando tiramos de la cuerda, la energía almacenada se transforma.",
+        "insight": "Identificar la transformación inmediata y sus efectos es clave para entender la energía en acción.",
+        "example_problem": "Un niño jala una cuerda que está atada a un pequeño carro de madera. Cuando el niño suelta la cuerda, el carro avanza solo. ¿Cuál es la transformación de energía que ocurre en este caso?",
+        "example_steps": [
+          "Analiza la energía en la cuerda cuando está estirada. Hay energía potencial almacenada.",
+          "Al soltar la cuerda, esa energía se convierte en energía en movimiento del carro."
+        ],
+        "example_result": "La energía potencial de la cuerda se transforma en energía cinética cuando el carro se mueve. Esto demuestra cómo la energía se puede transformar y hacer que otros objetos se muevan.",
+        "visual": {
+          "kind": "none"
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:12:23.067Z",
+        "request_id": "159f1972-d956-4089-997e-448e6bee73c2",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 2666,
+        "stages": {
+          "openai_support": 2665
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 655,
+            "output_tokens": 241,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "social-10",
+      "subject": "social_studies",
+      "grade": 10,
+      "question": "Un barrio dispone de dinero para una sola mejora. Una encuesta dice: 60 vecinos necesitan transporte y 40 necesitan un parque. Propón una decisión apoyada en esos datos y una forma de escuchar al grupo que no sea priorizado.",
+      "level": 2,
+      "card": {
+        "title": "Escuchar y Usar Datos para Argumentar",
+        "body": "Es importante usar datos para apoyar nuestras ideas y decisiones. Esto significa que, al hablar sobre un tema, debemos no solo dar nuestra opinión, sino también incluir información que refuerce lo que queremos decir. Escuchar otras perspectivas también nos ayuda a entender mejor la situación.",
+        "insight": "Reconocer qué datos son relevantes y cómo pueden usarse para enriquecer el debate es esencial. Una buena forma de hacerlo es identificar las fuentes de donde se obtienen los datos y su contexto.",
+        "visual": {
+          "kind": "none"
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:12:25.104Z",
+        "request_id": "52c7d7b4-fca6-4d45-b6ca-f09b01459e56",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 2037,
+        "stages": {
+          "openai_support": 2037
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 544,
+            "output_tokens": 139,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "social-10",
+      "subject": "social_studies",
+      "grade": 10,
+      "question": "Un barrio dispone de dinero para una sola mejora. Una encuesta dice: 60 vecinos necesitan transporte y 40 necesitan un parque. Propón una decisión apoyada en esos datos y una forma de escuchar al grupo que no sea priorizado.",
+      "level": 3,
+      "card": {
+        "title": "Tomando Decisiones informadas sobre una Sola Red WiFi",
+        "body": "Utiliza información para decidir si una comunidad debe expandir su servicio de internet. Escucha diferentes opiniones para reflexionar y argumentar tu decisión.",
+        "insight": "Considera los datos de uso y la satisfacción de los usuarios. Evaluar diferentes puntos de vista puede enriquecer la discusión y la decisiónfinal.",
+        "example_problem": "Una comunidad tiene una red WiFi adecuada para 50 familias. Ahora hay 80 familias interesadas en usarla. Al evaluar sugerencias, un grupo dice que se necesita más conexión. Otro grupo piensa que mejorar las conexiones actuales es suficiente. ¿Cómo deberíamos decidir sobre esta expansión?",
+        "example_steps": [
+          "Revisar cuántas familias realmente usan la red.",
+          "Investigar qué tan satisfechos están los usuarios actuales."
+        ],
+        "example_result": "Decidimos mejorar la infraestructura de la red actual, basándonos en que el 70% de los usuarios están satisfechos con la conexión actual. También se sugiere esperar para una futura expansión, una vez que los datos de nuevas inscripciones se hayan analizado.",
+        "visual": {
+          "kind": "none"
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:12:27.975Z",
+        "request_id": "e4a942de-5940-4ab8-8383-e62f8866053c",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 2871,
+        "stages": {
+          "openai_support": 2870
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 688,
+            "output_tokens": 247,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "english-11",
+      "subject": "english",
+      "grade": 11,
+      "question": "Lees «The ground was slippery after the rain» y no conoces slippery. Propón una estrategia para inferir su significado con el contexto y cómo comprobarías tu inferencia.",
+      "level": 2,
+      "card": {
+        "title": "Inferir Vocabulario por Contexto",
+        "body": "Al leer, a veces encontramos palabras que no conocemos. Para entenderlas, debemos mirar las palabras y las ideas que están a su alrededor. Esto nos ayuda a adivinar el significado usando pistas del texto.",
+        "insight": "Reconocer cuándo usar esta estrategia es clave. Cuando encuentres una palabra nueva, intenta identificar: 1) Palabras similares. 2) Ideas generales del párrafo. 3) Efecto de la nueva palabra en la oración.",
+        "visual": {
+          "kind": "none"
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:12:32.695Z",
+        "request_id": "7705e71a-9433-4a9e-8364-c401150a0faa",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 4719,
+        "stages": {
+          "openai_support": 4718
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 549,
+            "output_tokens": 199,
+            "cached_input_tokens": 0
+          },
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 549,
+            "output_tokens": 135,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "english-11",
+      "subject": "english",
+      "grade": 11,
+      "question": "Lees «The ground was slippery after the rain» y no conoces slippery. Propón una estrategia para inferir su significado con el contexto y cómo comprobarías tu inferencia.",
+      "level": 3,
+      "card": {
+        "title": "Ejemplo sobre Inferencia de Vocabulario",
+        "body": "Este ejemplo ayudará a entender cómo inferir el significado de una palabra desconocida usando contexto. Se presentará un texto corto y se buscará inferir el significado de una palabra subrayada.",
+        "insight": "Leer cuidadosamente y buscar pistas en las oraciones ayuda a entender palabras desconocidas.",
+        "example_problem": "En el siguiente texto, identifica el significado de la palabra ‘resplandor’:\n\"Durante la noche, el resplandor de las estrellas iluminaba el cielo, creando una vista hermosa y mágica.\"",
+        "example_steps": [
+          "Identificar la palabra desconocida en el texto: ‘resplandor’.",
+          "Leer la oración completa para entender el contexto donde aparece la palabra.",
+          "Buscar palabras o frases cercanas que den pistas sobre el significado. Por ejemplo, observar como ‘iluminaba’ y ‘hermosa’.",
+          "Inferir que ‘resplandor’ se relaciona con algo que brilla o emite luz."
+        ],
+        "example_result": "La inferencia sugiere que ‘resplandor’ significa algo relacionado con luz brillante. En este contexto, se puede entender como ‘brillo’ o ‘luminosidad’.",
+        "visual": {
+          "kind": "none"
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:12:35.453Z",
+        "request_id": "547e2e5b-6f07-4fb9-843e-4de198e5e9fd",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 2758,
+        "stages": {
+          "openai_support": 2757
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 669,
+            "output_tokens": 263,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    }
+  ],
+  "summary": {
+    "passed_contract": 10,
+    "total": 10,
+    "latency": {
+      "samples": 10,
+      "p50_ms": 2268,
+      "p95_ms": 4719,
+      "min_ms": 1854,
+      "max_ms": 4719
+    }
+  }
+}

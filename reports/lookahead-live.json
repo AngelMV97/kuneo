@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-05T17:10:36.126Z",
+  "scope": "Synthetic local data, real OpenAI and router. No Supabase or student data.",
+  "firstDeliveryMs": 5587,
+  "candidateReadyBeforeAnswer": true,
+  "answerMs": 61,
+  "nextDeliveryMs": 8,
+  "nextStatus": 200,
+  "reusedCandidate": true,
+  "firstSource": "generated",
+  "nextSource": "generated",
+  "attemptsSaved": 1,
+  "providerCalls": 4,
+  "metrics": [
+    {
+      "timestamp": "2026-11-05T17:10:30.747Z",
+      "request_id": "3684dceb-7680-4a69-8184-ee152ab35cd5",
+      "operation": "GET:/learning/modules/:moduleId/activity",
+      "status": 200,
+      "total_ms": 5501,
+      "stages": {
+        "db_context": 1,
+        "openai_generation": 3955,
+        "openai_review": 1508,
+        "activity_build": 5473
+      },
+      "usage": [
+        {
+          "model": "gpt-4.1-mini-2025-04-14",
+          "input_tokens": 1990,
+          "output_tokens": 338,
+          "cached_input_tokens": 0
+        },
+        {
+          "model": "gpt-4.1-mini-2025-04-14",
+          "input_tokens": 1533,
+          "output_tokens": 101,
+          "cached_input_tokens": 0
+        }
+      ],
+      "tags": {
+        "activity_cache": "miss",
+        "activity_delivery": "cold",
+        "generation_service_tier": "default",
+        "review_service_tier": "default",
+        "generation_outcome": "generated",
+        "activity_source": "generated"
+      }
+    },
+    {
+      "timestamp": "2026-11-05T17:10:36.060Z",
+      "request_id": "5fd1a57b-e2d1-449b-a486-5dc76da52658",
+      "operation": "activity_lookahead",
+      "status": 200,
+      "total_ms": 5330,
+      "stages": {
+        "openai_generation": 3576,
+        "openai_review": 1746,
+        "activity_build": 5326
+      },
+      "usage": [
+        {
+          "model": "gpt-4.1-mini-2025-04-14",
+          "input_tokens": 1838,
+          "output_tokens": 310,
+          "cached_input_tokens": 0
+        },
+        {
+          "model": "gpt-4.1-mini-2025-04-14",
+          "input_tokens": 1511,
+          "output_tokens": 105,
+          "cached_input_tokens": 0
+        }
+      ],
+      "tags": {
+        "activity_delivery": "lookahead",
+        "generation_service_tier": "default",
+        "review_service_tier": "default",
+        "generation_outcome": "generated"
+      }
+    },
+    {
+      "timestamp": "2026-11-05T17:10:36.116Z",
+      "request_id": "75dc6cb7-06d1-4eee-a1f0-21d0ac7df20e",
+      "operation": "next_activity_prefetch",
+      "status": 200,
+      "total_ms": 1,
+      "stages": {
+        "db_context": 0
+      },
+      "usage": [],
+      "tags": {
+        "activity_cache": "miss",
+        "activity_delivery": "background",
+        "activity_lookahead": "used",
+        "activity_source": "generated"
+      }
+    },
+    {
+      "timestamp": "2026-11-05T17:10:36.116Z",
+      "request_id": "9ae9ab45-4bdb-43c1-96f3-c937f339564e",
+      "operation": "POST:/learning/answers",
+      "status": 200,
+      "total_ms": 11,
+      "stages": {
+        "evaluation": 1,
+        "persist_attempt": 1,
+        "sync_aggregates": 1
+      },
+      "usage": [],
+      "tags": {}
+    },
+    {
+      "timestamp": "2026-11-05T17:10:36.123Z",
+      "request_id": "466515a9-9785-4487-aba8-a9562a97b395",
+      "operation": "GET:/learning/modules/:moduleId/activity",
+      "status": 200,
+      "total_ms": 1,
+      "stages": {},
+      "usage": [],
+      "tags": {
+        "activity_cache": "hit",
+        "activity_delivery": "prepared",
+        "activity_source": "generated"
+      }
+    }
+  ]
+}

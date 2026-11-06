@@ -1,0 +1,891 @@
+[
+  {
+    "module_id": "75b3dbbd-9d9a-42db-9793-18a71253d695",
+    "source_unit_id": "958da1cd-0e95-47ea-bcde-93acc4573d36",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "6",
+    "difficulty": 3,
+    "title": "¿Cómo funciona ciencias_naturales?",
+    "learning_objective": "Comprende cómo los cuerpos pueden ser cargados eléctricamente asociando esta carga a efectos de atracción y repulsión.",
+    "context": "niña experimentando la electricidad estática frotando un globo sobre su cabello.",
+    "core_concept": "ciencias_naturales",
+    "concepts": [
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "conceptual_understanding",
+    "skills": [
+      "comprender",
+      "identificar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con ciencias_naturales?",
+      "expected_signals": [
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "49e330df-4fc8-40c3-888a-374e1770f5ed",
+        "evidence_source": "Utiliza procedimientos (frotar barra de vidrio con seda, barra de plástico con un paño, contacto entre una barra de vidrio cargada eléctricamente con una bola de icopor) con diferentes materiales para cargar eléctricamente un cuerpo.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Utiliza procedimientos (frotar barra de vidrio con seda, barra de plástico con un paño, contacto entre una barra de vidrio cargada eléctricamente con una bola de icopor) con diferentes materiales para cargar eléctricamente un cuerpo.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 1
+      },
+      {
+        "id": "be831dba-0b66-48be-9f21-bba94315b6a1",
+        "evidence_source": "Identifica si los cuerpos tienen cargas iguales o contrarias a partir de los efectos de atracción o repulsión que se producen.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con ciencias_naturales y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 2
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre ciencias_naturales?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender ciencias_naturales?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 1
+      }
+    }
+  },
+  {
+    "module_id": "afdf8d02-cfcf-45ff-9d13-f9f881b8c0d4",
+    "source_unit_id": "afe1ce40-5039-402a-8f21-f9b8f36f43e8",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "6",
+    "difficulty": 3,
+    "title": "¿Cómo funciona reacciones_quimicas?",
+    "learning_objective": "Comprende que la temperatura (T) y la presión (P) influyen en algunas propiedades fisicoquímicas (solubilidad, viscosidad, densidad, puntos de ebullición y fusión) de las sustancias, y que estas pueden ser aprovechadas en las técnicas de separación de mezclas.",
+    "context": "En la figura se representa una olla a presión con agua en su interior, el calor aportado permite que el agua cambie al estado gaseoso. La tabla de datos representa los valores obtenidos al realizar un seguimiento al calentamiento del agua hasta que se acciona la válvula de seguridad. olla a presión con agua en su interior, junto a una tabla que registra el tiempo en minutos y la temperatura en °C. ['A partir de esta información explica la relación de la temperatura y la presión con el comportamiento de la sustancia y representa la relación del tiempo (t) con la temperatura (T) mediante una gráfica en la que identifica el punto de ebullición.']",
+    "core_concept": "reacciones_quimicas",
+    "concepts": [
+      "proporcionalidad",
+      "argumentacion",
+      "historia",
+      "lectura_inferencial",
+      "estadistica"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "interpretar",
+      "explicar",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con reacciones_quimicas?",
+      "expected_signals": [
+        "proporcionalidad",
+        "argumentacion",
+        "historia",
+        "lectura_inferencial",
+        "estadistica"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "75e47b4a-a270-47d3-b264-b21693f3edbb",
+        "evidence_source": "Interpreta los resultados de experimentos en los que se observa la influencia de la variación de la temperatura (T) y la presión (P) en los cambios de estado de un grupo de sustancias, representándolos mediante el uso de gráficos y tablas.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Interpreta los resultados de experimentos en los que se observa la influencia de la variación de la temperatura (T) y la presión (P) en los cambios de estado de un grupo de sustancias, representándolos mediante el uso de gráficos y tablas.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de reacciones_quimicas.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 1
+      },
+      {
+        "id": "9d1db771-9dec-4efb-a693-6f113af6e91f",
+        "evidence_source": "Explica la relación entre la temperatura (T) y la presión (P) con algunas propiedades (densidad, solubilidad, viscosidad, puntos de ebullición y de fusión) de las sustancias a partir de ejemplos.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica la relación entre la temperatura (T) y la presión (P) con algunas propiedades (densidad, solubilidad, viscosidad, puntos de ebullición y de fusión) de las sustancias a partir de ejemplos.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de reacciones_quimicas.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 3,
+        "order": 2
+      },
+      {
+        "id": "59a87309-39a5-4ab3-a523-aa5eecb0f37c",
+        "evidence_source": "Diseña y realiza experiencias para separar mezclas homogéneas y heterogéneas utilizando técnicas (vaporización, cristalización, destilación), para justificar la elección de las mismas a partir de las propiedades fisicoquímicas de las sustancias involucradas.",
+        "type": "argumentation",
+        "prompt": "Justifica tu respuesta usando evidencia o razones claras.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de reacciones_quimicas.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 3,
+        "order": 3
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "confundir promedio con valor representativo en todos los casos",
+        "pattern": "confundir promedio con valor representativo en todos los casos",
+        "feedback": "Revisemos esta idea: confundir promedio con valor representativo en todos los casos",
+        "visual": "concept_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre reacciones_quimicas?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender reacciones_quimicas?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "concept_map",
+        "trigger": "confundir promedio con valor representativo en todos los casos",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 2
+      }
+    }
+  },
+  {
+    "module_id": "c800d4fa-0693-4661-9da6-bc1258549a95",
+    "source_unit_id": "d33742b0-2d63-4a8d-b0b5-0942e834ca5d",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "6",
+    "difficulty": 3,
+    "title": "¿Cómo funciona ecosistema?",
+    "learning_objective": "Comprende la clasificación de los materiales a partir de grupos de sustancias (elementos y compuestos) y mezclas (homogéneas y heterogéneas).",
+    "context": "niña clasificando sustancias en una tabla; entre elemento, compuesto, mezcla homogénea, mezcla heretogénea.",
+    "core_concept": "ecosistema",
+    "concepts": [
+      "ecosistema",
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "comprender",
+      "identificar",
+      "explicar",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con ecosistema?",
+      "expected_signals": [
+        "ecosistema",
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "982270ad-1523-493d-ac47-cf0598d6aa5e",
+        "evidence_source": "Diferencia sustancias puras (elementos y compuestos) de mezclas (homogéneas y heterogéneas) en ejemplos de uso cotidiano.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Diferencia sustancias puras (elementos y compuestos) de mezclas (homogéneas y heterogéneas) en ejemplos de uso cotidiano.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ecosistema.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 1
+      },
+      {
+        "id": "13e60525-9522-4514-a852-0f1a74c6e7ec",
+        "evidence_source": "Identifica sustancias de uso cotidiano (sal de cocina, agua, cobre, entre otros) con sus símbolos químicos (NaCl, H2O, Cu).",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con ecosistema y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ecosistema.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 2
+      },
+      {
+        "id": "911dceea-9051-4aaa-93a1-5ab9a147f47d",
+        "evidence_source": "Explica la importancia de las propiedades del agua como solvente para los ecosistemas y los organismos vivos, dando ejemplos de distintas soluciones acuosas.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica la importancia de las propiedades del agua como solvente para los ecosistemas y los organismos vivos, dando ejemplos de distintas soluciones acuosas.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ecosistema.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 3,
+        "order": 3
+      },
+      {
+        "id": "3307461d-2751-4b7d-aef3-0970219a8bc5",
+        "evidence_source": "Reconoce la importancia de los coloides (como ejemplo de mezcla heterogénea) en los procesos industriales (Pinturas, lacas) y biomédicos (Alimentos y medicinas).",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Reconoce la importancia de los coloides (como ejemplo de mezcla heterogénea) en los procesos industriales (Pinturas, lacas) y biomédicos (Alimentos y medicinas).",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ecosistema.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "pensar que los ecosistemas son estáticos",
+        "pattern": "pensar que los ecosistemas son estáticos",
+        "feedback": "Revisemos esta idea: pensar que los ecosistemas son estáticos",
+        "visual": "concept_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre ecosistema?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender ecosistema?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "concept_map",
+        "trigger": "pensar que los ecosistemas son estáticos",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 3
+      }
+    }
+  },
+  {
+    "module_id": "b934d96c-454e-46e6-9faa-6de93e722f7c",
+    "source_unit_id": "20c8e898-a6b4-450b-a5e4-3a5f426aca9f",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "6",
+    "difficulty": 3,
+    "title": "¿Cómo funciona celula?",
+    "learning_objective": "Comprende algunas de las funciones básicas de la célula (transporte de membrana, obtención de energía y división celular) a partir del análisis de su estructura.",
+    "context": "['Realiza un experimento que permita observar el intercambio de sustancias a través de membrana celular y describe cómo influye en este proceso el medio en el que se encuentra la célula. Para ello pueden emplear los siguientes materiales: mango o pepino, agua y sal. Construye la explicación de sus resultados utilizando para tal fin un modelo o representación.']",
+    "core_concept": "celula",
+    "concepts": [
+      "celula",
+      "estadistica",
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "explicar",
+      "explicar",
+      "interpretar",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con celula?",
+      "expected_signals": [
+        "celula",
+        "estadistica",
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "2d4e5142-c655-45a7-946c-33468b5d1cf1",
+        "evidence_source": "Explica el rol de la membrana plasmática en el mantenimiento del equilibrio interno de la célula, y describe la interacción del agua y las partículas (ósmosis y difusión) que entran y salen de la célula mediante el uso de modelos.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica el rol de la membrana plasmática en el mantenimiento del equilibrio interno de la célula, y describe la interacción del agua y las partículas (ósmosis y difusión) que entran y salen de la célula mediante el uso de modelos.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de celula.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 3,
+        "order": 1
+      },
+      {
+        "id": "88e3cdf5-10d1-4aee-88bc-1312f0319ee2",
+        "evidence_source": "Explica el proceso de respiración celular e identifica el rol de la mitocondria en dicho proceso.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con celula y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de celula.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 3,
+        "order": 2
+      },
+      {
+        "id": "b1bc8995-e26d-4795-8073-e2fef1d6b33f",
+        "evidence_source": "Interpreta modelos sobre los procesos de división celular (mitosis), como mecanismos que permiten explicar la regeneración de tejidos y el crecimiento de los organismos.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Interpreta modelos sobre los procesos de división celular (mitosis), como mecanismos que permiten explicar la regeneración de tejidos y el crecimiento de los organismos.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de celula.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 3,
+        "order": 3
+      },
+      {
+        "id": "84f07a79-c6fc-442a-84e4-7ebf0ab72532",
+        "evidence_source": "Predice qué ocurre a nivel de transporte de membrana, obtención de energía y división celular en caso de daño de alguna de las organelas celulares.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Predice qué ocurre a nivel de transporte de membrana, obtención de energía y división celular en caso de daño de alguna de las organelas celulares.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de celula.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "confundir promedio con valor representativo en todos los casos",
+        "pattern": "confundir promedio con valor representativo en todos los casos",
+        "feedback": "Revisemos esta idea: confundir promedio con valor representativo en todos los casos",
+        "visual": "concept_map",
+        "intervention_level": 2
+      },
+      "misconception_2": {
+        "description": "creer que todas las células son iguales",
+        "pattern": "creer que todas las células son iguales",
+        "feedback": "Revisemos esta idea: creer que todas las células son iguales",
+        "visual": "concept_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre celula?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender celula?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "concept_map",
+        "trigger": "confundir promedio con valor representativo en todos los casos",
+        "intervention_level": 2
+      },
+      {
+        "error_key": "misconception_2",
+        "visual_template": "concept_map",
+        "trigger": "creer que todas las células son iguales",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 4
+      }
+    }
+  },
+  {
+    "module_id": "968d6826-8629-4ace-aa1f-7faf3608db7e",
+    "source_unit_id": "af23137d-263f-4abc-a14f-2af09e151824",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "6",
+    "difficulty": 3,
+    "title": "¿Cómo funciona celula?",
+    "learning_objective": "Comprende la clasificación de los organismos en grupos taxonómicos, de acuerdo con el tipo de células que poseen y reconoce la diversidad de especies que constituyen nuestro planeta y las relaciones de parentesco entre ellas.",
+    "context": "Establece relaciones de parentesco entre organismos tales como: mono y hombre, pez y ave, maíz y gallina, hombre y cerdo, atendiendo a órdenes jerárquicos de clasificación (dominio, reino, división, clase, orden, familia, género, especie). ['Organiza la información obtenida en gráficos o tablas y elabora conclusiones a partir del análisis de los resultados.']",
+    "core_concept": "celula",
+    "concepts": [
+      "celula",
+      "ecosistema",
+      "estadistica",
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "identificar",
+      "comprender",
+      "explicar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con celula?",
+      "expected_signals": [
+        "celula",
+        "ecosistema",
+        "estadistica",
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "3d8fafe0-d024-484e-8fd0-5d6f01d54253",
+        "evidence_source": "Identifica organismos (animales o plantas) de su entorno y los clasifica usando gráficos, tablas y otras representaciones siguiendo claves taxonómicas simples.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con celula y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de celula.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "representacion"
+        ],
+        "difficulty": 3,
+        "order": 1
+      },
+      {
+        "id": "dae06aef-82e0-4817-991d-27378d45947a",
+        "evidence_source": "Clasifica los organismos en diferentes dominios, de acuerdo con sus tipos de células (procariota, eucariota, animal, vegetal).",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Clasifica los organismos en diferentes dominios, de acuerdo con sus tipos de células (procariota, eucariota, animal, vegetal).",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de celula.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 2
+      },
+      {
+        "id": "2b930216-eea0-4f73-8189-db9a29967151",
+        "evidence_source": "Explica la clasificación taxonómica como mecanismo que permite reconocer la biodiversidad en el planeta y las relaciones de parentesco entre los organismos.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica la clasificación taxonómica como mecanismo que permite reconocer la biodiversidad en el planeta y las relaciones de parentesco entre los organismos.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de celula.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 3,
+        "order": 3
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "creer que todas las células son iguales",
+        "pattern": "creer que todas las células son iguales",
+        "feedback": "Revisemos esta idea: creer que todas las células son iguales",
+        "visual": "concept_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre celula?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender celula?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "concept_map",
+        "trigger": "creer que todas las células son iguales",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 5
+      }
+    }
+  }
+]

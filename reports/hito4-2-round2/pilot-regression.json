@@ -1,0 +1,210 @@
+{
+  "model": "gpt-4.1-mini",
+  "evaluatorSha256": "c92c2deb4d3a642268df2b71d6aa148b2eb38ea8b8192c6c2e00237a7ab34acf",
+  "started": "2026-11-05T21:57:10.998Z",
+  "limit": {
+    "calls": 16,
+    "completionTokensPerCall": 700,
+    "totalTokens": 50000
+  },
+  "calls": 16,
+  "inputTokens": 8766,
+  "outputTokens": 1780,
+  "results": [
+    {
+      "candidateSha256": "d7193ce37f205beb3932ab91f21d264d48d1134d9b16f264348a48805238da4b",
+      "subject": "language",
+      "round": 1,
+      "answer": "Quiero lectura: la eligieron 18 compañeros. Entiendo que otros prefieren juegos y también quieren disfrutar el patio.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Muy bien, propones claramente la lectura y usas el dato de 18 compañeros para justificarla. Además, reconoces respetuosamente la preferencia del otro grupo. Cumples todos los criterios solicitados."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "d7193ce37f205beb3932ab91f21d264d48d1134d9b16f264348a48805238da4b",
+      "subject": "language",
+      "round": 1,
+      "answer": "Mejor los juegos: aunque solo 12 los eligieron, me gustaría compartir estrategias; respeto a quienes quieren leer.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Has propuesto claramente los juegos de mesa, justificándolo con el dato de que 12 los eligieron y mencionando compartir estrategias. Además, reconoces respetuosamente a quienes prefieren la lectura. Buen trabajo cumpliendo los tres criterios."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "d7193ce37f205beb3932ab91f21d264d48d1134d9b16f264348a48805238da4b",
+      "subject": "language",
+      "round": 1,
+      "answer": "Propongo lectura porque 18 la prefieren.",
+      "expected": "partial",
+      "actual": {
+        "result": "partial",
+        "feedback": "Has propuesto claramente la opción de lectura y justificas tu propuesta con un dato del sondeo, lo cual cumple bien con los criterios de propuesta y razón. Sin embargo, no reconoces con respeto la preferencia o necesidad del otro grupo, que es un aspecto importante para mostrar consideración hacia todos."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "d7193ce37f205beb3932ab91f21d264d48d1134d9b16f264348a48805238da4b",
+      "subject": "language",
+      "round": 1,
+      "answer": "razón evidencia persuasión",
+      "expected": "incorrect",
+      "actual": {
+        "result": "incorrect",
+        "feedback": "El estudiante no propone claramente ninguna de las dos opciones, ni justifica con datos del sondeo ni reconoce respetuosamente la preferencia del otro grupo. La respuesta es insuficiente para cumplir los criterios."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "49614f67fed9a680bb55b5c478b34e2b2ac6c984bca5704700f44a9de5cd7436",
+      "subject": "english",
+      "round": 1,
+      "answer": "Thursday, 3 p.m., Room 12. I would ask Ms. Ruiz before the meeting to confirm the room and avoid going to the wrong place.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Muy bien, identificaste claramente cuándo y dónde es la reunión, propusiste consultar a la profesora Ruiz para resolver la duda y explicaste brevemente que esa acción ayuda a confirmar el lugar y evitar errores."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "49614f67fed9a680bb55b5c478b34e2b2ac6c984bca5704700f44a9de5cd7436",
+      "subject": "english",
+      "round": 1,
+      "answer": "El jueves a las quince, salón 12; consultaría a Ruiz antes de reunirnos para asegurarme del lugar.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Muy bien, identificaste claramente el día, la hora y el lugar de la reunión. También propusiste consultar a la profesora Ruiz antes de la reunión y diste una justificación adecuada para confirmar el lugar y evitar errores. Excelente respuesta completa y precisa."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "49614f67fed9a680bb55b5c478b34e2b2ac6c984bca5704700f44a9de5cd7436",
+      "subject": "english",
+      "round": 1,
+      "answer": "El jueves a las tres de la tarde en el salón 12.",
+      "expected": "partial",
+      "actual": {
+        "result": "partial",
+        "feedback": "Has identificado correctamente cuándo y dónde es la reunión, lo cual cumple con el criterio de información. Sin embargo, no mencionaste la estrategia para resolver la duda sobre el salón ni justificaste por qué esa acción ayudaría. Para completar la respuesta, sería necesario incluir que consultarías a la profesora Ruiz antes de la reunión y explicar brevemente que esto evitaría equivocarte de lugar."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "49614f67fed9a680bb55b5c478b34e2b2ac6c984bca5704700f44a9de5cd7436",
+      "subject": "english",
+      "round": 1,
+      "answer": "Aprendí usar comunicación inglés.",
+      "expected": "incorrect",
+      "actual": {
+        "result": "incorrect",
+        "feedback": "La respuesta del estudiante no identifica cuándo y dónde es la reunión, ni propone consultar a la profesora Ruiz para aclarar dudas sobre el salón, ni justifica esa acción. No cumple con ninguno de los criterios solicitados."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "d7193ce37f205beb3932ab91f21d264d48d1134d9b16f264348a48805238da4b",
+      "subject": "language",
+      "round": 2,
+      "answer": "Quiero lectura: la eligieron 18 compañeros. Entiendo que otros prefieren juegos y también quieren disfrutar el patio.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Has cumplido bien con proponer una opción clara, justificarla con un dato del sondeo y reconocer respetuosamente la preferencia del otro grupo. Buen trabajo expresando cada criterio de forma sencilla y adecuada."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "d7193ce37f205beb3932ab91f21d264d48d1134d9b16f264348a48805238da4b",
+      "subject": "language",
+      "round": 2,
+      "answer": "Mejor los juegos: aunque solo 12 los eligieron, me gustaría compartir estrategias; respeto a quienes quieren leer.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Has propuesto claramente los juegos de mesa, justificándolo con el dato de que 12 los eligieron y mencionando compartir estrategias. Además, reconoces respetuosamente la preferencia del otro grupo. Muy bien cumplido."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "d7193ce37f205beb3932ab91f21d264d48d1134d9b16f264348a48805238da4b",
+      "subject": "language",
+      "round": 2,
+      "answer": "Propongo lectura porque 18 la prefieren.",
+      "expected": "partial",
+      "actual": {
+        "result": "partial",
+        "feedback": "Has cumplido bien con proponer una opción y justificarla con un dato del sondeo. Sin embargo, falta reconocer con respeto la preferencia o necesidad del otro grupo. Intenta incluir una frase que muestre consideración hacia quienes prefieren juegos de mesa."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "d7193ce37f205beb3932ab91f21d264d48d1134d9b16f264348a48805238da4b",
+      "subject": "language",
+      "round": 2,
+      "answer": "razón evidencia persuasión",
+      "expected": "incorrect",
+      "actual": {
+        "result": "incorrect",
+        "feedback": "El mensaje del estudiante no propone ninguna de las dos opciones, ni justifica con datos del sondeo, ni reconoce respetuosamente la preferencia del otro grupo. Solo enumera palabras sin formar una propuesta o argumento."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "49614f67fed9a680bb55b5c478b34e2b2ac6c984bca5704700f44a9de5cd7436",
+      "subject": "english",
+      "round": 2,
+      "answer": "Thursday, 3 p.m., Room 12. I would ask Ms. Ruiz before the meeting to confirm the room and avoid going to the wrong place.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Muy bien, identificaste claramente el día, la hora y el lugar de la reunión. También propusiste consultar a la profesora Ruiz antes de la reunión y explicaste brevemente que esa acción ayuda a confirmar el lugar y evitar errores. Cumpliste todos los criterios correctamente."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "49614f67fed9a680bb55b5c478b34e2b2ac6c984bca5704700f44a9de5cd7436",
+      "subject": "english",
+      "round": 2,
+      "answer": "El jueves a las quince, salón 12; consultaría a Ruiz antes de reunirnos para asegurarme del lugar.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Muy bien, identificaste claramente el día, la hora y el lugar de la reunión. También propusiste consultar a la profesora Ruiz antes de la reunión y diste una justificación adecuada para confirmar el lugar y evitar errores. Excelente respuesta completa y precisa."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "49614f67fed9a680bb55b5c478b34e2b2ac6c984bca5704700f44a9de5cd7436",
+      "subject": "english",
+      "round": 2,
+      "answer": "El jueves a las tres de la tarde en el salón 12.",
+      "expected": "partial",
+      "actual": {
+        "result": "partial",
+        "feedback": "Has identificado correctamente cuándo y dónde es la reunión, cumpliendo el criterio de información. Sin embargo, no mencionas consultar a la profesora Ruiz ni justificas por qué esa acción ayudaría a resolver la duda sobre el salón. Para completar la respuesta, incluye esa estrategia y su propósito."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "49614f67fed9a680bb55b5c478b34e2b2ac6c984bca5704700f44a9de5cd7436",
+      "subject": "english",
+      "round": 2,
+      "answer": "Aprendí usar comunicación inglés.",
+      "expected": "incorrect",
+      "actual": {
+        "result": "incorrect",
+        "feedback": "La respuesta del estudiante no identifica cuándo y dónde es la reunión, ni propone consultar a la profesora Ruiz para resolver dudas, ni justifica esa acción. No hay evidencia en la respuesta que cumpla con los criterios solicitados."
+      },
+      "pass": true
+    }
+  ],
+  "databaseCalls": 0,
+  "finished": "2026-11-05T21:57:34.069Z",
+  "passed": true
+}

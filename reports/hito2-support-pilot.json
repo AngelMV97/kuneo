@@ -1,0 +1,544 @@
+{
+  "date": "2026-11-04T01:15:29.023Z",
+  "scope": "Synthetic support pilot, no student data or Supabase writes; requires pedagogical and browser review.",
+  "results": [
+    {
+      "case_id": "math-2",
+      "subject": "mathematics",
+      "grade": 2,
+      "question": "Ana tiene 3 lápices y recibe 2 más. ¿Cuántos lápices tiene ahora?",
+      "level": 2,
+      "card": {
+        "title": "Idea clave para combinar cantidades con suma",
+        "body": "Cuando tenemos varias cantidades separadas y queremos saber el total juntos, usamos la suma. Esto sucede cuando unimos grupos de objetos o medidas que están separados, para hallar cuánto hay en total.",
+        "insight": "Reconocemos que debemos sumar cuando tenemos partes distintas o grupos y queremos encontrar un número que represente todos juntos. Por ejemplo, si tienes 3 manzanas y luego 2 más, sumar hace que sepamos cuántas manzanas tienes en total.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Pasos para combinar cantidades con suma",
+          "steps": [
+            "Identificar cada cantidad o grupo por separado.",
+            "Decidir que el problema requiere juntar todas las cantidades.",
+            "Agregar una cantidad a la otra para formar el total.",
+            "Escribir el resultado para saber la cantidad combinada."
+          ]
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:15:31.507Z",
+        "request_id": "944f675f-e0a5-4660-b62e-e2792cdd5164",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 2481,
+        "stages": {
+          "openai_support": 2478
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 674,
+            "output_tokens": 186,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "math-2",
+      "subject": "mathematics",
+      "grade": 2,
+      "question": "Ana tiene 3 lápices y recibe 2 más. ¿Cuántos lápices tiene ahora?",
+      "level": 3,
+      "card": {
+        "title": "Sumar cantidades con diferentes objetos",
+        "body": "Para sumar cantidades, primero contamos cuántos hay de cada grupo y después juntamos los números en un total. Es importante no mezclar los objetos a contar, solo sumar las cantidades.",
+        "insight": "Cuando se suman cantidades, piensa en combinar grupos para obtener un total, sin importar qué objeto es, solo la cantidad de cada grupo cuenta.",
+        "example_problem": "En una caja hay cuatro manzanas y cinco naranjas. ¿Cuántas frutas hay en total en la caja?",
+        "example_steps": [
+          "- Contar cuántas manzanas hay: cuatro.",
+          "- Contar cuántas naranjas hay: cinco.",
+          "- Sumar las dos cantidades para encontrar el total de frutas: cuatro + cinco.",
+          "- Escribir la suma para verificar: 4 + 5 = 9.",
+          "- Concluir que hay nueve frutas en total en la caja."
+        ],
+        "example_result": "Hay un total de nueve frutas en la caja porque sumamos las cuatro manzanas y las cinco naranjas: 4 + 5 = 9.",
+        "visual": {
+          "kind": "table",
+          "caption": "Conteo y suma de frutas",
+          "headers": [
+            "Objeto",
+            "Cantidad"
+          ],
+          "rows": [
+            [
+              "Manzanas",
+              "4"
+            ],
+            [
+              "Naranjas",
+              "5"
+            ],
+            [
+              "Total",
+              "9"
+            ]
+          ]
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:15:35.273Z",
+        "request_id": "5d764810-7a97-4e60-ba2f-e202853f7ef8",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 3765,
+        "stages": {
+          "openai_support": 3764
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 779,
+            "output_tokens": 272,
+            "cached_input_tokens": 0
+          },
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 396,
+            "output_tokens": 9,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "language-3",
+      "subject": "language",
+      "grade": 3,
+      "question": "Lee: «Lina tomó su paraguas porque vio nubes oscuras». ¿Por qué tomó el paraguas?",
+      "level": 2,
+      "card": {
+        "title": "Reconocer causas de las acciones en una narración",
+        "body": "Cuando leemos una historia, es importante entender por qué los personajes hacen ciertas cosas. Las causas son las razones o motivos detrás de sus acciones. Reconocerlas ayuda a comprender mejor la historia y a imaginar qué podría pasar después.",
+        "insight": "Para saber cuándo buscar causas de las acciones, fíjate en las frases que explican por qué un personaje hace algo o en lo que pasó antes de la acción. Si un personaje hace algo, pregúntate: ¿Qué le pasó o pensó para hacer eso?",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Pasos para reconocer causas de acciones en una narración",
+          "steps": [
+            "Leer la acción del personaje",
+            "Buscar explicaciones o palabras que indican causa",
+            "Recordar qué pasó antes de la acción",
+            "Relacionar y entender la causa"
+          ]
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:15:37.621Z",
+        "request_id": "242e1644-a9a7-460f-88dc-e2cb04d77f3c",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 2348,
+        "stages": {
+          "openai_support": 2348
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 676,
+            "output_tokens": 249,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "language-3",
+      "subject": "language",
+      "grade": 3,
+      "question": "Lee: «Lina tomó su paraguas porque vio nubes oscuras». ¿Por qué tomó el paraguas?",
+      "level": 3,
+      "card": {
+        "title": "Entender por qué los personajes hacen cosas en una historia",
+        "body": "Cuando leemos una historia, es importante pensar por qué los personajes hacen ciertas acciones. Esto nos ayuda a comprender mejor lo que pasa y a imaginar cómo se sienten o qué quieren lograr.",
+        "insight": "Para descubrir la causa de una acción en una narración, mira qué sucede justo antes y cómo se sienten los personajes. Piensa en sus metas o problemas que necesitan resolver.",
+        "example_problem": "Lee este pequeño cuento: \"Ana tenía mucha sed porque jugó mucho en el parque. Cuando vio una botella de agua en la mesa, la agarró y la bebió rápido.\"",
+        "example_steps": [
+          "Pensar en por qué Ana tenía sed. (Porque jugó en el parque y se cansó)",
+          "Relacionar la acción (beber agua) con la causa (tenía sed). Ana bebió porque tenía sed.",
+          "Entender que la causa de la acción es la necesidad de calmar la sed."
+        ],
+        "example_result": "La razón por la que Ana agarró la botella y bebió agua fue porque había jugado mucho y tenía sed. Su acción tiene sentido porque trataba de satisfacer esa necesidad.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Pasos para entender por qué Ana bebió agua",
+          "steps": [
+            "Ana jugó mucho y se cansó.",
+            "Por eso, sintió sed.",
+            "Vio la botella de agua en la mesa.",
+            "La agarró y la bebió rápido para calmar su sed."
+          ]
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:15:41.618Z",
+        "request_id": "2bc92cfa-cb1b-4f93-b1fb-1084b8d8a081",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 3995,
+        "stages": {
+          "openai_support": 3995
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 782,
+            "output_tokens": 308,
+            "cached_input_tokens": 0
+          },
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 421,
+            "output_tokens": 9,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "science-4",
+      "subject": "natural_sciences",
+      "grade": 4,
+      "question": "Una linterna funciona con pilas. Explica de dónde obtiene la energía y en qué se transforma para que podamos ver.",
+      "level": 2,
+      "card": {
+        "title": "Identificar cuándo y cómo ocurre una transformación de energía",
+        "body": "La transformación de energía pasa cuando la energía cambia de un tipo a otro en un objeto o proceso de la vida diaria. Por ejemplo, la luz puede convertirse en calor o la energía química de la comida puede convertirse en movimiento cuando corremos.",
+        "insight": "Para reconocer una transformación de energía, primero observa qué tipo de energía inicia el proceso y qué tipo aparece después. Esto indica que hubo una transformación. Es útil pensar en las formas comunes como energía luminosa, térmica, sonora, química y mecánica.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Pasos para identificar una transformación de energía",
+          "steps": [
+            "Identificar el tipo de energía que está inicialmente presente en el objeto o situación.",
+            "Observar qué cambios ocurren en el objeto o entorno (por ejemplo, movimiento, calor, luz, sonido).",
+            "Relacionar el cambio observado con un tipo diferente de energía que aparece después.",
+            "Concluir que hubo una transformación cuando la energía cambia de un tipo a otro."
+          ]
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:15:43.776Z",
+        "request_id": "e885b83d-25e4-467c-baea-14be202ebc9b",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 2158,
+        "stages": {
+          "openai_support": 2158
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 678,
+            "output_tokens": 226,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "science-4",
+      "subject": "natural_sciences",
+      "grade": 4,
+      "question": "Una linterna funciona con pilas. Explica de dónde obtiene la energía y en qué se transforma para que podamos ver.",
+      "level": 3,
+      "card": {
+        "title": "Ejemplo de transformación de energía al andar en bicicleta",
+        "body": "Cuando alguien monta bicicleta, se evidencia la transformación de energía. La energía química almacenada en el cuerpo humano se convierte en energía mecánica para mover la bicicleta y energía térmica en los músculos y frenos.",
+        "insight": "Observar cada tipo de energía involucrada ayuda a entender cómo la energía cambia de forma para realizar actividades cotidianas.",
+        "example_problem": "Laura monta bicicleta por 15 minutos. Su cuerpo usa energía para mover sus piernas y hacer que la bicicleta avance. Durante el recorrido, los frenos se usan para detener la bicicleta. Identifica tres tipos de energía que se transforman o transfieren en esta actividad y explica cómo ocurren esas transformaciones.",
+        "example_steps": [
+          "Primero, la energía química que proviene de la comida se transforma en energía mecánica cuando Laura mueve sus piernas.",
+          "Después, esta energía mecánica se transfiere a la bicicleta para que las ruedas giren y la bicicleta avance.",
+          "Finalmente, al usar los frenos, parte de la energía mecánica se transforma en energía térmica debido a la fricción que detiene las ruedas."
+        ],
+        "example_result": "En esta actividad vemos que: (1) la energía química del cuerpo se convierte en energía mecánica para mover la bicicleta; (2) la energía mecánica se transfiere a la bicicleta para que se mueva; (3) al frenar, la energía mecánica se transforma en energía térmica por la fricción, liberando calor.",
+        "visual": {
+          "kind": "table",
+          "caption": "Transformación y transferencia de energía al andar en bicicleta",
+          "headers": [
+            "Paso",
+            "Tipo de energía",
+            "Transformación o transferencia"
+          ],
+          "rows": [
+            [
+              "1",
+              "Energía química",
+              "Se transforma en energía mecánica para mover las piernas"
+            ],
+            [
+              "2",
+              "Energía mecánica",
+              "Se transfiere a la bicicleta para que se mueva"
+            ],
+            [
+              "3",
+              "Energía mecánica",
+              "Se transforma en energía térmica por la fricción en los frenos"
+            ]
+          ]
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:15:48.064Z",
+        "request_id": "600269f5-a706-47c2-8d6a-c46718f103f5",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 4287,
+        "stages": {
+          "openai_support": 4286
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 788,
+            "output_tokens": 414,
+            "cached_input_tokens": 0
+          },
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 536,
+            "output_tokens": 9,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "social-10",
+      "subject": "social_studies",
+      "grade": 10,
+      "question": "Un barrio dispone de dinero para una sola mejora. Una encuesta dice: 60 vecinos necesitan transporte y 40 necesitan un parque. Propón una decisión apoyada en esos datos y una forma de escuchar al grupo que no sea priorizado.",
+      "level": 2,
+      "card": {
+        "title": "Identificar y usar datos para argumentar y entender otras opiniones",
+        "body": "Cuando quieres tomar una decisión basada en datos, primero reconoces qué información es importante y cómo se relaciona con tu problema o pregunta. También, para escuchar otras perspectivas, buscas datos o razones que apoyen puntos de vista diferentes. Esto ayuda a entender mejor la situación y a argumentar con respeto.",
+        "insight": "Usa datos concretos para apoyar tus ideas y pide datos o razones para comprender otras opiniones. Así tu decisión es más clara y justa.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Pasos para usar datos en decisiones y escuchar opiniones",
+          "steps": [
+            "Identificar datos relevantes en el tema.",
+            "Organizar y analizar esos datos.",
+            "Explicar una opinión basada en esos datos.",
+            "Escuchar y analizar datos que apoyan otras opiniones."
+          ]
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:15:50.336Z",
+        "request_id": "0b90a007-551a-43f9-90d3-5b18180c9655",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 2272,
+        "stages": {
+          "openai_support": 2272
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 679,
+            "output_tokens": 259,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "social-10",
+      "subject": "social_studies",
+      "grade": 10,
+      "question": "Un barrio dispone de dinero para una sola mejora. Una encuesta dice: 60 vecinos necesitan transporte y 40 necesitan un parque. Propón una decisión apoyada en esos datos y una forma de escuchar al grupo que no sea priorizado.",
+      "level": 3,
+      "card": {
+        "title": "Comparar datos para decidir sobre el uso de un espacio público",
+        "body": "Al comparar diferentes opciones para una zona pública, usamos datos concretos de cada alternativa para evaluar ventajas y desventajas. Luego, escuchamos opiniones distintas para enriquecer nuestro análisis y tomar una decisión justificada.",
+        "insight": "La clave está en organizar y comparar la información disponible de manera clara y considerar diferentes perspectivas para fortalecer el argumento.",
+        "example_problem": "A una comunidad se le ofrece transformar un espacio vacío en un jardín de flores o en un área de juegos para niños. Un jardín de flores permitiría plantar 50 flores distintas y atraería a 30 visitantes diarios. El área de juegos tiene 5 juegos diferentes y podría tener 20 niños jugando cada día. La comunidad debe decidir cuál opción elegir.",
+        "example_steps": [
+          "• Contar cuántos elementos tiene cada opción (50 flores vs 5 juegos).",
+          "• Comparar la cantidad de personas que usarían cada espacio diariamente (30 visitantes vs 20 niños).",
+          "• Pensar en qué tipo de personas se benefician más de cada opción.",
+          "• Considerar que algunas personas prefieren un lugar para descansar y otras para actividad.",
+          "• Usar estos datos para argumentar qué opción parece más adecuada para las necesidades de la comunidad."
+        ],
+        "example_result": "El jardín de flores tiene más variedad de elementos (50 contra 5) y atrae a más visitantes diariamente (30 contra 20). Pero el área de juegos es especial para los niños, un grupo importante en la comunidad. Por eso, si valoran más un espacio para relajarse y diversidad, el jardín sería mejor; si la prioridad es dar un lugar de juego para los niños, elegirían el área de juegos. La decisión depende de qué grupo prefieren apoyar o qué actividad valoran más para el espacio público.",
+        "visual": {
+          "kind": "table",
+          "caption": "Comparación de opciones para el espacio público",
+          "headers": [
+            "Aspecto",
+            "Jardín de flores",
+            "Área de juegos"
+          ],
+          "rows": [
+            [
+              "Cantidad de elementos",
+              "50 flores",
+              "5 juegos"
+            ],
+            [
+              "Número de usuarios diarios",
+              "30 visitantes",
+              "20 niños"
+            ],
+            [
+              "Tipo de usuarios",
+              "Personas que gustan de la naturaleza",
+              "Niños que quieren jugar"
+            ],
+            [
+              "Uso principal",
+              "Descanso y observación",
+              "Juego y actividad"
+            ]
+          ]
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:15:54.355Z",
+        "request_id": "72274b8f-ca58-4178-a3b2-f4c697b42fbb",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 4018,
+        "stages": {
+          "openai_support": 4018
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 821,
+            "output_tokens": 462,
+            "cached_input_tokens": 0
+          },
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 587,
+            "output_tokens": 9,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "english-11",
+      "subject": "english",
+      "grade": 11,
+      "question": "Lees «The ground was slippery after the rain» y no conoces slippery. Propón una estrategia para inferir su significado con el contexto y cómo comprobarías tu inferencia.",
+      "level": 2,
+      "card": {
+        "title": "Inferir y comprobar el significado de palabras desconocidas en inglés",
+        "body": "Cuando encuentras una palabra nueva mientras lees un texto en inglés, puedes descubrir su significado usando las pistas que da el texto (contexto). Estas pistas pueden ser las oraciones que están antes o después, o las palabras que la acompañan. Para hacerlo, sigue estos pasos:",
+        "insight": "La clave está en usar el texto para hacer un buen sentido de la palabra y luego verificar si tu idea tiene sentido con el resto del texto, así haces una inferencia segura.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Pasos para inferir y comprobar una palabra desconocida",
+          "steps": [
+            "Leer la parte del texto con la palabra desconocida.",
+            "Buscar pistas en las frases que la rodean.",
+            "Pensar qué significa la palabra usando esas pistas.",
+            "Verificar que el significado hace sentido en todo el texto."
+          ]
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:15:58.108Z",
+        "request_id": "793ab2c6-3c79-48bb-a5b5-e36259ae6e3f",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 3752,
+        "stages": {
+          "openai_support": 3752
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 684,
+            "output_tokens": 283,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "english-11",
+      "subject": "english",
+      "grade": 11,
+      "question": "Lees «The ground was slippery after the rain» y no conoces slippery. Propón una estrategia para inferir su significado con el contexto y cómo comprobarías tu inferencia.",
+      "level": 3,
+      "card": {
+        "title": "Inferir el significado de vocabulario nuevo usando pistas del texto",
+        "body": "Cuando encontramos una palabra que no conocemos en un texto en inglés, podemos leer las frases antes y después para buscar pistas que nos ayuden a entender su significado. Estas pistas pueden ser sinónimos, explicaciones, o ejemplos que el texto da para esa palabra. Después podemos comprobar si nuestra suposición tiene sentido con el resto del texto.",
+        "insight": "Para inferir el significado de una palabra desconocida, busca en su contexto palabras o ideas que expliquen o describan esa palabra, y luego verifica si esa idea ayuda a comprender el texto completo.",
+        "example_problem": "En un texto de inglés, leemos el siguiente párrafo:\n\n\"During the storm, the sailors had to be extremely vigilant. They watched the skies carefully and listened to the creaking of the ship to anticipate any danger. Vigilant means being very alert and paying close attention to what is happening around you.\"\n\n¿Puedes inferir qué significa la palabra \"vigilant\"?",
+        "example_steps": [
+          "- Observa la frase donde aparece \"vigilant\": \"During the storm, the sailors had to be extremely vigilant.\" Esto indica que los marineros estaban conscientes y atentos.",
+          "- Lee la frase que explica el significado: \"Vigilant means being very alert and paying close attention to what is happening around you.\" Esto da una definición clara.",
+          "- Comprueba que esta definición cuadra con la situación descrita, donde los marineros miran y escuchan para evitar peligro."
+        ],
+        "example_result": "La palabra \"vigilant\" significa estar muy alerta y prestar mucha atención a lo que ocurre alrededor. Podemos deducir su significado porque el texto da una definición clara después, y la situación de los marineros coincide con este sentido de cuidado y atención.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Pasos para inferir \"vigilant\" en el texto",
+          "steps": [
+            "Leer la frase con la palabra desconocida para entender el contexto.",
+            "Encontrar la definición o explicación dada en el texto.",
+            "Verificar si la definición se ajusta a la situación descrita."
+          ]
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:16:02.398Z",
+        "request_id": "cf2407a5-5222-4f92-b83d-7cb404bdaa93",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 4290,
+        "stages": {
+          "openai_support": 4289
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 794,
+            "output_tokens": 443,
+            "cached_input_tokens": 0
+          },
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 525,
+            "output_tokens": 9,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    }
+  ],
+  "summary": {
+    "passed_contract": 10,
+    "total": 10,
+    "latency": {
+      "samples": 10,
+      "p50_ms": 3752,
+      "p95_ms": 4290,
+      "min_ms": 2158,
+      "max_ms": 4290
+    }
+  }
+}

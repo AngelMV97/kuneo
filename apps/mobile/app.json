@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Kuneo",
+    "slug": "kuneo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.angelmotta.kuneo"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.angelmotta.kuneo"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "gatewayUrl": "http://localhost:3001",
+      "supabaseUrl": "https://zbcruqhuxfvcrntmospc.supabase.co",
+      "supabaseAnonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpiY3J1cWh1eGZ2Y3JudG1vc3BjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQzNDQ2NTEsImV4cCI6MjA3OTkyMDY1MX0.NVnE9iv9FQqgQLvQ9nq-cAvE3d8r59khANnQs_hfjSA"
+    }
+  }
+}

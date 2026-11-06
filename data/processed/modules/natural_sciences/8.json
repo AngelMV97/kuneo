@@ -1,0 +1,928 @@
+[
+  {
+    "module_id": "635bdb9d-8323-4830-af5f-0c713cb61664",
+    "source_unit_id": "deb034a4-df90-4a2c-8aa9-a4963bd5aefb",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "8",
+    "difficulty": 4,
+    "title": "¿Cómo funciona ciencias_naturales?",
+    "learning_objective": "Comprende el funcionamiento de máquinas térmicas (motores de combustión, refrigeración) por medio de las leyes de la termodinámica (primera y segunda ley).",
+    "context": "ilustración de máquinas térmicas como una estufa en una cocina, y el motor de combustión de un automóvil.",
+    "core_concept": "ciencias_naturales",
+    "concepts": [
+      "estadistica",
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "comprender",
+      "explicar",
+      "comprender",
+      "explicar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con ciencias_naturales?",
+      "expected_signals": [
+        "estadistica",
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "6015ed19-b310-4250-9eee-aabd19141229",
+        "evidence_source": "Describe el cambio en la energía interna de un sistema a partir del trabajo mecánico realizado y del calor transferido.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Describe el cambio en la energía interna de un sistema a partir del trabajo mecánico realizado y del calor transferido.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 1
+      },
+      {
+        "id": "784c2b52-8b8e-49ce-9de4-d4201d40bc50",
+        "evidence_source": "Explica la primera ley de la termodinámica a partir de la energía interna de un sistema, el calor y el trabajo, con relación a la conservación de la energía.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica la primera ley de la termodinámica a partir de la energía interna de un sistema, el calor y el trabajo, con relación a la conservación de la energía.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 4,
+        "order": 2
+      },
+      {
+        "id": "92dc68b7-c731-421d-a1aa-516cd0fedd53",
+        "evidence_source": "Describe la eficiencia mecánica de una máquina a partir de las relaciones entre el calor y trabajo mecánico mediante la segunda ley de la termodinámica.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Describe la eficiencia mecánica de una máquina a partir de las relaciones entre el calor y trabajo mecánico mediante la segunda ley de la termodinámica.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 3
+      },
+      {
+        "id": "f27cfcb4-eccd-4ce1-a16d-e7dafe582ceb",
+        "evidence_source": "Explica, haciendo uso de las leyes termodinámicas, el funcionamiento térmico de diferentes máquinas (motor de combustión, refrigerador).",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica, haciendo uso de las leyes termodinámicas, el funcionamiento térmico de diferentes máquinas (motor de combustión, refrigerador).",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 4,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "confundir promedio con valor representativo en todos los casos",
+        "pattern": "confundir promedio con valor representativo en todos los casos",
+        "feedback": "Revisemos esta idea: confundir promedio con valor representativo en todos los casos",
+        "visual": "concept_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre ciencias_naturales?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender ciencias_naturales?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "concept_map",
+        "trigger": "confundir promedio con valor representativo en todos los casos",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 1
+      }
+    }
+  },
+  {
+    "module_id": "2177dedd-5515-40dc-8e03-03f13d4befa4",
+    "source_unit_id": "ee9586be-7a35-415d-a23b-bcca6ccf20b8",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "8",
+    "difficulty": 4,
+    "title": "¿Cómo funciona movimiento?",
+    "learning_objective": "Comprende que en una reacción química se recombinan los átomos de las moléculas de los reactivos para generar productos nuevos, y que dichos productos se forman a partir de fuerzas intramoleculares (enlaces iónicos y covalentes).",
+    "context": "['Diseña un protocolo experimental para averiguar si se produce un cambio físico o químico al mezclar sustancias tales como vinagre-tiza y agua-tiza, para analizar si se generan sustancias nuevas a partir de las propiedades de reactivos y productos. Justifica su respuesta basado en evidencias (resultados experimentales) y referentes teóricos (tipo de enlace de los productos formados).']",
+    "core_concept": "movimiento",
+    "concepts": [
+      "movimiento",
+      "lectura_inferencial",
+      "argumentacion"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "explicar",
+      "representar",
+      "comprender",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con movimiento?",
+      "expected_signals": [
+        "movimiento",
+        "lectura_inferencial",
+        "argumentacion"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "175cd4eb-73fd-43f0-ac39-3ef44dac4bdb",
+        "evidence_source": "Explica con esquemas, dada una reacción química, cómo se recombinan los átomos de cada molécula para generar moléculas nuevas.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica con esquemas, dada una reacción química, cómo se recombinan los átomos de cada molécula para generar moléculas nuevas.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 4,
+        "order": 1
+      },
+      {
+        "id": "ef083bdb-cc6a-4fab-8f74-0cdcdc2ebbdd",
+        "evidence_source": "Representa los tipos de enlaces (iónico y covalente) para explicar la formación de compuestos dados, a partir de criterios como la electronegatividad y las relaciones entre los electrones de valencia.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Representa los tipos de enlaces (iónico y covalente) para explicar la formación de compuestos dados, a partir de criterios como la electronegatividad y las relaciones entre los electrones de valencia.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "representacion",
+          "razonamiento"
+        ],
+        "difficulty": 4,
+        "order": 2
+      },
+      {
+        "id": "3be210b2-f90a-45ac-b094-0e8b3d63e32d",
+        "evidence_source": "Justifica si un cambio en un material es físico o químico a partir de características observables que indiquen, para el caso de los cambios químicos, la formación de nuevas sustancias (cambio de color, desprendimiento de gas, entre otros).",
+        "type": "argumentation",
+        "prompt": "Justifica tu respuesta usando evidencia o razones claras.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 4,
+        "order": 3
+      },
+      {
+        "id": "4873b18e-c7fb-4f51-91b9-e6a50ed67e71",
+        "evidence_source": "Predice algunas de las propiedades (estado de agregación, solubilidad, temperatura de ebullición y de fusión) de los compuestos químicos a partir del tipo de enlace de sus átomos dentro de sus moléculas.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Predice algunas de las propiedades (estado de agregación, solubilidad, temperatura de ebullición y de fusión) de los compuestos químicos a partir del tipo de enlace de sus átomos dentro de sus moléculas.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre movimiento?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender movimiento?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 2
+      }
+    }
+  },
+  {
+    "module_id": "dcdd3c29-bae6-4e5e-bfef-a8ccb81a16fa",
+    "source_unit_id": "385966db-b9dd-4e94-ad81-b548111ecbbf",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "8",
+    "difficulty": 4,
+    "title": "¿Cómo funciona materia?",
+    "learning_objective": "Comprende que el comportamiento de un gas ideal está determinado por las relaciones entre Temperatura (T), Presión (P), Volumen (V) y Cantidad de sustancia (n).",
+    "context": "['Realiza experimentos para analizar las relaciones entre presión (P), temperatura (T), volumen (V) y cantidad de sustancia (n) de un gas (vapor de agua) que influyen en el comportamiento de los gases, utilizando recipientes como tarros, globos y ollas. Utiliza las leyes de los gases (Boyle, Charles, Gay-Lussac) para responder a preguntas como:']",
+    "core_concept": "materia",
+    "concepts": [
+      "lectura_inferencial",
+      "volumen",
+      "probabilidad"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "interpretar",
+      "explicar",
+      "explicar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con materia?",
+      "expected_signals": [
+        "lectura_inferencial",
+        "volumen",
+        "probabilidad"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "c95f88d0-b0b8-410b-af8f-33da0364d097",
+        "evidence_source": "Interpreta los resultados de experimentos en los cuales analiza el comportamiento de un gas ideal al variar su temperatura, volumen, presión y cantidad de gas, explicando cómo influyen estas variables en el comportamiento observado.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Interpreta los resultados de experimentos en los cuales analiza el comportamiento de un gas ideal al variar su temperatura, volumen, presión y cantidad de gas, explicando cómo influyen estas variables en el comportamiento observado.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de materia.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 4,
+        "order": 1
+      },
+      {
+        "id": "ab49ac9e-f9e8-4d35-afab-e21f185a2f45",
+        "evidence_source": "Explica el comportamiento (difusión, compresión, dilatación, fluidez) de los gases a partir de la teoría cinético molecular.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica el comportamiento (difusión, compresión, dilatación, fluidez) de los gases a partir de la teoría cinético molecular.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de materia.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 4,
+        "order": 2
+      },
+      {
+        "id": "b279dc55-6265-4722-8c28-55283a24ef7e",
+        "evidence_source": "Explica eventos cotidianos, (funcionamiento de un globo aerostático, pipetas de gas, inflar/ explotar una bomba), a partir de relaciones matemáticas entre variables como la presión, la temperatura, la cantidad de gas y el volumen, identificando cómo las leyes de los gases (Boyle-Mariotte, Charles, Gay-Lussac, Ley combinada, ecuación de estado) permiten establecer dichas relaciones.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con materia y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de materia.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 4,
+        "order": 3
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre materia?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender materia?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 3
+      }
+    }
+  },
+  {
+    "module_id": "c0d12c18-4103-40cb-b2d6-69e2e43c19dc",
+    "source_unit_id": "b57d9606-2406-4e4f-b0a5-18b43db7f007",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "8",
+    "difficulty": 4,
+    "title": "¿Cómo funciona celula?",
+    "learning_objective": "Analiza relaciones entre sistemas de órganos (excretor, inmune, nervioso, endocrino, óseo y muscular) con los procesos de regulación de las funciones en los seres vivos.",
+    "context": "proceso de interacción entre los sistemas del cuerpo humano. ['Explica a partir de la imagen, la interacción entre sistemas del cuerpo humano, al reconocer como el sistema endocrino interviene en el equilibrio homeostático del aparato excretor; predice además, lo que puede ocurrir con los músculos si se afecta el sistema circulatorio y como actúa el sistema inmune en el mantenimiento homeostático del cuerpo.']",
+    "core_concept": "celula",
+    "concepts": [
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "comprender",
+      "interpretar",
+      "comprender",
+      "explicar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con celula?",
+      "expected_signals": [
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "c1c44eea-bd7a-4794-ae1d-06a8fc6d4cf6",
+        "evidence_source": "Relaciona los fenómenos homeostáticos de los organismos con el funcionamiento de órganos y sistemas.",
+        "type": "matching",
+        "prompt": "Trabajemos esta evidencia: Relaciona los fenómenos homeostáticos de los organismos con el funcionamiento de órganos y sistemas.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de celula.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 1
+      },
+      {
+        "id": "b88b1628-9b9b-4120-a484-045a9877d091",
+        "evidence_source": "Interpreta modelos de equilibrio existente entre algunos de los sistemas (excretor, inmune, nervioso, endocrino, óseo y muscular).",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Interpreta modelos de equilibrio existente entre algunos de los sistemas (excretor, inmune, nervioso, endocrino, óseo y muscular).",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de celula.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 2
+      },
+      {
+        "id": "7e07741e-969c-4929-9061-a8343718e6d7",
+        "evidence_source": "Relaciona el papel biológico de las hormonas y las neuronas en la regulación y coordinación del funcionamiento de los sistemas del organismo y el mantenimiento de la homeostasis, dando ejemplos para funciones como la reproducción sexual, la digestión de los alimentos, la regulación de la presión sanguínea y la respuesta de “lucha o huida”.",
+        "type": "matching",
+        "prompt": "Trabajemos esta evidencia: Relaciona el papel biológico de las hormonas y las neuronas en la regulación y coordinación del funcionamiento de los sistemas del organismo y el mantenimiento de la homeostasis, dando ejemplos para funciones como la reproducción sexual, la digestión de los alimentos, la regulación de la presión sanguínea y la respuesta de “lucha o huida”.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de celula.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 3
+      },
+      {
+        "id": "ca72574c-ee0f-4384-8ab3-908a28fee27f",
+        "evidence_source": "Explica, a través de ejemplos, los efectos de hábitos no saludables en el funcionamiento adecuado de los sistemas excretor, nervioso, inmune, endocrino, óseo y muscular.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica, a través de ejemplos, los efectos de hábitos no saludables en el funcionamiento adecuado de los sistemas excretor, nervioso, inmune, endocrino, óseo y muscular.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de celula.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 4,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre celula?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender celula?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 4
+      }
+    }
+  },
+  {
+    "module_id": "bd551571-40cc-400a-ac60-063cba578e7d",
+    "source_unit_id": "ed1804e0-d099-48ce-bc48-43af33271600",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "8",
+    "difficulty": 4,
+    "title": "¿Cómo funciona sistema_solar?",
+    "learning_objective": "Analiza la reproducción (asexual, sexual) de distintos grupos de seres vivos y su importancia para la preservación de la vida en el planeta.",
+    "context": "Formula conclusiones a partir del análisis del siguiente caso: Se tiene un acuario con solo tres especies de organismos: peces, hidras y estrellas de mar. Luego de un tiempo se logra identificar que el número de peces se ha triplicado mientras que todas las hidras, al igual que las estrellas han quintuplicado su población. ['Explica las implicaciones de este aumento de la población para el acuario y para las especies que habitan en él. Predice las características de la descendencia de las especies que habitan en el acuario, identificando los organismos que tienen la posibilidad de producir descendientes en un tiempo más corto y aquellos que presentan mayor variabilidad. Además, reconoce los organismos que necesitan mayor energía para la reproducción, considerando la implicación de esta necesidad para el éxito reproductivo de la especie.']",
+    "core_concept": "sistema_solar",
+    "concepts": [
+      "historia"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "comprender",
+      "explicar",
+      "identificar",
+      "explicar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con sistema_solar?",
+      "expected_signals": [
+        "historia"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "3c45f02d-cf15-4d5d-aa3a-31928cfad9e3",
+        "evidence_source": "Diferencia los tipos de reproducción en plantas y propone su aplicación de acuerdo con las condiciones del medio donde se realiza.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Diferencia los tipos de reproducción en plantas y propone su aplicación de acuerdo con las condiciones del medio donde se realiza.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sistema_solar.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "transferencia"
+        ],
+        "difficulty": 4,
+        "order": 1
+      },
+      {
+        "id": "32a88840-0688-4e24-9461-79e19bfd156b",
+        "evidence_source": "Explica los sistemas de reproducción sexual y asexual en animales y reconoce sus efectos en la variabilidad y preservación de especies.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica los sistemas de reproducción sexual y asexual en animales y reconoce sus efectos en la variabilidad y preservación de especies.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sistema_solar.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 4,
+        "order": 2
+      },
+      {
+        "id": "2bc0bab9-977a-4c53-9dae-9104939d7c88",
+        "evidence_source": "Identifica riesgos y consecuencias físicas y psicológicas de un embarazo en la adolescencia.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con sistema_solar y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sistema_solar.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 3
+      },
+      {
+        "id": "859c8f76-4ff3-428e-99b9-f36cf47b435f",
+        "evidence_source": "Explica la importancia de la aplicación de medidas preventivas de patologías relacionadas con el sistema reproductor.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica la importancia de la aplicación de medidas preventivas de patologías relacionadas con el sistema reproductor.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de sistema_solar.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento",
+          "transferencia"
+        ],
+        "difficulty": 4,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre sistema_solar?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender sistema_solar?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 5
+      }
+    }
+  }
+]

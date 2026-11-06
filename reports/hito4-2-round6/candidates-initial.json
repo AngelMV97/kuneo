@@ -1,0 +1,1086 @@
+[
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "2a117363-158c-4830-8b70-dda8138c4a3f:q:0",
+      "sha256": "71ff25fcf4f77b4662038494a227b78b53de72b31e95abd0ca2b15431ac23360"
+    },
+    "module": {
+      "id": "round6-module-1",
+      "title": "Revisar una decisión de desarrollo",
+      "subject": "social_studies",
+      "grade_range": "10-11",
+      "learning_objective": "Revisar una estrategia de comparación de propuestas de desarrollo económico usando impactos y datos faltantes de un caso simulado.",
+      "is_active": false
+    },
+    "step": {
+      "id": "round6-repair-1",
+      "module_id": "round6-module-1",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "metacognicion",
+      "content": {
+        "prompt": "Municipio ficticio: se comparan dos propuestas de desarrollo. Las cifras son estimaciones, no resultados observados. A estima 30 empleos y un consumo de 120 m³ de agua al día; B estima 15 empleos y 60 m³ diarios. No se sabe cuánta agua está disponible. Una persona eligió A mirando solo los empleos. Explica qué dos aspectos relacionarías para revisar esa manera de decidir y qué dato faltante buscarías antes de elegir.",
+        "options": []
+      },
+      "enriched_content": {
+        "type": "text",
+        "expected_answer": {
+          "type": "rubric",
+          "answer": "Relacionaría los empleos previstos con el consumo de agua: A promete más empleos, pero también consumiría más agua que B. Investigaría cuánta agua está disponible para estas propuestas y las demás necesidades antes de decidir.",
+          "rubric": "Relaciona empleo previsto y consumo de agua como aspectos para revisar la decisión; explica la tensión o necesidad de considerar ambos. No basta una lista de términos. No exigir cifras exactas si la relación es correcta. Propone averiguar un dato pertinente que falta antes de elegir: disponibilidad de agua, otras necesidades de agua, calidad de empleos o confiabilidad de estimaciones, u otro relevante. No exigir que elija A o B.",
+          "criteria": [
+            {
+              "id": "relation",
+              "requirement": "Relaciona empleo previsto y consumo de agua como aspectos para revisar la decisión; explica la tensión o necesidad de considerar ambos. No basta una lista de términos. No exigir cifras exactas si la relación es correcta."
+            },
+            {
+              "id": "missing",
+              "requirement": "Propone averiguar un dato pertinente que falta antes de elegir: disponibilidad de agua, otras necesidades de agua, calidad de empleos o confiabilidad de estimaciones, u otro relevante. No exigir que elija A o B."
+            }
+          ]
+        },
+        "cognitive_dimension": "metacognicion",
+        "explanation": "Una estimación de empleo no describe todos los impactos de una propuesta. Al revisar una decisión, relaciona beneficios y costos posibles y pregunta qué datos faltan. Una cifra proyectada no garantiza un resultado.",
+        "learning_focus": "Revisar una estrategia de comparación de propuestas de desarrollo económico usando impactos y datos faltantes de un caso simulado.",
+        "step_config": {
+          "hints": [
+            "Revisar una estrategia no obliga a defender una opción predeterminada."
+          ],
+          "feedback": "Una estimación de empleo no describe todos los impactos de una propuesta. Al revisar una decisión, relaciona beneficios y costos posibles y pregunta qué datos faltan. Una cifra proyectada no garantiza un resultado."
+        }
+      }
+    },
+    "activity": {
+      "options": [],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [],
+      "correct_pairs": [],
+      "correct_index": -1,
+      "expected_text": "Relacionaría los empleos previstos con el consumo de agua: A promete más empleos, pero también consumiría más agua que B. Investigaría cuánta agua está disponible para estas propuestas y las demás necesidades antes de decidir.",
+      "rubric": "Relaciona empleo previsto y consumo de agua como aspectos para revisar la decisión; explica la tensión o necesidad de considerar ambos. No basta una lista de términos. No exigir cifras exactas si la relación es correcta. Propone averiguar un dato pertinente que falta antes de elegir: disponibilidad de agua, otras necesidades de agua, calidad de empleos o confiabilidad de estimaciones, u otro relevante. No exigir que elija A o B.",
+      "option_explanations": [],
+      "pair_explanations": [],
+      "type": "text",
+      "question": "Municipio ficticio: se comparan dos propuestas de desarrollo. Las cifras son estimaciones, no resultados observados. A estima 30 empleos y un consumo de 120 m³ de agua al día; B estima 15 empleos y 60 m³ diarios. No se sabe cuánta agua está disponible. Una persona eligió A mirando solo los empleos. Explica qué dos aspectos relacionarías para revisar esa manera de decidir y qué dato faltante buscarías antes de elegir.",
+      "hint": "Revisar una estrategia no obliga a defender una opción predeterminada.",
+      "explanation": "Una estimación de empleo no describe todos los impactos de una propuesta. Al revisar una decisión, relaciona beneficios y costos posibles y pregunta qué datos faltan. Una cifra proyectada no garantiza un resultado.",
+      "learning_focus": "Revisar una estrategia de comparación de propuestas de desarrollo económico usando impactos y datos faltantes de un caso simulado.",
+      "dimension": "metacognicion"
+    },
+    "supports": [
+      {
+        "title": "Revisar cómo se decide",
+        "body": "Una estimación de empleo no describe todos los impactos de una propuesta. Al revisar una decisión, relaciona beneficios y costos posibles y pregunta qué datos faltan. Una cifra proyectada no garantiza un resultado.",
+        "insight": "Revisar una estrategia no obliga a defender una opción predeterminada.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Otra decisión",
+        "body": "Una estimación de empleo no describe todos los impactos de una propuesta. Al revisar una decisión, relaciona beneficios y costos posibles y pregunta qué datos faltan. Una cifra proyectada no garantiza un resultado.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Caso ficticio: un curso eligió un local para una feria porque es más grande. Después recuerda que no conoce los tiempos de viaje de sus visitantes. ¿Qué revisaría?",
+        "example_steps": [
+          "El tamaño ofrece espacio, pero el acceso también influye en quién puede asistir.",
+          "Conviene averiguar los tiempos de viaje antes de afirmar que el local es mejor para todos."
+        ],
+        "example_result": "La revisión relaciona espacio y acceso, y señala un dato que falta.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Revisar la elección",
+          "headers": [],
+          "rows": [],
+          "steps": [
+            "Reconocer el criterio usado.",
+            "Añadir un impacto relevante.",
+            "Buscar evidencia que falta."
+          ]
+        }
+      }
+    ],
+    "checks": [
+      [
+        "A ofrece más trabajo, pero también usaría más agua. Averiguaría si alcanza el agua para las otras necesidades.",
+        "correct"
+      ],
+      [
+        "No miraría solo el empleo: B usaría menos agua y tendría menos puestos. Revisaría la disponibilidad de agua antes de elegir.",
+        "correct"
+      ],
+      [
+        "Buscaría saber cuánta agua hay disponible.",
+        "partial"
+      ],
+      [
+        "territorio cultura economía aplicación",
+        "incorrect"
+      ]
+    ],
+    "findings": [
+      "La respuesta de referencia es una instrucción sobre lo que debe hacer el estudiante y se compara como texto exacto.",
+      "No se proporciona experiencia para reflexionar; el objetivo «estos modelos» pierde su antecedente de modelos de desarrollo económico y la pregunta cambia a territorio."
+    ],
+    "sha256": "0bf732d13bf82a1548e21691ae4f2a05c4e2f72f0b267c3e8c9d7ba87104c266"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "90ff7409-4fcb-4c96-872f-acd3bc23f4bf:q:0",
+      "sha256": "287a22f5e79dae0f2f08448afb22028cec1d01dd3ba45f205c946b9404bd9dd3"
+    },
+    "module": {
+      "id": "round6-module-2",
+      "title": "Preparar una invitación para otro grupo",
+      "subject": "language",
+      "grade_range": "1-3",
+      "learning_objective": "Preparar por escrito un mensaje breve de invitación para una intervención oral, con actividad y un dato de tiempo o lugar.",
+      "is_active": false
+    },
+    "step": {
+      "id": "round6-repair-2",
+      "module_id": "round6-module-2",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "transferencia",
+      "content": {
+        "prompt": "Caso imaginado: antes preparaste una invitación para jugar. Ahora quieres invitar a otro grupo a ver una exposición de dibujos mañana en el salón. Escribe el mensaje que podrías decirles. Incluye la actividad y al menos un dato de cuándo o dónde será. No tienes que hablar ni grabarte.",
+        "options": []
+      },
+      "enriched_content": {
+        "type": "text",
+        "expected_answer": {
+          "type": "rubric",
+          "answer": "Los invito a ver la exposición de dibujos mañana en el salón.",
+          "rubric": "Escribe un mensaje dirigido al grupo que funciona como invitación; aceptar formas cotidianas e implícitas como vengan, vamos juntos o nos vemos, sin exigir la palabra invito. El mensaje identifica la exposición/dibujos y al menos un dato del caso: mañana o el salón. Se necesitan actividad y uno de esos datos, no ambos datos.",
+          "criteria": [
+            {
+              "id": "invitation",
+              "requirement": "Escribe un mensaje dirigido al grupo que funciona como invitación; aceptar formas cotidianas e implícitas como vengan, vamos juntos o nos vemos, sin exigir la palabra invito."
+            },
+            {
+              "id": "details",
+              "requirement": "El mensaje identifica la exposición/dibujos y al menos un dato del caso: mañana o el salón. Se necesitan actividad y uno de esos datos, no ambos datos."
+            }
+          ]
+        },
+        "cognitive_dimension": "transferencia",
+        "explanation": "Una invitación busca que otras personas participen. Cuenta qué actividad propones y un dato que les ayude a llegar, como cuándo o dónde. Puedes usar distintas palabras para invitar. Escribirla ayuda a preparar lo que dirías.",
+        "learning_focus": "Preparar por escrito un mensaje breve de invitación para una intervención oral, con actividad y un dato de tiempo o lugar.",
+        "step_config": {
+          "hints": [
+            "Un plan escrito no demuestra por sí solo cómo hablaste ante el grupo."
+          ],
+          "feedback": "Una invitación busca que otras personas participen. Cuenta qué actividad propones y un dato que les ayude a llegar, como cuándo o dónde. Puedes usar distintas palabras para invitar. Escribirla ayuda a preparar lo que dirías."
+        }
+      }
+    },
+    "activity": {
+      "options": [],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [],
+      "correct_pairs": [],
+      "correct_index": -1,
+      "expected_text": "Los invito a ver la exposición de dibujos mañana en el salón.",
+      "rubric": "Escribe un mensaje dirigido al grupo que funciona como invitación; aceptar formas cotidianas e implícitas como vengan, vamos juntos o nos vemos, sin exigir la palabra invito. El mensaje identifica la exposición/dibujos y al menos un dato del caso: mañana o el salón. Se necesitan actividad y uno de esos datos, no ambos datos.",
+      "option_explanations": [],
+      "pair_explanations": [],
+      "type": "text",
+      "question": "Caso imaginado: antes preparaste una invitación para jugar. Ahora quieres invitar a otro grupo a ver una exposición de dibujos mañana en el salón. Escribe el mensaje que podrías decirles. Incluye la actividad y al menos un dato de cuándo o dónde será. No tienes que hablar ni grabarte.",
+      "hint": "Un plan escrito no demuestra por sí solo cómo hablaste ante el grupo.",
+      "explanation": "Una invitación busca que otras personas participen. Cuenta qué actividad propones y un dato que les ayude a llegar, como cuándo o dónde. Puedes usar distintas palabras para invitar. Escribirla ayuda a preparar lo que dirías.",
+      "learning_focus": "Preparar por escrito un mensaje breve de invitación para una intervención oral, con actividad y un dato de tiempo o lugar.",
+      "dimension": "transferencia"
+    },
+    "supports": [
+      {
+        "title": "Una invitación comprensible",
+        "body": "Una invitación busca que otras personas participen. Cuenta qué actividad propones y un dato que les ayude a llegar, como cuándo o dónde. Puedes usar distintas palabras para invitar. Escribirla ayuda a preparar lo que dirías.",
+        "insight": "Un plan escrito no demuestra por sí solo cómo hablaste ante el grupo.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Otra invitación",
+        "body": "Una invitación busca que otras personas participen. Cuenta qué actividad propones y un dato que les ayude a llegar, como cuándo o dónde. Puedes usar distintas palabras para invitar. Escribirla ayuda a preparar lo que dirías.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Caso inventado: quieres invitar a un amigo a leer cuentos el viernes en la biblioteca. ¿Qué mensaje podrías preparar?",
+        "example_steps": [
+          "Se nombra la actividad: leer cuentos.",
+          "Se agrega un dato para participar: el viernes o la biblioteca."
+        ],
+        "example_result": "Por ejemplo: «Ven a leer cuentos el viernes en la biblioteca».",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Preparar el mensaje",
+          "headers": [],
+          "rows": [],
+          "steps": [
+            "Qué propones: leer cuentos.",
+            "Cuándo o dónde: viernes, biblioteca.",
+            "Dirígete a quien invitas."
+          ]
+        }
+      }
+    ],
+    "checks": [
+      [
+        "Vengan a ver los dibujos mañana.",
+        "correct"
+      ],
+      [
+        "Vamos juntos a la exposición en el salón.",
+        "correct"
+      ],
+      [
+        "Los invito.",
+        "partial"
+      ],
+      [
+        "propósito invitación contexto",
+        "incorrect"
+      ]
+    ],
+    "findings": [
+      "Se pide elegir una opción en la referencia, pero la interfaz normaliza el ejercicio como texto; solo hay opciones de marcador y no existe situación nueva.",
+      "El objetivo de producción oral y la etiqueta de lectura inferencial no están alineados. El candidato declara preparación escrita de un mensaje; no finge evaluar ejecución oral."
+    ],
+    "sha256": "698a0b58a2104a339e766729fa57a0b77df0b079d64e8791523e9ff7c07d70c5"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "980c132b-6431-476a-88ec-a2e7786935ad:q:0",
+      "sha256": "6b67cf0e79bb1d0faef4789bd44c61b23503d45b2de2fc9ae6d8ebd4c3e30a32"
+    },
+    "module": {
+      "id": "round6-module-3",
+      "title": "Planear una comparación de papeles",
+      "subject": "natural_sciences",
+      "grade_range": "1-3",
+      "learning_objective": "Describir una comparación sencilla para poner a prueba una conjetura sin afirmar que ya se realizó.",
+      "is_active": false
+    },
+    "step": {
+      "id": "round6-repair-3",
+      "module_id": "round6-module-3",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "comprension",
+      "content": {
+        "prompt": "Plan imaginado: Sara quiere comparar cuánto agua absorben dos tipos de papel. No hará la prueba ahora. Di una cosa que debería mantener igual en ambos casos y qué observaría para comparar los papeles.",
+        "options": []
+      },
+      "enriched_content": {
+        "type": "text",
+        "expected_answer": {
+          "type": "rubric",
+          "answer": "Usaría trozos del mismo tamaño y observaría cuál absorbe más agua. También se puede mantener igual el agua inicial o el tiempo de contacto.",
+          "rubric": "Menciona al menos una condición igual: tamaño de los trozos, cantidad inicial de agua o tiempo de contacto; aceptar expresiones infantiles como igual de grandes o la misma agua. No exigir las tres. Propone observar/comparar cuánta agua absorbe cada papel o cuánta queda, o cuál se moja/absorbe más; aceptar lenguaje cotidiano como chupa más. No exigir un resultado concreto ni un instrumento.",
+          "criteria": [
+            {
+              "id": "constant",
+              "requirement": "Menciona al menos una condición igual: tamaño de los trozos, cantidad inicial de agua o tiempo de contacto; aceptar expresiones infantiles como igual de grandes o la misma agua. No exigir las tres."
+            },
+            {
+              "id": "observe",
+              "requirement": "Propone observar/comparar cuánta agua absorbe cada papel o cuánta queda, o cuál se moja/absorbe más; aceptar lenguaje cotidiano como chupa más. No exigir un resultado concreto ni un instrumento."
+            }
+          ]
+        },
+        "cognitive_dimension": "comprension",
+        "explanation": "Para comparar materiales, procura que otras condiciones sean parecidas. Decide qué cambiarás y qué mirarás. Sin observar todavía no sabes cuál tendrá un resultado mayor.",
+        "learning_focus": "Describir una comparación sencilla para poner a prueba una conjetura sin afirmar que ya se realizó.",
+        "step_config": {
+          "hints": [
+            "Planear una prueba no es afirmar que ya conoces el resultado."
+          ],
+          "feedback": "Para comparar materiales, procura que otras condiciones sean parecidas. Decide qué cambiarás y qué mirarás. Sin observar todavía no sabes cuál tendrá un resultado mayor."
+        }
+      }
+    },
+    "activity": {
+      "options": [],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [],
+      "correct_pairs": [],
+      "correct_index": -1,
+      "expected_text": "Usaría trozos del mismo tamaño y observaría cuál absorbe más agua. También se puede mantener igual el agua inicial o el tiempo de contacto.",
+      "rubric": "Menciona al menos una condición igual: tamaño de los trozos, cantidad inicial de agua o tiempo de contacto; aceptar expresiones infantiles como igual de grandes o la misma agua. No exigir las tres. Propone observar/comparar cuánta agua absorbe cada papel o cuánta queda, o cuál se moja/absorbe más; aceptar lenguaje cotidiano como chupa más. No exigir un resultado concreto ni un instrumento.",
+      "option_explanations": [],
+      "pair_explanations": [],
+      "type": "text",
+      "question": "Plan imaginado: Sara quiere comparar cuánto agua absorben dos tipos de papel. No hará la prueba ahora. Di una cosa que debería mantener igual en ambos casos y qué observaría para comparar los papeles.",
+      "hint": "Planear una prueba no es afirmar que ya conoces el resultado.",
+      "explanation": "Para comparar materiales, procura que otras condiciones sean parecidas. Decide qué cambiarás y qué mirarás. Sin observar todavía no sabes cuál tendrá un resultado mayor.",
+      "learning_focus": "Describir una comparación sencilla para poner a prueba una conjetura sin afirmar que ya se realizó.",
+      "dimension": "comprension"
+    },
+    "supports": [
+      {
+        "title": "Comparar una cosa a la vez",
+        "body": "Para comparar materiales, procura que otras condiciones sean parecidas. Decide qué cambiarás y qué mirarás. Sin observar todavía no sabes cuál tendrá un resultado mayor.",
+        "insight": "Planear una prueba no es afirmar que ya conoces el resultado.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Otra comparación",
+        "body": "Para comparar materiales, procura que otras condiciones sean parecidas. Decide qué cambiarás y qué mirarás. Sin observar todavía no sabes cuál tendrá un resultado mayor.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Caso imaginado: quieres comparar cuánto se estiran dos bandas. No vamos a estirarlas ahora. ¿Qué harías igual y qué mirarías?",
+        "example_steps": [
+          "Aplicaría la misma carga en ambos casos.",
+          "Compararía cuánto cambió la longitud de cada banda."
+        ],
+        "example_result": "Ese plan compara el estiramiento con una condición igual; no dice cuál banda se estirará más.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Otro plan",
+          "headers": [],
+          "rows": [],
+          "steps": [
+            "Misma carga.",
+            "Bandas distintas.",
+            "Comparar el cambio de longitud."
+          ]
+        }
+      }
+    ],
+    "checks": [
+      [
+        "Pongo la misma agua y miro cuál chupa más.",
+        "correct"
+      ],
+      [
+        "Los papeles igual de grandes; comparo cuánta agua queda.",
+        "correct"
+      ],
+      [
+        "Usaría la misma cantidad de agua.",
+        "partial"
+      ],
+      [
+        "papel agua condiciones absorción",
+        "incorrect"
+      ]
+    ],
+    "findings": [
+      "La referencia exige tres elementos y su función, pero no hay ejercicio ni elementos para identificar; se evalúa una descripción del desempeño como frase literal.",
+      "El objetivo de diseñar y realizar experiencias no se comprueba con esa consigna. El candidato cubre solo la planificación, sin ejecución atribuida al estudiante."
+    ],
+    "sha256": "1b49f43c09d5d223234959ed259d414af4a6797c66c8765655f2842cdb8190b2"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "a8ab289d-2a79-42da-993a-a35c91fbdf1b:q:0",
+      "sha256": "f6c80a40e23c6ddd2735d0fe7cf71c3236a0ac55e8ebe604cc59fbc7eb5ec42d"
+    },
+    "module": {
+      "id": "round6-module-4",
+      "title": "Justificar qué propuesta estudiar",
+      "subject": "social_studies",
+      "grade_range": "10-11",
+      "learning_objective": "Justificar el estudio de una propuesta de desarrollo económico con datos proyectados y límites explícitos.",
+      "is_active": false
+    },
+    "step": {
+      "id": "round6-repair-4",
+      "module_id": "round6-module-4",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "razonamiento",
+      "content": {
+        "prompt": "Caso ficticio: una región estudia dos propuestas. A plantea una planta exportadora y estima 30 empleos; B plantea una cooperativa local y estima 15 empleos. No se estudiaron consumo de agua, calidad de los empleos ni ingresos futuros. Elige una propuesta para estudiar primero, justifica con una estimación del caso y di un dato faltante que revisarías antes de decidir. Cualquiera puede ser defendida; las estimaciones no son resultados garantizados.",
+        "options": []
+      },
+      "enriched_content": {
+        "type": "text",
+        "expected_answer": {
+          "type": "rubric",
+          "answer": "Estudiaría A primero porque estima 30 empleos, más que B. Revisaría el consumo de agua o la calidad de esos empleos antes de decidir. También puede justificarse estudiar B reconociendo su estimación de 15 empleos y un dato faltante.",
+          "rubric": "Elige A o B para estudiar y da una razón que usa correctamente su estimación o comparación de empleos. A tiene 30 y B 15; aceptar más/menos empleos sin cifras. Elegir B sigue siendo válido con una razón coherente que reconozca sus empleos. Señala un dato relevante no suministrado que revisaría antes de decidir: agua, calidad/condiciones de empleos, ingresos o confiabilidad de estimaciones, u otro pertinente.",
+          "criteria": [
+            {
+              "id": "choice",
+              "requirement": "Elige A o B para estudiar y da una razón que usa correctamente su estimación o comparación de empleos. A tiene 30 y B 15; aceptar más/menos empleos sin cifras. Elegir B sigue siendo válido con una razón coherente que reconozca sus empleos."
+            },
+            {
+              "id": "missing",
+              "requirement": "Señala un dato relevante no suministrado que revisaría antes de decidir: agua, calidad/condiciones de empleos, ingresos o confiabilidad de estimaciones, u otro pertinente."
+            }
+          ]
+        },
+        "cognitive_dimension": "razonamiento",
+        "explanation": "Una propuesta puede estudiarse por distintas razones. Usa el dato que sí está disponible y distingue lo estimado de lo observado. Antes de recomendar una decisión, identifica algo importante que todavía no se sabe.",
+        "learning_focus": "Justificar el estudio de una propuesta de desarrollo económico con datos proyectados y límites explícitos.",
+        "step_config": {
+          "hints": [
+            "No hay una opción obligatoria cuando la tarea permite decisiones justificadas."
+          ],
+          "feedback": "Una propuesta puede estudiarse por distintas razones. Usa el dato que sí está disponible y distingue lo estimado de lo observado. Antes de recomendar una decisión, identifica algo importante que todavía no se sabe."
+        }
+      }
+    },
+    "activity": {
+      "options": [],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [],
+      "correct_pairs": [],
+      "correct_index": -1,
+      "expected_text": "Estudiaría A primero porque estima 30 empleos, más que B. Revisaría el consumo de agua o la calidad de esos empleos antes de decidir. También puede justificarse estudiar B reconociendo su estimación de 15 empleos y un dato faltante.",
+      "rubric": "Elige A o B para estudiar y da una razón que usa correctamente su estimación o comparación de empleos. A tiene 30 y B 15; aceptar más/menos empleos sin cifras. Elegir B sigue siendo válido con una razón coherente que reconozca sus empleos. Señala un dato relevante no suministrado que revisaría antes de decidir: agua, calidad/condiciones de empleos, ingresos o confiabilidad de estimaciones, u otro pertinente.",
+      "option_explanations": [],
+      "pair_explanations": [],
+      "type": "text",
+      "question": "Caso ficticio: una región estudia dos propuestas. A plantea una planta exportadora y estima 30 empleos; B plantea una cooperativa local y estima 15 empleos. No se estudiaron consumo de agua, calidad de los empleos ni ingresos futuros. Elige una propuesta para estudiar primero, justifica con una estimación del caso y di un dato faltante que revisarías antes de decidir. Cualquiera puede ser defendida; las estimaciones no son resultados garantizados.",
+      "hint": "No hay una opción obligatoria cuando la tarea permite decisiones justificadas.",
+      "explanation": "Una propuesta puede estudiarse por distintas razones. Usa el dato que sí está disponible y distingue lo estimado de lo observado. Antes de recomendar una decisión, identifica algo importante que todavía no se sabe.",
+      "learning_focus": "Justificar el estudio de una propuesta de desarrollo económico con datos proyectados y límites explícitos.",
+      "dimension": "razonamiento"
+    },
+    "supports": [
+      {
+        "title": "Una razón y una pregunta pendiente",
+        "body": "Una propuesta puede estudiarse por distintas razones. Usa el dato que sí está disponible y distingue lo estimado de lo observado. Antes de recomendar una decisión, identifica algo importante que todavía no se sabe.",
+        "insight": "No hay una opción obligatoria cuando la tarea permite decisiones justificadas.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Otra propuesta",
+        "body": "Una propuesta puede estudiarse por distintas razones. Usa el dato que sí está disponible y distingue lo estimado de lo observado. Antes de recomendar una decisión, identifica algo importante que todavía no se sabe.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Caso ficticio: un centro cultural considera dos horarios. Uno podría atender 20 personas y otro 12, pero no sabe qué personas pueden llegar. ¿Cómo justificarías investigar el primero sin prometer beneficio para todos?",
+        "example_steps": [
+          "La estimación de 20 asistentes motiva estudiarlo.",
+          "Falta investigar quiénes podrían llegar en ese horario."
+        ],
+        "example_result": "Puede estudiarse por su capacidad prevista y revisar acceso antes de decidir.",
+        "visual": {
+          "kind": "table",
+          "caption": "Distinguir información",
+          "headers": [
+            "Disponible",
+            "Falta"
+          ],
+          "rows": [
+            [
+              "Capacidad prevista del horario",
+              "Quiénes pueden llegar"
+            ]
+          ],
+          "steps": []
+        }
+      }
+    ],
+    "checks": [
+      [
+        "Miraría primero A por los 30 empleos previstos, pero pediría saber cuánta agua requiere.",
+        "correct"
+      ],
+      [
+        "Estudiaría B: aunque proyecta menos empleos, me interesa saber si los 15 serían estables. Falta conocer la calidad de esos trabajos.",
+        "correct"
+      ],
+      [
+        "Estudiaría A porque estima más empleos.",
+        "partial"
+      ],
+      [
+        "modelo región factores territorio",
+        "incorrect"
+      ]
+    ],
+    "findings": [
+      "Se exigen tres factores de una situación social que no aparece y se acepta una instrucción de evaluación como respuesta exacta.",
+      "El objetivo omite el antecedente de modelos de desarrollo económico; la tarjeta de pertenencia territorial de primeros grados no aporta ese análisis."
+    ],
+    "sha256": "1dcf3cc8792aa056abe83247a4afffc54e4d6fb8e20c0c867cca74135b862e82"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "c80cc095-f6f7-419f-8eb2-1547d785412b:q:0",
+      "sha256": "f5249a5def53993ba3b0b08a826c76ff4742a30efd0477ac9a43f67211773ee3"
+    },
+    "module": {
+      "id": "round6-module-5",
+      "title": "Aplicar una revisión de impactos",
+      "subject": "social_studies",
+      "grade_range": "10-11",
+      "learning_objective": "Aplicar un análisis de impactos y límites a una propuesta nueva de infraestructura en un caso ficticio.",
+      "is_active": false
+    },
+    "step": {
+      "id": "round6-repair-5",
+      "module_id": "round6-module-5",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "transferencia",
+      "content": {
+        "prompt": "Caso ficticio: aprendiste a no juzgar una propuesta de desarrollo por una sola ventaja. En otra región se proyecta una ruta que reduciría el viaje de la comunidad A de 60 a 30 minutos. No se conocen la tarifa ni los recorridos de la comunidad B. Explica una ventaja posible que muestran los datos y qué preguntarías antes de afirmar que la ruta beneficiará a todos.",
+        "options": []
+      },
+      "enriched_content": {
+        "type": "text",
+        "expected_answer": {
+          "type": "rubric",
+          "answer": "El viaje de A podría ser más corto, de 60 a 30 minutos. Preguntaría por la tarifa o el acceso y recorridos de B antes de extender el beneficio a todos.",
+          "rubric": "Identifica que el viaje de A podría durar menos con la propuesta; aceptar media hora menos, de 60 a 30 o simplemente viaje más corto, sin exigir cálculo. No afirmar que ya se observó en toda la población. Pregunta por tarifa/costo de acceso o por recorridos/acceso/efectos en B antes de generalizar a todos. Basta un dato pertinente de los que faltan.",
+          "criteria": [
+            {
+              "id": "benefit",
+              "requirement": "Identifica que el viaje de A podría durar menos con la propuesta; aceptar media hora menos, de 60 a 30 o simplemente viaje más corto, sin exigir cálculo. No afirmar que ya se observó en toda la población."
+            },
+            {
+              "id": "limit",
+              "requirement": "Pregunta por tarifa/costo de acceso o por recorridos/acceso/efectos en B antes de generalizar a todos. Basta un dato pertinente de los que faltan."
+            }
+          ]
+        },
+        "cognitive_dimension": "transferencia",
+        "explanation": "En otro lugar o proyecto también puedes separar una ventaja prevista de lo que falta investigar. Pregunta para quién cambia algo y qué otras condiciones influyen en poder aprovecharlo.",
+        "learning_focus": "Aplicar un análisis de impactos y límites a una propuesta nueva de infraestructura en un caso ficticio.",
+        "step_config": {
+          "hints": [
+            "Una ventaja para un grupo no demuestra un beneficio para todos."
+          ],
+          "feedback": "En otro lugar o proyecto también puedes separar una ventaja prevista de lo que falta investigar. Pregunta para quién cambia algo y qué otras condiciones influyen en poder aprovecharlo."
+        }
+      }
+    },
+    "activity": {
+      "options": [],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [],
+      "correct_pairs": [],
+      "correct_index": -1,
+      "expected_text": "El viaje de A podría ser más corto, de 60 a 30 minutos. Preguntaría por la tarifa o el acceso y recorridos de B antes de extender el beneficio a todos.",
+      "rubric": "Identifica que el viaje de A podría durar menos con la propuesta; aceptar media hora menos, de 60 a 30 o simplemente viaje más corto, sin exigir cálculo. No afirmar que ya se observó en toda la población. Pregunta por tarifa/costo de acceso o por recorridos/acceso/efectos en B antes de generalizar a todos. Basta un dato pertinente de los que faltan.",
+      "option_explanations": [],
+      "pair_explanations": [],
+      "type": "text",
+      "question": "Caso ficticio: aprendiste a no juzgar una propuesta de desarrollo por una sola ventaja. En otra región se proyecta una ruta que reduciría el viaje de la comunidad A de 60 a 30 minutos. No se conocen la tarifa ni los recorridos de la comunidad B. Explica una ventaja posible que muestran los datos y qué preguntarías antes de afirmar que la ruta beneficiará a todos.",
+      "hint": "Una ventaja para un grupo no demuestra un beneficio para todos.",
+      "explanation": "En otro lugar o proyecto también puedes separar una ventaja prevista de lo que falta investigar. Pregunta para quién cambia algo y qué otras condiciones influyen en poder aprovecharlo.",
+      "learning_focus": "Aplicar un análisis de impactos y límites a una propuesta nueva de infraestructura en un caso ficticio.",
+      "dimension": "transferencia"
+    },
+    "supports": [
+      {
+        "title": "Transferir una forma de analizar",
+        "body": "En otro lugar o proyecto también puedes separar una ventaja prevista de lo que falta investigar. Pregunta para quién cambia algo y qué otras condiciones influyen en poder aprovecharlo.",
+        "insight": "Una ventaja para un grupo no demuestra un beneficio para todos.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Un espacio cultural diferente",
+        "body": "En otro lugar o proyecto también puedes separar una ventaja prevista de lo que falta investigar. Pregunta para quién cambia algo y qué otras condiciones influyen en poder aprovecharlo.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Caso ficticio: se propone una biblioteca con más mesas, pero no se conoce si el edificio tiene acceso para todas las personas. ¿Qué ventaja se prevé y qué falta revisar?",
+        "example_steps": [
+          "Más mesas podrían ofrecer más lugares para leer.",
+          "Hace falta revisar si las personas pueden entrar y utilizar esos lugares."
+        ],
+        "example_result": "La capacidad prevista es una ventaja posible; el acceso requiere más información.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Aplicar la revisión",
+          "headers": [],
+          "rows": [],
+          "steps": [
+            "Qué podría mejorar.",
+            "Para quién.",
+            "Qué falta comprobar."
+          ]
+        }
+      }
+    ],
+    "checks": [
+      [
+        "A viajaría menos tiempo. Preguntaría cuánto costará para saber si pueden pagarla.",
+        "correct"
+      ],
+      [
+        "Para A se proyecta ahorrar media hora; revisaría si B puede llegar a la ruta.",
+        "correct"
+      ],
+      [
+        "A podría pasar de una hora a media hora.",
+        "partial"
+      ],
+      [
+        "ruta beneficio transferencia región",
+        "incorrect"
+      ]
+    ],
+    "findings": [
+      "Referencia de elección múltiple, opciones A/B/C/D sin contenido y normalización como texto; ninguna situación permite una elección real.",
+      "La frase de referencia exige aplicar territorio, pero el objetivo de desarrollo económico quedó incompleto y el alumno solo puede acertar copiando la frase."
+    ],
+    "sha256": "182f465ae591928c0f7f3e0e10bc5dcd816bbf358ba82eaf0ce3d7be8bd4fd77"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "dad15a5e-ba72-40ee-8430-e53dec4fc58c:q:0",
+      "sha256": "c480a6f8ae5c7cdf5c6806bf9dd2e31fde5b5f845986ec049bad7a2c479d2c2f"
+    },
+    "module": {
+      "id": "round6-module-6",
+      "title": "Revisar cuándo se observa",
+      "subject": "natural_sciences",
+      "grade_range": "1-3",
+      "learning_objective": "Revisar una condición de un plan de comparación y explicar por qué debe corregirse, sin afirmar ejecución real.",
+      "is_active": false
+    },
+    "step": {
+      "id": "round6-repair-6",
+      "module_id": "round6-module-6",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "metacognicion",
+      "content": {
+        "prompt": "Plan imaginado: un grupo quería comparar el crecimiento de dos plantas sembradas el mismo día. Miró una después de tres días y la otra después de siete. Para revisar ese plan, di qué cambiarías la próxima vez y por qué ese cambio ayudaría a comparar. No tienes que cultivar plantas ahora.",
+        "options": []
+      },
+      "enriched_content": {
+        "type": "text",
+        "expected_answer": {
+          "type": "rubric",
+          "answer": "Las observaría después del mismo número de días, porque con más días una planta podría crecer más y no sería una comparación del mismo tiempo.",
+          "rubric": "Propone observar las dos plantas tras igual número de días o en el mismo tiempo de comparación; aceptar mirarlas el mismo día. Explica que distintos tiempos de crecimiento pueden influir en lo observado y por eso conviene comparar un tiempo igual. No basta decir solo porque sí o porque es mejor.",
+          "criteria": [
+            {
+              "id": "change",
+              "requirement": "Propone observar las dos plantas tras igual número de días o en el mismo tiempo de comparación; aceptar mirarlas el mismo día."
+            },
+            {
+              "id": "reason",
+              "requirement": "Explica que distintos tiempos de crecimiento pueden influir en lo observado y por eso conviene comparar un tiempo igual. No basta decir solo porque sí o porque es mejor."
+            }
+          ]
+        },
+        "cognitive_dimension": "metacognicion",
+        "explanation": "Después de pensar en un plan, revisa si los casos tuvieron condiciones parecidas. Si el tiempo de observación cambia, eso puede influir en lo que ves. Explica cómo tu cambio ayuda a comparar.",
+        "learning_focus": "Revisar una condición de un plan de comparación y explicar por qué debe corregirse, sin afirmar ejecución real.",
+        "step_config": {
+          "hints": [
+            "Revisar un plan pide un cambio y una razón, no repetir palabras de ciencia."
+          ],
+          "feedback": "Después de pensar en un plan, revisa si los casos tuvieron condiciones parecidas. Si el tiempo de observación cambia, eso puede influir en lo que ves. Explica cómo tu cambio ayuda a comparar."
+        }
+      }
+    },
+    "activity": {
+      "options": [],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [],
+      "correct_pairs": [],
+      "correct_index": -1,
+      "expected_text": "Las observaría después del mismo número de días, porque con más días una planta podría crecer más y no sería una comparación del mismo tiempo.",
+      "rubric": "Propone observar las dos plantas tras igual número de días o en el mismo tiempo de comparación; aceptar mirarlas el mismo día. Explica que distintos tiempos de crecimiento pueden influir en lo observado y por eso conviene comparar un tiempo igual. No basta decir solo porque sí o porque es mejor.",
+      "option_explanations": [],
+      "pair_explanations": [],
+      "type": "text",
+      "question": "Plan imaginado: un grupo quería comparar el crecimiento de dos plantas sembradas el mismo día. Miró una después de tres días y la otra después de siete. Para revisar ese plan, di qué cambiarías la próxima vez y por qué ese cambio ayudaría a comparar. No tienes que cultivar plantas ahora.",
+      "hint": "Revisar un plan pide un cambio y una razón, no repetir palabras de ciencia.",
+      "explanation": "Después de pensar en un plan, revisa si los casos tuvieron condiciones parecidas. Si el tiempo de observación cambia, eso puede influir en lo que ves. Explica cómo tu cambio ayuda a comparar.",
+      "learning_focus": "Revisar una condición de un plan de comparación y explicar por qué debe corregirse, sin afirmar ejecución real.",
+      "dimension": "metacognicion"
+    },
+    "supports": [
+      {
+        "title": "Revisar una comparación",
+        "body": "Después de pensar en un plan, revisa si los casos tuvieron condiciones parecidas. Si el tiempo de observación cambia, eso puede influir en lo que ves. Explica cómo tu cambio ayuda a comparar.",
+        "insight": "Revisar un plan pide un cambio y una razón, no repetir palabras de ciencia.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Otro tiempo de observación",
+        "body": "Después de pensar en un plan, revisa si los casos tuvieron condiciones parecidas. Si el tiempo de observación cambia, eso puede influir en lo que ves. Explica cómo tu cambio ayuda a comparar.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Caso imaginado: se comparan dos dibujos que se dejan al sol, pero uno se mira tras un día y otro tras cuatro. Sin realizar la prueba, ¿qué revisarías del tiempo?",
+        "example_steps": [
+          "Se compararían después de la misma duración.",
+          "Así la duración no sería una diferencia adicional entre los casos."
+        ],
+        "example_result": "Se puede corregir el tiempo de comparación sin inventar qué dibujo cambiará más.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Revisar el tiempo",
+          "headers": [],
+          "rows": [],
+          "steps": [
+            "Detectar duraciones diferentes.",
+            "Proponer la misma duración.",
+            "Explicar qué confusión se evita."
+          ]
+        }
+      }
+    ],
+    "checks": [
+      [
+        "Las miraría el mismo día porque con más días una puede crecer más.",
+        "correct"
+      ],
+      [
+        "Esperaría siete días para las dos: así ninguna tendría más tiempo para crecer que la otra.",
+        "correct"
+      ],
+      [
+        "Las observaría después del mismo número de días.",
+        "partial"
+      ],
+      [
+        "observar experimentar plantas ciencia",
+        "incorrect"
+      ]
+    ],
+    "findings": [
+      "Una reflexión abierta se evalúa con una única frase de primera persona: una paráfrasis no coincide y no hay evidencia de una práctica delimitada para reflexionar.",
+      "La referencia genérica sobre ciencias no verifica revisar el diseño de una experiencia."
+    ],
+    "sha256": "e1467ae8c433f43bc454a88773729357062276ff42272561fecdf0a10f3b9535"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "dfaa6392-6b6a-452b-addd-9708df31dee6:q:0",
+      "sha256": "14e206c9c8f0c8bd46462934d82992a53ed4ccdae69aea01a21e2bc6cc418446"
+    },
+    "module": {
+      "id": "round6-module-7",
+      "title": "Corregir un mensaje de invitación",
+      "subject": "language",
+      "grade_range": "1-3",
+      "learning_objective": "Preparar por escrito una invitación coherente con los datos de un aviso, como apoyo a una intervención oral.",
+      "is_active": false
+    },
+    "step": {
+      "id": "round6-repair-7",
+      "module_id": "round6-module-7",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "razonamiento",
+      "content": {
+        "prompt": "Caso inventado. El aviso dice: «El club empieza el martes, después del recreo, en la biblioteca». Pedro preparó este mensaje: «Los esperamos el lunes en la cancha». Reescribe su invitación corrigiendo el día y el lugar según el aviso. No tienes que hablar ni grabarte.",
+        "options": []
+      },
+      "enriched_content": {
+        "type": "text",
+        "expected_answer": {
+          "type": "rubric",
+          "answer": "Los esperamos el martes en la biblioteca. También puede decirse vengan o nos vemos, sin exigir una fórmula de invitación literal.",
+          "rubric": "El mensaje corregido sitúa el encuentro el martes, no el lunes; no exigir mencionar después del recreo. El mensaje corregido sitúa el encuentro en la biblioteca, no la cancha. Aceptar expresiones naturales sin fórmula obligatoria.",
+          "criteria": [
+            {
+              "id": "day",
+              "requirement": "El mensaje corregido sitúa el encuentro el martes, no el lunes; no exigir mencionar después del recreo."
+            },
+            {
+              "id": "place",
+              "requirement": "El mensaje corregido sitúa el encuentro en la biblioteca, no la cancha. Aceptar expresiones naturales sin fórmula obligatoria."
+            }
+          ]
+        },
+        "cognitive_dimension": "razonamiento",
+        "explanation": "Compara tu mensaje con la información disponible. Un día o lugar cambiado puede confundir a quienes escucharán. Puedes redactar de distintas formas si conservas los datos necesarios.",
+        "learning_focus": "Preparar por escrito una invitación coherente con los datos de un aviso, como apoyo a una intervención oral.",
+        "step_config": {
+          "hints": [
+            "Preparar y revisar el escrito no acredita por sí solo una presentación oral."
+          ],
+          "feedback": "Compara tu mensaje con la información disponible. Un día o lugar cambiado puede confundir a quienes escucharán. Puedes redactar de distintas formas si conservas los datos necesarios."
+        }
+      }
+    },
+    "activity": {
+      "options": [],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [],
+      "correct_pairs": [],
+      "correct_index": -1,
+      "expected_text": "Los esperamos el martes en la biblioteca. También puede decirse vengan o nos vemos, sin exigir una fórmula de invitación literal.",
+      "rubric": "El mensaje corregido sitúa el encuentro el martes, no el lunes; no exigir mencionar después del recreo. El mensaje corregido sitúa el encuentro en la biblioteca, no la cancha. Aceptar expresiones naturales sin fórmula obligatoria.",
+      "option_explanations": [],
+      "pair_explanations": [],
+      "type": "text",
+      "question": "Caso inventado. El aviso dice: «El club empieza el martes, después del recreo, en la biblioteca». Pedro preparó este mensaje: «Los esperamos el lunes en la cancha». Reescribe su invitación corrigiendo el día y el lugar según el aviso. No tienes que hablar ni grabarte.",
+      "hint": "Preparar y revisar el escrito no acredita por sí solo una presentación oral.",
+      "explanation": "Compara tu mensaje con la información disponible. Un día o lugar cambiado puede confundir a quienes escucharán. Puedes redactar de distintas formas si conservas los datos necesarios.",
+      "learning_focus": "Preparar por escrito una invitación coherente con los datos de un aviso, como apoyo a una intervención oral.",
+      "dimension": "razonamiento"
+    },
+    "supports": [
+      {
+        "title": "Comprobar antes de comunicar",
+        "body": "Compara tu mensaje con la información disponible. Un día o lugar cambiado puede confundir a quienes escucharán. Puedes redactar de distintas formas si conservas los datos necesarios.",
+        "insight": "Preparar y revisar el escrito no acredita por sí solo una presentación oral.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Otro aviso",
+        "body": "Compara tu mensaje con la información disponible. Un día o lugar cambiado puede confundir a quienes escucharán. Puedes redactar de distintas formas si conservas los datos necesarios.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Aviso ficticio: «La lectura será el jueves en el patio». Un mensaje dice «El miércoles en el salón». ¿Cómo podrías corregirlo?",
+        "example_steps": [
+          "Cambiamos miércoles por jueves.",
+          "Cambiamos salón por patio."
+        ],
+        "example_result": "Podría quedar: «Nos vemos el jueves en el patio».",
+        "visual": {
+          "kind": "table",
+          "caption": "Revisión del otro mensaje",
+          "headers": [
+            "Dato",
+            "Según el aviso"
+          ],
+          "rows": [
+            [
+              "Día",
+              "Jueves"
+            ],
+            [
+              "Lugar",
+              "Patio"
+            ]
+          ],
+          "steps": []
+        }
+      }
+    ],
+    "checks": [
+      [
+        "Vengan el martes a la biblioteca.",
+        "correct"
+      ],
+      [
+        "Nos vemos en la biblioteca el martes.",
+        "correct"
+      ],
+      [
+        "Los esperamos el martes en la cancha.",
+        "partial"
+      ],
+      [
+        "lectura evidencia inferencia razonamiento",
+        "incorrect"
+      ]
+    ],
+    "findings": [
+      "Se pide detectar un error, pero no hay razonamiento ni texto que analizar; la referencia metaexplicativa se acepta literalmente.",
+      "Las opciones son marcadores y la etiqueta inferencial no coincide con el objetivo de producción oral. El candidato limita su alcance a preparar y revisar un mensaje escrito."
+    ],
+    "sha256": "ef2600b09f1ae6eab529681ae648a424706ec0f4f9d2a4e7409f31255b2e4e4b"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "fa838a67-9b5e-4c7b-845d-a4c176207998:q:0",
+      "sha256": "1848935e2e5b04ef8e9241e7f1abb2201d7fb2452dca5f94d672579ca2dedfe3"
+    },
+    "module": {
+      "id": "round6-module-8",
+      "title": "Separar dos cambios de una prueba",
+      "subject": "natural_sciences",
+      "grade_range": "1-3",
+      "learning_objective": "Reconocer una confusión de variables y proponer un cambio de diseño en una experiencia imaginada.",
+      "is_active": false
+    },
+    "step": {
+      "id": "round6-repair-8",
+      "module_id": "round6-module-8",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "razonamiento",
+      "content": {
+        "prompt": "Caso imaginado: Tomás quiere comparar cómo avanza el mismo carrito sobre cartón y tela. En cartón lo suelta desde una rampa alta; en tela, desde una baja. ¿Por qué no puede saber si la diferencia fue solo por el piso? Di un cambio que harías para compararlos mejor. No vamos a hacer la prueba ahora.",
+        "options": []
+      },
+      "enriched_content": {
+        "type": "text",
+        "expected_answer": {
+          "type": "rubric",
+          "answer": "Cambió tanto el piso como la altura de salida, así que no puede separar sus efectos. Usaría la misma altura para comparar cartón y tela.",
+          "rubric": "Reconoce que cambió la altura además del piso, por lo que la altura también puede influir en el recorrido; aceptar lenguaje cotidiano como cambió lo alto y el piso. Propone la misma altura o la misma rampa/posición de salida para ambas superficies; no exigir vocabulario de variables o controlar.",
+          "criteria": [
+            {
+              "id": "confound",
+              "requirement": "Reconoce que cambió la altura además del piso, por lo que la altura también puede influir en el recorrido; aceptar lenguaje cotidiano como cambió lo alto y el piso."
+            },
+            {
+              "id": "fix",
+              "requirement": "Propone la misma altura o la misma rampa/posición de salida para ambas superficies; no exigir vocabulario de variables o controlar."
+            }
+          ]
+        },
+        "cognitive_dimension": "razonamiento",
+        "explanation": "Si cambias dos condiciones al mismo tiempo, puede ser difícil saber cuál explica una diferencia. Para comparar el piso, piensa qué otra condición conviene dejar igual. No inventes un resultado que no observaste.",
+        "learning_focus": "Reconocer una confusión de variables y proponer un cambio de diseño en una experiencia imaginada.",
+        "step_config": {
+          "hints": [
+            "Una explicación del diseño puede usar palabras cotidianas."
+          ],
+          "feedback": "Si cambias dos condiciones al mismo tiempo, puede ser difícil saber cuál explica una diferencia. Para comparar el piso, piensa qué otra condición conviene dejar igual. No inventes un resultado que no observaste."
+        }
+      }
+    },
+    "activity": {
+      "options": [],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [],
+      "correct_pairs": [],
+      "correct_index": -1,
+      "expected_text": "Cambió tanto el piso como la altura de salida, así que no puede separar sus efectos. Usaría la misma altura para comparar cartón y tela.",
+      "rubric": "Reconoce que cambió la altura además del piso, por lo que la altura también puede influir en el recorrido; aceptar lenguaje cotidiano como cambió lo alto y el piso. Propone la misma altura o la misma rampa/posición de salida para ambas superficies; no exigir vocabulario de variables o controlar.",
+      "option_explanations": [],
+      "pair_explanations": [],
+      "type": "text",
+      "question": "Caso imaginado: Tomás quiere comparar cómo avanza el mismo carrito sobre cartón y tela. En cartón lo suelta desde una rampa alta; en tela, desde una baja. ¿Por qué no puede saber si la diferencia fue solo por el piso? Di un cambio que harías para compararlos mejor. No vamos a hacer la prueba ahora.",
+      "hint": "Una explicación del diseño puede usar palabras cotidianas.",
+      "explanation": "Si cambias dos condiciones al mismo tiempo, puede ser difícil saber cuál explica una diferencia. Para comparar el piso, piensa qué otra condición conviene dejar igual. No inventes un resultado que no observaste.",
+      "learning_focus": "Reconocer una confusión de variables y proponer un cambio de diseño en una experiencia imaginada.",
+      "dimension": "razonamiento"
+    },
+    "supports": [
+      {
+        "title": "No mezclar dos posibles causas",
+        "body": "Si cambias dos condiciones al mismo tiempo, puede ser difícil saber cuál explica una diferencia. Para comparar el piso, piensa qué otra condición conviene dejar igual. No inventes un resultado que no observaste.",
+        "insight": "Una explicación del diseño puede usar palabras cotidianas.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Otro diseño",
+        "body": "Si cambias dos condiciones al mismo tiempo, puede ser difícil saber cuál explica una diferencia. Para comparar el piso, piensa qué otra condición conviene dejar igual. No inventes un resultado que no observaste.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Caso imaginado: se compara cuánto agua absorben dos papeles, pero se da más agua a uno. ¿Qué problema hay y cómo mejorarías el plan?",
+        "example_steps": [
+          "Cambia el papel y también el agua inicial.",
+          "Se puede comenzar con la misma cantidad de agua para ambos."
+        ],
+        "example_result": "Así el agua inicial no sería otra diferencia entre los casos; aún no sabemos qué papel absorberá más.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Separar condiciones",
+          "headers": [],
+          "rows": [],
+          "steps": [
+            "Qué se quiere comparar: papel.",
+            "Qué también cambió: agua inicial.",
+            "Qué igualar: agua inicial."
+          ]
+        }
+      }
+    ],
+    "checks": [
+      [
+        "Cambió lo alto y el piso. Lo soltaría igual de alto en los dos.",
+        "correct"
+      ],
+      [
+        "La altura también puede cambiar cuánto avanza; usaría la misma rampa para cartón y tela.",
+        "correct"
+      ],
+      [
+        "Usaría la misma altura en las dos pruebas.",
+        "partial"
+      ],
+      [
+        "ciencia observación experimentación lógica",
+        "incorrect"
+      ]
+    ],
+    "findings": [
+      "Una explicación abierta se evalúa por identidad con una definición general; no hay fenómeno ni experiencia sobre los que razonar.",
+      "No se describe un diseño que permita evidenciar el objetivo de poner a prueba conjeturas."
+    ],
+    "sha256": "e392cbd2b429bf492a6c51196458e3d00ca7263ad6d394244c6585d54dc2401f"
+  }
+]

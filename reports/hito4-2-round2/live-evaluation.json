@@ -1,0 +1,305 @@
+{
+  "model": "gpt-4.1-mini",
+  "started": "2026-11-05T21:54:40.273Z",
+  "limit": {
+    "calls": 24,
+    "completionTokensPerCall": 700,
+    "totalTokens": 75000
+  },
+  "calls": 24,
+  "inputTokens": 11820,
+  "outputTokens": 2679,
+  "results": [
+    {
+      "candidateSha256": "fb96496bd7d00477110f534d9fd37aa80e879bc2c836b0388da0bcb502991572",
+      "subject": "mathematics",
+      "round": 1,
+      "answer": "El cuatro cuenta todos los pedazos del mismo tamaño y el uno el que se llevó. Si fueran distintos, no serían cuartos iguales.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Muy bien, explicaste claramente que el cuatro indica el total de porciones iguales, que el uno es la porción que Ana tomó, y por qué es importante que las porciones sean iguales para que sean cuartos iguales."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "fb96496bd7d00477110f534d9fd37aa80e879bc2c836b0388da0bcb502991572",
+      "subject": "mathematics",
+      "round": 1,
+      "answer": "Hay cuatro trozos iguales; Ana toma uno. Todos deben medir igual para que cada uno sea un cuarto.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Muy bien, explicaste claramente que el 4 indica el total de porciones iguales, que el 1 es la porción que Ana toma, y por qué es importante que las porciones sean iguales para que cada una sea un cuarto."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "fb96496bd7d00477110f534d9fd37aa80e879bc2c836b0388da0bcb502991572",
+      "subject": "mathematics",
+      "round": 1,
+      "answer": "El uno es el pedazo tomado.",
+      "expected": "partial",
+      "actual": {
+        "result": "partial",
+        "feedback": "Has explicado claramente que el uno indica la porción que Ana toma, lo cual está bien. Sin embargo, no mencionas que el cuatro indica el total de porciones iguales ni explicas por qué es importante que las porciones sean iguales para que sean cuartos iguales."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "fb96496bd7d00477110f534d9fd37aa80e879bc2c836b0388da0bcb502991572",
+      "subject": "mathematics",
+      "round": 1,
+      "answer": "parte todo dividir porción",
+      "expected": "incorrect",
+      "actual": {
+        "result": "incorrect",
+        "feedback": "El estudiante menciona palabras relacionadas como 'parte', 'todo', 'dividir' y 'porción', pero no explica qué indica el número cuatro, ni el uno, ni por qué es importante que las porciones sean iguales. Falta desarrollar ideas para cumplir los criterios."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "7d31a278fe4dacdd0b44a971e5f375305dbec1f78392454d9840888985684817",
+      "subject": "language",
+      "round": 1,
+      "answer": "Se mojó con la lluvia: dijo qué aguacero. Releería esa frase para estar seguro.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Muy bien, afirmas claramente que Lina se mojó por la lluvia usando lenguaje cotidiano. También mencionas la pista clave «dijo qué aguacero» y propones releer esa misma frase para comprobar tu idea. Cumples todos los criterios correctamente."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "7d31a278fe4dacdd0b44a971e5f375305dbec1f78392454d9840888985684817",
+      "subject": "language",
+      "round": 1,
+      "answer": "Le cayó agua de lluvia; volvió mojada. Volvería a leer lo que dice del aguacero.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Muy bien, afirmas claramente que Lina se mojó por lluvia y usas lenguaje cotidiano. También mencionas la pista del aguacero y propones releer esa misma frase para comprobar tu idea. Cumples todos los criterios correctamente."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "7d31a278fe4dacdd0b44a971e5f375305dbec1f78392454d9840888985684817",
+      "subject": "language",
+      "round": 1,
+      "answer": "Se mojó por la lluvia.",
+      "expected": "partial",
+      "actual": {
+        "result": "partial",
+        "feedback": "Has afirmado claramente que Lina se mojó por la lluvia, lo cual cumple el criterio de inferencia con lenguaje cotidiano. Sin embargo, no mencionas ninguna pista del relato que te ayude a pensar eso, ni propones releer alguna frase para comprobar tu idea."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "7d31a278fe4dacdd0b44a971e5f375305dbec1f78392454d9840888985684817",
+      "subject": "language",
+      "round": 1,
+      "answer": "lectura inferencial aplicar texto ejemplo",
+      "expected": "incorrect",
+      "actual": {
+        "result": "incorrect",
+        "feedback": "El estudiante no proporciona una respuesta clara que explique qué le pasó a Lina ni menciona pistas del relato. Tampoco propone releer alguna frase para comprobar su idea. Se recomienda que el alumno exprese con sus palabras que Lina se mojó por la lluvia, mencione alguna pista como '¡Qué aguacero!' o que estaba mojada, y diga qué frase volvería a leer para confirmar su respuesta."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "8627d40a498fbb6295dc3716394bcd0065e3f525af096d61e142adcc7881747a",
+      "subject": "social_studies",
+      "round": 1,
+      "answer": "La feria da dinero a familias pero el ruido afecta a quienes descansan. Acordaría horas sin amplificadores para permitir las ventas y cuidar el sueño de los vecinos.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Has explicado claramente la relación entre ingresos y descanso, y propuesto una medida concreta de horarios sin amplificadores. Además, señalas bien a quién beneficia la medida, cuidando el sueño de los vecinos. Buen trabajo cumpliendo todos los criterios."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "8627d40a498fbb6295dc3716394bcd0065e3f525af096d61e142adcc7881747a",
+      "subject": "social_studies",
+      "round": 1,
+      "answer": "La música permite expresarse y también puede molestar a otros. Pondría las presentaciones en una zona y horario acordados para que participen artistas y descansen vecinos.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Has explicado claramente la relación entre expresión cultural y descanso, y has propuesto una medida concreta de zona y horario. Además, señalas bien a quién beneficia la medida, tanto artistas como vecinos. Buen trabajo en cubrir todos los aspectos solicitados."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "8627d40a498fbb6295dc3716394bcd0065e3f525af096d61e142adcc7881747a",
+      "subject": "social_studies",
+      "round": 1,
+      "answer": "Las ventas dan ingresos, pero la música molesta al descanso.",
+      "expected": "partial",
+      "actual": {
+        "result": "partial",
+        "feedback": "Has explicado claramente la relación entre ingresos y descanso, reconociendo el conflicto entre ambos. Sin embargo, no propones ninguna medida concreta ni explicas a quién beneficiaría dicha medida."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "8627d40a498fbb6295dc3716394bcd0065e3f525af096d61e142adcc7881747a",
+      "subject": "social_studies",
+      "round": 1,
+      "answer": "interacción relaciones economía cultura política",
+      "expected": "incorrect",
+      "actual": {
+        "result": "incorrect",
+        "feedback": "La respuesta no explica la relación entre aspectos del caso, ni propone una medida concreta ni indica a quién beneficiaría. Solo enumera términos sin desarrollar."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "fb96496bd7d00477110f534d9fd37aa80e879bc2c836b0388da0bcb502991572",
+      "subject": "mathematics",
+      "round": 2,
+      "answer": "El cuatro cuenta todos los pedazos del mismo tamaño y el uno el que se llevó. Si fueran distintos, no serían cuartos iguales.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Muy bien, explicaste claramente que el cuatro indica el total de porciones iguales, que el uno es la porción que Ana tomó, y por qué es importante que las porciones sean iguales para que sean cuartos iguales."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "fb96496bd7d00477110f534d9fd37aa80e879bc2c836b0388da0bcb502991572",
+      "subject": "mathematics",
+      "round": 2,
+      "answer": "Hay cuatro trozos iguales; Ana toma uno. Todos deben medir igual para que cada uno sea un cuarto.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Muy bien, explicaste claramente que el 4 indica el total de porciones iguales, que el 1 es la porción que Ana toma, y por qué es importante que las porciones sean iguales para que cada una sea un cuarto."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "fb96496bd7d00477110f534d9fd37aa80e879bc2c836b0388da0bcb502991572",
+      "subject": "mathematics",
+      "round": 2,
+      "answer": "El uno es el pedazo tomado.",
+      "expected": "partial",
+      "actual": {
+        "result": "partial",
+        "feedback": "Has explicado claramente que el uno indica la porción que Ana toma, lo cual está bien. Sin embargo, no mencionas que el cuatro indica el total de porciones iguales ni explicas por qué es importante que las porciones sean iguales para que cada una sea un cuarto igual."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "fb96496bd7d00477110f534d9fd37aa80e879bc2c836b0388da0bcb502991572",
+      "subject": "mathematics",
+      "round": 2,
+      "answer": "parte todo dividir porción",
+      "expected": "incorrect",
+      "actual": {
+        "result": "incorrect",
+        "feedback": "La respuesta del estudiante no explica qué indica el número cuatro ni el uno, ni por qué es importante que las porciones sean iguales. Solo enumera palabras relacionadas sin desarrollar las ideas requeridas."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "7d31a278fe4dacdd0b44a971e5f375305dbec1f78392454d9840888985684817",
+      "subject": "language",
+      "round": 2,
+      "answer": "Se mojó con la lluvia: dijo qué aguacero. Releería esa frase para estar seguro.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Muy bien, afirmas claramente que Lina se mojó por la lluvia usando lenguaje cotidiano, mencionas la pista clave «dijo qué aguacero» y propones releer esa misma frase para comprobar tu idea."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "7d31a278fe4dacdd0b44a971e5f375305dbec1f78392454d9840888985684817",
+      "subject": "language",
+      "round": 2,
+      "answer": "Le cayó agua de lluvia; volvió mojada. Volvería a leer lo que dice del aguacero.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Muy bien, el estudiante afirma claramente que Lina se mojó por lluvia usando lenguaje cotidiano, menciona la pista del aguacero y propone releer esa misma frase para comprobar su idea."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "7d31a278fe4dacdd0b44a971e5f375305dbec1f78392454d9840888985684817",
+      "subject": "language",
+      "round": 2,
+      "answer": "Se mojó por la lluvia.",
+      "expected": "partial",
+      "actual": {
+        "result": "partial",
+        "feedback": "Has afirmado claramente que Lina se mojó por la lluvia, lo cual cumple el criterio de inferencia con lenguaje cotidiano. Sin embargo, no mencionas ninguna pista del relato que te ayude a pensar eso, ni propones releer alguna frase para comprobar tu idea."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "7d31a278fe4dacdd0b44a971e5f375305dbec1f78392454d9840888985684817",
+      "subject": "language",
+      "round": 2,
+      "answer": "lectura inferencial aplicar texto ejemplo",
+      "expected": "incorrect",
+      "actual": {
+        "result": "incorrect",
+        "feedback": "El estudiante no proporciona una respuesta clara que explique qué le pasó a Lina ni menciona pistas del relato. Tampoco propone releer alguna frase para comprobar su idea. Se recomienda que el estudiante formule una afirmación concreta y cite alguna pista del texto para cumplir con los criterios."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "8627d40a498fbb6295dc3716394bcd0065e3f525af096d61e142adcc7881747a",
+      "subject": "social_studies",
+      "round": 2,
+      "answer": "La feria da dinero a familias pero el ruido afecta a quienes descansan. Acordaría horas sin amplificadores para permitir las ventas y cuidar el sueño de los vecinos.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Has explicado claramente la relación entre ingresos y descanso, proponiendo una medida concreta de horarios sin amplificadores. Además, señalas bien a quién beneficia la medida, cuidando el sueño de los vecinos. Buen trabajo cumpliendo todos los criterios."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "8627d40a498fbb6295dc3716394bcd0065e3f525af096d61e142adcc7881747a",
+      "subject": "social_studies",
+      "round": 2,
+      "answer": "La música permite expresarse y también puede molestar a otros. Pondría las presentaciones en una zona y horario acordados para que participen artistas y descansen vecinos.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Has explicado claramente la relación entre expresión cultural y descanso, y propones una medida concreta de zona y horario. Además, señalas bien a quién beneficia la medida, tanto artistas como vecinos. Buen trabajo cumpliendo todos los criterios."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "8627d40a498fbb6295dc3716394bcd0065e3f525af096d61e142adcc7881747a",
+      "subject": "social_studies",
+      "round": 2,
+      "answer": "Las ventas dan ingresos, pero la música molesta al descanso.",
+      "expected": "partial",
+      "actual": {
+        "result": "partial",
+        "feedback": "Has explicado claramente la relación entre ingresos y descanso, reconociendo el conflicto entre ambos. Sin embargo, no propones ninguna medida concreta ni explicas a quién beneficiaría dicha medida. Intenta incluir una propuesta y su impacto para completar la respuesta."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "8627d40a498fbb6295dc3716394bcd0065e3f525af096d61e142adcc7881747a",
+      "subject": "social_studies",
+      "round": 2,
+      "answer": "interacción relaciones economía cultura política",
+      "expected": "incorrect",
+      "actual": {
+        "result": "incorrect",
+        "feedback": "El estudiante solo enumera términos relacionados con el caso, pero no explica la relación entre ellos, ni propone una medida ni indica a quién beneficiaría. Se requiere mayor desarrollo para cumplir los criterios."
+      },
+      "pass": true
+    }
+  ],
+  "databaseCalls": 0,
+  "finished": "2026-11-05T21:55:13.268Z",
+  "passed": true
+}

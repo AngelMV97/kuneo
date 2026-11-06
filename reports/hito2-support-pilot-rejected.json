@@ -1,0 +1,357 @@
+{
+  "date": "2026-11-04T01:07:17.000Z",
+  "scope": "Synthetic support pilot, no student data or Supabase writes; requires pedagogical and browser review.",
+  "results": [
+    {
+      "case_id": "math-2",
+      "subject": "mathematics",
+      "grade": 2,
+      "question": "Ana tiene 3 lápices y recibe 2 más. ¿Cuántos lápices tiene ahora?",
+      "level": 2,
+      "card": {
+        "title": "Estrategia para sumar lápices",
+        "body": "Para resolver el problema de Ana, debes identificar la cantidad inicial de lápices que tiene y cuántos recibe. Los datos son: Ana tiene 3 lápices y recibe 2 más. La pregunta te pide calcular el total de lápices que tiene después de recibir los nuevos lápices. Para encontrar la respuesta, sumarás la cantidad de lápices que tiene antes con la cantidad que recibe.",
+        "insight": "La suma es una operación básica que se utiliza para combinar cantidades. Recuerda que al sumar, es importante tener en cuenta todas las partes involucradas.",
+        "visual": {
+          "kind": "none"
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:07:19.567Z",
+        "request_id": "cdacc515-bd22-42fb-a055-bcfa3e4fe01e",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 2565,
+        "stages": {
+          "openai_support": 2564
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 380,
+            "output_tokens": 143,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "math-2",
+      "subject": "mathematics",
+      "grade": 2,
+      "question": "Ana tiene 3 lápices y recibe 2 más. ¿Cuántos lápices tiene ahora?",
+      "level": 3,
+      "card": {
+        "title": "Ejemplo de Suma",
+        "body": "Consideremos un nuevo caso: Juan tiene 5 canicas y su amigo le da 3 más. Para saber cuántas canicas tiene ahora Juan, debemos sumar la cantidad inicial de canicas que tenía con la cantidad que le dieron. Entonces, la operación es 5 + 3, lo que nos dará la cantidad total de canicas que Juan tiene en total.",
+        "insight": "La estrategia aquí es identificar las cantidades iniciales y las adicionales, luego sumar ambas para encontrar la total.",
+        "visual": {
+          "kind": "none"
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:07:22.001Z",
+        "request_id": "9c2e9e30-30c1-4012-8e54-f22306d6fe22",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 2434,
+        "stages": {
+          "openai_support": 2433
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 380,
+            "output_tokens": 128,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "language-3",
+      "subject": "language",
+      "grade": 3,
+      "question": "Lee: «Lina tomó su paraguas porque vio nubes oscuras». ¿Por qué tomó el paraguas?",
+      "level": 2,
+      "card": {
+        "title": "Comprensión de Lectura",
+        "body": "Para entender por qué Lina tomó su paraguas, observa los datos en la frase. Hay una acción (tomar el paraguas) y una razón que la justifica (ver nubes oscuras). Recuerda que las razones en las oraciones muchas veces están conectadas a lo que se observa a su alrededor. Piensa en cómo el clima puede influir en las decisiones de las personas.",
+        "insight": "Identificar acciones y razones en un texto ayuda a responder preguntas de comprensión de manera efectiva.",
+        "visual": {
+          "kind": "none"
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:07:23.873Z",
+        "request_id": "c88167dd-4951-4014-a53f-165776b0b19d",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 1871,
+        "stages": {
+          "openai_support": 1871
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 381,
+            "output_tokens": 129,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "language-3",
+      "subject": "language",
+      "grade": 3,
+      "question": "Lee: «Lina tomó su paraguas porque vio nubes oscuras». ¿Por qué tomó el paraguas?",
+      "level": 3,
+      "card": {
+        "title": "Ejemplo de Comprensión de Texto",
+        "body": "En el siguiente texto, se observa una acción basada en una razón clara. El texto dice: \"Juan se puso su abrigo porque hacía frío.\"\n\nPara entender por qué Juan se puso su abrigo, tenemos que identificar el motivo en el texto, que es el frío. Esa es la razón por la que decidió cubrirse.",
+        "insight": "En la actividad que tienes, se debe identificar la razón por la que Lina tomó su paraguas al observar un fenómeno (nubes oscuras), que es el mismo tipo de razonamiento que en el ejemplo.",
+        "visual": {
+          "kind": "none"
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:07:25.986Z",
+        "request_id": "821bc2bd-20aa-418a-b94e-06ee11dc45e4",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 2113,
+        "stages": {
+          "openai_support": 2113
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 381,
+            "output_tokens": 144,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "science-4",
+      "subject": "natural_sciences",
+      "grade": 4,
+      "question": "Una linterna funciona con pilas. Explica de dónde obtiene la energía y en qué se transforma para que podamos ver.",
+      "level": 2,
+      "card": {
+        "title": "Energía de una Linterna",
+        "body": "La linterna obtiene energía de las pilas, que almacenan energía química. Cuando la linterna se enciende, esta energía química se convierte en energía eléctrica. La electricidad fluye a través de un circuito y llega a una bombilla, donde se transforma en energía lumínica, lo que nos permite ver.",
+        "insight": "Identificar el proceso de transformación de energía es clave para entender cómo funcionan los dispositivos eléctricos.",
+        "visual": {
+          "kind": "none"
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:07:27.460Z",
+        "request_id": "841e65ca-aa74-46b3-b693-b64dca3d8b2f",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 1474,
+        "stages": {
+          "openai_support": 1474
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 383,
+            "output_tokens": 116,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "science-4",
+      "subject": "natural_sciences",
+      "grade": 4,
+      "question": "Una linterna funciona con pilas. Explica de dónde obtiene la energía y en qué se transforma para que podamos ver.",
+      "level": 3,
+      "card": {
+        "title": "Energía de una linterna",
+        "body": "Las linternas obtienen energía de las pilas, que almacenan energía química. Cuando la linterna se enciende, la energía química se transforma en energía eléctrica, que luego se convierte en energía luminosa a medida que atraviesa la bombilla. Esto es lo que permite que veamos la luz emitida por la linterna.",
+        "insight": "Entender cómo la energía se transforma es crucial en ciencias naturales, ya que muchas tecnologías dependen de este concepto.",
+        "visual": {
+          "kind": "none"
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:07:29.101Z",
+        "request_id": "fdc58f43-982f-4096-9ed2-7ea706cf4e63",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 1640,
+        "stages": {
+          "openai_support": 1640
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 383,
+            "output_tokens": 126,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "social-10",
+      "subject": "social_studies",
+      "grade": 10,
+      "question": "Un barrio dispone de dinero para una sola mejora. Una encuesta dice: 60 vecinos necesitan transporte y 40 necesitan un parque. Propón una decisión apoyada en esos datos y una forma de escuchar al grupo que no sea priorizado.",
+      "level": 2,
+      "card": {
+        "title": "Decisión Basada en Necesidades Comunitarias",
+        "body": "En este caso, puedes observar que 60 vecinos necesitan transporte, mientras que 40 necesitan un parque. Un enfoque razonable sería priorizar la mejora en transporte, dado que es la necesidad más grande entre los vecinos. Sin embargo, es importante también considerar a los 40 que requieren el parque. Para escuchar al grupo que no está en la decisión prioritaria, podrías organizar una reunión o un foro donde cada grupo exprese su opinión y sus necesidades. Esto permitirá tener en cuenta diferentes perspectivas y fomentar la participación de todos.",
+        "insight": "Al tomar decisiones basadas en necesidades, es crucial considerar no solo los números, sino también la satisfacción y bienestar de todos los involucrados.",
+        "visual": {
+          "kind": "none"
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:07:30.961Z",
+        "request_id": "8cbb5eab-e0cc-4ace-b858-0fdd404f4547",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 1860,
+        "stages": {
+          "openai_support": 1860
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 406,
+            "output_tokens": 170,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "social-10",
+      "subject": "social_studies",
+      "grade": 10,
+      "question": "Un barrio dispone de dinero para una sola mejora. Una encuesta dice: 60 vecinos necesitan transporte y 40 necesitan un parque. Propón una decisión apoyada en esos datos y una forma de escuchar al grupo que no sea priorizado.",
+      "level": 3,
+      "card": {
+        "title": "Ejemplo de Decisión Basada en Necesidades de la Comunidad",
+        "body": "En un barrio se dispone de recursos para una sola mejora. En una encuesta, se observó que 60 personas necesitan mejor transporte, mientras que 40 desean la creación de un parque. Para tomar una decisión informada, es importante analizar no solo la cantidad de personas que tienen cada necesidad, sino también el impacto que tendría cada mejora en la calidad de vida de los vecinos. Algunos vecinos podrían ser escuchados a través de reuniones comunitarias, donde puedan exponer sus opiniones y sugerencias, y así, entender la urgencia y la importancia de cada necesidad.",
+        "insight": "Al tomar una decisión basada en la cantidad de personas que necesitan algo, es fundamental considerar el impacto social y emocional que cada opción puede generar en la comunidad.",
+        "visual": {
+          "kind": "none"
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:07:33.058Z",
+        "request_id": "de45fb72-fe2a-4c24-81fd-61fdde602106",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 2097,
+        "stages": {
+          "openai_support": 2097
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 406,
+            "output_tokens": 183,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "english-11",
+      "subject": "english",
+      "grade": 11,
+      "question": "Lees «The ground was slippery after the rain» y no conoces slippery. Propón una estrategia para inferir su significado con el contexto y cómo comprobarías tu inferencia.",
+      "level": 2,
+      "card": {
+        "title": "Estrategia para Inferir el Significado de \"Slippery\"",
+        "body": "Al encontrar una palabra desconocida como \"slippery\" en la frase \"The ground was slippery after the rain\", puedes usar el contexto para inferir su significado. Primero, analiza el contexto de la oración: el terreno es resbaladizo después de la lluvia. Piensa en qué ocurre con el suelo cuando está mojado y cómo eso afecta la forma en que te mueves sobre él. Esto te ayudará a pensar en palabras relacionadas como \"difícil de caminar\" o \"puede hacerte caer\".\n\nLuego, para comprobar tu inferencia, busca ejemplos adicionales dentro de textos o diccionarios donde veas la palabra \"slippery\" usada en otras oraciones o contextos similares. Esto reforzará tu comprensión y te permitirá ver si tu inferencia coincide con otros usos de la palabra.",
+        "insight": "Usar el contexto de una oración es una estrategia efectiva para inferir el significado de palabras desconocidas. Preguntar qué sucede en la situación descrita puede aportar pistas valiosas.",
+        "visual": {
+          "kind": "none"
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:07:35.723Z",
+        "request_id": "4a3d18fc-1698-4b2c-ad42-f5151007ac72",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 2665,
+        "stages": {
+          "openai_support": 2665
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 394,
+            "output_tokens": 245,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "english-11",
+      "subject": "english",
+      "grade": 11,
+      "question": "Lees «The ground was slippery after the rain» y no conoces slippery. Propón una estrategia para inferir su significado con el contexto y cómo comprobarías tu inferencia.",
+      "level": 3,
+      "card": {
+        "title": "Estrategia para Inferir el Significado de \"Slippery\"",
+        "body": "En la oración «The ground was slippery after the rain», se puede inferir el significado de la palabra \"slippery\" utilizando el contexto. Primero, se identifica que la frase menciona que el suelo estaba mojado debido a la lluvia. Luego, pensar en la relación entre la lluvia y el estado del suelo e imaginar cómo se puede comportar una superficie mojada para entender que, posiblemente, es resbaladiza. Para comprobar esta inferencia, podrías buscar ejemplos en otros textos que usen la palabra \"slippery\" o consultar un diccionario para ver la definición y cómo se usa en diferentes contextos.",
+        "insight": "Usar el contexto es una habilidad clave en la comprensión lectora. Al relacionar información nueva con lo que ya sabes, haces tus inferencias más fuertes.",
+        "visual": {
+          "kind": "none"
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:07:37.980Z",
+        "request_id": "5fcfc6a0-68f3-4fc8-95b2-c6e9ff562404",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 2256,
+        "stages": {
+          "openai_support": 2256
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 394,
+            "output_tokens": 201,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    }
+  ],
+  "summary": {
+    "passed_contract": 10,
+    "total": 10,
+    "latency": {
+      "samples": 10,
+      "p50_ms": 2097,
+      "p95_ms": 2665,
+      "min_ms": 1474,
+      "max_ms": 2665
+    }
+  }
+}

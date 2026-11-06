@@ -1,0 +1,67 @@
+{
+  "snapshotSha256": "4baf73f3227ea219926b67a31f632b8e82362cba46000eeb34f3a3e9bdcabba8",
+  "reconciled": true,
+  "repeatedAnalysisSha256": "2e7dfcdce444cde7f0c234f08b476c02164c0c0e38bc8f84625bc6266dc5f436",
+  "questionStatusesSum": 11579,
+  "coverageCells": 125,
+  "approved": 0,
+  "spotChecks": [
+    {
+      "entity": "step",
+      "id": "04f121ec-e484-4aaa-8dab-518c49504348",
+      "code": "COMPLETED_WITHOUT_CONTENT",
+      "sourceObservation": {
+        "enrichmentStatus": "completed",
+        "enrichedContent": null
+      }
+    },
+    {
+      "entity": "question",
+      "id": "03873fac-62dc-41e7-af4b-e7a16feba6cd:q:0",
+      "code": [
+        "MISSING_OR_INVALID_KEY",
+        "RUNTIME_UNREADABLE",
+        "UNSUPPORTED_QUESTION_FORMAT",
+        "PLACEHOLDER_QUESTION"
+      ],
+      "sourceObservation": {
+        "questionCount": 6,
+        "firstQuestion": "[razonamiento] Pregunta 1 sobre Recojo información de otras fuentes pertinentes se...",
+        "firstFormat": "academic_essay"
+      }
+    },
+    {
+      "entity": "question",
+      "id": "001372b7-0236-4b07-85a2-7cae0575a8de:q:0",
+      "code": [
+        "UNKNOWN_EVALUATOR",
+        "NO_GENERAL_FEEDBACK"
+      ],
+      "sourceObservation": {
+        "expectedType": "text",
+        "evaluationStrategy": "classification"
+      }
+    },
+    {
+      "entity": "question",
+      "id": "00c967db-59e8-4012-b87b-b53a6dfe7554:q:0",
+      "code": [
+        "RUNTIME_UNREADABLE",
+        "UNSUPPORTED_QUESTION_FORMAT"
+      ],
+      "sourceObservation": {
+        "expectedType": "drawing"
+      }
+    },
+    {
+      "entity": "visual",
+      "id": "0d9166a1-2c44-42e9-bcaf-735c702b88fe",
+      "code": [
+        "UNSUPPORTED_LEGACY_RENDERER"
+      ],
+      "sourceObservation": {
+        "renderer": "react_flow"
+      }
+    }
+  ]
+}

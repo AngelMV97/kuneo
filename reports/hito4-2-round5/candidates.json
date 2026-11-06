@@ -1,0 +1,644 @@
+[
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "1b6c1319-0e6e-4ba3-9e65-44cc28db3ebd:q:0",
+      "sha256": "0f9ab885a97ed64883a44ff1348f52cb450622215b4a100f263ba043643f703e"
+    },
+    "module": {
+      "id": "round5-module-1",
+      "title": "Preguntar cómo se organiza un hogar",
+      "subject": "social_studies",
+      "grade_range": "1-3",
+      "learning_objective": "Hago preguntas sobre mí y sobre las organizaciones sociales a las que pertenezco (familia, curso, colegio, barrio…).",
+      "is_active": false
+    },
+    "step": {
+      "id": "round5-repair-1",
+      "module_id": "round5-module-1",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "comprension",
+      "content": {
+        "prompt": "Caso inventado: Sofía vive con su tía y su hermano. Quiere saber cómo se organizan para cuidar su casa. ¿Qué pregunta le ayuda a investigar ese tema?",
+        "options": [
+          "¿Qué planeta está más lejos del Sol?",
+          "¿Cuál es el color favorito de cada persona?",
+          "¿Cómo acuerdan quién cuida los materiales y ordena los espacios compartidos?"
+        ]
+      },
+      "enriched_content": {
+        "type": "option",
+        "expected_answer": {
+          "type": "option",
+          "correct_options": [
+            2
+          ]
+        },
+        "cognitive_dimension": "comprension",
+        "explanation": "Pregunta por un acuerdo y por tareas compartidas, que son parte de la organización del hogar.",
+        "option_explanations": [
+          "Trata del espacio, no de la organización del hogar del caso.",
+          "Puede servir para conocer gustos, pero no explica cómo acuerdan las tareas.",
+          "Pregunta por un acuerdo y por tareas compartidas, que son parte de la organización del hogar."
+        ],
+        "learning_focus": "Reconocer una pregunta pertinente para indagar sobre la organización de un hogar.",
+        "step_config": {
+          "hints": [
+            "Busca una pregunta sobre cómo las personas acuerdan hacer algo juntas."
+          ],
+          "feedback": "Pregunta por un acuerdo y por tareas compartidas, que son parte de la organización del hogar."
+        }
+      }
+    },
+    "activity": {
+      "options": [
+        "¿Qué planeta está más lejos del Sol?",
+        "¿Cuál es el color favorito de cada persona?",
+        "¿Cómo acuerdan quién cuida los materiales y ordena los espacios compartidos?"
+      ],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [],
+      "correct_pairs": [],
+      "correct_index": 2,
+      "expected_text": "",
+      "rubric": "Reconocer una pregunta pertinente para indagar sobre la organización de un hogar.",
+      "option_explanations": [
+        "Trata del espacio, no de la organización del hogar del caso.",
+        "Puede servir para conocer gustos, pero no explica cómo acuerdan las tareas.",
+        "Pregunta por un acuerdo y por tareas compartidas, que son parte de la organización del hogar."
+      ],
+      "pair_explanations": [],
+      "type": "option",
+      "question": "Caso inventado: Sofía vive con su tía y su hermano. Quiere saber cómo se organizan para cuidar su casa. ¿Qué pregunta le ayuda a investigar ese tema?",
+      "hint": "Busca una pregunta sobre cómo las personas acuerdan hacer algo juntas.",
+      "learning_focus": "Reconocer una pregunta pertinente para indagar sobre la organización de un hogar.",
+      "explanation": "Pregunta por un acuerdo y por tareas compartidas, que son parte de la organización del hogar.",
+      "dimension": "comprension"
+    },
+    "supports": [
+      {
+        "title": "Preguntas sobre una organización",
+        "body": "Para conocer cómo se organiza un grupo, puedes preguntar cómo acuerdan sus tareas o decisiones. Los hogares pueden tener integrantes diferentes. No necesitas contar quién vive contigo para resolver un caso inventado.",
+        "insight": "Una pregunta útil se relaciona con lo que quieres averiguar.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Otro grupo",
+        "body": "Para conocer cómo se organiza un grupo, puedes preguntar cómo acuerdan sus tareas o decisiones. Los hogares pueden tener integrantes diferentes. No necesitas contar quién vive contigo para resolver un caso inventado.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Caso ficticio: un club de lectura quiere saber cómo elige el cuento de la semana. ¿Qué podría preguntar?",
+        "example_steps": [
+          "El tema que se quiere conocer es la elección del cuento.",
+          "Una pregunta pertinente pide explicar cómo se toma esa decisión."
+        ],
+        "example_result": "Podría preguntar: «¿Cómo acuerdan qué cuento leer?».",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Vincular tema y pregunta",
+          "headers": [],
+          "rows": [],
+          "steps": [
+            "Tema: elección de un cuento.",
+            "Pregunta: cómo se decide."
+          ]
+        }
+      }
+    ],
+    "findings": [
+      "La clave familia es válida; no se corrige como si fuera un error factual.",
+      "La pregunta reconoce una categoría pero no comprueba que el estudiante formule preguntas; las ayudas presuponen un hogar seguro y una composición familiar determinada. La tarjeta enriquecida trata mapas y globos."
+    ],
+    "sha256": "c82aded53cf1e9995f469a1cccf66e3681e8820aee19b58de600bfc1c25a6130"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "3e01bd93-2447-4fad-9d9e-56a1efd42181:q:0",
+      "sha256": "d1496d81681a5aba1b2681b458c6831d474168adc26422414f329eaeac66dbfe"
+    },
+    "module": {
+      "id": "round5-module-2",
+      "title": "Aprender con apoyo",
+      "subject": "social_studies",
+      "grade_range": "1-3",
+      "learning_objective": "Identifico y respeto mis derechos y los de otras personas, y entiendo que tengo responsabilidades en mi familia, escuela y comunidad.",
+      "is_active": false
+    },
+    "step": {
+      "id": "round5-repair-2",
+      "module_id": "round5-module-2",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "comprension",
+      "content": {
+        "prompt": "Situación inventada: Tomás olvidó su cuaderno. La profesora le ofrece una hoja y lo acompaña para que participe en la actividad; después recuerdan cómo preparar los materiales. ¿Qué derecho protege de forma más directa al permitirle seguir aprendiendo?",
+        "options": [
+          "El derecho a tener todos los juguetes que quiera.",
+          "El derecho a la educación.",
+          "El derecho a elegir cualquier premio por olvidar un material."
+        ]
+      },
+      "enriched_content": {
+        "type": "option",
+        "expected_answer": {
+          "type": "option",
+          "correct_options": [
+            1
+          ]
+        },
+        "cognitive_dimension": "comprension",
+        "explanation": "La hoja y el acompañamiento permiten continuar aprendiendo, sin tratar la educación como un premio.",
+        "option_explanations": [
+          "Tener todos los juguetes que se desean no es lo que protege esta acción.",
+          "La hoja y el acompañamiento permiten continuar aprendiendo, sin tratar la educación como un premio.",
+          "En el caso se brinda apoyo para aprender y se recuerda un acuerdo; no se entrega un premio."
+        ],
+        "learning_focus": "Reconocer la educación como derecho en una acción concreta de apoyo.",
+        "step_config": {
+          "hints": [
+            "Observa qué puede seguir haciendo Tomás gracias al apoyo."
+          ],
+          "feedback": "La hoja y el acompañamiento permiten continuar aprendiendo, sin tratar la educación como un premio."
+        }
+      }
+    },
+    "activity": {
+      "options": [
+        "El derecho a tener todos los juguetes que quiera.",
+        "El derecho a la educación.",
+        "El derecho a elegir cualquier premio por olvidar un material."
+      ],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [],
+      "correct_pairs": [],
+      "correct_index": 1,
+      "expected_text": "",
+      "rubric": "Reconocer la educación como derecho en una acción concreta de apoyo.",
+      "option_explanations": [
+        "Tener todos los juguetes que se desean no es lo que protege esta acción.",
+        "La hoja y el acompañamiento permiten continuar aprendiendo, sin tratar la educación como un premio.",
+        "En el caso se brinda apoyo para aprender y se recuerda un acuerdo; no se entrega un premio."
+      ],
+      "pair_explanations": [],
+      "type": "option",
+      "question": "Situación inventada: Tomás olvidó su cuaderno. La profesora le ofrece una hoja y lo acompaña para que participe en la actividad; después recuerdan cómo preparar los materiales. ¿Qué derecho protege de forma más directa al permitirle seguir aprendiendo?",
+      "hint": "Observa qué puede seguir haciendo Tomás gracias al apoyo.",
+      "learning_focus": "Reconocer la educación como derecho en una acción concreta de apoyo.",
+      "explanation": "La hoja y el acompañamiento permiten continuar aprendiendo, sin tratar la educación como un premio.",
+      "dimension": "comprension"
+    },
+    "supports": [
+      {
+        "title": "Educación y acompañamiento",
+        "body": "Los niños tienen derecho a la educación. Recordar cómo preparar materiales puede hacerse con respeto y apoyo. Olvidar un cuaderno no convierte el aprendizaje en un premio que haya que ganar.",
+        "insight": "Se puede enseñar una responsabilidad mientras se apoya el aprendizaje.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Otra forma de participar",
+        "body": "Los niños tienen derecho a la educación. Recordar cómo preparar materiales puede hacerse con respeto y apoyo. Olvidar un cuaderno no convierte el aprendizaje en un premio que haya que ganar.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Caso ficticio: una niña no tiene lápiz para una actividad y el curso organiza materiales compartidos. ¿Qué permite esa ayuda?",
+        "example_steps": [
+          "Se identifica la dificultad concreta: falta el lápiz.",
+          "Compartir materiales facilita que participe y aprenda."
+        ],
+        "example_result": "La ayuda facilita su educación; no depende de que reciba un premio.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Acompañar el aprendizaje",
+          "headers": [],
+          "rows": [],
+          "steps": [
+            "Reconocer la dificultad.",
+            "Ofrecer un material compartido.",
+            "Permitir la participación."
+          ]
+        }
+      }
+    ],
+    "findings": [
+      "Derecho a la educación es una clave correcta.",
+      "Una pista entrega literalmente esa clave y la tarjeta asociada es de líneas de tiempo. Se reemplaza el reconocimiento abstracto por una acción contextualizada con ayudas propias."
+    ],
+    "sha256": "ca21fde94a07b0100f8efe60024634f1ba5da8f59efeca8144e70e8a9dc69aaa"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "65590a17-fd40-416d-b048-63495e5aeca5:q:0",
+      "sha256": "d4344d41b410f7262c27fc807f11aef168d5987977b6a3535fec4dee2da8a8e5"
+    },
+    "module": {
+      "id": "round5-module-3",
+      "title": "Leer una norma histórica y sus límites",
+      "subject": "social_studies",
+      "grade_range": "8-9",
+      "learning_objective": "Identifico algunas corrientes de pensamiento económico, político, cultural y filosófico del siglo XIX y explico su influencia en el pensamiento colombiano y el de América Latina.",
+      "is_active": false
+    },
+    "step": {
+      "id": "round5-repair-3",
+      "module_id": "round5-module-3",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "razonamiento",
+      "content": {
+        "prompt": "Lectura histórica de Colombia, siglo XIX. Estas son adaptaciones didácticas, no citas literales, de la Constitución de 1863:\n\n- Artículo 15, numeral 16: permite profesar pública o privadamente cualquier religión, con límites relacionados con la soberanía nacional y la paz pública.\n- Artículo 16: los asuntos de gobierno que los Estados no delegan expresamente al Gobierno general quedan a cargo de los Estados.\n\nEl segundo punto describe un rasgo de organización federal: se distribuyen competencias entre los Estados y el Gobierno general. Son normas históricas, no una descripción de la Constitución vigente. Selecciona las dos afirmaciones que se pueden sostener con esta lectura.",
+        "options": [
+          "Se reconoce libertad para profesar religiones, con límites expresados en la norma.",
+          "Los Estados conservan los asuntos de gobierno que no delegaron al Gobierno general.",
+          "La norma obliga a todas las personas a profesar una única religión.",
+          "Leer estas normas demuestra que todas las personas vivieron siempre exactamente como ellas indican."
+        ]
+      },
+      "enriched_content": {
+        "type": "multiple_select",
+        "expected_answer": {
+          "type": "multiple_select",
+          "correct_options": [
+            0,
+            1
+          ]
+        },
+        "cognitive_dimension": "razonamiento",
+        "explanation": "Relacionar una fuente normativa del siglo XIX con libertad religiosa y distribución federal de competencias, sin inferir prácticas universales.",
+        "option_explanations": [
+          "La adaptación del artículo 15 permite profesar cualquier religión y menciona límites.",
+          "La adaptación del artículo 16 deja a los Estados los asuntos no delegados.",
+          "El texto permite profesar cualquier religión; no impone una única creencia.",
+          "Una norma indica una disposición; por sí sola no acredita cómo la vivió cada persona."
+        ],
+        "learning_focus": "Relacionar una fuente normativa del siglo XIX con libertad religiosa y distribución federal de competencias, sin inferir prácticas universales.",
+        "step_config": {
+          "hints": [
+            "Distingue qué dispone cada artículo de lo que necesitarías investigar sobre su aplicación."
+          ],
+          "feedback": "Relacionar una fuente normativa del siglo XIX con libertad religiosa y distribución federal de competencias, sin inferir prácticas universales."
+        }
+      }
+    },
+    "activity": {
+      "options": [
+        "Se reconoce libertad para profesar religiones, con límites expresados en la norma.",
+        "Los Estados conservan los asuntos de gobierno que no delegaron al Gobierno general.",
+        "La norma obliga a todas las personas a profesar una única religión.",
+        "Leer estas normas demuestra que todas las personas vivieron siempre exactamente como ellas indican."
+      ],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [
+        0,
+        1
+      ],
+      "correct_pairs": [],
+      "correct_index": -1,
+      "expected_text": "",
+      "rubric": "Relacionar una fuente normativa del siglo XIX con libertad religiosa y distribución federal de competencias, sin inferir prácticas universales.",
+      "option_explanations": [
+        "La adaptación del artículo 15 permite profesar cualquier religión y menciona límites.",
+        "La adaptación del artículo 16 deja a los Estados los asuntos no delegados.",
+        "El texto permite profesar cualquier religión; no impone una única creencia.",
+        "Una norma indica una disposición; por sí sola no acredita cómo la vivió cada persona."
+      ],
+      "pair_explanations": [],
+      "type": "multiple_select",
+      "question": "Lectura histórica de Colombia, siglo XIX. Estas son adaptaciones didácticas, no citas literales, de la Constitución de 1863:\n\n- Artículo 15, numeral 16: permite profesar pública o privadamente cualquier religión, con límites relacionados con la soberanía nacional y la paz pública.\n- Artículo 16: los asuntos de gobierno que los Estados no delegan expresamente al Gobierno general quedan a cargo de los Estados.\n\nEl segundo punto describe un rasgo de organización federal: se distribuyen competencias entre los Estados y el Gobierno general. Son normas históricas, no una descripción de la Constitución vigente. Selecciona las dos afirmaciones que se pueden sostener con esta lectura.",
+      "hint": "Distingue qué dispone cada artículo de lo que necesitarías investigar sobre su aplicación.",
+      "learning_focus": "Relacionar una fuente normativa del siglo XIX con libertad religiosa y distribución federal de competencias, sin inferir prácticas universales.",
+      "explanation": "Relacionar una fuente normativa del siglo XIX con libertad religiosa y distribución federal de competencias, sin inferir prácticas universales.",
+      "dimension": "razonamiento"
+    },
+    "supports": [
+      {
+        "title": "Interpretar una fuente histórica",
+        "body": "Al leer una norma antigua, identifica su fecha, qué dispone y qué no permite saber. Sus disposiciones pueden mostrar ideas sobre las libertades y la organización del poder. Para conocer cómo se aplicaron hacen falta otras fuentes.",
+        "insight": "Una norma histórica no demuestra por sí sola todas las prácticas de su época.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Una regla y lo que ocurrió",
+        "body": "Al leer una norma antigua, identifica su fecha, qué dispone y qué no permite saber. Sus disposiciones pueden mostrar ideas sobre las libertades y la organización del poder. Para conocer cómo se aplicaron hacen falta otras fuentes.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Caso completamente ficticio: un antiguo reglamento de un club dice que sus integrantes podían proponer actividades. ¿Eso prueba que todas sus propuestas fueron escuchadas?",
+        "example_steps": [
+          "El reglamento permite conocer lo que se autorizaba.",
+          "Hacen falta registros o testimonios para investigar qué pasó en las reuniones."
+        ],
+        "example_result": "La autorización no prueba por sí sola que todas las personas fueran escuchadas.",
+        "visual": {
+          "kind": "table",
+          "caption": "Dos preguntas diferentes",
+          "headers": [
+            "Pregunta",
+            "Fuente útil"
+          ],
+          "rows": [
+            [
+              "Qué autorizaba el club",
+              "Su reglamento"
+            ],
+            [
+              "Qué ocurrió en reuniones concretas",
+              "Actas o testimonios"
+            ]
+          ],
+          "steps": []
+        }
+      }
+    ],
+    "findings": [
+      "La pregunta mezcla prácticas de periodos amplios sin fuentes ni delimitación y no verifica el objetivo sobre pensamiento del siglo XIX. Las pistas entregan la clave.",
+      "El objetivo está registrado en 6–7, pero corresponde al tramo 8–9 en la Guía 7 del MEN. El reemplazo se aísla en ese tramo, sin reclasificar automáticamente los demás pasos del módulo."
+    ],
+    "sha256": "3e8996332d65ccaf8ad713bd101b522f17cbf4ce361e150cb7ea249c4badc861"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "724ff139-fac6-4f63-a296-56d9198e2889:q:0",
+      "sha256": "4934ac5cc3cd9fd13031b7e16152486485b3348e95a81c34b9c3eaef66208536"
+    },
+    "module": {
+      "id": "round5-module-4",
+      "title": "Preguntar por una decisión del curso",
+      "subject": "social_studies",
+      "grade_range": "1-3",
+      "learning_objective": "Hago preguntas sobre mí y sobre las organizaciones sociales a las que pertenezco (familia, curso, colegio, barrio…).",
+      "is_active": false
+    },
+    "step": {
+      "id": "round5-repair-4",
+      "module_id": "round5-module-4",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "comprension",
+      "content": {
+        "prompt": "Caso imaginado: un curso tiene una estantería de libros. Quiere averiguar cómo se decide cuándo puede usarla cada grupo. ¿Qué pregunta se relaciona mejor con esa decisión?",
+        "options": [
+          "¿Cómo acuerda el curso los turnos para usar los libros?",
+          "¿Cuánto pesa un planeta?",
+          "¿Qué color de portada te gusta más?"
+        ]
+      },
+      "enriched_content": {
+        "type": "option",
+        "expected_answer": {
+          "type": "option",
+          "correct_options": [
+            0
+          ]
+        },
+        "cognitive_dimension": "comprension",
+        "explanation": "Pregunta cómo se organizan los turnos de una actividad compartida.",
+        "option_explanations": [
+          "Pregunta cómo se organizan los turnos de una actividad compartida.",
+          "Trata otro tema y no informa sobre los turnos.",
+          "Pregunta por una preferencia, no por la forma de acordar los turnos."
+        ],
+        "learning_focus": "Reconocer una pregunta relacionada con una decisión de una organización escolar.",
+        "step_config": {
+          "hints": [
+            "Busca una pregunta que ayude a conocer un acuerdo del curso."
+          ],
+          "feedback": "Pregunta cómo se organizan los turnos de una actividad compartida."
+        }
+      }
+    },
+    "activity": {
+      "options": [
+        "¿Cómo acuerda el curso los turnos para usar los libros?",
+        "¿Cuánto pesa un planeta?",
+        "¿Qué color de portada te gusta más?"
+      ],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [],
+      "correct_pairs": [],
+      "correct_index": 0,
+      "expected_text": "",
+      "rubric": "Reconocer una pregunta relacionada con una decisión de una organización escolar.",
+      "option_explanations": [
+        "Pregunta cómo se organizan los turnos de una actividad compartida.",
+        "Trata otro tema y no informa sobre los turnos.",
+        "Pregunta por una preferencia, no por la forma de acordar los turnos."
+      ],
+      "pair_explanations": [],
+      "type": "option",
+      "question": "Caso imaginado: un curso tiene una estantería de libros. Quiere averiguar cómo se decide cuándo puede usarla cada grupo. ¿Qué pregunta se relaciona mejor con esa decisión?",
+      "hint": "Busca una pregunta que ayude a conocer un acuerdo del curso.",
+      "learning_focus": "Reconocer una pregunta relacionada con una decisión de una organización escolar.",
+      "explanation": "Pregunta cómo se organizan los turnos de una actividad compartida.",
+      "dimension": "comprension"
+    },
+    "supports": [
+      {
+        "title": "Investigar acuerdos del curso",
+        "body": "Las personas pueden acordar cómo usar materiales compartidos. Para entender su organización, pregunta cómo se decide, quién participa y cómo se comunica el acuerdo. Identificar una pregunta pertinente es un paso antes de formular la propia.",
+        "insight": "Relaciona la pregunta con el acuerdo que quieres conocer.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Otra decisión",
+        "body": "Las personas pueden acordar cómo usar materiales compartidos. Para entender su organización, pregunta cómo se decide, quién participa y cómo se comunica el acuerdo. Identificar una pregunta pertinente es un paso antes de formular la propia.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Caso inventado: un grupo cuida un jardín y quiere saber cómo se elige qué sembrar. ¿Qué pregunta sería útil?",
+        "example_steps": [
+          "El tema es una decisión del grupo.",
+          "La pregunta debe pedir cómo se toma esa decisión."
+        ],
+        "example_result": "Puede preguntar: «¿Cómo elige el grupo qué plantas sembrar?».",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Una pregunta pertinente",
+          "headers": [],
+          "rows": [],
+          "steps": [
+            "Decisión: qué sembrar.",
+            "Indagación: cómo se elige."
+          ]
+        }
+      }
+    ],
+    "findings": [
+      "Aprender y hacer amigos es una respuesta admisible: no se declara falsa.",
+      "Los distractores caricaturescos y la pregunta genérica no verifican la formulación de preguntas del objetivo. La tarjeta compartida se enriqueció como mapas/globos, sin una ayuda específica para indagar sobre el curso."
+    ],
+    "sha256": "7c8205b13f15ca3f211743868dd16b6364de1d5fbb174b937bd42eaedff49bd8"
+  },
+  {
+    "version": 1,
+    "status": "candidate_not_published",
+    "original": {
+      "questionId": "7f386848-d365-4931-9371-bcef21ec7c10:q:0",
+      "sha256": "71fe70bc714bae28ffb374e684602778e80583834a01d3f51b1d849290165c32"
+    },
+    "module": {
+      "id": "round5-module-5",
+      "title": "Proteger derechos al organizar una actividad",
+      "subject": "social_studies",
+      "grade_range": "1-3",
+      "learning_objective": "Identifico y respeto mis derechos y los de otras personas, y entiendo que tengo responsabilidades en mi familia, escuela y comunidad.",
+      "is_active": false
+    },
+    "step": {
+      "id": "round5-repair-5",
+      "module_id": "round5-module-5",
+      "concept_card_id": null,
+      "visual_template_key": null,
+      "cognitive_type": "razonamiento",
+      "content": {
+        "prompt": "En este colegio imaginado se organiza una jornada de cuentos y juegos. ¿Qué dos acciones respetan los derechos de los niños?",
+        "options": [
+          "Escuchar sus ideas sobre las actividades y tomarlas en cuenta.",
+          "Dar el derecho a aprender solo como premio a quienes ganan un juego.",
+          "Organizar momentos para jugar y descansar.",
+          "Permitir burlas contra quienes proponen algo diferente."
+        ]
+      },
+      "enriched_content": {
+        "type": "multiple_select",
+        "expected_answer": {
+          "type": "multiple_select",
+          "correct_options": [
+            0,
+            2
+          ]
+        },
+        "cognitive_dimension": "razonamiento",
+        "explanation": "Distinguir acciones que protegen opinión, educación, juego y descanso en una situación de convivencia.",
+        "option_explanations": [
+          "Escuchar y considerar sus ideas respeta su derecho a expresar opiniones.",
+          "El aprendizaje no es un premio reservado para quienes ganan.",
+          "Los niños tienen derecho al juego y al descanso.",
+          "Las burlas no respetan a quienes participan ni sus opiniones."
+        ],
+        "learning_focus": "Distinguir acciones que protegen opinión, educación, juego y descanso en una situación de convivencia.",
+        "step_config": {
+          "hints": [
+            "Piensa en acciones que permitan participar y estar bien, sin usar los derechos como premios."
+          ],
+          "feedback": "Distinguir acciones que protegen opinión, educación, juego y descanso en una situación de convivencia."
+        }
+      }
+    },
+    "activity": {
+      "options": [
+        "Escuchar sus ideas sobre las actividades y tomarlas en cuenta.",
+        "Dar el derecho a aprender solo como premio a quienes ganan un juego.",
+        "Organizar momentos para jugar y descansar.",
+        "Permitir burlas contra quienes proponen algo diferente."
+      ],
+      "left_items": [],
+      "right_items": [],
+      "correct_indices": [
+        0,
+        2
+      ],
+      "correct_pairs": [],
+      "correct_index": -1,
+      "expected_text": "",
+      "rubric": "Distinguir acciones que protegen opinión, educación, juego y descanso en una situación de convivencia.",
+      "option_explanations": [
+        "Escuchar y considerar sus ideas respeta su derecho a expresar opiniones.",
+        "El aprendizaje no es un premio reservado para quienes ganan.",
+        "Los niños tienen derecho al juego y al descanso.",
+        "Las burlas no respetan a quienes participan ni sus opiniones."
+      ],
+      "pair_explanations": [],
+      "type": "multiple_select",
+      "question": "En este colegio imaginado se organiza una jornada de cuentos y juegos. ¿Qué dos acciones respetan los derechos de los niños?",
+      "hint": "Piensa en acciones que permitan participar y estar bien, sin usar los derechos como premios.",
+      "learning_focus": "Distinguir acciones que protegen opinión, educación, juego y descanso en una situación de convivencia.",
+      "explanation": "Distinguir acciones que protegen opinión, educación, juego y descanso en una situación de convivencia.",
+      "dimension": "razonamiento"
+    },
+    "supports": [
+      {
+        "title": "Participación, juego y respeto",
+        "body": "Escuchar a los niños, permitirles aprender y organizar momentos de juego y descanso protege sus derechos. Los acuerdos ayudan a convivir, pero los derechos no se ganan por obtener un resultado ni autorizan a burlarse de otra persona.",
+        "insight": "Cuidar los derechos incluye cómo tratamos a quienes piensan distinto.",
+        "example_problem": "",
+        "example_steps": [],
+        "example_result": "",
+        "visual": {
+          "kind": "none",
+          "caption": "",
+          "headers": [],
+          "rows": [],
+          "steps": []
+        }
+      },
+      {
+        "title": "Un encuentro de dibujos",
+        "body": "Escuchar a los niños, permitirles aprender y organizar momentos de juego y descanso protege sus derechos. Los acuerdos ayudan a convivir, pero los derechos no se ganan por obtener un resultado ni autorizan a burlarse de otra persona.",
+        "insight": "Usa la estrategia con los datos de tu actividad; el ejemplo tiene otros datos.",
+        "example_problem": "Caso inventado: durante una actividad un niño propone dibujar con hojas recicladas. Otra niña propone usar cartón. ¿Cómo pueden tratar ambas ideas?",
+        "example_steps": [
+          "Se escucha a las dos personas sin burlas.",
+          "Se consideran sus propuestas para organizar la actividad."
+        ],
+        "example_result": "Pueden conversar sobre las dos ideas con respeto; tener otra preferencia no justifica ridiculizar a alguien.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Tratar propuestas distintas",
+          "headers": [],
+          "rows": [],
+          "steps": [
+            "Escuchar.",
+            "Considerar las ideas.",
+            "Decidir con respeto."
+          ]
+        }
+      }
+    ],
+    "findings": [
+      "La selección original de derechos es sustancialmente válida; no se presenta como una clave completamente falsa.",
+      "Una pista enumera las respuestas y la tarjeta trata líneas de tiempo. Se necesita una ayuda propia y un caso que permita aplicar el reconocimiento de derechos sin respuestas reveladas."
+    ],
+    "sha256": "80b9c37e25a8172382b4de66b88119d723f2509e69ad43b92453d08c87ab6930"
+  }
+]

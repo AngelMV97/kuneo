@@ -1,0 +1,1110 @@
+[
+  {
+    "module_id": "92fea6f1-2b4c-46c7-949d-7584df276b8b",
+    "source_unit_id": "0aba3582-d817-44c5-ae59-59a68e2e8b03",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "9",
+    "difficulty": 4,
+    "title": "¿Cómo funciona movimiento?",
+    "learning_objective": "Comprende que el movimiento de un cuerpo, en un marco de referencia inercial dado, se puede describir con gráficos y predecir por medio de expresiones matemáticas.",
+    "context": "movimiento observado en el rebote de una pelota que va dentro de un autobus, visto desde el interior del autobus y fuera de éste.",
+    "core_concept": "movimiento",
+    "concepts": [
+      "movimiento",
+      "estadistica",
+      "lectura_inferencial",
+      "historia"
+    ],
+    "cognitive_type": "representational_thinking",
+    "skills": [
+      "comprender",
+      "comprender",
+      "identificar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con movimiento?",
+      "expected_signals": [
+        "movimiento",
+        "estadistica",
+        "lectura_inferencial",
+        "historia"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "155deb14-c789-4bce-ac24-41411d4b0448",
+        "evidence_source": "Describe el movimiento de un cuerpo (rectilíneo uniforme y uniformemente acelerado, en dos dimensiones – circular uniforme y parabólico) en gráficos que relacionan el desplazamiento, la velocidad y la aceleración en función del tiempo.",
+        "type": "matching",
+        "prompt": "Trabajemos esta evidencia: Describe el movimiento de un cuerpo (rectilíneo uniforme y uniformemente acelerado, en dos dimensiones – circular uniforme y parabólico) en gráficos que relacionan el desplazamiento, la velocidad y la aceleración en función del tiempo.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 1
+      },
+      {
+        "id": "0e86110b-a7d7-44d5-b95d-739bffe24219",
+        "evidence_source": "Predice el movimiento de un cuerpo a partir de las expresiones matemáticas con las que se relaciona, según el caso, la distancia recorrida, la velocidad y la aceleración en función del tiempo.",
+        "type": "matching",
+        "prompt": "Trabajemos esta evidencia: Predice el movimiento de un cuerpo a partir de las expresiones matemáticas con las que se relaciona, según el caso, la distancia recorrida, la velocidad y la aceleración en función del tiempo.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 2
+      },
+      {
+        "id": "c6af0dcf-8cf5-439c-ae17-3640ce86606f",
+        "evidence_source": "Identifica las modificaciones necesarias en la descripción del movimiento de un cuerpo, representada en gráficos, cuando se cambia de marco de referencia.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con movimiento y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "representacion"
+        ],
+        "difficulty": 4,
+        "order": 3
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre movimiento?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender movimiento?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 1
+      }
+    }
+  },
+  {
+    "module_id": "7211df54-9afa-47fa-ba95-269bd6bb2e03",
+    "source_unit_id": "68845f3a-e1f3-4649-bd0f-d6b6b8ba66eb",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "9",
+    "difficulty": 4,
+    "title": "¿Cómo funciona reacciones_quimicas?",
+    "learning_objective": "Comprende que la acidez y la basicidad son propiedades químicas de algunas sustancias y las relaciona con su importancia biológica y su uso cotidiano e industrial.",
+    "context": "['Diseña protocolos experimentales en los cuales utiliza un conjunto de sustancias para clasificar materiales como ácidos o bases y determina sus niveles de acidez y basicidad. Para ello utiliza pH-metro, papel indicador o indicadores naturales y recursos tales como (vinagre, jabón, limón, detergente, plástico, vidrio, clavos) realizando los procedimientos (disoluciones, mezclas) que considere adecuados según el propósito y evaluando el nivel de precisión de los indicadores utilizados. Durante el proceso formula conclusiones y proyecta lo que podría pasar al aplicar el protocolo a nuevas sustancias. Reconoce además, algunos límites y variables que intervienen en las conclusiones que elabora.']",
+    "core_concept": "reacciones_quimicas",
+    "concepts": [
+      "sociedad",
+      "lectura_inferencial",
+      "potenciacion"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "comparar",
+      "comprender",
+      "explicar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con reacciones_quimicas?",
+      "expected_signals": [
+        "sociedad",
+        "lectura_inferencial",
+        "potenciacion"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "84463bb7-da45-46f9-bd19-eee0c1154266",
+        "evidence_source": "Compara algunas teorías (Arrhenius, Brönsted – Lowry y Lewis) que explican el comportamiento químico de los ácidos y las bases para interpretar las propiedades ácidas o básicas de algunos compuestos.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Compara algunas teorías (Arrhenius, Brönsted – Lowry y Lewis) que explican el comportamiento químico de los ácidos y las bases para interpretar las propiedades ácidas o básicas de algunos compuestos.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de reacciones_quimicas.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 4,
+        "order": 1
+      },
+      {
+        "id": "9f6dd0bc-8b15-48a1-ab15-f859fab8d344",
+        "evidence_source": "Determina la acidez y la basicidad de compuestos dados, de manera cualitativa (colorimetría) y cuantitativa (escala de pH - pOH).",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Determina la acidez y la basicidad de compuestos dados, de manera cualitativa (colorimetría) y cuantitativa (escala de pH - pOH).",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de reacciones_quimicas.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 2
+      },
+      {
+        "id": "308791ff-660b-4b9b-97a0-a92e827fd65b",
+        "evidence_source": "Explica la función de los ácidos y las bases en procesos propios de los seres vivos (respiración y digestión en el estómago) y de procesos industriales (uso fertilizantes en la agricultura) y limpieza (jabón).",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica la función de los ácidos y las bases en procesos propios de los seres vivos (respiración y digestión en el estómago) y de procesos industriales (uso fertilizantes en la agricultura) y limpieza (jabón).",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de reacciones_quimicas.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 4,
+        "order": 3
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre reacciones_quimicas?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender reacciones_quimicas?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 2
+      }
+    }
+  },
+  {
+    "module_id": "bc19b467-0158-4bee-a019-d7c599a64a45",
+    "source_unit_id": "fbdf9d74-b1b1-41fc-986f-f51416460f2f",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "9",
+    "difficulty": 4,
+    "title": "¿Cómo funciona movimiento?",
+    "learning_objective": "Analiza las relaciones cuantitativas entre solutos y solventes, así como los factores que afectan la formación de soluciones.",
+    "context": "['A partir de la información contenida en las etiquetas de los productos que contengan soluciones explica sus componentes (soluto-solvente) y calcula su concentración. Elabora preguntas y predice posibles respuestas con base en argumentos de tipo teórico y experimental en las cuales se realicen variaciones de cantidad de soluto – solvente o se someta la muestra a la acción de la temperatura u otras variaciones que considere necesarias.']",
+    "core_concept": "movimiento",
+    "concepts": [
+      "movimiento",
+      "volumen",
+      "potenciacion"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "explicar",
+      "comprender",
+      "identificar",
+      "explicar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con movimiento?",
+      "expected_signals": [
+        "movimiento",
+        "volumen",
+        "potenciacion"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "a14333b4-25a9-4de3-a730-1ffb7c3b4d2e",
+        "evidence_source": "Explica qué factores afectan la formación de soluciones a partir de resultados obtenidos en procedimientos de preparación de soluciones de distinto tipo (insaturadas, saturadas y sobresaturadas) en los que modifica variables (temperatura, presión, cantidad de soluto y disolvente)",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica qué factores afectan la formación de soluciones a partir de resultados obtenidos en procedimientos de preparación de soluciones de distinto tipo (insaturadas, saturadas y sobresaturadas) en los que modifica variables (temperatura, presión, cantidad de soluto y disolvente)",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 4,
+        "order": 1
+      },
+      {
+        "id": "a515b899-6e7e-4ecc-904e-456c65e17656",
+        "evidence_source": "Predice qué ocurrirá con una solución si se modifica una variable como la temperatura, la presión o las cantidades de soluto y solvente.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Predice qué ocurrirá con una solución si se modifica una variable como la temperatura, la presión o las cantidades de soluto y solvente.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 2
+      },
+      {
+        "id": "2a1bb490-3a50-4541-bb7f-119ee3e2467e",
+        "evidence_source": "Identifica los componentes de una solución y representa cuantitativamente el grado de concentración utilizando algunas expresiones matemáticas: % en volumen, % en masa, molaridad (M), molalidad (m).",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con movimiento y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "representacion"
+        ],
+        "difficulty": 4,
+        "order": 3
+      },
+      {
+        "id": "ec1574aa-7cc8-4d57-b833-47360ab7e2f1",
+        "evidence_source": "Explica a partir de las fuerzas intermoleculares (Puentes de Hidrogeno, fuerzas de Van der Waals) las propiedades físicas (solubilidad, la densidad, el punto de ebullición y fusión y la tensión superficial) de sustancias liquidas.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica a partir de las fuerzas intermoleculares (Puentes de Hidrogeno, fuerzas de Van der Waals) las propiedades físicas (solubilidad, la densidad, el punto de ebullición y fusión y la tensión superficial) de sustancias liquidas.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de movimiento.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 4,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre movimiento?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender movimiento?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 3
+      }
+    }
+  },
+  {
+    "module_id": "aa6ec561-653b-4ee5-b258-7127dd451356",
+    "source_unit_id": "debd7283-d31e-4c89-97ef-bcab3013f88d",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "9",
+    "difficulty": 4,
+    "title": "¿Cómo funciona ciencias_naturales?",
+    "learning_objective": "Comprende la forma en que los principios genéticos mendelianos y post-mendelianos explican la herencia y el mejoramiento de las especies existentes.",
+    "context": "En los guisantes las plantas altas (T) son dominantes de las enanas (t), el color amarillo de las semillas (A) es dominante del verde (a), y la semilla lisa (L) es dominante de la rugosa (l). ['Explica los genotipos, los fenotipos y las proporciones de los descendientes del siguiente cruce:'] ilustración gráfica de las característica en el cruce TtAaLl x ttaall.",
+    "core_concept": "ciencias_naturales",
+    "concepts": [
+      "estadistica",
+      "lectura_inferencial",
+      "probabilidad"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "comprender",
+      "explicar",
+      "comprender",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con ciencias_naturales?",
+      "expected_signals": [
+        "estadistica",
+        "lectura_inferencial",
+        "probabilidad"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "97cadeec-a262-49db-afc8-6c20dc7acd9c",
+        "evidence_source": "Predice mediante la aplicación de diferentes mecanismos (probabilidades o punnet) las proporciones de las características heredadas por algunos organismos.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Predice mediante la aplicación de diferentes mecanismos (probabilidades o punnet) las proporciones de las características heredadas por algunos organismos.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "transferencia"
+        ],
+        "difficulty": 4,
+        "order": 1
+      },
+      {
+        "id": "cd6f3392-79a0-482b-b6c8-214182371345",
+        "evidence_source": "Explica la forma como se transmite la información de padres a hijos, identificando las causas de la variabilidad entre organismos de una misma familia.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con ciencias_naturales y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 4,
+        "order": 2
+      },
+      {
+        "id": "a89a7536-8c89-44f9-8f53-f9233e01728e",
+        "evidence_source": "Diseña experiencias que puedan demostrar cada una de las leyes de Mendel y los resultados numéricos obtenidos.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Diseña experiencias que puedan demostrar cada una de las leyes de Mendel y los resultados numéricos obtenidos.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 3
+      },
+      {
+        "id": "d332b79d-0e59-454f-bd2d-9497351e96a9",
+        "evidence_source": "Demuestra la relación que existe entre el proceso de la meiosis y las segunda y tercera Leyes de la Herencia de Mendel.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Demuestra la relación que existe entre el proceso de la meiosis y las segunda y tercera Leyes de la Herencia de Mendel.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "confundir promedio con valor representativo en todos los casos",
+        "pattern": "confundir promedio con valor representativo en todos los casos",
+        "feedback": "Revisemos esta idea: confundir promedio con valor representativo en todos los casos",
+        "visual": "concept_map",
+        "intervention_level": 2
+      },
+      "misconception_2": {
+        "description": "creer que un evento probable siempre ocurrirá",
+        "pattern": "creer que un evento probable siempre ocurrirá",
+        "feedback": "Revisemos esta idea: creer que un evento probable siempre ocurrirá",
+        "visual": "concept_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre ciencias_naturales?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender ciencias_naturales?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "concept_map",
+        "trigger": "confundir promedio con valor representativo en todos los casos",
+        "intervention_level": 2
+      },
+      {
+        "error_key": "misconception_2",
+        "visual_template": "concept_map",
+        "trigger": "creer que un evento probable siempre ocurrirá",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 4
+      }
+    }
+  },
+  {
+    "module_id": "5547eb19-69c7-4a58-8bdf-3b9b4d5b9eba",
+    "source_unit_id": "ea92b78b-5c5e-460a-9b0e-86a3e052cce2",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "9",
+    "difficulty": 4,
+    "title": "¿Cómo funciona celula?",
+    "learning_objective": "Explica la forma como se expresa la información genética contenida en el –ADN–, relacionando su expresión con los fenotipos de los organismos y reconoce su capacidad de modificación a lo largo del tiempo (por mutaciones y otros cambios), como un factor determinante en la generación de diversidad del planeta y en la evolución de las especies.",
+    "context": "['Analiza el siguiente caso:'] En un laboratorio un técnico investiga la producción de la insulina y su relación con la información genética del ADN que codifica para el gen de la insulina. A partir de las células del páncreas, por ejemplo de un ratón, obtienen la secuencia de ADN y con ésta la del ARNm. Utilizando el código genético el técnico pudo encontrar que el gen para la insulina contenía las siguientes tripletas de codones, e identificar los aminoácidos que contenía la proteína de la insulina: descripcion: secuencia de aminoácidos de insulina y su correspondencia con el código genético. Analizó la información anterior y la registró en un cuaderno. En un accidente del anterior registro la única información que quedó visible fue la secuencia de aminoácidos.",
+    "core_concept": "celula",
+    "concepts": [
+      "lectura_inferencial",
+      "celula",
+      "volumen",
+      "historia"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "interpretar",
+      "comprender",
+      "explicar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con celula?",
+      "expected_signals": [
+        "lectura_inferencial",
+        "celula",
+        "volumen",
+        "historia"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "b42e2170-48d6-4ca6-9f68-238b9c6792ff",
+        "evidence_source": "Interpreta a partir de modelos la estructura del ADN y la forma como se expresa en los organismos, representando los pasos del proceso de traducción (es decir, de la síntesis de proteínas).",
+        "type": "representation",
+        "prompt": "Representa la idea de celula usando un esquema, tabla o dibujo mental.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de celula.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "representacion"
+        ],
+        "difficulty": 4,
+        "order": 1
+      },
+      {
+        "id": "b3fa03f6-7fb3-488b-aa4c-8a8d49274696",
+        "evidence_source": "Relaciona la producción de proteínas en el organismo con algunas características fenotípicas para explicar la relación entre genotipo y fenotipo.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Relaciona la producción de proteínas en el organismo con algunas características fenotípicas para explicar la relación entre genotipo y fenotipo.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de celula.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 4,
+        "order": 2
+      },
+      {
+        "id": "ca61b0c1-1c6e-4e86-983e-6d6c977b7ca0",
+        "evidence_source": "Explica los principales mecanismos de cambio en el ADN (mutación y otros) identificando variaciones en la estructura de las proteínas que dan lugar a cambios en el fenotipo de los organismos y la diversidad en las poblaciones.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con celula y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de celula.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 4,
+        "order": 3
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "creer que todas las células son iguales",
+        "pattern": "creer que todas las células son iguales",
+        "feedback": "Revisemos esta idea: creer que todas las células son iguales",
+        "visual": "concept_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre celula?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender celula?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "concept_map",
+        "trigger": "creer que todas las células son iguales",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 5
+      }
+    }
+  },
+  {
+    "module_id": "cb15f62f-50ca-4871-a98d-6fe65df2ca6b",
+    "source_unit_id": "3a6232bc-d0ad-4985-b645-5eaf5676802a",
+    "source": "dba",
+    "subject": "natural_sciences",
+    "grade_range": "9",
+    "difficulty": 4,
+    "title": "¿Cómo funciona ciencias_naturales?",
+    "learning_objective": "Analiza teorías científicas sobre el origen de las especies (selección natural y ancestro común) como modelos científicos que sustentan sus explicaciones desde diferentes evidencias y argumentaciones.",
+    "context": "Las siguientes imágenes muestran la acción de la selección natural sobre el camuflaje de una especie de escarabajo. acción de la selección natural sobre el camuflaje de una especie de escarabajo. ['Interpreta la gráfica de la parte superior y explícala utilizando el modelo de selección natural. Predice a partir de la información que brindan los gráficos cuál fue la mutación que ocurrió, para cuál de las dos especies (pájaros o escarabajos) es favorable. Explica cuál es la incidencia del cambio de coloración del escarabajo en la supervivencia del ave. Predice cómo será la población de escarabajos respecto de su color luego de varias generaciones. Emite las conclusiones utilizando argumentos científicos.']",
+    "core_concept": "ciencias_naturales",
+    "concepts": [
+      "estadistica",
+      "fracciones",
+      "lectura_inferencial",
+      "argumentacion"
+    ],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "explicar",
+      "explicar",
+      "argumentar",
+      "identificar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Por qué crees que ocurre algo relacionado con ciencias_naturales?",
+      "expected_signals": [
+        "estadistica",
+        "fracciones",
+        "lectura_inferencial",
+        "argumentacion"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "78218808-8f3e-4f36-b823-de317133c60c",
+        "evidence_source": "Explica las evidencias que dan sustento a la teoría del ancestro común y a la de selección natural (evidencias de distribución geográfica de las especies, restos fósiles, homologías, comparación entre secuencias de ADN).",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica las evidencias que dan sustento a la teoría del ancestro común y a la de selección natural (evidencias de distribución geográfica de las especies, restos fósiles, homologías, comparación entre secuencias de ADN).",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "representacion",
+          "razonamiento"
+        ],
+        "difficulty": 4,
+        "order": 1
+      },
+      {
+        "id": "9fa21f05-55c2-4625-80ff-e79346a63fbc",
+        "evidence_source": "Explica cómo actúa la selección natural en una población que vive en un determinado ambiente, cuando existe algún factor de presión de selección (cambios en las condiciones climáticas) y su efecto en la variabilidad de fenotipos.",
+        "type": "explanation",
+        "prompt": "Explica con tus palabras: Explica cómo actúa la selección natural en una población que vive en un determinado ambiente, cuando existe algún factor de presión de selección (cambios en las condiciones climáticas) y su efecto en la variabilidad de fenotipos.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 4,
+        "order": 2
+      },
+      {
+        "id": "6225b912-1bb4-40c2-8c25-8a11986bb655",
+        "evidence_source": "Argumenta con evidencias científicas la influencia de las mutaciones en la selección natural de las especies.",
+        "type": "argumentation",
+        "prompt": "Justifica tu respuesta usando evidencia o razones claras.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "argumentacion"
+        ],
+        "difficulty": 4,
+        "order": 3
+      },
+      {
+        "id": "7230c076-2bdd-4864-aea7-a07e9095387b",
+        "evidence_source": "Identifica los procesos de transformación de los seres vivos ocurridos en cada una de las eras geológicas.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con ciencias_naturales y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de ciencias_naturales.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 4,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre ciencias_naturales?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender ciencias_naturales?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 6
+      }
+    }
+  }
+]

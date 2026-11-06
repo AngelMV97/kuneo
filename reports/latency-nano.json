@@ -1,0 +1,1193 @@
+{
+  "date": "2026-11-05T15:21:21.275Z",
+  "variant": "nano",
+  "config": {
+    "activityModel": "gpt-5.4-nano",
+    "reviewModel": "gpt-5.4-nano",
+    "compact": false
+  },
+  "scope": "Synthetic OpenAI experiment. No student records or Supabase access.",
+  "activities": [
+    {
+      "case": "math2",
+      "subject": "mathematics",
+      "grade": 2,
+      "dimension": "comprension",
+      "requested": "option",
+      "logs": [
+        {
+          "task": "kuneo_activity",
+          "model": "gpt-5.4-nano",
+          "resolvedModel": "gpt-5.4-nano-2026-03-17",
+          "ms": 3387,
+          "usage": {
+            "prompt_tokens": 1791,
+            "completion_tokens": 355,
+            "total_tokens": 2146,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0008915
+        },
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-5.4-nano",
+          "resolvedModel": "gpt-5.4-nano-2026-03-17",
+          "ms": 2560,
+          "usage": {
+            "prompt_tokens": 1243,
+            "completion_tokens": 207,
+            "total_tokens": 1450,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0005695
+        },
+        {
+          "task": "kuneo_audit",
+          "model": "gpt-6.1-terra",
+          "resolvedModel": "gpt-6.1-terra",
+          "ms": 2542,
+          "usage": {
+            "prompt_tokens": 721,
+            "completion_tokens": 101,
+            "total_tokens": 822,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.00140625
+        }
+      ],
+      "ms": 5948,
+      "metrics": {
+        "timestamp": "2026-11-05T15:21:27.224Z",
+        "request_id": "c4b4f773-2208-47f4-b0ed-fc95c5185f8f",
+        "operation": "latency_probe",
+        "status": 200,
+        "total_ms": 5948,
+        "stages": {
+          "openai_generation": 3387,
+          "openai_evaluation": 2560
+        },
+        "usage": [
+          {
+            "model": "gpt-5.4-nano-2026-03-17",
+            "input_tokens": 1791,
+            "output_tokens": 355,
+            "cached_input_tokens": 0
+          },
+          {
+            "model": "gpt-5.4-nano-2026-03-17",
+            "input_tokens": 1243,
+            "output_tokens": 207,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {
+          "generation_outcome": "generated"
+        }
+      },
+      "activity": {
+        "id": "6370bbf5-c4e7-45c9-8e7d-9907cce9d040",
+        "step_id": "869c604c-de46-4fc0-8e33-b000bfef66ac",
+        "question": "En la biblioteca del colegio, Laura acomodó libros en 2 estantes.\n\nEn el primer estante puso 3 libros.\nEn el segundo estante puso 5 libros.\n\n¿Cuántos libros hay en total en los dos estantes?",
+        "type": "option",
+        "options": [
+          "6",
+          "8",
+          "9",
+          "10"
+        ],
+        "cognitive_dimension": "comprension",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "6370bbf5-c4e7-45c9-8e7d-9907cce9d040",
+        "user_id": "synthetic-latency-probe",
+        "module_id": "c1e59253-0df7-4569-ab90-f3dc9f74f4d1",
+        "step_id": "869c604c-de46-4fc0-8e33-b000bfef66ac",
+        "question": "En la biblioteca del colegio, Laura acomodó libros en 2 estantes.\n\nEn el primer estante puso 3 libros.\nEn el segundo estante puso 5 libros.\n\n¿Cuántos libros hay en total en los dos estantes?",
+        "type": "option",
+        "options": [
+          "6",
+          "8",
+          "9",
+          "10"
+        ],
+        "left_items": [],
+        "right_items": [],
+        "expected": {
+          "type": "option",
+          "correct_options": [
+            1
+          ]
+        },
+        "learning_focus": "Sumar cantidades pequeñas de objetos en situaciones escolares (comprensión del total).",
+        "option_explanations": [
+          "6: es solo una de las cantidades o un total incorrecto; no suma 3 y 5.",
+          "8: suma 3 + 5, que da 8 libros en total.",
+          "9: es una cantidad mayor; faltó usar exactamente 3 y 5.",
+          "10: es un total incorrecto porque 3 + 5 no llega a 10."
+        ],
+        "pair_explanations": [],
+        "rubric": "El estudiante elige la opción que representa la suma total de libros en ambos estantes (primer estante + segundo estante).",
+        "hint": "Piensa: libros del primer estante + libros del segundo estante.",
+        "explanation": "Se suman las cantidades: 3 libros en el primer estante y 5 libros en el segundo. El total es 3 + 5 = 8 libros, que corresponde a la opción correcta.",
+        "dimension": "comprension",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "mathematics",
+        "support_context": {
+          "topic": "Sumar cantidades pequeñas de objetos en situaciones escolares",
+          "concept": "Sumar cantidades pequeñas de objetos en situaciones escolares",
+          "learning_goal": "Sumar cantidades pequeñas de objetos en situaciones escolares"
+        },
+        "grade_group": "1-3",
+        "expires_at": 1793978487223
+      },
+      "audit": {
+        "verification": "3 + 5 = 8 libros; la opción 8 corresponde al índice 1 de la clave. Las opciones 6, 9 y 10 son incorrectas, y sus explicaciones lo reconocen. La rúbrica, la pista y la explicación final concuerdan con la suma. El contexto escolar aporta las cantidades; el idioma y la dificultad son adecuados para segundo grado y comprensión.",
+        "approved": true,
+        "issues": []
+      }
+    },
+    {
+      "case": "language3",
+      "subject": "language",
+      "grade": 3,
+      "dimension": "comprension",
+      "requested": "multiple_select",
+      "logs": [
+        {
+          "task": "kuneo_activity",
+          "model": "gpt-5.4-nano",
+          "resolvedModel": "gpt-5.4-nano-2026-03-17",
+          "ms": 6455,
+          "usage": {
+            "prompt_tokens": 1823,
+            "completion_tokens": 676,
+            "total_tokens": 2499,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.00130075
+        },
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-5.4-nano",
+          "resolvedModel": "gpt-5.4-nano-2026-03-17",
+          "ms": 2853,
+          "usage": {
+            "prompt_tokens": 1615,
+            "completion_tokens": 271,
+            "total_tokens": 1886,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0007425
+        },
+        {
+          "task": "kuneo_audit",
+          "model": "gpt-6.1-terra",
+          "resolvedModel": "gpt-6.1-terra",
+          "ms": 3586,
+          "usage": {
+            "prompt_tokens": 1091,
+            "completion_tokens": 225,
+            "total_tokens": 1316,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 1088,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.00248875
+        }
+      ],
+      "ms": 9309,
+      "metrics": {
+        "timestamp": "2026-11-05T15:21:30.585Z",
+        "request_id": "269f12b5-2e98-4275-9585-88610bef9310",
+        "operation": "latency_probe",
+        "status": 200,
+        "total_ms": 9309,
+        "stages": {
+          "openai_generation": 6455,
+          "openai_evaluation": 2853
+        },
+        "usage": [
+          {
+            "model": "gpt-5.4-nano-2026-03-17",
+            "input_tokens": 1823,
+            "output_tokens": 676,
+            "cached_input_tokens": 0
+          },
+          {
+            "model": "gpt-5.4-nano-2026-03-17",
+            "input_tokens": 1615,
+            "output_tokens": 271,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {
+          "generation_outcome": "generated"
+        }
+      },
+      "activity": {
+        "id": "fa4567c5-006c-4075-a728-0c3785abaf13",
+        "step_id": "8053873d-1d58-4e5c-9913-b5471643ddb7",
+        "question": "Lee el siguiente relato y responde.\n\n**Relato:**\nEl miércoles, en el recreo, Martina vio que el cuaderno de su compañera se estaba mojando porque había llovido y el techo goteaba. Martina corrió a avisar al profesor y le dijo que pusieran el cuaderno en una mesa seca. Mientras el profesor revisaba el lugar, Martina ayudó a guardar el cuaderno en su estuche para que no se dañara.\n\n**Pregunta (elige todas las opciones correctas):**\n¿Cuáles enunciados describen **una causa** y sus **consecuencias** dentro del relato?",
+        "type": "multiple_select",
+        "options": [
+          "Martina avisó al profesor; por eso pusieron el cuaderno en una mesa seca.",
+          "Había llovido y el techo goteaba; por eso el cuaderno se estaba mojando.",
+          "Martina ayudó a guardar el cuaderno en su estuche; por eso el cuaderno no se dañó.",
+          "El profesor revisaba el lugar; por eso Martina corrió a avisar."
+        ],
+        "cognitive_dimension": "comprension",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "fa4567c5-006c-4075-a728-0c3785abaf13",
+        "user_id": "synthetic-latency-probe",
+        "module_id": "fe6dc39f-6550-43dd-82f9-d7720fc1248a",
+        "step_id": "8053873d-1d58-4e5c-9913-b5471643ddb7",
+        "question": "Lee el siguiente relato y responde.\n\n**Relato:**\nEl miércoles, en el recreo, Martina vio que el cuaderno de su compañera se estaba mojando porque había llovido y el techo goteaba. Martina corrió a avisar al profesor y le dijo que pusieran el cuaderno en una mesa seca. Mientras el profesor revisaba el lugar, Martina ayudó a guardar el cuaderno en su estuche para que no se dañara.\n\n**Pregunta (elige todas las opciones correctas):**\n¿Cuáles enunciados describen **una causa** y sus **consecuencias** dentro del relato?",
+        "type": "multiple_select",
+        "options": [
+          "Martina avisó al profesor; por eso pusieron el cuaderno en una mesa seca.",
+          "Había llovido y el techo goteaba; por eso el cuaderno se estaba mojando.",
+          "Martina ayudó a guardar el cuaderno en su estuche; por eso el cuaderno no se dañó.",
+          "El profesor revisaba el lugar; por eso Martina corrió a avisar."
+        ],
+        "left_items": [],
+        "right_items": [],
+        "expected": {
+          "type": "multiple_select",
+          "correct_options": [
+            0,
+            1,
+            2
+          ]
+        },
+        "learning_focus": "Comprender causas y consecuencias en un relato corto (identificar relaciones causa→consecuencia en opciones).",
+        "option_explanations": [
+          "Correcta: el aviso de Martina es la razón por la que luego ponen el cuaderno en una mesa seca (se ve en “le dijo que pusieran…”).",
+          "Correcta: la lluvia y el goteo causan que el cuaderno se esté mojando (aparece directamente en “porque había llovido y… goteaba”).",
+          "Correcta: guardar el cuaderno en el estuche es el paso que evita el daño, por eso “no se dañara”.",
+          "Incorrecta: el profesor revisaba el lugar no provoca que Martina corriera a avisar; la causa de que ella avisara fue el problema del cuaderno que se estaba mojando. "
+        ],
+        "pair_explanations": [],
+        "rubric": "Criterio de evaluación (comprensión de causa y consecuencia):\n- Selecciona **todas** las opciones donde hay relación clara: **primero ocurre algo (causa)** y luego pasa un **resultado (consecuencia)**, ambas presentes en el relato.\n- **No** selecciona opciones donde la relación esté al revés (consecuencia como causa) o donde no coincida con lo que ocurre en el relato.\nSe considera correcto si el estudiante marca exactamente las opciones que cumplen causa→consecuencia (sin añadir opciones incorrectas).",
+        "hint": "Busca pares del tipo: “**porque** pasó X, **entonces** pasó Y”. En algunas opciones, el orden puede estar cambiado.",
+        "explanation": "En el relato, la lluvia y el goteo del techo causan que el cuaderno se moje. Martina avisa al profesor para que lo pongan en una mesa seca. Además, al guardar el cuaderno en el estuche se evita que se dañe. La opción sobre “el profesor revisaba el lugar” no explica la acción de Martina como causa.",
+        "dimension": "comprension",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "language",
+        "support_context": {
+          "topic": "Comprender causas y consecuencias en un relato corto en español",
+          "concept": "Comprender causas y consecuencias en un relato corto en español",
+          "learning_goal": "Comprender causas y consecuencias en un relato corto en español"
+        },
+        "grade_group": "1-3",
+        "expires_at": 1793978490585
+      },
+      "audit": {
+        "verification": "La opción 0 afirma que pusieron el cuaderno en la mesa seca, pero el relato solo dice que Martina lo propuso. La opción 1 sí reproduce la causa explícita: llovió y el techo goteaba, por eso se mojaba. La opción 2 presenta como resultado que no se dañó, aunque «para que no se dañara» expresa una finalidad, no un resultado confirmado. La opción 3 invierte la secuencia: Martina avisó antes de que el profesor revisara. La clave, las explicaciones de 0 y 2 y la explicación general contradicen el criterio de la rúbrica de exigir consecuencias presentes en el relato; según ese criterio, solo corresponde la opción 1. El relato en español y el contexto escolar son adecuados para tercero y permiten trabajar la comprensión causal.",
+        "approved": false,
+        "issues": [
+          "La clave incluye las opciones 0 y 2, aunque sus consecuencias no están confirmadas en el relato. Sus explicaciones y la explicación general también presentan esos resultados como hechos."
+        ]
+      }
+    },
+    {
+      "case": "social10",
+      "subject": "social_studies",
+      "grade": 10,
+      "dimension": "transferencia",
+      "requested": "option",
+      "logs": [
+        {
+          "task": "kuneo_activity",
+          "model": "gpt-5.4-nano",
+          "resolvedModel": "gpt-5.4-nano-2026-03-17",
+          "ms": 7582,
+          "usage": {
+            "prompt_tokens": 1820,
+            "completion_tokens": 996,
+            "total_tokens": 2816,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0017
+        },
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-5.4-nano",
+          "resolvedModel": "gpt-5.4-nano-2026-03-17",
+          "ms": 2859,
+          "usage": {
+            "prompt_tokens": 1885,
+            "completion_tokens": 303,
+            "total_tokens": 2188,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.00085
+        },
+        {
+          "task": "kuneo_audit",
+          "model": "gpt-6.1-terra",
+          "resolvedModel": "gpt-6.1-terra",
+          "ms": 4196,
+          "usage": {
+            "prompt_tokens": 1384,
+            "completion_tokens": 262,
+            "total_tokens": 1646,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 1381,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.00304
+        }
+      ],
+      "ms": 10443,
+      "metrics": {
+        "timestamp": "2026-11-05T15:21:44.612Z",
+        "request_id": "58fec41e-b52b-4ea3-9f52-8e4328bc0c7a",
+        "operation": "latency_probe",
+        "status": 200,
+        "total_ms": 10443,
+        "stages": {
+          "openai_generation": 7582,
+          "openai_evaluation": 2860
+        },
+        "usage": [
+          {
+            "model": "gpt-5.4-nano-2026-03-17",
+            "input_tokens": 1820,
+            "output_tokens": 996,
+            "cached_input_tokens": 0
+          },
+          {
+            "model": "gpt-5.4-nano-2026-03-17",
+            "input_tokens": 1885,
+            "output_tokens": 303,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {
+          "generation_outcome": "generated"
+        }
+      },
+      "activity": {
+        "id": "66ea47d9-2eff-44b7-ab22-551c5d981477",
+        "step_id": "47f1008b-e1f8-4c0a-b848-756096f60e28",
+        "question": "En el barrio La Esperanza (Colombia) el Concejo Escolar discute si se instala un sistema de separación de residuos en dos puntos: la tienda del barrio y la cancha. Para decidir, se consultaron **dos fuentes simuladas**.\n\n**Fuente A (comunicado del equipo de reciclaje, voz interna del colegio):**\n“En la cancha se generan más residuos que en la tienda, así que conviene instalar allí los contenedores primero. Además, la comunidad siempre ha apoyado estas campañas.”\n\n**Fuente B (acta de observación del comité ambiental, registro de conteos):**\nDurante 3 tardes (cada tarde, 2 horas) se contaron bolsas con residuos generadas por grupos que llegaban a cada punto. El registro fue:\n\n| Punto | Bolsa con residuos (Tarde 1) | Bolsa con residuos (Tarde 2) | Bolsa con residuos (Tarde 3) | Total 3 tardes |\n|---|---:|---:|---:|---:|\n| Tienda | 18 | 22 | 17 | 57 |\n| Cancha | 26 | 24 | 29 | 79 |\n\n**Situación nueva:** La semana siguiente solo hay presupuesto para instalar **1** sistema. Se pregunta: ¿**qué decisión está más respaldada** usando datos y contrastando hechos vs opiniones de las fuentes?\n",
+        "type": "option",
+        "options": [
+          "Instalar el sistema primero en la cancha, porque Fuente B muestra que allí hay más bolsas de residuos en total (79) que en la tienda (57).",
+          "Instalar el sistema primero en la tienda, porque Fuente A afirma que la comunidad siempre ha apoyado las campañas, y por eso la tienda sería la mejor opción.",
+          "No decidir aún: aunque Fuente B tiene conteos, como Fuente A menciona que en la cancha hay más residuos, ambas fuentes son opiniones y no sirven para tomar una decisión.",
+          "Instalar el sistema en cualquiera de los dos puntos, porque la diferencia entre 79 y 57 no es suficiente para justificar una elección."
+        ],
+        "cognitive_dimension": "transferencia",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "66ea47d9-2eff-44b7-ab22-551c5d981477",
+        "user_id": "synthetic-latency-probe",
+        "module_id": "1c630f2d-9129-479e-b143-07e9b8f9dc43",
+        "step_id": "47f1008b-e1f8-4c0a-b848-756096f60e28",
+        "question": "En el barrio La Esperanza (Colombia) el Concejo Escolar discute si se instala un sistema de separación de residuos en dos puntos: la tienda del barrio y la cancha. Para decidir, se consultaron **dos fuentes simuladas**.\n\n**Fuente A (comunicado del equipo de reciclaje, voz interna del colegio):**\n“En la cancha se generan más residuos que en la tienda, así que conviene instalar allí los contenedores primero. Además, la comunidad siempre ha apoyado estas campañas.”\n\n**Fuente B (acta de observación del comité ambiental, registro de conteos):**\nDurante 3 tardes (cada tarde, 2 horas) se contaron bolsas con residuos generadas por grupos que llegaban a cada punto. El registro fue:\n\n| Punto | Bolsa con residuos (Tarde 1) | Bolsa con residuos (Tarde 2) | Bolsa con residuos (Tarde 3) | Total 3 tardes |\n|---|---:|---:|---:|---:|\n| Tienda | 18 | 22 | 17 | 57 |\n| Cancha | 26 | 24 | 29 | 79 |\n\n**Situación nueva:** La semana siguiente solo hay presupuesto para instalar **1** sistema. Se pregunta: ¿**qué decisión está más respaldada** usando datos y contrastando hechos vs opiniones de las fuentes?\n",
+        "type": "option",
+        "options": [
+          "Instalar el sistema primero en la cancha, porque Fuente B muestra que allí hay más bolsas de residuos en total (79) que en la tienda (57).",
+          "Instalar el sistema primero en la tienda, porque Fuente A afirma que la comunidad siempre ha apoyado las campañas, y por eso la tienda sería la mejor opción.",
+          "No decidir aún: aunque Fuente B tiene conteos, como Fuente A menciona que en la cancha hay más residuos, ambas fuentes son opiniones y no sirven para tomar una decisión.",
+          "Instalar el sistema en cualquiera de los dos puntos, porque la diferencia entre 79 y 57 no es suficiente para justificar una elección."
+        ],
+        "left_items": [],
+        "right_items": [],
+        "expected": {
+          "type": "option",
+          "correct_options": [
+            0
+          ]
+        },
+        "learning_focus": "Aplicar el contraste entre hechos (datos cuantificados) y opiniones (afirmaciones sin conteo) para decidir en una nueva situación comunitaria con un solo recurso.",
+        "option_explanations": [
+          "Correcta: usa directamente los totales de Fuente B (79 en cancha vs 57 en tienda) y aplica esos datos al problema de presupuesto para elegir el punto con más residuos.",
+          "Incorrecta: se basa en la frase de Fuente A sobre “apoyo siempre” (afirmación sin conteo), ignorando el dato cuantitativo que decide entre puntos.",
+          "Incorrecta: aunque Fuente A no es un conteo, Fuente B sí aporta datos observados; por tanto, no es cierto que “no sirvan” para decidir.",
+          "Incorrecta: sostiene que la diferencia no importa sin criterio; con evidencia de mayor volumen de residuos en cancha, la comparación sí permite justificar una elección."
+        ],
+        "pair_explanations": [],
+        "rubric": "Se evalúa la **dimensión de transferencia**: la capacidad para aplicar el criterio de decisión (usar datos y distinguir hechos vs opiniones en fuentes simuladas) a una situación nueva con presupuesto limitado.\n\nCriterios (se considera correcto si cumple todo):\n1) Usa el **dato cuantitativo** de Fuente B (conteos y totales) para elegir entre tienda y cancha.\n2) Reconoce implícitamente que la frase de Fuente A tiene componente de **opinión/afirmación** (apoyo “siempre ha apoyado”), y no reemplaza los conteos.\n3) Justifica la decisión con el resultado de la comparación de totales (79 vs 57) sin inventar información.",
+        "hint": "Piensa: ¿qué parte del texto de las fuentes son “números observados” y cuál es una “afirmación sin conteo”? Luego elige con el presupuesto para 1 punto.",
+        "explanation": "La opción correcta aplica el aprendizaje a la decisión nueva: utiliza el registro de conteos (Fuente B) para comparar el total de bolsas en cancha (79) frente a tienda (57). Las afirmaciones de Fuente A (como “siempre ha apoyado”) no traen números y no sustituyen la evidencia observada para decidir con un recurso limitado.",
+        "dimension": "transferencia",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "social_studies",
+        "support_context": {
+          "topic": "Tomar decisiones comunitarias usando datos y contrastando hechos y opiniones de fuentes simuladas",
+          "concept": "Tomar decisiones comunitarias usando datos y contrastando hechos y opiniones de fuentes simuladas",
+          "learning_goal": "Tomar decisiones comunitarias usando datos y contrastando hechos y opiniones de fuentes simuladas"
+        },
+        "grade_group": "10-11",
+        "expires_at": 1793978504612
+      },
+      "audit": {
+        "verification": "Tienda: 18+22+17=57; cancha: 26+24+29=79; diferencia: 22 bolsas. La opción 0 es la más respaldada para priorizar un punto. La 1 no vincula el supuesto apoyo comunitario con la tienda; la 2 desconoce los conteos; la 3 descarta la diferencia sin criterio aportado. Las explicaciones corresponden a las opciones. La rúbrica comprueba uso de datos y comparación, pero el contraste con Fuente A solo se infiere de forma limitada. El contexto presupuestal interviene en la decisión; idioma, grado y transferencia son adecuados.",
+        "approved": false,
+        "issues": [
+          "Los conteos miden bolsas, no volumen de residuos. La explicación de la opción 3 habla de «mayor volumen» y la opción 0 equipara implícitamente más bolsas con más residuos; los datos no establecen cantidades o tamaños equivalentes por bolsa.",
+          "La opción correcta no explicita la distinción entre la afirmación de Fuente A sobre el apoyo comunitario y los conteos de Fuente B. Por ello, marcarla no demuestra claramente el contraste entre hechos y opiniones exigido por el objetivo y la rúbrica."
+        ]
+      }
+    },
+    {
+      "case": "science4",
+      "subject": "natural_sciences",
+      "grade": 4,
+      "dimension": "transferencia",
+      "requested": "text",
+      "logs": [
+        {
+          "task": "kuneo_activity",
+          "model": "gpt-5.4-nano",
+          "resolvedModel": "gpt-5.4-nano-2026-03-17",
+          "ms": 8706,
+          "usage": {
+            "prompt_tokens": 1829,
+            "completion_tokens": 1036,
+            "total_tokens": 2865,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.00175225
+        },
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-5.4-nano",
+          "resolvedModel": "gpt-5.4-nano-2026-03-17",
+          "ms": 3789,
+          "usage": {
+            "prompt_tokens": 1981,
+            "completion_tokens": 467,
+            "total_tokens": 2448,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.001079
+        },
+        {
+          "task": "kuneo_activity",
+          "model": "gpt-5.4-nano",
+          "resolvedModel": "gpt-5.4-nano-2026-03-17",
+          "ms": 7776,
+          "usage": {
+            "prompt_tokens": 1981,
+            "completion_tokens": 1009,
+            "total_tokens": 2990,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0017565
+        },
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-5.4-nano",
+          "ms": 1743,
+          "error": {
+            "name": "Error"
+          }
+        }
+      ],
+      "error": {
+        "status": 503,
+        "name": "Error",
+        "cause": "Error"
+      },
+      "metrics": {
+        "timestamp": "2026-11-05T15:21:51.781Z",
+        "request_id": "770299df-1577-4ece-817b-6bb603b165fb",
+        "operation": "latency_probe",
+        "status": 503,
+        "total_ms": 22018,
+        "stages": {
+          "openai_generation": 16483,
+          "openai_evaluation": 5533
+        },
+        "usage": [
+          {
+            "model": "gpt-5.4-nano-2026-03-17",
+            "input_tokens": 1829,
+            "output_tokens": 1036,
+            "cached_input_tokens": 0
+          },
+          {
+            "model": "gpt-5.4-nano-2026-03-17",
+            "input_tokens": 1981,
+            "output_tokens": 467,
+            "cached_input_tokens": 0
+          },
+          {
+            "model": "gpt-5.4-nano-2026-03-17",
+            "input_tokens": 1981,
+            "output_tokens": 1009,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {
+          "generation_failure_initial": "review_rejected",
+          "generation_repair": "attempted",
+          "generation_failure_final": "unknown",
+          "generation_outcome": "unavailable"
+        }
+      }
+    },
+    {
+      "case": "english11",
+      "subject": "english",
+      "grade": 11,
+      "dimension": "metacognicion",
+      "requested": "text",
+      "logs": [
+        {
+          "task": "kuneo_activity",
+          "model": "gpt-5.4-nano",
+          "resolvedModel": "gpt-5.4-nano-2026-03-17",
+          "ms": 7061,
+          "usage": {
+            "prompt_tokens": 1819,
+            "completion_tokens": 830,
+            "total_tokens": 2649,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.00149225
+        },
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-5.4-nano",
+          "resolvedModel": "gpt-5.4-nano-2026-03-17",
+          "ms": 3413,
+          "usage": {
+            "prompt_tokens": 1774,
+            "completion_tokens": 386,
+            "total_tokens": 2160,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.000926
+        },
+        {
+          "task": "kuneo_activity",
+          "model": "gpt-5.4-nano",
+          "resolvedModel": "gpt-5.4-nano-2026-03-17",
+          "ms": 6613,
+          "usage": {
+            "prompt_tokens": 1962,
+            "completion_tokens": 700,
+            "total_tokens": 2662,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0013655
+        },
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-5.4-nano",
+          "resolvedModel": "gpt-5.4-nano-2026-03-17",
+          "ms": 2824,
+          "usage": {
+            "prompt_tokens": 1644,
+            "completion_tokens": 294,
+            "total_tokens": 1938,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0007785
+        },
+        {
+          "task": "kuneo_audit",
+          "model": "gpt-6.1-terra",
+          "resolvedModel": "gpt-6.1-terra",
+          "ms": 4968,
+          "usage": {
+            "prompt_tokens": 1366,
+            "completion_tokens": 267,
+            "total_tokens": 1633,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 1363,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0030425
+        }
+      ],
+      "ms": 19914,
+      "metrics": {
+        "timestamp": "2026-11-05T15:22:08.724Z",
+        "request_id": "7be1ea5a-f69d-402e-8952-d7060a9b658b",
+        "operation": "latency_probe",
+        "status": 200,
+        "total_ms": 19914,
+        "stages": {
+          "openai_generation": 13675,
+          "openai_evaluation": 6237
+        },
+        "usage": [
+          {
+            "model": "gpt-5.4-nano-2026-03-17",
+            "input_tokens": 1819,
+            "output_tokens": 830,
+            "cached_input_tokens": 0
+          },
+          {
+            "model": "gpt-5.4-nano-2026-03-17",
+            "input_tokens": 1774,
+            "output_tokens": 386,
+            "cached_input_tokens": 0
+          },
+          {
+            "model": "gpt-5.4-nano-2026-03-17",
+            "input_tokens": 1962,
+            "output_tokens": 700,
+            "cached_input_tokens": 0
+          },
+          {
+            "model": "gpt-5.4-nano-2026-03-17",
+            "input_tokens": 1644,
+            "output_tokens": 294,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {
+          "generation_failure_initial": "review_rejected",
+          "generation_repair": "attempted",
+          "generation_outcome": "generated"
+        }
+      },
+      "activity": {
+        "id": "ffc9048e-d550-4791-9001-8f21f8bff0a8",
+        "step_id": "826cf8af-0e98-444a-964d-85787569fc25",
+        "question": "Lee el siguiente mensaje de un compañero y responde.\n\n**Message:**\n> *Hey! The club meeting starts at 5:30 p.m. Bring your notebook. Also, don’t forget the “safety goggles” for the lab part. If you don’t have them, the teacher says you can borrow a pair, but you must ask before class.*\n\n**Tarea (metacognición):**\n1) **Infiere el significado** de la expresión **“safety goggles”** según el contexto.\n2) Explica **cómo comprobarías** tu interpretación usando pistas del texto (por ejemplo: palabras cercanas, acciones que se mencionan, causa/condición).\n3) Escribe un **check final** de 1 oración: “Yo estoy razonablemente seguro/a porque ___”.",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "metacognicion",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "ffc9048e-d550-4791-9001-8f21f8bff0a8",
+        "user_id": "synthetic-latency-probe",
+        "module_id": "3c33ea59-728d-4fa2-8c79-53a64629f4a4",
+        "step_id": "826cf8af-0e98-444a-964d-85787569fc25",
+        "question": "Lee el siguiente mensaje de un compañero y responde.\n\n**Message:**\n> *Hey! The club meeting starts at 5:30 p.m. Bring your notebook. Also, don’t forget the “safety goggles” for the lab part. If you don’t have them, the teacher says you can borrow a pair, but you must ask before class.*\n\n**Tarea (metacognición):**\n1) **Infiere el significado** de la expresión **“safety goggles”** según el contexto.\n2) Explica **cómo comprobarías** tu interpretación usando pistas del texto (por ejemplo: palabras cercanas, acciones que se mencionan, causa/condición).\n3) Escribe un **check final** de 1 oración: “Yo estoy razonablemente seguro/a porque ___”.",
+        "type": "text",
+        "options": [],
+        "left_items": [],
+        "right_items": [],
+        "expected": {
+          "type": "rubric",
+          "answer": "La respuesta debe incluir:\n- Una inferencia coherente para “safety goggles” (por ejemplo: gafas de seguridad para proteger los ojos).\n- Una explicación de comprobación basada en el contexto del mensaje (laboratorio, seguridad, pedir/usar antes de clase, “borrow a pair”).\n- Un check final en 1 oración justificando con pistas del texto.",
+          "rubric": "Evalúo SOLO la dimensión **metacognición** (planificar/explicar y verificar estrategia), con estos criterios:\n\n1. **Identifica estrategia de comprobación** (0-2): describe al menos 1 forma de verificar la interpretación usando pistas del texto (ej., relación con “lab part”, “safety”, “borrow a pair”).\n2. **Conecta la verificación con la inferencia** (0-2): la explicación muestra por qué esas pistas apoyan el significado inferido, no solo lo repite.\n3. **Incluye un check final** (0-1): escribe una oración tipo “Yo estoy seguro/a porque…” que resume evidencia textual.\n\n**Puntaje total: 0 a 5.**\n- 5: cumple 1, 2 y 3 con evidencia clara y coherente.\n- 3-4: cumple 1 y parte de 2 o 3.\n- 1-2: menciona estrategia vaga o no conecta con pistas.\n- 0: no incluye comprobación ni check final."
+        },
+        "learning_focus": "Inferir el significado de un término desconocido en inglés por el contexto y explicar cómo comprobar la interpretación con evidencia del texto.",
+        "option_explanations": [],
+        "pair_explanations": [],
+        "rubric": "Evalúo SOLO la dimensión **metacognición** (planificar/explicar y verificar estrategia), con estos criterios:\n\n1. **Identifica estrategia de comprobación** (0-2): describe al menos 1 forma de verificar la interpretación usando pistas del texto (ej., relación con “lab part”, “safety”, “borrow a pair”).\n2. **Conecta la verificación con la inferencia** (0-2): la explicación muestra por qué esas pistas apoyan el significado inferido, no solo lo repite.\n3. **Incluye un check final** (0-1): escribe una oración tipo “Yo estoy seguro/a porque…” que resume evidencia textual.\n\n**Puntaje total: 0 a 5.**\n- 5: cumple 1, 2 y 3 con evidencia clara y coherente.\n- 3-4: cumple 1 y parte de 2 o 3.\n- 1-2: menciona estrategia vaga o no conecta con pistas.\n- 0: no incluye comprobación ni check final.",
+        "hint": "Piensa: ¿qué actividad aparece (clase/lab)? ¿Qué función cumple el objeto en esa actividad (seguridad/usar antes)? ¿Qué hacen si no lo tienen (borrow a pair)?",
+        "explanation": "La palabra desconocida es “safety goggles”. Para verificar la inferencia, debes usar el contexto: el texto menciona una parte de **laboratorio**, el término **safety** (seguridad) y que se **prestan pares**, lo cual encaja con un objeto de protección personal. Por eso la comprobación debe citar estas pistas y relacionarlas con tu significado inferido.",
+        "dimension": "metacognicion",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "english",
+        "support_context": {
+          "topic": "Inferir vocabulario inglés por el contexto y explicar cómo comprobar la interpretación",
+          "concept": "Inferir vocabulario inglés por el contexto y explicar cómo comprobar la interpretación",
+          "learning_goal": "Inferir vocabulario inglés por el contexto y explicar cómo comprobar la interpretación"
+        },
+        "grade_group": "10-11",
+        "expires_at": 1793978528724
+      },
+      "audit": {
+        "verification": "“Lab part”, “safety” y “borrow a pair” apoyan la inferencia de un objeto de protección, pero no precisan que sean gafas ni que protejan los ojos. La actividad solicita una estrategia de comprobación y es adecuada en idioma y nivel; el mensaje aporta un contexto relevante. Los criterios suman 5 puntos, pero las bandas de puntuación no cubren coherentemente todas las combinaciones.",
+        "approved": false,
+        "issues": [
+          "La respuesta esperada exige o ejemplifica gafas para proteger los ojos, pero el mensaje no aporta pistas específicas sobre los ojos o la visión; identificar ese significado exacto requiere conocimiento adicional no proporcionado.",
+          "La clave y la pista sugieren pedir o usar el objeto antes de clase. El mensaje solo dice que, si no se tiene, debe solicitarse prestado antes de clase; no establece cuándo se usa.",
+          "Las bandas globales contradicen los criterios: por ejemplo, una respuesta con solo un check final válido obtiene 1 punto por el criterio 3, pero la descripción de 1-2 exige una estrategia vaga o falta de conexión. Además, 3-4 exige cumplir el criterio 1, aunque pueden obtenerse 3 puntos con los criterios 2 y 3."
+        ]
+      }
+    }
+  ],
+  "controls": [
+    {
+      "id": "good-sum",
+      "expected": true,
+      "observed": true,
+      "passed": true,
+      "review": {
+        "verification": "La pregunta dice: “Ana tiene 3 libros y recibe 2 más. ¿Cuántos tiene?” Conjunto de respuestas permitidas: (1) 5 libros, (2) 1 libro, (3) 6 libros. Resolución: 3 + 2 = 5, por lo tanto la opción correcta es “5 libros”. La clave correct_index=0 coincide con que la primera opción es “5 libros”. Rubrica y explicación también justifican 3 y 2 para obtener 5; coinciden con lo preguntado. Verificación de option_explanations: para “5 libros”, “3 + 2 = 5” es correcta. Para “1 libro”, “1 resulta de restar en lugar de sumar” es coherente porque 3+2 no da 1 (aunque 3-2 sí daría 1, pero como contraste está bien). Para “6 libros”, “3 + 2 no da 6” es correcto. El contenido es autocontenido y no exige información externa. Contexto de biblioteca escolar es cercano y sirve para aplicar suma.",
+        "approved": true,
+        "issue": ""
+      },
+      "logs": [
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-5.4-nano",
+          "resolvedModel": "gpt-5.4-nano-2026-03-17",
+          "ms": 2667,
+          "usage": {
+            "prompt_tokens": 1093,
+            "completion_tokens": 249,
+            "total_tokens": 1342,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0005845
+        }
+      ]
+    },
+    {
+      "id": "wrong-sum-key",
+      "expected": false,
+      "observed": false,
+      "passed": true,
+      "review": {
+        "verification": "La pregunta dice: “En la biblioteca escolar Ana tiene 3 libros y recibe 2 más. ¿Cuántos tiene?”. Esto pide aplicar una suma: 3 + 2 = 5. Las opciones son: (a) “5 libros”, (b) “1 libro”, (c) “6 libros”. El enunciado permite que la respuesta correcta sea solo “5 libros” porque recibir 2 más implica aumentar. La clave dada es correct_index=1, pero en una lista de opciones el índice 1 normalmente corresponde a la segunda opción (“1 libro”), no a la primera (“5 libros”). Además, la explicación “3 + 2 = 5 libros” coincide con la opción “5 libros”, no con “1 libro”. La rúbrica también afirma sumar 3 y 2 para obtener 5. Las option_explanations: para “3 + 2 = 5” justifica “5 libros”; “1 resulta de restar” es incorrecta; “3 + 2 no da 6” es incorrecta para “6 libros”. Por tanto, la corrección está clara, pero la indexación no.",
+        "approved": false,
+        "issue": "El correct_index está mal. Debe apuntar a la opción “5 libros” (opción 0 si el índice empieza en 0; o “1” si empieza en 1, pero con las opciones dadas parece que correct_index=1 corresponde a “1 libro”). Ajusta correct_index para que coincida con la explicación y la rúbrica: 3 + 2 = 5."
+      },
+      "logs": [
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-5.4-nano",
+          "resolvedModel": "gpt-5.4-nano-2026-03-17",
+          "ms": 3270,
+          "usage": {
+            "prompt_tokens": 1093,
+            "completion_tokens": 338,
+            "total_tokens": 1431,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.00069575
+        }
+      ]
+    },
+    {
+      "id": "missing-reading",
+      "expected": false,
+      "observed": false,
+      "passed": true,
+      "review": {
+        "verification": "El enunciado pide: “Lee el cuento de María y selecciona por qué salió al parque.” Las opciones son: 0) Porque llovía 1) Porque quería estudiar 2) Porque tenía sueño. Sin embargo, NO se incluye el cuento ni información sobre María, así que no hay datos para justificar cuál opción corresponde al motivo real. Además, la rúbrica es incoherente: “Suma 3 y 2 para obtener 5.” y la explicación/option_explanations hablan de una operación matemática (3+2) y de libros, lo cual no tiene relación con comprensión de un cuento de lenguaje. Tampoco hay correspondencia entre correct_index=0 (que marcaría “Porque llovía”) y cualquier evidencia textual, porque el texto citado no existe en la actividad. Por tanto, la pregunta no es autocontenida y la clave no puede verificarse con el material proporcionado. Se requiere un cuento breve con el motivo explícito y actualizar rúbrica, hint, explanation y option_explanations para que correspondan a la lectura.",
+        "approved": false,
+        "issue": "Faltan el cuento y la información necesaria para responder; la rúbrica, hint, explicación y option_explanations corresponden a matemáticas (3+2=5) en vez de a la comprensión lectora. Rehacer para incluir el cuento de María y ajustar la clave y justificaciones al motivo de salir al parque."
+      },
+      "logs": [
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-5.4-nano",
+          "resolvedModel": "gpt-5.4-nano-2026-03-17",
+          "ms": 3179,
+          "usage": {
+            "prompt_tokens": 1087,
+            "completion_tokens": 306,
+            "total_tokens": 1393,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.00065425
+        }
+      ]
+    },
+    {
+      "id": "wrong-algebra-key",
+      "expected": false,
+      "observed": false,
+      "passed": true,
+      "review": {
+        "verification": "La expresión es 6(a+2) - 4(a-3). Primero: 6(a+2)=6a+12. Luego: -4(a-3)= -4a+12. Sumando: (6a+12)+(-4a+12)=2a+24. Por tanto, la única forma equivalente correcta entre las opciones es “2a+24”, que corresponde a correct_index=1. La opción “2a+26” (index 0) no coincide porque el cálculo correcto da 24, no 26. Además, la actividad dice “Selecciona una forma equivalente” (un solo resultado), pero la clave marca index 0 y la explicación/rúbrica indican erróneamente “Da 2a+26” y “Suma 3 y 2 para obtener 5”, lo cual no corresponde a la simplificación dada.",
+        "approved": false,
+        "issue": "Error en la clave y en la justificación: la expresión 6(a+2)-4(a-3) se simplifica a 2a+24, no a 2a+26. Debe cambiarse correct_index a 1 y actualizar explicación/rúbrica (actualmente son incorrectas)."
+      },
+      "logs": [
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-5.4-nano",
+          "resolvedModel": "gpt-5.4-nano-2026-03-17",
+          "ms": 3993,
+          "usage": {
+            "prompt_tokens": 1086,
+            "completion_tokens": 266,
+            "total_tokens": 1352,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.000604
+        }
+      ]
+    },
+    {
+      "id": "opinion-as-fact",
+      "expected": false,
+      "observed": false,
+      "passed": true,
+      "review": {
+        "verification": "La pregunta pide: “¿Cuál es un hecho verificable en esta cita?” La cita dice: «El parque es el más hermoso de Colombia». Esa afirmación expresa una valoración (“más hermoso”) y no es verificable como hecho objetivo con la información dada. Por eso, la opción correcta debería ser “No se presenta un hecho verificable” (options[1]). Sin embargo, la actividad marca correct_index=0, que repite la frase no verificable. Además, la rúbrica (“Suma 3 y 2…”) y la explicación (“3 + 2 = 5 libros”) corresponden a matemáticas, no a sociales. El learning_focus es “Sumar cantidades”, también incorrecto. Las option_explanations y la hint hablan de suma, no justifican la respuesta de la pregunta de hechos verificables. No hay elementos de contexto adicionales ni datos que permitan considerar la primera opción como hecho verificable.",
+        "approved": false,
+        "issue": "Inconsistencias graves con el enunciado: (1) correct_index está mal: debe ser la opción “No se presenta un hecho verificable” (índice 1). (2) rubric, explanation, hint, learning_focus y option_explanations están de matemáticas (sumas) y no justifican la pregunta de sociales. Reemplazar esos textos y explicaciones para que correspondan a “hecho verificable vs. opinión/valoración”."
+      },
+      "logs": [
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-5.4-nano",
+          "resolvedModel": "gpt-5.4-nano-2026-03-17",
+          "ms": 3483,
+          "usage": {
+            "prompt_tokens": 1114,
+            "completion_tokens": 307,
+            "total_tokens": 1421,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.00066225
+        }
+      ]
+    },
+    {
+      "id": "science-direction",
+      "expected": false,
+      "observed": false,
+      "passed": true,
+      "review": {
+        "verification": "La pregunta (Ciencias) dice: “En la cocina del colegio, un hielo se pone sobre un plato caliente. ¿Qué explica que se derrita?” Las opciones son sobre transferencia de calor. Una única opción correcta sería: “El hielo transfiere calor al plato más caliente y por eso se derrite” es incorrecta (el hielo se derrite porque recibe calor). “El plato transfiere calor al hielo” es la explicación correcta. “No hay transferencia” también es incorrecta.\n\nSin embargo, la clave indicada es correct_index=0, que corresponde a la opción incorrecta. Además, la rúbrica y explicación/hint están completamente fuera de tema (aparecen “Suma 3 y 2 para obtener 5”, “Junta ambas cantidades”, “3 + 2 = 5 libros”, y option_explanations también son de suma). No autocontienen ni justifican la respuesta del problema de ciencias; corresponden a otra actividad.",
+        "approved": false,
+        "issue": "Corrección principal: correct_index debe apuntar a la opción 1 (“El plato transfiere calor al hielo”), no a la 0. Corrección adicional: actualizar rubric, hint, explanation y option_explanations para que correspondan a transferencia de calor y derrita el hielo, eliminando el contenido de suma (3+2=5)."
+      },
+      "logs": [
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-5.4-nano",
+          "resolvedModel": "gpt-5.4-nano-2026-03-17",
+          "ms": 2665,
+          "usage": {
+            "prompt_tokens": 1116,
+            "completion_tokens": 293,
+            "total_tokens": 1409,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.00064525
+        }
+      ]
+    },
+    {
+      "id": "good-english",
+      "expected": true,
+      "observed": true,
+      "passed": true,
+      "review": {
+        "verification": "La pregunta da una ficha con equivalencias: «cat = gato» y «dog = perro». La situación dice que Ana busca la tarjeta de un perro y pregunta qué palabra debe escoger. Las opciones son: dog, cat, No se puede saber. Según la ficha, para perro corresponde dog, así que la única opción correcta permitida por el enunciado es “dog” (correct_index=0). Las explicaciones de opciones: para “La ficha indica dog = perro.” justifica correctamente la clave. “Cat significa gato.” también es correcto como hecho, pero corresponde a la opción “cat”, que no es la buscada; funciona como justificación de una opción incorrecta, no se contradice. “La ficha sí permite saberlo.” es verdadero en general porque sí hay correspondencia en la ficha, pero no explica por qué la opción correcta es dog; sin embargo, no contradice el hecho de que la ficha permite saberlo. La actividad es autocontenida y en inglés el vocabulario está en inglés; la instrucción es en español, lo cual es consistente.",
+        "approved": true,
+        "issue": ""
+      },
+      "logs": [
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-5.4-nano",
+          "resolvedModel": "gpt-5.4-nano-2026-03-17",
+          "ms": 2567,
+          "usage": {
+            "prompt_tokens": 1088,
+            "completion_tokens": 242,
+            "total_tokens": 1330,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0005745
+        }
+      ]
+    },
+    {
+      "id": "fake-metacognition",
+      "expected": false,
+      "observed": false,
+      "passed": true,
+      "review": {
+        "verification": "Datos: Ana tiene 3 libros y recibe 2 más; la situación pide contar cuántos tiene en total. Con suma: 3 + 2 = 5. Las opciones dicen: “5 libros” (correcta), “1 libro” (incorrecta), “6 libros” (incorrecta). La clave indica correct_index: 0, que corresponde a “5 libros”, consistente con el enunciado. La rúbrica y explicación también afirman 3 + 2 = 5, coherentes. Hint: “Junta ambas cantidades” correcto para sumar. Chequeo de option_explanations: (a) “3 + 2 = 5.” justifica la opción correcta; (b) “1 resulta de restar…” no corresponde a la opción “1 libro” porque proviene de restar, pero como explicación de por qué es incorrecta puede ser aceptable; (c) “3 + 2 no da 6.” justifica correctamente por qué “6 libros” es incorrecta. Falta revisar metacognición: la actividad no pregunta planificar/comprobar/estrategia, solo calcula, por lo que no cumple la dimensión “metacognición”.",
+        "approved": false,
+        "issue": "La dimensión “metacognición” no se cumple: la consigna solo evalúa un cálculo (3+2) y no pide reflexionar sobre la estrategia (p. ej., “¿cómo comprobaste tu respuesta?”). Ajusta la pregunta o añade un ítem de metacognición para que incluya comprobación/reflexión de estrategia."
+      },
+      "logs": [
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-5.4-nano",
+          "resolvedModel": "gpt-5.4-nano-2026-03-17",
+          "ms": 3364,
+          "usage": {
+            "prompt_tokens": 1095,
+            "completion_tokens": 344,
+            "total_tokens": 1439,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.00070375
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total": 5,
+    "ready": 4,
+    "independentApproved": 1,
+    "readyLatency": {
+      "samples": 4,
+      "p50_ms": 9309,
+      "p95_ms": 19914,
+      "min_ms": 5948,
+      "max_ms": 19914
+    },
+    "approvedLatency": {
+      "samples": 1,
+      "p50_ms": 5948,
+      "p95_ms": 5948,
+      "min_ms": 5948,
+      "max_ms": 5948
+    },
+    "controlPassed": 8,
+    "controlTotal": 8,
+    "estimatedRuntimeUsd": 0.01520425,
+    "runtimeOutputTokens": 7530,
+    "callsSoFar": 73,
+    "estimatedExperimentUsd": 0.07485225000000001
+  }
+}

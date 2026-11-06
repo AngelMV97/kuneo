@@ -1,0 +1,209 @@
+{
+  "model": "gpt-4.1-mini",
+  "started": "2026-11-05T21:24:27.200Z",
+  "limit": {
+    "calls": 16,
+    "completionTokensPerCall": 700,
+    "totalTokens": 50000
+  },
+  "calls": 16,
+  "inputTokens": 12886,
+  "outputTokens": 1897,
+  "results": [
+    {
+      "candidateSha256": "195611b23a3352aa2b014ee87697574ab642769765b9eabf2c588be38185a37f",
+      "subject": "language",
+      "round": 1,
+      "answer": "Quiero lectura: la eligieron 18 compañeros. Entiendo que otros prefieren juegos y también quieren disfrutar el patio.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Propones claramente el rincón de lectura y justificas con el dato correcto de 18 compañeros. Además, reconoces respetuosamente la preferencia de quienes prefieren juegos de mesa. Buen trabajo expresando las tres partes solicitadas."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "195611b23a3352aa2b014ee87697574ab642769765b9eabf2c588be38185a37f",
+      "subject": "language",
+      "round": 1,
+      "answer": "Mejor los juegos: aunque solo 12 los eligieron, me gustaría compartir estrategias; respeto a quienes quieren leer.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Has propuesto claramente una opción, usaste un dato del sondeo para justificarla y reconociste respetuosamente la preferencia del otro grupo. Buen trabajo expresando tu mensaje de forma clara y respetuosa."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "195611b23a3352aa2b014ee87697574ab642769765b9eabf2c588be38185a37f",
+      "subject": "language",
+      "round": 1,
+      "answer": "Propongo lectura porque 18 la prefieren.",
+      "expected": "partial",
+      "actual": {
+        "result": "partial",
+        "feedback": "Has propuesto una opción y la has justificado con un dato del sondeo, lo cual está muy bien. Sin embargo, falta que reconozcas de manera respetuosa la preferencia o necesidad de quienes prefieren la otra opción. Intenta incluir esa parte para completar tu mensaje."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "195611b23a3352aa2b014ee87697574ab642769765b9eabf2c588be38185a37f",
+      "subject": "language",
+      "round": 1,
+      "answer": "razón evidencia persuasión",
+      "expected": "incorrect",
+      "actual": {
+        "result": "incorrect",
+        "feedback": "Tu respuesta no incluye una propuesta clara ni una justificación con datos del sondeo, ni reconoce respetuosamente la preferencia del otro grupo. Intenta escribir un mensaje breve donde elijas una opción, expliques por qué con un dato del sondeo y muestres respeto por quienes prefieren la otra opción."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "7efa225df5f276e212372f1d5722f4b795b49addce1f08075fd06e320dfbaf95",
+      "subject": "english",
+      "round": 1,
+      "answer": "Thursday, 3 p.m., Room 12. I would ask Ms. Ruiz before the meeting to confirm the room and avoid going to the wrong place.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Has identificado correctamente el día, la hora y el lugar de la reunión, además de explicar claramente cómo y por qué preguntar a la profesora Ruiz ayuda a confirmar el salón. Buen trabajo entendiendo y respondiendo al mensaje."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "7efa225df5f276e212372f1d5722f4b795b49addce1f08075fd06e320dfbaf95",
+      "subject": "english",
+      "round": 1,
+      "answer": "El jueves a las quince, salón 12; consultaría a Ruiz antes de reunirnos para asegurarme del lugar.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Has identificado correctamente el día, la hora y el lugar de la reunión, además de proponer preguntar a la profesora Ruiz antes para confirmar el salón, explicando por qué esa acción es útil. Buen trabajo entendiendo y explicando el mensaje."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "7efa225df5f276e212372f1d5722f4b795b49addce1f08075fd06e320dfbaf95",
+      "subject": "english",
+      "round": 1,
+      "answer": "El jueves a las tres de la tarde en el salón 12.",
+      "expected": "partial",
+      "actual": {
+        "result": "partial",
+        "feedback": "Has identificado correctamente cuándo y dónde es la reunión, lo cual está muy bien. Sin embargo, falta que expliques cómo comprobarías el salón si no estuvieras seguro y por qué esa acción te ayudaría. Intenta incluir esa parte para completar la respuesta."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "7efa225df5f276e212372f1d5722f4b795b49addce1f08075fd06e320dfbaf95",
+      "subject": "english",
+      "round": 1,
+      "answer": "Aprendí usar comunicación inglés.",
+      "expected": "incorrect",
+      "actual": {
+        "result": "incorrect",
+        "feedback": "Tu respuesta no aborda cuándo ni dónde es la reunión, ni cómo verificar el salón ni la razón para hacerlo. Intenta leer el mensaje con atención y responder cada parte de la pregunta para mejorar."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "195611b23a3352aa2b014ee87697574ab642769765b9eabf2c588be38185a37f",
+      "subject": "language",
+      "round": 2,
+      "answer": "Quiero lectura: la eligieron 18 compañeros. Entiendo que otros prefieren juegos y también quieren disfrutar el patio.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Propones claramente el rincón de lectura y usas el dato de 18 compañeros para justificarlo. Además, reconoces respetuosamente la preferencia de quienes prefieren juegos de mesa. Buen trabajo expresando tu idea y consideración hacia los demás."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "195611b23a3352aa2b014ee87697574ab642769765b9eabf2c588be38185a37f",
+      "subject": "language",
+      "round": 2,
+      "answer": "Mejor los juegos: aunque solo 12 los eligieron, me gustaría compartir estrategias; respeto a quienes quieren leer.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Has propuesto claramente la opción de juegos de mesa, justificándola con el dato de 12 estudiantes y mostrando respeto hacia quienes prefieren el rincón de lectura. Buen trabajo cumpliendo con todos los requisitos."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "195611b23a3352aa2b014ee87697574ab642769765b9eabf2c588be38185a37f",
+      "subject": "language",
+      "round": 2,
+      "answer": "Propongo lectura porque 18 la prefieren.",
+      "expected": "partial",
+      "actual": {
+        "result": "partial",
+        "feedback": "Has propuesto una opción y la has justificado con un dato del sondeo, lo cual está muy bien. Sin embargo, falta que reconozcas de manera respetuosa la preferencia de quienes prefieren la otra opción. Intenta incluir una frase que muestre comprensión hacia ellos para completar tu mensaje."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "195611b23a3352aa2b014ee87697574ab642769765b9eabf2c588be38185a37f",
+      "subject": "language",
+      "round": 2,
+      "answer": "razón evidencia persuasión",
+      "expected": "incorrect",
+      "actual": {
+        "result": "incorrect",
+        "feedback": "Tu respuesta no incluye una propuesta clara ni una justificación con datos del sondeo, ni reconoce respetuosamente la preferencia del otro grupo. Intenta escribir un mensaje breve donde elijas una opción, expliques por qué con un dato del sondeo y muestres respeto por quienes prefieren la otra opción."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "7efa225df5f276e212372f1d5722f4b795b49addce1f08075fd06e320dfbaf95",
+      "subject": "english",
+      "round": 2,
+      "answer": "Thursday, 3 p.m., Room 12. I would ask Ms. Ruiz before the meeting to confirm the room and avoid going to the wrong place.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Has identificado correctamente el día, la hora y el lugar de la reunión, y explicaste claramente cómo y por qué preguntar a la profesora Ruiz ayuda a confirmar el salón. Buen trabajo entendiendo y usando la información del mensaje."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "7efa225df5f276e212372f1d5722f4b795b49addce1f08075fd06e320dfbaf95",
+      "subject": "english",
+      "round": 2,
+      "answer": "El jueves a las quince, salón 12; consultaría a Ruiz antes de reunirnos para asegurarme del lugar.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Has identificado correctamente el día, la hora y el lugar de la reunión, además de proponer preguntar a la profesora Ruiz antes para confirmar el salón, explicando por qué esa acción es útil. Buen trabajo entendiendo y explicando el mensaje."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "7efa225df5f276e212372f1d5722f4b795b49addce1f08075fd06e320dfbaf95",
+      "subject": "english",
+      "round": 2,
+      "answer": "El jueves a las tres de la tarde en el salón 12.",
+      "expected": "partial",
+      "actual": {
+        "result": "partial",
+        "feedback": "Has identificado correctamente cuándo y dónde es la reunión, lo cual es muy bueno. Sin embargo, falta que expliques cómo comprobarías el salón si no estuvieras seguro y por qué esa acción te ayudaría. Intenta incluir esa parte para completar la respuesta."
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "7efa225df5f276e212372f1d5722f4b795b49addce1f08075fd06e320dfbaf95",
+      "subject": "english",
+      "round": 2,
+      "answer": "Aprendí usar comunicación inglés.",
+      "expected": "incorrect",
+      "actual": {
+        "result": "incorrect",
+        "feedback": "La respuesta no indica cuándo ni dónde es la reunión, ni explica cómo verificar el salón ni por qué esa acción sería útil. Por favor, lee el mensaje con atención y responde las preguntas específicas que se piden."
+      },
+      "pass": true
+    }
+  ],
+  "databaseCalls": 0,
+  "finished": "2026-11-05T21:24:56.899Z",
+  "passed": true
+}

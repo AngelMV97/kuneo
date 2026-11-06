@@ -1,0 +1,2093 @@
+{
+  "date": "2026-11-05T15:23:04.360Z",
+  "variant": "luna-compact",
+  "config": {
+    "activityModel": "gpt-6-luna",
+    "reviewModel": "gpt-6-luna",
+    "compact": true
+  },
+  "scope": "Synthetic OpenAI experiment. No student records or Supabase access.",
+  "activities": [
+    {
+      "case": "math2",
+      "subject": "mathematics",
+      "grade": 2,
+      "dimension": "comprension",
+      "requested": "option",
+      "logs": [
+        {
+          "task": "kuneo_activity",
+          "model": "gpt-6-luna",
+          "resolvedModel": "gpt-6-luna",
+          "ms": 3831,
+          "usage": {
+            "prompt_tokens": 1927,
+            "completion_tokens": 308,
+            "total_tokens": 2235,
+            "prompt_tokens_details": {
+              "cached_tokens": 1555,
+              "cache_write_tokens": 369,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.00021605000000000002
+        },
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-6-luna",
+          "resolvedModel": "gpt-6-luna",
+          "ms": 2025,
+          "usage": {
+            "prompt_tokens": 1276,
+            "completion_tokens": 125,
+            "total_tokens": 1401,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 1273,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.000222
+        },
+        {
+          "task": "kuneo_audit",
+          "model": "gpt-6.1-terra",
+          "resolvedModel": "gpt-6.1-terra",
+          "ms": 3496,
+          "usage": {
+            "prompt_tokens": 657,
+            "completion_tokens": 180,
+            "total_tokens": 837,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.00172125
+        }
+      ],
+      "ms": 5866,
+      "metrics": {
+        "timestamp": "2026-11-05T15:23:10.228Z",
+        "request_id": "00140fe9-abd1-4b69-b382-9d9325d990a2",
+        "operation": "latency_probe",
+        "status": 200,
+        "total_ms": 5866,
+        "stages": {
+          "openai_generation": 3832,
+          "openai_evaluation": 2026
+        },
+        "usage": [
+          {
+            "model": "gpt-6-luna",
+            "input_tokens": 1927,
+            "output_tokens": 308,
+            "cached_input_tokens": 1555
+          },
+          {
+            "model": "gpt-6-luna",
+            "input_tokens": 1276,
+            "output_tokens": 125,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {
+          "generation_outcome": "generated"
+        }
+      },
+      "activity": {
+        "id": "f07fcfbd-dde9-4270-a176-728698dd87ef",
+        "step_id": "bfb4de15-6b3f-49bc-a07c-e2809ca46fec",
+        "question": "Para preparar una actividad del curso, hay 14 hojas azules y 23 hojas verdes. ¿Cuántas hojas hay en total?",
+        "type": "option",
+        "options": [
+          "27 hojas",
+          "37 hojas",
+          "47 hojas",
+          "9 hojas"
+        ],
+        "cognitive_dimension": "comprension",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "f07fcfbd-dde9-4270-a176-728698dd87ef",
+        "user_id": "synthetic-latency-probe",
+        "module_id": "566708a7-ed3b-447c-bcca-59088b22414f",
+        "step_id": "bfb4de15-6b3f-49bc-a07c-e2809ca46fec",
+        "question": "Para preparar una actividad del curso, hay 14 hojas azules y 23 hojas verdes. ¿Cuántas hojas hay en total?",
+        "type": "option",
+        "options": [
+          "27 hojas",
+          "37 hojas",
+          "47 hojas",
+          "9 hojas"
+        ],
+        "left_items": [],
+        "right_items": [],
+        "expected": {
+          "type": "option",
+          "correct_options": [
+            1
+          ]
+        },
+        "learning_focus": "Sumar dos cantidades pequeñas de objetos escolares para hallar un total",
+        "option_explanations": [
+          "27 suma las unidades, pero no reúne correctamente las decenas de ambas cantidades.",
+          "14 + 23 = 37: se suman las decenas y las unidades para contar todas las hojas.",
+          "47 cuenta una decena adicional que no está en ninguna de las dos cantidades.",
+          "9 resulta de restar las unidades y no representa el total de hojas."
+        ],
+        "pair_explanations": [],
+        "rubric": "Selecciona la opción que expresa el total correcto de hojas.",
+        "hint": "Junta las cantidades de hojas azules y verdes. Puedes sumar primero las decenas y luego las unidades.",
+        "explanation": "Para saber cuántas hojas hay en total, se suman las 14 hojas azules y las 23 hojas verdes.",
+        "dimension": "comprension",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "mathematics",
+        "support_context": {
+          "topic": "Sumar cantidades pequeñas de objetos en situaciones escolares",
+          "concept": "Sumar cantidades pequeñas de objetos en situaciones escolares",
+          "learning_goal": "Sumar cantidades pequeñas de objetos en situaciones escolares"
+        },
+        "grade_group": "1-3",
+        "expires_at": 1793978590227
+      },
+      "audit": {
+        "verification": "14 + 23 = 37: 10 + 20 = 30 y 4 + 3 = 7. La opción 1 es correcta bajo indexación desde cero; la rúbrica, la pista y la explicación general son coherentes. La explicación de 27 describe unidades correctas y decenas incompletas; la de 47 identifica una decena adicional. La explicación de 9 es incorrecta: restar las unidades da 3 − 4 = −1 o 4 − 3 = 1, no 9. El contexto escolar interviene al reunir las hojas; el idioma, el grado y la habilidad son adecuados.",
+        "approved": false,
+        "issues": [
+          "La explicación de la opción «9 hojas» afirma erróneamente que 9 resulta de restar las unidades."
+        ]
+      }
+    },
+    {
+      "case": "science4",
+      "subject": "natural_sciences",
+      "grade": 4,
+      "dimension": "transferencia",
+      "requested": "text",
+      "logs": [
+        {
+          "task": "kuneo_activity",
+          "model": "gpt-6-luna",
+          "resolvedModel": "gpt-6-luna",
+          "ms": 4690,
+          "usage": {
+            "prompt_tokens": 1964,
+            "completion_tokens": 459,
+            "total_tokens": 2423,
+            "prompt_tokens_details": {
+              "cached_tokens": 1555,
+              "cache_write_tokens": 406,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.00029617500000000003
+        },
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-6-luna",
+          "resolvedModel": "gpt-6-luna",
+          "ms": 2158,
+          "usage": {
+            "prompt_tokens": 1491,
+            "completion_tokens": 152,
+            "total_tokens": 1643,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 1488,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.000262375
+        },
+        {
+          "task": "kuneo_audit",
+          "model": "gpt-6.1-terra",
+          "resolvedModel": "gpt-6.1-terra",
+          "ms": 3021,
+          "usage": {
+            "prompt_tokens": 968,
+            "completion_tokens": 153,
+            "total_tokens": 1121,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.001975
+        }
+      ],
+      "ms": 6850,
+      "metrics": {
+        "timestamp": "2026-11-05T15:23:20.578Z",
+        "request_id": "83cd6975-e154-4ea2-a94f-e7c325be8544",
+        "operation": "latency_probe",
+        "status": 200,
+        "total_ms": 6850,
+        "stages": {
+          "openai_generation": 4690,
+          "openai_evaluation": 2158
+        },
+        "usage": [
+          {
+            "model": "gpt-6-luna",
+            "input_tokens": 1964,
+            "output_tokens": 459,
+            "cached_input_tokens": 1555
+          },
+          {
+            "model": "gpt-6-luna",
+            "input_tokens": 1491,
+            "output_tokens": 152,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {
+          "generation_outcome": "generated"
+        }
+      },
+      "activity": {
+        "id": "e0370edf-2b0a-4765-96a2-4fc177dd4b4f",
+        "step_id": "38727785-d599-44f4-a1b0-e36e8d1ed92d",
+        "question": "En el salón, Valeria pone una botella fría sobre una mesa. Después de unos minutos, aparecen gotitas de agua en su parte exterior. En otra actividad, el curso deja un cubo de hielo en un plato dentro del salón y observa que se vuelve agua líquida.\n\nExplica cómo se relaciona la transferencia de calor con cada cambio observado. Para la situación de la botella, aplica lo que aprendiste e indica de dónde recibe calor el agua que forma las gotitas. Para el hielo, explica hacia dónde se transfiere el calor y qué cambio de estado ocurre.",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "transferencia",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "e0370edf-2b0a-4765-96a2-4fc177dd4b4f",
+        "user_id": "synthetic-latency-probe",
+        "module_id": "16ffe5e3-1234-4681-8717-464fe77ba685",
+        "step_id": "38727785-d599-44f4-a1b0-e36e8d1ed92d",
+        "question": "En el salón, Valeria pone una botella fría sobre una mesa. Después de unos minutos, aparecen gotitas de agua en su parte exterior. En otra actividad, el curso deja un cubo de hielo en un plato dentro del salón y observa que se vuelve agua líquida.\n\nExplica cómo se relaciona la transferencia de calor con cada cambio observado. Para la situación de la botella, aplica lo que aprendiste e indica de dónde recibe calor el agua que forma las gotitas. Para el hielo, explica hacia dónde se transfiere el calor y qué cambio de estado ocurre.",
+        "type": "text",
+        "options": [],
+        "left_items": [],
+        "right_items": [],
+        "expected": {
+          "type": "rubric",
+          "answer": "En la botella, el vapor de agua del aire se enfría al estar en contacto con la superficie fría y se condensa, es decir, pasa de gas a líquido; el calor se transfiere del aire hacia la botella fría. El agua de las gotitas proviene del vapor del aire, no atraviesa la botella. En el hielo, el calor del entorno se transfiere al hielo, que se derrite y pasa de sólido a líquido.",
+          "rubric": "Evalúa solo la aplicación a las dos situaciones: menciona que las gotas se forman por condensación del vapor de agua del aire al enfriarse en la botella y que el calor va del aire hacia la botella; también explica que el hielo recibe calor del entorno y se derrite de sólido a líquido. Acepta expresiones equivalentes correctas."
+        },
+        "learning_focus": "Aplicar la dirección de la transferencia de calor para explicar la condensación en una botella fría y la fusión del hielo.",
+        "option_explanations": [],
+        "pair_explanations": [],
+        "rubric": "Evalúa solo la aplicación a las dos situaciones: menciona que las gotas se forman por condensación del vapor de agua del aire al enfriarse en la botella y que el calor va del aire hacia la botella; también explica que el hielo recibe calor del entorno y se derrite de sólido a líquido. Acepta expresiones equivalentes correctas.",
+        "hint": "Piensa qué materiales están en contacto en cada caso y cuál está más frío. ¿De dónde podría venir el agua de las gotas: del interior de la botella o del aire que la rodea?",
+        "explanation": "Para aplicar la idea, identifica qué cuerpo recibe calor y relaciona el cambio de temperatura con el cambio de estado. El vapor del aire que se enfría puede convertirse en gotas líquidas sobre la botella.",
+        "dimension": "transferencia",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "Explicar cambios de estado y transferencia de calor usando observaciones cotidianas",
+          "concept": "Explicar cambios de estado y transferencia de calor usando observaciones cotidianas",
+          "learning_goal": "Explicar cambios de estado y transferencia de calor usando observaciones cotidianas"
+        },
+        "grade_group": "4-5",
+        "expires_at": 1793978600578
+      },
+      "audit": {
+        "verification": "La condensación transfiere calor del vapor del aire a la botella fría; la fusión transfiere calor del entorno al hielo. La respuesta y ambas rúbricas describen correctamente esos procesos. La pista y la explicación son compatibles con ellos. El contexto cotidiano permite aplicar el aprendizaje y el lenguaje es adecuado para cuarto grado.",
+        "approved": false,
+        "issues": [
+          "La pregunta pide de dónde recibe calor el agua que forma las gotitas, pero en la condensación ese vapor cede calor a la botella. La clave y la rúbrica responden hacia dónde va el calor, no a lo preguntado. Debe corregirse la pregunta para pedir hacia dónde se transfiere el calor."
+        ]
+      }
+    },
+    {
+      "case": "language3",
+      "subject": "language",
+      "grade": 3,
+      "dimension": "comprension",
+      "requested": "multiple_select",
+      "logs": [
+        {
+          "task": "kuneo_activity",
+          "model": "gpt-6-luna",
+          "resolvedModel": "gpt-6-luna",
+          "ms": 5960,
+          "usage": {
+            "prompt_tokens": 1964,
+            "completion_tokens": 547,
+            "total_tokens": 2511,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 1961,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.000519
+        },
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-6-luna",
+          "resolvedModel": "gpt-6-luna",
+          "ms": 3158,
+          "usage": {
+            "prompt_tokens": 1507,
+            "completion_tokens": 231,
+            "total_tokens": 1738,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 1504,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.000303875
+        },
+        {
+          "task": "kuneo_activity",
+          "model": "gpt-6-luna",
+          "resolvedModel": "gpt-6-luna",
+          "ms": 5110,
+          "usage": {
+            "prompt_tokens": 2064,
+            "completion_tokens": 596,
+            "total_tokens": 2660,
+            "prompt_tokens_details": {
+              "cached_tokens": 1555,
+              "cache_write_tokens": 506,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.000377175
+        },
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-6-luna",
+          "resolvedModel": "gpt-6-luna",
+          "ms": 1971,
+          "usage": {
+            "prompt_tokens": 1563,
+            "completion_tokens": 159,
+            "total_tokens": 1722,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 1560,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.000274875
+        },
+        {
+          "task": "kuneo_audit",
+          "model": "gpt-6.1-terra",
+          "resolvedModel": "gpt-6.1-terra",
+          "ms": 3705,
+          "usage": {
+            "prompt_tokens": 956,
+            "completion_tokens": 187,
+            "total_tokens": 1143,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.00213
+        }
+      ],
+      "ms": 16203,
+      "metrics": {
+        "timestamp": "2026-11-05T15:23:20.572Z",
+        "request_id": "dd61242b-7f32-4624-beee-13e38dff689e",
+        "operation": "latency_probe",
+        "status": 200,
+        "total_ms": 16203,
+        "stages": {
+          "openai_generation": 11070,
+          "openai_evaluation": 5129
+        },
+        "usage": [
+          {
+            "model": "gpt-6-luna",
+            "input_tokens": 1964,
+            "output_tokens": 547,
+            "cached_input_tokens": 0
+          },
+          {
+            "model": "gpt-6-luna",
+            "input_tokens": 1507,
+            "output_tokens": 231,
+            "cached_input_tokens": 0
+          },
+          {
+            "model": "gpt-6-luna",
+            "input_tokens": 2064,
+            "output_tokens": 596,
+            "cached_input_tokens": 1555
+          },
+          {
+            "model": "gpt-6-luna",
+            "input_tokens": 1563,
+            "output_tokens": 159,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {
+          "generation_failure_initial": "review_rejected",
+          "generation_repair": "attempted",
+          "generation_outcome": "generated"
+        }
+      },
+      "activity": {
+        "id": "8fdf65bd-24cc-457d-9a85-b59bf0d0845f",
+        "step_id": "3b1957ae-defc-4bb3-81a8-d1b550405f8f",
+        "question": "Lee el relato y selecciona todas las opciones que están respaldadas por lo que dice.\n\nEn el patio del colegio, Tomás vio hojas secas junto a una matera. Quiso usarlas para cubrir la tierra, pero el viento las dispersaba. Entonces pidió a su compañera Lina que le ayudara a ponerlas en una bolsa de tela. Al cubrir la tierra, las hojas se quedaron en su lugar. Al día siguiente, la profe les pidió poner un letrero para que otros cursos supieran por qué habían cubierto la tierra. Después de ponerlo y explicar su uso, encontraron más hojas para la matera.\n\n¿Cuáles opciones se apoyan en el relato? Selecciona todas las correctas.\n\n1. El viento dispersaba las hojas porque estaban sueltas.\n2. Tomás pidió ayuda porque el viento dispersaba las hojas.\n3. Después de poner el letrero y explicar su uso, encontraron más hojas para la matera.\n4. El letrero hizo que aparecieran más hojas.",
+        "type": "multiple_select",
+        "options": [
+          "El viento dispersaba las hojas porque estaban sueltas.",
+          "Tomás pidió ayuda porque el viento dispersaba las hojas.",
+          "Después de poner el letrero y explicar su uso, encontraron más hojas para la matera.",
+          "El letrero hizo que aparecieran más hojas."
+        ],
+        "cognitive_dimension": "comprension",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "8fdf65bd-24cc-457d-9a85-b59bf0d0845f",
+        "user_id": "synthetic-latency-probe",
+        "module_id": "2cc7b6bc-4a42-46bb-a45d-fbe95cfb2ee8",
+        "step_id": "3b1957ae-defc-4bb3-81a8-d1b550405f8f",
+        "question": "Lee el relato y selecciona todas las opciones que están respaldadas por lo que dice.\n\nEn el patio del colegio, Tomás vio hojas secas junto a una matera. Quiso usarlas para cubrir la tierra, pero el viento las dispersaba. Entonces pidió a su compañera Lina que le ayudara a ponerlas en una bolsa de tela. Al cubrir la tierra, las hojas se quedaron en su lugar. Al día siguiente, la profe les pidió poner un letrero para que otros cursos supieran por qué habían cubierto la tierra. Después de ponerlo y explicar su uso, encontraron más hojas para la matera.\n\n¿Cuáles opciones se apoyan en el relato? Selecciona todas las correctas.\n\n1. El viento dispersaba las hojas porque estaban sueltas.\n2. Tomás pidió ayuda porque el viento dispersaba las hojas.\n3. Después de poner el letrero y explicar su uso, encontraron más hojas para la matera.\n4. El letrero hizo que aparecieran más hojas.",
+        "type": "multiple_select",
+        "options": [
+          "El viento dispersaba las hojas porque estaban sueltas.",
+          "Tomás pidió ayuda porque el viento dispersaba las hojas.",
+          "Después de poner el letrero y explicar su uso, encontraron más hojas para la matera.",
+          "El letrero hizo que aparecieran más hojas."
+        ],
+        "left_items": [],
+        "right_items": [],
+        "expected": {
+          "type": "multiple_select",
+          "correct_options": [
+            1,
+            2
+          ]
+        },
+        "learning_focus": "Identificar causas explícitas y distinguirlas de la secuencia temporal en un relato breve.",
+        "option_explanations": [
+          "No se afirma que las hojas estuvieran sueltas; el relato solo dice que el viento las dispersaba.",
+          "El viento dispersaba las hojas y luego Tomás pidió ayuda para ponerlas en una bolsa de tela.",
+          "El relato dice que encontraron más hojas después de poner el letrero y explicar su uso; expresa una secuencia.",
+          "Que encontraran más hojas después no demuestra que el letrero las hiciera aparecer."
+        ],
+        "pair_explanations": [],
+        "rubric": "Se considera correcta la selección de las opciones 2 y 3, sin marcar las opciones 1 ni 4.",
+        "hint": "Busca qué motivo aparece justo antes de que Tomás pida ayuda. Luego distingue lo que ocurrió después de poner el letrero de una causa que el relato no confirma.",
+        "explanation": "Relaciona las causas mencionadas directamente con las acciones y separa el orden de los hechos de una explicación causal que el texto no proporciona.",
+        "dimension": "comprension",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "language",
+        "support_context": {
+          "topic": "Comprender causas y consecuencias en un relato corto en español",
+          "concept": "Comprender causas y consecuencias en un relato corto en español",
+          "learning_goal": "Comprender causas y consecuencias en un relato corto en español"
+        },
+        "grade_group": "1-3",
+        "expires_at": 1793978600572
+      },
+      "audit": {
+        "verification": "La opción 1 atribuye al relato una causa no afirmada. La 2 se apoya en que el viento dispersaba las hojas antes de que Tomás pidiera ayuda. La 3 reproduce la secuencia expresada; la 4 atribuye al letrero una causa no demostrada. Las explicaciones, la pista y la rúbrica corresponden a esa lectura. El relato está en español, es apropiado para tercero y su contexto escolar interviene en la comprensión de causas y secuencias.",
+        "approved": false,
+        "issues": [
+          "La clave «correct_options»: [1,2] es inconsistente con la rúbrica, que pide las opciones 2 y 3. Si la clave usa índices desde cero, representa correctamente esas opciones, pero debe indicarse la convención para evitar ambigüedad con la numeración visible."
+        ]
+      }
+    },
+    {
+      "case": "english11",
+      "subject": "english",
+      "grade": 11,
+      "dimension": "metacognicion",
+      "requested": "text",
+      "logs": [
+        {
+          "task": "kuneo_activity",
+          "model": "gpt-6-luna",
+          "resolvedModel": "gpt-6-luna",
+          "ms": 4885,
+          "usage": {
+            "prompt_tokens": 1958,
+            "completion_tokens": 451,
+            "total_tokens": 2409,
+            "prompt_tokens_details": {
+              "cached_tokens": 1555,
+              "cache_write_tokens": 400,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.000291425
+        },
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-6-luna",
+          "resolvedModel": "gpt-6-luna",
+          "ms": 2360,
+          "usage": {
+            "prompt_tokens": 1482,
+            "completion_tokens": 148,
+            "total_tokens": 1630,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 1479,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.00025925
+        },
+        {
+          "task": "kuneo_audit",
+          "model": "gpt-6.1-terra",
+          "resolvedModel": "gpt-6.1-terra",
+          "ms": 2609,
+          "usage": {
+            "prompt_tokens": 968,
+            "completion_tokens": 134,
+            "total_tokens": 1102,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.00188
+        }
+      ],
+      "ms": 7247,
+      "metrics": {
+        "timestamp": "2026-11-05T15:23:31.526Z",
+        "request_id": "8a163128-14b7-4006-aa96-edf7bfdedf4f",
+        "operation": "latency_probe",
+        "status": 200,
+        "total_ms": 7247,
+        "stages": {
+          "openai_generation": 4885,
+          "openai_evaluation": 2360
+        },
+        "usage": [
+          {
+            "model": "gpt-6-luna",
+            "input_tokens": 1958,
+            "output_tokens": 451,
+            "cached_input_tokens": 1555
+          },
+          {
+            "model": "gpt-6-luna",
+            "input_tokens": 1482,
+            "output_tokens": 148,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {
+          "generation_outcome": "generated"
+        }
+      },
+      "activity": {
+        "id": "2b7b4fd2-ded7-4092-a859-5c568c501a7e",
+        "step_id": "0b261ecf-38a2-42c7-8454-29a68dcf2879",
+        "question": "En el club ambiental del colegio, una estudiante propone reducir el uso de botellas desechables. Lee su mensaje:\n\n> “The refill station is **convenient** because it is next to the sports court. Students can fill their bottles quickly between activities, instead of walking to the main building.”\n\nSin usar diccionario, infiere qué significa **convenient** en este mensaje. Luego explica cómo planearías y comprobarías tu interpretación: menciona qué pistas del texto revisarías y qué cambio en el contexto te haría reconsiderarla.",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "metacognicion",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "2b7b4fd2-ded7-4092-a859-5c568c501a7e",
+        "user_id": "synthetic-latency-probe",
+        "module_id": "cbf7663f-33b5-430a-8255-fe57def143d8",
+        "step_id": "0b261ecf-38a2-42c7-8454-29a68dcf2879",
+        "question": "En el club ambiental del colegio, una estudiante propone reducir el uso de botellas desechables. Lee su mensaje:\n\n> “The refill station is **convenient** because it is next to the sports court. Students can fill their bottles quickly between activities, instead of walking to the main building.”\n\nSin usar diccionario, infiere qué significa **convenient** en este mensaje. Luego explica cómo planearías y comprobarías tu interpretación: menciona qué pistas del texto revisarías y qué cambio en el contexto te haría reconsiderarla.",
+        "type": "text",
+        "options": [],
+        "left_items": [],
+        "right_items": [],
+        "expected": {
+          "type": "rubric",
+          "answer": "Una respuesta posible: “Convenient” significa práctico o fácil de usar en esta situación. Lo infiero porque la estación está cerca de la cancha y permite llenar las botellas rápidamente, sin caminar al edificio principal. Primero usaría esas pistas y después comprobaría si la idea encaja con la razón que da el mensaje. Si la estación estuviera lejos o fuera difícil llegar, reconsideraría esa interpretación.",
+          "rubric": "Evalúa solo la respuesta al enunciado. Logro completo: propone un significado contextual plausible, cita al menos dos pistas del mensaje y describe una forma de comprobar la interpretación junto con un cambio contextual que la haría reconsiderar. Acepta equivalencias justificadas como «práctico», «conveniente» o «fácil de usar»; no exige una estrategia o redacción única."
+        },
+        "learning_focus": "Inferir el significado contextual de una palabra en inglés y planear cómo comprobar o revisar esa interpretación.",
+        "option_explanations": [],
+        "pair_explanations": [],
+        "rubric": "Evalúa solo la respuesta al enunciado. Logro completo: propone un significado contextual plausible, cita al menos dos pistas del mensaje y describe una forma de comprobar la interpretación junto con un cambio contextual que la haría reconsiderar. Acepta equivalencias justificadas como «práctico», «conveniente» o «fácil de usar»; no exige una estrategia o redacción única.",
+        "hint": "Separa la tarea en tres pasos: formula una interpretación, busca detalles del mensaje que la apoyen y piensa qué nueva circunstancia podría hacer que ya no encaje.",
+        "explanation": "La cercanía y el llenado rápido aportan evidencias para inferir el significado, mientras que imaginar un contexto distinto permite comprobar si la interpretación depende de esas pistas. La respuesta debe mostrar un proceso de revisión, no solo traducir la palabra.",
+        "dimension": "metacognicion",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "english",
+        "support_context": {
+          "topic": "Inferir vocabulario inglés por el contexto y explicar cómo comprobar la interpretación",
+          "concept": "Inferir vocabulario inglés por el contexto y explicar cómo comprobar la interpretación",
+          "learning_goal": "Inferir vocabulario inglés por el contexto y explicar cómo comprobar la interpretación"
+        },
+        "grade_group": "10-11",
+        "expires_at": 1793978611526
+      },
+      "audit": {
+        "verification": "La cercanía a la cancha y el llenado rápido sustentan «práctico» en ese contexto. La respuesta modelo cita ambas pistas, propone comprobar el sentido frente a la razón del mensaje y reconsiderarlo si la estación estuviera lejos o fuera difícil acceder. Ambas rúbricas coinciden y aceptan equivalencias justificadas; la pista y la explicación son coherentes. El contexto interviene en la inferencia y la tarea exige planificación y revisión metacognitiva. El inglés y la consigna son adecuados para grado 11; no faltan datos necesarios.",
+        "approved": true,
+        "issues": []
+      }
+    },
+    {
+      "case": "social10",
+      "subject": "social_studies",
+      "grade": 10,
+      "dimension": "transferencia",
+      "requested": "option",
+      "logs": [
+        {
+          "task": "kuneo_activity",
+          "model": "gpt-6-luna",
+          "resolvedModel": "gpt-6-luna",
+          "ms": 6694,
+          "usage": {
+            "prompt_tokens": 1957,
+            "completion_tokens": 657,
+            "total_tokens": 2614,
+            "prompt_tokens_details": {
+              "cached_tokens": 1555,
+              "cache_write_tokens": 399,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0003943
+        },
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-6-luna",
+          "resolvedModel": "gpt-6-luna",
+          "ms": 2169,
+          "usage": {
+            "prompt_tokens": 1634,
+            "completion_tokens": 146,
+            "total_tokens": 1780,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 1631,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.00027725
+        },
+        {
+          "task": "kuneo_audit",
+          "model": "gpt-6.1-terra",
+          "resolvedModel": "gpt-6.1-terra",
+          "ms": 3368,
+          "usage": {
+            "prompt_tokens": 1047,
+            "completion_tokens": 146,
+            "total_tokens": 1193,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 1044,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.00203875
+        }
+      ],
+      "ms": 8865,
+      "metrics": {
+        "timestamp": "2026-11-05T15:23:32.465Z",
+        "request_id": "139c43c8-7de5-4be9-a3e9-bcc294dcd401",
+        "operation": "latency_probe",
+        "status": 200,
+        "total_ms": 8865,
+        "stages": {
+          "openai_generation": 6694,
+          "openai_evaluation": 2169
+        },
+        "usage": [
+          {
+            "model": "gpt-6-luna",
+            "input_tokens": 1957,
+            "output_tokens": 657,
+            "cached_input_tokens": 1555
+          },
+          {
+            "model": "gpt-6-luna",
+            "input_tokens": 1634,
+            "output_tokens": 146,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {
+          "generation_outcome": "generated"
+        }
+      },
+      "activity": {
+        "id": "bb0d9a52-6025-4a68-a087-b31325e1dc3a",
+        "step_id": "6906dfdb-9a2a-4b4e-9f9c-72f82368adbb",
+        "question": "En un barrio, el comité estudiantil debe recomendar cómo reducir los residuos que llegan al canal cercano. Tiene estos datos de una semana:\n\n| Tipo de residuo recogido junto al canal | Cantidad de bolsas |\n|---|---:|\n| Envolturas de refrigerios | 24 |\n| Botellas plásticas | 16 |\n| Hojas y restos vegetales | 10 |\n\nEl comité también consulta dos fuentes simuladas:\n\n- **Registro de limpieza del comité:** “En cuatro jornadas se recogieron más envolturas que botellas”.\n- **Comentario simulado de un residente:** “Las envolturas son el problema más terrible del barrio y la gente debería dejar de comprar refrigerios”.\n\n¿Cuál recomendación transfiere mejor el uso de datos y el contraste entre hechos y opiniones a esta decisión comunitaria?",
+        "type": "option",
+        "options": [
+          "Priorizar una campaña para reducir envolturas y medir después si disminuyen; el registro respalda que se recogieron más que botellas, mientras que “más terrible” es una valoración del comentario.",
+          "Prohibir la venta de refrigerios en el barrio porque el comentario demuestra que esa compra causa todos los residuos.",
+          "No tomar ninguna medida hasta que el residente pruebe que su opinión es cierta, pues los datos no sirven para decidir.",
+          "Repartir el esfuerzo por igual entre los tres residuos, porque la tabla muestra cantidades similares."
+        ],
+        "cognitive_dimension": "transferencia",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "bb0d9a52-6025-4a68-a087-b31325e1dc3a",
+        "user_id": "synthetic-latency-probe",
+        "module_id": "3472e432-5c25-4971-b8dc-5421065545db",
+        "step_id": "6906dfdb-9a2a-4b4e-9f9c-72f82368adbb",
+        "question": "En un barrio, el comité estudiantil debe recomendar cómo reducir los residuos que llegan al canal cercano. Tiene estos datos de una semana:\n\n| Tipo de residuo recogido junto al canal | Cantidad de bolsas |\n|---|---:|\n| Envolturas de refrigerios | 24 |\n| Botellas plásticas | 16 |\n| Hojas y restos vegetales | 10 |\n\nEl comité también consulta dos fuentes simuladas:\n\n- **Registro de limpieza del comité:** “En cuatro jornadas se recogieron más envolturas que botellas”.\n- **Comentario simulado de un residente:** “Las envolturas son el problema más terrible del barrio y la gente debería dejar de comprar refrigerios”.\n\n¿Cuál recomendación transfiere mejor el uso de datos y el contraste entre hechos y opiniones a esta decisión comunitaria?",
+        "type": "option",
+        "options": [
+          "Priorizar una campaña para reducir envolturas y medir después si disminuyen; el registro respalda que se recogieron más que botellas, mientras que “más terrible” es una valoración del comentario.",
+          "Prohibir la venta de refrigerios en el barrio porque el comentario demuestra que esa compra causa todos los residuos.",
+          "No tomar ninguna medida hasta que el residente pruebe que su opinión es cierta, pues los datos no sirven para decidir.",
+          "Repartir el esfuerzo por igual entre los tres residuos, porque la tabla muestra cantidades similares."
+        ],
+        "left_items": [],
+        "right_items": [],
+        "expected": {
+          "type": "option",
+          "correct_options": [
+            0
+          ]
+        },
+        "learning_focus": "Usar datos disponibles para priorizar una acción comunitaria y distinguir evidencia registrada de valoraciones en fuentes simuladas.",
+        "option_explanations": [
+          "Las 24 bolsas de envolturas superan las 16 de botellas; el registro permite respaldar esa comparación, pero “más terrible” es una valoración. Medir después permite revisar la decisión.",
+          "El comentario expresa una opinión y no presenta pruebas de que comprar refrigerios cause todos los residuos; la prohibición no se justifica con los datos disponibles.",
+          "La tabla sí ofrece evidencia útil para comparar cantidades y orientar una medida, aunque por sí sola no explique todas las causas.",
+          "Las cantidades no son similares: las envolturas suman 24 bolsas y los restos vegetales, 10."
+        ],
+        "pair_explanations": [],
+        "rubric": "La opción correcta usa las cantidades para priorizar envolturas, distingue el registro como evidencia de la valoración del comentario y propone comprobar el efecto de la acción.",
+        "hint": "Compara las cantidades y observa qué afirmaciones describen un registro y cuáles expresan una valoración o atribuyen una causa. Luego piensa qué acción podría revisarse con nuevos datos.",
+        "explanation": "La recomendación más sólida usa la diferencia observada para orientar una acción y propone verificar sus resultados. No convierte una opinión en prueba de causalidad.",
+        "dimension": "transferencia",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "social_studies",
+        "support_context": {
+          "topic": "Tomar decisiones comunitarias usando datos y contrastando hechos y opiniones de fuentes simuladas",
+          "concept": "Tomar decisiones comunitarias usando datos y contrastando hechos y opiniones de fuentes simuladas",
+          "learning_goal": "Tomar decisiones comunitarias usando datos y contrastando hechos y opiniones de fuentes simuladas"
+        },
+        "grade_group": "10-11",
+        "expires_at": 1793978612464
+      },
+      "audit": {
+        "verification": "La tabla registra 24 bolsas de envolturas, 16 de botellas y 10 de restos vegetales. La opción 0 prioriza la categoría mayor, distingue el registro de la valoración «más terrible» y propone medir resultados. La opción 1 atribuye una causalidad no demostrada; la 2 descarta indebidamente los datos; la 3 afirma erróneamente que las cantidades son similares. Las explicaciones y la rúbrica concuerdan con la clave. La actividad aplica datos y contraste de fuentes a una decisión comunitaria, en español y con dificultad adecuada para grado 10.",
+        "approved": true,
+        "issues": []
+      }
+    },
+    {
+      "case": "language8",
+      "subject": "language",
+      "grade": 8,
+      "dimension": "razonamiento",
+      "requested": "text",
+      "logs": [
+        {
+          "task": "kuneo_activity",
+          "model": "gpt-6-luna",
+          "resolvedModel": "gpt-6-luna",
+          "ms": 5106,
+          "usage": {
+            "prompt_tokens": 1956,
+            "completion_tokens": 505,
+            "total_tokens": 2461,
+            "prompt_tokens_details": {
+              "cached_tokens": 1555,
+              "cache_write_tokens": 398,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.000318175
+        },
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-6-luna",
+          "resolvedModel": "gpt-6-luna",
+          "ms": 3689,
+          "usage": {
+            "prompt_tokens": 1497,
+            "completion_tokens": 128,
+            "total_tokens": 1625,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 1494,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.00025112500000000005
+        },
+        {
+          "task": "kuneo_audit",
+          "model": "gpt-6.1-terra",
+          "resolvedModel": "gpt-6.1-terra",
+          "ms": 4260,
+          "usage": {
+            "prompt_tokens": 957,
+            "completion_tokens": 202,
+            "total_tokens": 1159,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.00220625
+        }
+      ],
+      "ms": 8797,
+      "metrics": {
+        "timestamp": "2026-11-05T15:23:44.632Z",
+        "request_id": "ba52ec63-b89d-44fe-a7c1-4515d8f56150",
+        "operation": "latency_probe",
+        "status": 200,
+        "total_ms": 8797,
+        "stages": {
+          "openai_generation": 5106,
+          "openai_evaluation": 3689
+        },
+        "usage": [
+          {
+            "model": "gpt-6-luna",
+            "input_tokens": 1956,
+            "output_tokens": 505,
+            "cached_input_tokens": 1555
+          },
+          {
+            "model": "gpt-6-luna",
+            "input_tokens": 1497,
+            "output_tokens": 128,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {
+          "generation_outcome": "generated"
+        }
+      },
+      "activity": {
+        "id": "a5203d2e-f378-4f73-858e-f54520916811",
+        "step_id": "b1ff4f70-7d4e-41f0-a53c-1d8b06ddf7cb",
+        "question": "En el periódico del colegio se debate cómo reducir los residuos durante los descansos. Lee el argumento y responde: ¿cuál es la propuesta de la autora y qué evidencia usa para apoyarla? Explica cómo se relaciona esa evidencia con la propuesta.\n\n“En la cafetería escolar deberían ofrecer agua en dispensadores y permitir que cada estudiante lleve una botella reutilizable. Así se usarían menos envases desechables. Durante una observación de tres descansos, el grupo ambiental contó 84 botellas plásticas en las canecas. En el mismo periodo, en los cursos que llevaron botellas reutilizables, se registraron 31 envases desechables, aunque asistió un número similar de estudiantes.”",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "razonamiento",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "a5203d2e-f378-4f73-858e-f54520916811",
+        "user_id": "synthetic-latency-probe",
+        "module_id": "8054f477-8bd6-41c5-b341-ccc88634f38f",
+        "step_id": "b1ff4f70-7d4e-41f0-a53c-1d8b06ddf7cb",
+        "question": "En el periódico del colegio se debate cómo reducir los residuos durante los descansos. Lee el argumento y responde: ¿cuál es la propuesta de la autora y qué evidencia usa para apoyarla? Explica cómo se relaciona esa evidencia con la propuesta.\n\n“En la cafetería escolar deberían ofrecer agua en dispensadores y permitir que cada estudiante lleve una botella reutilizable. Así se usarían menos envases desechables. Durante una observación de tres descansos, el grupo ambiental contó 84 botellas plásticas en las canecas. En el mismo periodo, en los cursos que llevaron botellas reutilizables, se registraron 31 envases desechables, aunque asistió un número similar de estudiantes.”",
+        "type": "text",
+        "options": [],
+        "left_items": [],
+        "right_items": [],
+        "expected": {
+          "type": "rubric",
+          "answer": "La propuesta es ofrecer agua en dispensadores y permitir el uso de botellas reutilizables. La evidencia es que se contaron 84 botellas plásticas en las canecas durante tres descansos y que, en cursos con botellas reutilizables y asistencia similar, se registraron 31 envases desechables. Esa comparación apoya la propuesta porque sugiere que reutilizar botellas puede reducir los envases desechables.",
+          "rubric": "Identifica la propuesta y al menos un dato específico como evidencia; explica de manera razonable cómo ese dato la apoya. Acepta paráfrasis y distintas explicaciones coherentes, incluida una que señale que la comparación sugiere, pero no demuestra por sí sola, una relación."
+        },
+        "learning_focus": "Distinguir la propuesta de un argumento de los datos que la respaldan y explicar la relación entre ambos.",
+        "option_explanations": [],
+        "pair_explanations": [],
+        "rubric": "Identifica la propuesta y al menos un dato específico como evidencia; explica de manera razonable cómo ese dato la apoya. Acepta paráfrasis y distintas explicaciones coherentes, incluida una que señale que la comparación sugiere, pero no demuestra por sí sola, una relación.",
+        "hint": "Separa lo que la autora recomienda de lo que el grupo observó. Luego pregúntate qué dato podría respaldar la recomendación y qué permite concluir esa comparación.",
+        "explanation": "La propuesta expresa una acción que la autora quiere que se adopte; la evidencia consiste en los datos observados. Relacionar ambos requiere explicar qué sugieren los datos, sin afirmar más de lo que permiten concluir.",
+        "dimension": "razonamiento",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "language",
+        "support_context": {
+          "topic": "Identificar propuesta y evidencia en un argumento breve proporcionado en español",
+          "concept": "Identificar propuesta y evidencia en un argumento breve proporcionado en español",
+          "learning_goal": "Identificar propuesta y evidencia en un argumento breve proporcionado en español"
+        },
+        "grade_group": "8-9",
+        "expires_at": 1793978624632
+      },
+      "audit": {
+        "verification": "La propuesta y los dos datos están identificados correctamente. Sin embargo, el texto no aclara si las 84 botellas incluyen los cursos con 31 envases ni si ambos conteos abarcan poblaciones comparables; además, compara botellas plásticas con envases desechables en general. Por ello, no se puede atribuir con claridad la diferencia al uso de botellas reutilizables. La rúbrica y la pista permiten reconocer límites de la comparación, pero la respuesta esperada la presenta como apoyo sin advertir esa ambigüedad. El contexto escolar, el español y la tarea de razonamiento son adecuados para octavo; la pista aporta una estrategia de lectura.",
+        "approved": false,
+        "issues": [
+          "La comparación entre 84 y 31 es ambigua: no se precisa si los grupos son distintos ni si se cuentan los mismos tipos de residuos. Esto debilita la evidencia y la explicación esperada."
+        ]
+      }
+    },
+    {
+      "case": "math9",
+      "subject": "mathematics",
+      "grade": 9,
+      "dimension": "representacion",
+      "requested": "matching",
+      "logs": [
+        {
+          "task": "kuneo_activity",
+          "model": "gpt-6-luna",
+          "resolvedModel": "gpt-6-luna",
+          "ms": 6087,
+          "usage": {
+            "prompt_tokens": 2002,
+            "completion_tokens": 695,
+            "total_tokens": 2697,
+            "prompt_tokens_details": {
+              "cached_tokens": 1555,
+              "cache_write_tokens": 444,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.000418925
+        },
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-6-luna",
+          "resolvedModel": "gpt-6-luna",
+          "ms": 3072,
+          "usage": {
+            "prompt_tokens": 1653,
+            "completion_tokens": 212,
+            "total_tokens": 1865,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 1650,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.000312625
+        },
+        {
+          "task": "kuneo_activity",
+          "model": "gpt-6-luna",
+          "resolvedModel": "gpt-6-luna",
+          "ms": 6141,
+          "usage": {
+            "prompt_tokens": 2089,
+            "completion_tokens": 705,
+            "total_tokens": 2794,
+            "prompt_tokens_details": {
+              "cached_tokens": 1555,
+              "cache_write_tokens": 531,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0004348
+        },
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-6-luna",
+          "resolvedModel": "gpt-6-luna",
+          "ms": 3074,
+          "usage": {
+            "prompt_tokens": 1738,
+            "completion_tokens": 220,
+            "total_tokens": 1958,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 1735,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.00032725
+        }
+      ],
+      "error": {
+        "status": 503,
+        "name": "Error",
+        "cause": "review_rejected"
+      },
+      "metrics": {
+        "timestamp": "2026-11-05T15:23:52.517Z",
+        "request_id": "dbf72354-b82e-41c6-bafc-afdb5b098872",
+        "operation": "latency_probe",
+        "status": 503,
+        "total_ms": 18380,
+        "stages": {
+          "openai_generation": 12229,
+          "openai_evaluation": 6147
+        },
+        "usage": [
+          {
+            "model": "gpt-6-luna",
+            "input_tokens": 2002,
+            "output_tokens": 695,
+            "cached_input_tokens": 1555
+          },
+          {
+            "model": "gpt-6-luna",
+            "input_tokens": 1653,
+            "output_tokens": 212,
+            "cached_input_tokens": 0
+          },
+          {
+            "model": "gpt-6-luna",
+            "input_tokens": 2089,
+            "output_tokens": 705,
+            "cached_input_tokens": 1555
+          },
+          {
+            "model": "gpt-6-luna",
+            "input_tokens": 1738,
+            "output_tokens": 220,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {
+          "generation_failure_initial": "review_rejected",
+          "generation_repair": "attempted",
+          "generation_failure_final": "review_rejected",
+          "generation_outcome": "unavailable"
+        }
+      }
+    },
+    {
+      "case": "science7",
+      "subject": "natural_sciences",
+      "grade": 7,
+      "dimension": "razonamiento",
+      "requested": "option",
+      "logs": [
+        {
+          "task": "kuneo_activity",
+          "model": "gpt-6-luna",
+          "resolvedModel": "gpt-6-luna",
+          "ms": 5155,
+          "usage": {
+            "prompt_tokens": 1955,
+            "completion_tokens": 530,
+            "total_tokens": 2485,
+            "prompt_tokens_details": {
+              "cached_tokens": 1555,
+              "cache_write_tokens": 397,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.00033055
+        },
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-6-luna",
+          "resolvedModel": "gpt-6-luna",
+          "ms": 2251,
+          "usage": {
+            "prompt_tokens": 1507,
+            "completion_tokens": 129,
+            "total_tokens": 1636,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 1504,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.000252875
+        },
+        {
+          "task": "kuneo_audit",
+          "model": "gpt-6.1-terra",
+          "resolvedModel": "gpt-6.1-terra",
+          "ms": 2568,
+          "usage": {
+            "prompt_tokens": 919,
+            "completion_tokens": 135,
+            "total_tokens": 1054,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.00182375
+        }
+      ],
+      "ms": 7407,
+      "metrics": {
+        "timestamp": "2026-11-05T15:23:56.301Z",
+        "request_id": "5aff5b8d-5650-402a-81dc-dd635e14e846",
+        "operation": "latency_probe",
+        "status": 200,
+        "total_ms": 7407,
+        "stages": {
+          "openai_generation": 5155,
+          "openai_evaluation": 2251
+        },
+        "usage": [
+          {
+            "model": "gpt-6-luna",
+            "input_tokens": 1955,
+            "output_tokens": 530,
+            "cached_input_tokens": 1555
+          },
+          {
+            "model": "gpt-6-luna",
+            "input_tokens": 1507,
+            "output_tokens": 129,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {
+          "generation_outcome": "generated"
+        }
+      },
+      "activity": {
+        "id": "97cbf7d0-53ec-475c-9ceb-bb70691a7a44",
+        "step_id": "68ea4686-5a73-4a16-980d-8e2462bc6795",
+        "question": "En una huerta escolar se observa esta cadena alimentaria: **plantas de fríjol → orugas → aves insectívoras**. La flecha indica que un organismo sirve de alimento al que sigue. Tras varios días con poca lluvia, disminuye mucho la cantidad de plantas de fríjol. ¿Cuál explicación describe mejor un posible efecto de esta disminución en la cadena?",
+        "type": "option",
+        "options": [
+          "Las orugas podrían disminuir por tener menos alimento y, después, las aves insectívoras podrían disminuir porque tendrían menos orugas para comer.",
+          "Las orugas podrían aumentar porque habría menos plantas, y las aves también aumentarían al encontrar más orugas.",
+          "Las aves insectívoras podrían aumentar de inmediato porque la disminución de las plantas les proporciona alimento directamente.",
+          "La cantidad de orugas y aves necesariamente permanecería igual, porque las flechas solo indican quién se come a quién."
+        ],
+        "cognitive_dimension": "razonamiento",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "97cbf7d0-53ec-475c-9ceb-bb70691a7a44",
+        "user_id": "synthetic-latency-probe",
+        "module_id": "347f8508-8c01-442c-b5e9-36b3d2fefd95",
+        "step_id": "68ea4686-5a73-4a16-980d-8e2462bc6795",
+        "question": "En una huerta escolar se observa esta cadena alimentaria: **plantas de fríjol → orugas → aves insectívoras**. La flecha indica que un organismo sirve de alimento al que sigue. Tras varios días con poca lluvia, disminuye mucho la cantidad de plantas de fríjol. ¿Cuál explicación describe mejor un posible efecto de esta disminución en la cadena?",
+        "type": "option",
+        "options": [
+          "Las orugas podrían disminuir por tener menos alimento y, después, las aves insectívoras podrían disminuir porque tendrían menos orugas para comer.",
+          "Las orugas podrían aumentar porque habría menos plantas, y las aves también aumentarían al encontrar más orugas.",
+          "Las aves insectívoras podrían aumentar de inmediato porque la disminución de las plantas les proporciona alimento directamente.",
+          "La cantidad de orugas y aves necesariamente permanecería igual, porque las flechas solo indican quién se come a quién."
+        ],
+        "left_items": [],
+        "right_items": [],
+        "expected": {
+          "type": "option",
+          "correct_options": [
+            0
+          ]
+        },
+        "learning_focus": "Explicar efectos directos e indirectos de la disminución de alimento en una cadena alimentaria.",
+        "option_explanations": [
+          "Con menos plantas puede haber menos alimento para las orugas; esa reducción podría dejar a las aves con menos presas.",
+          "Confunde la disminución del alimento con un aumento necesario de las orugas; no hay datos que justifiquen ese efecto.",
+          "La cadena indica que las aves comen orugas, no plantas, así que las plantas no son alimento directo para ellas.",
+          "Ignora que el alimento de las orugas puede cambiar y afectar indirectamente a las aves."
+        ],
+        "pair_explanations": [],
+        "rubric": "Selecciona la opción que relaciona la disminución de plantas con menos alimento para las orugas y considera el efecto posible sobre las aves que comen orugas.",
+        "hint": "Sigue las flechas desde las plantas: ¿qué organismo depende directamente de ellas para alimentarse? Luego piensa qué cambio podría afectar al organismo que se alimenta de ese consumidor.",
+        "explanation": "Al disminuir las plantas, puede reducirse el alimento disponible para las orugas. Si hay menos orugas, las aves insectívoras también podrían tener menos alimento; la cadena muestra una posibilidad, no un resultado inevitable.",
+        "dimension": "razonamiento",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "Explicar efectos de la disminución de alimento en una cadena alimentaria proporcionada",
+          "concept": "Explicar efectos de la disminución de alimento en una cadena alimentaria proporcionada",
+          "learning_goal": "Explicar efectos de la disminución de alimento en una cadena alimentaria proporcionada"
+        },
+        "grade_group": "6-7",
+        "expires_at": 1793978636301
+      },
+      "audit": {
+        "verification": "La cadena indica que las orugas comen plantas y las aves comen orugas. La opción 0 plantea una disminución posible en ambos niveles, no inevitable. La opción 1 no justifica el aumento de orugas; la 2 contradice la dirección de la cadena; la 3 afirma sin fundamento que las poblaciones necesariamente permanecerán iguales. La clave, las explicaciones, la rúbrica y la pista son coherentes. La huerta y la reducción de plantas intervienen en el razonamiento; el lenguaje y la dificultad son adecuados para grado 7.",
+        "approved": true,
+        "issues": []
+      }
+    },
+    {
+      "case": "social2",
+      "subject": "social_studies",
+      "grade": 2,
+      "dimension": "metacognicion",
+      "requested": "text",
+      "logs": [
+        {
+          "task": "kuneo_activity",
+          "model": "gpt-6-luna",
+          "resolvedModel": "gpt-6-luna",
+          "ms": 4295,
+          "usage": {
+            "prompt_tokens": 1961,
+            "completion_tokens": 418,
+            "total_tokens": 2379,
+            "prompt_tokens_details": {
+              "cached_tokens": 1555,
+              "cache_write_tokens": 403,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.0002753
+        },
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-6-luna",
+          "resolvedModel": "gpt-6-luna",
+          "ms": 2459,
+          "usage": {
+            "prompt_tokens": 1415,
+            "completion_tokens": 126,
+            "total_tokens": 1541,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 1412,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.000239875
+        },
+        {
+          "task": "kuneo_audit",
+          "model": "gpt-6.1-terra",
+          "resolvedModel": "gpt-6.1-terra",
+          "ms": 2455,
+          "usage": {
+            "prompt_tokens": 876,
+            "completion_tokens": 122,
+            "total_tokens": 998,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.001705
+        }
+      ],
+      "ms": 6756,
+      "metrics": {
+        "timestamp": "2026-11-05T15:23:59.275Z",
+        "request_id": "fba548ad-f3dd-43d6-97d1-d8fb8d665256",
+        "operation": "latency_probe",
+        "status": 200,
+        "total_ms": 6756,
+        "stages": {
+          "openai_generation": 4295,
+          "openai_evaluation": 2459
+        },
+        "usage": [
+          {
+            "model": "gpt-6-luna",
+            "input_tokens": 1961,
+            "output_tokens": 418,
+            "cached_input_tokens": 1555
+          },
+          {
+            "model": "gpt-6-luna",
+            "input_tokens": 1415,
+            "output_tokens": 126,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {
+          "generation_outcome": "generated"
+        }
+      },
+      "activity": {
+        "id": "4fe3aa3b-3e66-4a00-baf2-807ac07d367b",
+        "step_id": "d8238ff4-9465-4712-8e5c-ef944fa9f006",
+        "question": "En el colegio, el grupo observa que a veces queda una llave del lavamanos abierta después del recreo. Durante dos recreos, anotan cuántas veces la encuentran abierta:\n\n| Día | Veces que encontraron la llave abierta |\n|---|---:|\n| Lunes | 5 |\n| Martes | 2 |\n\nPiensa en una estrategia para que se desperdicie menos agua. Escribe qué harías y cómo comprobarías si funciona. También explica qué revisarías si los resultados no mejoran.",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "metacognicion",
+        "source": "generated",
+        "notice": null,
+        "left_items": [],
+        "right_items": [],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "4fe3aa3b-3e66-4a00-baf2-807ac07d367b",
+        "user_id": "synthetic-latency-probe",
+        "module_id": "70f0bdf3-ca01-453e-875c-16973994350f",
+        "step_id": "d8238ff4-9465-4712-8e5c-ef944fa9f006",
+        "question": "En el colegio, el grupo observa que a veces queda una llave del lavamanos abierta después del recreo. Durante dos recreos, anotan cuántas veces la encuentran abierta:\n\n| Día | Veces que encontraron la llave abierta |\n|---|---:|\n| Lunes | 5 |\n| Martes | 2 |\n\nPiensa en una estrategia para que se desperdicie menos agua. Escribe qué harías y cómo comprobarías si funciona. También explica qué revisarías si los resultados no mejoran.",
+        "type": "text",
+        "options": [],
+        "left_items": [],
+        "right_items": [],
+        "expected": {
+          "type": "rubric",
+          "answer": "Por ejemplo: pondría un aviso junto a la llave para recordar cerrarla. Durante varios recreos, un compañero registraría cuántas veces queda abierta y compararía esos datos con los de antes. Si el número no baja, revisaríamos si el aviso se ve bien o probaríamos otro recordatorio.",
+          "rubric": "La respuesta propone una acción concreta para reducir el desperdicio de agua y explica cómo comprobarla con observaciones o registros comparables. Incluye qué haría o revisaría si la estrategia no funciona; se aceptan distintas acciones y formas razonables de comprobarlas."
+        },
+        "learning_focus": "Planear y revisar una estrategia escolar para ahorrar agua usando observaciones comparables",
+        "option_explanations": [],
+        "pair_explanations": [],
+        "rubric": "La respuesta propone una acción concreta para reducir el desperdicio de agua y explica cómo comprobarla con observaciones o registros comparables. Incluye qué haría o revisaría si la estrategia no funciona; se aceptan distintas acciones y formas razonables de comprobarlas.",
+        "hint": "Piensa en una acción que puedan hacer en el colegio. ¿Qué dato podrían contar antes y después para saber si ayudó? ¿Qué cambiarían si ese dato no mejora?",
+        "explanation": "Una estrategia se puede comprobar registrando la misma situación antes y después de aplicarla. Revisar los resultados permite decidir si conviene mantenerla o cambiarla.",
+        "dimension": "metacognicion",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "social_studies",
+        "support_context": {
+          "topic": "Proponer una estrategia para ahorrar agua en el colegio y cómo comprobar si funciona",
+          "concept": "Proponer una estrategia para ahorrar agua en el colegio y cómo comprobar si funciona",
+          "learning_goal": "Proponer una estrategia para ahorrar agua en el colegio y cómo comprobar si funciona"
+        },
+        "grade_group": "1-3",
+        "expires_at": 1793978639274
+      },
+      "audit": {
+        "verification": "Una respuesta posible es poner un aviso para cerrar la llave, registrar durante varios recreos cuántas veces se encuentra abierta y comparar con los datos iniciales: 5 el lunes y 2 el martes. Si no disminuye, revisar si el aviso se ve o probar otra estrategia. La respuesta modelo cumple los tres criterios de ambas rúbricas; la pista y la explicación concuerdan con ellos. La actividad es comprensible para segundo grado y usa el contexto escolar para planear y revisar una acción.",
+        "approved": true,
+        "issues": []
+      }
+    },
+    {
+      "case": "english2",
+      "subject": "english",
+      "grade": 2,
+      "dimension": "representacion",
+      "requested": "matching",
+      "logs": [
+        {
+          "task": "kuneo_activity",
+          "model": "gpt-6-luna",
+          "resolvedModel": "gpt-6-luna",
+          "ms": 3891,
+          "usage": {
+            "prompt_tokens": 1986,
+            "completion_tokens": 400,
+            "total_tokens": 2386,
+            "prompt_tokens_details": {
+              "cached_tokens": 1555,
+              "cache_write_tokens": 428,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.000269425
+        },
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-6-luna",
+          "resolvedModel": "gpt-6-luna",
+          "ms": 1674,
+          "usage": {
+            "prompt_tokens": 1349,
+            "completion_tokens": 104,
+            "total_tokens": 1453,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 1346,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.000220625
+        },
+        {
+          "task": "kuneo_audit",
+          "model": "gpt-6.1-terra",
+          "resolvedModel": "gpt-6.1-terra",
+          "ms": 3028,
+          "usage": {
+            "prompt_tokens": 749,
+            "completion_tokens": 169,
+            "total_tokens": 918,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.00178125
+        }
+      ],
+      "ms": 5567,
+      "metrics": {
+        "timestamp": "2026-11-05T15:24:04.435Z",
+        "request_id": "0c389d93-6270-439e-b605-51137927d767",
+        "operation": "latency_probe",
+        "status": 200,
+        "total_ms": 5567,
+        "stages": {
+          "openai_generation": 3891,
+          "openai_evaluation": 1675
+        },
+        "usage": [
+          {
+            "model": "gpt-6-luna",
+            "input_tokens": 1986,
+            "output_tokens": 400,
+            "cached_input_tokens": 1555
+          },
+          {
+            "model": "gpt-6-luna",
+            "input_tokens": 1349,
+            "output_tokens": 104,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {
+          "generation_outcome": "generated"
+        }
+      },
+      "activity": {
+        "id": "d8b87e20-a49f-4d69-9531-f2a08d19e397",
+        "step_id": "31bb468f-6bae-45de-b2eb-1a01f53ea2cb",
+        "question": "En el club de lectura del colegio, Lina prepara tarjetas en inglés para un rincón de animales. Relaciona cada palabra en inglés con su significado en español.\n\n| Palabra en inglés |\n|---|\n| duck |\n| cat |\n| horse |\n| fish |\n\n| Significado en español |\n|---|\n| pez |\n| caballo |\n| pato |\n| gato |",
+        "type": "matching",
+        "options": [],
+        "cognitive_dimension": "representacion",
+        "source": "generated",
+        "notice": null,
+        "left_items": [
+          "duck",
+          "cat",
+          "horse",
+          "fish"
+        ],
+        "right_items": [
+          "caballo",
+          "pato",
+          "pez",
+          "gato"
+        ],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "d8b87e20-a49f-4d69-9531-f2a08d19e397",
+        "user_id": "synthetic-latency-probe",
+        "module_id": "f6f51918-bee8-4dcb-ae92-fb5d37c6049a",
+        "step_id": "31bb468f-6bae-45de-b2eb-1a01f53ea2cb",
+        "question": "En el club de lectura del colegio, Lina prepara tarjetas en inglés para un rincón de animales. Relaciona cada palabra en inglés con su significado en español.\n\n| Palabra en inglés |\n|---|\n| duck |\n| cat |\n| horse |\n| fish |\n\n| Significado en español |\n|---|\n| pez |\n| caballo |\n| pato |\n| gato |",
+        "type": "matching",
+        "options": [],
+        "left_items": [
+          "duck",
+          "cat",
+          "horse",
+          "fish"
+        ],
+        "right_items": [
+          "caballo",
+          "pato",
+          "pez",
+          "gato"
+        ],
+        "expected": {
+          "type": "matching",
+          "correct_pairs": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              2
+            ]
+          ]
+        },
+        "learning_focus": "Reconocer y relacionar cuatro nombres de animales en inglés con sus significados en español.",
+        "option_explanations": [],
+        "pair_explanations": [
+          "“Duck” significa “pato”.",
+          "“Cat” significa “gato”.",
+          "“Horse” significa “caballo”.",
+          "“Fish” significa “pez”."
+        ],
+        "rubric": "Se considera correcta cada pareja que une una palabra inglesa con su significado exacto en español. La actividad queda completa al establecer las cuatro parejas.",
+        "hint": "Lee cada palabra en inglés con calma y piensa qué animal nombra; luego busca su nombre en español entre las opciones.",
+        "explanation": "Relaciona cada tarjeta inglesa con el nombre del mismo animal en español. Usa cada significado una sola vez.",
+        "dimension": "representacion",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "english",
+        "support_context": {
+          "topic": "Relacionar palabras inglesas de animales con su significado proporcionado en español",
+          "concept": "Relacionar palabras inglesas de animales con su significado proporcionado en español",
+          "learning_goal": "Relacionar palabras inglesas de animales con su significado proporcionado en español"
+        },
+        "grade_group": "1-3",
+        "expires_at": 1793978644435
+      },
+      "audit": {
+        "verification": "La clave, usando los índices de left_items y right_items, produce duck–pato, cat–gato, horse–caballo y fish–pez. Las cuatro explicaciones de pareja y la rúbrica coinciden con esas correspondencias. El vocabulario y la consigna en español son adecuados para segundo grado y para representación.",
+        "approved": false,
+        "issues": [
+          "La tabla visible de significados está en un orden distinto al de right_items. Si los índices de la clave se aplican al orden visible, las cuatro parejas resultan incorrectas; debe unificarse el orden o aclararse inequívocamente cuál se usa.",
+          "El contexto del club de lectura y las tarjetas es decorativo: no interviene en el razonamiento necesario para resolver la actividad."
+        ]
+      }
+    }
+  ],
+  "controls": [
+    {
+      "id": "good-sum",
+      "expected": true,
+      "observed": false,
+      "passed": false,
+      "review": {
+        "verification": "La situación da 3 libros y 2 más; 3 + 2 = 5 libros. Solo la opción «5 libros» es válida y correct_index 0 la identifica. Las tres option_explanations corresponden correctamente a sus opciones. La actividad es autocontenida y apropiada para el grado, pero la biblioteca solo decora una suma abstracta: el contexto no es necesario para razonar ni aplicar el aprendizaje.",
+        "approved": false,
+        "issue": "Reformula el problema para que una decisión o situación de la biblioteca requiera usar la suma, por ejemplo, determinar si hay libros suficientes para completar una cantidad objetivo."
+      },
+      "logs": [
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-6-luna",
+          "resolvedModel": "gpt-6-luna",
+          "ms": 2249,
+          "usage": {
+            "prompt_tokens": 1180,
+            "completion_tokens": 141,
+            "total_tokens": 1321,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 1177,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.000218
+        }
+      ]
+    },
+    {
+      "id": "wrong-sum-key",
+      "expected": false,
+      "observed": false,
+      "passed": true,
+      "review": {
+        "verification": "3 libros + 2 libros = 5 libros. Solo «5 libros» es correcta; la clave indica correct_index 1, que señala «1 libro», y contradice la explicación, la rúbrica y las justificaciones, que respaldan la primera opción. El contexto de la biblioteca no aporta información necesaria para resolver la suma.",
+        "approved": false,
+        "issue": "Cambia correct_index a 0. Para cumplir el objetivo de aplicación contextualizada, haz que el contexto sea necesario para razonar, no solo un marco decorativo para una suma abstracta."
+      },
+      "logs": [
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-6-luna",
+          "resolvedModel": "gpt-6-luna",
+          "ms": 2004,
+          "usage": {
+            "prompt_tokens": 1180,
+            "completion_tokens": 127,
+            "total_tokens": 1307,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 1177,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.000211
+        }
+      ]
+    },
+    {
+      "id": "missing-reading",
+      "expected": false,
+      "observed": false,
+      "passed": true,
+      "review": {
+        "verification": "El enunciado menciona un cuento de María, pero no lo incluye; por eso no se puede determinar por qué salió al parque ni justificar que la opción 0 sea correcta. La rúbrica, la pista, la explicación y las justificaciones de opciones corresponden a sumar 3 y 2, algo que no se pregunta y cuyos datos tampoco aparecen. La actividad no permite resolver la pregunta ni verificar su clave.",
+        "approved": false,
+        "issue": "Incluye el cuento completo y alinea opciones, clave y explicaciones con la pregunta. Si el objetivo es sumar, plantea un problema contextualizado con los datos y opciones correspondientes; elimina la pregunta sobre el cuento."
+      },
+      "logs": [
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-6-luna",
+          "resolvedModel": "gpt-6-luna",
+          "ms": 2233,
+          "usage": {
+            "prompt_tokens": 1174,
+            "completion_tokens": 148,
+            "total_tokens": 1322,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 1171,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.00022075
+        }
+      ]
+    },
+    {
+      "id": "wrong-algebra-key",
+      "expected": false,
+      "observed": false,
+      "passed": true,
+      "review": {
+        "verification": "Al distribuir, 6(a+2)-4(a-3)=6a+12-4a+12=2a+24. La única opción equivalente es «2a+24» (índice 1), no «2a+26» (índice 0); «10a» tampoco es equivalente. La justificación de la clave contradice el cálculo. La rúbrica «Suma 3 y 2 para obtener 5» no corresponde a la expresión ni a lo preguntado. Aunque las explicaciones de las opciones distinguen la opción correcta, la clave y la explicación general son erróneas. El contexto de la tienda no aporta una situación de aplicación necesaria para razonar.",
+        "approved": false,
+        "issue": "Cambie correct_index a 1 y reemplace la rúbrica y explicación por una justificación basada en distribuir los paréntesis y combinar términos semejantes. Para cumplir el objetivo contextualizado, describa qué representan las cantidades y cómo se usan para calcular el costo neto."
+      },
+      "logs": [
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-6-luna",
+          "resolvedModel": "gpt-6-luna",
+          "ms": 2828,
+          "usage": {
+            "prompt_tokens": 1173,
+            "completion_tokens": 222,
+            "total_tokens": 1395,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 1170,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.000257625
+        }
+      ]
+    },
+    {
+      "id": "opinion-as-fact",
+      "expected": false,
+      "observed": false,
+      "passed": true,
+      "review": {
+        "verification": "La cita solo expresa una valoración («más hermoso»), no un hecho verificable. La opción válida es «No se presenta un hecho verificable»; «Todos están de acuerdo» tampoco se sustenta. La clave marca la opción 0, que presenta la valoración como hecho, y las explicaciones justifican una suma de libros ajena a la pregunta.",
+        "approved": false,
+        "issue": "Cambie correct_index a 1 y reescriba rubric, hint, explanation y option_explanations para que respondan a la cita y a la diferencia entre opinión y hecho; ahora tratan una suma que no aparece en el enunciado."
+      },
+      "logs": [
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-6-luna",
+          "resolvedModel": "gpt-6-luna",
+          "ms": 2557,
+          "usage": {
+            "prompt_tokens": 1201,
+            "completion_tokens": 145,
+            "total_tokens": 1346,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 1198,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.000222625
+        }
+      ]
+    },
+    {
+      "id": "science-direction",
+      "expected": false,
+      "observed": false,
+      "passed": true,
+      "review": {
+        "verification": "La opción 0 es incorrecta: el calor fluye del plato más caliente al hielo, así que la opción 1 es la válida; la opción 2 es falsa. La rúbrica, la pista, la explicación y las justificaciones de opciones hablan de sumar 3 y 2, libros y resultados que no aparecen en la pregunta. Además, el contexto no está bien especificado: decir «plato caliente» no indica que esté más caliente que el hielo.",
+        "approved": false,
+        "issue": "Cambie la clave a la opción 1 y reescriba rúbrica, pista, explicación y option_explanations para justificar la transferencia de calor del plato al hielo y su fusión, sin atribuirla a ruptura de moléculas. Especifique que el plato está más caliente que el hielo."
+      },
+      "logs": [
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-6-luna",
+          "resolvedModel": "gpt-6-luna",
+          "ms": 2569,
+          "usage": {
+            "prompt_tokens": 1203,
+            "completion_tokens": 179,
+            "total_tokens": 1382,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 1200,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.000239875
+        }
+      ]
+    },
+    {
+      "id": "good-english",
+      "expected": true,
+      "observed": false,
+      "passed": false,
+      "review": {
+        "verification": "La ficha establece cat = gato y dog = perro; por tanto, para la tarjeta de un perro se selecciona «dog». «cat» no corresponde y «No se puede saber» es falso porque la ficha da la equivalencia. La clave (índice 0) y las justificaciones de las tres opciones concuerdan. Sin embargo, el objetivo declara aplicar aprendizaje en contexto, pero la actividad solo evalúa una equivalencia directa, sin transferencia a una situación nueva. Además, learning_focus dice «Sumar cantidades», contenido que no se trabaja.",
+        "approved": false,
+        "issue": "Alinea learning_focus con vocabulario en inglés y convierte la pregunta en una aplicación contextual que requiera usar esas equivalencias, no solo repetirlas."
+      },
+      "logs": [
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-6-luna",
+          "resolvedModel": "gpt-6-luna",
+          "ms": 2740,
+          "usage": {
+            "prompt_tokens": 1175,
+            "completion_tokens": 164,
+            "total_tokens": 1339,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 1172,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.000228875
+        }
+      ]
+    },
+    {
+      "id": "fake-metacognition",
+      "expected": false,
+      "observed": false,
+      "passed": true,
+      "review": {
+        "verification": "La situación da 3 + 2 = 5 libros, así que la única opción correcta es «5 libros» (índice 0), y coincide con la clave y las justificaciones de las tres opciones. Sin embargo, la pregunta solo solicita calcular una suma; no pide planificar, comprobar ni reflexionar sobre una estrategia, por lo que no corresponde a la dimensión metacognición. Además, el contexto de la biblioteca no es necesario para resolverla.",
+        "approved": false,
+        "issue": "Reformula la pregunta para que Ana planifique o compruebe una estrategia para hallar cuántos libros tiene, por ejemplo, pidiéndole explicar cómo verificará su suma. Haz que la situación de la biblioteca aporte información necesaria para razonar, no solo el decorado."
+      },
+      "logs": [
+        {
+          "task": "kuneo_activity_review",
+          "model": "gpt-6-luna",
+          "resolvedModel": "gpt-6-luna",
+          "ms": 2390,
+          "usage": {
+            "prompt_tokens": 1182,
+            "completion_tokens": 172,
+            "total_tokens": 1354,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 1179,
+              "audio_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "accepted_prediction_tokens": 0,
+              "rejected_prediction_tokens": 0
+            }
+          },
+          "estimatedUsd": 0.00023375
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total": 10,
+    "ready": 9,
+    "independentApproved": 4,
+    "readyLatency": {
+      "samples": 9,
+      "p50_ms": 7247,
+      "p95_ms": 16203,
+      "min_ms": 5567,
+      "max_ms": 16203
+    },
+    "approvedLatency": {
+      "samples": 4,
+      "p50_ms": 7247,
+      "p95_ms": 8865,
+      "min_ms": 6756,
+      "max_ms": 8865
+    },
+    "controlPassed": 6,
+    "controlTotal": 8,
+    "estimatedRuntimeUsd": 0.007345300000000001,
+    "runtimeOutputTokens": 8151,
+    "callsSoFar": 41,
+    "estimatedExperimentUsd": 0.026439050000000002
+  }
+}

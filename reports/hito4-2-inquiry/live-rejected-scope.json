@@ -1,0 +1,523 @@
+{
+  "model": "gpt-4.1-mini",
+  "limit": 32,
+  "calls": 16,
+  "inputTokens": 53172,
+  "outputTokens": 7844,
+  "databaseCalls": 0,
+  "results": [
+    {
+      "slot": 1,
+      "seconds": 7.885,
+      "activity": {
+        "id": "c7b69775-7e65-4905-a7b8-21a0cd53bfa1",
+        "step_id": "9ecfaf81-ba0b-49a7-a165-a05e05031ecf",
+        "question": "Se midió la cantidad de agua que absorbían dos tipos de papel, A y B, bajo las mismas condiciones. Se registraron los siguientes datos:\n\n| Trozo de papel | Cantidad de agua absorbida (ml) |\n|----------------|--------------------------------|\n| A1             | 8                              |\n| A2             | 9                              |\n| A3             | 8                              |\n| B1             | 5                              |\n| B2             | 6                              |\n| B3             | 5                              |\n\nLos trozos son del mismo tamaño, el volumen inicial de agua y el tiempo de contacto fueron iguales para ambos. No se sabe qué materiales tiene cada tipo de papel.\n\n¿Cuál de estas preguntas sería una pregunta comprobable sobre la absorción de agua en los papeles, es decir, puede responderse con observación y datos como los dados?",
+        "type": "option",
+        "options": [
+          "¿Cuál tipo de papel absorbió más agua bajo estas condiciones?",
+          "¿Cuál papel es más bonito para escribir?",
+          "¿Por qué el papel B absorbe menos agua que el papel A?",
+          "¿Qué opina la gente sobre la textura de los papeles?"
+        ],
+        "cognitive_dimension": "comprension",
+        "source": "generated",
+        "notice": null,
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "c7b69775-7e65-4905-a7b8-21a0cd53bfa1",
+        "user_id": "synthetic",
+        "module_id": "952d7980-af13-411a-b1e0-d03a72b1f863",
+        "step_id": "9ecfaf81-ba0b-49a7-a165-a05e05031ecf",
+        "question": "Se midió la cantidad de agua que absorbían dos tipos de papel, A y B, bajo las mismas condiciones. Se registraron los siguientes datos:\n\n| Trozo de papel | Cantidad de agua absorbida (ml) |\n|----------------|--------------------------------|\n| A1             | 8                              |\n| A2             | 9                              |\n| A3             | 8                              |\n| B1             | 5                              |\n| B2             | 6                              |\n| B3             | 5                              |\n\nLos trozos son del mismo tamaño, el volumen inicial de agua y el tiempo de contacto fueron iguales para ambos. No se sabe qué materiales tiene cada tipo de papel.\n\n¿Cuál de estas preguntas sería una pregunta comprobable sobre la absorción de agua en los papeles, es decir, puede responderse con observación y datos como los dados?",
+        "type": "option",
+        "options": [
+          "¿Cuál tipo de papel absorbió más agua bajo estas condiciones?",
+          "¿Cuál papel es más bonito para escribir?",
+          "¿Por qué el papel B absorbe menos agua que el papel A?",
+          "¿Qué opina la gente sobre la textura de los papeles?"
+        ],
+        "expected": {
+          "type": "option",
+          "correct_options": [
+            0
+          ]
+        },
+        "learning_focus": "Formulo hipótesis comprobables a partir de evidencia experimental sobre absorción de agua en papeles.",
+        "option_explanations": [
+          "Esta pregunta puede responderse con los datos de absorción de agua que tenemos; es comprobable.",
+          "Esta pregunta es una opinión y no puede responderse con los datos del experimento.",
+          "Esta es una pregunta sobre causa que puede formularse como hipótesis para investigar, pero el dato dado no permite responderla aún, por lo que no es comprobable con estos datos solamente.",
+          "Esta pregunta es una opinión social y no se puede responder con datos experimentales sobre absorción de agua."
+        ],
+        "pair_explanations": [],
+        "rubric": "Evalúa si la pregunta propuesta puede responderse con observación y medición directa usando los datos o datos similares del experimento. Se acepta cualquier pregunta que plantee una causa o diferencia comprobable entre papeles A y B, o en relación con la absorción de agua, basada en datos. No se aceptan preguntas basadas en opiniones, preferencias o especulaciones sin datos verificables.",
+        "hint": "Piensa en preguntas que puedas responder con datos del experimento, no en opiniones o suposiciones que no se pueden medir con estos datos.",
+        "explanation": "Una pregunta comprobable debe poder ser respondida mediante la observación o medición, como las cantidades de agua absorbida. Preguntas que son opiniones o suposiciones no son comprobables con este experimento. Por ejemplo, preguntar cuál papel absorbe más agua es comprobable, mientras que cuál papel es más bonito no lo es.",
+        "dimension": "comprension",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "¿Cómo funciona ciencias_naturales?",
+          "concept": "ciencias_naturales",
+          "learning_goal": "Formulo hipótesis sobre las causas de extinción de un grupo taxonómico."
+        },
+        "grade_group": "6-7",
+        "expires_at": 1794051147628
+      }
+    },
+    {
+      "slot": 2,
+      "seconds": 6.125,
+      "activity": {
+        "id": "90dfe30f-c6b6-45e0-b7ae-64771bbccde3",
+        "step_id": "9ecfaf81-ba0b-49a7-a165-a05e05031ecf",
+        "question": "Un grupo de estudiantes investigó cómo diferentes tipos de suelo afectan el recorrido de un carrito que baja por una rampa. Para esto, usaron el mismo carrito y la misma rampa y midieron la distancia que recorrió el carrito sobre dos superficies distintas:\n\n| Superficie | Recorridos medidos (cm) |\n|------------|-------------------------|\n| Liso       | 80, 82, 81              |\n| Rugoso     | 42, 40, 41              |\n\nEl grupo quiere comparar cuánto cambia el recorrido según la superficie, manteniendo solo la variable \"tipo de superficie\" y controlando las demás. \n\nPara asegurar que la comparación sea válida, ¿qué factores deben mantenerse exactamente igual al cambiar la superficie del suelo? Explica por qué.",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "razonamiento",
+        "source": "generated",
+        "notice": null,
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "90dfe30f-c6b6-45e0-b7ae-64771bbccde3",
+        "user_id": "synthetic",
+        "module_id": "952d7980-af13-411a-b1e0-d03a72b1f863",
+        "step_id": "9ecfaf81-ba0b-49a7-a165-a05e05031ecf",
+        "question": "Un grupo de estudiantes investigó cómo diferentes tipos de suelo afectan el recorrido de un carrito que baja por una rampa. Para esto, usaron el mismo carrito y la misma rampa y midieron la distancia que recorrió el carrito sobre dos superficies distintas:\n\n| Superficie | Recorridos medidos (cm) |\n|------------|-------------------------|\n| Liso       | 80, 82, 81              |\n| Rugoso     | 42, 40, 41              |\n\nEl grupo quiere comparar cuánto cambia el recorrido según la superficie, manteniendo solo la variable \"tipo de superficie\" y controlando las demás. \n\nPara asegurar que la comparación sea válida, ¿qué factores deben mantenerse exactamente igual al cambiar la superficie del suelo? Explica por qué.",
+        "type": "text",
+        "options": [],
+        "expected": {
+          "type": "rubric",
+          "answer": "Para que la comparación sea válida, deben mantenerse iguales el carrito utilizado, la rampa (altura y ángulo), la forma y fuerza con que se deja caer el carrito y los métodos para medir la distancia; así solo cambia la superficie y se puede atribuir la diferencia en el recorrido a ese factor.",
+          "rubric": "La respuesta debe mencionar que para comparar solo el efecto de la superficie, se deben mantener constantes el carrito usado, la rampa (su altura y posición), la fuerza o modo de soltar el carrito y el mismo procedimiento de medición. Se acepta explicaciones que conecten mantener constantes estas variables con evitar que influyan en la distancia recorrida, permitiendo atribuir diferencias solo al tipo de superficie."
+        },
+        "learning_focus": "Formular hipótesis y diseñar comparaciones controladas que permitan identificar las causas de un cambio en el desplazamiento de un objeto.",
+        "option_explanations": [],
+        "pair_explanations": [],
+        "rubric": "La respuesta debe mencionar que para comparar solo el efecto de la superficie, se deben mantener constantes el carrito usado, la rampa (su altura y posición), la fuerza o modo de soltar el carrito y el mismo procedimiento de medición. Se acepta explicaciones que conecten mantener constantes estas variables con evitar que influyan en la distancia recorrida, permitiendo atribuir diferencias solo al tipo de superficie.",
+        "hint": "Piensa en qué cosas pueden modificar la distancia que recorre el carrito aparte de la superficie del suelo. ¿Cuál es la idea de \"mantener constante\" una variable para comparar solo una cosa?",
+        "explanation": "Para comparar el efecto de un solo factor (tipo de superficie) sobre la distancia recorrida, se deben mantener iguales todos los demás factores, como el carrito, la altura y el ángulo de la rampa, y la forma de dejarlo avanzar. Así se evita que elementos distintos hagan variar la distancia, y se asegura que la diferencia observada se deba a la superficie.",
+        "dimension": "razonamiento",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "¿Cómo funciona ciencias_naturales?",
+          "concept": "ciencias_naturales",
+          "learning_goal": "Formulo hipótesis sobre las causas de extinción de un grupo taxonómico."
+        },
+        "grade_group": "6-7",
+        "expires_at": 1794051153755
+      }
+    },
+    {
+      "slot": 3,
+      "seconds": 7.369,
+      "activity": {
+        "id": "e5e5c486-b4b1-4615-b96b-e8ff667a12a2",
+        "step_id": "9ecfaf81-ba0b-49a7-a165-a05e05031ecf",
+        "question": "En un estudio simulado sobre el crecimiento de plantas, hay dos grupos de plantas de la misma especie que reciben la misma cantidad de agua, están en macetas iguales y con el mismo tipo de suelo. El grupo A recibe 6 horas diarias de luz y el grupo B recibe 3 horas diarias de luz. Hasta ahora no se ha registrado la altura inicial de las plantas ni hay datos de crecimiento.\n\n| Grupo | Horas de luz diaria | Agua | Maceta | Suelo |\n|-------|---------------------|------|--------|-------|\n| A     | 6                   | Igual| Igual  | Igual |\n| B     | 3                   | Igual| Igual  | Igual |\n\n¿Cuáles de estas afirmaciones ayudan a representar correctamente la información que se tiene y lo necesario para comparar el crecimiento de ambos grupos?\nSelecciona todas las que son adecuadas.",
+        "type": "multiple_select",
+        "options": [
+          "El dato más importante que falta es la altura inicial de las plantas para poder comparar el crecimiento.",
+          "Para representar los datos se debe incluir que ambas plantas tienen la misma cantidad de agua, maceta y suelo.",
+          "Es correcto incluir en la tabla que el grupo A tiene 6 horas de luz y el grupo B 3 horas, ya que esta es la variable que cambia.",
+          "Podemos asumir que el grupo A creció más porque recibe más luz, aunque no hay datos de crecimiento."
+        ],
+        "cognitive_dimension": "representacion",
+        "source": "generated",
+        "notice": null,
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "e5e5c486-b4b1-4615-b96b-e8ff667a12a2",
+        "user_id": "synthetic",
+        "module_id": "952d7980-af13-411a-b1e0-d03a72b1f863",
+        "step_id": "9ecfaf81-ba0b-49a7-a165-a05e05031ecf",
+        "question": "En un estudio simulado sobre el crecimiento de plantas, hay dos grupos de plantas de la misma especie que reciben la misma cantidad de agua, están en macetas iguales y con el mismo tipo de suelo. El grupo A recibe 6 horas diarias de luz y el grupo B recibe 3 horas diarias de luz. Hasta ahora no se ha registrado la altura inicial de las plantas ni hay datos de crecimiento.\n\n| Grupo | Horas de luz diaria | Agua | Maceta | Suelo |\n|-------|---------------------|------|--------|-------|\n| A     | 6                   | Igual| Igual  | Igual |\n| B     | 3                   | Igual| Igual  | Igual |\n\n¿Cuáles de estas afirmaciones ayudan a representar correctamente la información que se tiene y lo necesario para comparar el crecimiento de ambos grupos?\nSelecciona todas las que son adecuadas.",
+        "type": "multiple_select",
+        "options": [
+          "El dato más importante que falta es la altura inicial de las plantas para poder comparar el crecimiento.",
+          "Para representar los datos se debe incluir que ambas plantas tienen la misma cantidad de agua, maceta y suelo.",
+          "Es correcto incluir en la tabla que el grupo A tiene 6 horas de luz y el grupo B 3 horas, ya que esta es la variable que cambia.",
+          "Podemos asumir que el grupo A creció más porque recibe más luz, aunque no hay datos de crecimiento."
+        ],
+        "expected": {
+          "type": "multiple_select",
+          "correct_options": [
+            0,
+            1,
+            2
+          ]
+        },
+        "learning_focus": "representación: interpretar y organizar información experimental para identificar datos faltantes en un caso simulado.",
+        "option_explanations": [
+          "La altura inicial es necesaria para calcular el cambio en crecimiento y comparar entre grupos.",
+          "Es importante representar las condiciones iguales para entender que solo cambia la cantidad de luz.",
+          "Identificar la variable diferente (horas de luz) es clave para organizar la información y representar el caso.",
+          "No se debe asumir resultados sin datos, esa afirmación es incorrecta para representación precisa."
+        ],
+        "pair_explanations": [],
+        "rubric": "Se considera correcto seleccionar todas las afirmaciones que reconocen la falta de dato de altura inicial y que comprenden que sin este dato no se puede comparar el crecimiento. Además, se deben incluir afirmaciones que describan adecuadamente las condiciones iguales para ambos grupos y la variable diferente (horas de luz). No se consideran correctas afirmaciones que inventen datos de crecimiento que no fueron registrados o que ignoren la necesidad de la altura inicial.",
+        "hint": "¿Qué información es indispensable para comparar el crecimiento si las condiciones son iguales salvo el tiempo de luz? ¿Cómo organizarías estos datos para entender qué falta?",
+        "explanation": "Para comparar el crecimiento correctamente, es necesario tener la altura inicial de las plantas para calcular cuánto crecieron. Las condiciones controladas se describen bien: misma agua, maceta y suelo, con condiciones diferentes solo en las horas de luz. Por lo tanto, las afirmaciones correctas reconocen estas observaciones y la necesidad de medir la altura inicial antes del crecimiento.",
+        "dimension": "representacion",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "¿Cómo funciona ciencias_naturales?",
+          "concept": "ciencias_naturales",
+          "learning_goal": "Formulo hipótesis sobre las causas de extinción de un grupo taxonómico."
+        },
+        "grade_group": "6-7",
+        "expires_at": 1794051161125
+      }
+    },
+    {
+      "slot": 4,
+      "seconds": 7.267,
+      "activity": {
+        "id": "e8750b91-cde7-4967-81d5-979a71e0f333",
+        "step_id": "9ecfaf81-ba0b-49a7-a165-a05e05031ecf",
+        "question": "En el colegio, un equipo diseñó un experimento para medir si los sonidos en el patio se escuchan con la misma claridad a 2, 4 y 6 metros de la fuente sonora. Para esto, anotaron si escuchaban el sonido o no a cada distancia, pero cambiaron al mismo tiempo la distancia y el volumen del sonido, sin registrar los datos aún.\n\n| Distancia (m) | Volumen del sonido (decibeles) |\n|---------------|-------------------------------|\n| 2             | 70                            |\n| 4             | 60                            |\n| 6             | 50                            |\n\n¿Por qué este diseño no permite saber si la claridad del sonido cambia por la distancia o por el volumen?\n¿Y qué cambio deberían hacer para poder saberlo? Relaciona cada afirmación con su explicación correspondiente.",
+        "type": "matching",
+        "options": [],
+        "cognitive_dimension": "transferencia",
+        "source": "generated",
+        "notice": null,
+        "left_items": [
+          "No se puede saber si cambia la claridad por distancia o por volumen porque ambas variables cambian juntas.",
+          "Para saber cómo afecta la distancia, deben medir la claridad variando la distancia y manteniendo igual el volumen.",
+          "El resultado es confuso porque las dos variables (distancia y volumen) no están controladas por separado en el experimento."
+        ],
+        "right_items": [
+          "Para comparar un efecto respetable, solo una variable debe cambiar mientras las otras se mantienen constantes.",
+          "La claridad de sonido puede depender de ambas variables, por eso se necesita controlar para identificar el efecto individual.",
+          "Si cambian dos variables a la vez, no se puede saber cuál afecta el resultado."
+        ],
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "e8750b91-cde7-4967-81d5-979a71e0f333",
+        "user_id": "synthetic",
+        "module_id": "952d7980-af13-411a-b1e0-d03a72b1f863",
+        "step_id": "9ecfaf81-ba0b-49a7-a165-a05e05031ecf",
+        "question": "En el colegio, un equipo diseñó un experimento para medir si los sonidos en el patio se escuchan con la misma claridad a 2, 4 y 6 metros de la fuente sonora. Para esto, anotaron si escuchaban el sonido o no a cada distancia, pero cambiaron al mismo tiempo la distancia y el volumen del sonido, sin registrar los datos aún.\n\n| Distancia (m) | Volumen del sonido (decibeles) |\n|---------------|-------------------------------|\n| 2             | 70                            |\n| 4             | 60                            |\n| 6             | 50                            |\n\n¿Por qué este diseño no permite saber si la claridad del sonido cambia por la distancia o por el volumen?\n¿Y qué cambio deberían hacer para poder saberlo? Relaciona cada afirmación con su explicación correspondiente.",
+        "type": "matching",
+        "options": [],
+        "left_items": [
+          "No se puede saber si cambia la claridad por distancia o por volumen porque ambas variables cambian juntas.",
+          "Para saber cómo afecta la distancia, deben medir la claridad variando la distancia y manteniendo igual el volumen.",
+          "El resultado es confuso porque las dos variables (distancia y volumen) no están controladas por separado en el experimento."
+        ],
+        "right_items": [
+          "Para comparar un efecto respetable, solo una variable debe cambiar mientras las otras se mantienen constantes.",
+          "La claridad de sonido puede depender de ambas variables, por eso se necesita controlar para identificar el efecto individual.",
+          "Si cambian dos variables a la vez, no se puede saber cuál afecta el resultado."
+        ],
+        "expected": {
+          "type": "matching",
+          "correct_pairs": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        "learning_focus": "Detectar la importancia de controlar variables para formular hipótesis comprobables en ciencias naturales.",
+        "option_explanations": [],
+        "pair_explanations": [
+          "Cuando cambian distancia y volumen juntos, no sabemos cuál causa el cambio en claridad.",
+          "Para observar el efecto exclusivo de la distancia, el volumen debe mantenerse fijo en todas las pruebas.",
+          "Ambas variables pueden influir en el sonido; controlar permite separar sus efectos y aclarar las causas."
+        ],
+        "rubric": "Se evalúa si el estudiante identifica correctamente la imposibilidad de atribuir el resultado a una sola variable debido a que cambian dos a la vez y propone que se debe cambiar solo una variable a la vez para compararla. Se aceptan explicaciones claras y coherentes que expliquen la necesidad de controlar variables para formar conclusiones válidas.",
+        "hint": "Piensa qué está cambiando en cada medición y cómo eso puede afectar el resultado. ¿Podrías saber qué variable causa el cambio si ambas cambian juntas?",
+        "explanation": "El diseño cambia simultáneamente distancia y volumen, por lo que no es posible saber cuál causa la diferencia en la claridad del sonido. Para concluir, se debe variar solo una variable mientras la otra se mantiene fija, por ejemplo, medir claridad a diferentes distancias con el mismo volumen, o medir con diferentes volúmenes a la misma distancia.",
+        "dimension": "transferencia",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "¿Cómo funciona ciencias_naturales?",
+          "concept": "ciencias_naturales",
+          "learning_goal": "Formulo hipótesis sobre las causas de extinción de un grupo taxonómico."
+        },
+        "grade_group": "6-7",
+        "expires_at": 1794051168393
+      }
+    },
+    {
+      "slot": 5,
+      "seconds": 6.257,
+      "activity": {
+        "id": "cc479ffc-d77d-4be6-b312-d4dd5676e4f8",
+        "step_id": "9ecfaf81-ba0b-49a7-a165-a05e05031ecf",
+        "question": "En un experimento para investigar la causa de la extinción de un grupo de semillas de la misma especie, se planea regar dos grupos de semillas con cantidades distintas de agua (grupo 1 con 50 ml y grupo 2 con 100 ml por día). Ambas están expuestas a la misma luz, temperatura y tipo de sustrato. Todavía no se ha hecho la observación de las semillas.\n\n¿Cuál es la mejor forma de planificar y revisar la estrategia para que las conclusiones sean confiables, evitándose errores comunes?",
+        "type": "option",
+        "options": [
+          "Mantener iguales todas las condiciones, excepto la cantidad de agua, y registrar cuidadosamente la supervivencia para comparar ambos grupos.",
+          "Cambiar la cantidad de agua y la temperatura al mismo tiempo para comparar más factores y tener resultados más completos.",
+          "No controlar variables como la luz o el tipo de suelo para simplificar el experimento y hacerlo más rápido.",
+          "Presentar la cantidad de agua que se usará como resultado final, sin hacer observaciones posteriores."
+        ],
+        "cognitive_dimension": "metacognicion",
+        "source": "generated",
+        "notice": null,
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "cc479ffc-d77d-4be6-b312-d4dd5676e4f8",
+        "user_id": "synthetic",
+        "module_id": "952d7980-af13-411a-b1e0-d03a72b1f863",
+        "step_id": "9ecfaf81-ba0b-49a7-a165-a05e05031ecf",
+        "question": "En un experimento para investigar la causa de la extinción de un grupo de semillas de la misma especie, se planea regar dos grupos de semillas con cantidades distintas de agua (grupo 1 con 50 ml y grupo 2 con 100 ml por día). Ambas están expuestas a la misma luz, temperatura y tipo de sustrato. Todavía no se ha hecho la observación de las semillas.\n\n¿Cuál es la mejor forma de planificar y revisar la estrategia para que las conclusiones sean confiables, evitándose errores comunes?",
+        "type": "option",
+        "options": [
+          "Mantener iguales todas las condiciones, excepto la cantidad de agua, y registrar cuidadosamente la supervivencia para comparar ambos grupos.",
+          "Cambiar la cantidad de agua y la temperatura al mismo tiempo para comparar más factores y tener resultados más completos.",
+          "No controlar variables como la luz o el tipo de suelo para simplificar el experimento y hacerlo más rápido.",
+          "Presentar la cantidad de agua que se usará como resultado final, sin hacer observaciones posteriores."
+        ],
+        "expected": {
+          "type": "option",
+          "correct_options": [
+            0
+          ]
+        },
+        "learning_focus": "Planificación y revisión crítica de una estrategia experimental para estudiar la causa de extinción en semillas.",
+        "option_explanations": [
+          "Esta opción muestra un buen control de variables y una estrategia adecuada para que las conclusiones sean válidas.",
+          "Cambiar varias variables dificulta saber cuál causa la diferencia, no es útil para sacar conclusiones claras.",
+          "No controlar variables puede generar confusión y errores, afectando la validez de los resultados.",
+          "Confundir la predicción con el resultado impide interpretar correctamente el experimento y no corresponde a una planificación adecuada."
+        ],
+        "pair_explanations": [],
+        "rubric": "Se evalúa si la respuesta identifica correctamente una estrategia para controlar variables y evitar errores comunes en el experimento, demostrando comprensión metacognitiva sin confundir etapas del método científico.",
+        "hint": "Piensa qué se debe mantener igual para que el cambio de agua sea la única causa que afecte la supervivencia o extinción. Revisa qué errores podrían afectar la conclusión y cómo evitarlos.",
+        "explanation": "Para obtener conclusiones confiables, se debe mantener iguales todas las condiciones excepto la cantidad de agua y controlar que no haya otras variables influyendo. También es importante diferenciar entre hipótesis, predicción y observación, y prever cómo registrar los resultados para evitar errores en la interpretación.",
+        "dimension": "metacognicion",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "¿Cómo funciona ciencias_naturales?",
+          "concept": "ciencias_naturales",
+          "learning_goal": "Formulo hipótesis sobre las causas de extinción de un grupo taxonómico."
+        },
+        "grade_group": "6-7",
+        "expires_at": 1794051174652
+      }
+    },
+    {
+      "slot": 6,
+      "seconds": 6.335,
+      "activity": {
+        "id": "70ee4cbf-66d0-49fd-8534-2f9ff3b2b261",
+        "step_id": "9ecfaf81-ba0b-49a7-a165-a05e05031ecf",
+        "question": "En un experimento para estudiar la consistencia en la medición de temperatura de una misma muestra, se registraron estos valores usando el mismo termómetro y procedimiento:\n\n| Medición | Temperatura (°C) |\n|----------|------------------|\n| 1        | 22               |\n| 2        | 23               |\n| 3        | 22               |\n| 4        | 62               |\n\nNo se hizo calentamiento deliberado entre mediciones y no se ha verificado si el valor 62 °C es un error de lectura.\n\n¿De qué manera podrías decidir si la medición de 62 °C es incorrecta sin borrarla automáticamente? Describe cómo revisarías el procedimiento y qué criterios usarías para aceptar o rechazar ese dato.",
+        "type": "text",
+        "options": [],
+        "cognitive_dimension": "comprension",
+        "source": "generated",
+        "notice": null,
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "70ee4cbf-66d0-49fd-8534-2f9ff3b2b261",
+        "user_id": "synthetic",
+        "module_id": "952d7980-af13-411a-b1e0-d03a72b1f863",
+        "step_id": "9ecfaf81-ba0b-49a7-a165-a05e05031ecf",
+        "question": "En un experimento para estudiar la consistencia en la medición de temperatura de una misma muestra, se registraron estos valores usando el mismo termómetro y procedimiento:\n\n| Medición | Temperatura (°C) |\n|----------|------------------|\n| 1        | 22               |\n| 2        | 23               |\n| 3        | 22               |\n| 4        | 62               |\n\nNo se hizo calentamiento deliberado entre mediciones y no se ha verificado si el valor 62 °C es un error de lectura.\n\n¿De qué manera podrías decidir si la medición de 62 °C es incorrecta sin borrarla automáticamente? Describe cómo revisarías el procedimiento y qué criterios usarías para aceptar o rechazar ese dato.",
+        "type": "text",
+        "options": [],
+        "expected": {
+          "type": "rubric",
+          "answer": "Una forma adecuada es comparar el valor 62 °C con las demás mediciones cercanas a 22 °C para ver si es coherente. Luego, se debe repetir la medición en el mismo momento o bajo las mismas condiciones para ver si se repite el valor alto. Además, revisar si el termómetro está funcionando correctamente, buscando daños o calibrándolo. También es importante verificar si hubo algún cambio externo inesperado (como una fuente de calor cercana) que pueda explicar la temperatura alta. No se debe borrar el dato automáticamente sin esta revisión; en cambio, hay que reportar el hallazgo y las acciones para confirmar si es correcto o error.",
+          "rubric": "La respuesta debe explicar una estrategia para comparar el dato extraño con las otras mediciones y el entorno del experimento, proponer verificar el termómetro, repetir la medición, o consultar condiciones y registrar observaciones que confirmen o contradigan ese valor, sin asumir automáticamente que es un error."
+        },
+        "learning_focus": "Formular hipótesis y evaluar la evidencia para interpretar datos experimentales en ciencias naturales.",
+        "option_explanations": [],
+        "pair_explanations": [],
+        "rubric": "La respuesta debe explicar una estrategia para comparar el dato extraño con las otras mediciones y el entorno del experimento, proponer verificar el termómetro, repetir la medición, o consultar condiciones y registrar observaciones que confirmen o contradigan ese valor, sin asumir automáticamente que es un error.",
+        "hint": "Observa que la temperatura 62 °C es muy diferente a las otras tres, que están cerca. ¿Qué pasos seguirías para verificar si este valor se debe a un error o a un cambio real, antes de descartarlo?",
+        "explanation": "La medición de 62 °C es notablemente distinta y puede indicar un error, pero descartarla sin verificar es apresurado. Se recomienda repetir la medición, verificar el funcionamiento del termómetro, y revisar las condiciones del ambiente para valorar si el cambio es plausible o un error. Así se asegura la confiabilidad del experimento.",
+        "dimension": "comprension",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "¿Cómo funciona ciencias_naturales?",
+          "concept": "ciencias_naturales",
+          "learning_goal": "Formulo hipótesis sobre las causas de extinción de un grupo taxonómico."
+        },
+        "grade_group": "6-7",
+        "expires_at": 1794051180989
+      }
+    },
+    {
+      "slot": 7,
+      "seconds": 5.396,
+      "activity": {
+        "id": "4fc2a299-69cd-4474-8f6e-ecf8c1707e2a",
+        "step_id": "9ecfaf81-ba0b-49a7-a165-a05e05031ecf",
+        "question": "En una huerta escolar se observó que una sola planta tiene hojas manchadas durante un control rutinario. No se ha revisado el suelo, la cantidad de agua que recibe, la especie de la planta, ni la presencia de plagas u otros organismos. \n\n¿Con cuál de estas afirmaciones estarías de acuerdo si quieres asegurar que la conclusión sobre la condición de todas las plantas sea válida? Selecciona todas las que son correctas.",
+        "type": "multiple_select",
+        "options": [
+          "Se puede concluir que todas las plantas de la huerta están enfermas por la hoja manchada en una sola planta.",
+          "Es necesaria observar varias plantas para determinar si más están enfermas o no.",
+          "Es importante investigar si las manchas en las hojas se deben a factores del suelo, riego o plagas.",
+          "No se requiere más evidencia si la planta con manchas es la más visible en la huerta."
+        ],
+        "cognitive_dimension": "razonamiento",
+        "source": "generated",
+        "notice": null,
+        "visual_template_key": null
+      },
+      "payload": {
+        "version": 1,
+        "activity_id": "4fc2a299-69cd-4474-8f6e-ecf8c1707e2a",
+        "user_id": "synthetic",
+        "module_id": "952d7980-af13-411a-b1e0-d03a72b1f863",
+        "step_id": "9ecfaf81-ba0b-49a7-a165-a05e05031ecf",
+        "question": "En una huerta escolar se observó que una sola planta tiene hojas manchadas durante un control rutinario. No se ha revisado el suelo, la cantidad de agua que recibe, la especie de la planta, ni la presencia de plagas u otros organismos. \n\n¿Con cuál de estas afirmaciones estarías de acuerdo si quieres asegurar que la conclusión sobre la condición de todas las plantas sea válida? Selecciona todas las que son correctas.",
+        "type": "multiple_select",
+        "options": [
+          "Se puede concluir que todas las plantas de la huerta están enfermas por la hoja manchada en una sola planta.",
+          "Es necesaria observar varias plantas para determinar si más están enfermas o no.",
+          "Es importante investigar si las manchas en las hojas se deben a factores del suelo, riego o plagas.",
+          "No se requiere más evidencia si la planta con manchas es la más visible en la huerta."
+        ],
+        "expected": {
+          "type": "multiple_select",
+          "correct_options": [
+            1,
+            2
+          ]
+        },
+        "learning_focus": "Formulo hipótesis sobre las causas de extinción de un grupo taxonómico en un contexto de evaluación experimental.",
+        "option_explanations": [
+          "Esta afirmación es incorrecta porque basarse en una sola planta manchada no justifica que todas estén enfermas.",
+          "Correcto, para identificar si es un problema generalizado es necesario observar más plantas.",
+          "Correcto, para comprender la causa de las manchas hay que estudiar condiciones como suelo, agua y presencia de plagas.",
+          "Incorrecto, la visibilidad de la planta no es suficiente para hacer generalizaciones sobre todas las plantas."
+        ],
+        "pair_explanations": [],
+        "rubric": "Se acepta cualquier selección que reconozca que la observación de una sola planta no basta para concluir que todas están enfermas y que se necesita más evidencia sobre otras plantas, condiciones ambientales o factores que afectan salud.",
+        "hint": "Piensa si con observar sólo una planta manchada puedes decir que la huerta completa está enferma. ¿Qué información te falta para saber más?",
+        "explanation": "Para concluir que todas las plantas de la huerta están enfermas se necesita observar varias plantas y estudiar factores ambientales y biológicos. Observar sólo una planta con hojas manchadas no es suficiente para generalizar a toda la huerta.",
+        "dimension": "razonamiento",
+        "notice": null,
+        "visual_template_key": null,
+        "source": "generated",
+        "subject": "natural_sciences",
+        "support_context": {
+          "topic": "¿Cómo funciona ciencias_naturales?",
+          "concept": "ciencias_naturales",
+          "learning_goal": "Formulo hipótesis sobre las causas de extinción de un grupo taxonómico."
+        },
+        "grade_group": "6-7",
+        "expires_at": 1794051186386
+      }
+    },
+    {
+      "slot": 8,
+      "seconds": 22.01,
+      "error": 503,
+      "reason": "Request was aborted."
+    }
+  ],
+  "traces": [
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"Se midió la cantidad de agua que absorbían dos tipos de papel, A y B, bajo las mismas condiciones. Se registraron los siguientes datos:\\n\\n| Trozo de papel | Cantidad de agua absorbida (ml) |\\n|----------------|--------------------------------|\\n| A1             | 8                              |\\n| A2             | 9                              |\\n| A3             | 8                              |\\n| B1             | 5                              |\\n| B2             | 6                              |\\n| B3             | 5                              |\\n\\nLos trozos son del mismo tamaño, el volumen inicial de agua y el tiempo de contacto fueron iguales para ambos. No se sabe qué materiales tiene cada tipo de papel.\\n\\n¿Cuál de estas preguntas sería una pregunta comprobable sobre la absorción de agua en los papeles, es decir, puede responderse con observación y datos como los dados?\",\"type\":\"option\",\"rubric\":\"Evalúa si la pregunta propuesta puede responderse con observación y medición directa usando los datos o datos similares del experimento. Se acepta cualquier pregunta que plantee una causa o diferencia comprobable entre papeles A y B, o en relación con la absorción de agua, basada en datos. No se aceptan preguntas basadas en opiniones, preferencias o especulaciones sin datos verificables.\",\"hint\":\"Piensa en preguntas que puedas responder con datos del experimento, no en opiniones o suposiciones que no se pueden medir con estos datos.\",\"explanation\":\"Una pregunta comprobable debe poder ser respondida mediante la observación o medición, como las cantidades de agua absorbida. Preguntas que son opiniones o suposiciones no son comprobables con este experimento. Por ejemplo, preguntar cuál papel absorbe más agua es comprobable, mientras que cuál papel es más bonito no lo es.\",\"learning_focus\":\"Formulo hipótesis comprobables a partir de evidencia experimental sobre absorción de agua en papeles.\",\"options\":[\"¿Cuál tipo de papel absorbió más agua bajo estas condiciones?\",\"¿Cuál papel es más bonito para escribir?\",\"¿Por qué el papel B absorbe menos agua que el papel A?\",\"¿Qué opina la gente sobre la textura de los papeles?\"],\"option_explanations\":[\"Esta pregunta puede responderse con los datos de absorción de agua que tenemos; es comprobable.\",\"Esta pregunta es una opinión y no puede responderse con los datos del experimento.\",\"Esta es una pregunta sobre causa que puede formularse como hipótesis para investigar, pero el dato dado no permite responderla aún, por lo que no es comprobable con estos datos solamente.\",\"Esta pregunta es una opinión social y no se puede responder con datos experimentales sobre absorción de agua.\"],\"correct_index\":0}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"La pregunta comprobable debe poder responderse con los datos dados. La opción 0 \\\"¿Cuál tipo de papel absorbió más agua bajo estas condiciones?\\\" es comprobable porque los datos muestran claramente que el papel A absorbió más agua (promedio 8.3 ml) que el papel B (promedio 5.3 ml). La opción 1 es opinión, no comprobable. La opción 2 plantea una causa, pero no puede responderse solo con estos datos, pues no se conoce la composición ni se hicieron pruebas adicionales. La opción 3 es opinión social, no comprobable. Por tanto, solo la opción 0 es correcta y la clave es adecuada.\",\"approved\":true,\"issue\":\"\"}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"Un grupo de estudiantes investigó cómo diferentes tipos de suelo afectan el recorrido de un carrito que baja por una rampa. Para esto, usaron el mismo carrito y la misma rampa y midieron la distancia que recorrió el carrito sobre dos superficies distintas:\\n\\n| Superficie | Recorridos medidos (cm) |\\n|------------|-------------------------|\\n| Liso       | 80, 82, 81              |\\n| Rugoso     | 42, 40, 41              |\\n\\nEl grupo quiere comparar cuánto cambia el recorrido según la superficie, manteniendo solo la variable \\\"tipo de superficie\\\" y controlando las demás. \\n\\nPara asegurar que la comparación sea válida, ¿qué factores deben mantenerse exactamente igual al cambiar la superficie del suelo? Explica por qué.\",\"type\":\"text\",\"rubric\":\"La respuesta debe mencionar que para comparar solo el efecto de la superficie, se deben mantener constantes el carrito usado, la rampa (su altura y posición), la fuerza o modo de soltar el carrito y el mismo procedimiento de medición. Se acepta explicaciones que conecten mantener constantes estas variables con evitar que influyan en la distancia recorrida, permitiendo atribuir diferencias solo al tipo de superficie.\",\"hint\":\"Piensa en qué cosas pueden modificar la distancia que recorre el carrito aparte de la superficie del suelo. ¿Cuál es la idea de \\\"mantener constante\\\" una variable para comparar solo una cosa?\",\"explanation\":\"Para comparar el efecto de un solo factor (tipo de superficie) sobre la distancia recorrida, se deben mantener iguales todos los demás factores, como el carrito, la altura y el ángulo de la rampa, y la forma de dejarlo avanzar. Así se evita que elementos distintos hagan variar la distancia, y se asegura que la diferencia observada se deba a la superficie.\",\"learning_focus\":\"Formular hipótesis y diseñar comparaciones controladas que permitan identificar las causas de un cambio en el desplazamiento de un objeto.\",\"expected_text\":\"Para que la comparación sea válida, deben mantenerse iguales el carrito utilizado, la rampa (altura y ángulo), la forma y fuerza con que se deja caer el carrito y los métodos para medir la distancia; así solo cambia la superficie y se puede atribuir la diferencia en el recorrido a ese factor.\"}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"La actividad pide explicar qué factores deben mantenerse iguales para comparar solo el efecto del tipo de superficie en el recorrido del carrito. Los datos muestran que con superficie lisa el carrito recorre alrededor de 81 cm y con rugosa alrededor de 41 cm. Para que esta comparación sea válida, deben mantenerse constantes el carrito, la rampa (altura y ángulo), la forma y fuerza con que se suelta el carrito y el método de medición. Esto evita que otras variables influyan en la distancia y permite atribuir la diferencia solo al tipo de superficie. La clave y la rúbrica coinciden con esta explicación. La actividad es autocontenida, con datos simulados claros y un contexto adecuado. La tarea es razonamiento y formulación de hipótesis sobre causas, acorde al objetivo.\",\"approved\":true,\"issue\":\"\"}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"En un estudio simulado sobre el crecimiento de plantas, hay dos grupos de plantas de la misma especie que reciben la misma cantidad de agua, están en macetas iguales y con el mismo tipo de suelo. El grupo A recibe 6 horas diarias de luz y el grupo B recibe 3 horas diarias de luz. Hasta ahora no se ha registrado la altura inicial de las plantas ni hay datos de crecimiento.\\n\\n| Grupo | Horas de luz diaria | Agua | Maceta | Suelo |\\n|-------|---------------------|------|--------|-------|\\n| A     | 6                   | Igual| Igual  | Igual |\\n| B     | 3                   | Igual| Igual  | Igual |\\n\\n¿Cuáles de estas afirmaciones ayudan a representar correctamente la información que se tiene y lo necesario para comparar el crecimiento de ambos grupos?\\nSelecciona todas las que son adecuadas.\",\"type\":\"multiple_select\",\"rubric\":\"Se considera correcto seleccionar todas las afirmaciones que reconocen la falta de dato de altura inicial y que comprenden que sin este dato no se puede comparar el crecimiento. Además, se deben incluir afirmaciones que describan adecuadamente las condiciones iguales para ambos grupos y la variable diferente (horas de luz). No se consideran correctas afirmaciones que inventen datos de crecimiento que no fueron registrados o que ignoren la necesidad de la altura inicial.\",\"hint\":\"¿Qué información es indispensable para comparar el crecimiento si las condiciones son iguales salvo el tiempo de luz? ¿Cómo organizarías estos datos para entender qué falta?\",\"explanation\":\"Para comparar el crecimiento correctamente, es necesario tener la altura inicial de las plantas para calcular cuánto crecieron. Las condiciones controladas se describen bien: misma agua, maceta y suelo, con condiciones diferentes solo en las horas de luz. Por lo tanto, las afirmaciones correctas reconocen estas observaciones y la necesidad de medir la altura inicial antes del crecimiento.\",\"learning_focus\":\"representación: interpretar y organizar información experimental para identificar datos faltantes en un caso simulado.\",\"options\":[\"El dato más importante que falta es la altura inicial de las plantas para poder comparar el crecimiento.\",\"Para representar los datos se debe incluir que ambas plantas tienen la misma cantidad de agua, maceta y suelo.\",\"Es correcto incluir en la tabla que el grupo A tiene 6 horas de luz y el grupo B 3 horas, ya que esta es la variable que cambia.\",\"Podemos asumir que el grupo A creció más porque recibe más luz, aunque no hay datos de crecimiento.\"],\"option_explanations\":[\"La altura inicial es necesaria para calcular el cambio en crecimiento y comparar entre grupos.\",\"Es importante representar las condiciones iguales para entender que solo cambia la cantidad de luz.\",\"Identificar la variable diferente (horas de luz) es clave para organizar la información y representar el caso.\",\"No se debe asumir resultados sin datos, esa afirmación es incorrecta para representación precisa.\"],\"correct_indices\":[0,1,2]}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"El enunciado presenta dos grupos de plantas con condiciones iguales salvo las horas de luz (6 y 3 horas). No se registró la altura inicial ni datos de crecimiento. Para comparar crecimiento, es indispensable conocer la altura inicial para calcular la diferencia. Las afirmaciones correctas son: 0) falta altura inicial, 1) condiciones iguales de agua, maceta y suelo, y 2) variable diferente es horas de luz. La opción 3) asume un crecimiento mayor sin datos, lo cual no es correcto. La clave correcta es [0,1,2], que coincide con la clave dada. Las justificaciones son coherentes con el objetivo y la dimensión de representación.\",\"approved\":true,\"issue\":\"\"}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"En el colegio, un equipo diseñó un experimento para medir si los sonidos en el patio se escuchan con la misma claridad a 2, 4 y 6 metros de la fuente sonora. Para esto, anotaron si escuchaban el sonido o no a cada distancia, pero cambiaron al mismo tiempo la distancia y el volumen del sonido, sin registrar los datos aún.\\n\\n| Distancia (m) | Volumen del sonido (decibeles) |\\n|---------------|-------------------------------|\\n| 2             | 70                            |\\n| 4             | 60                            |\\n| 6             | 50                            |\\n\\n¿Por qué este diseño no permite saber si la claridad del sonido cambia por la distancia o por el volumen?\\n¿Y qué cambio deberían hacer para poder saberlo? Relaciona cada afirmación con su explicación correspondiente.\",\"type\":\"matching\",\"rubric\":\"Se evalúa si el estudiante identifica correctamente la imposibilidad de atribuir el resultado a una sola variable debido a que cambian dos a la vez y propone que se debe cambiar solo una variable a la vez para compararla. Se aceptan explicaciones claras y coherentes que expliquen la necesidad de controlar variables para formar conclusiones válidas.\",\"hint\":\"Piensa qué está cambiando en cada medición y cómo eso puede afectar el resultado. ¿Podrías saber qué variable causa el cambio si ambas cambian juntas?\",\"explanation\":\"El diseño cambia simultáneamente distancia y volumen, por lo que no es posible saber cuál causa la diferencia en la claridad del sonido. Para concluir, se debe variar solo una variable mientras la otra se mantiene fija, por ejemplo, medir claridad a diferentes distancias con el mismo volumen, o medir con diferentes volúmenes a la misma distancia.\",\"learning_focus\":\"Detectar la importancia de controlar variables para formular hipótesis comprobables en ciencias naturales.\",\"left_items\":[\"No se puede saber si cambia la claridad por distancia o por volumen porque ambas variables cambian juntas.\",\"Para saber cómo afecta la distancia, deben medir la claridad variando la distancia y manteniendo igual el volumen.\",\"El resultado es confuso porque las dos variables (distancia y volumen) no están controladas por separado en el experimento.\"],\"right_items\":[\"Si cambian dos variables a la vez, no se puede saber cuál afecta el resultado.\",\"Para comparar un efecto respetable, solo una variable debe cambiar mientras las otras se mantienen constantes.\",\"La claridad de sonido puede depender de ambas variables, por eso se necesita controlar para identificar el efecto individual.\"],\"correct_pairs\":[[0,0],[1,1],[2,2]],\"pair_explanations\":[\"Cuando cambian distancia y volumen juntos, no sabemos cuál causa el cambio en claridad.\",\"Para observar el efecto exclusivo de la distancia, el volumen debe mantenerse fijo en todas las pruebas.\",\"Ambas variables pueden influir en el sonido; controlar permite separar sus efectos y aclarar las causas.\"]}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"El diseño cambia simultáneamente distancia y volumen, por lo que no se puede atribuir el cambio en claridad a una sola variable. Para saber el efecto de la distancia, se debe variar solo la distancia manteniendo el volumen constante. Las afirmaciones del enunciado y las explicaciones coinciden correctamente: 1) no se puede saber qué variable afecta porque ambas cambian juntas; 2) para medir el efecto de la distancia, el volumen debe mantenerse igual; 3) el resultado es confuso porque no se controlan variables por separado. La clave correct_pairs=[[0,0],[1,1],[2,2]] es correcta y las justificaciones son coherentes con el objetivo de controlar variables para formular hipótesis comprobables.\",\"approved\":true,\"issue\":\"\"}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"En un experimento para investigar la causa de la extinción de un grupo de semillas de la misma especie, se planea regar dos grupos de semillas con cantidades distintas de agua (grupo 1 con 50 ml y grupo 2 con 100 ml por día). Ambas están expuestas a la misma luz, temperatura y tipo de sustrato. Todavía no se ha hecho la observación de las semillas.\\n\\n¿Cuál es la mejor forma de planificar y revisar la estrategia para que las conclusiones sean confiables, evitándose errores comunes?\",\"type\":\"option\",\"rubric\":\"Se evalúa si la respuesta identifica correctamente una estrategia para controlar variables y evitar errores comunes en el experimento, demostrando comprensión metacognitiva sin confundir etapas del método científico.\",\"hint\":\"Piensa qué se debe mantener igual para que el cambio de agua sea la única causa que afecte la supervivencia o extinción. Revisa qué errores podrían afectar la conclusión y cómo evitarlos.\",\"explanation\":\"Para obtener conclusiones confiables, se debe mantener iguales todas las condiciones excepto la cantidad de agua y controlar que no haya otras variables influyendo. También es importante diferenciar entre hipótesis, predicción y observación, y prever cómo registrar los resultados para evitar errores en la interpretación.\",\"learning_focus\":\"Planificación y revisión crítica de una estrategia experimental para estudiar la causa de extinción en semillas.\",\"options\":[\"Mantener iguales todas las condiciones, excepto la cantidad de agua, y registrar cuidadosamente la supervivencia para comparar ambos grupos.\",\"Cambiar la cantidad de agua y la temperatura al mismo tiempo para comparar más factores y tener resultados más completos.\",\"No controlar variables como la luz o el tipo de suelo para simplificar el experimento y hacerlo más rápido.\",\"Presentar la cantidad de agua que se usará como resultado final, sin hacer observaciones posteriores.\"],\"option_explanations\":[\"Esta opción muestra un buen control de variables y una estrategia adecuada para que las conclusiones sean válidas.\",\"Cambiar varias variables dificulta saber cuál causa la diferencia, no es útil para sacar conclusiones claras.\",\"No controlar variables puede generar confusión y errores, afectando la validez de los resultados.\",\"Confundir la predicción con el resultado impide interpretar correctamente el experimento y no corresponde a una planificación adecuada.\"],\"correct_index\":0}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"El enunciado plantea un experimento con dos grupos de semillas con diferente cantidad de agua, manteniendo luz, temperatura y sustrato iguales. La tarea es identificar la mejor estrategia para obtener conclusiones confiables, evitando errores comunes. La opción 0 propone mantener iguales todas las condiciones excepto la cantidad de agua y registrar cuidadosamente la supervivencia, lo cual es correcto para controlar variables y obtener conclusiones válidas. La opción 1 sugiere cambiar agua y temperatura simultáneamente, lo que impide identificar la causa del efecto. La opción 2 propone no controlar variables, lo que genera confusión. La opción 3 confunde predicción con resultado, lo que es incorrecto. Por tanto, la clave correcta es la opción 0, que coincide con correct_index=0 y sus justificaciones.\",\"approved\":true,\"issue\":\"\"}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"En un experimento para estudiar la consistencia en la medición de temperatura de una misma muestra, se registraron estos valores usando el mismo termómetro y procedimiento:\\n\\n| Medición | Temperatura (°C) |\\n|----------|------------------|\\n| 1        | 22               |\\n| 2        | 23               |\\n| 3        | 22               |\\n| 4        | 62               |\\n\\nNo se hizo calentamiento deliberado entre mediciones y no se ha verificado si el valor 62 °C es un error de lectura.\\n\\n¿De qué manera podrías decidir si la medición de 62 °C es incorrecta sin borrarla automáticamente? Describe cómo revisarías el procedimiento y qué criterios usarías para aceptar o rechazar ese dato.\",\"type\":\"text\",\"rubric\":\"La respuesta debe explicar una estrategia para comparar el dato extraño con las otras mediciones y el entorno del experimento, proponer verificar el termómetro, repetir la medición, o consultar condiciones y registrar observaciones que confirmen o contradigan ese valor, sin asumir automáticamente que es un error.\",\"hint\":\"Observa que la temperatura 62 °C es muy diferente a las otras tres, que están cerca. ¿Qué pasos seguirías para verificar si este valor se debe a un error o a un cambio real, antes de descartarlo?\",\"explanation\":\"La medición de 62 °C es notablemente distinta y puede indicar un error, pero descartarla sin verificar es apresurado. Se recomienda repetir la medición, verificar el funcionamiento del termómetro, y revisar las condiciones del ambiente para valorar si el cambio es plausible o un error. Así se asegura la confiabilidad del experimento.\",\"learning_focus\":\"Formular hipótesis y evaluar la evidencia para interpretar datos experimentales en ciencias naturales.\",\"expected_text\":\"Una forma adecuada es comparar el valor 62 °C con las demás mediciones cercanas a 22 °C para ver si es coherente. Luego, se debe repetir la medición en el mismo momento o bajo las mismas condiciones para ver si se repite el valor alto. Además, revisar si el termómetro está funcionando correctamente, buscando daños o calibrándolo. También es importante verificar si hubo algún cambio externo inesperado (como una fuente de calor cercana) que pueda explicar la temperatura alta. No se debe borrar el dato automáticamente sin esta revisión; en cambio, hay que reportar el hallazgo y las acciones para confirmar si es correcto o error.\"}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"El valor 62 °C es claramente discrepante respecto a las otras mediciones (22, 23, 22 °C). Para decidir si es incorrecto sin borrarlo, se debe repetir la medición bajo las mismas condiciones para verificar si se repite el valor alto. También conviene revisar el termómetro para detectar fallas o calibrarlo. Además, se debe investigar si hubo alguna fuente externa de calor que explique el aumento. Solo si tras estas verificaciones el valor no se confirma, se puede considerar error. La clave pide describir una estrategia de revisión y criterios para aceptar o rechazar el dato, lo cual es coherente con el enunciado y la rúbrica. No hay opciones ni pares, es respuesta abierta, por lo que no hay claves que contrastar.\",\"approved\":true,\"issue\":\"\"}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"En una huerta escolar se observó que una sola planta tiene hojas manchadas durante un control rutinario. No se ha revisado el suelo, la cantidad de agua que recibe, la especie de la planta, ni la presencia de plagas u otros organismos. \\n\\n¿Con cuál de estas afirmaciones estarías de acuerdo si quieres asegurar que la conclusión sobre la condición de todas las plantas sea válida? Selecciona todas las que son correctas.\",\"type\":\"multiple_select\",\"rubric\":\"Se acepta cualquier selección que reconozca que la observación de una sola planta no basta para concluir que todas están enfermas y que se necesita más evidencia sobre otras plantas, condiciones ambientales o factores que afectan salud.\",\"hint\":\"Piensa si con observar sólo una planta manchada puedes decir que la huerta completa está enferma. ¿Qué información te falta para saber más?\",\"explanation\":\"Para concluir que todas las plantas de la huerta están enfermas se necesita observar varias plantas y estudiar factores ambientales y biológicos. Observar sólo una planta con hojas manchadas no es suficiente para generalizar a toda la huerta.\",\"learning_focus\":\"Formulo hipótesis sobre las causas de extinción de un grupo taxonómico en un contexto de evaluación experimental.\",\"options\":[\"Se puede concluir que todas las plantas de la huerta están enfermas por la hoja manchada en una sola planta.\",\"Es necesaria observar varias plantas para determinar si más están enfermas o no.\",\"Es importante investigar si las manchas en las hojas se deben a factores del suelo, riego o plagas.\",\"No se requiere más evidencia si la planta con manchas es la más visible en la huerta.\"],\"option_explanations\":[\"Esta afirmación es incorrecta porque basarse en una sola planta manchada no justifica que todas estén enfermas.\",\"Correcto, para identificar si es un problema generalizado es necesario observar más plantas.\",\"Correcto, para comprender la causa de las manchas hay que estudiar condiciones como suelo, agua y presencia de plagas.\",\"Incorrecto, la visibilidad de la planta no es suficiente para hacer generalizaciones sobre todas las plantas.\"],\"correct_indices\":[1,2]}}"
+    },
+    {
+      "schema": "kuneo_activity_review",
+      "response": "{\"verification\":\"La observación de una sola planta con hojas manchadas no permite concluir que todas las plantas de la huerta estén enfermas, pues no se ha estudiado ni el suelo, ni el riego, ni la especie, ni la presencia de plagas. Por tanto, es correcto afirmar que se necesita observar varias plantas para determinar si más están enfermas y que es importante investigar factores ambientales y biológicos que puedan causar las manchas. No es válido concluir que todas están enfermas ni que no se requiere más evidencia solo porque la planta manchada sea la más visible. Las opciones 1 y 3 son incorrectas, las opciones 2 y 3 son correctas. La clave correcta es [1,2], que coincide con la clave dada.\",\"approved\":true,\"issue\":\"\"}"
+    },
+    {
+      "schema": "kuneo_activity",
+      "response": "{\"activity\":{\"question\":\"En un experimento para estudiar la evolución del tamaño de una planta, se anotaron dos versiones diferentes del cuaderno de observación con las siguientes medidas del mismo día:\\n\\n| Versión del cuaderno | Medida de la planta (cm) |\\n|---------------------|--------------------------|\\n| Inicial             | 12                       |\\n| Corregida           | 21                       |\\n\\nNo hay fecha ni nombre del investigador que corrigió la medida, ni explicación sobre el motivo del cambio. Por eso, no se sabe cuál es la medida correcta.\\n\\nRelaciona cada recomendación con su explicación para hacer una revisión clara y confiable de los registros experimentales.\",\"type\":\"matching\",\"rubric\":\"Evalúa si el estudiante asocia correctamente cada recomendación con su explicación lógica sobre cómo garantizar la trazabilidad y veracidad de los datos en un registro científico. Acepta respuestas que relacionen adecuadamente la transparencia, el registro cronológico, la identificación de autores y el respaldo documental.\",\"hint\":\"Piensa en por qué es importante saber quién hizo cada registro, cuándo y por qué se cambió, para confiar en los datos del experimento.\",\"explanation\":\"Para revisar de forma confiable un registro es necesario que cada cambio esté identificado con fecha y autor, y que se justifique el motivo, garantizando transparencia y trazabilidad. Sin esta información no se puede saber si la corrección es valida.\",\"learning_focus\":\"representacion\",\"left_items\":[\"Registrar la fecha y hora de cada anotación y corrección\",\"Anotar el nombre del responsable de cada registro y su revisión\",\"Indicar claramente el motivo y la fuente de cualquier corrección hecha al dato original  \\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n"
+    }
+  ],
+  "source": {
+    "moduleId": "952d7980-af13-411a-b1e0-d03a72b1f863",
+    "stepId": "9ecfaf81-ba0b-49a7-a165-a05e05031ecf",
+    "objective": "Formulo hipótesis sobre las causas de extinción de un grupo taxonómico.",
+    "grade": 7
+  }
+}

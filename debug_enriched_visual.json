@@ -1,0 +1,241 @@
+{
+  "version": "0.1",
+  "source": "openai_enrichment",
+  "pedagogical_visual": {
+    "caption": "Este diagrama ilustra cómo la energía se transforma de una forma a otra, permitiendo entender los procesos energéticos en la naturaleza.",
+    "main_question": "¿Cómo se transforma la energía en diferentes procesos?",
+    "student_focus": "Observa cómo cada tipo de energía se convierte en otra y los ejemplos asociados.",
+    "accessibility_text": "Diagrama de proceso que muestra la transformación de energía. Incluye diferentes tipos de energía como energía solar, cinética y térmica, y sus interacciones. Cada flecha indica la dirección de la transformación."
+  },
+  "labels": {
+    "title": "Transformaciones de Energía",
+    "elements": [
+      {
+        "element_id": "solar_energy",
+        "label": "Energía Solar",
+        "purpose": "Indica el inicio del proceso de transformación de energía."
+      },
+      {
+        "element_id": "kinetic_energy",
+        "label": "Energía Cinética",
+        "purpose": "Muestra cómo la energía solar se convierte en energía en movimiento."
+      },
+      {
+        "element_id": "thermal_energy",
+        "label": "Energía Térmica",
+        "purpose": "Representa la energía generada por el movimiento, como el calor."
+      }
+    ],
+    "legend": []
+  },
+  "overlays": {
+    "explanation": [
+      {
+        "overlay_id": "energy_transformation_overview",
+        "target": "solar_energy",
+        "visual_action": "highlight",
+        "message": "La energía solar es la fuente inicial de energía en este proceso.",
+        "position": "top"
+      }
+    ],
+    "misconception": [
+      {
+        "misconception_key": "energy_conservation",
+        "target": "kinetic_energy",
+        "visual_action": "compare",
+        "message": "Algunos piensan que la energía se pierde en la transformación. En realidad, se conserva y cambia de forma.",
+        "card_variant": "corrective"
+      },
+      {
+        "misconception_key": "thermal_energy_source",
+        "target": "thermal_energy",
+        "visual_action": "highlight",
+        "message": "Es un error pensar que la energía térmica no proviene del movimiento. El calor es resultado de la energía cinética.",
+        "card_variant": "corrective"
+      },
+      {
+        "misconception_key": "energy_types",
+        "target": "solar_energy",
+        "visual_action": "dim",
+        "message": "No todas las energías son iguales. La energía solar tiene características únicas que la diferencian de la energía cinética.",
+        "card_variant": "basic"
+      }
+    ],
+    "hint": [
+      {
+        "overlay_id": "energy_conversion_hint",
+        "target": "kinetic_energy",
+        "visual_action": "annotate",
+        "message": "Piensa en ejemplos de cómo la energía solar se convierte en energía en movimiento.",
+        "position": "right"
+      }
+    ],
+    "corrective": [
+      {
+        "overlay_id": "correct_energy_flow",
+        "target": "thermal_energy",
+        "visual_action": "connect",
+        "message": "Observa cómo la energía cinética se conecta con la energía térmica, mostrando la transformación.",
+        "position": "center"
+      }
+    ]
+  },
+  "animation_steps": [
+    {
+      "step": 1,
+      "action": "show",
+      "target": "solar_energy",
+      "caption": "Comenzamos con la energía solar, la fuente inicial de energía.",
+      "duration_ms": 500
+    },
+    {
+      "step": 2,
+      "action": "highlight",
+      "target": "solar_energy",
+      "caption": "La energía solar es esencial para el proceso de transformación.",
+      "duration_ms": 300
+    },
+    {
+      "step": 3,
+      "action": "move",
+      "target": "kinetic_energy",
+      "caption": "Observa cómo la energía solar se convierte en energía cinética.",
+      "duration_ms": 700
+    },
+    {
+      "step": 4,
+      "action": "compare",
+      "target": "kinetic_energy",
+      "caption": "La energía cinética es el movimiento generado por la energía solar.",
+      "duration_ms": 600
+    },
+    {
+      "step": 5,
+      "action": "highlight",
+      "target": "thermal_energy",
+      "caption": "La energía cinética se transforma en energía térmica, generando calor.",
+      "duration_ms": 400
+    },
+    {
+      "step": 6,
+      "action": "connect",
+      "target": "thermal_energy",
+      "caption": "Observa la conexión entre la energía cinética y la energía térmica.",
+      "duration_ms": 500
+    },
+    {
+      "step": 7,
+      "action": "reveal",
+      "target": "thermal_energy",
+      "caption": "Así se completa el ciclo de transformación de energía.",
+      "duration_ms": 800
+    }
+  ],
+  "interaction_rules": {
+    "hover": [
+      {
+        "target": "solar_energy",
+        "action": "highlight",
+        "feedback": "Energía que proviene del sol.",
+        "conditions": null
+      },
+      {
+        "target": "kinetic_energy",
+        "action": "highlight",
+        "feedback": "Energía en movimiento.",
+        "conditions": null
+      },
+      {
+        "target": "thermal_energy",
+        "action": "highlight",
+        "feedback": "Energía relacionada con el calor.",
+        "conditions": null
+      }
+    ],
+    "click": [
+      {
+        "target": "solar_energy",
+        "action": "reveal",
+        "feedback": "La energía solar se convierte en energía cinética.",
+        "conditions": null
+      },
+      {
+        "target": "kinetic_energy",
+        "action": "reveal",
+        "feedback": "La energía cinética puede transformarse en energía térmica.",
+        "conditions": null
+      }
+    ],
+    "drag": [
+      {
+        "target": "energy_transformation",
+        "action": "compare",
+        "feedback": "Arrastra para comparar diferentes transformaciones de energía.",
+        "conditions": null
+      }
+    ],
+    "slider": [],
+    "fallback_static": "Interacciones no disponibles en este momento."
+  },
+  "usage_by_card_type": {
+    "basic": {
+      "recommended_overlays": [],
+      "recommended_animations": [
+        1,
+        2
+      ],
+      "emphasis": "visual",
+      "interaction_level": "passive"
+    },
+    "hint": {
+      "recommended_overlays": [
+        "highlight"
+      ],
+      "recommended_animations": [
+        1
+      ],
+      "emphasis": "supportive",
+      "interaction_level": "guided"
+    },
+    "corrective": {
+      "recommended_overlays": [
+        "compare"
+      ],
+      "recommended_animations": [
+        1,
+        2
+      ],
+      "emphasis": "diagnostic",
+      "interaction_level": "guided"
+    },
+    "reflective": {
+      "recommended_overlays": [
+        "annotate"
+      ],
+      "recommended_animations": [
+        1
+      ],
+      "emphasis": "thought-provoking",
+      "interaction_level": "exploratory"
+    },
+    "deepening": {
+      "recommended_overlays": [
+        "connect"
+      ],
+      "recommended_animations": [
+        1,
+        2,
+        3
+      ],
+      "emphasis": "in-depth",
+      "interaction_level": "full"
+    }
+  },
+  "metadata": {
+    "model": "gpt-4o-mini",
+    "enriched_at": "2026-05-16T02:33:52.991691+00:00",
+    "template_key": "energy_transformation",
+    "renderer": "react_flow",
+    "visual_type": "process_diagram"
+  }
+}

@@ -1,0 +1,2200 @@
+[
+  {
+    "module_id": "2a4657a2-d44f-40d2-87ac-860771ddee89",
+    "source_unit_id": "d81669b0-77da-4a8c-b955-a32dfb666b33",
+    "source": "dba",
+    "subject": "mathematics",
+    "grade_range": "6",
+    "difficulty": 3,
+    "title": "¿Cómo entender fracciones?",
+    "learning_objective": "Interpreta los números enteros y racionales (en sus representaciones de fracción y de decimal) con sus operaciones, en diferentes contextos, al resolver problemas de variación, repartos, articiones, estimaciones, etc. Reconoce y establece diferentes relaciones (de orden y equivalencia y las utiliza para argumentar procedimientos).",
+    "context": "En una competencia de autos a tres vueltas, el tiempo (en minutos) de cada vuelta se registró en la siguiente tabla. descripcion: tiempo de vuelta en minutos, registrados para tres tipos de autos. ['Describa los posibles caminos que tendría en cuenta para construir esferas cuya razón entre sus diámetros sea √5.'] ['Finalizada la segunda vuelta se dan 10 puntos de bonificación en la clasificación general a quien vaya de líder y 5 puntos a quien vaya de segundo.', 'Al ganador de la competencia le dan 20 puntos, al segundo 10 puntos y al tercero 5 puntos.'] ['a) Escribe cómo se distribuyen los puntos al finalizar la segunda vuelta y al finalizar la carrera.']",
+    "core_concept": "fracciones",
+    "concepts": [
+      "fracciones",
+      "proporcionalidad",
+      "argumentacion",
+      "historia",
+      "lectura_inferencial",
+      "reading"
+    ],
+    "cognitive_type": "representational_thinking",
+    "skills": [
+      "resolver",
+      "comprender",
+      "representar",
+      "interpretar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por fracciones? Explícalo con tus palabras.",
+      "expected_signals": [
+        "fracciones",
+        "proporcionalidad",
+        "argumentacion",
+        "historia",
+        "lectura_inferencial",
+        "reading"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "fc7f1891-46b4-470c-9b1d-26e1e4b42543",
+        "evidence_source": "Resuelve problemas en los que intervienen cantidades positivas y negativas en procesos de comparación, transformación y representación.",
+        "type": "representation",
+        "prompt": "Representa la idea de fracciones usando un esquema, tabla o dibujo mental.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de fracciones.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "representacion",
+          "transferencia"
+        ],
+        "difficulty": 3,
+        "order": 1
+      },
+      {
+        "id": "0303b5e0-7185-4d06-9cd5-455b4d98df35",
+        "evidence_source": "Propone y justifica diferentes estrategias para resolver problemas con números enteros, racionales (en sus representaciones de fracción y de decimal) en contextos escolares y extraescolares.",
+        "type": "representation",
+        "prompt": "Representa la idea de fracciones usando un esquema, tabla o dibujo mental.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de fracciones.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "representacion",
+          "razonamiento"
+        ],
+        "difficulty": 3,
+        "order": 2
+      },
+      {
+        "id": "9411e28d-f8c3-4553-bc53-a8f9a6dd0c48",
+        "evidence_source": "Representa en la recta numérica la posición de un número utilizando diferentes estrategias.",
+        "type": "representation",
+        "prompt": "Representa la idea de fracciones usando un esquema, tabla o dibujo mental.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de fracciones.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "representacion"
+        ],
+        "difficulty": 3,
+        "order": 3
+      },
+      {
+        "id": "234b4351-5b7d-47f9-bc1c-5629e5f9a021",
+        "evidence_source": "Interpreta y justifica cálculos numéricos al solucionar problemas.",
+        "type": "argumentation",
+        "prompt": "Justifica tu respuesta usando evidencia o razones claras.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de fracciones.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "razonamiento"
+        ],
+        "difficulty": 3,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "pensar que una fracción solo representa una parte de un objeto y no una relación",
+        "pattern": "pensar que una fracción solo representa una parte de un objeto y no una relación",
+        "feedback": "Revisemos esta idea: pensar que una fracción solo representa una parte de un objeto y no una relación",
+        "visual": "fraction_part_whole",
+        "intervention_level": 2
+      },
+      "misconception_2": {
+        "description": "creer que la interpretación de un texto es única",
+        "pattern": "creer que la interpretación de un texto es única",
+        "feedback": "Revisemos esta idea: creer que la interpretación de un texto es única",
+        "visual": "fraction_part_whole",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre fracciones?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender fracciones?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "fraction_part_whole",
+        "trigger": "pensar que una fracción solo representa una parte de un objeto y no una relación",
+        "intervention_level": 2
+      },
+      {
+        "error_key": "misconception_2",
+        "visual_template": "fraction_part_whole",
+        "trigger": "creer que la interpretación de un texto es única",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 1
+      }
+    }
+  },
+  {
+    "module_id": "5dc0cf67-d0f6-4212-b388-c6a614799bca",
+    "source_unit_id": "c87b5018-a718-414d-a16e-795e91bbc816",
+    "source": "dba",
+    "subject": "mathematics",
+    "grade_range": "6",
+    "difficulty": 3,
+    "title": "¿Cómo entender fracciones?",
+    "learning_objective": "Utiliza las propiedades de los números enteros y racionales y las propiedades de sus operaciones para proponer estrategias y procedimientos de cálculo en la solución de problemas.",
+    "context": "Un obrero tiene que controlar la cantidad de vapor que hay en la caldera a través de un dispositivo conectado a ella, así como muestra la figura. Por este dispositivo entra vapor que se encarga de mover el corcho. El corcho sube cuando aumenta la cantidad de vapor en la caldera y baja cuando disminuye. Cuando el nivel del vapor en la caldera es el normal el corcho marca exactamente el punto cero. obrero junto a una caldera de vapor que tiene conectado un dispositivo medidor de vapor. ['Para indicar la ubicación del corcho se utilizan números acompañados del signo más (+) o del signo menos (-). Si el corcho está por encima del punto cero su ubicación se representa con un número acompañado del signo más. Si el corcho está por debajo de cero la ubicación del corcho se representa con un número acompañado del signo menos.', 'Los desplazamientos del corcho hacia arriba se representan por números acompañados del signo “+” Los desplazamientos hacia abajo se representan por números acompañados del signo “-”.'] ['Calcula el desplazamiento del corcho si inicialmente está en la raya -23 y después aparece en la raya marcada con -45.']",
+    "core_concept": "fracciones",
+    "concepts": [
+      "fracciones",
+      "argumentacion"
+    ],
+    "cognitive_type": "representational_thinking",
+    "skills": [
+      "comprender",
+      "argumentar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por fracciones? Explícalo con tus palabras.",
+      "expected_signals": [
+        "fracciones",
+        "argumentacion"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "8fde34cd-d21f-4b77-b16d-ad13caf30cae",
+        "evidence_source": "Propone y utiliza diferentes procedimientos para realizar operaciones con números enteros y racionales.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Propone y utiliza diferentes procedimientos para realizar operaciones con números enteros y racionales.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de fracciones.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 1
+      },
+      {
+        "id": "3d2400ff-b61f-4d26-9b61-320ca0ac20db",
+        "evidence_source": "Argumenta de diversas maneras la necesidad de establecer relaciones y características en conjuntos de números (ser par, ser impar, ser primo, ser el doble de, el triple de, la mitad de, etc).",
+        "type": "argumentation",
+        "prompt": "Justifica tu respuesta usando evidencia o razones claras.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de fracciones.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "argumentacion"
+        ],
+        "difficulty": 3,
+        "order": 2
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "fraction_part_whole",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre fracciones?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender fracciones?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "fraction_part_whole",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 2
+      }
+    }
+  },
+  {
+    "module_id": "c81639ab-ff31-442b-8e2d-c88c762f1f71",
+    "source_unit_id": "a534312f-7aee-43ef-a609-cb4cbbdcf560",
+    "source": "dba",
+    "subject": "mathematics",
+    "grade_range": "6",
+    "difficulty": 3,
+    "title": "¿Cómo entender numeros_y_operaciones?",
+    "learning_objective": "Reconoce y establece diferentes relaciones (orden y equivalencia) entre elementos de diversos dominios numéricos y los utiliza para argumentar procedimientos sencillos.",
+    "context": "En la figura se muestra una secuencia de imágenes que ilustran formas de encontrar el valor de x. secuencia de tres formas para encontrar el valor de x en una ecuación. ['Describe diferentes procedimientos o acciones que le permitan conocer el valor de x y pone a prueba esos procedimientos.']",
+    "core_concept": "numeros_y_operaciones",
+    "concepts": [
+      "argumentacion"
+    ],
+    "cognitive_type": "representational_thinking",
+    "skills": [
+      "comprender",
+      "representar",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por numeros_y_operaciones? Explícalo con tus palabras.",
+      "expected_signals": [
+        "argumentacion"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "73a26661-d812-4625-ba01-19ef6ad9032a",
+        "evidence_source": "Determina criterios de comparación para establecer relaciones de orden entre dos o más números.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Determina criterios de comparación para establecer relaciones de orden entre dos o más números.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de numeros_y_operaciones.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 1
+      },
+      {
+        "id": "40d6a07c-93ab-4c60-a0c3-2c7f46b1e9d7",
+        "evidence_source": "Representa en la recta numérica la posición de un número utilizando diferentes estrategias.",
+        "type": "representation",
+        "prompt": "Representa la idea de numeros_y_operaciones usando un esquema, tabla o dibujo mental.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de numeros_y_operaciones.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "representacion"
+        ],
+        "difficulty": 3,
+        "order": 2
+      },
+      {
+        "id": "b799f1da-b85b-4ff7-a0a6-3a7ad8e3015e",
+        "evidence_source": "Describe procedimientos para resolver ecuaciones lineales.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Describe procedimientos para resolver ecuaciones lineales.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de numeros_y_operaciones.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 3
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre numeros_y_operaciones?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender numeros_y_operaciones?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 3
+      }
+    }
+  },
+  {
+    "module_id": "57f57793-8e81-4af0-8fc1-66f352f3d3c1",
+    "source_unit_id": "4a2edd63-1c7b-497c-b8e8-c538e920d127",
+    "source": "dba",
+    "subject": "mathematics",
+    "grade_range": "6",
+    "difficulty": 3,
+    "title": "¿Cómo entender geometria?",
+    "learning_objective": "Utiliza y explica diferentes estrategias (desarrollo de la forma o plantillas) e instrumentos (regla, compás o software) para la construcción de figuras planas y cuerpos.",
+    "context": "Se quieren forrar con papel de colores unos cuerpos geométricos como los que se muestran en la imagen. plantillas para construir 5 cuerpos geométricos diferentes. ['Selecciona de los moldes que se muestran en la figura los que se podrían utilizar para construir, con regla y compás, los forros respectivos y determina cómo calcular la cantidad de papel que se requiere para elaborar cada forro, si se conocen las medidas de las aristas de cada cuerpo.']",
+    "core_concept": "geometria",
+    "concepts": [],
+    "cognitive_type": "causal_reasoning",
+    "skills": [
+      "construir",
+      "comprender",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por geometria? Explícalo con tus palabras.",
+      "expected_signals": [],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "0aa9718f-6c6b-457c-8d56-77191b94f966",
+        "evidence_source": "Construye plantillas para cuerpos geométricos dadas sus medidas.",
+        "type": "simulation_or_construction",
+        "prompt": "Trabajemos esta evidencia: Construye plantillas para cuerpos geométricos dadas sus medidas.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de geometria.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 1
+      },
+      {
+        "id": "ba68a379-4f71-49f6-8e22-dc515c75da7d",
+        "evidence_source": "Selecciona las plantillas que genera cada cuerpo a partir del análisis de su forma, sus caras y sus vértices.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Selecciona las plantillas que genera cada cuerpo a partir del análisis de su forma, sus caras y sus vértices.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de geometria.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 2
+      },
+      {
+        "id": "9e851fed-01af-49bd-b069-094e21ef2aa0",
+        "evidence_source": "Utiliza la regla no graduada y el compás para dibujar las plantillas de cuerpos geométricos cuando se tienen sus medidas.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Utiliza la regla no graduada y el compás para dibujar las plantillas de cuerpos geométricos cuando se tienen sus medidas.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de geometria.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 3
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre geometria?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender geometria?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 4
+      }
+    }
+  },
+  {
+    "module_id": "c5f837d9-f1f4-4ede-8383-34cfec6e5fdd",
+    "source_unit_id": "34d587cb-ac1a-44ee-beab-bf17102e9728",
+    "source": "dba",
+    "subject": "mathematics",
+    "grade_range": "6",
+    "difficulty": 3,
+    "title": "¿Cómo entender area_perimetro?",
+    "learning_objective": "Propone y desarrolla estrategias de estimación, medición y cálculo de diferentes cantidades (ángulos, longitudes, áreas, volúmenes, etc.) para resolver problemas.",
+    "context": "Se presentan dos imágenes, una con un jugador frente al arco y la otra con 7 jugadores frente al arco para practicar sus lanzamientos. dos posiciones A y B de un jugador frente al arco; libre y con una barrera de 7 jugadores. ['Estima la medida de los ángulos que forma cada jugador con respecto a los dos palos del arco y argumenta en qué posición existe mayor posibilidad de gol.']",
+    "core_concept": "area_perimetro",
+    "concepts": [
+      "argumentacion",
+      "area_perimetro",
+      "lectura_inferencial",
+      "reading",
+      "estadistica"
+    ],
+    "cognitive_type": "argumentative_reasoning",
+    "skills": [
+      "comprender",
+      "comprender",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por area_perimetro? Explícalo con tus palabras.",
+      "expected_signals": [
+        "argumentacion",
+        "area_perimetro",
+        "lectura_inferencial",
+        "reading",
+        "estadistica"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "5b0078f9-9a7d-44e4-a2e5-77b7ee8a1d2b",
+        "evidence_source": "Decide acerca de las estrategias para determinar qué tan pertinente es la estimación y analiza las causas de error en procesos de medición y estimación.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Decide acerca de las estrategias para determinar qué tan pertinente es la estimación y analiza las causas de error en procesos de medición y estimación.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de area_perimetro.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 1
+      },
+      {
+        "id": "ceb963b6-bc3d-42cf-8108-780c80a6fa20",
+        "evidence_source": "Estima el resultado de una medición sin realizarla, de acuerdo con un referente previo y aplica el proceso de estimación elegido y valora el resultado de acuerdo con los datos y contexto de un problema.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Estima el resultado de una medición sin realizarla, de acuerdo con un referente previo y aplica el proceso de estimación elegido y valora el resultado de acuerdo con los datos y contexto de un problema.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de area_perimetro.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "transferencia"
+        ],
+        "difficulty": 3,
+        "order": 2
+      },
+      {
+        "id": "82e08d0a-8269-408e-b0a4-af26da2309b4",
+        "evidence_source": "Estima la medida de longitudes, áreas, volúmenes, masas, pesos y ángulos en presencia o no de los objetos y decide sobre la conveniencia de los instrumentos a utilizar, según las necesidades de la situación.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Estima la medida de longitudes, áreas, volúmenes, masas, pesos y ángulos en presencia o no de los objetos y decide sobre la conveniencia de los instrumentos a utilizar, según las necesidades de la situación.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de area_perimetro.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 3
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "creer que figuras con igual área siempre tienen igual perímetro",
+        "pattern": "creer que figuras con igual área siempre tienen igual perímetro",
+        "feedback": "Revisemos esta idea: creer que figuras con igual área siempre tienen igual perímetro",
+        "visual": "area_perimeter_comparison",
+        "intervention_level": 2
+      },
+      "misconception_2": {
+        "description": "creer que la interpretación de un texto es única",
+        "pattern": "creer que la interpretación de un texto es única",
+        "feedback": "Revisemos esta idea: creer que la interpretación de un texto es única",
+        "visual": "area_perimeter_comparison",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre area_perimetro?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender area_perimetro?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "area_perimeter_comparison",
+        "trigger": "creer que figuras con igual área siempre tienen igual perímetro",
+        "intervention_level": 2
+      },
+      {
+        "error_key": "misconception_2",
+        "visual_template": "area_perimeter_comparison",
+        "trigger": "creer que la interpretación de un texto es única",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 5
+      }
+    }
+  },
+  {
+    "module_id": "dba521d8-1af6-4a1b-9b14-eb2d3bef0482",
+    "source_unit_id": "811cf9ea-6224-4948-921a-69f3475651ab",
+    "source": "dba",
+    "subject": "mathematics",
+    "grade_range": "6",
+    "difficulty": 3,
+    "title": "¿Cómo entender area_perimetro?",
+    "learning_objective": "Representa y construye formas bidimensionales y tridimensionales con el apoyo en instrumentos de medida apropiados.",
+    "context": "Los productos de la industria son envasados en diferentes materiales: cartón, vidrio, plástico, metal y diferentes formas. ['A partir de las condiciones reales identifica las formas volumétricas que los constituyen, construye representaciones semejantes para configurar sus desarrollos geométricos y estima la cantidad de material necesario para su fabricación.']",
+    "core_concept": "area_perimetro",
+    "concepts": [
+      "area_perimetro"
+    ],
+    "cognitive_type": "representational_thinking",
+    "skills": [
+      "comprender",
+      "identificar",
+      "comprender",
+      "comprender",
+      "construir"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por area_perimetro? Explícalo con tus palabras.",
+      "expected_signals": [
+        "area_perimetro"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "7378236d-8cd2-402f-a521-9dd1bee0f38b",
+        "evidence_source": "Diferencia las propiedades geométricas de las figuras y cuerpos geométricos.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Diferencia las propiedades geométricas de las figuras y cuerpos geométricos.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de area_perimetro.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 1
+      },
+      {
+        "id": "b6896c4c-cf4c-439d-99e2-71dc3c7e56f1",
+        "evidence_source": "Identifica los elementos que componen las figuras y cuerpos geométricos.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con area_perimetro y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de area_perimetro.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 2
+      },
+      {
+        "id": "51f7c6ec-f821-4b3d-bae0-60bedb493d4d",
+        "evidence_source": "Describe las congruencias y semejanzas en figuras bidimensionales y tridimensionales.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Describe las congruencias y semejanzas en figuras bidimensionales y tridimensionales.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de area_perimetro.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 3
+      },
+      {
+        "id": "08358eff-28bd-4c5f-86e0-320d98b19065",
+        "evidence_source": "Estima áreas y volúmenes de figuras y cuerpos geométricos.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Estima áreas y volúmenes de figuras y cuerpos geométricos.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de area_perimetro.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 4
+      },
+      {
+        "id": "f2f3c0da-83c3-4e0b-ace9-317f430d6757",
+        "evidence_source": "Construye cuerpos geométricos con el apoyo de instrumentos de medida adecuados.",
+        "type": "simulation_or_construction",
+        "prompt": "Trabajemos esta evidencia: Construye cuerpos geométricos con el apoyo de instrumentos de medida adecuados.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de area_perimetro.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 5
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "creer que figuras con igual área siempre tienen igual perímetro",
+        "pattern": "creer que figuras con igual área siempre tienen igual perímetro",
+        "feedback": "Revisemos esta idea: creer que figuras con igual área siempre tienen igual perímetro",
+        "visual": "area_perimeter_comparison",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre area_perimetro?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender area_perimetro?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "area_perimeter_comparison",
+        "trigger": "creer que figuras con igual área siempre tienen igual perímetro",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 6
+      }
+    }
+  },
+  {
+    "module_id": "2e47bad5-b486-4ffe-b0dd-12331f4cddff",
+    "source_unit_id": "09de54f5-47e0-4ebc-aa97-cf0a6749b2bd",
+    "source": "dba",
+    "subject": "mathematics",
+    "grade_range": "6",
+    "difficulty": 3,
+    "title": "¿Cómo entender estadistica?",
+    "learning_objective": "Reconoce el plano cartesiano como un sistema bidimensional que permite ubicar puntos como sistema de referencia gráfico o geográfico.",
+    "context": "['Elabora diseños de bisutería artesanal para crear diferentes pulseras con diversos materiales. Utiliza el plano cartesiano para identificar patrones y los expresa como parejas ordenadas y modifica estos patrones para producir nuevos modelos.']",
+    "core_concept": "estadistica",
+    "concepts": [
+      "estadistica",
+      "lectura_inferencial",
+      "plano_cartesiano"
+    ],
+    "cognitive_type": "representational_thinking",
+    "skills": [
+      "comprender",
+      "identificar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por estadistica? Explícalo con tus palabras.",
+      "expected_signals": [
+        "estadistica",
+        "lectura_inferencial",
+        "plano_cartesiano"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "3242e8d6-3e89-4130-9007-b06fa2ec1f26",
+        "evidence_source": "Localiza, describe y representa la posición y la trayectoria de un objeto en un plano cartesiano.",
+        "type": "representation",
+        "prompt": "Representa la idea de estadistica usando un esquema, tabla o dibujo mental.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de estadistica.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "representacion"
+        ],
+        "difficulty": 3,
+        "order": 1
+      },
+      {
+        "id": "cfa1fd81-570d-4d7c-9bfa-cc65f93a4e0a",
+        "evidence_source": "Identifica e interpreta la semejanza de dos figuras al realizar rotaciones, ampliaciones y reducciones de formas bidimensionales en el plano cartesiano.",
+        "type": "classification",
+        "prompt": "Clasifica ejemplos relacionados con estadistica y explica tu criterio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de estadistica.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 2
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre estadistica?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender estadistica?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 7
+      }
+    }
+  },
+  {
+    "module_id": "a221449f-5250-423d-ba63-9220598f6931",
+    "source_unit_id": "b694f489-1636-4708-9db5-4df94c172c46",
+    "source": "dba",
+    "subject": "mathematics",
+    "grade_range": "6",
+    "difficulty": 3,
+    "title": "¿Cómo entender proporcionalidad?",
+    "learning_objective": "Identifica y analiza propiedades de covariación directa e inversa entre variables, en contextos numéricos, geométricos y cotidianos y las representa mediante gráficas (cartesianas de puntos, continuas, formadas por segmentos, etc.).",
+    "context": "Yadira se mudará a otro apartamento y pide cotizaciones a tres empresas de transporte. Cada empresa da sus condiciones: descripcion: condiciones registradas por tres empresas transportadoras A, B y C. ['Representa en el plano cartesiano el costo total de transporte en pesos, en términos del peso transportado. Averigua en cuál de las empresas la razón entre peso transportado y costo es la mayor.']",
+    "core_concept": "proporcionalidad",
+    "concepts": [
+      "proporcionalidad",
+      "lectura_inferencial",
+      "plano_cartesiano",
+      "reading",
+      "estadistica"
+    ],
+    "cognitive_type": "representational_thinking",
+    "skills": [
+      "comprender",
+      "comprender",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por proporcionalidad? Explícalo con tus palabras.",
+      "expected_signals": [
+        "proporcionalidad",
+        "lectura_inferencial",
+        "plano_cartesiano",
+        "reading",
+        "estadistica"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "37f7d1b8-7632-46c1-a9f3-3ca1176ea8ce",
+        "evidence_source": "Propone patrones de comportamiento numéricos y expresa verbalmente o por escrito los procedimientos matemáticos.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Propone patrones de comportamiento numéricos y expresa verbalmente o por escrito los procedimientos matemáticos.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de proporcionalidad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 1
+      },
+      {
+        "id": "be914d52-aa31-435e-a263-725b76915c7e",
+        "evidence_source": "Realiza cálculos numéricos, organiza la información en tablas, elabora representaciones gráficas y las interpreta.",
+        "type": "representation",
+        "prompt": "Representa la idea de proporcionalidad usando un esquema, tabla o dibujo mental.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de proporcionalidad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "representacion"
+        ],
+        "difficulty": 3,
+        "order": 2
+      },
+      {
+        "id": "4a14d74a-261f-47e0-b036-398867b302ba",
+        "evidence_source": "Trabaja sobre números desconocidos y con esos números para dar respuestas a los problemas.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Trabaja sobre números desconocidos y con esos números para dar respuestas a los problemas.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de proporcionalidad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 3
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "confundir promedio con valor representativo en todos los casos",
+        "pattern": "confundir promedio con valor representativo en todos los casos",
+        "feedback": "Revisemos esta idea: confundir promedio con valor representativo en todos los casos",
+        "visual": "proportion_table_graph",
+        "intervention_level": 2
+      },
+      "misconception_2": {
+        "description": "creer que la interpretación de un texto es única",
+        "pattern": "creer que la interpretación de un texto es única",
+        "feedback": "Revisemos esta idea: creer que la interpretación de un texto es única",
+        "visual": "proportion_table_graph",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre proporcionalidad?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender proporcionalidad?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "proportion_table_graph",
+        "trigger": "confundir promedio con valor representativo en todos los casos",
+        "intervention_level": 2
+      },
+      {
+        "error_key": "misconception_2",
+        "visual_template": "proportion_table_graph",
+        "trigger": "creer que la interpretación de un texto es única",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 8
+      }
+    }
+  },
+  {
+    "module_id": "6c2064e7-6853-4f4c-9fb1-47dbab5828be",
+    "source_unit_id": "51117808-a3b3-4022-bfe3-68b07fbd838f",
+    "source": "dba",
+    "subject": "mathematics",
+    "grade_range": "6",
+    "difficulty": 3,
+    "title": "¿Cómo entender numeros_y_operaciones?",
+    "learning_objective": "Opera sobre números desconocidos y encuentra las operaciones apropiadas al contexto para resolver problemas.",
+    "context": "Una compañía de pintura contrata empleados por días. La compañía determina que el monto que se paga por hora trabajada es de $8.000, en jornada normal (8 horas diarias), pero si se hacen horas extras, se paga la hora a $9.000 (máximo 4 diarias). ['Describe verbal, numérica, gráfica o simbólicamente, el monto que se ha de pagar diariamente y en varios días según la cantidad de horas extras.']",
+    "core_concept": "numeros_y_operaciones",
+    "concepts": [
+      "reading",
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "representational_thinking",
+    "skills": [
+      "comprender",
+      "comprender",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por numeros_y_operaciones? Explícalo con tus palabras.",
+      "expected_signals": [
+        "reading",
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "c500979b-23db-4d9c-80da-54a7fbdc8769",
+        "evidence_source": "Utiliza las operaciones y sus inversas en problemas de cálculo numérico.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Utiliza las operaciones y sus inversas en problemas de cálculo numérico.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de numeros_y_operaciones.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 1
+      },
+      {
+        "id": "6669d406-4bdc-48ae-bf26-cd3759424766",
+        "evidence_source": "Realiza cálculos numéricos, organiza la información en tablas, elabora representaciones gráficas y las interpreta.",
+        "type": "representation",
+        "prompt": "Representa la idea de numeros_y_operaciones usando un esquema, tabla o dibujo mental.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de numeros_y_operaciones.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "representacion"
+        ],
+        "difficulty": 3,
+        "order": 2
+      },
+      {
+        "id": "2f10167d-8deb-4939-884b-5d3f852ed453",
+        "evidence_source": "Realiza combinaciones de operaciones, encuentra propiedades y resuelve ecuaciones en donde están involucradas.",
+        "type": "problem_solving",
+        "prompt": "Resuelve una situación donde necesites aplicar numeros_y_operaciones. Explica tu proceso.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de numeros_y_operaciones.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "transferencia"
+        ],
+        "difficulty": 3,
+        "order": 3
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "creer que la interpretación de un texto es única",
+        "pattern": "creer que la interpretación de un texto es única",
+        "feedback": "Revisemos esta idea: creer que la interpretación de un texto es única",
+        "visual": "idea_evidence_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre numeros_y_operaciones?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender numeros_y_operaciones?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "idea_evidence_map",
+        "trigger": "creer que la interpretación de un texto es única",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 9
+      }
+    }
+  },
+  {
+    "module_id": "05009acf-a964-4109-9cf7-97d452a1bd19",
+    "source_unit_id": "509c767e-3e1d-4f7b-918c-480771825439",
+    "source": "dba",
+    "subject": "mathematics",
+    "grade_range": "6",
+    "difficulty": 3,
+    "title": "¿Cómo entender estadistica?",
+    "learning_objective": "Interpreta información estadística presentada en diversas fuentes de información, la analiza y la usa para plantear y resolver preguntas que sean de su interés.",
+    "context": "A finales del 2012 en su informe trimestral el Ministerio de Tecnologías de la Información y las comunicaciones, MINTIC, publicó la siguiente información: “En cuanto a la telefonía móvil, sector que tuvo un crecimiento de 1,13%, en Colombia hay más de 48 millones de abonados, lo que quiere decir que en el país hay 104,5 líneas por cada 100 habitantes. De estos 18,86% se encuentra en la modalidad de postpago, y 81,14% es prepago” (Tomado de http://colombiatic.mintic.gov.co/602/articles-15179_archivo_pdf.pdf). ['Responde preguntas como ¿el comportamiento del uso de la telefonía móvil en el salón es similar a lo afirmado en la noticia? Si se presentan diferencias con los datos de la noticia, ¿cuáles son las posibles razones para que esto suceda?']",
+    "core_concept": "estadistica",
+    "concepts": [
+      "estadistica",
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "representational_thinking",
+    "skills": [
+      "comprender",
+      "comprender",
+      "comprender",
+      "comprender",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por estadistica? Explícalo con tus palabras.",
+      "expected_signals": [
+        "estadistica",
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "48203740-14d9-4d5f-bfe4-65db525d87d4",
+        "evidence_source": "Lee y extrae la información estadística publicada en diversas fuentes.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Lee y extrae la información estadística publicada en diversas fuentes.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de estadistica.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 1
+      },
+      {
+        "id": "a290f02c-67f7-478c-b132-e21ea7df88fc",
+        "evidence_source": "Plantea una pregunta que le facilite recolectar información que le permita contrastar la información estadística publicada.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Plantea una pregunta que le facilite recolectar información que le permita contrastar la información estadística publicada.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de estadistica.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 2
+      },
+      {
+        "id": "87ebfa7d-4428-4103-9e38-6ab700f00879",
+        "evidence_source": "Organiza la información recolectada en tablas y la representa mediante gráficas adecuadas.",
+        "type": "representation",
+        "prompt": "Representa la idea de estadistica usando un esquema, tabla o dibujo mental.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de estadistica.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "representacion"
+        ],
+        "difficulty": 3,
+        "order": 3
+      },
+      {
+        "id": "c83de119-bdd8-4891-af00-7d107076d640",
+        "evidence_source": "Calcula las medidas requeridas de acuerdo a los datos recolectados y usa, cuando sea posible, calculadoras o software adecuado.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Calcula las medidas requeridas de acuerdo a los datos recolectados y usa, cuando sea posible, calculadoras o software adecuado.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de estadistica.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 4
+      },
+      {
+        "id": "d29bbf80-de4c-4ecb-afe7-bcada10fb089",
+        "evidence_source": "Escribe un informe en el que analiza la información presentada en el medio de comunicación y la contrasta con la obtenida en su estudio.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Escribe un informe en el que analiza la información presentada en el medio de comunicación y la contrasta con la obtenida en su estudio.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de estadistica.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 5
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "confundir promedio con valor representativo en todos los casos",
+        "pattern": "confundir promedio con valor representativo en todos los casos",
+        "feedback": "Revisemos esta idea: confundir promedio con valor representativo en todos los casos",
+        "visual": "concept_map",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre estadistica?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender estadistica?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "concept_map",
+        "trigger": "confundir promedio con valor representativo en todos los casos",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 10
+      }
+    }
+  },
+  {
+    "module_id": "cfe33c4c-d149-4a7b-a8d7-f8f66bce42f0",
+    "source_unit_id": "fb887a81-01b7-4cac-bc43-1973643d58e7",
+    "source": "dba",
+    "subject": "mathematics",
+    "grade_range": "6",
+    "difficulty": 3,
+    "title": "¿Cómo entender estadistica?",
+    "learning_objective": "Compara características compartidas por dos o más poblaciones o características diferentes dentro de una misma población para lo cual seleccionan muestras, utiliza representaciones gráficas adecuadas y analiza los resultados obtenidos usando conjuntamente las medidas de tendencia central y el rango.",
+    "context": "En un estudio reciente sobre la velocidad de descarga de fotos y videos en celulares, se sometieron a prueba dos marcas, durante una hora se usaron 10 celulares diferentes de cada marca. gráficos para la velocidad de descarga en Mbps de dos marcas. ['Si se desea comprar un celular con una buena velocidad de descarga, ¿cuál de las dos marcas seleccionaría?']",
+    "core_concept": "estadistica",
+    "concepts": [
+      "movimiento",
+      "estadistica",
+      "lectura_inferencial"
+    ],
+    "cognitive_type": "representational_thinking",
+    "skills": [
+      "comprender",
+      "comprender",
+      "interpretar",
+      "comparar",
+      "comprender"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por estadistica? Explícalo con tus palabras.",
+      "expected_signals": [
+        "movimiento",
+        "estadistica",
+        "lectura_inferencial"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "307cdc91-4e37-43f0-8ed1-9b379ae78f76",
+        "evidence_source": "Comprende la diferencia entre la muestra y la población.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Comprende la diferencia entre la muestra y la población.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de estadistica.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 1
+      },
+      {
+        "id": "386e0554-e92a-463f-8daa-3d57cb6b0b37",
+        "evidence_source": "Selecciona y produce representaciones gráficas apropiadas al conjunto de datos, usando, cuando sea posible, calculadoras o software adecuado.",
+        "type": "representation",
+        "prompt": "Representa la idea de estadistica usando un esquema, tabla o dibujo mental.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de estadistica.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension",
+          "representacion"
+        ],
+        "difficulty": 3,
+        "order": 2
+      },
+      {
+        "id": "b76ae572-3e68-48a8-acb7-b508fbca948a",
+        "evidence_source": "Interpreta la información que se presenta en los gráficos usando las medidas de tendencia central y el rango.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Interpreta la información que se presenta en los gráficos usando las medidas de tendencia central y el rango.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de estadistica.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 3
+      },
+      {
+        "id": "7134093b-f742-4ff0-a84d-c38a7e49c440",
+        "evidence_source": "Compara las características de dos o más poblaciones o de dos o más grupos, haciendo uso conjunto de las respectivas medidas de tendencia central y el rango.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Compara las características de dos o más poblaciones o de dos o más grupos, haciendo uso conjunto de las respectivas medidas de tendencia central y el rango.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de estadistica.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 4
+      },
+      {
+        "id": "a8615fff-a610-4cce-bbb2-46a5b65ef974",
+        "evidence_source": "Describe el comportamiento de las características de dos o más poblaciones o de dos o más grupos de una población, a partir de las respectivas medidas de tendencia central y el rango.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Describe el comportamiento de las características de dos o más poblaciones o de dos o más grupos de una población, a partir de las respectivas medidas de tendencia central y el rango.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de estadistica.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 5
+      }
+    ],
+    "error_map": {
+      "generic_shallow_response": {
+        "description": "respuesta superficial o sin justificación",
+        "pattern": "respuesta corta sin explicación",
+        "feedback": "Tu respuesta va en una dirección, pero necesitamos justificarla mejor.",
+        "visual": "concept_map",
+        "intervention_level": 1
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre estadistica?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender estadistica?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "generic_shallow_response",
+        "visual_template": "concept_map",
+        "trigger": "respuesta corta sin explicación",
+        "intervention_level": 1
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 11
+      }
+    }
+  },
+  {
+    "module_id": "506799ec-0609-47f9-aafa-966c4132c7f1",
+    "source_unit_id": "3a491619-7174-4415-8457-a3138ebbb129",
+    "source": "dba",
+    "subject": "mathematics",
+    "grade_range": "6",
+    "difficulty": 3,
+    "title": "¿Cómo entender probabilidad?",
+    "learning_objective": "A partir de la información previamente obtenida en repeticiones de experimentos aleatorios sencillos, compara las frecuencias esperadas con las frecuencias observadas.",
+    "context": "En un el juego con dados, uno en forma de cubo (6 caras) y otro en forma de tetraedro (4 caras) participan dos jugadores. Cada uno selecciona un dado, lo lanza al aire y gana quien obtenga más veces el número 1, después de hacer 100 lanzamientos. Leidy dice que ella juega si selecciona el dado en forma de tetraedro. ['Justifica la selección de uno de los dados, anticipa la posibilidad de ocurrencia del evento que salga el 1, realiza el experimento, registra los resultados y compara y razona sobre las diferencias entre lo esperado y lo observado.']",
+    "core_concept": "probabilidad",
+    "concepts": [
+      "volumen",
+      "argumentacion",
+      "probabilidad",
+      "lectura_inferencial",
+      "estadistica"
+    ],
+    "cognitive_type": "argumentative_reasoning",
+    "skills": [
+      "comprender",
+      "comprender",
+      "interpretar",
+      "comparar"
+    ],
+    "diagnostic": {
+      "type": "open_question",
+      "question": "¿Qué entiendes por probabilidad? Explícalo con tus palabras.",
+      "expected_signals": [
+        "volumen",
+        "argumentacion",
+        "probabilidad",
+        "lectura_inferencial",
+        "estadistica"
+      ],
+      "detects": [
+        "prior_knowledge",
+        "misconception",
+        "explanation_depth"
+      ]
+    },
+    "phases": [
+      {
+        "phase": "exploration",
+        "goal": "activar conocimiento previo",
+        "tutor_state": "thinking"
+      },
+      {
+        "phase": "concept_formation",
+        "goal": "construir el concepto central",
+        "tutor_state": "hint"
+      },
+      {
+        "phase": "guided_application",
+        "goal": "aplicar con apoyo",
+        "tutor_state": "encouragement"
+      },
+      {
+        "phase": "transfer",
+        "goal": "usar la idea en un nuevo contexto",
+        "tutor_state": "reflection"
+      },
+      {
+        "phase": "metacognition",
+        "goal": "reflexionar sobre cómo cambió el pensamiento",
+        "tutor_state": "reflection"
+      }
+    ],
+    "guided_exercises": [
+      {
+        "id": "2440b5c5-e911-48f6-8ca1-bb450c34da05",
+        "evidence_source": "Enumera los posibles resultados de un experimento aleatorio sencillo.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Enumera los posibles resultados de un experimento aleatorio sencillo.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de probabilidad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 1
+      },
+      {
+        "id": "6443e259-f375-40c5-aae9-425e004279f5",
+        "evidence_source": "Realiza repeticiones del experimento aleatorio sencillo y registra los resultados en tablas y gráficos de frecuencia.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Realiza repeticiones del experimento aleatorio sencillo y registra los resultados en tablas y gráficos de frecuencia.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de probabilidad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 2
+      },
+      {
+        "id": "ca0a8c10-1edc-4586-a546-52b3d705cf02",
+        "evidence_source": "Interpreta y asigna la probabilidad de ocurrencia de un evento dado, teniendo en cuenta el número de veces que ocurre el evento en relación con el número total de veces que realiza el experimento.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Interpreta y asigna la probabilidad de ocurrencia de un evento dado, teniendo en cuenta el número de veces que ocurre el evento en relación con el número total de veces que realiza el experimento.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de probabilidad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 3
+      },
+      {
+        "id": "9c9c7059-2d1d-444c-a582-093e9fbb93f1",
+        "evidence_source": "Compara los resultados obtenidos experimentalmente con las predicciones anticipadas.",
+        "type": "open_response",
+        "prompt": "Trabajemos esta evidencia: Compara los resultados obtenidos experimentalmente con las predicciones anticipadas.",
+        "expected_answer": "",
+        "hints": [
+          "Piensa primero en la idea de probabilidad.",
+          "¿Qué información es importante y cuál no?",
+          "Explícalo con tus palabras antes de buscar una respuesta final."
+        ],
+        "evaluates": [
+          "comprension"
+        ],
+        "difficulty": 3,
+        "order": 4
+      }
+    ],
+    "error_map": {
+      "misconception_1": {
+        "description": "creer que un evento probable siempre ocurrirá",
+        "pattern": "creer que un evento probable siempre ocurrirá",
+        "feedback": "Revisemos esta idea: creer que un evento probable siempre ocurrirá",
+        "visual": "sample_space_diagram",
+        "intervention_level": 2
+      }
+    },
+    "hints": [
+      "¿Qué sabes ya sobre probabilidad?",
+      "¿Qué parte del problema te da una pista?",
+      "¿Cómo podrías explicarlo sin usar una fórmula todavía?"
+    ],
+    "reflection_prompts": [
+      "¿Qué cambió en tu forma de entender probabilidad?",
+      "¿Qué estrategia te ayudó más?",
+      "¿Dónde podrías aplicar esta idea en otro contexto?"
+    ],
+    "evaluation": {
+      "dimensions": [
+        "comprension",
+        "representacion",
+        "razonamiento",
+        "transferencia",
+        "metacognicion"
+      ],
+      "rubric": {
+        "comprension": "Identifica la idea central y la explica con sus palabras.",
+        "representacion": "Puede expresar la idea con una tabla, dibujo, esquema o ejemplo.",
+        "razonamiento": "Justifica su respuesta con relaciones o evidencia.",
+        "transferencia": "Aplica la idea en una situación nueva.",
+        "metacognicion": "Reconoce cómo cambió su forma de pensar."
+      },
+      "pass_condition": {
+        "minimum_dimensions": 3,
+        "minimum_level": "basic"
+      }
+    },
+    "visual_triggers": [
+      {
+        "error_key": "misconception_1",
+        "visual_template": "sample_space_diagram",
+        "trigger": "creer que un evento probable siempre ocurrirá",
+        "intervention_level": 2
+      }
+    ],
+    "metadata": {
+      "generated_from": "competency_unit",
+      "original_metadata": {
+        "dba_number": 12
+      }
+    }
+  }
+]

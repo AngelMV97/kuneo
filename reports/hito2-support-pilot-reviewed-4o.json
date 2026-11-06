@@ -1,0 +1,336 @@
+{
+  "date": "2026-11-04T01:13:58.039Z",
+  "scope": "Synthetic support pilot, no student data or Supabase writes; requires pedagogical and browser review.",
+  "results": [
+    {
+      "case_id": "math-2",
+      "subject": "mathematics",
+      "grade": 2,
+      "question": "Ana tiene 3 lápices y recibe 2 más. ¿Cuántos lápices tiene ahora?",
+      "level": 2,
+      "card": {
+        "title": "Estrategia para combinar cantidades con suma",
+        "body": "La suma es una operación matemática que se usa para encontrar el total de dos o más cantidades. Esta técnica se utiliza cuando queremos juntar cosas, como contar objetos o sumar números. Reconocer cuándo usar la suma es importante y se puede identificar cuando: 1) se necesita totalizar una cantidad, y 2) se cuentan varios grupos de objetos o números.",
+        "insight": "Al hacer una suma, piensa en qué grupos estás combinando y si el resultado te ayuda a responder una pregunta sobre un total.",
+        "visual": {
+          "kind": "none"
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:14:00.468Z",
+        "request_id": "897fd070-96d2-4e6a-a936-f6cfd3192a0b",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 2425,
+        "stages": {
+          "openai_support": 2422
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 674,
+            "output_tokens": 142,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "math-2",
+      "subject": "mathematics",
+      "grade": 2,
+      "question": "Ana tiene 3 lápices y recibe 2 más. ¿Cuántos lápices tiene ahora?",
+      "level": 3,
+      "card": {
+        "title": "Ejemplo de suma con objetos",
+        "body": "En este ejemplo, vamos a juntar varios objetos y sumarlos. Así entenderemos cómo funciona la suma.",
+        "insight": "Para sumar, puedes agrupar los objetos que tienes y contar cuántos son en total. Siempre debes asegurarte de contar bien cada grupo.",
+        "example_problem": "En una caja hay 4 manzanas y en otra caja hay 5 manzanas. ¿Cuántas manzanas hay en total en ambas cajas?",
+        "example_steps": [
+          "Primero, contar las manzanas en la primera caja: hay 4 manzanas.",
+          "Luego, contar las manzanas en la segunda caja: hay 5 manzanas.",
+          "Finalmente, sumar las manzanas de ambas cajas: 4 + 5."
+        ],
+        "example_result": "En total, hay 9 manzanas en las dos cajas.",
+        "visual": {
+          "kind": "none"
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:14:03.720Z",
+        "request_id": "0c2b570e-db1a-4e12-9def-ad6bd953ffcd",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 3251,
+        "stages": {
+          "openai_support": 3249
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 779,
+            "output_tokens": 198,
+            "cached_input_tokens": 0
+          },
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 330,
+            "output_tokens": 9,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "language-3",
+      "subject": "language",
+      "grade": 3,
+      "question": "Lee: «Lina tomó su paraguas porque vio nubes oscuras». ¿Por qué tomó el paraguas?",
+      "level": 2,
+      "card": {
+        "title": "Reconocer causas en narraciones",
+        "body": "En una narración, las causas son las razones por las que suceden cosas. Identificar la causa ayuda a entender mejor la historia. Busca palabras que conecten eventos, como \"porque\", \"por eso\", o \"debido a\". Estas palabras suelen indicar qué generó una acción. Por ejemplo, si un personaje hace algo y se explica por qué lo hizo, esa es la causa de su acción.",
+        "insight": "Esta habilidad es útil tanto en la lectura como en la escritura. Te permite entender la lógica detrás de las acciones de los personajes y hacer que tus propias narraciones sean más claras y coherentes.",
+        "visual": {
+          "kind": "none"
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:14:05.768Z",
+        "request_id": "e350765a-6182-4539-a796-0f95a08fa3da",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 2048,
+        "stages": {
+          "openai_support": 2047
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 676,
+            "output_tokens": 165,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "language-3",
+      "subject": "language",
+      "grade": 3,
+      "question": "Lee: «Lina tomó su paraguas porque vio nubes oscuras». ¿Por qué tomó el paraguas?",
+      "level": 3,
+      "card": {
+        "title": "Identificación de Causas en una Narración",
+        "body": "En una narración, las causas son las razones por las cuales algo sucede. Pueden ayudarte a entender mejor los eventos y las decisiones de los personajes. Buscar palabras como \"porque\", \"por eso\" o \"debido a\" puede ayudarte a identificar las causas.",
+        "insight": "Entender las causas de las acciones es importante para comprender la historia en su totalidad y las motivaciones de los personajes.",
+        "example_problem": "En un día soleado, Ana decidió ir al parque. Ella quería jugar con su perro, que estaba muy feliz. Cuando llegaron al parque, Ana lanzó una pelota para que su perro corriera. ¿Cuál fue la causa de que Ana fuera al parque?",
+        "example_steps": [
+          "Identificar la acción principal: Ana decidió ir al parque.",
+          "Buscar la razón: Ana quería jugar con su perro."
+        ],
+        "example_result": "La causa de que Ana fuera al parque fue que quería jugar con su perro.",
+        "visual": {
+          "kind": "none"
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:14:08.841Z",
+        "request_id": "eeced4f3-37cb-4128-8308-20e99d571469",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 3073,
+        "stages": {
+          "openai_support": 3073
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 782,
+            "output_tokens": 218,
+            "cached_input_tokens": 0
+          },
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 320,
+            "output_tokens": 9,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "science-4",
+      "subject": "natural_sciences",
+      "grade": 4,
+      "question": "Una linterna funciona con pilas. Explica de dónde obtiene la energía y en qué se transforma para que podamos ver.",
+      "level": 2,
+      "card": {
+        "title": "Transformaciones de energía",
+        "body": "Las transformaciones de energía ocurren cuando la energía de un tipo se convierte en otro tipo. En objetos cotidianos, como un juguete eléctrico o una lámpara, podemos observar cómo la energía cambia. Esta idea es importante porque nos ayuda a entender cómo funciona el mundo a nuestro alrededor.",
+        "insight": "Reconocer transformaciones de energía es útil cuando miras cómo funcionan diferentes aparatos o fenómenos, como el calor en una estufa o la luz de una bombilla.",
+        "visual": {
+          "kind": "none"
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:14:10.682Z",
+        "request_id": "65040843-d51d-404d-bc13-98470fb40841",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 1841,
+        "stages": {
+          "openai_support": 1840
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 678,
+            "output_tokens": 133,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "science-4",
+      "subject": "natural_sciences",
+      "grade": 4,
+      "question": "Una linterna funciona con pilas. Explica de dónde obtiene la energía y en qué se transforma para que podamos ver.",
+      "level": 3,
+      "card": {
+        "title": "Transformaciones de energía en una cuerda elástica",
+        "body": "En este ejemplo, observaremos cómo la energía se transforma cuando usamos una cuerda elástica. Aprenderemos a identificar qué tipo de energía está involucrada y cómo se convierte de una forma a otra.",
+        "insight": "Cuando estiramos una cuerda elástica, almacenamos energía potencial. Al soltarla, esa energía se convierte en energía cinética, que es el movimiento de la cuerda.",
+        "example_problem": "Un niño tiene una cuerda elástica y decide estirarla. Estira la cuerda elástica hasta que alcanza un largo de 2 metros y luego la suelta para que regrese a su posición original. ¿Qué tipos de energía se transforman en este proceso?",
+        "example_steps": [
+          "Identificar la energía potencial cuando la cuerda está estirada.",
+          "Reconocer que al soltar la cuerda, la energía potencial se convierte en energía cinética en el momento en que empieza a moverse."
+        ],
+        "example_result": "1. Cuando la cuerda elástica está estirada, tiene energía potencial almacenada. 2. Al soltarla, esta energía se convierte en energía cinética, haciendo que la cuerda se mueva rápidamente. 3. Por lo tanto, se transformó energía potencial en energía cinética.",
+        "visual": {
+          "kind": "none"
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:14:14.370Z",
+        "request_id": "ce2f27a9-efe6-4808-8141-05817a469bb1",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 3688,
+        "stages": {
+          "openai_support": 3687
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 788,
+            "output_tokens": 287,
+            "cached_input_tokens": 0
+          },
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 390,
+            "output_tokens": 9,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "social-10",
+      "subject": "social_studies",
+      "grade": 10,
+      "question": "Un barrio dispone de dinero para una sola mejora. Una encuesta dice: 60 vecinos necesitan transporte y 40 necesitan un parque. Propón una decisión apoyada en esos datos y una forma de escuchar al grupo que no sea priorizado.",
+      "level": 2,
+      "card": {
+        "title": "Uso de datos para argumentar decisiones",
+        "body": "En situaciones en las que es necesario tomar decisiones, es clave cómo utilizar datos de manera efectiva. Los datos pueden proporcionar evidencias que apoyen o refuten un argumento. Aquí, la idea principal es que al argumentar, necesitas integrar datos relevantes para fortalecer tus afirmaciones y a la vez estar abierto a otras perspectivas. Reconocer cuándo usar datos significa identificar momentos específicos en los que tus argumentos pueden ser más sólidos con evidencia, o cuándo es importante escuchar y considerar las opiniones de los demás sobre el tema, incluso si estos datos varían de tus propias creencias. ",
+        "insight": "Utilizar datos te ayuda a construir argumentos más sólidos y entender mejor diferentes puntos de vista. Observa las situaciones donde hay discrepancias en las opiniones: ahí, el uso de datos se vuelve especialmente valioso.",
+        "visual": {
+          "kind": "none"
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:14:17.340Z",
+        "request_id": "b672c621-66a7-40ef-96bc-d585c5443f3c",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 2969,
+        "stages": {
+          "openai_support": 2968
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 679,
+            "output_tokens": 199,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "social-10",
+      "level": 3,
+      "error": "No se pudo preparar esta ayuda. Tu actividad sigue disponible; puedes reintentarlo."
+    },
+    {
+      "case_id": "english-11",
+      "subject": "english",
+      "grade": 11,
+      "question": "Lees «The ground was slippery after the rain» y no conoces slippery. Propón una estrategia para inferir su significado con el contexto y cómo comprobarías tu inferencia.",
+      "level": 2,
+      "card": {
+        "title": "Inferir el significado de palabras desconocidas",
+        "body": "Cuando encuentres una palabra que no conoces, puedes usar el contexto de la oración para inferir su significado. El contexto son las palabras y frases que rodean a la palabra desconocida y te dan pistas sobre lo que podría significar. Para comprobar si tu inferencia es correcta, busca más ejemplos de cómo se utiliza la palabra en otras oraciones o piensa en su relación con las palabras que ya conoces.",
+        "insight": "Reconocer el contexto es clave para entender mejor el significado de palabras nuevas y ampliar tu vocabulario.",
+        "visual": {
+          "kind": "none"
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:14:27.783Z",
+        "request_id": "0f5da323-2923-4003-bb6c-071cec946a49",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 1900,
+        "stages": {
+          "openai_support": 1900
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 684,
+            "output_tokens": 148,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "english-11",
+      "level": 3,
+      "error": "No se pudo preparar esta ayuda. Tu actividad sigue disponible; puedes reintentarlo."
+    }
+  ],
+  "summary": {
+    "passed_contract": 8,
+    "total": 10,
+    "latency": {
+      "samples": 8,
+      "p50_ms": 2425,
+      "p95_ms": 3688,
+      "min_ms": 1841,
+      "max_ms": 3688
+    }
+  }
+}

@@ -1,0 +1,427 @@
+{
+  "date": "2026-11-04T01:08:55.317Z",
+  "scope": "Synthetic support pilot, no student data or Supabase writes; requires pedagogical and browser review.",
+  "results": [
+    {
+      "case_id": "math-2",
+      "subject": "mathematics",
+      "grade": 2,
+      "question": "Ana tiene 3 lápices y recibe 2 más. ¿Cuántos lápices tiene ahora?",
+      "level": 2,
+      "card": {
+        "title": "Combinar Cantidades Usando la Suma",
+        "body": "La suma es una operación que nos permite combinar diferentes cantidades. Cuando queremos saber cuántas cosas hay en total después de juntar varias cantidades, usamos esta operación. Reconocer cuándo aplicar la suma es sencillo: si tienes grupos de objetos y quieres contar todos juntos, aplica la suma. Por ejemplo, si tienes 3 manzanas y 2 peras, puedes sumar para saber el total de frutas.",
+        "insight": "La clave para usar la suma es identificar situaciones donde necesitas combinar varias cantidades para obtener un todo. Siempre que veas grupos separados que se pueden unir, piensa en sumar.",
+        "visual": {
+          "kind": "table",
+          "caption": "Pasos para Reconocer Cuándo Usar la Suma",
+          "headers": [
+            "Paso",
+            "Descripción"
+          ],
+          "rows": [
+            [
+              "1",
+              "Identifica grupos o cantidades separadas."
+            ],
+            [
+              "2",
+              "Pregunta si quieres saber el total combinándolas."
+            ],
+            [
+              "3",
+              "Si la respuesta es sí, entonces usa la suma."
+            ]
+          ]
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:08:59.615Z",
+        "request_id": "b7e21b7f-aed1-4442-b3ff-09c5fd972467",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 4295,
+        "stages": {
+          "openai_support": 4293
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 429,
+            "output_tokens": 230,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "math-2",
+      "level": 3,
+      "error": "No se pudo preparar esta ayuda. Tu actividad sigue disponible; puedes reintentarlo."
+    },
+    {
+      "case_id": "language-3",
+      "subject": "language",
+      "grade": 3,
+      "question": "Lee: «Lina tomó su paraguas porque vio nubes oscuras». ¿Por qué tomó el paraguas?",
+      "level": 2,
+      "card": {
+        "title": "Reconocer causas en una narración",
+        "body": "En una narración, las causas son las razones por las cuales ocurren ciertos eventos o acciones. Es importante identificar estas causas para entender mejor la historia y las motivaciones de los personajes. Para reconocer cuándo una acción tiene una causa, busca pistas en el texto que indiquen por qué un personaje actúa de cierta manera o por qué sucede un evento particular.",
+        "insight": "La estrategia clave es hacer preguntas sobre los motivos detrás de las acciones. Esto es útil para conectar eventos y comprender la trama más profundamente.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Pasos para identificar causas en narrativas",
+          "steps": [
+            "Lee atentamente la narración.",
+            "Identifica las acciones de los personajes.",
+            "Pregunta '¿por qué?' cada vez que un personaje realiza una acción.",
+            "Busca en el texto las respuestas que puedan explicar las razones detrás de las acciones."
+          ]
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:09:05.231Z",
+        "request_id": "8eef1c37-c476-4f22-9c03-98c1db0a1503",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 2562,
+        "stages": {
+          "openai_support": 2562
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 431,
+            "output_tokens": 188,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "language-3",
+      "subject": "language",
+      "grade": 3,
+      "question": "Lee: «Lina tomó su paraguas porque vio nubes oscuras». ¿Por qué tomó el paraguas?",
+      "level": 3,
+      "card": {
+        "title": "Ejemplo de reconocimiento de causas en una narración",
+        "body": "En este ejemplo, analizamos una breve historia.  \nTítulo: \"El día de campo en el parque\".  \nEn la historia, Juan y sus amigos decidieron ir al parque para hacer un picnic. Se prepararon con sándwiches y frutas. Mientras estaban allí, vieron que estaba muy soleado y decidieron jugar fútbol. Un rato después, comenzó a llover, por lo que tuvieron que recoger sus cosas y regresar a casa.  \nEsta narración tiene varias acciones, y es importante identificar las causas de cada una.  \nPor ejemplo: \n1. Juan y sus amigos fueron al parque.  \n   - Causa: querían hacer un picnic.  \n2. Decidieron jugar fútbol.  \n   - Causa: estaba muy soleado.  \n3. Tuvieron que regresar a casa.  \n   - Causa: comenzó a llover.",
+        "insight": "Identificar las causas en una narración ayuda a comprender mejor por qué los personajes actúan de cierta manera. Así se puede seguir la secuencia de eventos de forma clara.",
+        "visual": {
+          "kind": "table",
+          "caption": "Acciones y sus causas",
+          "headers": [
+            "Acción",
+            "Causa"
+          ],
+          "rows": [
+            [
+              "Ir al parque",
+              "Querían hacer un picnic"
+            ],
+            [
+              "Jugar fútbol",
+              "Estaba muy soleado"
+            ],
+            [
+              "Regresar a casa",
+              "Comenzó a llover"
+            ]
+          ]
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:09:09.628Z",
+        "request_id": "45917699-d7f3-4b98-b7aa-cfea55987e0b",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 4396,
+        "stages": {
+          "openai_support": 4396
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 444,
+            "output_tokens": 316,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "science-4",
+      "subject": "natural_sciences",
+      "grade": 4,
+      "question": "Una linterna funciona con pilas. Explica de dónde obtiene la energía y en qué se transforma para que podamos ver.",
+      "level": 2,
+      "card": {
+        "title": "Transformaciones de Energía",
+        "body": "Una transformación de energía ocurre cuando la energía cambia de una forma a otra. Por ejemplo, un bombillo convierte energía eléctrica en energía lumínica. Este concepto es importante porque nos ayuda a entender cómo funcionan los dispositivos a nuestro alrededor y cómo se utiliza la energía en diferentes formas.",
+        "insight": "Reconocer las transformaciones de energía es esencial para identificar el funcionamiento de objetos cotidianos. Para ello, observa el tipo de energía que se utiliza y el resultado que produce.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Pasos para reconocer transformaciones de energía",
+          "steps": [
+            "Identifica la fuente de energía (por ejemplo, eléctrica, térmica, mecánica).",
+            "Observa el objeto y qué función cumple (por ejemplo, iluminar, calentar, mover).",
+            "Determina qué forma de energía es el resultado de esa transformación.",
+            "Conecta la fuente de energía con el resultado para entender la transformación."
+          ]
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:09:12.205Z",
+        "request_id": "2a35b0ab-a298-4f13-b9af-b040b25efb39",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 2577,
+        "stages": {
+          "openai_support": 2576
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 433,
+            "output_tokens": 201,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "science-4",
+      "subject": "natural_sciences",
+      "grade": 4,
+      "question": "Una linterna funciona con pilas. Explica de dónde obtiene la energía y en qué se transforma para que podamos ver.",
+      "level": 3,
+      "card": {
+        "title": "Transformaciones de Energía: Ejemplo de una Linterna",
+        "body": "Una linterna es un objeto cotidiano que ilustra cómo se transforma la energía. Cuando encendemos una linterna, la energía química de las baterías se transforma en energía eléctrica. Luego, esta energía eléctrica es convertida en energía luminosa que nos permite ver en la oscuridad.",
+        "insight": "Al observar cómo funciona una linterna, podemos identificar las diferentes formas de energía involucradas en el proceso de funcionamiento: química, eléctrica y luminosa. Esto nos ayuda a entender cómo se mueven y transforman las energías en los dispositivos que usamos a diario.",
+        "visual": {
+          "kind": "table",
+          "caption": "Transformaciones de Energía en una Linterna",
+          "headers": [
+            "Tipo de Energía",
+            "Descripción de la Transformación"
+          ],
+          "rows": [
+            [
+              "Energía Química",
+              "La energía almacenada en las baterías se convierte en energía eléctrica."
+            ],
+            [
+              "Energía Eléctrica",
+              "La energía producida por la batería se utiliza para encender el bombillo."
+            ],
+            [
+              "Energía Luminosa",
+              "La energía eléctrica transformada se convierte en luz visible."
+            ]
+          ]
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:09:15.567Z",
+        "request_id": "f8b3b240-09ef-4c65-b2a5-c10dda698914",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 3362,
+        "stages": {
+          "openai_support": 3362
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 446,
+            "output_tokens": 282,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "social-10",
+      "subject": "social_studies",
+      "grade": 10,
+      "question": "Un barrio dispone de dinero para una sola mejora. Una encuesta dice: 60 vecinos necesitan transporte y 40 necesitan un parque. Propón una decisión apoyada en esos datos y una forma de escuchar al grupo que no sea priorizado.",
+      "level": 2,
+      "card": {
+        "title": "Estrategia para Usar Datos en Argumentación",
+        "body": "Una idea conceptual importante en el uso de datos para argumentar decisiones es la \"relevancia de los datos\". Esto significa que debes seleccionar datos que realmente apoyen tu argumento o decisión. No todos los datos son igualmente útiles; algunos pueden ser más efectivos para demostrar tu punto de vista que otros. Para reconocer cuándo usar esta estrategia, considera lo siguiente:",
+        "insight": "Selecciona datos que sean específicamente aplicables al contexto de tu argumento o decisión. La relevancia es clave para persuadir a otros efectivamente y legitimar tu posición.",
+        "visual": {
+          "kind": "table",
+          "caption": "Pasos para Evaluar la Relevancia de Datos",
+          "headers": [
+            "Paso",
+            "Descripción"
+          ],
+          "rows": [
+            [
+              "1",
+              "Identificar tu afirmación o decisión principal."
+            ],
+            [
+              "2",
+              "Buscar datos relacionados que directamente apoyen esa afirmación."
+            ],
+            [
+              "3",
+              "Evaluar la calidad y la fuente de los datos seleccionados."
+            ],
+            [
+              "4",
+              "Considerar otras perspectivas que puedan ser soporte o contraargumento."
+            ]
+          ]
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:09:18.124Z",
+        "request_id": "2bd5e7e8-45e8-4da4-8a55-7095af826a0a",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 2557,
+        "stages": {
+          "openai_support": 2556
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 434,
+            "output_tokens": 225,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "social-10",
+      "level": 3,
+      "error": "No se pudo preparar esta ayuda. Tu actividad sigue disponible; puedes reintentarlo."
+    },
+    {
+      "case_id": "english-11",
+      "subject": "english",
+      "grade": 11,
+      "question": "Lees «The ground was slippery after the rain» y no conoces slippery. Propón una estrategia para inferir su significado con el contexto y cómo comprobarías tu inferencia.",
+      "level": 2,
+      "card": {
+        "title": "Inference of Unknown Vocabulary",
+        "body": "In this activity, understanding the meaning of unfamiliar words through context is crucial. To infer meanings effectively, consider these strategies:",
+        "insight": "Using context clues can enhance your vocabulary and comprehension skills, allowing you to grasp the essence of the text without always reaching for a dictionary.",
+        "visual": {
+          "kind": "sequence",
+          "caption": "Steps to Infer Vocabulary Meaning",
+          "steps": [
+            "Read the sentence or passage where the unfamiliar word appears.",
+            "Look for context clues: words or phrases around the unknown word that provide hints.",
+            "Consider the overall theme or topic of the text to guide your understanding.",
+            "Make an educated guess about the word's meaning and see if it fits within the context."
+          ]
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:09:23.264Z",
+        "request_id": "8cf2c91b-b040-4299-888f-84d1bfe80a12",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 2331,
+        "stages": {
+          "openai_support": 2330
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 439,
+            "output_tokens": 148,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    },
+    {
+      "case_id": "english-11",
+      "subject": "english",
+      "grade": 11,
+      "question": "Lees «The ground was slippery after the rain» y no conoces slippery. Propón una estrategia para inferir su significado con el contexto y cómo comprobarías tu inferencia.",
+      "level": 3,
+      "card": {
+        "title": "Understanding Unknown Vocabulary Through Context",
+        "body": "In this example, we will learn how to infer the meaning of an unknown word by looking at the context of a sentence. Let's consider the sentence: \"The artist's work was so captivating that the audience sat in rapt attention, utterly mesmerized by the vivid colors and intricate details of the painting.\" The word \"mesmerized\" is unknown. We will analyze the context to infer its meaning.",
+        "insight": "When encountering unknown vocabulary, look for clues in surrounding words or phrases that describe emotions, actions, or characteristics to make educated guesses about their meanings.",
+        "visual": {
+          "kind": "table",
+          "caption": "Steps to Infer Meaning from Context",
+          "headers": [
+            "Step",
+            "Description"
+          ],
+          "rows": [
+            [
+              "1",
+              "Identify the unknown word: 'mesmerized'."
+            ],
+            [
+              "2",
+              "Look for clues in the sentence: 'captivating', 'rapt attention', 'vivid colors', 'intricate details'."
+            ],
+            [
+              "3",
+              "Consider the overall sentiment of the sentence: Positive and engaging."
+            ],
+            [
+              "4",
+              "Infer that 'mesmerized' likely means being very focused or enchanted."
+            ],
+            [
+              "5",
+              "Confirm by substituting the inferred meaning and checking the sentence: '...the audience sat in rapt attention, utterly focused by...'"
+            ]
+          ]
+        }
+      },
+      "metrics": {
+        "timestamp": "2026-11-04T01:09:26.842Z",
+        "request_id": "4370ebc2-5c74-4d21-ab9c-c90404ea9148",
+        "operation": "support_pilot",
+        "status": 200,
+        "total_ms": 3578,
+        "stages": {
+          "openai_support": 3578
+        },
+        "usage": [
+          {
+            "model": "gpt-4o-mini-2024-07-18",
+            "input_tokens": 452,
+            "output_tokens": 265,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      }
+    }
+  ],
+  "summary": {
+    "passed_contract": 8,
+    "total": 10,
+    "latency": {
+      "samples": 8,
+      "p50_ms": 2577,
+      "p95_ms": 4396,
+      "min_ms": 2331,
+      "max_ms": 4396
+    }
+  }
+}

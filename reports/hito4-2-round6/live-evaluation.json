@@ -1,0 +1,1203 @@
+{
+  "model": "gpt-4.1-mini",
+  "limit": {
+    "calls": 64,
+    "answers": 32,
+    "totalTokens": 100000,
+    "completionTokensPerCall": 700
+  },
+  "calls": 32,
+  "inputTokens": 18371,
+  "outputTokens": 2360,
+  "results": [
+    {
+      "candidateSha256": "fc6d42e74fb179bbbcda6e2233bf8cfed49052373e21f4383f673752bd2f7106",
+      "questionId": "2a117363-158c-4830-8b70-dda8138c4a3f:q:0",
+      "subject": "social_studies",
+      "round": 1,
+      "answer": "A ofrece más trabajo, pero también usaría más agua. Averiguaría si alcanza el agua para las otras necesidades.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Buen trabajo relacionando empleo y consumo de agua, y señalando la necesidad de conocer la disponibilidad de agua para otras necesidades antes de decidir. Cumple ambos criterios claramente."
+      },
+      "metrics": {
+        "timestamp": "2026-11-06T13:10:56.760Z",
+        "request_id": "f0ea92b9-f486-46fe-ad23-a27433fa272f",
+        "operation": "round6-evaluation",
+        "status": 200,
+        "total_ms": 1501,
+        "stages": {
+          "openai_evaluation": 1498
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 671,
+            "output_tokens": 72,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "fc6d42e74fb179bbbcda6e2233bf8cfed49052373e21f4383f673752bd2f7106",
+      "questionId": "2a117363-158c-4830-8b70-dda8138c4a3f:q:0",
+      "subject": "social_studies",
+      "round": 1,
+      "answer": "No miraría solo el empleo: B usaría menos agua y tendría menos puestos. Revisaría la disponibilidad de agua antes de elegir.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Buen trabajo relacionando empleo y consumo de agua en S1, mostrando la tensión entre ambos aspectos. También identificaste correctamente la necesidad de conocer la disponibilidad de agua antes de decidir en S2. Cumples ambos criterios claramente."
+      },
+      "metrics": {
+        "timestamp": "2026-11-06T13:10:56.750Z",
+        "request_id": "2fe80309-225b-4fdf-8bf1-0dd8058a6786",
+        "operation": "round6-evaluation",
+        "status": 200,
+        "total_ms": 1488,
+        "stages": {
+          "openai_evaluation": 1486
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 677,
+            "output_tokens": 83,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "fc6d42e74fb179bbbcda6e2233bf8cfed49052373e21f4383f673752bd2f7106",
+      "questionId": "2a117363-158c-4830-8b70-dda8138c4a3f:q:0",
+      "subject": "social_studies",
+      "round": 1,
+      "answer": "Buscaría saber cuánta agua hay disponible.",
+      "expected": "partial",
+      "actual": {
+        "result": "partial",
+        "feedback": "Cumples con proponer un dato faltante relevante (disponibilidad de agua). Sin embargo, no relacionas empleo y consumo de agua ni explicas la necesidad de considerar ambos aspectos para revisar la decisión."
+      },
+      "metrics": {
+        "timestamp": "2026-11-06T13:10:57.988Z",
+        "request_id": "b56b55b4-5ee0-4cdd-a54b-64caa9c46152",
+        "operation": "round6-evaluation",
+        "status": 200,
+        "total_ms": 1227,
+        "stages": {
+          "openai_evaluation": 1227
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 634,
+            "output_tokens": 77,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "fc6d42e74fb179bbbcda6e2233bf8cfed49052373e21f4383f673752bd2f7106",
+      "questionId": "2a117363-158c-4830-8b70-dda8138c4a3f:q:0",
+      "subject": "social_studies",
+      "round": 1,
+      "answer": "territorio cultura economía aplicación",
+      "expected": "incorrect",
+      "actual": {
+        "result": "incorrect",
+        "feedback": "La respuesta no relaciona empleo y consumo de agua ni explica la tensión entre ambos aspectos. Tampoco propone un dato faltante relevante para decidir. Se limita a enumerar términos sin explicación."
+      },
+      "metrics": {
+        "timestamp": "2026-11-06T13:10:57.900Z",
+        "request_id": "a0c3a6ff-c3df-46a0-bce5-13c6937304dc",
+        "operation": "round6-evaluation",
+        "status": 200,
+        "total_ms": 1138,
+        "stages": {
+          "openai_evaluation": 1138
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 625,
+            "output_tokens": 70,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "698a0b58a2104a339e766729fa57a0b77df0b079d64e8791523e9ff7c07d70c5",
+      "questionId": "90ff7409-4fcb-4c96-872f-acd3bc23f4bf:q:0",
+      "subject": "language",
+      "round": 1,
+      "answer": "Vengan a ver los dibujos mañana.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Buen trabajo incluyendo una invitación clara y mencionando la actividad y un dato temporal. El mensaje es adecuado y cumple con los criterios solicitados."
+      },
+      "metrics": {
+        "timestamp": "2026-11-06T13:10:59.303Z",
+        "request_id": "487f8682-cef2-46eb-ba61-ee4a9c1d0618",
+        "operation": "round6-evaluation",
+        "status": 200,
+        "total_ms": 1313,
+        "stages": {
+          "openai_evaluation": 1313
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 527,
+            "output_tokens": 68,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "698a0b58a2104a339e766729fa57a0b77df0b079d64e8791523e9ff7c07d70c5",
+      "questionId": "90ff7409-4fcb-4c96-872f-acd3bc23f4bf:q:0",
+      "subject": "language",
+      "round": 1,
+      "answer": "Vamos juntos a la exposición en el salón.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Buen trabajo incluyendo una invitación clara y mencionando la exposición y el lugar. Cumpliste con ambos criterios correctamente."
+      },
+      "metrics": {
+        "timestamp": "2026-11-06T13:10:59.121Z",
+        "request_id": "ec680373-4b13-4b4b-b52f-74640a88cc11",
+        "operation": "round6-evaluation",
+        "status": 200,
+        "total_ms": 1132,
+        "stages": {
+          "openai_evaluation": 1131
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 529,
+            "output_tokens": 63,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "698a0b58a2104a339e766729fa57a0b77df0b079d64e8791523e9ff7c07d70c5",
+      "questionId": "90ff7409-4fcb-4c96-872f-acd3bc23f4bf:q:0",
+      "subject": "language",
+      "round": 1,
+      "answer": "Los invito.",
+      "expected": "partial",
+      "actual": {
+        "result": "partial",
+        "feedback": "El mensaje funciona como invitación, cumpliendo ese criterio. Sin embargo, no menciona la actividad ni ningún dato temporal o espacial, por lo que falta información sobre la exposición o cuándo/ dónde será."
+      },
+      "metrics": {
+        "timestamp": "2026-11-06T13:11:00.494Z",
+        "request_id": "8c91c4b9-dd76-4f43-90b6-dd1bb6debbdd",
+        "operation": "round6-evaluation",
+        "status": 200,
+        "total_ms": 1190,
+        "stages": {
+          "openai_evaluation": 1190
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 519,
+            "output_tokens": 78,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "698a0b58a2104a339e766729fa57a0b77df0b079d64e8791523e9ff7c07d70c5",
+      "questionId": "90ff7409-4fcb-4c96-872f-acd3bc23f4bf:q:0",
+      "subject": "language",
+      "round": 1,
+      "answer": "propósito invitación contexto",
+      "expected": "incorrect",
+      "actual": {
+        "result": "incorrect",
+        "feedback": "El estudiante no escribió un mensaje que funcione como invitación ni incluyó detalles sobre la exposición o cuándo y dónde será. Se requiere un mensaje claro que invite y mencione la actividad y al menos un dato temporal o espacial."
+      },
+      "metrics": {
+        "timestamp": "2026-11-06T13:11:00.505Z",
+        "request_id": "f1b656db-78a4-4d42-9c6d-0e7fd7329663",
+        "operation": "round6-evaluation",
+        "status": 200,
+        "total_ms": 1201,
+        "stages": {
+          "openai_evaluation": 1201
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 522,
+            "output_tokens": 79,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "1b49f43c09d5d223234959ed259d414af4a6797c66c8765655f2842cdb8190b2",
+      "questionId": "980c132b-6431-476a-88ec-a2e7786935ad:q:0",
+      "subject": "natural_sciences",
+      "round": 1,
+      "answer": "Pongo la misma agua y miro cuál chupa más.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Muy bien, mencionaste una condición que se mantiene igual (la misma agua) y qué observarías (cuál chupa más). Cumples ambos criterios claramente."
+      },
+      "metrics": {
+        "timestamp": "2026-11-06T13:11:01.786Z",
+        "request_id": "44214203-3c8d-46c2-85ee-4670d2580207",
+        "operation": "round6-evaluation",
+        "status": 200,
+        "total_ms": 1281,
+        "stages": {
+          "openai_evaluation": 1280
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 543,
+            "output_tokens": 71,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "1b49f43c09d5d223234959ed259d414af4a6797c66c8765655f2842cdb8190b2",
+      "questionId": "980c132b-6431-476a-88ec-a2e7786935ad:q:0",
+      "subject": "natural_sciences",
+      "round": 1,
+      "answer": "Los papeles igual de grandes; comparo cuánta agua queda.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Muy bien, mencionaste una condición que debe mantenerse igual y explicaste qué observarías para comparar los papeles. Cumples ambos criterios correctamente."
+      },
+      "metrics": {
+        "timestamp": "2026-11-06T13:11:01.790Z",
+        "request_id": "2ce3ffef-953d-4f7e-b8bc-39d7d6589dfc",
+        "operation": "round6-evaluation",
+        "status": 200,
+        "total_ms": 1284,
+        "stages": {
+          "openai_evaluation": 1284
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 557,
+            "output_tokens": 67,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "1b49f43c09d5d223234959ed259d414af4a6797c66c8765655f2842cdb8190b2",
+      "questionId": "980c132b-6431-476a-88ec-a2e7786935ad:q:0",
+      "subject": "natural_sciences",
+      "round": 1,
+      "answer": "Usaría la misma cantidad de agua.",
+      "expected": "partial",
+      "actual": {
+        "result": "partial",
+        "feedback": "Buen trabajo mencionando una condición que debe mantenerse igual (la cantidad de agua). Sin embargo, falta indicar qué se observaría para comparar los papeles, como cuál absorbe más agua."
+      },
+      "metrics": {
+        "timestamp": "2026-11-06T13:11:02.886Z",
+        "request_id": "ae1831d0-a6df-4b30-b460-d27f2bedce31",
+        "operation": "round6-evaluation",
+        "status": 200,
+        "total_ms": 1094,
+        "stages": {
+          "openai_evaluation": 1094
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 535,
+            "output_tokens": 73,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "1b49f43c09d5d223234959ed259d414af4a6797c66c8765655f2842cdb8190b2",
+      "questionId": "980c132b-6431-476a-88ec-a2e7786935ad:q:0",
+      "subject": "natural_sciences",
+      "round": 1,
+      "answer": "papel agua condiciones absorción",
+      "expected": "incorrect",
+      "actual": {
+        "result": "incorrect",
+        "feedback": "La respuesta no menciona ninguna condición que se mantenga igual ni qué observar para comparar los papeles. Se necesitan afirmaciones claras para cumplir los criterios."
+      },
+      "metrics": {
+        "timestamp": "2026-11-06T13:11:02.910Z",
+        "request_id": "889b2c98-d72f-444c-ac62-64e352330bd6",
+        "operation": "round6-evaluation",
+        "status": 200,
+        "total_ms": 1118,
+        "stages": {
+          "openai_evaluation": 1118
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 532,
+            "output_tokens": 63,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "2e0f57d942145ee05c934570f77dd24a3b3357f9d1a5e07f189f28bef0b30c58",
+      "questionId": "a8ab289d-2a79-42da-993a-a35c91fbdf1b:q:0",
+      "subject": "social_studies",
+      "round": 1,
+      "answer": "Miraría primero A por los 30 empleos previstos, pero pediría saber cuánta agua requiere.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Has cumplido bien ambos criterios: elegiste la propuesta A justificándola con la estimación de empleos y señalaste un dato faltante relevante (consumo de agua) para revisar antes de decidir."
+      },
+      "metrics": {
+        "timestamp": "2026-11-06T13:11:04.170Z",
+        "request_id": "e7e21267-59a3-4532-8a39-ecc1684a7ee1",
+        "operation": "round6-evaluation",
+        "status": 200,
+        "total_ms": 1259,
+        "stages": {
+          "openai_evaluation": 1259
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 678,
+            "output_tokens": 80,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "2e0f57d942145ee05c934570f77dd24a3b3357f9d1a5e07f189f28bef0b30c58",
+      "questionId": "a8ab289d-2a79-42da-993a-a35c91fbdf1b:q:0",
+      "subject": "social_studies",
+      "round": 1,
+      "answer": "Estudiaría B: aunque proyecta menos empleos, me interesa saber si los 15 serían estables. Falta conocer la calidad de esos trabajos.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Has elegido la propuesta B y justificas correctamente tu elección con una comparación de empleos, reconociendo que son menos pero destacando la estabilidad, lo cual es válido. Además, señalas un dato relevante faltante, la calidad de los empleos, que es pertinente para decidir. Buen trabajo cumpliendo ambos criterios."
+      },
+      "metrics": {
+        "timestamp": "2026-11-06T13:11:04.360Z",
+        "request_id": "f7eed7f0-c2c1-41e6-b8f6-b70b00492435",
+        "operation": "round6-evaluation",
+        "status": 200,
+        "total_ms": 1448,
+        "stages": {
+          "openai_evaluation": 1448
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 706,
+            "output_tokens": 104,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "2e0f57d942145ee05c934570f77dd24a3b3357f9d1a5e07f189f28bef0b30c58",
+      "questionId": "a8ab289d-2a79-42da-993a-a35c91fbdf1b:q:0",
+      "subject": "social_studies",
+      "round": 1,
+      "answer": "Estudiaría A porque estima más empleos.",
+      "expected": "partial",
+      "actual": {
+        "result": "partial",
+        "feedback": "Has elegido la propuesta A y justificas correctamente con la estimación de más empleos, lo cual cumple el primer criterio. Sin embargo, no señalas ningún dato faltante relevante que revisarías antes de decidir, por lo que el segundo criterio no está cumplido."
+      },
+      "metrics": {
+        "timestamp": "2026-11-06T13:11:05.655Z",
+        "request_id": "207bf617-c051-4ff4-9948-6a1edb191ac1",
+        "operation": "round6-evaluation",
+        "status": 200,
+        "total_ms": 1294,
+        "stages": {
+          "openai_evaluation": 1294
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 654,
+            "output_tokens": 89,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "2e0f57d942145ee05c934570f77dd24a3b3357f9d1a5e07f189f28bef0b30c58",
+      "questionId": "a8ab289d-2a79-42da-993a-a35c91fbdf1b:q:0",
+      "subject": "social_studies",
+      "round": 1,
+      "answer": "modelo región factores territorio",
+      "expected": "incorrect",
+      "actual": {
+        "result": "incorrect",
+        "feedback": "No se cumple ninguno de los criterios. La respuesta no elige ninguna propuesta ni justifica con estimaciones de empleos, ni señala un dato faltante relevante para revisar antes de decidir."
+      },
+      "metrics": {
+        "timestamp": "2026-11-06T13:11:05.591Z",
+        "request_id": "f3aeaa63-8104-428e-80e7-5e9e6a1f4649",
+        "operation": "round6-evaluation",
+        "status": 200,
+        "total_ms": 1230,
+        "stages": {
+          "openai_evaluation": 1229
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 643,
+            "output_tokens": 70,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "182f465ae591928c0f7f3e0e10bc5dcd816bbf358ba82eaf0ce3d7be8bd4fd77",
+      "questionId": "c80cc095-f6f7-419f-8eb2-1547d785412b:q:0",
+      "subject": "social_studies",
+      "round": 1,
+      "answer": "A viajaría menos tiempo. Preguntaría cuánto costará para saber si pueden pagarla.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Cumples bien con ambos criterios: identificas que el viaje de A sería más corto y preguntas por el costo antes de generalizar el beneficio. Buen trabajo."
+      },
+      "metrics": {
+        "timestamp": "2026-11-06T13:11:06.771Z",
+        "request_id": "33d5732a-887a-4dc7-b2d3-2cb8211ede75",
+        "operation": "round6-evaluation",
+        "status": 200,
+        "total_ms": 1115,
+        "stages": {
+          "openai_evaluation": 1115
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 610,
+            "output_tokens": 71,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "182f465ae591928c0f7f3e0e10bc5dcd816bbf358ba82eaf0ce3d7be8bd4fd77",
+      "questionId": "c80cc095-f6f7-419f-8eb2-1547d785412b:q:0",
+      "subject": "social_studies",
+      "round": 1,
+      "answer": "Para A se proyecta ahorrar media hora; revisaría si B puede llegar a la ruta.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Has identificado correctamente la ventaja para A con la reducción del viaje y planteas una pregunta relevante sobre el acceso de B antes de generalizar el beneficio. Buen trabajo cumpliendo ambos criterios."
+      },
+      "metrics": {
+        "timestamp": "2026-11-06T13:11:06.686Z",
+        "request_id": "e759b83e-ac93-48fa-be66-89bdad6e49fb",
+        "operation": "round6-evaluation",
+        "status": 200,
+        "total_ms": 1029,
+        "stages": {
+          "openai_evaluation": 1029
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 611,
+            "output_tokens": 77,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "182f465ae591928c0f7f3e0e10bc5dcd816bbf358ba82eaf0ce3d7be8bd4fd77",
+      "questionId": "c80cc095-f6f7-419f-8eb2-1547d785412b:q:0",
+      "subject": "social_studies",
+      "round": 1,
+      "answer": "A podría pasar de una hora a media hora.",
+      "expected": "partial",
+      "actual": {
+        "result": "partial",
+        "feedback": "Has identificado correctamente la posible ventaja para la comunidad A con la reducción del tiempo de viaje. Sin embargo, no preguntas por la tarifa, costo o condiciones para la comunidad B antes de generalizar el beneficio a todos."
+      },
+      "metrics": {
+        "timestamp": "2026-11-06T13:11:07.848Z",
+        "request_id": "82f53ab2-9a0c-4675-8124-12a6c9ca6f6a",
+        "operation": "round6-evaluation",
+        "status": 200,
+        "total_ms": 1075,
+        "stages": {
+          "openai_evaluation": 1075
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 584,
+            "output_tokens": 79,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "182f465ae591928c0f7f3e0e10bc5dcd816bbf358ba82eaf0ce3d7be8bd4fd77",
+      "questionId": "c80cc095-f6f7-419f-8eb2-1547d785412b:q:0",
+      "subject": "social_studies",
+      "round": 1,
+      "answer": "ruta beneficio transferencia región",
+      "expected": "incorrect",
+      "actual": {
+        "result": "incorrect",
+        "feedback": "La respuesta no identifica claramente la ventaja para la comunidad A ni plantea una pregunta sobre la tarifa o recorridos de la comunidad B. Se requiere mayor desarrollo para cumplir los criterios."
+      },
+      "metrics": {
+        "timestamp": "2026-11-06T13:11:07.816Z",
+        "request_id": "b0e90bb4-1d17-40b9-8870-ba3a8968b9f1",
+        "operation": "round6-evaluation",
+        "status": 200,
+        "total_ms": 1044,
+        "stages": {
+          "openai_evaluation": 1044
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 573,
+            "output_tokens": 68,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "e1467ae8c433f43bc454a88773729357062276ff42272561fecdf0a10f3b9535",
+      "questionId": "dad15a5e-ba72-40ee-8430-e53dec4fc58c:q:0",
+      "subject": "natural_sciences",
+      "round": 1,
+      "answer": "Las miraría el mismo día porque con más días una puede crecer más.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "El estudiante propone observar las plantas el mismo día y explica que con más días una puede crecer más, lo que cumple ambos criterios de cambio y razón."
+      },
+      "metrics": {
+        "timestamp": "2026-11-06T13:11:09.119Z",
+        "request_id": "e082a7d3-d510-4948-b4c2-89cf9556b145",
+        "operation": "round6-evaluation",
+        "status": 200,
+        "total_ms": 1271,
+        "stages": {
+          "openai_evaluation": 1270
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 539,
+            "output_tokens": 68,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "e1467ae8c433f43bc454a88773729357062276ff42272561fecdf0a10f3b9535",
+      "questionId": "dad15a5e-ba72-40ee-8430-e53dec4fc58c:q:0",
+      "subject": "natural_sciences",
+      "round": 1,
+      "answer": "Esperaría siete días para las dos: así ninguna tendría más tiempo para crecer que la otra.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Buen trabajo proponiendo observar ambas plantas tras el mismo tiempo y explicando que así ninguna tendría ventaja por más tiempo de crecimiento."
+      },
+      "metrics": {
+        "timestamp": "2026-11-06T13:11:08.869Z",
+        "request_id": "d3c7d263-683d-4ba6-ac0e-1bd090195b6e",
+        "operation": "round6-evaluation",
+        "status": 200,
+        "total_ms": 1020,
+        "stages": {
+          "openai_evaluation": 1020
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 547,
+            "output_tokens": 63,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "e1467ae8c433f43bc454a88773729357062276ff42272561fecdf0a10f3b9535",
+      "questionId": "dad15a5e-ba72-40ee-8430-e53dec4fc58c:q:0",
+      "subject": "natural_sciences",
+      "round": 1,
+      "answer": "Las observaría después del mismo número de días.",
+      "expected": "partial",
+      "actual": {
+        "result": "partial",
+        "feedback": "Has cumplido con proponer observar las plantas tras igual número de días, lo cual es correcto. Sin embargo, no explicas por qué es importante comparar en el mismo tiempo, falta la razón que justifique el cambio."
+      },
+      "metrics": {
+        "timestamp": "2026-11-06T13:11:10.300Z",
+        "request_id": "de2bacfd-65dd-4905-acd5-6bd5e2457c9a",
+        "operation": "round6-evaluation",
+        "status": 200,
+        "total_ms": 1180,
+        "stages": {
+          "openai_evaluation": 1180
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 529,
+            "output_tokens": 80,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "e1467ae8c433f43bc454a88773729357062276ff42272561fecdf0a10f3b9535",
+      "questionId": "dad15a5e-ba72-40ee-8430-e53dec4fc58c:q:0",
+      "subject": "natural_sciences",
+      "round": 1,
+      "answer": "observar experimentar plantas ciencia",
+      "expected": "incorrect",
+      "actual": {
+        "result": "incorrect",
+        "feedback": "El estudiante no propone un cambio concreto para observar las plantas en el mismo tiempo ni explica por qué es importante hacerlo. La respuesta es muy breve y no cumple con los criterios de cambio ni de razón."
+      },
+      "metrics": {
+        "timestamp": "2026-11-06T13:11:10.158Z",
+        "request_id": "ff8386cd-e3e3-4eea-a377-b2d2bbe37020",
+        "operation": "round6-evaluation",
+        "status": 200,
+        "total_ms": 1038,
+        "stages": {
+          "openai_evaluation": 1038
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 520,
+            "output_tokens": 72,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "ef2600b09f1ae6eab529681ae648a424706ec0f4f9d2a4e7409f31255b2e4e4b",
+      "questionId": "dfaa6392-6b6a-452b-addd-9708df31dee6:q:0",
+      "subject": "language",
+      "round": 1,
+      "answer": "Vengan el martes a la biblioteca.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Muy bien, el mensaje corrige correctamente el día y el lugar según el aviso. Has situado el encuentro el martes y en la biblioteca, cumpliendo ambos criterios."
+      },
+      "metrics": {
+        "timestamp": "2026-11-06T13:11:11.344Z",
+        "request_id": "d19d458e-e8d7-413c-ab20-badc16c0eb55",
+        "operation": "round6-evaluation",
+        "status": 200,
+        "total_ms": 1043,
+        "stages": {
+          "openai_evaluation": 1043
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 517,
+            "output_tokens": 72,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "ef2600b09f1ae6eab529681ae648a424706ec0f4f9d2a4e7409f31255b2e4e4b",
+      "questionId": "dfaa6392-6b6a-452b-addd-9708df31dee6:q:0",
+      "subject": "language",
+      "round": 1,
+      "answer": "Nos vemos en la biblioteca el martes.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Muy bien, el mensaje corrige correctamente el día y el lugar según el aviso. Has situado el encuentro el martes y en la biblioteca, cumpliendo ambos criterios."
+      },
+      "metrics": {
+        "timestamp": "2026-11-06T13:11:11.255Z",
+        "request_id": "4b57c440-d43b-4ba7-8b6a-21456c7c973b",
+        "operation": "round6-evaluation",
+        "status": 200,
+        "total_ms": 954,
+        "stages": {
+          "openai_evaluation": 954
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 517,
+            "output_tokens": 72,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "ef2600b09f1ae6eab529681ae648a424706ec0f4f9d2a4e7409f31255b2e4e4b",
+      "questionId": "dfaa6392-6b6a-452b-addd-9708df31dee6:q:0",
+      "subject": "language",
+      "round": 1,
+      "answer": "Los esperamos el martes en la cancha.",
+      "expected": "partial",
+      "actual": {
+        "result": "partial",
+        "feedback": "Has corregido correctamente el día a martes, pero no has cambiado el lugar; sigue diciendo cancha en lugar de biblioteca."
+      },
+      "metrics": {
+        "timestamp": "2026-11-06T13:11:12.301Z",
+        "request_id": "5279d46c-81c1-4bb1-b5db-8f48b640b798",
+        "operation": "round6-evaluation",
+        "status": 200,
+        "total_ms": 956,
+        "stages": {
+          "openai_evaluation": 956
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 517,
+            "output_tokens": 59,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "ef2600b09f1ae6eab529681ae648a424706ec0f4f9d2a4e7409f31255b2e4e4b",
+      "questionId": "dfaa6392-6b6a-452b-addd-9708df31dee6:q:0",
+      "subject": "language",
+      "round": 1,
+      "answer": "lectura evidencia inferencia razonamiento",
+      "expected": "incorrect",
+      "actual": {
+        "result": "incorrect",
+        "feedback": "El estudiante no corrigió ni el día ni el lugar del encuentro según el aviso. No hay evidencia en la respuesta que muestre que se haya modificado el mensaje original para situar el encuentro el martes en la biblioteca."
+      },
+      "metrics": {
+        "timestamp": "2026-11-06T13:11:12.543Z",
+        "request_id": "daacc3eb-b0ce-459d-b74a-d0bdc5775727",
+        "operation": "round6-evaluation",
+        "status": 200,
+        "total_ms": 1198,
+        "stages": {
+          "openai_evaluation": 1198
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 516,
+            "output_tokens": 77,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "e392cbd2b429bf492a6c51196458e3d00ca7263ad6d394244c6585d54dc2401f",
+      "questionId": "fa838a67-9b5e-4c7b-845d-a4c176207998:q:0",
+      "subject": "natural_sciences",
+      "round": 1,
+      "answer": "Cambió lo alto y el piso. Lo soltaría igual de alto en los dos.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Reconoce claramente que cambiaron dos factores, la altura y el piso, y propone igualar la altura para comparar mejor. Cumple ambos criterios de forma sencilla y adecuada."
+      },
+      "metrics": {
+        "timestamp": "2026-11-06T13:11:13.642Z",
+        "request_id": "173ce8ad-c4cf-4f75-9c6a-d681f9612d51",
+        "operation": "round6-evaluation",
+        "status": 200,
+        "total_ms": 1097,
+        "stages": {
+          "openai_evaluation": 1097
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 573,
+            "output_tokens": 74,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "e392cbd2b429bf492a6c51196458e3d00ca7263ad6d394244c6585d54dc2401f",
+      "questionId": "fa838a67-9b5e-4c7b-845d-a4c176207998:q:0",
+      "subject": "natural_sciences",
+      "round": 1,
+      "answer": "La altura también puede cambiar cuánto avanza; usaría la misma rampa para cartón y tela.",
+      "expected": "correct",
+      "actual": {
+        "result": "correct",
+        "feedback": "Reconociste correctamente que la altura también influye en el recorrido y propusiste usar la misma rampa para ambas superficies, lo cual es adecuado para comparar mejor. Buen trabajo cumpliendo ambos criterios."
+      },
+      "metrics": {
+        "timestamp": "2026-11-06T13:11:13.680Z",
+        "request_id": "04ce669b-2c69-44cc-8d19-3be541390f27",
+        "operation": "round6-evaluation",
+        "status": 200,
+        "total_ms": 1136,
+        "stages": {
+          "openai_evaluation": 1135
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 577,
+            "output_tokens": 81,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "e392cbd2b429bf492a6c51196458e3d00ca7263ad6d394244c6585d54dc2401f",
+      "questionId": "fa838a67-9b5e-4c7b-845d-a4c176207998:q:0",
+      "subject": "natural_sciences",
+      "round": 1,
+      "answer": "Usaría la misma altura en las dos pruebas.",
+      "expected": "partial",
+      "actual": {
+        "result": "partial",
+        "feedback": "Reconoce claramente cómo mejorar la comparación usando la misma altura, pero no menciona que cambió la altura además del piso, por lo que no cumple el primer criterio."
+      },
+      "metrics": {
+        "timestamp": "2026-11-06T13:11:14.876Z",
+        "request_id": "2af89a5c-d9bb-46ad-98d7-c8d1686bfeb9",
+        "operation": "round6-evaluation",
+        "status": 200,
+        "total_ms": 1195,
+        "stages": {
+          "openai_evaluation": 1195
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 547,
+            "output_tokens": 70,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      },
+      "pass": true
+    },
+    {
+      "candidateSha256": "e392cbd2b429bf492a6c51196458e3d00ca7263ad6d394244c6585d54dc2401f",
+      "questionId": "fa838a67-9b5e-4c7b-845d-a4c176207998:q:0",
+      "subject": "natural_sciences",
+      "round": 1,
+      "answer": "ciencia observación experimentación lógica",
+      "expected": "incorrect",
+      "actual": {
+        "result": "incorrect",
+        "feedback": "El estudiante no reconoce que cambió la altura además del piso, ni propone usar la misma altura para comparar. La respuesta es solo una enumeración de palabras sin relación con el criterio."
+      },
+      "metrics": {
+        "timestamp": "2026-11-06T13:11:14.872Z",
+        "request_id": "e909360f-c0c6-4c9b-8326-2630b005011b",
+        "operation": "round6-evaluation",
+        "status": 200,
+        "total_ms": 1190,
+        "stages": {
+          "openai_evaluation": 1190
+        },
+        "usage": [
+          {
+            "model": "gpt-4.1-mini-2025-04-14",
+            "input_tokens": 542,
+            "output_tokens": 70,
+            "cached_input_tokens": 0
+          }
+        ],
+        "tags": {}
+      },
+      "pass": true
+    }
+  ],
+  "traces": [
+    {
+      "schema": "kuneo_evaluation",
+      "finishReason": "stop",
+      "response": "{\"checks\":[{\"id\":\"relation\",\"met\":true,\"evidence\":[\"S1\"]},{\"id\":\"missing\",\"met\":true,\"evidence\":[\"S2\"]}],\"feedback\":\"Buen trabajo relacionando empleo y consumo de agua en S1, mostrando la tensión entre ambos aspectos. También identificaste correctamente la necesidad de conocer la disponibilidad de agua antes de decidir en S2. Cumples ambos criterios claramente.\"}"
+    },
+    {
+      "schema": "kuneo_evaluation",
+      "finishReason": "stop",
+      "response": "{\"checks\":[{\"id\":\"relation\",\"met\":true,\"evidence\":[\"S1\"]},{\"id\":\"missing\",\"met\":true,\"evidence\":[\"S2\"]}],\"feedback\":\"Buen trabajo relacionando empleo y consumo de agua, y señalando la necesidad de conocer la disponibilidad de agua para otras necesidades antes de decidir. Cumple ambos criterios claramente.\"}"
+    },
+    {
+      "schema": "kuneo_evaluation",
+      "finishReason": "stop",
+      "response": "{\"checks\":[{\"id\":\"relation\",\"met\":false,\"evidence\":[]},{\"id\":\"missing\",\"met\":false,\"evidence\":[]}],\"feedback\":\"La respuesta no relaciona empleo y consumo de agua ni explica la tensión entre ambos aspectos. Tampoco propone un dato faltante relevante para decidir. Se limita a enumerar términos sin explicación.\"}"
+    },
+    {
+      "schema": "kuneo_evaluation",
+      "finishReason": "stop",
+      "response": "{\"checks\":[{\"id\":\"relation\",\"met\":false,\"evidence\":[]},{\"id\":\"missing\",\"met\":true,\"evidence\":[\"S1\"]}],\"feedback\":\"Cumples con proponer un dato faltante relevante (disponibilidad de agua). Sin embargo, no relacionas empleo y consumo de agua ni explicas la necesidad de considerar ambos aspectos para revisar la decisión.\"}"
+    },
+    {
+      "schema": "kuneo_evaluation",
+      "finishReason": "stop",
+      "response": "{\"checks\":[{\"id\":\"invitation\",\"met\":true,\"evidence\":[\"S1\"]},{\"id\":\"details\",\"met\":true,\"evidence\":[\"S1\"]}],\"feedback\":\"Buen trabajo incluyendo una invitación clara y mencionando la exposición y el lugar. Cumpliste con ambos criterios correctamente.\"}"
+    },
+    {
+      "schema": "kuneo_evaluation",
+      "finishReason": "stop",
+      "response": "{\"checks\":[{\"id\":\"invitation\",\"met\":true,\"evidence\":[\"S1\"]},{\"id\":\"details\",\"met\":true,\"evidence\":[\"S1\"]}],\"feedback\":\"Buen trabajo incluyendo una invitación clara y mencionando la actividad y un dato temporal. El mensaje es adecuado y cumple con los criterios solicitados.\"}"
+    },
+    {
+      "schema": "kuneo_evaluation",
+      "finishReason": "stop",
+      "response": "{\"checks\":[{\"id\":\"invitation\",\"met\":true,\"evidence\":[\"S1\"]},{\"id\":\"details\",\"met\":false,\"evidence\":[]}],\"feedback\":\"El mensaje funciona como invitación, cumpliendo ese criterio. Sin embargo, no menciona la actividad ni ningún dato temporal o espacial, por lo que falta información sobre la exposición o cuándo/ dónde será.\"}"
+    },
+    {
+      "schema": "kuneo_evaluation",
+      "finishReason": "stop",
+      "response": "{\"checks\":[{\"id\":\"invitation\",\"met\":false,\"evidence\":[]},{\"id\":\"details\",\"met\":false,\"evidence\":[]}],\"feedback\":\"El estudiante no escribió un mensaje que funcione como invitación ni incluyó detalles sobre la exposición o cuándo y dónde será. Se requiere un mensaje claro que invite y mencione la actividad y al menos un dato temporal o espacial.\"}"
+    },
+    {
+      "schema": "kuneo_evaluation",
+      "finishReason": "stop",
+      "response": "{\"checks\":[{\"id\":\"constant\",\"met\":true,\"evidence\":[\"S1\"]},{\"id\":\"observe\",\"met\":true,\"evidence\":[\"S1\"]}],\"feedback\":\"Muy bien, mencionaste una condición que se mantiene igual (la misma agua) y qué observarías (cuál chupa más). Cumples ambos criterios claramente.\"}"
+    },
+    {
+      "schema": "kuneo_evaluation",
+      "finishReason": "stop",
+      "response": "{\"checks\":[{\"id\":\"constant\",\"met\":true,\"evidence\":[\"S1\"]},{\"id\":\"observe\",\"met\":true,\"evidence\":[\"S2\"]}],\"feedback\":\"Muy bien, mencionaste una condición que debe mantenerse igual y explicaste qué observarías para comparar los papeles. Cumples ambos criterios correctamente.\"}"
+    },
+    {
+      "schema": "kuneo_evaluation",
+      "finishReason": "stop",
+      "response": "{\"checks\":[{\"id\":\"constant\",\"met\":true,\"evidence\":[\"S1\"]},{\"id\":\"observe\",\"met\":false,\"evidence\":[]}],\"feedback\":\"Buen trabajo mencionando una condición que debe mantenerse igual (la cantidad de agua). Sin embargo, falta indicar qué se observaría para comparar los papeles, como cuál absorbe más agua.\"}"
+    },
+    {
+      "schema": "kuneo_evaluation",
+      "finishReason": "stop",
+      "response": "{\"checks\":[{\"id\":\"constant\",\"met\":false,\"evidence\":[]},{\"id\":\"observe\",\"met\":false,\"evidence\":[]}],\"feedback\":\"La respuesta no menciona ninguna condición que se mantenga igual ni qué observar para comparar los papeles. Se necesitan afirmaciones claras para cumplir los criterios.\"}"
+    },
+    {
+      "schema": "kuneo_evaluation",
+      "finishReason": "stop",
+      "response": "{\"checks\":[{\"id\":\"choice\",\"met\":true,\"evidence\":[\"S1\"]},{\"id\":\"missing\",\"met\":true,\"evidence\":[\"S1\"]}],\"feedback\":\"Has cumplido bien ambos criterios: elegiste la propuesta A justificándola con la estimación de empleos y señalaste un dato faltante relevante (consumo de agua) para revisar antes de decidir.\"}"
+    },
+    {
+      "schema": "kuneo_evaluation",
+      "finishReason": "stop",
+      "response": "{\"checks\":[{\"id\":\"choice\",\"met\":true,\"evidence\":[\"S1\"]},{\"id\":\"missing\",\"met\":true,\"evidence\":[\"S2\"]}],\"feedback\":\"Has elegido la propuesta B y justificas correctamente tu elección con una comparación de empleos, reconociendo que son menos pero destacando la estabilidad, lo cual es válido. Además, señalas un dato relevante faltante, la calidad de los empleos, que es pertinente para decidir. Buen trabajo cumpliendo ambos criterios.\"}"
+    },
+    {
+      "schema": "kuneo_evaluation",
+      "finishReason": "stop",
+      "response": "{\"checks\":[{\"id\":\"choice\",\"met\":false,\"evidence\":[]},{\"id\":\"missing\",\"met\":false,\"evidence\":[]}],\"feedback\":\"No se cumple ninguno de los criterios. La respuesta no elige ninguna propuesta ni justifica con estimaciones de empleos, ni señala un dato faltante relevante para revisar antes de decidir.\"}"
+    },
+    {
+      "schema": "kuneo_evaluation",
+      "finishReason": "stop",
+      "response": "{\"checks\":[{\"id\":\"choice\",\"met\":true,\"evidence\":[\"S1\"]},{\"id\":\"missing\",\"met\":false,\"evidence\":[]}],\"feedback\":\"Has elegido la propuesta A y justificas correctamente con la estimación de más empleos, lo cual cumple el primer criterio. Sin embargo, no señalas ningún dato faltante relevante que revisarías antes de decidir, por lo que el segundo criterio no está cumplido.\"}"
+    },
+    {
+      "schema": "kuneo_evaluation",
+      "finishReason": "stop",
+      "response": "{\"checks\":[{\"id\":\"benefit\",\"met\":true,\"evidence\":[\"S1\"]},{\"id\":\"limit\",\"met\":true,\"evidence\":[\"S2\"]}],\"feedback\":\"Has identificado correctamente la ventaja para A con la reducción del viaje y planteas una pregunta relevante sobre el acceso de B antes de generalizar el beneficio. Buen trabajo cumpliendo ambos criterios.\"}"
+    },
+    {
+      "schema": "kuneo_evaluation",
+      "finishReason": "stop",
+      "response": "{\"checks\":[{\"id\":\"benefit\",\"met\":true,\"evidence\":[\"S1\"]},{\"id\":\"limit\",\"met\":true,\"evidence\":[\"S2\"]}],\"feedback\":\"Cumples bien con ambos criterios: identificas que el viaje de A sería más corto y preguntas por el costo antes de generalizar el beneficio. Buen trabajo.\"}"
+    },
+    {
+      "schema": "kuneo_evaluation",
+      "finishReason": "stop",
+      "response": "{\"checks\":[{\"id\":\"benefit\",\"met\":false,\"evidence\":[]},{\"id\":\"limit\",\"met\":false,\"evidence\":[]}],\"feedback\":\"La respuesta no identifica claramente la ventaja para la comunidad A ni plantea una pregunta sobre la tarifa o recorridos de la comunidad B. Se requiere mayor desarrollo para cumplir los criterios.\"}"
+    },
+    {
+      "schema": "kuneo_evaluation",
+      "finishReason": "stop",
+      "response": "{\"checks\":[{\"id\":\"benefit\",\"met\":true,\"evidence\":[\"S1\"]},{\"id\":\"limit\",\"met\":false,\"evidence\":[]}],\"feedback\":\"Has identificado correctamente la posible ventaja para la comunidad A con la reducción del tiempo de viaje. Sin embargo, no preguntas por la tarifa, costo o condiciones para la comunidad B antes de generalizar el beneficio a todos.\"}"
+    },
+    {
+      "schema": "kuneo_evaluation",
+      "finishReason": "stop",
+      "response": "{\"checks\":[{\"id\":\"change\",\"met\":true,\"evidence\":[\"S1\"]},{\"id\":\"reason\",\"met\":true,\"evidence\":[\"S1\"]}],\"feedback\":\"Buen trabajo proponiendo observar ambas plantas tras el mismo tiempo y explicando que así ninguna tendría ventaja por más tiempo de crecimiento.\"}"
+    },
+    {
+      "schema": "kuneo_evaluation",
+      "finishReason": "stop",
+      "response": "{\"checks\":[{\"id\":\"change\",\"met\":true,\"evidence\":[\"S1\"]},{\"id\":\"reason\",\"met\":true,\"evidence\":[\"S1\"]}],\"feedback\":\"El estudiante propone observar las plantas el mismo día y explica que con más días una puede crecer más, lo que cumple ambos criterios de cambio y razón.\"}"
+    },
+    {
+      "schema": "kuneo_evaluation",
+      "finishReason": "stop",
+      "response": "{\"checks\":[{\"id\":\"change\",\"met\":false,\"evidence\":[]},{\"id\":\"reason\",\"met\":false,\"evidence\":[]}],\"feedback\":\"El estudiante no propone un cambio concreto para observar las plantas en el mismo tiempo ni explica por qué es importante hacerlo. La respuesta es muy breve y no cumple con los criterios de cambio ni de razón.\"}"
+    },
+    {
+      "schema": "kuneo_evaluation",
+      "finishReason": "stop",
+      "response": "{\"checks\":[{\"id\":\"change\",\"met\":true,\"evidence\":[\"S1\"]},{\"id\":\"reason\",\"met\":false,\"evidence\":[]}],\"feedback\":\"Has cumplido con proponer observar las plantas tras igual número de días, lo cual es correcto. Sin embargo, no explicas por qué es importante comparar en el mismo tiempo, falta la razón que justifique el cambio.\"}"
+    },
+    {
+      "schema": "kuneo_evaluation",
+      "finishReason": "stop",
+      "response": "{\"checks\":[{\"id\":\"day\",\"met\":true,\"evidence\":[\"S1\"]},{\"id\":\"place\",\"met\":true,\"evidence\":[\"S1\"]}],\"feedback\":\"Muy bien, el mensaje corrige correctamente el día y el lugar según el aviso. Has situado el encuentro el martes y en la biblioteca, cumpliendo ambos criterios.\"}"
+    },
+    {
+      "schema": "kuneo_evaluation",
+      "finishReason": "stop",
+      "response": "{\"checks\":[{\"id\":\"day\",\"met\":true,\"evidence\":[\"S1\"]},{\"id\":\"place\",\"met\":true,\"evidence\":[\"S1\"]}],\"feedback\":\"Muy bien, el mensaje corrige correctamente el día y el lugar según el aviso. Has situado el encuentro el martes y en la biblioteca, cumpliendo ambos criterios.\"}"
+    },
+    {
+      "schema": "kuneo_evaluation",
+      "finishReason": "stop",
+      "response": "{\"checks\":[{\"id\":\"day\",\"met\":true,\"evidence\":[\"S1\"]},{\"id\":\"place\",\"met\":false,\"evidence\":[]}],\"feedback\":\"Has corregido correctamente el día a martes, pero no has cambiado el lugar; sigue diciendo cancha en lugar de biblioteca.\"}"
+    },
+    {
+      "schema": "kuneo_evaluation",
+      "finishReason": "stop",
+      "response": "{\"checks\":[{\"id\":\"day\",\"met\":false,\"evidence\":[]},{\"id\":\"place\",\"met\":false,\"evidence\":[]}],\"feedback\":\"El estudiante no corrigió ni el día ni el lugar del encuentro según el aviso. No hay evidencia en la respuesta que muestre que se haya modificado el mensaje original para situar el encuentro el martes en la biblioteca.\"}"
+    },
+    {
+      "schema": "kuneo_evaluation",
+      "finishReason": "stop",
+      "response": "{\"checks\":[{\"id\":\"confound\",\"met\":true,\"evidence\":[\"S1\"]},{\"id\":\"fix\",\"met\":true,\"evidence\":[\"S2\"]}],\"feedback\":\"Reconoce claramente que cambiaron dos factores, la altura y el piso, y propone igualar la altura para comparar mejor. Cumple ambos criterios de forma sencilla y adecuada.\"}"
+    },
+    {
+      "schema": "kuneo_evaluation",
+      "finishReason": "stop",
+      "response": "{\"checks\":[{\"id\":\"confound\",\"met\":true,\"evidence\":[\"S1\"]},{\"id\":\"fix\",\"met\":true,\"evidence\":[\"S2\"]}],\"feedback\":\"Reconociste correctamente que la altura también influye en el recorrido y propusiste usar la misma rampa para ambas superficies, lo cual es adecuado para comparar mejor. Buen trabajo cumpliendo ambos criterios.\"}"
+    },
+    {
+      "schema": "kuneo_evaluation",
+      "finishReason": "stop",
+      "response": "{\"checks\":[{\"id\":\"confound\",\"met\":false,\"evidence\":[]},{\"id\":\"fix\",\"met\":false,\"evidence\":[]}],\"feedback\":\"El estudiante no reconoce que cambió la altura además del piso, ni propone usar la misma altura para comparar. La respuesta es solo una enumeración de palabras sin relación con el criterio.\"}"
+    },
+    {
+      "schema": "kuneo_evaluation",
+      "finishReason": "stop",
+      "response": "{\"checks\":[{\"id\":\"confound\",\"met\":false,\"evidence\":[]},{\"id\":\"fix\",\"met\":true,\"evidence\":[\"S1\"]}],\"feedback\":\"Reconoce claramente cómo mejorar la comparación usando la misma altura, pero no menciona que cambió la altura además del piso, por lo que no cumple el primer criterio.\"}"
+    }
+  ],
+  "databaseCalls": 0,
+  "evaluatorSha256": "8de757ebf5bb8820a2f796d12a3649d8544657f86f65db1dfb3b94e77cb9fbdb",
+  "passed": true
+}

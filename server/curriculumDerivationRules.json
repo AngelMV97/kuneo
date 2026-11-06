@@ -1,0 +1,170 @@
+{
+  "concept_keywords": {
+    "fracciones": [
+      "fracciÃ³n",
+      "fracciones",
+      "racional",
+      "parte",
+      "todo",
+      "numerador",
+      "denominador"
+    ],
+    "proporcionalidad": [
+      "razÃ³n",
+      "proporciÃ³n",
+      "dependencia",
+      "variaciÃ³n",
+      "proporcional"
+    ],
+    "potenciacion": [
+      "potencia",
+      "potenciaciÃ³n",
+      "exponente",
+      "base"
+    ],
+    "area_perimetro": [
+      "Ã¡rea",
+      "perÃ­metro",
+      "superficie"
+    ],
+    "volumen": [
+      "volumen",
+      "cubo",
+      "sÃ³lido",
+      "capacidad"
+    ],
+    "plano_cartesiano": [
+      "plano cartesiano",
+      "coordenadas",
+      "trayectoria",
+      "ejes"
+    ],
+    "estadistica": [
+      "media",
+      "mediana",
+      "datos",
+      "frecuencia",
+      "grÃ¡fico",
+      "promedio"
+    ],
+    "probabilidad": [
+      "azar",
+      "probabilidad",
+      "evento",
+      "espacio muestral",
+      "aleatorio"
+    ],
+    "lectura_inferencial": [
+      "interpreta",
+      "infiere",
+      "comprende",
+      "texto",
+      "lectura"
+    ],
+    "argumentacion": [
+      "argumenta",
+      "justifica",
+      "evidencia",
+      "sustenta"
+    ],
+    "electricidad": [
+      "corriente elÃ©ctrica",
+      "circuito",
+      "conductor",
+      "aislante"
+    ],
+    "ecosistema": [
+      "ecosistema",
+      "cadena alimenticia",
+      "habitat",
+      "biodiversidad"
+    ],
+    "celula": [
+      "cÃ©lula",
+      "organelo",
+      "membrana",
+      "nÃºcleo"
+    ],
+    "movimiento": [
+      "movimiento",
+      "velocidad",
+      "fuerza",
+      "aceleraciÃ³n"
+    ],
+    "sociedad": [
+      "sociedad",
+      "cultura",
+      "comunidad",
+      "grupo social"
+    ],
+    "territorio": [
+      "territorio",
+      "espacio",
+      "geografÃ­a",
+      "regiÃ³n"
+    ],
+    "historia": [
+      "historia",
+      "Ã©poca",
+      "periodo",
+      "tiempo"
+    ],
+    "escritura": [
+      "escritura",
+      "redacciÃ³n",
+      "composiciÃ³n",
+      "producciÃ³n textual"
+    ],
+    "gramatica": [
+      "gramÃ¡tica",
+      "sintaxis",
+      "ortografÃ­a",
+      "morfologÃ­a"
+    ],
+    "listening": [
+      "listening",
+      "hear",
+      "audio",
+      "sound"
+    ],
+    "speaking": [
+      "speaking",
+      "talk",
+      "conversation",
+      "dialogue"
+    ],
+    "reading": [
+      "reading",
+      "text",
+      "comprehension"
+    ],
+    "writing": [
+      "writing",
+      "compose",
+      "essay"
+    ]
+  },
+  "misconception_patterns": {
+    "fracciÃ³n": "pensar que una fracciÃ³n solo representa una parte de un objeto y no una relaciÃ³n",
+    "Ã¡rea": "creer que figuras con igual Ã¡rea siempre tienen igual perÃ­metro",
+    "perÃ­metro": "creer que figuras con igual perÃ­metro siempre tienen igual Ã¡rea",
+    "media": "confundir promedio con valor representativo en todos los casos",
+    "mediana": "pensar que la mediana siempre es igual al promedio",
+    "probabilidad": "creer que un evento probable siempre ocurrirÃ¡",
+    "conductor": "creer que todos los materiales conducen electricidad de la misma forma",
+    "aislante": "pensar que los aislantes no conducen nada de electricidad",
+    "cÃ©lula": "creer que todas las cÃ©lulas son iguales",
+    "ecosistema": "pensar que los ecosistemas son estÃ¡ticos",
+    "proporciÃ³n": "confundir proporcionalidad directa con inversa",
+    "texto": "creer que la interpretaciÃ³n de un texto es Ãºnica"
+  },
+  "statistics_support": [
+    "\\b(?:estadistica|estadisticas|estadistico|estadisticos|promedio|promedios|histograma|histogramas)\\b",
+    "\\bmedia\\s+(?:aritmetica|ponderada)\\b",
+    "\\b(?:tendencia central|distribucion de frecuencias|frecuencia relativa|frecuencia absoluta|diagrama de barras|diagramas de barras)\\b",
+    "\\b(?:datos|encuestas|poblacion)\\b.*\\b(?:tablas|graficos|graficas|diagramas)\\b",
+    "\\b(?:tablas|graficos|graficas|diagramas)\\b.*\\b(?:datos|encuestas|poblacion)\\b",
+    "\\b(?:organizo|organiza|organizar|clasifico|clasifica|recolecto|recolecta|analizo|analiza|interpreto|interpreta|comparo|compara)\\b.*\\bdatos\\b",
+    "\\bmedianas?\\b(?!\\s+(?:longitud|extension|duracion)\\b)"
+  ]
+}

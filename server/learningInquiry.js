@@ -1,0 +1,27 @@
+// Concrete, independent authoring briefs for generic scientific inquiry goals.
+// These are simulated observations, not factual claims about material properties.
+const CASES=[
+ {id:'paper_absorption',anchor:'papel',context:'absorción de agua por papel',data:'Datos simulados: trozos del mismo tamaño de papel A absorbieron 8, 9 y 8 ml; papel B absorbió 5, 6 y 5 ml. Igual volumen inicial, tiempo de contacto y procedimiento. No se conoce la composición de los papeles.',task:'Distinguir una pregunta comprobable de una opinión sobre el papel. No pedir elegir cuál hipótesis de dos alumnos es mejor.'},
+ {id:'rolling_distance',anchor:'carrito',context:'recorrido de un carrito sobre superficies',data:'Datos simulados: mismo carrito y misma rampa. Superficie lisa: recorridos de 80, 82 y 81 cm; rugosa: 42, 40 y 41 cm. No hay otros tipos de superficies medidos.',task:'Elegir o diseñar una comparación que cambie solo una variable y explicar qué debe mantenerse igual.'},
+ {id:'plant_records',anchor:'planta',context:'registro del crecimiento de plantas',data:'Caso simulado: dos grupos de plantas de la misma especie reciben iguales agua, maceta y suelo. Grupo A recibe 6 horas diarias de luz; B recibe 3. Falta registrar la altura inicial. No hay resultados de crecimiento todavía.',task:'Identificar el dato que falta para comparar el crecimiento; no inventar un crecimiento observado ni una causa demostrada.'},
+ {id:'sound_record',anchor:'sonido',context:'diseños para estudiar la detección de un sonido',data:'Tres diseños simulados, aún sin resultados: A cambia distancia y volumen de la fuente al mismo tiempo; B cambia solo distancia y mantiene el volumen fijo; C cambia solo volumen y mantiene la distancia fija. Se usa la misma fuente de sonido y el mismo procedimiento de detección. No hay mediciones de detección ni decibeles proporcionados.',task:'Relacionar cada diseño A/B/C con su alcance distinto: A no aísla un factor, B permite estudiar el efecto de distancia, C el de volumen. No crear tres explicaciones abstractas equivalentes ni inventar mediciones. En transferencia, aplicar el control de variables a estos diseños nuevos.'},
+ {id:'seed_prediction',anchor:'semilla',context:'predicción para una observación de semillas',data:'Caso simulado: se plantea comparar semillas de la misma especie con dos cantidades de agua; se mantienen luz, sustrato y temperatura. Todavía no se realizó la observación.',task:'Diferenciar predicción, hipótesis y observación pendiente. Nunca presentar la predicción como un resultado ya observado.'},
+ {id:'cooling_records',anchor:'temperatura',context:'consistencia de mediciones de temperatura',data:'Registro simulado de una misma muestra usando el mismo termómetro y procedimiento: 22, 23, 22 y 62 °C, sin calentamiento deliberado entre mediciones. No se ha comprobado si 62 es error de lectura.',task:'Decidir cómo verificar un valor inesperado sin borrarlo ni declarar automáticamente que es falso. Evaluar revisión del procedimiento.'},
+ {id:'school_garden',anchor:'huerta',context:'alcance de una conclusión sobre la huerta',data:'Observación simulada: una sola planta de una huerta tiene hojas manchadas. No se ha estudiado suelo, riego, especie, organismos ni otras plantas.',task:'Identificar los límites de concluir que todas las plantas están enfermas; elegir nueva evidencia necesaria sin dar un diagnóstico.'},
+ {id:'record_versions',anchor:'cuaderno',context:'trazabilidad de un cuaderno de observación',data:'Caso simulado: versión inicial del cuaderno dice 12 cm; una segunda versión dice 21 cm, sin fecha, motivo ni identificación de quién corrigió. No sabemos cuál medida es correcta.',task:'Proponer una revisión transparente y verificable del registro. No elegir 12 o 21 como valor correcto sin evidencia.'}
+];
+function inquiryPlan(module,grade,count){
+ const goal=String(module.learning_objective||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+ // Limit the intervention to generic process modules; preserve specific lessons.
+ const generalProcess=/formulo hipotesis[,]?\s+con base en el conocimiento cotidiano|relaciono la informacion recopilada con los datos de mis experimentos|identifico (?:las )?variables que influyen en los resultados de un experimento/.test(goal);
+ if(module.subject!=='natural_sciences'||!['ciencias_naturales','natural_sciences'].includes(module.core_concept)||!generalProcess)return null;
+ const selected=CASES[count%CASES.length];
+ return {...selected,grade,rule:'Este es el caso de ESTA actividad. Incluye los datos relevantes como simulados; no sustituyas el caso por vasos/líquidos al sol ni copies actividades previas. Respeta el objetivo curricular y la dimensión. Si el formato cerrado no permite una tarea inequívoca, usa respuesta abierta. No se pide realizar físicamente el experimento.'};
+}
+function validateInquiry(item,plan){
+ if(!plan||typeof item?.question!=='string')return item;
+ if(!item.question.toLowerCase().includes(plan.anchor))throw Error('Invalid inquiry context: usa el caso independiente proporcionado, con sus datos; no recicles el experimento anterior.');
+ if(plan.id==='sound_record'&&/sonido detectado|sonido se (?:escuch[oó]|detect[oó])|resultados? (?:medidos|registrados)/i.test(item.question))throw Error('Invalid inquiry context: no inventes resultados para diseños que todavía no se han ejecutado.');
+ return /simulad|fictici/i.test(item.question)?item:{...item,question:'Caso simulado.\n\n'+item.question};
+}
+module.exports={inquiryPlan,validateInquiry,CASES};

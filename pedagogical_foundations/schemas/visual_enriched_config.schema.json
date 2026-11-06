@@ -1,0 +1,405 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Visual Template Enriched Config Schema",
+  "description": "Schema for enriched_config JSONB column - pedagogical enhancements for visual templates",
+  "type": "object",
+  "required": [
+    "version",
+    "source",
+    "pedagogical_visual",
+    "labels",
+    "overlays",
+    "animation_steps",
+    "interaction_rules",
+    "usage_by_card_type"
+  ],
+  "properties": {
+    "version": {
+      "type": "string",
+      "description": "Enrichment schema version",
+      "pattern": "^\\d+\\.\\d+$"
+    },
+    "source": {
+      "type": "string",
+      "description": "Source of enrichment",
+      "enum": ["openai_enrichment"]
+    },
+    "pedagogical_visual": {
+      "type": "object",
+      "description": "Base pedagogical framing for the visual",
+      "required": ["caption", "main_question", "student_focus", "accessibility_text"],
+      "properties": {
+        "caption": {
+          "type": "string",
+          "description": "Main pedagogical caption explaining what to see",
+          "minLength": 10,
+          "maxLength": 500
+        },
+        "main_question": {
+          "type": "string",
+          "description": "Guiding question to focus student attention",
+          "minLength": 10,
+          "maxLength": 300
+        },
+        "student_focus": {
+          "type": "string",
+          "description": "What the student should look at first",
+          "minLength": 10,
+          "maxLength": 300
+        },
+        "accessibility_text": {
+          "type": "string",
+          "description": "Text description for screen readers",
+          "minLength": 20,
+          "maxLength": 800
+        }
+      }
+    },
+    "labels": {
+      "type": "object",
+      "description": "Visual element labels and legend",
+      "required": ["title", "elements"],
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Visual title",
+          "minLength": 3,
+          "maxLength": 100
+        },
+        "elements": {
+          "type": "array",
+          "description": "Labels for visual elements",
+          "items": {
+            "type": "object",
+            "required": ["element_id", "label", "purpose"],
+            "properties": {
+              "element_id": {
+                "type": "string",
+                "description": "ID of the visual element"
+              },
+              "label": {
+                "type": "string",
+                "description": "Clear label for the element"
+              },
+              "purpose": {
+                "type": "string",
+                "description": "Pedagogical purpose of this element"
+              }
+            }
+          }
+        },
+        "legend": {
+          "type": "array",
+          "description": "Legend entries for colors/shapes/symbols",
+          "items": {
+            "type": "object",
+            "required": ["symbol", "meaning"],
+            "properties": {
+              "symbol": {
+                "type": "string",
+                "description": "Symbol or color identifier"
+              },
+              "meaning": {
+                "type": "string",
+                "description": "What the symbol represents"
+              }
+            }
+          }
+        }
+      }
+    },
+    "overlays": {
+      "type": "object",
+      "description": "Visual overlays for different contexts",
+      "required": ["explanation", "misconception", "hint", "corrective"],
+      "properties": {
+        "explanation": {
+          "type": "array",
+          "description": "Overlays for basic explanation",
+          "items": {
+            "$ref": "#/definitions/overlay"
+          }
+        },
+        "misconception": {
+          "type": "array",
+          "description": "Overlays for addressing misconceptions",
+          "items": {
+            "$ref": "#/definitions/misconception_overlay"
+          }
+        },
+        "hint": {
+          "type": "array",
+          "description": "Overlays for providing hints",
+          "items": {
+            "$ref": "#/definitions/overlay"
+          }
+        },
+        "corrective": {
+          "type": "array",
+          "description": "Overlays for corrective feedback",
+          "items": {
+            "$ref": "#/definitions/overlay"
+          }
+        }
+      }
+    },
+    "animation_steps": {
+      "type": "array",
+      "description": "Sequential animation steps for guided exploration",
+      "items": {
+        "$ref": "#/definitions/animation_step"
+      }
+    },
+    "interaction_rules": {
+      "type": "object",
+      "description": "Interactive behavior rules by renderer",
+      "required": ["fallback_static"],
+      "properties": {
+        "hover": {
+          "type": "array",
+          "description": "Hover interaction rules",
+          "items": {
+            "$ref": "#/definitions/interaction_rule"
+          }
+        },
+        "click": {
+          "type": "array",
+          "description": "Click interaction rules",
+          "items": {
+            "$ref": "#/definitions/interaction_rule"
+          }
+        },
+        "drag": {
+          "type": "array",
+          "description": "Drag interaction rules",
+          "items": {
+            "$ref": "#/definitions/interaction_rule"
+          }
+        },
+        "slider": {
+          "type": "array",
+          "description": "Slider interaction rules",
+          "items": {
+            "$ref": "#/definitions/interaction_rule"
+          }
+        },
+        "fallback_static": {
+          "type": "string",
+          "description": "Static message when interactions unavailable"
+        }
+      }
+    },
+    "usage_by_card_type": {
+      "type": "object",
+      "description": "Visual configuration by card variant type",
+      "required": ["basic", "hint", "corrective", "reflective", "deepening"],
+      "properties": {
+        "basic": {
+          "$ref": "#/definitions/card_type_usage"
+        },
+        "hint": {
+          "$ref": "#/definitions/card_type_usage"
+        },
+        "corrective": {
+          "$ref": "#/definitions/card_type_usage"
+        },
+        "reflective": {
+          "$ref": "#/definitions/card_type_usage"
+        },
+        "deepening": {
+          "$ref": "#/definitions/card_type_usage"
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Enrichment metadata",
+      "properties": {
+        "model": {
+          "type": "string",
+          "description": "OpenAI model used"
+        },
+        "enriched_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Timestamp of enrichment"
+        },
+        "template_key": {
+          "type": "string",
+          "description": "Original template key (preserved)"
+        },
+        "renderer": {
+          "type": "string",
+          "description": "Original renderer (preserved)"
+        },
+        "visual_type": {
+          "type": "string",
+          "description": "Original visual type (preserved)"
+        }
+      }
+    }
+  },
+  "definitions": {
+    "overlay": {
+      "type": "object",
+      "required": ["overlay_id", "target", "visual_action", "message"],
+      "properties": {
+        "overlay_id": {
+          "type": "string",
+          "description": "Unique identifier for this overlay"
+        },
+        "target": {
+          "type": "string",
+          "description": "Visual element to target"
+        },
+        "visual_action": {
+          "type": "string",
+          "description": "Visual action to apply",
+          "enum": ["highlight", "dim", "compare", "annotate", "isolate", "connect", "zoom"]
+        },
+        "message": {
+          "type": "string",
+          "description": "Pedagogical message to display"
+        },
+        "position": {
+          "type": "string",
+          "description": "Overlay position",
+          "enum": ["top", "bottom", "left", "right", "center", "auto"]
+        }
+      }
+    },
+    "misconception_overlay": {
+      "type": "object",
+      "required": ["misconception_key", "target", "visual_action", "message", "card_variant"],
+      "properties": {
+        "misconception_key": {
+          "type": "string",
+          "description": "Key of the misconception being addressed"
+        },
+        "target": {
+          "type": "string",
+          "description": "Visual element to target"
+        },
+        "visual_action": {
+          "type": "string",
+          "description": "Visual action to apply",
+          "enum": ["highlight", "dim", "compare", "annotate", "isolate", "connect", "zoom"]
+        },
+        "message": {
+          "type": "string",
+          "description": "Corrective message"
+        },
+        "card_variant": {
+          "type": "string",
+          "description": "Recommended card variant",
+          "enum": ["basic", "hint", "corrective", "reflective", "deepening"]
+        },
+        "contrast": {
+          "type": "object",
+          "description": "Optional contrast showing correct vs incorrect",
+          "properties": {
+            "incorrect_element": {
+              "type": "string"
+            },
+            "correct_element": {
+              "type": "string"
+            },
+            "explanation": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "animation_step": {
+      "type": "object",
+      "required": ["step", "action", "target", "caption", "duration_ms"],
+      "properties": {
+        "step": {
+          "type": "integer",
+          "description": "Sequential step number",
+          "minimum": 1
+        },
+        "action": {
+          "type": "string",
+          "description": "Animation action",
+          "enum": ["show", "hide", "highlight", "dim", "move", "connect", "compare", "reveal", "annotate"]
+        },
+        "target": {
+          "type": "string",
+          "description": "Target element(s) for animation"
+        },
+        "caption": {
+          "type": "string",
+          "description": "Caption explaining this step"
+        },
+        "duration_ms": {
+          "type": "integer",
+          "description": "Duration in milliseconds",
+          "minimum": 100,
+          "maximum": 3000
+        },
+        "delay_ms": {
+          "type": "integer",
+          "description": "Optional delay before starting",
+          "minimum": 0,
+          "maximum": 2000
+        }
+      }
+    },
+    "interaction_rule": {
+      "type": "object",
+      "required": ["target", "action", "feedback"],
+      "properties": {
+        "target": {
+          "type": "string",
+          "description": "Interactive element identifier"
+        },
+        "action": {
+          "type": "string",
+          "description": "Action to perform"
+        },
+        "feedback": {
+          "type": "string",
+          "description": "User feedback for this interaction"
+        },
+        "conditions": {
+          "type": "array",
+          "description": "Optional conditions for this interaction",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "card_type_usage": {
+      "type": "object",
+      "description": "How to use visual for specific card type",
+      "properties": {
+        "recommended_overlays": {
+          "type": "array",
+          "description": "Overlay IDs to show for this card type",
+          "items": {
+            "type": "string"
+          }
+        },
+        "recommended_animations": {
+          "type": "array",
+          "description": "Animation steps to play for this card type",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "emphasis": {
+          "type": "string",
+          "description": "What to emphasize for this card type"
+        },
+        "interaction_level": {
+          "type": "string",
+          "description": "Level of interactivity",
+          "enum": ["passive", "guided", "exploratory", "full"]
+        }
+      }
+    }
+  }
+}
